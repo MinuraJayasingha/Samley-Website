@@ -376,6 +376,30 @@ body {
     color: var(--color-text-white);
     border: 1px solid var(--color-bg-black);
 }
+.btn-05 {
+    background-color: var(--color-bg-white);
+    color: var(--color-text-secondary);
+    padding: 14px 24px;
+    border: 1px solid var(--color-text-secondary);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    height: 100%;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+        width: max-content;
+}
+
+.btn-05:hover {
+    background-color: transparent;
+    color: var(--color-text-white);
+    border: 1px solid var(--color-bg-white);
+}
 
 .container {
     width: 100%;

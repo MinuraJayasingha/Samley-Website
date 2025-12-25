@@ -548,3 +548,120 @@
         padding: 80px 100px;
     }
 }
+
+/*-------------------------*/
+/* ===============================
+   Sustain Carousel
+   =============================== */
+
+.sustain-carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sustain-carousel-inner {
+    width: 100%;
+    max-width: 1440px;
+    min-height: 580px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Slide */
+.sustain-slide {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    align-items: center;
+    padding: 30px 24px;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease;
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Active slide */
+.sustain-slide.active {
+    opacity: 1;
+    pointer-events: auto;
+    text-decoration: none;
+}
+
+
+/* Overlay */
+.sustain-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+
+/* Content */
+.sustain-content {
+    position: relative;
+    z-index: 2;
+    max-width: 520px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    height: 100%;
+}
+
+.sustain-content h2 {
+    font-family: var(--font-heading);
+    font-size: var(--fs-h2);
+    font-weight: 400;
+}
+
+.sustain-content p {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    opacity: 0.95;
+    font-size: var(--fs-p-s);
+}
+
+/* =========================
+   Tablet (≥768px)
+   ========================= */
+@media (min-width: 768px) {
+    .sustain-slide {
+        padding: 40px 36px;
+        min-height: 460px;
+    }
+
+    .sustain-carousel-inner {
+        width: 100%;
+        max-width: 1440px;
+        max-height: 80dvh;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+/* =========================
+   Desktop (≥992px)
+   ========================= */
+@media (min-width: 992px) {
+    .sustain-slide {
+        padding: 60px 80px;
+        min-height: 520px;
+    }
+}
+
+/* =========================
+   Large screens (≥1200px)
+   ========================= */
+@media (min-width: 1200px) {
+    .sustain-slide {
+        padding: 80px 100px;
+    }
+}

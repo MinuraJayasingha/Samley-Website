@@ -1262,5 +1262,84 @@
     "galleryImages": [
       "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png"
     ]
+  },
+  
+  {
+    "id": "coconut-cream",
+    "slug": "coconut-cream",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-milk",
+
+    "name": "Coconut Cream",
+    "shortDescription": "Rich and creamy coconut cream for cooking and desserts.",
+    "tags": ["Creamy", "Rich", "Smooth"],
+    "packInfo": "200ml Can",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Coconut Cream.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Cream",
+    "flavor": "Coconut",
+    "beverageType": "Coconut Cream",
+    "unitCount": "200ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Ceylon Coconut",
+    "seoDescription": "Rich and creamy coconut cream for cooking, desserts, and beverages.",
+
+    "longDescription": "Coconut Cream is thick and smooth, perfect for curries, desserts, and creamy beverages. Adds rich coconut flavor to every dish.",
+
+    "features": [
+      "Rich and creamy texture",
+      "Ideal for cooking and desserts",
+      "Pure coconut flavor"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Coconut Cream.png"
+    ]
+  },
+  {
+    "id": "orgainc-coconut-milk",
+    "slug": "orgainc-coconut-milk",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-milk",
+
+    "name": "Organic Coconut Milk – 18%",
+    "shortDescription": "Smooth and natural coconut milk with 18% fat content.",
+    "tags": ["Smooth", "Natural", "Creamy"],
+    "packInfo": "200ml Can",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Liquid",
+    "flavor": "Coconut",
+    "beverageType": "Coconut Milk",
+    "unitCount": "200ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Coconut Milk – 18% – Ceylon Coconut",
+    "seoDescription": "Smooth and natural coconut milk with 18% fat for cooking, soups, and beverages.",
+
+    "longDescription": "Organic Coconut Milk – 18% offers smooth, naturally creamy milk perfect for curries, soups, and beverages. Organic and full of authentic coconut flavor.",
+
+    "features": [
+      "Smooth and creamy",
+      "Organic and natural",
+      "Perfect for cooking and beverages"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png"
+    ]
   }
 ]

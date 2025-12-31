@@ -16,7 +16,7 @@ function INCLUDE_LOG(message, type = "info") {
 }
 
 
-async function loadComponent(selector, filePath) {
+async function loadComponent(selector, filePath, onLoaded) {
   const container = document.querySelector(selector);
 
   if (!container) {
@@ -28,34 +28,38 @@ async function loadComponent(selector, filePath) {
     INCLUDE_LOG(`Loading component: ${filePath}`, "info");
 
     const res = await fetch(filePath);
-
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`);
-    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const html = await res.text();
     container.innerHTML = html;
 
     INCLUDE_LOG(`Component loaded successfully: ${filePath}`, "success");
+
+    if (typeof onLoaded === "function") {
+      onLoaded();
+      INCLUDE_LOG(`Init callback executed for ${filePath}`, "success");
+    }
+
   } catch (err) {
     INCLUDE_LOG(`Failed to load ${filePath} → ${err.message}`, "error");
   }
 }
 
 
+
 document.addEventListener("DOMContentLoaded", async () => {
   INCLUDE_LOG("DOMContentLoaded fired", "info");
 
   // Navbar
-  await loadComponent("#navbar", "components/navbar.html");
+  await loadComponent("#navbar", "components/navbar.html", () => {
+    INCLUDE_LOG("Injecting navbar.js", "info");
 
-  // Navbar JS
-  INCLUDE_LOG("Injecting navbar.js", "info");
-  const script = document.createElement("script");
-  script.src = "assets/js/navbar.js";
-  script.onload = () => INCLUDE_LOG("navbar.js loaded", "success");
-  script.onerror = () => INCLUDE_LOG("navbar.js failed to load", "error");
-  document.head.appendChild(script);
+    const script = document.createElement("script");
+    script.src = "assets/js/navbar.js";
+    script.onload = () => INCLUDE_LOG("navbar.js loaded", "success");
+    script.onerror = () => INCLUDE_LOG("navbar.js failed to load", "error");
+    document.head.appendChild(script);
+  });
 
   // Footer
   await loadComponent("#footer", "components/footer.html");
@@ -63,9 +67,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Instagram (HTML only)
   await loadComponent("#instagram-section", "components/instagram.html");
 
-  // Explore Our Collections (HTML only)
+  // Collections highlight
   await loadComponent("#collections-section", "components/collections-highlight.html");
+
+  // Featured Categories (HTML + JS)
+  await loadComponent(
+    "#featured-categories-section",
+    "components/featured-categories.html"
+  );
+  // Load featured-categories.js AFTER HTML exists
+  const featuredScript = document.createElement("script");
+  featuredScript.src = "assets/js/featured-categories.js";
+  document.body.appendChild(featuredScript);
 
   INCLUDE_LOG("All components processed", "success");
 });
-

@@ -665,3 +665,324 @@
         padding: 80px 100px;
     }
 }
+
+/*------------------------------------------------*/
+/*discover-tea----------------------*/
+.discover-tea-section {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.discover-tea-section-01{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   width: 100%;        max-width: 1440px; 
+    padding: 30px 24px 30px 24px;
+
+}
+.discover-tea-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.discover-tea-top .text-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.discover-tea-top .text-content h2 {
+    color: var(--color-text-secondary);
+    font-size: var(--fs-h2);
+    font-family: var(--font-heading);
+    line-height: 1;
+    font-weight: 300;
+}
+
+.discover-tea-top .text-content p {
+    color: var(--color-text-black);
+    font-size: var(--fs-p-s);
+    font-family: var(--font-body);
+    line-height: 1;
+}
+
+.discover-tea-top .text-content #heading-one {
+    display: none;
+}
+
+.discover-tea-top .text-content button {
+    display: none;
+}
+
+.carosal-btn {
+    display: none;
+}
+
+.discover-tea-carosal {
+
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+
+.discover-p-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-shrink: 0;
+    padding-right: 25px;
+}
+
+.discover-p-card .product-image {
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    overflow: hidden;
+    display: block;
+}
+
+/* Hide img but keep SEO + accessibility */
+.discover-p-card .product-image img {
+    width: 100%;
+    height: 350px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.discover-p-card .content {
+    flex-grow: 1;
+    /* THIS is the key */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.discover-p-card .content .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 0px;
+}
+
+.discover-p-card .content .top p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.discover-p-card .content .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    gap: 5px;
+}
+
+.discover-p-card .content .top .h5-cat {
+    font-family: var(--font-body);
+    color: var(--color-text-secondary);
+    font-size: var(--fs-h6);
+    font-weight: 500;
+}
+
+.discover-p-card .content .top .p {
+    font-family: var(--font-body);
+    color: var(--color-text-black);
+    font-size: var(--fs-p-s);
+    font-weight: 500;
+}
+
+.cat-tags {
+    font-family: var(--font-body);
+    color: var(--color-text-secondary);
+    font-size: var(--fs-p-s);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* =========================
+   Tablet (≥425px)
+   ========================= */
+@media (min-width: 425px) {
+
+    }.discover-tea-section-01{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   width: 100%;        max-width: 1440px; 
+    padding: 30px 24px 30px 24px;
+}
+
+    .discover-tea-top .text-content #heading-one {
+        display: block;
+    }
+
+    .discover-tea-top .text-content #heading-two {
+        display: none;
+    }
+
+    .carosal-btn {
+        display: flex;
+        height: fit-content;
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    .btn-car {
+        padding: 14px;
+        background-color: var(--color-text-white);
+        border: 1px solid var(--color-text-black);
+        border-radius: 100px;
+        color: var(--color-text-black);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .btn-car:hover {
+        background-color: var(--color-text-black);
+        color: var(--color-text-white);
+    }
+
+    .discover-tea-carosal {
+        overflow-y: hidden;
+
+    }
+
+    .discover-p-card {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-shrink: 0;
+        padding-right: 25px;
+    }
+
+    .discover-p-card:nth-child(even) {
+        padding-top: 45px;
+    }
+
+    .discover-p-card:nth-child(odd) {
+        padding-bottom: 45px;
+    }
+}
+
+/* =========================
+   Tablet (≥768px)
+   ========================= */
+@media (min-width: 768px) {
+
+    .discover-tea-section-01{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   width: 100%;        max-width: 1440px; 
+    padding: 40px 36px 40px 36px;
+
+}
+}
+
+/* =========================
+   Desktop (≥992px)
+   ========================= */
+@media (min-width: 992px) {
+
+    .discover-tea-section-01{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   width: 100%;        max-width: 1440px; 
+    padding: 60px 80px 60px 80px;
+
+}
+
+    .discover-tea-top {
+        padding: 0 0px 0 0;
+    }
+
+    .discover-p-card {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-shrink: 0;
+        padding-right: 25px;
+    }
+}
+
+/* =========================
+   Large screens (≥1200px)
+   ========================= */
+@media (min-width: 1200px) {
+    .discover-tea-section {
+    }
+.discover-tea-section-01{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   width: 100%;        max-width: 1440px; 
+    padding: 80px 100px 80px 100px;
+
+}
+    .discover-p-card {
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-shrink: 0;
+        padding-right: 25px;
+    }
+
+    .discover-tea-top {
+        padding: 0 0px 0 0px;
+    }
+
+    .discover-tea-top .text-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .discover-tea-top .text-content #heading-one {
+        display: block;
+    }
+
+    .discover-tea-top .text-content button {
+        display: block;
+    }
+}
+
+/* =========================
+   Large screens (≥1200px)
+   ========================= */
+@media (min-width: 1440px) {
+
+
+    .discover-p-card {
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-shrink: 0;
+        padding-right: 25px;
+    }
+
+    .discover-tea-top {
+        padding: 0 0px 0 0;
+    }
+}

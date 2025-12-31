@@ -1286,6 +1286,246 @@
     ]
   },
 
+  {
+    "id": "black-tea",
+    "slug": "black-tea",
+    "mainCategory": "teas",
+    "subCategory": "speciality-tea",
+
+    "name": "Black Tea",
+    "shortDescription": "Classic Ceylon black tea.Strong, rich, and full-bodied.",
+    "tags": ["Strong", "Bold", "Rich"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Specialty Teas/Black Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Black Tea – Speciality Tea Collection",
+    "seoDescription": "Premium Ceylon black tea with a strong, full-bodied taste for classic tea lovers.",
+
+    "longDescription": "Black Tea is a premium Ceylon tea with a strong and full-bodied flavorIt offers a rich, bold taste and dark liquor.Perfect for mornings or anytime you need a classic, energizing cup.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Specialty Teas/Black Tea.png"
+    ]
+  },
+  {
+    "id": "blooming-tea",
+    "slug": "blooming-tea",
+    "mainCategory": "teas",
+    "subCategory": "speciality-tea",
+
+    "name": "Blooming Tea",
+    "shortDescription": "Hand-tied flowering tea.Beautiful visual and delicate flavor.",
+    "tags": ["Floral", "Visual", "Elegant"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Specialty Teas/Blooming Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Floral Blend",
+    "teaVariety": "Specialty  Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Blooming Tea – Speciality Tea Collection",
+    "seoDescription": "Hand-tied flowering tea with delicate flavor and beautiful visual bloom.",
+
+    "longDescription": "Blooming Tea is a hand-tied tea bundle that blossoms when brewed.It offers a delicate, light taste and a stunning visual experience.Perfect for gifting or special tea moments..",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Specialty Teas/Blooming Tea.png"
+    ]
+  },
+  {
+    "id": "cinnamon-infused-tea",
+    "slug": "cinnamon-infused-tea",
+    "mainCategory": "teas",
+    "subCategory": "speciality-tea",
+
+    "name": "Cinnamon Infused Tea",
+    "shortDescription": "Ceylon black tea infused with natural cinnamon.Warm, spicy, and aromatic.",
+    "tags": ["Spicy", "Aromatic", "Warm"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Specialty Teas/Cinnamon Infused Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Cinnamon",
+    "teaVariety": "Black Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Cinnamon Infused Tea – Speciality Tea Collection",
+    "seoDescription": "Ceylon black tea infused with natural cinnamon for a warm and aromatic flavor.",
+
+    "longDescription": "Cinnamon Infused Tea blends premium Ceylon black tea with natural cinnamon.It delivers a warm, spicy flavor with a smooth finish.Perfect for cozy mornings or evenings.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Specialty Teas/Cinnamon Infused Tea.png"
+    ]
+  },
+  {
+    "id": "green-speciality-tea",
+    "slug": "green-speciality-tea",
+    "mainCategory": "teas",
+    "subCategory": "speciality-tea",
+
+    "name": "Green Tea",
+    "shortDescription": "Premium Ceylon green tea.Fresh, light, and refreshing.",
+    "tags": ["Fresh", "Light", "Smooth"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Specialty Teas/Black Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Green Tea",
+    "teaVariety": "Green Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Green Tea – Speciality Tea Collection",
+    "seoDescription": "Premium Ceylon green tea with a fresh and light taste for daily enjoyment.",
+
+    "longDescription": "Green Tea is a carefully selected Ceylon tea with a fresh and light flavor.It delivers a smooth taste with a refreshing finish.Perfect for daily tea enjoyment or light refreshments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Specialty Teas/Black Tea.png"
+    ]
+  },
+  {
+    "id": "matcha-tea",
+    "slug": "matcha-tea",
+    "mainCategory": "teas",
+    "subCategory": "speciality-tea",
+
+    "name": "Matcha",
+    "shortDescription": "Finely powdered green tea.Rich, vibrant, and energizing.",
+    "tags": ["Vibrant", "Energizing", "Smooth"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Specialty Teas/Matcha.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Powder",
+    "flavor": "Green tea",
+    "teaVariety": "Green  Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Matcha – Speciality Tea Collection",
+    "seoDescription": "Finely powdered green tea with a vibrant color and smooth, energizing taste.",
+
+    "longDescription": "Matcha is finely powdered premium green tea leaves.It delivers a vibrant green color and a rich, smooth taste.Perfect for traditional tea ceremonies, lattes, or smoothies.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Specialty Teas/Matcha.png"
+    ]
+  },
+  {
+    "id": "yellow-tea",
+    "slug": "yellow-tea",
+    "mainCategory": "teas",
+    "subCategory": "speciality-tea",
+
+    "name": "Yellow  Tea",
+    "shortDescription": "Rare and delicate Ceylon yellow tea.Smooth, light, and subtle aroma.",
+    "tags": ["Delicate", "Light", "Rare"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Specialty Teas/Yellow Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Light Black/Green",
+    "teaVariety": "Specialty Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Yellow Tea – Speciality Tea Collection",
+    "seoDescription": "Rare and delicate Ceylon yellow tea with a smooth, light, and subtle flavor.",
+
+    "longDescription": "Yellow Tea is a rare and delicate Ceylon tea with a smooth and light flavor.It delivers a subtle aroma and gentle taste.Perfect for refined tea lovers seeking a unique experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Specialty Teas/Yellow Tea.png"
+    ]
+  },
 
 
   {

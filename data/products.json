@@ -482,6 +482,247 @@
     ]
   },
 
+  {
+    "id": "moroccan-mint-tea",
+    "slug": "moroccan-mint-tea",
+    "mainCategory": "teas",
+    "subCategory": "elegance-tea",
+
+    "name": "Moroccan Mint Tea",
+    "shortDescription": "Refreshing green tea blended with cool mint.Clean, uplifting, and soothing.",
+    "tags": ["Minty", "Cooling", "Refreshing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Moroccan Mint.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Mint",
+    "teaVariety": "Green Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Moroccan Mint Tea – Elegance Tea Collection",
+    "seoDescription": "Refreshing green tea blended with mint for a clean and cooling tea experience.",
+
+    "longDescription": "Moroccan Mint Tea is a refreshing blend of green tea and natural mint.It offers a cool, clean taste with a smooth finish.Perfect after meals or during warm days.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Elegance Teas/Moroccan Mint.png"
+    ]
+  },
+  {
+    "id": "magic-moment-tea",
+    "slug": "magic-moment-tea",
+    "mainCategory": "teas",
+    "subCategory": "elegance-tea",
+
+    "name": "Magic Moment Tea",
+    "shortDescription": "A smooth and aromatic specialty tea blend.Light, calming, and elegant.",
+    "tags": ["Aromatic", "Smooth", "Refreshing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Magic Moment.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Aromatic Blend",
+    "teaVariety": "Specialty Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Magic Moment Tea – Elegance Tea Collection",
+    "seoDescription": "A smooth and aromatic specialty tea blend for calm and relaxing moments.",
+
+    "longDescription": "Magic Moment Tea is a carefully crafted blend with a soft and pleasant aroma.It delivers a smooth taste that feels light and comforting.Perfect for quiet moments and relaxation.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Elegance Teas/Magic Moment.png"
+    ]
+  },
+  {
+    "id": "lovers-night-tea",
+    "slug": "lovers-night-tea",
+    "mainCategory": "teas",
+    "subCategory": "elegance-tea",
+
+    "name": "Magic Moment Tea",
+    "shortDescription": "A rich and romantic tea blend.Deep aroma with a smooth finish.",
+    "tags": ["Romantic", "Rich", "Smooth"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Lover’s Night.png",
+
+    "brand": "Lover’s Night Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Aromatic Blend",
+    "teaVariety": "Specialty Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Lover’s Night Tea – Elegance Tea Collection",
+    "seoDescription": "A rich and aromatic tea blend designed for relaxing evening moments.",
+
+    "longDescription": "Lover’s Night Tea is a deep and aromatic blend crafted for evening moments.It offers a smooth, rich taste with a calming feel.Best enjoyed during quiet nights and special moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Elegance Teas/Lover’s Night.png"
+    ]
+  },
+  {
+    "id": "green-fantasy-tea",
+    "slug": "green-fantasy-tea",
+    "mainCategory": "teas",
+    "subCategory": "elegance-tea",
+
+    "name": "Green Fantasy Tea",
+    "shortDescription": "Smooth green tea with a light aromatic touch.Fresh, gentle, and uplifting.",
+    "tags": ["Fresh", "Light", "Smooth"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Green Fantasy.png",
+
+    "brand": "Lover’s Night Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Aromatic Green Tea",
+    "teaVariety": "Green Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Green Fantasy Tea – Elegance Tea Collection",
+    "seoDescription": "Light and refreshing green tea blend with a smooth and elegant taste.",
+
+    "longDescription": "Green Fantasy Tea blends smooth green tea with gentle aromatic notes.It delivers a light, refreshing taste with a clean finish.Perfect for daytime tea breaks.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Elegance Teas/Green Fantasy.png"
+    ]
+  },
+  {
+    "id": "chamomile-sensation-tea",
+    "slug": "chamomile-sensation-tea",
+    "mainCategory": "teas",
+    "subCategory": "elegance-tea",
+
+    "name": "Chamomile Sensation Tea",
+    "shortDescription": "Gentle herbal tea with calming chamomile.Soft, soothing, and relaxing.",
+    "tags": ["Calming", "Herbal", "Soothing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png",
+
+    "brand": "Lover’s Night Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Chamomile",
+    "teaVariety": "Herbal Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Chamomile Sensation Tea – Elegance Tea Collection",
+    "seoDescription": "Soothing chamomile herbal tea designed for calm and relaxing moments.",
+
+    "longDescription": "Chamomile Sensation Tea is a gentle herbal blend made with chamomile flowers.It offers a soft taste that helps you relax and unwind.Ideal for evening or bedtime tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png"
+    ]
+  },
+  {
+    "id": "blue-lady-tea",
+    "slug": "blue-lady-tea",
+    "mainCategory": "teas",
+    "subCategory": "elegance-tea",
+
+    "name": "Blue Lady Tea",
+    "shortDescription": "Elegant black tea with a fruity aroma.Smooth, colorful, and refined.",
+    "tags": ["Fruity", "Aromatic", "Elegant"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Blue Lady.png",
+
+    "brand": "Lover’s Night Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Fruity Blend",
+    "teaVariety": "Black Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Blue Lady Tea – Elegance Tea Collection",
+    "seoDescription": "Elegant black tea blend with fruity notes for a smooth and refined tea experience.",
+
+    "longDescription": "Blue Lady Tea is a refined black tea blend with light fruity notes.It offers a smooth taste with a pleasant aroma and bright color.Perfect for elegant tea moments and special occasions.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Elegance Teas/Blue Lady.png"
+    ]
+  },
+
 
 
   {

@@ -1341,5 +1341,239 @@
     "galleryImages": [
       "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png"
     ]
+  },
+
+  {
+    "id": "orgainc-coconut-flour-20",
+    "slug": "orgainc-coconut-flour-20",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-flour",
+
+    "name": "Organic Coconut Flour – 20kg",
+    "shortDescription": "High-quality organic coconut flour in bulk for baking and cooking.",
+    "tags": ["Organic", "Nutty", "Healthy"],
+    "packInfo": "20kg Kraft Bag",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour – 20kg.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Powder",
+    "flavor": "Coconut",
+    "unitCount": "20kg",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Coconut Flour – 20kg – Ceylon Coconut",
+    "seoDescription": "High-quality organic coconut flour in bulk for baking, cooking, and gluten-free recipes.",
+
+    "longDescription": "Organic Coconut Flour – 20kg is a versatile, high-fiber flour made from premium coconuts. Ideal for baking, cooking, and gluten-free recipes.",
+
+    "features": [
+      "High in fiber and nutrients",
+      "Perfect for gluten-free baking",
+      "Organic and premium quality"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour – 20kg.png"
+    ]
+  },
+  {
+    "id": "orgainc-coconut-flour-500",
+    "slug": "orgainc-coconut-flour-500",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-flour",
+
+    "name": "Organic Coconut Flour – 500g",
+    "shortDescription": "Premium organic coconut flour for everyday cooking and baking.",
+    "tags": ["Organic", "Nutty", "Healthy"],
+    "packInfo": "500g Pack",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour 500g.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Powder",
+    "flavor": "Coconut",
+    "unitCount": "500g",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Coconut Flour – 500g – Ceylon Coconut",
+    "seoDescription": "Premium organic coconut flour for baking, cooking, and gluten-free recipes.",
+
+    "longDescription": "Organic Coconut Flour – 500g is a finely milled, high-fiber flour made from premium coconuts. Perfect for gluten-free baking and cooking.",
+
+    "features": [
+      "High in fiber and nutrients",
+      "Perfect for gluten-free baking",
+      "Organic and premium quality"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour 500g.png"
+    ]
+  },
+  {
+    "id": "orgainc-coconut-milk-powder",
+    "slug": "orgainc-coconut-milk-powder",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-flour",
+
+    "name": "Organic Coconut Milk Powder",
+    "shortDescription": "Creamy coconut milk in powdered form for versatile use.",
+    "tags": ["Organic", "Smooth", "Creamy"],
+    "packInfo": "500g Pack",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Milk Powder.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Powder",
+    "flavor": "Coconut",
+    "unitCount": "500g",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Coconut Milk Powder – Ceylon Coconut",
+    "seoDescription": "Smooth and creamy organic coconut milk powder for cooking, baking, beverages, and desserts.",
+
+    "longDescription": "Organic Coconut Milk Powder is a smooth and creamy coconut product, perfect for cooking, baking, beverages, and desserts. Easy to store and use anytime.",
+
+    "features": [
+      "Smooth and creamy",
+      "Convenient powdered form",
+      "Organic premium quality"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Milk Powder.png"
+    ]
+  },
+
+  {
+    "id": "orgainc-coconut-oil-250",
+    "slug": "orgainc-coconut-oil-250",
+    "mainCategory": "coconut-based",
+    "subCategory": "virgin-coconut-oil",
+
+    "name": "Organic Virgin Coconut Oil 250ml",
+    "shortDescription": " Pure and natural virgin coconut oil for cooking and skincare.",
+    "tags": ["Pure", "Natural", "Versatile"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "/assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil 2.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Oil",
+    "flavor": "Coconut",
+    "type":" Virgin Coconut Oil",
+    "unitCount": "250ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Virgin Coconut Oil 250ml – Ceylon Coconut",
+    "seoDescription": "Pure, cold-pressed organic virgin coconut oil for cooking, baking, and skincare.",
+
+    "longDescription": "Organic Virgin Coconut Oil 250ml is pure, cold-pressed coconut oil suitable for cooking, baking, and skincare. Rich in natural nutrients for versatile use.",
+
+    "features": [
+      "Smooth and creamy",
+      "Convenient powdered form",
+      "Organic premium quality"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based//virgin-coconut-oil/Organic Virgin Coconut Oil 2.png"
+    ]
+  },
+  {
+    "id": "orgainc-coconut-oil-500",
+    "slug": "orgainc-coconut-oil-500",
+    "mainCategory": "coconut-based",
+    "subCategory": "virgin-coconut-oil",
+
+    "name": "Organic Virgin Coconut Oil 500ml",
+    "shortDescription": " Premium virgin coconut oil for cooking, baking, and personal care.",
+    "tags": ["Pure", "Natural", "Healthy"],
+    "packInfo": "500ml Bottle",
+    "thumbnailImage": "/assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Oil",
+    "flavor": "Coconut",
+    "type":" Virgin Coconut Oil",
+    "unitCount": "500ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Virgin Coconut Oil 500ml – Ceylon Coconut",
+    "seoDescription": "Pure, cold-pressed organic virgin coconut oil for versatile use in cooking and personal care.",
+
+    "longDescription": "Organic Virgin Coconut Oil 500ml is cold-pressed, pure, and versatile. Perfect for cooking, baking, hair care, and skincare routines.",
+
+    "features": [
+      "Cold-pressed and pure",
+      "Multi-purpose: cooking & personal care",
+      "Organic premium quality"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil.png"
+    ]
+  },
+
+  {
+    "id": "orgainc-desiccated-coconut",
+    "slug": "orgainc-desiccated-coconut",
+    "mainCategory": "coconut-based",
+    "subCategory": "dedicated-coconut",
+
+    "name": "Organic Desiccated Coconut 500g",
+    "shortDescription": " Finely shredded organic coconut for cooking and baking.",
+    "tags": ["Organic", "Nutty", "Fresh"],
+    "packInfo": "500g Pack",
+    "thumbnailImage": "/assets/images/products/Coconut Based/desiccated-coconut/Organic Desiccated Coconut.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Shredded",
+    "flavor": "Coconut",
+    "type":" Desiccated Coconut",
+    "unitCount": "500g",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Desiccated Coconut 500g – Ceylon Coconut",
+    "seoDescription": "Finely shredded organic coconut for baking, cooking, and garnishing dishes naturally.",
+
+    "longDescription": "Organic Desiccated Coconut 500g is finely shredded and naturally flavorful. Perfect for baking, cooking, desserts, and garnishing dishes with authentic coconut taste.",
+
+    "features": [
+      "Finely shredded and fresh",
+      "Ideal for baking and cooking",
+      "Organic and natural"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/desiccated-coconut/Organic Desiccated Coconut.png"
+    ]
   }
 ]

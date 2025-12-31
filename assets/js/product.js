@@ -99,6 +99,7 @@ function injectProductData(product) {
     setMetaValue("product-variety", product.teaVariety);
     setMetaValue("product-spice-type", product.spiceType);
     setMetaValue("product-beverage-type", product.beverageType);
+    setMetaValue("product-type", product.type);
     setMetaValue("product-unit-count", product.unitCount);
 
     /* ---------- Rating ---------- */

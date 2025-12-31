@@ -241,6 +241,247 @@
     ]
   },
 
+  {
+    "id": "uva-tea",
+    "slug": "uva-tea",
+    "mainCategory": "teas",
+    "subCategory": "regional-tea",
+
+    "name": "Uva Tea",
+    "shortDescription": "Aromatic Ceylon black tea with a smooth, crisp taste.Known for its unique regional character.",
+    "tags": ["Aromatic", "Smooth", "Crisp"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Uva Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Uva Tea – Ceylon Regional Tea",
+    "seoDescription": "Aromatic and smooth Uva tea with a crisp finish from Sri Lanka’s eastern highlands.",
+
+    "longDescription": "Uva Tea is grown in the eastern highlands of Sri Lanka.It has a smooth body with a distinct aroma and crisp finish.Perfect for those who enjoy a refined black tea.",
+
+    "features": [
+      "Strong and bold black tea",
+      "Convenient tea bags",
+      "Ideal for daily use",
+      "100% pure Ceylon tea"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Regional Tea/Uva Tea.png"
+    ]
+  },
+  {
+    "id": "udapussellawa-tea",
+    "slug": "udapussellawa-tea",
+    "mainCategory": "teas",
+    "subCategory": "regional-tea",
+
+    "name": "Udapussellawa Tea",
+    "shortDescription": "Smooth and mellow Ceylon black tea.Balanced taste with gentle strength..",
+    "tags": ["Mellow", "Smooth", "Balanced"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Udapussellawa Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Uva Tea – Ceylon Regional Tea",
+    "seoDescription": "Aromatic and smooth Uva tea with a crisp finish from Sri Lanka’s eastern highlands.",
+
+    "longDescription": "Udapussellawa Tea is grown in cool, misty regions of Sri Lanka.It offers a smooth, mellow flavor with balanced strength.Great for a relaxed and comforting tea experience.",
+
+    "features": [
+      "Smooth and mellow taste",
+      "Well-balanced strength",
+      "Premium Ceylon black tea",
+      "Easy daily drinking"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Regional Tea/Udapussellawa Tea.png"
+    ]
+  },
+  {
+    "id": "ruhuna-tea",
+    "slug": "ruhuna-tea",
+    "mainCategory": "teas",
+    "subCategory": "regional-tea",
+
+    "name": "Ruhuna Tea",
+    "shortDescription": "Strong and dark Ceylon black tea.Rich flavor with bold character.",
+    "tags": ["Strong", "Bold", "Rich"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Ruhuna Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ruhuna Tea – Ceylon Regional Tea",
+    "seoDescription": "Bold and full-bodied Ruhuna tea from Sri Lanka’s low-grown tea regions.",
+
+    "longDescription": "Ruhuna Tea comes from the low-grown regions of southern Sri Lanka.It is known for its strong body and deep, rich flavor.Perfect for those who enjoy a bold cup of tea.",
+
+    "features": [
+      "Strong and full-bodied taste",
+      "Deep color and rich flavor",
+      "Low-grown Ceylon tea",
+      "Ideal with or without milk"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Regional Tea/Ruhuna Tea.png"
+    ]
+  },
+  {
+    "id": "nuwara-eliya-tea",
+    "slug": "nuwara-eliya-tea",
+    "mainCategory": "teas",
+    "subCategory": "regional-tea",
+
+    "name": "Nuwara Eliya Tea",
+    "shortDescription": "Light and delicate Ceylon black tea.Clean taste with a fresh aroma.",
+    "tags": ["Light", "Delicate", "Fresh"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Nuwara Eliya Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Nuwara Eliya Tea – Ceylon Regional Tea",
+    "seoDescription": "Light and delicate Nuwara Eliya tea with a fresh, refined taste.",
+
+    "longDescription": "Nuwara Eliya Tea is grown in Sri Lanka’s highest tea elevations.It offers a light body with a fresh, delicate flavor.Ideal for those who prefer a gentle and refined tea.",
+
+    "features": [
+      "Light and delicate taste",
+      "Fresh aroma",
+      "High-grown Ceylon tea",
+      "Smooth and easy to drink"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Regional Tea/Nuwara Eliya Tea.png"
+    ]
+  },
+  {
+    "id": "kandy-tea",
+    "slug": "kandy-tea",
+    "mainCategory": "teas",
+    "subCategory": "regional-tea",
+
+    "name": "Kandy  Tea",
+    "shortDescription": "Smooth and well-rounded Ceylon black tea.Medium strength and easy to enjoy.",
+    "tags": ["Smooth", "Balanced", "Classic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Kandy Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Kandy Tea – Ceylon Regional Tea",
+    "seoDescription": "Smooth and balanced Kandy tea with a classic Ceylon flavor.",
+
+    "longDescription": "Kandy Tea is grown in the mid-country regions of Sri Lanka.It has a smooth body with a balanced and classic flavor.Perfect for everyday tea drinking.",
+
+    "features": [
+      "Smooth and balanced taste",
+      "Medium strength",
+      "Classic Ceylon character",
+      "Suitable for daily use"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Regional Tea/Kandy Tea.png"
+    ]
+  },
+  {
+    "id": "dimbulla-tea",
+    "slug": "dimbulla-tea",
+    "mainCategory": "teas",
+    "subCategory": "regional-tea",
+
+    "name": "Dimbulla Tea",
+    "shortDescription": "Bright and crisp Ceylon black tea.Clean taste with refreshing notes.",
+    "tags": ["Crisp", "Bright", "Refreshing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Dimbulla Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Dimbulla Tea – Ceylon Regional Tea",
+    "seoDescription": "Crisp and refreshing Dimbulla tea with a bright Ceylon character.",
+
+    "longDescription": "Dimbulla Tea is grown in Sri Lanka’s western highlands.It is known for its bright liquor and crisp, clean taste.A refreshing choice for any time of day.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Regional Tea/Dimbulla Tea.png"
+    ]
+  },
+
 
 
   {

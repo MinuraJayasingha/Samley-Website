@@ -22,28 +22,34 @@
       { "id": "organic-herbal", "slug": "organic-herbal", "title": "Organic Herbal","pagetitle":"Page Title", "description":"description" }
     ]
   },
+
   {
     "id": "beverages",
     "slug": "beverages",
     "title": "Beverages",
     "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
-      { "id": "iced-coffee", "slug": "iced-coffee", "title": "Iced Coffee" , "pagetitle":"Discover Iced Coffee Collection", "description":"description"},
-      { "id": "iced-tea", "slug": "iced-tea", "title": "Iced Tea", "pagetitle": "Discover Iced Tea Collection", "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup." }
+      { "id": "iced-coffee", "slug": "iced-coffee", "title": "Iced Coffee" , "pagetitle":"Discover Iced Coffee Collection", "description":"Discover our iced coffee collection, crafted for smooth, rich flavor served chilled. Perfect for moments that need a cool boost."},
+      { "id": "iced-tea", "slug": "iced-tea", "title": "Iced Tea", "pagetitle": "Discover Iced Tea Collection", "description":" Discover our refreshing iced tea range, crafted from carefully selected tea leaves. Crisp, vibrant flavors designed to cool, refresh, and elevate every moment." }
     ]
   },
+
   {
     "id": "organic-spices",
     "slug": "organic-spices",
     "title": "Organic Spices",
+    "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {
         "id": "ceylon-organic-spices",
         "slug": "ceylon-organic-spices",
-        "title": "Ceylon Organic Spices"
+        "title": "Ceylon Organic Spices",
+        "pagetitle": "Discover Organic Spices", 
+        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
       }
     ]
   },
+
   {
     "id": "coconut-based",
     "slug": "coconut-based",
@@ -53,27 +59,37 @@
       {
         "id": "coconut-water",
         "slug": "coconut-water",
-        "title": "Coconut Water & King Coconut Water"
+        "title": "Coconut Water & King Coconut Water",
+        "pagetitle": "Discover Coconut Water & King Coconut Water", 
+        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
       },
       {
         "id": "coconut-milk",
         "slug": "coconut-milk",
-        "title": "Coconut Milk & Coconut Cream"
+        "title": "Coconut Milk & Coconut Cream",
+        "pagetitle": "Discover Coconut Milk & Coconut Cream", 
+        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
       },
       {
         "id": "coconut-flour",
         "slug": "coconut-flour",
-        "title": "Coconut Flour & Coconut Milk Powder"
+        "title": "Coconut Flour & Coconut Milk Powder",
+        "pagetitle": "Discover Coconut Flour & Coconut Milk Powder", 
+        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
       },
       {
         "id": "virgin-coconut-oil",
         "slug": "virgin-coconut-oil",
-        "title": "Virgin Coconut Oil"
+        "title": "Virgin Coconut Oil",
+        "pagetitle": "Discover Virgin Coconut Oil", 
+        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
       },
       {
         "id": "dedicated-coconut",
         "slug": "dedicated-coconut",
-        "title": "Dedicated Coconut"
+        "title": "Dedicated Coconut",
+        "pagetitle": "Discover Dedicated Coconut", 
+        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
       }
     ]
   }

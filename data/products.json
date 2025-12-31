@@ -41,6 +41,8 @@
     ]
   },
 
+
+
   {
     "id": "jasmin-green-tea",
     "slug": "jasmin-green-tea",
@@ -511,6 +513,8 @@
     ]
   },
 
+
+
   {
     "id": "green-tea-classic",
     "slug": "classic-green-tea",
@@ -552,46 +556,555 @@
     ]
   },
 
+
   {
-    "id": "organic-cinnamon",
-    "slug": "ceylon-organic-cinnamon",
+    "id": "white-pepper-whole",
+    "slug": "white-pepper-whole",
     "mainCategory": "organic-spices",
     "subCategory": "ceylon-organic-spices",
 
-    "name": "Ceylon Organic Cinnamon",
-    "shortDescription": "Pure organic Ceylon cinnamon with warm, aromatic spice notes.",
-    "tags": ["Organic", "Aromatic", "Pure"],
+    "name": "White Pepper Whole",
+    "shortDescription": "Premium whole white pepper with strong aroma.",
+    "tags": ["Spicy", "Aromatic", "Bold"],
     "packInfo": "100g Pack",
-    "thumbnailImage": "/assets/images/products/spices/cinnamon-thumb.png",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/White Pepper Whole.png",
 
-    "brand": "SAMLEY CEYLON",
-    "itemForm": "Powder",
-    "flavor": "Cinnamon",
-    "teaVariety": "Organic Spice",
-    "unitCount": "100g",
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "White Pepper",
+    "spiceType": "Pepper",
+    "unitCount": " 100g",
 
-    "price": 6.99,
+    "price": 3.99,
     "currency": "USD",
-    "stock": 40,
-    "rating": 4.9,
-    "reviewCount": 51,
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
 
-    "seoTitle": "SAMLEY CEYLON Organic Ceylon Cinnamon – Pure Aromatic Organic Spice 100g",
-    "seoDescription": "Premium organic Ceylon cinnamon with warm aroma and authentic flavor.",
+    "seoTitle": "  White Pepper Whole – Ceylon Organic Spices",
+    "seoDescription": "Premium whole white pepper with bold aroma to enhance your cooking.",
 
-    "longDescription": "Our Organic Ceylon Cinnamon is sourced from sustainable farms and carefully processed to preserve its natural aroma and flavor. Ideal for teas, beverages, and culinary use.",
+    "longDescription": "White Pepper Whole offers a bold and aromatic spice, perfect for enhancing curries, soups, and sauces. A staple in any kitchen for authentic flavor.",
 
     "features": [
-      "100% organic certified",
-      "Warm and aromatic flavor",
-      "Sustainably sourced",
-      "Ideal for teas and cooking"
+      "Bold and aromatic",
+      "Enhances flavor of dishes",
+      "Premium quality whole pepper"
     ],
 
     "galleryImages": [
-      "/assets/images/products/spices/cinnamon-1.png"
+      "assets/images/products/ceylon-organic-spices/White Pepper Whole.png"
     ]
   },
+  {
+    "id": "turmeric-powder",
+    "slug": "turmeric-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Turmeric Powder",
+    "shortDescription": "Bright and aromatic organic turmeric powder.",
+    "tags": ["Earthy", "Aromatic", "Healthy"],
+    "packInfo": "100g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Turmeric Powder.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Powder",
+    "flavor": "Turmeric",
+    "spiceType": "Turmeric",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "  White Pepper Whole – Ceylon Organic Spices",
+    "seoDescription": "Premium whole white pepper with bold aroma to enhance your cooking.",
+
+    "longDescription": "Turmeric Powder is a vibrant organic spice with earthy flavor and natural aroma. Ideal for curries, teas, and wellness recipes.",
+
+    "features": [
+      "Earthy and aromatic",
+      "Organic and natural",
+      "Enhances color and flavor"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Turmeric Powder.png"
+    ]
+  },
+  {
+    "id": "red-chili-powder",
+    "slug": "red-chili-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Red Chili Powder",
+    "shortDescription": "Spicy and vibrant red chili powder for bold dishes.",
+    "tags": ["Spicy", "Bold", "Aromatic"],
+    "packInfo": "100g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Red Chili Powder.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Powder",
+    "flavor": "Red Chili",
+    "spiceType": "Chili",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Red Chili Powder – Ceylon Organic Spices",
+    "seoDescription": "Premium Ceylon red chili powder with bold spice and vibrant color for cooking.",
+
+    "longDescription":"Red Chili Powder adds vibrant color and spicy flavor to curries, sauces, and marinades. Made from premium Ceylon chilies.",
+
+    "features": [
+      "Bold and spicy flavor",
+      "Enhances color of dishes",
+      "Premium quality Ceylon chili"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Red Chili Powder.png"
+    ]
+  },
+  {
+    "id": "white-pepper-powder",
+    "slug": "white-pepper-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Organic White Pepper Powder",
+    "shortDescription": "Fine organic white pepper powder with aromatic flavor.",
+    "tags": ["Spicy", "Smooth", "Aromatic"],
+    "packInfo": "100g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/White Pepper Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Powder",
+    "flavor": "White Pepper",
+    "spiceType": "Pepper",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Organic White Pepper Powder – Ceylon Organic Spices",
+    "seoDescription": "Aromatic and smooth organic white pepper powder for cooking and seasoning.",
+
+    "longDescription":"Organic White Pepper Powder is finely ground from premium whole white pepper, offering aromatic and smooth spice for cooking and seasoning.",
+
+    "features": [
+      "Smooth and aromatic",
+      "Organic and premium quality",
+      "Ideal for seasoning"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/White Pepper Whole.png"
+    ]
+  },
+  {
+    "id": "black-pepper-powder",
+    "slug": "black-pepper-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Black Pepper Whole",
+    "shortDescription": "Classic whole black pepper with bold aroma.",
+    "tags": ["Spicy", "Bold", "Aromatic"],
+    "packInfo": "100g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Black Pepper Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "Black Pepper",
+    "spiceType": "Pepper",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Black Pepper Whole – Ceylon Organic Spices",
+    "seoDescription": "Premium whole black pepper with bold aroma for fresh grinding and flavor.",
+
+    "longDescription":"Black Pepper Whole is a premium Ceylon spice with bold flavor and aroma. Perfect for grinding fresh into your dishes for maximum taste.",
+
+    "features": [
+      "Bold and aromatic",
+      "Ideal for grinding fresh",
+      "Premium Ceylon quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Black Pepper Whole.png"
+    ]
+  },
+  {
+    "id": "organic-clove-powder",
+    "slug": "organic-clove-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Organic Clove Whole",
+    "shortDescription": "Aromatic whole cloves for cooking and brewing.",
+    "tags": ["Spicy", "Warm", "Aromatic"],
+    "packInfo": "50g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Organic Clove Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "Clove",
+    "spiceType": "Clove",
+    "unitCount": " 50g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Organic Clove Whole – Ceylon Organic Spices",
+    "seoDescription": "Aromatic organic whole cloves for cooking, teas, and spice blends.",
+
+    "longDescription":"Organic Clove Whole offers warm, aromatic flavor ideal for spice blends, teas, and cooking. Premium quality Ceylon cloves.",
+
+    "features": [
+      "Warm and aromatic",
+      "Perfect for cooking or tea",
+      "Organic and premium quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Organic Clove Whole.png"
+    ]
+  },
+  {
+    "id": "organic-cardamom-powder",
+    "slug": "organic-cardamom-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Organic Cardamom Powder",
+    "shortDescription": "Fine and aromatic cardamom powder for cooking and baking.",
+    "tags": ["Spicy", "Smooth", "Aromatic"],
+    "packInfo": "50g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Organic Cardamom Powder.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Powder",
+    "flavor": "Cardamom",
+    "spiceType": "Cardamom",
+    "unitCount": " 50g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Organic Cardamom Powder – Ceylon Organic Spices",
+    "seoDescription": "Aromatic organic cardamom powder for cooking, baking, and teas.",
+
+    "longDescription":"Organic Cardamom Powder delivers the warm, aromatic flavor of premium Ceylon cardamom. Perfect for baking, curries, and teas.",
+
+    "features": [
+      "Aromatic and flavorful",
+      "Smooth and finely ground",
+      "Organic premium quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Organic Cardamom Powder.png"
+    ]
+  },
+  {
+    "id": "nutmeg-whole",
+    "slug": "nutmeg-whole",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Nutmeg Whole",
+    "shortDescription": "Fragrant whole nutmeg for grinding fresh.",
+    "tags": ["Spicy", "Warm", "Aromatic"],
+    "packInfo": "50g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Nutmeg Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "Nutmeg",
+    "spiceType": "Nutmeg",
+    "unitCount": " 50g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Nutmeg Whole – Ceylon Organic Spices",
+    "seoDescription": "Fragrant whole nutmeg for fresh grating in desserts, drinks, and savory dishes.",
+
+    "longDescription":"Nutmeg Whole provides aromatic and flavorful spice perfect for grating fresh into desserts, drinks, and savory dishes. Premium Ceylon quality.",
+
+    "features": [
+      "Warm and aromatic",
+      "Perfect for grating fresh",
+      "Premium Ceylon nutmeg"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Nutmeg Whole.png"
+    ]
+  },
+  {
+    "id": "ginger-powder",
+    "slug": "ginger-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Ginger Powder",
+    "shortDescription": "Spicy and aromatic ground ginger for cooking and teas.",
+    "tags": ["Spicy", "Warm", "Aromatic"],
+    "packInfo": "100g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Nutmeg Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Powder",
+    "flavor": "Ginger",
+    "teaVariety": "Ginger",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ginger Powder – Ceylon Organic Spices",
+    "seoDescription": "Organic ginger powder with warm, aromatic flavor for cooking, baking, and teas.",
+
+    "longDescription":"Ginger Powder is a versatile organic spice with a warm and aromatic flavor. Ideal for curries, teas, and baking.",
+
+    "features": [
+      "Warm and spicy flavor",
+      "Organic premium quality",
+      "Perfect for cooking and beverages"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Nutmeg Whole.png"
+    ]
+  },
+  {
+    "id": "coriander-whole",
+    "slug": "coriander-whole",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Coriander Whole",
+    "shortDescription": "Fragrant whole coriander seeds for fresh grinding.",
+    "tags": ["Spicy", "Fresh", "Aromatic"],
+    "packInfo": "100g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Coriander Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "Coriander",
+    "spiceType": "Coriander",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Coriander Whole – Ceylon Organic Spices",
+    "seoDescription": "Aromatic whole coriander seeds for fresh grinding into curries, marinades, and spice blends.",
+
+    "longDescription":"Coriander Whole offers aromatic and flavorful seeds ideal for grinding fresh into curries, marinades, and spice blends.",
+
+    "features": [
+      "Aromatic and flavorful",
+      "Perfect for grinding fresh",
+      "Organic premium quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Coriander Whole.png"
+    ]
+  },
+  {
+    "id": "coffee-beans",
+    "slug": "coffee-beans",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Coffee Beans",
+    "shortDescription": "Premium Ceylon coffee beans for fresh brewing.",
+    "tags": ["Rich", "Bold", "Aromatic"],
+    "packInfo": "200g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Coffee Beans.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole Beans",
+    "flavor": "Coffee",
+    "spiceType": "Coffee",
+    "unitCount": " 200g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Coffee Beans – Ceylon Organic Spices",
+    "seoDescription": "Premium Ceylon coffee beans for fresh grinding and bold, aromatic brewing.",
+
+    "longDescription":"Coffee Beans are carefully selected Ceylon beans offering rich aroma and bold flavor. Perfect for grinding fresh to brew flavorful coffee.",
+
+    "features": [
+      "Bold and aromatic",
+      "Freshly grindable",
+      "Premium quality beans"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Coffee Beans.png"
+    ]
+  },
+  {
+    "id": "cinnamon-quills",
+    "slug": "cinnamon-quills",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Cinnamon Quills",
+    "shortDescription": "Aromatic whole cinnamon sticks for cooking and beverages.",
+    "tags": ["Sweet", "Warm", "Aromatic"],
+    "packInfo": "50g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Cinnamon Quills.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "Cinnamon",
+    "spiceType": "Cinnamon",
+    "unitCount": " 50g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Cinnamon Quills – Ceylon Organic Spices",
+    "seoDescription": "Aromatic Ceylon cinnamon sticks for cooking, infusing teas, and desserts.",
+
+    "longDescription":"Cinnamon Quills are premium Ceylon sticks with rich aroma, perfect for infusing teas, desserts, and curries.",
+
+    "features": [
+      "Sweet and aromatic",
+      "Ideal for infusing or cooking",
+      "Premium Ceylon quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Cinnamon Quills.png"
+    ]
+  },
+  {
+    "id": "cinnamon-powder",
+    "slug": "cinnamon-powder",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Cinnamon Powder",
+    "shortDescription": "Fine ground cinnamon with sweet and aromatic flavor.",
+    "tags": ["Sweet", "Warm", "Aromatic"],
+    "packInfo": "50g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Cinnamon Powder.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Powder",
+    "flavor": "Cinnamon",
+    "spiceType": "Cinnamon",
+    "unitCount": " 50g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Cinnamon Powder – Ceylon Organic Spices",
+    "seoDescription": "Fine Ceylon cinnamon powder with sweet, aromatic flavor for cooking and baking.",
+
+    "longDescription":"Cinnamon Powder is finely ground Ceylon cinnamon offering sweet aroma and warm flavor. Perfect for baking, drinks, and cooking.",
+
+    "features": [
+      "Sweet and aromatic",
+      "Fine and smooth",
+      "Premium Ceylon quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Cinnamon Powder.png"
+    ]
+  },
+  {
+    "id": "cardamom-whole",
+    "slug": "cardamom-whole",
+    "mainCategory": "organic-spices",
+    "subCategory": "ceylon-organic-spices",
+
+    "name": "Cardamom Whole",
+    "shortDescription": "Aromatic whole cardamom pods for fresh use.",
+    "tags": ["Spicy", "Warm", "Aromatic"],
+    "packInfo": "50g Pack",
+    "thumbnailImage": "assets/images/products/ceylon-organic-spices/Cardamom Whole.png",
+
+    "brand": "Ceylon Spices",
+    "itemForm": "Whole",
+    "flavor": "Cardamom",
+    "teaVariety": "",
+    "spiceType": "Cardamom",
+    "unitCount": " 50g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Cardamom Whole – Ceylon Organic Spices",
+    "seoDescription": "Aromatic whole cardamom pods for fresh grinding, teas, desserts, and curries.",
+
+    "longDescription":"Cardamom Whole offers premium Ceylon pods with aromatic and flavorful spice, perfect for grinding fresh or using in teas, desserts, and curries.",
+
+    "features": [
+      "Aromatic and flavorful",
+      "Ideal for fresh grinding",
+      "Premium Ceylon quality"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/ceylon-organic-spices/Cardamom Whole.png"
+    ]
+  },
+
 
   {
     "id": "virgin-coconut-oil",

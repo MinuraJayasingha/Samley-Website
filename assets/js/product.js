@@ -1,14 +1,40 @@
 // assets/js/product.js
 
+/* --------------------------------------------------
+   Helpers
+-------------------------------------------------- */
+
+// Get product slug from URL
 function getProductSlug() {
     const params = new URLSearchParams(window.location.search);
     return params.get("product");
 }
 
+// Set meta value and auto-hide if empty
+function setMetaValue(id, value) {
+    const span = document.getElementById(id);
+    if (!span) return;
+
+    const li = span.closest("li");
+
+    if (!value || value.trim() === "") {
+        li.classList.add("hidden");
+    } else {
+        span.textContent = value;
+        li.classList.remove("hidden");
+    }
+}
+
+
+/* --------------------------------------------------
+   Main loader
+-------------------------------------------------- */
+
 async function loadProduct() {
     const slug = getProductSlug();
+
     if (!slug) {
-        console.log("No product slug in URL");
+        console.warn("No product slug found in URL");
         return;
     }
 
@@ -18,29 +44,36 @@ async function loadProduct() {
             console.error("Failed to fetch products.json:", res.status);
             return;
         }
-        const products = await res.json();
 
+        const products = await res.json();
         const product = products.find(p => p.slug === slug);
+
         if (!product) {
-            console.log("Product not found for slug:", slug);
+            console.warn("Product not found for slug:", slug);
             return;
         }
 
         injectProductData(product);
         updateBreadcrumbForProduct(product);
+
     } catch (error) {
         console.error("Error loading product:", error);
     }
 }
 
+
+/* --------------------------------------------------
+   Inject product data
+-------------------------------------------------- */
+
 function injectProductData(product) {
 
-    // SEO Title
+    /* ---------- SEO ---------- */
+
     if (product.seoTitle) {
         document.title = product.seoTitle;
     }
 
-    // SEO Description
     if (product.seoDescription) {
         const metaDesc = document.getElementById("meta-description");
         if (metaDesc) {
@@ -48,62 +81,59 @@ function injectProductData(product) {
         }
     }
 
-    // Title
-    document.getElementById("product-title").textContent = product.seoTitle;
+    /* ---------- Content ---------- */
 
-    // Short description
-    /*document.getElementById("product-short-description").textContent =
-        product.shortDescription;*/
+    document.getElementById("product-title").textContent =
+        product.seoTitle || product.name;
 
-    // Long description
     document.getElementById("product-long-description").textContent =
-        product.longDescription;
+        product.longDescription || "";
 
-    // Pack info
-    document.getElementById("product-pack").textContent = product.packInfo;
+    document.getElementById("product-pack").textContent =
+        product.packInfo || "";
 
-    /*
-    document.getElementById("product-price").textContent =
-        `${product.currency} ${product.price}`;*/
+    /* ---------- Meta (auto hide empty) ---------- */
 
-    // Meta
-    document.getElementById("product-brand").textContent = product.brand;
-    document.getElementById("product-item-form").textContent = product.itemForm;
-    document.getElementById("product-variety").textContent = product.teaVariety;
-    document.getElementById("product-unit-count").textContent = product.unitCount;
+    setMetaValue("product-brand", product.brand);
+    setMetaValue("product-item-form", product.itemForm);
+    setMetaValue("product-variety", product.teaVariety);
+    setMetaValue("product-spice-type", product.spiceType);
+    setMetaValue("product-unit-count", product.unitCount);
 
-    // Rating
+    /* ---------- Rating ---------- */
+
     document.getElementById("product-review-count").textContent =
-        `(${product.reviewCount})`;
+        product.reviewCount ? `(${product.reviewCount})` : "";
 
     document.getElementById("product-stars").textContent =
-        "★".repeat(Math.round(product.rating));
+        product.rating ? "★".repeat(Math.round(product.rating)) : "";
 
+    /* ---------- Gallery ---------- */
 
-    // Gallery
     const mainImage = document.getElementById("product-main-image");
-    mainImage.src = product.galleryImages[0];
-    mainImage.alt = product.name;
-
     const thumbs = document.querySelector(".product-thumbnails");
-    product.galleryImages.forEach(img => {
-        const t = document.createElement("img");
-        t.src = img;
-        t.alt = product.name;
-        thumbs.appendChild(t);
-    });
 
-    enableGalleryInteraction();
+    if (product.galleryImages && product.galleryImages.length > 0) {
+        mainImage.src = product.galleryImages[0];
+        mainImage.alt = product.name;
 
-    // Features
-    /*const features = document.getElementById("product-features");
-    product.features.forEach(f => {
-        const li = document.createElement("li");
-        li.textContent = f;
-        features.appendChild(li);
-    });*/
+        thumbs.innerHTML = "";
 
+        product.galleryImages.forEach(img => {
+            const t = document.createElement("img");
+            t.src = img;
+            t.alt = product.name;
+            thumbs.appendChild(t);
+        });
+
+        enableGalleryInteraction();
+    }
 }
+
+
+/* --------------------------------------------------
+   Breadcrumb
+-------------------------------------------------- */
 
 function updateBreadcrumbForProduct(product) {
     fetch("data/categories.json")
@@ -116,6 +146,7 @@ function updateBreadcrumbForProduct(product) {
         })
         .then(categories => {
             if (!categories) return;
+
             categories.forEach(main => {
                 main.subCategories.forEach(sub => {
                     if (sub.slug === product.subCategory) {
@@ -134,12 +165,17 @@ function updateBreadcrumbForProduct(product) {
         .catch(error => console.error("Error loading categories:", error));
 
     const productEl = document.getElementById("breadcrumb-product");
-    productEl.textContent = product.name;
-    productEl.classList.remove("hidden");
+    if (productEl) {
+        productEl.textContent = product.name;
+        productEl.classList.remove("hidden");
+    }
 }
 
 
-// Gallery interaction
+/* --------------------------------------------------
+   Gallery interaction
+-------------------------------------------------- */
+
 function enableGalleryInteraction() {
     const mainImage = document.getElementById("product-main-image");
     const thumbnails = document.querySelectorAll(".product-thumbnails img");
@@ -151,4 +187,10 @@ function enableGalleryInteraction() {
         });
     });
 }
+
+
+/* --------------------------------------------------
+   Init
+-------------------------------------------------- */
+
 document.addEventListener("DOMContentLoaded", loadProduct);

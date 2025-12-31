@@ -1045,6 +1045,247 @@
     ]
   },
 
+  {
+    "id": "DETOX-tea",
+    "slug": "DETOX-tea",
+    "mainCategory": "teas",
+    "subCategory": "wellness-tea",
+
+    "name": "DETOX Tea",
+    "shortDescription": "Herbal blend designed to refresh and cleanse.Light, natural, and revitalizing.",
+    "tags": ["Refreshing", "Herbal", "Cleansing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/DETOX.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Herbal Blend",
+    "teaVariety": "Wellness Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "DETOX Tea – Wellness Tea Collection",
+    "seoDescription": "Herbal detox tea with a light, smooth flavor to refresh and cleanse naturally.",
+
+    "longDescription": "DETOX Tea is a carefully crafted herbal blend that helps refresh your body.It offers a light, smooth flavor with natural cleansing herbs.Perfect for morning or afternoon tea to rejuvenate your senses.t delivers a light, smooth flavor with a subtle aroma and refined character.Perfect for connoisseurs seeking elegance in every cup.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Wellness Teas/DETOX.png"
+    ]
+  },
+  {
+    "id": "DIGEST-tea",
+    "slug": "DIGEST-tea",
+    "mainCategory": "teas",
+    "subCategory": "wellness-tea",
+
+    "name": "DIGEST Tea",
+    "shortDescription": "Gentle herbal blend to support digestion.Smooth, soothing, and calming.",
+    "tags": ["Soothing", "Herbal", "Gentle"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/DIGEST.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Herbal Blend",
+    "teaVariety": "Wellness Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "DIGEST Tea – Wellness Tea Collection",
+    "seoDescription": "Herbal tea designed to support digestion with a soothing and gentle flavor.",
+
+    "longDescription": "DIGEST Tea is a calming herbal tea designed to aid digestion.It delivers a gentle and smooth flavor that soothes the stomach.Perfect after meals or any time you need a calming cup.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Wellness Teas/DIGEST.png"
+    ]
+  },
+  {
+    "id": "IMMUNE-tea",
+    "slug": "IMMUNE-tea",
+    "mainCategory": "teas",
+    "subCategory": "wellness-tea",
+
+    "name": "IMMUNE Tea",
+    "shortDescription": "Herbal blend to support immunity.Bright, refreshing, and healthy.",
+    "tags": ["Immunity", "Herbal", "Refreshing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/IMMUNE.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Herbal Blend",
+    "teaVariety": "Wellness Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "IMMUNE Tea – Wellness Tea Collection",
+    "seoDescription": "Herbal tea designed to naturally support immunity with a refreshing taste.",
+
+    "longDescription": "IMMUNE Tea is a carefully blended herbal tea to support your immunity.It delivers a refreshing flavor with natural ingredients that boost wellbeing.Perfect for daily tea moments to feel healthy and energized.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Wellness Teas/IMMUNE.png"
+    ]
+  },
+  {
+    "id": "ENERGY-tea",
+    "slug": "ENERGY-tea",
+    "mainCategory": "teas",
+    "subCategory": "wellness-tea",
+
+    "name": "ENERGY Tea",
+    "shortDescription": "Herbal and green tea blend to boost energy.Light, revitalizing, and natural.",
+    "tags": ["Refreshing", "Herbal", "Cleansing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/ENERGY.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Herbal Blend",
+    "teaVariety": "Wellness Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "ENERGY Tea – Wellness Tea Collection",
+    "seoDescription": "Herbal and green tea blend designed to naturally boost energy with a light, refreshing taste.",
+
+    "longDescription": "ENERGY Tea is a lively blend of green tea and herbs designed to boost energy naturally.It has a light, refreshing taste that awakens the senses.Perfect for mornings or anytime you need a natural lift.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Wellness Teas/ENERGY.png"
+    ]
+  },
+  {
+    "id": "RELAXING-tea",
+    "slug": "RELAXING-tea",
+    "mainCategory": "teas",
+    "subCategory": "wellness-tea",
+
+    "name": "RELAXING Tea",
+    "shortDescription": "Calming herbal blend for relaxation.Smooth, soothing, and gentle.",
+    "tags": ["Calming", "Herbal", "Soothing"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/RELAXING.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Herbal Blend",
+    "teaVariety": "Wellness Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "RELAXING Tea – Wellness Tea Collection",
+    "seoDescription": "Herbal tea blend designed to naturally promote relaxation with a smooth and soothing taste.",
+
+    "longDescription": "RELAXING Tea is a gentle herbal blend that helps you unwind.It delivers a smooth, calming taste that soothes the mind and body.Perfect for evening or bedtime tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Wellness Teas/RELAXING.png"
+    ]
+  },
+  {
+    "id": "SLIMMING-tea",
+    "slug": "SLIMMING-tea",
+    "mainCategory": "teas",
+    "subCategory": "wellness-tea",
+
+    "name": "SLIMMING Tea",
+    "shortDescription": "Herbal tea blend to support weight management.Light, refreshing, and healthy.",
+    "tags": ["Slimming", "Herbal", "Light"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/SLIMMING.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Herbal Blend",
+    "teaVariety": "Wellness Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "SLIMMING Tea – Wellness Tea Collection",
+    "seoDescription": "Herbal tea designed to support weight management with a light and refreshing taste.",
+
+    "longDescription": "SLIMMING Tea is a carefully balanced herbal blend that supports a healthy lifestyle.It has a light, refreshing flavor and helps complement daily wellness routines.Perfect for daily consumption as part of a healthy regimen.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Wellness Teas/SLIMMING.png"
+    ]
+  },
+
 
 
   {

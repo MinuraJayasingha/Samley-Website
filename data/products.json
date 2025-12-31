@@ -120,6 +120,127 @@
     ]
   },
 
+  {
+    "id": "ceylon-breakfast-20",
+    "slug": "ceylon-breakfast-20",
+    "mainCategory": "teas",
+    "subCategory": "black-tea",
+
+    "name": "Ceylon Breakfast 20TB",
+    "shortDescription": "Strong and full-bodied Ceylon black tea.Perfect to start your morning right.",
+    "tags": ["Strong", "Bold", "Energizing"],
+    "packInfo": "20 Tea Bags Box",
+    "thumbnailImage": "assets/images/products/Teas/Black Tea Collections/Ceylon Breakfast 20TB.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bags",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " 20 Tea Bags",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Breakfast Tea 20TB – Ceylon Tea",
+    "seoDescription": "Strong and bold Ceylon breakfast tea, perfect for a refreshing morning cup.",
+
+    "longDescription": "Ceylon Breakfast Tea is a rich and bold black tea from Sri Lanka.It has a strong, full-bodied taste that pairs well with milk or sugar.Ideal for morning tea or an energy boost during the day.",
+
+    "features": [
+      "Strong and full-bodied flavor",
+      "Perfect breakfast tea",
+      "Easy to brew tea bags",
+      "100% pure Ceylon tea"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Black Tea Collections/Ceylon Breakfast 20TB.png"
+    ]
+  },
+  {
+    "id": "ceylon-breakfast-100",
+    "slug": "ceylon-breakfast-100",
+    "mainCategory": "teas",
+    "subCategory": "black-tea",
+
+    "name": "Ceylon Breakfast 100g",
+    "shortDescription": "Strong loose-leaf Ceylon black tea.Ideal for a rich morning brew.",
+    "tags": ["Strong", "Bold", "Rich"],
+    "packInfo": "100g Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Black Tea Collections/Ceylon Breakfast 100g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bags",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " 20 Tea Bags",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Breakfast Tea 20TB – Ceylon Tea",
+    "seoDescription": "Strong and bold Ceylon breakfast tea, perfect for a refreshing morning cup.",
+
+    "longDescription": "Ceylon Breakfast Tea is a bold and full-bodied black tea made from quality Ceylon leaves.It delivers a rich flavor that tastes great with or without milk.Perfect for mornings and daily tea breaks.",
+
+    "features": [
+      "Strong and rich black tea",
+      "Loose-leaf for deeper flavor",
+      "Great with milk or sugar",
+      "100% pure Ceylon tea"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Black Tea Collections/Ceylon Breakfast 100g.png"
+    ]
+  },
+  {
+    "id": "ceylon-breakfast-100-tb",
+    "slug": "ceylon-breakfast-100-tb",
+    "mainCategory": "teas",
+    "subCategory": "black-tea",
+
+    "name": "Ceylon Breakfast 100TB",
+    "shortDescription": "Strong and bold Ceylon black tea.Perfect for everyday breakfast tea.",
+    "tags": ["Strong", "Bold", "Energizing"],
+    "packInfo": "100 Tea Bags Box",
+    "thumbnailImage": "assets/images/products/Teas/Black Tea Collections/Ceylon Breakfast 200g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bags",
+    "flavor": "Classic Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100 Tea Bags",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Breakfast Tea 100TB – Ceylon Tea",
+    "seoDescription": "Strong and energizing Ceylon breakfast tea in convenient tea bags for everyday use.",
+
+    "longDescription": "Ceylon Breakfast Tea offers a powerful and full-bodied black tea experience.Made from premium Ceylon tea leaves for a rich taste.Great for mornings, offices, and daily tea lovers.",
+
+    "features": [
+      "Strong and bold black tea",
+      "Convenient tea bags",
+      "Ideal for daily use",
+      "100% pure Ceylon tea"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Black Tea Collections/Ceylon Breakfast 200g.png"
+    ]
+  },
+
 
 
   {

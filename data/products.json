@@ -964,6 +964,87 @@
     ]
   },
 
+  {
+    "id": "golden-tips",
+    "slug": "golden-tips",
+    "mainCategory": "teas",
+    "subCategory": "designer-tea",
+
+    "name": "Golden Tips",
+    "shortDescription": "Premium Ceylon black tea made from golden tips.Rich, smooth, and naturally sweet.",
+    "tags": ["Rich", "Smooth", "Sweet"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Designer Teas/Golden Tips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Natural Sweet",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Golden Tips Tea – Designer Tea Collection",
+    "seoDescription": "Premium Ceylon tea made from golden tips, offering a smooth and naturally sweet taste.",
+
+    "longDescription": "Golden Tips Tea is crafted from the tender golden tips of Ceylon tea leaves.It delivers a smooth, rich taste with natural sweetness and a bright liquor.Perfect for tea enthusiasts seeking premium quality.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Designer Teas/Golden Tips.png"
+    ]
+  },
+  {
+    "id": "silver-tips",
+    "slug": "silver-tips",
+    "mainCategory": "teas",
+    "subCategory": "designer-tea",
+
+    "name": "Silver Tips",
+    "shortDescription": "Elegant Ceylon tea with fine silver tips.Delicate, smooth, and .",
+    "tags": ["Delicate", "Smooth", "Aromatic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Designer Teas/Silver Tips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Delicate Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Silver Tips Tea – Designer Tea Collection",
+    "seoDescription": "Elegant Ceylon tea with fine silver tips, offering a delicate, smooth, and aromatic experience.",
+
+    "longDescription": "Silver Tips Tea is a premium Ceylon tea crafted from delicate silver-tipped leaves.It delivers a light, smooth flavor with a subtle aroma and refined character.Perfect for connoisseurs seeking elegance in every cup.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Designer Teas/Silver Tips.png"
+    ]
+  },
+
 
 
   {

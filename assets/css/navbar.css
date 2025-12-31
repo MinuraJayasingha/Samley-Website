@@ -23,6 +23,8 @@
 
 /* Navbar Logo */
 .navbar-logo {
+    background-image: url(/assets/images/logos/samley_logo.png);
+    background-size: cover;
     width: 112px;
     height: 72px;
     background-color: var(--color-text-black);
@@ -242,7 +244,6 @@
 
         padding: 40px 36px;
     }
-
 }
 
 /* =========================
@@ -358,7 +359,6 @@
 
     .dropdown-card {
         display: hidden;
-        background-color: gray;
         width: 200px;
         height: 300px;
     }
@@ -395,10 +395,32 @@
 @media (min-width: 1200px) {
     .dropdown-card {
         display: block;
-        background-color: gray;
         width: 200px;
         height: 300px;
     }
+
+    .navbar-logo {
+        width: 133px;
+        height: 86px;
+    }
+
+    .dropdown-card .product-card {
+        height: 443px;
+        width: 245px;
+    }
+    .dropdown-card .product-card .product-image {
+        height: 305px;
+        background-color: antiquewhite;
+        background-image: url(../images/products/nav/CeylonGreenTea.png);
+        border-radius: 16px;
+    }
+    .nav-bar-top h5{
+        font-family: var(--font-heading) !important;
+        color: var(--color-text-black)!important;
+        font-size: 18px !important;
+        font-weight: 500 !important;
+    }
+
 }
 
 /* =========================

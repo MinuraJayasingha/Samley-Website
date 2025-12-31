@@ -1,21 +1,21 @@
 [
   {
-    "id": "jasmin-green-tea",
-    "slug": "jasmin-green-tea",
+    "id": "ceylon-green-tea-20",
+    "slug": "ceylon-green-tea-20",
     "mainCategory": "teas",
     "subCategory": "green-tea",
 
-    "name": "Jasmin Green Tea",
-    "shortDescription": "Refreshing iced green tea with delicate jasmine aroma.",
-    "tags": ["Floral", "Refreshing", "Light"],
-    "packInfo": "250ml Bottle",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg",
+    "name": "Ceylon Green Tea 20TB",
+    "shortDescription": "Pure Ceylon green tea with a light, fresh taste.Perfect for daily healthy tea moments.",
+    "tags": ["Fresh", "Natural", "Light"],
+    "packInfo": "20 Tea Bags Box",
+    "thumbnailImage": "assets/images/products/Teas/Green Tea Collections/Ceylon Green Tea 20TB.png",
 
     "brand": "Ceylon Tea",
-    "itemForm": "Ready-to-Drink",
-    "flavor": "Jasmine Green",
+    "itemForm": "Tea Bags",
+    "flavor": "Green Tea",
     "teaVariety": "Green Tea",
-    "unitCount": " 250ml",
+    "unitCount": " 20 Tea Bags",
 
     "price": 3.99,
     "currency": "USD",
@@ -23,19 +23,100 @@
     "rating": 4.7,
     "reviewCount": 62,
 
-    "seoTitle": "Jasmin Green Tea – Iced Tea – Ceylon Tea",
-    "seoDescription": "Refreshing iced green tea with delicate jasmine aroma for a light and calming drink.",
+    "seoTitle": "Ceylon Green Tea 20TB – Ceylon Tea",
+    "seoDescription": "Pure Ceylon green tea with a fresh, light taste, perfect for everyday healthy tea drinking.",
 
-    "longDescription": "Jasmin Green Tea is a delicate iced green tea infused with fragrant jasmine blossoms. Light, refreshing, and perfect for hot days or a calming drink anytime.",
+    "longDescription": "Ceylon Green Tea is made from carefully selected tea leaves grown in Sri Lanka.It offers a clean, light, and refreshing taste with natural goodness.Ideal for morning or evening tea breaks.Best enjoyed hot for a calming experience.",
 
     "features": [
-      "Light and floral",
-      "Refreshing iced tea",
-      "Ready-to-drink convenience"
+      "100% pure Ceylon green tea",
+      "Light and refreshing taste",
+      "Easy to brew tea bags",
+      "No added flavors or colors"
     ],
 
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg"
+      "assets/images/products/Teas/Green Tea Collections/Ceylon Green Tea 20TB.png"
+    ]
+  },
+  {
+    "id": "ceylon-green-tea-100",
+    "slug": "ceylon-green-tea-100",
+    "mainCategory": "teas",
+    "subCategory": "green-tea",
+
+    "name": "Ceylon Green Tea 100g",
+    "shortDescription": "Pure Ceylon green tea with a light, fresh taste.Perfect for daily healthy tea moments.",
+    "tags": ["Fresh", "Natural", "Light"],
+    "packInfo": "100g Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Green Tea Collections/Ceylon Green tea 100g- 50TB.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bags",
+    "flavor": "Green Tea",
+    "teaVariety": "Green Tea",
+    "unitCount": " 20 Tea Bags",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Green Tea 100g – Ceylon Tea",
+    "seoDescription": "Pure Ceylon green tea with a fresh, light taste, perfect for everyday healthy tea drinking.",
+
+    "longDescription": "Ceylon Green Tea is made from carefully selected tea leaves grown in Sri Lanka.It offers a clean, light, and refreshing taste with natural goodness.Ideal for morning or evening tea breaks.Best enjoyed hot for a calming experience.",
+
+    "features": [
+      "100% pure Ceylon green tea",
+      "Light and refreshing taste",
+      "Easy to brew tea bags",
+      "No added flavors or colors"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Green Tea Collections/Ceylon Green tea 100g- 50TB.png"
+    ]
+  },
+  {
+    "id": "ceylon-green-tea-200",
+    "slug": "ceylon-green-tea-200",
+    "mainCategory": "teas",
+    "subCategory": "green-tea",
+
+    "name": "Ceylon Green Tea 200g",
+    "shortDescription": "Pure Ceylon green tea with a light, fresh taste.Perfect for daily healthy tea moments.",
+    "tags": ["Fresh", "Natural", "Light"],
+    "packInfo": "200g Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Green Tea Collections/Ceylon Green tea 100g- 50TB.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bags",
+    "flavor": "Green Tea",
+    "teaVariety": "Green Tea",
+    "unitCount": " 20 Tea Bags",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Green Tea 200g – Ceylon Tea",
+    "seoDescription": "Pure Ceylon green tea with a fresh, light taste, perfect for everyday healthy tea drinking.",
+
+    "longDescription": "Ceylon Green Tea is made from carefully selected tea leaves grown in Sri Lanka.It offers a clean, light, and refreshing taste with natural goodness.Ideal for morning or evening tea breaks.Best enjoyed hot for a calming experience.",
+
+    "features": [
+      "100% pure Ceylon green tea",
+      "Light and refreshing taste",
+      "Easy to brew tea bags",
+      "No added flavors or colors"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Green Tea Collections/Ceylon Green tea 100g- 50TB.png"
     ]
   },
 
@@ -508,49 +589,6 @@
 
     "galleryImages": [
       "assets/images/products/beverages/iced-coffee-collection/Caramel.webp"
-    ]
-  },
-
-
-
-  {
-    "id": "green-tea-classic",
-    "slug": "classic-green-tea",
-    "mainCategory": "teas",
-    "subCategory": "green-tea",
-
-    "name": "Classic Green Tea",
-    "shortDescription": "Light and refreshing green tea with natural antioxidants.",
-    "tags": ["Light", "Fresh", "Pure"],
-    "packInfo": "50 Tea Bags",
-    "thumbnailImage": "/assets/images/products/teas/green-tea-thumb.png",
-
-    "brand": "SAMLEY CEYLON",
-    "itemForm": "Tea Bags",
-    "flavor": "Pure Green Tea",
-    "teaVariety": "Ceylon Green Tea",
-    "unitCount": "50 Tea Bags",
-
-    "price": 9.99,
-    "currency": "USD",
-    "stock": 32,
-    "rating": 4.8,
-    "reviewCount": 84,
-
-    "seoTitle": "SAMLEY CEYLON Classic Green Tea – Pure Ceylon Green Tea Bags Rich in Antioxidants – 50 Tea Bags",
-    "seoDescription": "Enjoy a light and refreshing cup of pure Ceylon green tea with natural antioxidants.",
-
-    "longDescription": "Crafted from carefully selected Ceylon tea leaves, our Classic Green Tea delivers a fresh, smooth taste with every sip. Ideal for mindful tea moments and daily wellness rituals.",
-
-    "features": [
-      "Naturally rich in antioxidants",
-      "Light and refreshing taste",
-      "Convenient tea bag format",
-      "Perfect for daily wellness"
-    ],
-
-    "galleryImages": [
-      "/assets/images/products/teas/green-tea-1.png"
     ]
   },
 

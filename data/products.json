@@ -1527,6 +1527,367 @@
     ]
   },
 
+  {
+    "id": "BOP-tea",
+    "slug": "BOP-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "BOP Tea",
+    "shortDescription": "Broken orange pekoe Ceylon black tea.Strong, robust, and full-bodied.",
+    "tags": ["Strong", "Robust", "Full-bodied"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/BOP.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "BOP Tea – Gourmet Range Collection",
+    "seoDescription": "Broken orange pekoe Ceylon black tea with a strong and robust flavor.",
+
+    "longDescription": "BOP Tea is a premium broken orange pekoe Ceylon tea with a robust, full-bodied flavor.It brews a dark, strong liquor, perfect for classic black tea lovers.Ideal for mornings or with milk.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/BOP.png"
+    ]
+  },
+  {
+    "id": "BOP1-tea",
+    "slug": "BOP1-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "BOP1 Tea",
+    "shortDescription": "Premium broken orange pekoe #1 grade.Rich, smooth, and flavorful.",
+    "tags": ["Rich", "Smooth", "Flavorful"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/BOP1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "BOP1 Tea – Gourmet Range Collection",
+    "seoDescription": "Premium BOP1 Ceylon tea with a rich, smooth, and full-bodied flavor.",
+
+    "longDescription": "BOP1 Tea is a high-quality broken orange pekoe #1 Ceylon tea.It produces a rich, smooth liquor with a full-bodied taste.Perfect for daily tea or with milk.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/BOP1.png"
+    ]
+  },
+  {
+    "id": "earl-gray-tea",
+    "slug": "earl-gray-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "Earl Grey Tea",
+    "shortDescription": "BCeylon black tea with natural bergamot flavor.Aromatic, citrusy, and elegant.",
+    "tags": ["Aromatic", "Citrus", "Elegant"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/EARL GREY.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Bergamot Citrus",
+    "teaVariety": "Flavored Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Earl Grey Tea – Gourmet Range Collection",
+    "seoDescription": "Ceylon black tea infused with natural bergamot for a smooth and aromatic citrus flavor.",
+
+    "longDescription": "Earl Grey Tea blends premium Ceylon black tea with natural bergamot.It delivers a fragrant, citrusy aroma and smooth, elegant taste.Perfect for afternoon tea or with milk.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/EARL GREY.png"
+    ]
+  },
+  {
+    "id": "FF-ExSp-tea",
+    "slug": "FF-ExSp-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "FF ExSp Tea",
+    "shortDescription": "Finest flowery orange pekoe extra special.Rich, aromatic, and premium.",
+    "tags": ["Rich", "Aromatic", "Premium"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/FF ExSp.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "FF ExSp Tea – Gourmet Range Collection",
+    "seoDescription": "Premium flowery orange pekoe extra special Ceylon tea with rich and aromatic flavor.",
+
+    "longDescription": "FF ExSp Tea is a high-grade flowery orange pekoe Ceylon tea.It offers a rich, aromatic flavor with smooth liquor.Perfect for tea connoisseurs seeking premium quality.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/FF ExSp.png"
+    ]
+  },
+  {
+    "id": "GP1-tea",
+    "slug": "GP1-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "GP1 Tea",
+    "shortDescription": "Golden pekoe #1 grade Ceylon tea.Smooth, full-bodied, and bright.",
+    "tags": ["Smooth", "Bright", "Full-bodied"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/GP1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "GP1 Tea – Gourmet Range Collection",
+    "seoDescription": "Golden pekoe #1 grade Ceylon tea with smooth, full-bodied flavor and bright liquor.",
+
+    "longDescription": "GP1 Tea is a premium golden pekoe #1 Ceylon tea.It produces a smooth, full-bodied liquor with a bright golden color.Ideal for classic black tea enthusiasts.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/GP1.png"
+    ]
+  },
+  {
+    "id": "OP-tea",
+    "slug": "OP-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "BOP Tea",
+    "shortDescription": "Orange pekoe grade Ceylon black tea.Smooth, balanced, and aromatic",
+    "tags": ["Smooth", "Balanced", "Aromatic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/OP.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "OP Tea – Gourmet Range Collection",
+    "seoDescription": "Orange pekoe Ceylon black tea with smooth, balanced, and aromatic flavor.",
+
+    "longDescription": "OP Tea is a premium orange pekoe Ceylon tea.It delivers a smooth, balanced flavor with aromatic notes and medium body.Perfect for daily consumption or with milk.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/OP.png"
+    ]
+  },
+  {
+    "id": "PEKOE-tea",
+    "slug": "PEKOE-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "Pekoe Tea",
+    "shortDescription": "Classic pekoe Ceylon black tea.Smooth, light, and refreshing.",
+    "tags": ["Smooth", "Balanced", "Aromatic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/PEKOE.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Pekoe Tea – Gourmet Range Collection",
+    "seoDescription": "Classic pekoe Ceylon black tea with smooth, light, and refreshing flavor.",
+
+    "longDescription": "Pekoe Tea is a classic Ceylon black tea with smooth and light flavor.It brews a clear liquor with refreshing taste.Ideal for everyday tea enjoyment.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/PEKOE.png"
+    ]
+  },
+  {
+    "id": "golden-tips-tea",
+    "slug": "golden-tips-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "Golden Tips Loose-Leaf Tea",
+    "shortDescription": "Premium golden tips Ceylon tea.Rich, smooth, and aromatic.",
+    "tags": ["Rich", "Smooth", "Aromatic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Golden Tips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Natural Sweet",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Golden Tips Loose-Leaf Tea – Gourmet Range Collection",
+    "seoDescription": "Premium Ceylon golden tips loose-leaf tea with smooth, rich, and aromatic flavor.",
+
+    "longDescription": "Golden Tips Loose-Leaf Tea is made from tender golden tips of Ceylon tea leaves.It offers a smooth, rich, and aromatic taste with bright golden liquor.Perfect for tea connoisseurs seeking premium quality.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/Golden Tips.png"
+    ]
+  },
+  {
+    "id": "silver-tips-tea",
+    "slug": "silver-tips-tea",
+    "mainCategory": "teas",
+    "subCategory": "gourmet-tea",
+
+    "name": "Silver Tips Loose-Leaf Tea",
+    "shortDescription": "Elegant silver tips Ceylon tea.Delicate, smooth, and aromatic.",
+    "tags": ["Delicate", "Smooth", "Aromatic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Silver Tips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Silver Tips Loose-Leaf Tea – Gourmet Range Collection",
+    "seoDescription": "Elegant Ceylon silver tips loose-leaf tea with delicate, smooth, and aromatic flavor.",
+
+    "longDescription": "Silver Tips Loose-Leaf Tea is crafted from delicate silver-tipped Ceylon leaves.It delivers a light, smooth flavor with subtle aromatic notes.Ideal for refined tea moments and connoisseurs.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gourmet Teas/Silver Tips.png"
+    ]
+  },
+
 
   {
     "id": "jasmin-green-tea",

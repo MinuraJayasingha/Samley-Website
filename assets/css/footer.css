@@ -327,8 +327,8 @@
     }
 
     .footer-logo {
-        height: 136px;
-        width: 136px;
+        height: auto;
+        width: 200px;
     }
 
     .footer-column-top {

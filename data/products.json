@@ -1107,22 +1107,22 @@
 
 
   {
-    "id": "virgin-coconut-oil",
-    "slug": "virgin-coconut-oil",
+    "id": "organic-coconut-water",
+    "slug": "organic-coconut-water",
     "mainCategory": "coconut-based",
-    "subCategory": "virgin-coconut-oil",
+    "subCategory": "coconut-water",
 
-    "name": "Virgin Coconut Oil",
-    "shortDescription": "Cold-pressed virgin coconut oil for wellness and cooking.",
-    "tags": ["Pure", "Natural", "Cold-Pressed"],
-    "packInfo": "500ml Bottle",
-    "thumbnailImage": "/assets/images/products/coconut/coconut-oil-thumb.png",
+    "name": "Organic Coconut Water",
+    "shortDescription": "Fresh and natural coconut water for hydration.",
+    "tags": ["Refreshing", "Natural", "Hydrating"],
+    "packInfo": "330ml Bottle",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
 
-    "brand": "SAMLEY CEYLON",
-    "itemForm": "Oil",
-    "flavor": "Natural Coconut",
-    "teaVariety": "Coconut Product",
-    "unitCount": "500ml",
+    "brand": "Ceylon Coconut",
+    "itemForm": "Liquid",
+    "flavor": "Coconut",
+    "beverageType": "Coconut Water",
+    "unitCount": "330ml",
 
     "price": 14.99,
     "currency": "USD",
@@ -1130,20 +1130,137 @@
     "rating": 4.8,
     "reviewCount": 67,
 
-    "seoTitle": "SAMLEY CEYLON Virgin Coconut Oil – Cold Pressed Pure Coconut Oil for Cooking and Wellness 500ml",
-    "seoDescription": "Cold-pressed virgin coconut oil crafted for purity, wellness, and everyday cooking.",
+    "seoTitle": "Organic Coconut Water – Ceylon Coconut",
+    "seoDescription": "Fresh and natural coconut water for hydration and revitalization.",
 
-    "longDescription": "Extracted using cold-pressed methods, our Virgin Coconut Oil retains natural nutrients and aroma. Perfect for cooking, skincare, and holistic wellness routines.",
+    "longDescription": "Organic Coconut Water is pure, natural, and refreshing. Perfect for hydration anytime, packed with natural electrolytes for a revitalizing drink.",
 
     "features": [
-      "Cold-pressed extraction",
-      "No additives or preservatives",
-      "Multi-purpose usage",
+      "Pure and natural",
+      "Refreshing and hydrating",
+      "Rich in natural electrolytes",
       "Sustainably sourced coconuts"
     ],
 
     "galleryImages": [
-      "/assets/images/products/coconut/coconut-oil-1.png"
+      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
+    ]
+  },
+  {
+    "id": "organic-coconut-water-can",
+    "slug": "organic-coconut-water-can",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-water",
+
+    "name": "Organic Coconut Water Can",
+    "shortDescription": "Convenient canned coconut water for refreshment on-the-go.",
+    "tags": ["Refreshing", "Natural", "Convenient"],
+    "packInfo": "250ml Can",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water 3.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Liquid",
+    "flavor": "Coconut",
+    "beverageType": "Coconut Water",
+    "unitCount": "250ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic Coconut Water – Ceylon Coconut",
+    "seoDescription": "Fresh and natural coconut water for hydration and revitalization.",
+
+    "longDescription": "Organic Coconut Water Can offers the same fresh, natural hydration in a convenient canned format. Perfect for on-the-go refreshment.",
+
+    "features": [
+      "Convenient and portable",
+      "Refreshing and natural",
+      "Rich in electrolytes"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water 3.png"
+    ]
+  },
+  {
+    "id": "organic-king-coconut-water",
+    "slug": "organic-king-coconut-water",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-water",
+
+    "name": "Organic King Coconut Water",
+    "shortDescription": "Fresh and natural coconut water for hydration.",
+    "tags": ["Refreshing", "Natural", "Hydrating"],
+    "packInfo": "330ml Bottle",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Organic King Coconut Water.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Liquid",
+    "flavor": "King Coconut",
+    "beverageType": "Coconut Water",
+    "unitCount": "330ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "Organic King Coconut Water – Ceylon Coconut",
+    "seoDescription": "Naturally sweet organic king coconut water for refreshing hydration and energy.",
+
+    "longDescription": "Organic King Coconut Water is naturally sweet and refreshing, packed with electrolytes. Perfect for hot days or post-workout hydration.",
+
+    "features": [
+      "Naturally sweet and refreshing",
+      "Rich in natural electrolytes",
+      "Pure and organic"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Organic King Coconut Water.png"
+    ]
+  },
+  {
+    "id": "organic-king-coconut-water-can",
+    "slug": "organic-king-coconut-water-can",
+    "mainCategory": "coconut-based",
+    "subCategory": "coconut-water",
+
+    "name": "Organic Coconut Water Can",
+    "shortDescription": "Sweet and convenient canned king coconut water.",
+    "tags": ["Sweet", "Refreshing", "Convenient"],
+    "packInfo": "250ml Can",
+    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png",
+
+    "brand": "Ceylon Coconut",
+    "itemForm": "Liquid",
+    "flavor": "King Coconut",
+    "beverageType": "Coconut Water",
+    "unitCount": "250ml",
+
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 67,
+
+    "seoTitle": "King Coconut Water Can – Ceylon Coconut",
+    "seoDescription": "Convenient canned king coconut water for natural, sweet hydration anywhere.",
+
+    "longDescription": "King Coconut Water Can delivers naturally sweet and refreshing hydration in a portable canned format. Perfect for on-the-go refreshment.",
+
+    "features": [
+      "Convenient and portable",
+      "Naturally sweet and hydrating",
+      "Rich in electrolytes"
+    ],
+
+    "galleryImages": [
+      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png"
     ]
   }
 ]

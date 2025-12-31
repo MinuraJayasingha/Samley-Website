@@ -98,6 +98,7 @@ function injectProductData(product) {
     setMetaValue("product-item-form", product.itemForm);
     setMetaValue("product-variety", product.teaVariety);
     setMetaValue("product-spice-type", product.spiceType);
+    setMetaValue("product-beverage-type", product.beverageType);
     setMetaValue("product-unit-count", product.unitCount);
 
     /* ---------- Rating ---------- */

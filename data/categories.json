@@ -19,7 +19,7 @@
       { "id": "gift-tea", "slug": "gift-tea", "title": "Gift Tea" },
       { "id": "tea-capsules", "slug": "tea-capsules", "title": "Tea Capsules" },
       { "id": "herbal-infusion", "slug": "herbal-infusion", "title": "Herbal Infusion" },
-      { "id": "organic-herbal", "slug": "organic-herbal", "title": "Organic Herbal" }
+      { "id": "organic-herbal", "slug": "organic-herbal", "title": "Organic Herbal","pagetitle":"Page Title", "description":"description" }
     ]
   },
   {
@@ -28,7 +28,7 @@
     "title": "Beverages",
     "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
-      { "id": "iced-coffee", "slug": "iced-coffee", "title": "Iced Coffee" },
+      { "id": "iced-coffee", "slug": "iced-coffee", "title": "Iced Coffee" , "pagetitle":"Discover Iced Coffee Collection", "description":"description"},
       { "id": "iced-tea", "slug": "iced-tea", "title": "Iced Tea", "pagetitle": "Discover Iced Tea Collection", "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup." }
     ]
   },

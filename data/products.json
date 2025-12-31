@@ -277,6 +277,241 @@
   },
 
   {
+    "id": "lemon-black-iced-coffee",
+    "slug": "lemon-black-iced-coffee",
+    "mainCategory": "beverages",
+    "subCategory": "iced-coffee",
+
+    "name": "Lemon Black Iced Coffee",
+    "shortDescription": "Refreshing iced coffee with a zesty lemon twist.",
+    "tags": ["Refreshing", "Citrusy", "Bold"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Lemon Black Iced Coffee .webp",
+
+    "brand": "Ceylon Coffee",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "Lemon Black",
+    "teaVariety": "Iced Coffee",
+    "unitCount": " 250ml",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": " Lemon Black Iced Coffee – Ceylon Coffee",
+    "seoDescription": "Refreshing black iced coffee with a zesty lemon twist for a bold and energizing drink.",
+
+    "longDescription": "  Lemon Black Iced Coffee blends bold black coffee with a hint of lemon for a refreshing, energizing drink. Perfect for hot days or a quick pick-me-up.",
+
+    "features": [
+      "Refreshing and zesty",
+      "Bold coffee flavor",
+      "Ready-to-drink convenience"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/beverages/iced-coffee-collection/Lemon Black Iced Coffee .webp"
+    ]
+  },
+  {
+    "id": "latte-coffee",
+    "slug": "latte-coffee",
+    "mainCategory": "beverages",
+    "subCategory": "iced-coffee",
+
+    "name": "Latte Coffee",
+    "shortDescription": "Smooth iced latte with creamy milk coffee taste.",
+    "tags": ["Smooth", "Creamy", "Refreshing"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Latte.webp",
+
+    "brand": "Ceylon Coffee",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "Latte",
+    "teaVariety": "Iced Coffee",
+    "unitCount": " 250ml",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": " Latte Coffee – Ceylon Coffee",
+    "seoDescription": "Smooth and creamy iced latte with perfectly balanced milk and coffee flavor.",
+
+    "longDescription": " Latte Coffee is a creamy, smooth iced coffee with a balanced milk and coffee blend. Ideal for refreshing your day or enjoying a light treat.",
+
+    "features": [
+      "Smooth and creamy",
+      "Balanced milk and coffee flavor",
+      "Ready-to-drink convenience"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/beverages/iced-coffee-collection/Latte.webp"
+    ]
+  },
+  {
+    "id": "hazelnut-iced-coffee",
+    "slug": "hazelnut-iced-coffee",
+    "mainCategory": "beverages",
+    "subCategory": "iced-coffee",
+
+    "name": "Hazelnut Iced Coffee",
+    "shortDescription": "Nutty and flavorful iced coffee with hazelnut aroma.",
+    "tags": ["Nutty", "Aromatic", "Smooth"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Hazelnut.webp",
+
+    "brand": "Ceylon Coffee",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "Hazelnut",
+    "teaVariety": "Iced Coffee",
+    "unitCount": " 250ml",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": " Hazelnut Iced Coffee – Ceylon Coffee",
+    "seoDescription": "Smooth and aromatic iced coffee with nutty hazelnut flavor for refreshing enjoyment.",
+
+    "longDescription": " Hazelnut Iced Coffee combines rich coffee with nutty hazelnut flavor for a smooth, aromatic, and refreshing drink. Perfect for on-the-go enjoyment.",
+
+    "features": [
+      "Nutty and aromatic flavor",
+      "Smooth and refreshing",
+      "Ready-to-drink convenience"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/beverages/iced-coffee-collection/Hazelnut.webp"
+    ]
+  },
+  {
+    "id": "french-vanilla-iced-coffee",
+    "slug": "french-vanilla-iced-coffee",
+    "mainCategory": "beverages",
+    "subCategory": "iced-coffee",
+
+    "name": "French Vanilla Iced Coffee",
+    "shortDescription": "Sweet and creamy iced coffee with vanilla essence.",
+    "tags": ["Creamy", "Sweet", "Aromatic"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/French Vanilla .webp",
+
+    "brand": "Ceylon Coffee",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "French Vanilla",
+    "teaVariety": "Iced Coffee",
+    "unitCount": " 250ml",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "  French Vanilla Iced Coffee – Ceylon Coffee",
+    "seoDescription": "Sweet and creamy iced coffee with aromatic vanilla for smooth and refreshing enjoyment.",
+
+    "longDescription": " French Vanilla Iced Coffee blends smooth coffee with aromatic vanilla for a sweet and refreshing drink. Perfect for a quick indulgence anytime.",
+
+    "features": [
+      "Sweet and aromatic flavor",
+      "Smooth and refreshing",
+      "Ready-to-drink convenience"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/beverages/iced-coffee-collection/French Vanilla .webp"
+    ]
+  },
+  {
+    "id": "chocolate-iced-coffee",
+    "slug": "chocolate-vanilla-iced-coffee",
+    "mainCategory": "beverages",
+    "subCategory": "iced-coffee",
+
+    "name": "Chocolate Iced Coffee",
+    "shortDescription": "Rich and indulgent iced coffee with chocolate flavor.",
+    "tags": ["Chocolatey", "Sweet", "Smooth"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Chocolate.webp",
+
+    "brand": "Ceylon Coffee",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "Chocolate",
+    "teaVariety": "Iced Coffee",
+    "unitCount": " 250ml",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": " Chocolate Iced Coffee – Ceylon Coffee",
+    "seoDescription": "Rich and indulgent iced coffee with smooth chocolate flavor for a refreshing treat.",
+
+    "longDescription": " Chocolate Iced Coffee combines rich coffee with smooth chocolate for a decadent, refreshing iced drink. Ideal for chocolate and coffee lovers.",
+
+    "features": [
+      "Rich chocolate flavor",
+      "Smooth and indulgent",
+      "Ready-to-drink convenience"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/beverages/iced-coffee-collection/Chocolate.webp"
+    ]
+  },
+  {
+    "id": "caramel-iced-coffee",
+    "slug": "caramel-vanilla-iced-coffee",
+    "mainCategory": "beverages",
+    "subCategory": "iced-coffee",
+
+    "name": "Caramel Iced Coffee",
+    "shortDescription": " Sweet and smooth iced coffee with caramel flavor.",
+    "tags": ["Sweet", "Smooth", "Refreshing"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Caramel.webp",
+
+    "brand": "Ceylon Coffee",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "Caramel",
+    "teaVariety": "Iced Coffee",
+    "unitCount": " 250ml",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": " Caramel Iced Coffee – Ceylon Coffee",
+    "seoDescription": "Sweet and smooth iced coffee with caramel flavor for a refreshing and indulgent drink.",
+
+    "longDescription": " Caramel Iced Coffee blends smooth coffee with sweet caramel flavor for a delicious and refreshing iced beverage. Perfect for anytime enjoyment.",
+
+    "features": [
+      "Sweet and smooth flavor",
+      "Refreshing and aromatic",
+      "Ready-to-drink convenience"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/beverages/iced-coffee-collection/Caramel.webp"
+    ]
+  },
+
+  {
     "id": "green-tea-classic",
     "slug": "classic-green-tea",
     "mainCategory": "teas",

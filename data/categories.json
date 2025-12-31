@@ -3,93 +3,201 @@
     "id": "teas",
     "slug": "teas",
     "title": "Teas",
-    "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
+    "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
-      { "id": "green-tea", "slug": "green-tea", "title": "Green Tea" },
-      { "id": "black-tea", "slug": "black-tea", "title": "Black Tea" },
-      { "id": "regional-tea", "slug": "regional-tea", "title": "Regional Tea" },
-      { "id": "elegance-tea", "slug": "elegance-tea", "title": "Elegance Tea" },
-      { "id": "luxury-tea", "slug": "luxury-tea", "title": "Luxury Tea" },
-      { "id": "designer-tea", "slug": "designer-tea", "title": "Designer Tea" },
-      { "id": "wellness-tea", "slug": "wellness-tea", "title": "Wellness Tea" },
-      { "id": "speciality-tea", "slug": "speciality-tea", "title": "Speciality Tea" },
-      { "id": "gourmet-tea", "slug": "gourmet-tea", "title": "Gourmet Tea" },
-      { "id": "signature-tea", "slug": "signature-tea", "title": "Signature Tea" },
-      { "id": "heritage-tea", "slug": "heritage-tea", "title": "Heritage Tea" },
-      { "id": "gift-tea", "slug": "gift-tea", "title": "Gift Tea" },
-      { "id": "tea-capsules", "slug": "tea-capsules", "title": "Tea Capsules" },
-      { "id": "herbal-infusion", "slug": "herbal-infusion", "title": "Herbal Infusion" },
-      { "id": "organic-herbal", "slug": "organic-herbal", "title": "Organic Herbal","pagetitle":"Page Title", "description":"description" }
+      {
+        "id": "green-tea",
+        "slug": "green-tea",
+        "title": "Green Tea",
+        "pagetitle": "Discover Green Tea Collection",
+        "description": "Discover our green tea collection, made from carefully selected leaves. Light, refreshing flavors crafted for a calm and mindful tea experience."
+      },
+      {
+        "id": "black-tea",
+        "slug": "black-tea",
+        "title": "Black Tea",
+        "pagetitle": "Discover Black Tea Collection",
+        "description": "Discover our black tea collection, rich and full-bodied. Strong flavors crafted for those who enjoy depth, warmth, and character."
+      },
+      {
+        "id": "regional-tea",
+        "slug": "regional-tea",
+        "title": "Regional Tea",
+        "pagetitle": "Discover Regional Tea Collection",
+        "description": "Discover our regional tea collection, sourced from renowned tea-growing regions. Each cup reflects the unique taste of its origin."
+      },
+      {
+        "id": "elegance-tea",
+        "slug": "elegance-tea",
+        "title": "Elegance Tea",
+        "pagetitle": "Discover Elegance Tea Collection",
+        "description": "Discover our elegance tea collection, crafted for smooth flavor and a graceful finish. A perfect balance of taste and sophistication."
+      },
+      {
+        "id": "luxury-tea",
+        "slug": "luxury-tea",
+        "title": "Luxury Tea",
+        "pagetitle": "Discover Luxury Tea Collection",
+        "description": "Discover our luxury tea collection, created from premium leaves and exceptional blends. Designed for moments that deserve more."
+      },
+      {
+        "id": "designer-tea",
+        "slug": "designer-tea",
+        "title": "Designer Tea",
+        "pagetitle": "Discover Designer Tea Collection",
+        "description": "Discover our designer tea collection, where unique blends meet modern taste. Bold, stylish teas made to stand out."
+      },
+      {
+        "id": "wellness-tea",
+        "slug": "wellness-tea",
+        "title": "Wellness Tea",
+        "pagetitle": "Discover Wellness Tea Collection",
+        "description": "Discover our wellness tea collection, thoughtfully blended to support calm, energy, and everyday well-being."
+      },
+      {
+        "id": "speciality-tea",
+        "slug": "speciality-tea",
+        "title": "Speciality Tea",
+        "pagetitle": "Discover Speciality Tea Collection",
+        "description": "Discover our speciality tea collection, featuring rare flavors and unique blends crafted for true tea enthusiasts."
+      },
+      {
+        "id": "gourmet-tea",
+        "slug": "gourmet-tea",
+        "title": "Gourmet Tea",
+        "pagetitle": "Discover Gourmet Tea Collection",
+        "description": "Discover our gourmet tea collection, blending premium ingredients for a rich, refined taste experience."
+      },
+      {
+        "id": "signature-tea",
+        "slug": "signature-tea",
+        "title": "Signature Tea",
+        "pagetitle": "Discover Signature Tea Collection",
+        "description": "Discover our signature tea collection, carefully crafted to represent our most loved and iconic blends."
+      },
+      {
+        "id": "heritage-tea",
+        "slug": "heritage-tea",
+        "title": "Heritage Tea",
+        "pagetitle": "Discover Heritage Tea Collection",
+        "description": "Discover our heritage tea collection, inspired by time-honored methods and classic Ceylon tea craftsmanship."
+      },
+      {
+        "id": "gift-tea",
+        "slug": "gift-tea",
+        "title": "Gift Tea",
+        "pagetitle": "Discover Gift Tea Collection",
+        "description": "Discover our gift tea collection, beautifully curated for meaningful moments and thoughtful gifting."
+      },
+      {
+        "id": "tea-capsules",
+        "slug": "tea-capsules",
+        "title": "Tea Capsules",
+        "pagetitle": "Discover Tea Capsules Collection",
+        "description": "Discover our tea capsules collection, designed for convenience without compromising flavor or quality."
+      },
+      {
+        "id": "herbal-infusion",
+        "slug": "herbal-infusion",
+        "title": "Herbal Infusion",
+        "pagetitle": "Discover Herbal Infusion Collection",
+        "description": "Discover our herbal infusion collection, crafted from herbs, flowers, and botanicals for gentle, soothing flavors."
+      },
+      {
+        "id": "organic-herbal",
+        "slug": "organic-herbal",
+        "title": "Organic Herbal",
+        "pagetitle": "Page Organic Herbal Collection",
+        "description": "Discover our organic herbal collection, made with certified organic ingredients for a clean and natural brew."
+      }
     ]
   },
+
+
 
   {
     "id": "beverages",
     "slug": "beverages",
     "title": "Beverages",
-    "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
+    "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
-      { "id": "iced-coffee", "slug": "iced-coffee", "title": "Iced Coffee" , "pagetitle":"Discover Iced Coffee Collection", "description":"Discover our iced coffee collection, crafted for smooth, rich flavor served chilled. Perfect for moments that need a cool boost."},
-      { "id": "iced-tea", "slug": "iced-tea", "title": "Iced Tea", "pagetitle": "Discover Iced Tea Collection", "description":" Discover our refreshing iced tea range, crafted from carefully selected tea leaves. Crisp, vibrant flavors designed to cool, refresh, and elevate every moment." }
+      {
+        "id": "iced-coffee",
+        "slug": "iced-coffee",
+        "title": "Iced Coffee",
+        "pagetitle": "Discover Iced Coffee Collection",
+        "description": "Discover our iced coffee collection, crafted for smooth, rich flavor served chilled. Perfect for moments that need a cool boost."
+      },
+      {
+        "id": "iced-tea",
+        "slug": "iced-tea",
+        "title": "Iced Tea",
+        "pagetitle": "Discover Iced Tea Collection",
+        "description": " Discover our refreshing iced tea range, crafted from carefully selected tea leaves. Crisp, vibrant flavors designed to cool, refresh, and elevate every moment."
+      }
     ]
   },
+
+
 
   {
     "id": "organic-spices",
     "slug": "organic-spices",
     "title": "Organic Spices",
-    "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
+    "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {
         "id": "ceylon-organic-spices",
         "slug": "ceylon-organic-spices",
         "title": "Ceylon Organic Spices",
-        "pagetitle": "Discover Organic Spices", 
-        "description":" Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish." 
+        "pagetitle": "Discover Organic Spices",
+        "description": " Discover our Ceylon organic spices collection, sourced from fertile lands and crafted to bring depth and aroma to every dish."
       }
     ]
   },
 
+
+  
   {
     "id": "coconut-based",
     "slug": "coconut-based",
     "title": "Coconut Based",
-    "description":" Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
+    "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {
         "id": "coconut-water",
         "slug": "coconut-water",
         "title": "Coconut Water & King Coconut Water",
-        "pagetitle": "Discover Coconut Water & King Coconut Water", 
-        "description":"Discover our coconut water range, fresh, pure, and naturally hydrating. A clean taste straight from the source." 
+        "pagetitle": "Discover Coconut Water & King Coconut Water",
+        "description": "Discover our coconut water range, fresh, pure, and naturally hydrating. A clean taste straight from the source."
       },
       {
         "id": "coconut-milk",
         "slug": "coconut-milk",
         "title": "Coconut Milk & Coconut Cream",
-        "pagetitle": "Discover Coconut Milk & Coconut Cream", 
-        "description":"Discover our coconut milk and cream collection, crafted for creamy texture and authentic coconut flavor." 
+        "pagetitle": "Discover Coconut Milk & Coconut Cream",
+        "description": "Discover our coconut milk and cream collection, crafted for creamy texture and authentic coconut flavor."
       },
       {
         "id": "coconut-flour",
         "slug": "coconut-flour",
         "title": "Coconut Flour & Coconut Milk Powder",
-        "pagetitle": "Discover Coconut Flour & Coconut Milk Powder", 
-        "description":" Discover our coconut flour and milk powder range, made for versatility, nutrition, and everyday cooking needs." 
+        "pagetitle": "Discover Coconut Flour & Coconut Milk Powder",
+        "description": " Discover our coconut flour and milk powder range, made for versatility, nutrition, and everyday cooking needs."
       },
       {
         "id": "virgin-coconut-oil",
         "slug": "virgin-coconut-oil",
         "title": "Virgin Coconut Oil",
-        "pagetitle": "Discover Virgin Coconut Oil", 
-        "description":" Discover our virgin coconut oil collection, cold-pressed to preserve natural aroma, taste, and nutrients." 
+        "pagetitle": "Discover Virgin Coconut Oil",
+        "description": " Discover our virgin coconut oil collection, cold-pressed to preserve natural aroma, taste, and nutrients."
       },
       {
         "id": "dedicated-coconut",
         "slug": "dedicated-coconut",
         "title": "Dedicated Coconut",
-        "pagetitle": "Discover Dedicated Coconut", 
-        "description":" Discover our dedicated coconut collection, bringing together the finest coconut-based products crafted with care and quality." 
+        "pagetitle": "Discover Dedicated Coconut",
+        "description": " Discover our dedicated coconut collection, bringing together the finest coconut-based products crafted with care and quality."
       }
     ]
   }

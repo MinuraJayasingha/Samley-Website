@@ -1,43 +1,41 @@
 [
   {
-    "id": "wiry-lady-op1",
-    "slug": "wiry-lady-op1-black-tea",
+    "id": "jasmin-green-tea",
+    "slug": "jasmin-green-tea",
     "mainCategory": "teas",
-    "subCategory": "black-tea",
+    "subCategory": "green-tea",
 
-    "name": "Wiry Lady OP1",
-    "shortDescription": "Premium loose leaf Ceylon black tea with rich aroma and smooth finish.",
-    "tags": ["Smooth", "Rich", "Aromatic"],
-    "packInfo": "125g Loose Leaf",
-    "thumbnailImage": "/assets/images/products/teas/wiry-lady-op1-thumb.png",
+    "name": "Jasmin Green Tea",
+    "shortDescription": "Refreshing iced green tea with delicate jasmine aroma.",
+    "tags": ["Floral", "Refreshing", "Light"],
+    "packInfo": "250ml Bottle",
+    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg",
 
-    "brand": "SAMLEY CEYLON",
-    "itemForm": "Loose Leaf",
-    "flavor": "Wiry Lady",
-    "teaVariety": "Ceylon Black Tea",
-    "unitCount": "125g",
+    "brand": "Ceylon Tea",
+    "itemForm": "Ready-to-Drink",
+    "flavor": "Jasmine Green",
+    "teaVariety": "Green Tea",
+    "unitCount": " 250ml",
 
-    "price": 12.99,
+    "price": 3.99,
     "currency": "USD",
-    "stock": 14,
-    "rating": 4.9,
-    "reviewCount": 109,
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
 
-    "seoTitle": "SAMLEY CEYLON – Loose Leaf Tea Ceylon Black Wiry Lady OP1 Premium Luxury Gourmet Tea from Sri Lanka – 125g",
-    "seoDescription": "Experience premium Ceylon black tea crafted from long wiry leaves, delivering a rich aroma and smooth golden liquor.",
+    "seoTitle": "Jasmin Green Tea – Iced Tea – Ceylon Tea",
+    "seoDescription": "Refreshing iced green tea with delicate jasmine aroma for a light and calming drink.",
 
-    "longDescription": "Experience authentic Ceylon black tea with Wiry Lady OP1, featuring clean long-wiry dark leaves and a golden-orange brew. This premium loose leaf tea offers a malt-infused aroma and a smooth, sophisticated taste crafted for true tea connoisseurs.",
+    "longDescription": "Jasmin Green Tea is a delicate iced green tea infused with fragrant jasmine blossoms. Light, refreshing, and perfect for hot days or a calming drink anytime.",
 
     "features": [
-      "100% pure Ceylon black tea",
-      "Handpicked long wiry leaves",
-      "Rich aroma with smooth finish",
-      "Ideal for daily luxury tea moments"
+      "Light and floral",
+      "Refreshing iced tea",
+      "Ready-to-drink convenience"
     ],
 
     "galleryImages": [
-      "/assets/images/products/teas/wiry-lady-op1-1.png",
-      "/assets/images/products/teas/wiry-lady-op1-2.png"
+      "assets/images/products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg"
     ]
   },
 

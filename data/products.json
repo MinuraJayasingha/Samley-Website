@@ -614,7 +614,7 @@
     "packInfo": "Loose Tea Pack",
     "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Green Fantasy.png",
 
-    "brand": "Lover’s Night Tea",
+    "brand": "Ceylon Tea",
     "itemForm": "Loose Teas",
     "flavor": "Aromatic Green Tea",
     "teaVariety": "Green Tea Blend",
@@ -654,7 +654,7 @@
     "packInfo": "Loose Tea Pack",
     "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png",
 
-    "brand": "Lover’s Night Tea",
+    "brand": "Ceylon Tea",
     "itemForm": "Loose Teas",
     "flavor": "Chamomile",
     "teaVariety": "Herbal Tea",
@@ -694,7 +694,7 @@
     "packInfo": "Loose Tea Pack",
     "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Blue Lady.png",
 
-    "brand": "Lover’s Night Tea",
+    "brand": "Ceylon Tea",
     "itemForm": "Loose Teas",
     "flavor": "Fruity Blend",
     "teaVariety": "Black Tea Blend",
@@ -720,6 +720,247 @@
 
     "galleryImages": [
       "assets/images/products/Teas/Elegance Teas/Blue Lady.png"
+    ]
+  },
+
+  {
+    "id": "arabian-night-tea",
+    "slug": "arabian-night-tea",
+    "mainCategory": "teas",
+    "subCategory": "luxury-tea",
+
+    "name": "Arabian Night Tea",
+    "shortDescription": "Rich and exotic luxury tea blend.Deep aroma with a smooth finish.",
+    "tags": ["Exotic", "Rich", "Aromatic"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Arabian Night.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Exotic Blend",
+    "teaVariety": "Luxury Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Arabian Night Tea – Luxury Tea Collection",
+    "seoDescription": "A rich and exotic luxury tea blend with deep aroma and smooth taste.",
+
+    "longDescription": "Arabian Night Tea is a luxurious blend with deep and exotic aromas.It delivers a rich, smooth taste that feels warm and indulgent.Best enjoyed during calm evenings or special moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Luxury Teas/Arabian Night.png"
+    ]
+  },
+  {
+    "id": "wiry-lady-tea",
+    "slug": "wiry-lady-tea",
+    "mainCategory": "teas",
+    "subCategory": "luxury-tea",
+
+    "name": "Wiry Lady Tea",
+    "shortDescription": "Elegant whole-leaf black tea.Bright liquor with refined taste.",
+    "tags": ["Elegant", "Bright", "Refined"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Wiry Lady.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Pure Black Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Wiry Lady Tea – Luxury Tea Collection",
+    "seoDescription": "Elegant whole-leaf Ceylon black tea with a bright and refined taste.",
+
+    "longDescription": "Wiry Lady Tea is made from carefully rolled whole tea leaves.It produces a bright cup with a refined and smooth taste.Perfect for tea connoisseurs who enjoy purity.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Luxury Teas/Wiry Lady.png"
+    ]
+  },
+  {
+    "id": "tipy-delight-tea",
+    "slug": "tipy-delight-tea",
+    "mainCategory": "teas",
+    "subCategory": "luxury-tea",
+
+    "name": "Tippy Delight Tea",
+    "shortDescription": "Premium tea made from golden tips.Smooth, rich, and naturally sweet.",
+    "tags": ["Smooth", "Rich", "Premium"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Tippy Delight.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Natural Sweet Notes",
+    "teaVariety": "Premium Black Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Tippy Delight Tea – Luxury Tea Collection",
+    "seoDescription": "Premium tea made from golden tips with a smooth and rich flavor.",
+
+    "longDescription": "Tippy Delight Tea is crafted from tender tea tips for a rich flavor.It offers a smooth taste with gentle natural sweetness.Ideal for those who enjoy fine luxury teas.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Luxury Teas/Tippy Delight.png"
+    ]
+  },
+  {
+    "id": "sencha-delight-tea",
+    "slug": "sencha-delight-tea",
+    "mainCategory": "teas",
+    "subCategory": "luxury-tea",
+
+    "name": "Sencha Delight Tea",
+    "shortDescription": "Fresh and smooth green tea.Light taste with clean finish.",
+    "tags": ["Fresh", "Light", "Smooth"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Sencha Delight.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Green Tea",
+    "teaVariety": "Green Tea",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Sencha Delight Tea – Luxury Tea Collection",
+    "seoDescription": "Smooth and refreshing sencha-style green tea with a clean, light taste.",
+
+    "longDescription": "Sencha Delight Tea is a fine green tea with a fresh character.It delivers a smooth, light taste with a clean finish.Perfect for daytime tea enjoyment.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Luxury Teas/Sencha Delight.png"
+    ]
+  },
+  {
+    "id": "royal-blend-tea",
+    "slug": "royal-blend-tea",
+    "mainCategory": "teas",
+    "subCategory": "luxury-tea",
+
+    "name": "Royal Blend Tea",
+    "shortDescription": "A bold and elegant premium blend.Rich taste with royal character.",
+    "tags": ["Bold", "Elegant", "Rich"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Royal Blend.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Premium Blend",
+    "teaVariety": "Luxury Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Royal Blend Tea – Luxury Tea Collection",
+    "seoDescription": "Bold and elegant premium tea blend with a rich and smooth taste.",
+
+    "longDescription": "Royal Blend Tea is a carefully balanced premium tea blend.It delivers a bold, rich flavor with a smooth finish.Perfect for those who enjoy strong luxury teas.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Luxury Teas/Royal Blend.png"
+    ]
+  },
+  {
+    "id": "delicate-brew-tea",
+    "slug": "delicate-brew-tea",
+    "mainCategory": "teas",
+    "subCategory": "luxury-tea",
+
+    "name": "Delicate Brew Tea",
+    "shortDescription": "Light and refined luxury tea.Smooth taste with gentle aroma.",
+    "tags": ["Light", "Refined", "Smooth"],
+    "packInfo": "Loose Tea Pack",
+    "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Delicate Brew.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Refined Blend",
+    "teaVariety": "Luxury Tea Blend",
+    "unitCount": " Loose Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Delicate Brew Tea – Luxury Tea Collection",
+    "seoDescription": "Light and refined luxury tea blend with a smooth and gentle taste.",
+
+    "longDescription": "Delicate Brew Tea is crafted for a soft and refined tea experience.It offers a smooth, gentle taste with a pleasant aroma.Ideal for relaxed and mindful tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Luxury Teas/Delicate Brew.png"
     ]
   },
 

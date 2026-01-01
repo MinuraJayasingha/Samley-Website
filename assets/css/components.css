@@ -1115,6 +1115,31 @@ sup {
 .desktop-tabs {
     display: none;
 }
+.product-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 5px;
+    padding: 30px 24px;
+}
+.product-discription-main{
+    display: flex;
+    flex-direction: column;
+        gap: 5px;
+    height: max-content;
+    max-width: 1240px;
+}
+.product-discription-sub{
+    display: flex;
+    flex-direction: column;
+        gap: 5px;
+    height: max-content;
+    max-width: 1240px;
+}
+
 
 /* ---------- Tablet ---------- */
 @media (min-width: 768px) {
@@ -1184,6 +1209,10 @@ sup {
         display: flex;
         height: max-content;
     }
+    .product-discription{
+    padding: 40px 36px;
+}
+
 }
 
 /* ---------- Desktop ---------- */
@@ -1224,6 +1253,35 @@ sup {
         text-transform: uppercase;
         color: var(--color-text-secondary);
     }
+    .product-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 5px;
+    padding: 50px 80px;
+}
+.product-discription-main{
+    display: flex;
+    flex-direction: row;
+        gap: 5px;
+    width: 100%;
+    height: auto;
+    max-width: 1240px;
+}
+.product-discription-main img{
+    width: 100%;
+    height: auto;
+}
+.product-discription-sub{
+    display: flex;
+    flex-direction: row;
+        gap: 5px;
+        width: 100%;
+    height: auto;
+}
 }
 
 /* ---------- Large Desktop ---------- */

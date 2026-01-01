@@ -300,14 +300,19 @@
 /*------- PREMIUM TEA COLLECTION---------*/
 /*--------------------------------*/
 .premium-tea-section {
-    padding: 30px 24px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 30px 24px;
     width: 100%;
 }
-
+.premium-tea-inner{
+        padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 1440px;
+}
 .premium-tea-image {
     width: 100%;
     height: 350px;
@@ -454,10 +459,6 @@
    Small devices (≥576px)
    ========================= */
 @media (min-width: 576px) {
-    .story-of-samley {
-        padding: 30px 24px;
-    }
-
     .content-bottom-top p {
         display: block;
         font-family: var(--font-body);
@@ -471,12 +472,23 @@
    ========================= */
 @media (min-width: 700px) {
     .premium-tea-section {
-        padding: 60px 80px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
+    .premium-tea-inner{
+        padding: 60px 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 1440px;
+}
 
     .premium-tea-image {
         height: auto;
-
+        width: 100%;
     }
 
     /* TOP CARD */
@@ -488,14 +500,6 @@
         padding: 25px;
     }
 
-    .premium-tea-section {
-        padding: 30px 24px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
-        padding: 30px 24px;
-        width: 100%;
-    }
 }
 
 /* =========================
@@ -521,10 +525,15 @@
 }
 
 @media (min-width: 1200px) {
-    .premium-tea-section {
-        padding: 60px 80px;
-    }
 
+    .premium-tea-inner{
+        padding: 60px 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 1440px;
+}
     .content-bottom-cards {
         display: flex;
         flex-direction: row;
@@ -545,7 +554,7 @@
    2XL screens (≥1400px)
    ========================= */
 @media (min-width: 1400px) {
-    .premium-tea-section {
+    .premium-tea-inner {
         padding: 80px 100px;
     }
 }
@@ -677,14 +686,17 @@
     justify-content: center;
     gap: 20px;
 }
-.discover-tea-section-01{
+
+.discover-tea-section-01 {
     display: flex;
     flex-direction: column;
-   gap: 20px;
-   width: 100%;        max-width: 1440px; 
+    gap: 20px;
+    width: 100%;
+    max-width: 1440px;
     padding: 30px 24px 30px 24px;
 
 }
+
 .discover-tea-top {
     width: 100%;
     display: flex;
@@ -821,13 +833,14 @@
    ========================= */
 @media (min-width: 425px) {
 
-    }.discover-tea-section-01{
-    display: flex;
-    flex-direction: column;
-   gap: 20px;
-   width: 100%;        max-width: 1440px; 
-    padding: 30px 24px 30px 24px;
-}
+    .discover-tea-section-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        padding: 30px 24px 30px 24px;
+    }
 
     .discover-tea-top .text-content #heading-one {
         display: block;
@@ -887,14 +900,14 @@
    ========================= */
 @media (min-width: 768px) {
 
-    .discover-tea-section-01{
-    display: flex;
-    flex-direction: column;
-   gap: 20px;
-   width: 100%;        max-width: 1440px; 
-    padding: 40px 36px 40px 36px;
-
-}
+    .discover-tea-section-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        padding: 40px 36px 40px 36px;
+    }
 }
 
 /* =========================
@@ -902,14 +915,14 @@
    ========================= */
 @media (min-width: 992px) {
 
-    .discover-tea-section-01{
-    display: flex;
-    flex-direction: column;
-   gap: 20px;
-   width: 100%;        max-width: 1440px; 
-    padding: 60px 80px 60px 80px;
-
-}
+    .discover-tea-section-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        padding: 60px 80px 60px 80px;
+    }
 
     .discover-tea-top {
         padding: 0 0px 0 0;
@@ -929,16 +942,16 @@
    Large screens (≥1200px)
    ========================= */
 @media (min-width: 1200px) {
-    .discover-tea-section {
-    }
-.discover-tea-section-01{
-    display: flex;
-    flex-direction: column;
-   gap: 20px;
-   width: 100%;        max-width: 1440px; 
-    padding: 80px 100px 80px 100px;
 
-}
+    .discover-tea-section-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+        padding: 80px 100px 80px 100px;
+    }
+
     .discover-p-card {
         width: 28%;
         display: flex;
@@ -993,24 +1006,28 @@
 /*-----------------------------*/
 /* Hide scrollbar but keep scroll */
 .hide-scrollbar {
-  overflow: auto;           /* or overflow-x / overflow-y */
-  scrollbar-width: none;    /* Firefox */
-  -ms-overflow-style: none; /* IE & old Edge */
+    overflow: auto;
+    /* or overflow-x / overflow-y */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE & old Edge */
 }
 
 .hide-scrollbar::-webkit-scrollbar {
-  display: none;            /* Chrome, Safari, Edge */
+    display: none;
+    /* Chrome, Safari, Edge */
 }
 
 .horizontal-scroll {
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .horizontal-scroll::-webkit-scrollbar {
-  display: none;
+    display: none;
 }

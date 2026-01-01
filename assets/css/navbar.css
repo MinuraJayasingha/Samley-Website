@@ -23,7 +23,7 @@
 
 /* Navbar Logo */
 .navbar-logo {
-    background-image: url(/assets/images/logos/samley_logo.png);
+    background-image: url(../images/logos/samley_logo.png);
     background-size: cover;
     width: 112px;
     height: 72px;

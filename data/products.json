@@ -3235,6 +3235,488 @@
     ]
   },
 
+  {
+    "id": "berry-sensation-tea",
+    "slug": "berry-sensation-tea",
+    "mainCategory": "teas",
+    "subCategory": "herbal-infusion",
+
+    "name": "Berry Sensation Tea",
+    "shortDescription": "Fruity herbal infusion bursting with berry flavors.",
+    "tags": ["Fruity", "Refreshing", "Herbal"],
+    "packInfo": "250g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Infusions Teas/Berry Sensation 250g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Berry",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": "250g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Berry Sensation Tea – Organic Herbal Infusions – Ceylon Tea",
+    "seoDescription": "Fruity and aromatic organic herbal infusion with refreshing berry flavors.",
+
+    "longDescription": "Berry Sensation Tea is a vibrant blend of organic herbs and berries, offering a sweet, refreshing, and aromatic cup. Perfect for anytime enjoyment.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Infusions Teas/Berry Sensation 250g.png"
+    ]
+  },
+  {
+    "id": "ferench-vanila-tea",
+    "slug": "ferench-vanila-tea",
+    "mainCategory": "teas",
+    "subCategory": "herbal-infusion",
+
+    "name": "French Vanilla Tea",
+    "shortDescription": "Smooth and creamy herbal infusion with vanilla aroma.",
+    "tags": ["Creamy", "Aromatic", "Smooth"],
+    "packInfo": "250g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Infusions Teas/French Vanilla 250g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Vanilla",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": "250g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "French Vanilla Tea – Organic Herbal Infusions – Ceylon Tea",
+    "seoDescription": " Smooth and aromatic organic herbal infusion with natural vanilla flavor.",
+
+    "longDescription": "French Vanilla Tea is a delicate organic herbal blend infused with natural vanilla flavor. Smooth, comforting, and perfect for relaxing moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Infusions Teas/French Vanilla 250g.png"
+    ]
+  },
+  {
+    "id": "herbal-punch-tea",
+    "slug": "herbal-punch-tea",
+    "mainCategory": "teas",
+    "subCategory": "herbal-infusion",
+
+    "name": "Herbal Punch Tea",
+    "shortDescription": "Bold herbal infusion with fruity and spicy notes.",
+    "tags": ["Bold", "Fruity", "3. Tags: Bold, Fruity, Spicy"],
+    "packInfo": "250g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Infusions Teas/Herbal Punch 250g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Mixed Herbal",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": "250g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Herbal Punch Tea – Organic Herbal Infusions – Ceylon Tea",
+    "seoDescription": "Bold and flavorful organic herbal infusion with fruity and spicy notes.",
+
+    "longDescription": "Herbal Punch Tea is an invigorating blend of organic herbs, fruits, and spices. Full-bodied, flavorful, and perfect for a refreshing herbal cup.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Infusions Teas/Herbal Punch 250g.png"
+    ]
+  },
+  {
+    "id": "mango-delight-tea",
+    "slug": "mango-delight-tea",
+    "mainCategory": "teas",
+    "subCategory": "herbal-infusion",
+
+    "name": "Mango Delight Tea",
+    "shortDescription": "Sweet and tropical herbal infusion with mango flavor.",
+    "tags": ["Fruity", "Tropical", "Sweet"],
+    "packInfo": "250g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Infusions Teas/Mango Delight 250g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Mango",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": "250g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Mango Delight Tea – Organic Herbal Infusions – Ceylon Tea",
+    "seoDescription": " Fruity and aromatic organic herbal infusion with tropical mango flavor.",
+
+    "longDescription": "Mango Delight Tea is a refreshing organic herbal blend infused with natural mango flavor. Sweet, aromatic, and perfect for a tropical tea break.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Infusions Teas/Mango Delight 250g.png"
+    ]
+  },
+  {
+    "id": "rhubarb-tart-tea",
+    "slug": "rhubarb-tart-tea",
+    "mainCategory": "teas",
+    "subCategory": "herbal-infusion",
+
+    "name": "Rhubarb Tart Tea",
+    "shortDescription": "Tangy and refreshing herbal infusion with rhubarb flavor.",
+    "tags": ["Tangy", "Fruity", "Refreshing"],
+    "packInfo": "250g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Infusions Teas/Rhubarb Tart 250g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Rhubarb",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": "250g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Rhubarb Tart Tea – Organic Herbal Infusions – Ceylon Tea",
+    "seoDescription": "Tangy and refreshing organic herbal infusion with fruity rhubarb flavor.",
+
+    "longDescription": "Rhubarb Tart Tea is an organic herbal infusion with a tangy rhubarb flavor. Refreshing, aromatic, and perfect for a light and fruity tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Infusions Teas/Rhubarb Tart 250g.png"
+    ]
+  },
+  {
+    "id": "berry-sensation-tea",
+    "slug": "berry-sensation-tea",
+    "mainCategory": "teas",
+    "subCategory": "herbal-infusion",
+
+    "name": "Rose Blossom Tea",
+    "shortDescription": "Delicate herbal infusion with aromatic rose petals.",
+    "tags": ["Floral", "Aromatic", "Soothing"],
+    "packInfo": "250g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Infusions Teas/Rose Blossom 250g.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Rose",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": "250g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Rose Blossom Tea – Organic Herbal Infusions – Ceylon Tea",
+    "seoDescription": "Light and aromatic organic herbal infusion with delicate rose petals for a soothing tea experience.",
+
+    "longDescription": "Rose Blossom Tea is a soothing organic herbal blend infused with fragrant rose petals. Light, aromatic, and perfect for calming tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Infusions Teas/Rose Blossom 250g.png"
+    ]
+  },
+
+  {
+    "id": "blue-pea&moringa-tea",
+    "slug": "blue-pea&moringa-tea",
+    "mainCategory": "teas",
+    "subCategory": "organic-herbal",
+
+    "name": " Blue Pea & Moringa Tea",
+    "shortDescription": "Refreshing herbal blend with blue pea and moringa.",
+    "tags": ["Herbal", "Refreshing", "Healthy"],
+    "packInfo": "100g Canister",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Blue Pea & Moringa).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": "Blue Pea & Moringa",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": " 100g ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Blue Pea & Moringa Tea Canister – Organic Herbal Tea – Ceylon Tea",
+    "seoDescription": "Refreshing organic herbal blend of blue pea flowers and moringa leaves for daily wellness.",
+
+    "longDescription": "Blue Pea & Moringa Tea combines vibrant blue pea flowers with nutrient-rich moringa leaves. Smooth, refreshing, and perfect for daily wellness.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Blue Pea & Moringa).png"
+    ]
+  },
+  {
+    "id": "chamomile-valerian-tea",
+    "slug": "chamomile-valerian-tea",
+    "mainCategory": "teas",
+    "subCategory": "organic-herbal",
+
+    "name": "Chamomile & Valerian Tea",
+    "shortDescription": "Soothing herbal tea with chamomile and valerian.",
+    "tags": ["Relaxing", "Floral", "Calming"],
+    "packInfo": "100g Canister",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Chamomile & Valerian).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": "Chamomile & Valerian",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": " 100g ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Chamomile & Valerian Tea Canister – Organic Herbal Tea – Ceylon Tea",
+    "seoDescription": "Calming organic herbal tea with chamomile and valerian for relaxation and soothing moments.",
+
+    "longDescription": "Chamomile & Valerian Tea is a calming herbal blend designed to soothe and relax. Perfect for evening tea or winding down after a long day.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Chamomile & Valerian).png"
+    ]
+  },
+  {
+    "id": "elderberry&ginger-root-tea",
+    "slug": "elderberry&ginger-root-tea",
+    "mainCategory": "teas",
+    "subCategory": "organic-herbal",
+
+    "name": " Elderberry & Ginger Root Tea",
+    "shortDescription": "Invigorating herbal blend with elderberry and ginger.",
+    "tags": ["Spicy", "Fruity", "Energizing"],
+    "packInfo": "100g Canister",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Elderberry & Ginger Root).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": "Elderberry & Ginger",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": " 100g ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Elderberry & Ginger Root Tea Canister – Organic Herbal Tea – Ceylon Tea",
+    "seoDescription": "Fruity and spicy organic herbal tea with elderberry and ginger root for immunity and flavor.",
+
+    "longDescription": "Elderberry & Ginger Root Tea blends the fruity sweetness of elderberry with the warm spiciness of ginger root. Perfect for boosting immunity and flavor.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Elderberry & Ginger Root).png"
+    ]
+  },
+  {
+    "id": "ginger-licorice-tea",
+    "slug": "ginger-licorice-tea",
+    "mainCategory": "teas",
+    "subCategory": "organic-herbal",
+
+    "name": "Ginger & Licorice Tea",
+    "shortDescription": "Spicy and sweet herbal infusion with ginger and licorice.",
+    "tags": ["Spicy", "Sweet", "Herbal"],
+    "packInfo": "100g Canister",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Ginger & Licorice).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": "Ginger & Licorice",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": " 100g ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ginger & Licorice Tea Canister – Organic Herbal Tea – Ceylon Tea",
+    "seoDescription": "Spicy and sweet organic herbal infusion with ginger and licorice for digestion and wellness.",
+
+    "longDescription": "Ginger & Licorice Tea combines warm ginger spice with sweet licorice root for a soothing and flavorful herbal experience. Perfect for wellness and digestion.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Ginger & Licorice).png"
+    ]
+  },
+  {
+    "id": "hibiscus-lavender-tea",
+    "slug": "hibiscus-lavender-tea",
+    "mainCategory": "teas",
+    "subCategory": "organic-herbal",
+
+    "name": " Hibiscus & Lavender Tea",
+    "shortDescription": "Floral and tangy herbal blend with hibiscus and lavender.",
+    "tags": ["Floral", "Tangy", "Refreshing"],
+    "packInfo": "100g Canister",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Hibiscus & Lavender).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": " Hibiscus & Lavender",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": " 100g ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Chamomile & Valerian Tea Canister – Organic Herbal Tea – Ceylon Tea",
+    "seoDescription": "Calming organic herbal tea with chamomile and valerian for relaxation and soothing moments.",
+
+    "longDescription": "Hibiscus & Lavender Tea combines tart hibiscus with aromatic lavender for a calming, refreshing, and flavorful cup. Ideal for relaxing tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Hibiscus & Lavender).png"
+    ]
+  },
+  {
+    "id": "peppermint-dandelion-tea",
+    "slug": "peppermint-dandelion-tea",
+    "mainCategory": "teas",
+    "subCategory": "organic-herbal",
+
+    "name": " Peppermint & Dandelion Tea",
+    "shortDescription": "Refreshing herbal tea with peppermint and dandelion root.",
+    "tags": ["Refreshing", "Herbal", "Digestive"],
+    "packInfo": "100g Canister",
+    "thumbnailImage": "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Peppermint & Dandelion).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": "  Peppermint & Dandelion",
+    "teaVariety": "Herbal Infusion",
+    "unitCount": " 100g ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Peppermint & Dandelion Tea Canister – Organic Herbal Tea – Ceylon Tea",
+    "seoDescription": "Refreshing organic herbal tea with peppermint and dandelion for digestion and daily wellness.",
+
+    "longDescription": "Peppermint & Dandelion Tea is a cooling and refreshing herbal infusion. Peppermint soothes while dandelion supports digestion, making it perfect for daily wellness.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Organic Herbal Collection/Two-tier Canister (Peppermint & Dandelion).png"
+    ]
+  },
+
 
   {
     "id": "jasmin-green-tea",

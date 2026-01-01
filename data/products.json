@@ -2850,6 +2850,391 @@
     ]
   },
 
+  {
+    "id": "advent-calendar",
+    "slug": "advent-calendar",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "30-Day Advent Calendar – Tea Collection",
+    "shortDescription": "30 days of curated teas for a delightful countdown experience.",
+    "tags": ["Assorted", "Gift", "Fun"],
+    "packInfo": "30TB Box",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Assorted",
+    "teaVariety": "Mixed Tea Collection",
+    "unitCount": " 30TB",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "30-Day Advent Calendar – Tea Collection – Ceylon Tea",
+    "seoDescription": "30 days of curated teas for a delightful daily tea experience, perfect for gifting.",
+
+    "longDescription": "The 30-Day Advent Calendar – Tea Collection offers a unique tea for each day of the month. Perfect for tea lovers, gifting, or discovering new flavors.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 3.png",
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 4.png",
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 5.png"
+    ]
+  },
+  {
+    "id": "tea-makers-private-assortment",
+    "slug": "tea-makers-private-assortment",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "Tea Makers Private Assortment",
+    "shortDescription": "Exclusive assortment of premium Ceylon teas.",
+    "tags": ["Assorted", "Premium", "Exclusive"],
+    "packInfo": "50g x 6 Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Assorted Premium",
+    "teaVariety": "Mixed Tea Collection",
+    "unitCount": " 50g x 6",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Tea Makers Private Assortment – Ceylon Tea",
+    "seoDescription": "Handpicked premium Ceylon teas for a rich and diverse tasting experience, perfect for gifting.",
+
+    "longDescription": "Tea Makers Private Assortment features a selection of premium Ceylon teas, handpicked for a rich and diverse tasting experience. Ideal for gifting or personal indulgence.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 2.png",
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 3.png",
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 4.png"
+    ]
+  },
+  {
+    "id": "six-region-ceylon-tea",
+    "slug": "six-region-ceylon-tea",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "Six Region – Ceylon Gourmet Teas",
+    "shortDescription": "3Gourmet teas from six renowned Ceylon regions.",
+    "tags": ["Gourmet", "Regional", "Assorted"],
+    "packInfo": "6 x 25g Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": " Regional Assorted",
+    "teaVariety": "Mixed Gourmet Tea",
+    "unitCount": " 6 x 25g Pack",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Six Region – Ceylon Gourmet Teas – Ceylon Tea",
+    "seoDescription": "Discover gourmet teas from six Ceylon regions, each with unique flavors and aromas.",
+
+    "longDescription": "Six Region – Ceylon Gourmet Teas brings you the best teas from six unique Ceylon regions. Enjoy distinctive flavors and aromas from each region in one collection.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png",
+      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 2.png",
+      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 4 (2).png",
+      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 4.png"
+    ]
+  },
+  {
+    "id": "LOVE-OF-MY-LIFE",
+    "slug": "LOVE-OF-MY-LIFE",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "LOVE OF MY LIFE",
+    "shortDescription": "Romantic tea gift set with assorted premium teas.",
+    "tags": ["Gift", "Romantic", "Assorted"],
+    "packInfo": "6TB Box",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Assorted Premium",
+    "teaVariety": "Mixed Tea Collection",
+    "unitCount": " 6TB",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "LOVE OF MY LIFE – Ceylon Tea",
+    "seoDescription": " Romantic gift set of premium Ceylon teas, perfect for special occasions and cozy moments.",
+
+    "longDescription": "LOVE OF MY LIFE is a romantic gift set of premium Ceylon teas, perfect for special occasions. Enjoy a curated selection for a cozy and delightful tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
+      "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 2.png"
+    ]
+  },
+  {
+    "id": "holiday-fantasy–tea-assortment",
+    "slug": "holiday-fantasy–tea-assortment",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "Holiday Fantasy – Tea Assortment",
+    "shortDescription": "Festive assortment of Ceylon teas for the holidays.",
+    "tags": ["Festive", "Assorted", "Gift"],
+    "packInfo": "8TB Box",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Assorted Premium",
+    "teaVariety": "Mixed Tea Collection",
+    "unitCount": "  8TB",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Holiday Fantasy – Tea Assortment – Ceylon Teaa",
+    "seoDescription": "Festive assortment of premium Ceylon teas, perfect for gifting and holiday celebrations.",
+
+    "longDescription": "Holiday Fantasy – Tea Assortment brings festive joy with a curated selection of premium Ceylon teas. Ideal for gifting or celebrating special occasions.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 2.png",
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 3.png",
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 4.png"
+    ]
+  },
+  {
+    "id": "elephant-gift-box",
+    "slug": "elephant-gift-box",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "Elephant Gift Box – Ceylon White Tea Collection",
+    "shortDescription": "Elegant gift box with premium Ceylon white teas.",
+    "tags": ["Premium", "Elegant", "White Tea"],
+    "packInfo": "350g x 3 Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Elephant Gift Box 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "White Tea",
+    "teaVariety": "White Tea",
+    "unitCount": " 50g x 3",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Elephant Gift Box – Ceylon White Tea Collection – Ceylon Tea",
+    "seoDescription": "Premium Ceylon white teas in an elegant gift box for a smooth and delicate tea experience.",
+
+    "longDescription": "Elephant Gift Box offers a curated selection of premium Ceylon white teas in an elegant box. Perfect for gifting or enjoying a delicate tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 1.png",
+      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 2.png",
+      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 3.png",
+      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 4.png"
+    ]
+  },
+  {
+    "id": "variant-wellness-tea-pack",
+    "slug": "variant-wellness-tea-pack",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "Variant Wellness Tea Pack – Ceylon White Tea Collection",
+    "shortDescription": "Assorted wellness-focused white teas for daily health.",
+    "tags": ["Wellness", "Wellness", "Assorted"],
+    "packInfo": "6 x 20g Pack",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Day Five Variant 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": " Loose Tea",
+    "flavor": "Assorted White Tea",
+    "teaVariety": "White Tea",
+    "unitCount": " 6 x 20g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Variant Wellness Tea Pack – Ceylon White Tea Collection – Ceylon Tea",
+    "seoDescription": "Assorted premium Ceylon white teas focused on wellness and daily healthy enjoyment.",
+
+    "longDescription": "Variant Wellness Tea Pack offers a selection of premium Ceylon white teas designed for wellness and balance. Enjoy soothing flavors and healthy benefits daily.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 1.png",
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 3.png",
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 4.png",
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 5.png"
+    ]
+  },
+  {
+    "id": "30-days-variant-wellness-tea-pack",
+    "slug": "30-days-variant-wellness-tea-pack",
+    "mainCategory": "teas",
+    "subCategory": "gift-tea",
+
+    "name": "30-Day Five Variant Wellness Tea Pack",
+    "shortDescription": "Assorted wellness-focused white teas for daily health.",
+    "tags": ["Wellness", "Wellness", "Assorted"],
+    "packInfo": "30TB Box",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Day Five Variant 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Assorted Wellness",
+    "teaVariety": "Mixed Tea Collection",
+    "unitCount": " 30TB ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "30-Day Five Variant Wellness Tea Pack – Ceylon Tea",
+    "seoDescription": "30 days of curated wellness teas across five variants for a healthy and balanced tea experience.",
+
+    "longDescription": "30-Day Five Variant Wellness Tea Pack provides a curated selection of five wellness-focused teas, one for each day, for a month-long healthy tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 1.png",
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 3.png",
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 4.png",
+      "assets/images/products/Teas/Gift Teas/Day Five Variant 5.png"
+    ]
+  },
+
+  {
+    "id": "tea-capsules–saffron-infused",
+    "slug": "tea-capsules–saffron-infused",
+    "mainCategory": "teas",
+    "subCategory": "tea-capsules",
+
+    "name": "Tea Capsules – Saffron Infused",
+    "shortDescription": "Premium tea capsules infused with aromatic saffron.",
+    "tags": ["Aromatic", "Exotic", "Convenient"],
+    "packInfo": "10 Capsules Pack",
+    "thumbnailImage": "assets/images/products/Teas/Tea Capsules/Tea Capsules – Saffron Infused Premium Ceylon Tea 1.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Capsule",
+    "flavor": "Saffron Infused",
+    "teaVariety": "Flavored Black Tea",
+    "unitCount": " 10 Capsules ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Tea Capsules – Saffron Infused – Ceylon Tea",
+    "seoDescription": "Premium saffron-infused tea in convenient single-serve capsules for a rich and aromatic experience.",
+
+    "longDescription": "Tea Capsules – Saffron Infused deliver a rich, aromatic saffron tea experience in convenient single-serve capsules. Perfect for quick brewing and luxurious tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Tea Capsules/Tea Capsules – Saffron Infused Premium Ceylon Tea 1.png",
+      "assets/images/products/Teas/Tea Capsules/Tea Capsules – Saffron Infused Premium Ceylon Tea 2.png"
+    ]
+  },
+
 
   {
     "id": "jasmin-green-tea",

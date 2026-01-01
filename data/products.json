@@ -2649,6 +2649,207 @@
     ]
   },
 
+  {
+    "id": "heritage-black-tea-ceylon",
+    "slug": "heritage-black-tea-ceylon",
+    "mainCategory": "teas",
+    "subCategory": "heritage-tea",
+
+    "name": "Black Tea – Ceylon",
+    "shortDescription": "Classic Ceylon black tea with bold, robust flavor.",
+    "tags": ["Strong", "Robust", "Classic"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon H.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Black Tea – Ceylon – Heritage Tea",
+    "seoDescription": "Classic full-bodied Ceylon black tea with bold flavor and rich aroma.",
+
+    "longDescription": "Black Tea – Ceylon is a premium full-bodied black tea with rich aroma. Perfect for morning tea or anytime you want a strong, classic cup.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon H.png"
+    ]
+  },
+  {
+    "id": "heritage-black-tea-ceylon-sips",
+    "slug": "heritage-black-tea-ceylon-sips",
+    "mainCategory": "teas",
+    "subCategory": "heritage-tea",
+
+    "name": "Black Tea – Ceylon Sips",
+    "shortDescription": " Smooth Ceylon black tea in convenient tea bags.",
+    "tags": ["Smooth", "Convenient", "Aromatic"],
+    "packInfo": "20TB Pack",
+    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon Sips H.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " 20TB ",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Black Tea – Ceylon Sips – Heritage Tea",
+    "seoDescription": "Smooth and aromatic Ceylon black tea in convenient tea bags.",
+
+    "longDescription": "Black Tea – Ceylon Sips delivers premium black tea in easy-to-use tea bags. Smooth, aromatic, and perfect for quick tea anytime.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon Sips H.png"
+    ]
+  },
+  {
+    "id": "earl-grey-tea-ceylon-sips",
+    "slug": "earl-grey-tea-ceylon-sips",
+    "mainCategory": "teas",
+    "subCategory": "heritage-tea",
+
+    "name": "Earl Grey – Ceylon Sips",
+    "shortDescription": "Black tea with natural bergamot flavor in tea bags.",
+    "tags": ["Aromatic", "Aromatic", "Aromatic"],
+    "packInfo": "20TB Pack",
+    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Earl Grey – Ceylon Sips H.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Classic Black",
+    "teaVariety": "Flavored Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Earl Grey – Ceylon Sips – Heritage Tea",
+    "seoDescription": "Premium Ceylon black tea with bergamot in convenient tea bags for smooth, aromatic flavor.",
+
+    "longDescription": "Earl Grey – Ceylon Sips blends premium black tea with natural bergamot in convenient tea bags. Smooth, fragrant, and citrusy, perfect for anytime.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Heritage Teas/Earl Grey – Ceylon Sips H.png"
+    ]
+  },
+  {
+    "id": "masala-black-tea-ceylon",
+    "slug": "masala-black-tea-ceylon",
+    "mainCategory": "teas",
+    "subCategory": "heritage-tea",
+
+    "name": "Masala Black Tea – Ceylon",
+    "shortDescription": "Bold Ceylon black tea with traditional masala spices.",
+    "tags": ["Spicy", "Aromatic", "Bold"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon H.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Masala Black",
+    "teaVariety": "Spiced Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Masala Black Tea – Ceylon – Heritage Tea",
+    "seoDescription": "Premium Ceylon black tea blended with aromatic masala spices for a bold and warming flavor.",
+
+    "longDescription": "Masala Black Tea – Ceylon blends premium black tea with warming spices. Rich, bold, and aromatic, perfect for a traditional spiced tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon H.png"
+    ]
+  },
+  {
+    "id": "masala-black-tea-sips-ceylon",
+    "slug": "heritage-black-tea-sips-ceylon",
+    "mainCategory": "teas",
+    "subCategory": "heritage-tea",
+
+    "name": "Masala Black Tea – Ceylon Sips",
+    "shortDescription": "Spiced Ceylon black tea in convenient tea bags.",
+    "tags": ["Spicy", "Aromatic", "Convenient"],
+    "packInfo": "20TB Pack",
+    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon Sips H.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Masala Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Masala Black Tea – Ceylon Sips – Heritage Tea",
+    "seoDescription": "Convenient Ceylon black tea with aromatic masala spices in tea bags for bold, aromatic flavor.",
+
+    "longDescription": "Masala Black Tea – Ceylon Sips delivers premium Ceylon black tea with warming spices in tea bags. Smooth, bold, and aromatic anytime.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon Sips H.png"
+    ]
+  },
+
 
   {
     "id": "jasmin-green-tea",

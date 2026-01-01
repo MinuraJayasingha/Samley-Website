@@ -339,23 +339,26 @@
 
 /*Post*/
 #instagram-post01 {
-    background-image: url(../images/instagram/post01.jpg);
+    background-image: url(../images/samples/1000.png);
     background-size: cover;
+    background-position:bottom;
 }
 
 #instagram-post02 {
-    background-image: url(../images/instagram/post02.jpg);
+    background-image: url(../images/samples/2000.png);
     background-size: cover;
+    background-position: right;
 }
 
 #instagram-post03 {
-    background-image: url(../images/instagram/post03.jpg);
+    background-image: url(../images/samples/3000.png);
     background-size: cover;
 }
 
 #instagram-post04 {
-    background-image: url(../images/instagram/post04.jpg);
+    background-image: url(../images/samples/LS_session-114689-scaled.jpg);
     background-size: cover;
+    background-position: bottom;
 }
 
 #instagram-post05 {

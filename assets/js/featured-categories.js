@@ -5,7 +5,7 @@ const data = {
         eyebrow: "Premium Products",
         description:
             "Savor the rich aroma and authentic taste of our handcrafted tea blends — crafted to calm, energize, and delight every moment.",
-        image: "assets/images/instagram/post01.jpg",
+        image: "assets/images/samples/image02.png",
         link: "products.html?category=teas"
     },
 
@@ -25,7 +25,7 @@ const data = {
         eyebrow: "Premium Products",
         description:
             "Add natural depth and bold flavor to your meals with our sustainably sourced organic spices.",
-        image: "assets/images/instagram/post03.jpg",
+        image: "assets/images/samples/image04.png",
         link: "products.html?category=spices"
     },
 
@@ -35,7 +35,7 @@ const data = {
         eyebrow: "Premium Products",
         description:
             "Pure, tropical coconut creations crafted to nourish, refresh, and elevate everyday living.",
-        image: "assets/images/instagram/post05.jpg",
+        image: "assets/images/samples/image03.png",
         link: "products.html?category=coconut"
     }
 };

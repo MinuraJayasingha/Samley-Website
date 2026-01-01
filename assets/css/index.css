@@ -211,19 +211,20 @@
 }
 
 #category-card-01 {
-    background-image: url(../images/instagram/post01.jpg);
+    background-image: url(../images/samples/greentea.png);
 }
 
 #category-card-02 {
-    background-image: url(../images/instagram/post02.jpg);
+    background-image: url(../images/samples/black.png);
+    background-position: left;
 }
 
 #category-card-03 {
-    background-image: url(../images/instagram/post03.jpg);
+    background-image: url(../images/samples/08-scaled.jpg);
 }
 
 #category-card-04 {
-    background-image: url(../images/instagram/post04.jpg);
+    background-image: url(../images/samples/acac.png);
 }
 
 /* =========================
@@ -310,9 +311,9 @@
 .premium-tea-image {
     width: 100%;
     height: 350px;
-    border-radius: 16px;
+    border-radius: 25px;
     display: block;
-    background-image: url(../images/instagram/post01.jpg);
+    background-image: url(../images/samples/LS_session-114660-scaled.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -985,4 +986,31 @@
     .discover-tea-top {
         padding: 0 0px 0 0;
     }
+}
+
+
+/*-----------------------------*/
+/*-----------------------------*/
+/* Hide scrollbar but keep scroll */
+.hide-scrollbar {
+  overflow: auto;           /* or overflow-x / overflow-y */
+  scrollbar-width: none;    /* Firefox */
+  -ms-overflow-style: none; /* IE & old Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;            /* Chrome, Safari, Edge */
+}
+
+.horizontal-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
 }

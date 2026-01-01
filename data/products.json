@@ -1888,6 +1888,767 @@
     ]
   },
 
+  {
+    "id": "ceylone-black-tea",
+    "slug": "ceylone-black-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Ceylon Black Tea",
+    "shortDescription": "Classic Ceylon black tea with a bold, rich flavor.",
+    "tags": ["Strong", "Robust", "Classic"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Black Tea – Ceylon.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Black Tea – Ceylon Tea",
+    "seoDescription": "Premium Ceylon black tea with a rich, full-bodied flavor and aromatic finish.",
+
+    "longDescription": "Ceylon Black Tea is a premium Ceylon black tea with a full-bodied, rich flavor and aromatic finish. Ideal for mornings or anytime you want a classic strong cup",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Black Tea – Ceylon.png"
+    ]
+  },
+  {
+    "id": "ceylone-sips-black-tea",
+    "slug": "ceylone-sips-black-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Ceylon Sips Black Tea",
+    "shortDescription": "Smooth and aromatic black tea in convenient tea bags.",
+    "tags": ["Smooth", "Aromatic", "Convenient"],
+    "packInfo": "20TB Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Black Tea – Ceylon Sips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": "  20TB",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Sips Black Tea – Ceylon Tea",
+    "seoDescription": "Smooth and aromatic Ceylon black tea in convenient tea bags for easy brewing.",
+
+    "longDescription": "Long Description: Ceylon Sips Black Tea delivers a smooth, light flavor with rich aroma in easy-to-use tea bags. Perfect anytime for a quick, classic tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Black Tea – Ceylon Sips.png"
+    ]
+  },
+  {
+    "id": "earl-gray-black-tea",
+    "slug": "earl-gray-black-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Earl Grey Black Tea",
+    "shortDescription": "Ceylon black tea with natural bergamot flavor.",
+    "tags": ["Aromatic", "Citrus", "Elegant"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Earl Grey – Ceylon Sips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Tea",
+    "flavor": "Bergamot",
+    "teaVariety": "Flavored Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Earl Grey Black Tea – Ceylon Tea",
+    "seoDescription": "Premium Ceylon black tea with bergamot for a smooth and aromatic citrus flavor.",
+
+    "longDescription": "Earl Grey Black Tea blends premium Ceylon black tea with natural bergamot for a smooth, fragrant, and citrusy flavor. Perfect for afternoon tea or with milk.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Earl Grey – Ceylon Sips.png"
+    ]
+  },
+  {
+    "id": "blueberry-&-vanilla-tea",
+    "slug": "blueberry-&-vanilla-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Blueberry & Vanilla Tea",
+    "shortDescription": "Fruity and creamy tea with sweet aroma.",
+    "tags": ["Fruity", "Sweet", "Aromatic"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Blueberry & Vanilla.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Blueberry & Vanilla",
+    "teaVariety": "Flavored Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Blueberry & Vanilla Tea – Ceylon Tea",
+    "seoDescription": "Fruity and creamy tea blend with blueberry and vanilla for a smooth and aromatic cup.",
+
+    "longDescription": "Blueberry & Vanilla Tea blends fruity blueberry notes with creamy vanilla aroma for a smooth, aromatic, and relaxing cup. Ideal for anytime tea breaks.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Blueberry & Vanilla.png"
+    ]
+  },
+  {
+    "id": "chamomile-tea",
+    "slug": "chamomile-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Chamomile Tea",
+    "shortDescription": "Light and soothing herbal tea..",
+    "tags": ["Calming", "Herbal", "Soothing"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Chamomile.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Chamomile",
+    "teaVariety": "Herbal Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Chamomile Tea – Ceylon Tea",
+    "seoDescription": "Light and soothing chamomile herbal tea for calming and relaxing moments.",
+
+    "longDescription": "Chamomile Tea is a gentle herbal infusion with a calming aroma and light, soothing taste. Perfect for relaxing anytime or before bedtime.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Chamomile.png"
+    ]
+  },
+  {
+    "id": "chamomile-honey-tea",
+    "slug": "chamomile-honey-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Chamomile & Honey Tea",
+    "shortDescription": "Gentle herbal tea with natural honey sweetness.",
+    "tags": ["Soothing", "Sweet", "Herbal"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Chamomile & Honey Infusion.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Chamomile & Honey",
+    "teaVariety": "Herbal Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Chamomile & Honey Tea – Ceylon Tea",
+    "seoDescription": "Calming chamomile tea with natural honey for a soothing and aromatic cup.",
+
+    "longDescription": "Chamomile & Honey Tea blends calming chamomile with a hint of natural honey. Smooth, aromatic, and perfect for relaxing tea moments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Chamomile & Honey Infusion.png"
+    ]
+  },
+  {
+    "id": "earl-grey-ceylon-sips",
+    "slug": "earl-grey-ceylon-sips",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Earl Grey Ceylon Sips",
+    "shortDescription": "CBlack tea with bergamot in convenient tea bags.",
+    "tags": ["Aromatic", "Citrus", "Convenient"],
+    "packInfo": "20TB Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Earl Grey – Ceylon Sips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Tea Bag",
+    "flavor": "Bergamot",
+    "teaVariety": "Flavored  Black Tea",
+    "unitCount": "  20TB",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Earl Grey Ceylon Sips – Ceylon Tea",
+    "seoDescription": "Convenient Ceylon black tea with bergamot for a smooth and aromatic cup.",
+
+    "longDescription": "Earl Grey Ceylon Sips delivers premium black tea with natural bergamot aroma in convenient tea bags. Smooth, citrusy, and perfect for anytime tea breaks.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Earl Grey – Ceylon Sips.png"
+    ]
+  },
+  {
+    "id": "english-breakfast-tea",
+    "slug": "english-breakfast-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "English Breakfast Tea",
+    "shortDescription": "Classic full-bodied black tea.",
+    "tags": ["Strong", "Robust", "Classic"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/English Breakfast (Black Tea).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "English Breakfast Tea – Ceylon Tea",
+    "seoDescription": "Classic full-bodied Ceylon black tea, perfect for mornings or with milk.",
+
+    "longDescription": "English Breakfast Tea is a robust, full-bodied Ceylon black tea. Perfect for mornings or as a classic breakfast blend with milk.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/English Breakfast (Black Tea).png"
+    ]
+  },
+  {
+    "id": "fannel-tea",
+    "slug": "fannel-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Fennel Tea",
+    "shortDescription": "Light and refreshing herbal tea.",
+    "tags": ["Herbal", "Light", "Refreshing"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Fennel.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Fennel",
+    "teaVariety": "Herbal Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Fennel Tea – Ceylon Tea",
+    "seoDescription": "Light and refreshing fennel herbal tea with soothing and aromatic flavor.",
+
+    "longDescription": "Fennel Tea is a light herbal infusion with a refreshing flavor and subtle aroma. Ideal for relaxing or digestive support.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Fennel.png"
+    ]
+  },
+  {
+    "id": "ceylone-green-tea",
+    "slug": "ceylone-green-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Green Tea",
+    "shortDescription": "Premium Ceylon green tea, fresh and smooth.",
+    "tags": ["Fresh", "Light", "Smooth"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Green Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Green Tea",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Green Tea – Ceylon Tea",
+    "seoDescription": "Premium Ceylon green tea with fresh, light, and smooth flavor.",
+
+    "longDescription": "Green Tea is a classic Ceylon green tea with fresh, light flavor and smooth finish. Ideal for daily consumption or light refreshments.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Green Tea.png"
+    ]
+  },
+  {
+    "id": "ceylone-green-tea-01",
+    "slug": "ceylone-green-tea-01",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Ceylon Green Tea",
+    "shortDescription": "Classic Ceylon green tea with smooth, refreshing flavor.",
+    "tags": ["Smooth", "Robust", "Classic"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Green Tea – Ceylon.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Green Black",
+    "teaVariety": "Green  Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Ceylon Green Tea – Ceylon Tea",
+    "seoDescription": "Premium Ceylon green tea with smooth, refreshing flavor and light aroma.",
+
+    "longDescription": "Ceylon Green Tea is a premium green tea with a smooth, light flavor and refreshing aroma. Perfect for daily consumption or anytime you want a gentle tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Green Tea – Ceylon.png"
+    ]
+  },
+  {
+    "id": "green-tea-mint-tea",
+    "slug": "green-tea-mint-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Green Tea with Mint",
+    "shortDescription": "Refreshing green tea blended with natural mint.",
+    "tags": ["Refreshing", "Minty", "Smooth"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Green Tea with Mint.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": " Green Tea & Mint",
+    "teaVariety": "Green Tea Blend",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Green Tea with Mint – Ceylon Tea",
+    "seoDescription": "Refreshing Ceylon green tea blended with mint for smooth and invigorating flavor.",
+
+    "longDescription": "Green Tea with Mint combines premium Ceylon green tea with fresh mint leaves. Smooth, light, and invigorating, perfect for anytime.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Green Tea with Mint.png"
+    ]
+  },
+  {
+    "id": "lemon-green-tea",
+    "slug": "lemon-green-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Lemon Green Tea",
+    "shortDescription": "Green tea with natural lemon flavor, light and zesty.",
+    "tags": ["Fresh", "Citrus", "Light"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Lemon Green Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Green  Black",
+    "teaVariety": "Green Tea Blend",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Lemon Green Tea – Ceylon Tea",
+    "seoDescription": "Ceylon green tea with zesty lemon flavor, refreshing, light, and aromatic.",
+
+    "longDescription": "Lemon Green Tea combines Ceylon green tea with zesty natural lemon. Refreshing, aromatic, and perfect for anytime tea drinking.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Lemon Green Tea.png"
+    ]
+  },
+  {
+    "id": "mango-passion-fruit-tea",
+    "slug": "mango-passion-fruit-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Mango & Passion Fruit Tea",
+    "shortDescription": "Fruity green tea blend with tropical flavors.",
+    "tags": ["Fruity", "Tropical", "Refreshing"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Mango & Passion Fruit Black Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Mango & Passion Fruit",
+    "teaVariety": " Flavored Green Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Mango & Passion Fruit Tea – Ceylon Tea",
+    "seoDescription": "Fruity Ceylon green tea blend with mango and passion fruit for a refreshing and aromatic cup.",
+
+    "longDescription": "Mango & Passion Fruit Tea combines Ceylon green tea with tropical mango and passion fruit flavors. Sweet, fruity, and refreshing, perfect for a cheerful tea moment.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Mango & Passion Fruit Black Tea.png"
+    ]
+  },
+  {
+    "id": "masala-black-tea",
+    "slug": "masala-black-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Masala Black Tea Ceylon",
+    "shortDescription": "Spiced Ceylon black tea with traditional masala flavors.",
+    "tags": ["Spicy", "Aromatic", "Bold"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Masala Black Tea – Ceylon.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Masala Black",
+    "teaVariety": "Spiced Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Masala Black Tea Ceylon – Ceylon Tea",
+    "seoDescription": "Premium Ceylon black tea blended with aromatic masala spices for a bold and warming flavor.",
+
+    "longDescription": "Masala Black Tea Ceylon blends premium black tea with warming spices. Rich, bold, and aromatic, perfect for a traditional spiced tea experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Masala Black Tea – Ceylon.png"
+    ]
+  },
+  {
+    "id": "masala-black-ceylone-slip-tea",
+    "slug": "masala-black-ceylone-slip-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Masala Black Tea Ceylon Sips",
+    "shortDescription": "Convenient tea bags with spiced Ceylon black tea.",
+    "tags": ["Spicy", "Aromatic", "Convenient"],
+    "packInfo": "20TB Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Masala Black Tea – Ceylon Sips.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Masala Black",
+    "teaVariety": "Spiced Black Tea",
+    "unitCount": " 20TB",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Masala Black Tea Ceylon Sips – Ceylon Tea",
+    "seoDescription": "Convenient Ceylon black tea with warming masala spices in tea bags for bold, aromatic flavor.",
+
+    "longDescription": "Masala Black Tea Ceylon Sips delivers premium Ceylon black tea with warming spices in convenient tea bags. Smooth, bold, and aromatic anytime.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Masala Black Tea – Ceylon Sips.png"
+    ]
+  },
+  {
+    "id": "mint-green-tea",
+    "slug": "mint-green-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Mint Green Tea",
+    "shortDescription": "Refreshing green tea infused with mint leaves.",
+    "tags": ["Refreshing", "Minty", "Light"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Mint Green Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Mint Green Tea",
+    "teaVariety": " Green Tea Blend",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Mint Green Tea – Ceylon Tea",
+    "seoDescription": "Ceylon green tea blended with mint for a smooth, refreshing, and light flavor.",
+
+    "longDescription": "Mint Green Tea combines Ceylon green tea with natural mint. Smooth, light, and refreshing, perfect for any time of day.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Mint Green Tea.png"
+    ]
+  },
+  {
+    "id": "organinc-black-tea",
+    "slug": "organinc-black-tea",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Organic Black Tea",
+    "shortDescription": "Pure organic Ceylon black tea. Smooth and natural.",
+    "tags": ["Organic", "Smooth", "Classic"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Organic Black Tea.png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Classic Black",
+    "teaVariety": "Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Organic Black Tea – Ceylon Tea",
+    "seoDescription": "Pure organic Ceylon black tea with smooth, natural, and full-bodied flavor.",
+
+    "longDescription": "Organic Black Tea is a premium Ceylon black tea grown naturally without chemicals. Smooth, classic flavor, perfect for daily consumption.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Organic Black Tea.png"
+    ]
+  },
+  {
+    "id": "masala-spicy-chai",
+    "slug": "masala-spicy-chai",
+    "mainCategory": "teas",
+    "subCategory": "signature-tea",
+
+    "name": "Masala Spicy Chai",
+    "shortDescription": "Bold and aromatic spiced Ceylon black tea.",
+    "tags": ["Spicy", "Aromatic", "Bold"],
+    "packInfo": "100g Loose Pack",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Masala Black Tea – Ceylon (2).png",
+
+    "brand": "Ceylon Tea",
+    "itemForm": "Loose Teas",
+    "flavor": "Masala Black",
+    "teaVariety": "Spiced Black Tea",
+    "unitCount": " 100g",
+
+    "price": 3.99,
+    "currency": "USD",
+    "stock": 48,
+    "rating": 4.7,
+    "reviewCount": 62,
+
+    "seoTitle": "Masala Spicy Chai – Ceylon Tea",
+    "seoDescription": "Bold and aromatic Ceylon black tea blended with warming spices for a rich chai experience.",
+
+    "longDescription": "Masala Spicy Chai is a premium Ceylon black tea blended with warming spices. Bold, aromatic, and perfect for a traditional chai experience.",
+
+    "features": [
+      "Bright and crisp flavor",
+      "Clean and refreshing finish",
+      "High-quality Ceylon tea",
+      "Perfect for hot brewing"
+    ],
+
+    "galleryImages": [
+      "assets/images/products/Teas/Signature Teas/Masala Black Tea – Ceylon (2).png"
+    ]
+  },
+
 
   {
     "id": "jasmin-green-tea",

@@ -80,5 +80,24 @@ document.addEventListener("DOMContentLoaded", async () => {
   featuredScript.src = "assets/js/featured-categories.js";
   document.body.appendChild(featuredScript);
 
+  // Featured Products (HTML + JS)
+  await loadComponent(
+    "#featured-products-section",
+    "components/featured-products.html",
+    () => {
+      INCLUDE_LOG("Injecting featured-products.js", "info");
+
+      const script = document.createElement("script");
+      script.src = "assets/js/featured-products.js";
+      script.onload = () =>
+        INCLUDE_LOG("featured-products.js loaded", "success");
+      script.onerror = () =>
+        INCLUDE_LOG("featured-products.js failed to load", "error");
+
+      document.body.appendChild(script);
+    }
+  );
+
+
   INCLUDE_LOG("All components processed", "success");
 });

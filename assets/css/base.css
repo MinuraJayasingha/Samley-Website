@@ -368,7 +368,7 @@ body {
         background-color 0.35s ease,
         color 0.35s ease,
         border-color 0.35s ease;
-        width: max-content;
+    width: max-content;
 }
 
 .btn-04:hover {
@@ -376,6 +376,7 @@ body {
     color: var(--color-text-white);
     border: 1px solid var(--color-bg-black);
 }
+
 .btn-05 {
     background-color: var(--color-bg-white);
     color: var(--color-text-secondary);
@@ -392,13 +393,37 @@ body {
         background-color 0.35s ease,
         color 0.35s ease,
         border-color 0.35s ease;
-        width: max-content;
+    width: max-content;
 }
 
 .btn-05:hover {
     background-color: transparent;
     color: var(--color-text-white);
     border: 1px solid var(--color-bg-white);
+}
+
+.btn-06 {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-white);
+    padding: 12px 30px;
+    border: 1px solid var(--color-bg-black);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: 12px;
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.btn-06:hover {
+    background-color: transparent;
+    color: var(--color-text-black);
+    border: 1px solid var(--color-bg-black);
 }
 
 .container {

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/blogs.css" />
 
     <!-- Social Media Icon Links-->
     <link rel="stylesheet"
@@ -51,6 +52,116 @@
 
     </main>
 
+    <!--BLOG ARTICALS-->
+
+    <!-- MAIN CONTENT -->
+    <div class="blog-main-container">
+        <div class="blog-main-inner">
+            <div class="blog-main-content">
+                <!--SEARCH BAR MOBILE-->
+                <div class="search-container mobile-seach">
+                    <div class="search-wrapper">
+                        <input type="text" class="search-input" placeholder="Search" id="searchInput">
+                        <div class="search-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOG POSTS GRID -->
+                <div class="blog-posts-grid" id="blogGrid">
+                    <!-- Blog cards injected by JS -->
+                </div>
+
+                <div class="pagination-container">
+                    <div class="pagination">
+                        <!-- Previous Button -->
+                        <button class="pagination-item prev" id="prevBtn">❮</button>
+
+                        <!-- Page Numbers -->
+                        <button class="pagination-item active" data-page="1">1</button>
+                        <button class="pagination-item" data-page="2">2</button>
+                        <button class="pagination-item" data-page="3">3</button>
+                        <button class="pagination-item" data-page="4">4</button>
+
+                        <!-- Next Button -->
+                        <button class="pagination-item next" id="nextBtn">❯</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SIDEBAR -->
+            <aside class="blog-sidebar">
+                <!--SEARCH BAR Desktop-->
+                <div class="search-container desktop-seach">
+                    <div class="search-wrapper">
+                        <input type="text" class="search-input" placeholder="Search" id="searchInput">
+                        <div class="search-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- CATEGORIES WIDGET -->
+                <div class="sidebar-widget">
+                    <h4 class="sidebar-title">Categories</h4>
+                    <div class="sidebar-item">Technology</div>
+                    <div class="sidebar-item">Business</div>
+                    <div class="sidebar-item">Lifestyle</div>
+                    <div class="sidebar-item">Design</div>
+                    <div class="sidebar-item">Marketing</div>
+                </div>
+
+                <!-- RECENT POSTS WIDGET 
+            <div class="sidebar-widget">
+                <h4 class="sidebar-title">Recent Posts</h4>
+                <div class="sidebar-item">5 Essential Tips to Boost Productivity</div>
+                <div class="sidebar-item">The Future of Web Design</div>
+                <div class="sidebar-item">Sustainable Living Guide</div>
+                <div class="sidebar-item">Building Your Personal Brand</div>
+            </div>-->
+
+                <!-- TAGS WIDGET -->
+                <div class="sidebar-widget">
+                    <h4 class="sidebar-title">Tags</h4>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <span class="blog-card-tag">#technology</span>
+                        <span class="blog-card-tag">#design</span>
+                        <span class="blog-card-tag">#business</span>
+                        <span class="blog-card-tag">#lifestyle</span>
+                        <span class="blog-card-tag">#marketing</span>
+                        <span class="blog-card-tag">#productivity</span>
+                    </div>
+                </div>
+
+                <!-- TAGS WIDGET -->
+                <div class="sidebar-widget">
+                    <h4 class="sidebar-title">NEWSLETTER</h4>
+                    <p>Subscribe to our newsletter for cleaning tips and exclusive offers.</p>
+                </div>
+
+                <!-- EMAIL SUBSCRIPTION FORM - SINGLE VERSION -->
+                <form class="subscription-container" id="subscriptionForm">
+                    <div class="subscription-wrapper">
+                        <input type="email" class="subscription-input" placeholder="Type Your Mail" id="emailInput"
+                            required>
+                        <button type="submit" class="subscription-icon" id="submitBtn">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="subscription-message" id="subscriptionMessage"></div>
+                </form>
+            </aside>
+        </div>
+    </div>
+
+
     <!-- EXPLORE OUR COLLECTION -->
     <section id="collections-section" class="collections-highlight"></section>
 
@@ -64,7 +175,9 @@
     <!-------------------------- Script --------------------------->
     <!------------------------------------------------------------->
     <script src="./assets/js/include.js"></script>
-    
+    <script src="./assets/js/blogs.js"></script>
+    <script src="./assets/js/news-subscription.js"></script>
+
 </body>
 
 </html>

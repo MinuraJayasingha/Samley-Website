@@ -1,0 +1,132 @@
+/* ==================================================
+   GLOBAL SMOOTH BEHAVIOR
+================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ==================================================
+   GLOBAL TRANSITIONS (SAFE ELEMENTS ONLY)
+================================================== */
+
+a,
+button,
+[class^="btn-"],
+[class*=" btn-"] {
+  transition: 
+    color 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.25s ease;
+}
+
+/* Image smoothness */
+img {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  backface-visibility: hidden;
+}
+
+/* ==================================================
+   SECTION SPACING & BREATHING
+================================================== */
+
+/*section {
+  padding-block: clamp(60px, 8vw, 120px);
+}*/
+
+/* ==================================================
+   ACCESSIBILITY – REDUCED MOTION
+================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* ==================================================
+   REVEAL ANIMATIONS (LAYOUT SAFE)
+================================================== */
+
+.reveal,
+.reveal-left,
+.reveal-right {
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+/* Bottom */
+.reveal {
+  transform: translateY(40px);
+}
+
+/* Left */
+.reveal-left {
+  transform: translateX(-60px);
+}
+
+/* Right */
+.reveal-right {
+  transform: translateX(60px);
+}
+
+/* Active State */
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* ==================================================
+   🔒 CRITICAL FIX – PREVENT TEXT STYLE BREAKING
+================================================== */
+
+
+
+/* ==================================================
+   HERO FLOAT ANIMATION (SAFE)
+================================================== */
+
+.hero_down_content img {
+  animation: floatDown 2.5s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes floatDown {
+  0% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+}
+
+/* ==================================================
+   OPTIONAL: SMOOTH HOVER MICRO-INTERACTIONS
+================================================== */
+
+button:hover,
+a:hover {
+  transform: translateY(-1px);
+}
+
+button:active,
+a:active {
+  transform: translateY(0);
+}

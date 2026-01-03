@@ -173,7 +173,7 @@
     text-decoration: underline;
 }
 
-.active {
+.nav-item .active {
     color: var(--color-text-secondary) !important;
     text-decoration: underline;
 }

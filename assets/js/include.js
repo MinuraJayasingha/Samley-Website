@@ -97,6 +97,37 @@ document.addEventListener("DOMContentLoaded", async () => {
       document.body.appendChild(script);
     }
   );
+  document.querySelectorAll("[data-include]").forEach(async el => {
+    const file = el.getAttribute("data-include");
+
+    try {
+      const res = await fetch(file);
+      el.innerHTML = await res.text();
+      console.log(`[Include] Loaded: ${file}`);
+    } catch (err) {
+      console.error(`[Include] Failed: ${file}`, err);
+    }
+  });
+
+  // Reviews Section (HTML + JS)
+  await loadComponent(
+    "#reviews-section",
+    "components/reviews.html",
+    () => {
+      INCLUDE_LOG("Injecting reviews.js", "info");
+
+      const script = document.createElement("script");
+      script.src = "assets/js/reviews.js";
+      script.onload = () => {
+        INCLUDE_LOG("reviews.js loaded", "success");
+        initReviews(); // 🔥 IMPORTANT
+      };
+      script.onerror = () =>
+        INCLUDE_LOG("reviews.js failed to load", "error");
+
+      document.body.appendChild(script);
+    }
+  );
 
 
   INCLUDE_LOG("All components processed", "success");

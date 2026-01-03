@@ -2,7 +2,7 @@
 
   <!-- Top Bar (optional: shipping / promo text) -->
   <div class="navbar-top">
-    <!-- Free shipping / announcements -->
+    <p class="p-m text-center"> Free shipping on all orders over $85 in USA.</p>
   </div>
 
   <!-- Main Navbar -->
@@ -12,14 +12,13 @@
     <div class="navbar-logo">
       <a href="index.html">
         <!-- Logo image / text -->
-        Samley
       </a>
     </div>
 
     <!-- Primary Navigation -->
-    <ul class="navbar-menu dropdown-list">
+    <ul class="navbar-menu dropdown-list ">
 
-      <li class="nav-item">
+      <li class="nav-item ">
         <a href="index.html">Home</a>
       </li>
 
@@ -29,46 +28,91 @@
 
       <!-- Products Dropdown -->
       <li class="nav-item nav-has-dropdown">
-        <a href="products.html">Our Products</a>
+        <div class="nav-dropdown-toggle" id="nav-dropdown-toggle">
+          <a href="products.html" class="nav-link" id="nav-link">
+            Our Products
+          </a>
 
-        <!-- Dropdown Wrapper -->
-        <div class="nav-dropdown">
+          <!-- Arrow toggle -->
+          <button class="dropdown-toggle " id="dropdown-toggle" aria-label="Toggle products menu">
+            <svg class="dropdown-icon " width="16" height="16" viewBox="0 0 24 24">
+              <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
 
-          <!-- Main Categories -->
-          <div class="dropdown-group" data-category="teas">
-            <h6 class="dropdown-title">Teas</h6>
-            <ul class="dropdown-list">
-              <!-- Sub categories injected here -->
-            </ul>
-          </div>
+        </div>
 
-          <div class="dropdown-group" data-category="beverages">
-            <h6 class="dropdown-title">Beverages</h6>
-            <ul class="dropdown-list"></ul>
-          </div>
+        <!-- Dropdown -->
+        <div class="nav-dropdown hidden" id="products-dropdown">
 
-          <div class="dropdown-group" data-category="organic-spices">
-            <h6 class="dropdown-title">Organic Spices</h6>
-            <ul class="dropdown-list"></ul>
-          </div>
+          <div class="dropdown-inner">
+            <div class="dropdown-menu">
+              <div class="dropdown-group" data-category="teas">
+                <h6 class="dropdown-title">Teas</h6>
+                <ul class="dropdown-list"></ul>
+              </div>
 
-          <div class="dropdown-group" data-category="coconut-based">
-            <h6 class="dropdown-title">Coconut Based</h6>
-            <ul class="dropdown-list"></ul>
+              <div class="dropdown-group" data-category="beverages">
+                <h6 class="dropdown-title">Beverages</h6>
+                <ul class="dropdown-list"></ul>
+              </div>
+
+              <div class="dropdown-group" data-category="organic-spices">
+                <h6 class="dropdown-title">Organic Spices</h6>
+                <ul class="dropdown-list"></ul>
+              </div>
+
+              <div class="dropdown-group" data-category="coconut-based">
+                <h6 class="dropdown-title">Coconut Based</h6>
+                <ul class="dropdown-list"></ul>
+              </div>
+            </div>
+
+            <div class="dropdown-card">
+              <div class="product-card">
+                <a href="" class="product-image">
+
+                </a>
+
+                <div class="content">
+                  <div class="nav-bar-top">
+                    <h5>Ceylon Green Tea 20TB | 50TB | 100TB</h5>
+                    <p>Enjoy the refreshingly floral and smooth taste.</p>
+                  </div>
+
+                  <div class="bottom">
+                    <p class="tags"></p>
+                    <p></p>
+                  </div>
+                </div>
+
+                <!--<div class="product-btn-div">
+                  <a class="btn-03 product-btn" href="product.html?product=${product.slug}">
+                    View Product
+                  </a>
+                </div>-->
+              </div>
+            </div>
           </div>
 
         </div>
       </li>
 
       <li class="nav-item">
-        <a href="blogs.html">Blogs</a>
+        <a
+          href="https://www.amazon.com/stores/SamleyTeas/page/B5E64399-D7D6-4FC4-AA86-3FDF67805945?is_byline_deeplink=true&deeplink=B5E64399-D7D6-4FC4-AA86-3FDF67805945&redirect_store_id=B5E64399-D7D6-4FC4-AA86-3FDF67805945&lp_asin=B0D4G421CF&ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto">Shop</a>
       </li>
 
       <li class="nav-item">
-        <a href="contact.html">Contact Us</a>
+        <a href="blogs.html">Blogs</a>
       </li>
 
     </ul>
+
+    <button class="btn-01 contact-btn" type="button">
+      <a href="contact.html">CONTACT US</a>
+    </button>
 
     <!-- Mobile Toggle (structure only) -->
     <button class="navbar-toggle" aria-label="Toggle menu">

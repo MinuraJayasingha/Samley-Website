@@ -1,0 +1,270 @@
+    .contact-container {
+        padding: 30px 24px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contact-heading {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contact-heading h2 {
+        color: var(--color-text-secondary);
+    }
+
+    .desktop-contact-data {
+        width: 100%;
+        display: none;
+    }
+
+    .mobile-contact-data {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 35px;
+    }
+
+    .form-card {
+        display: flex;
+        align-items: start;
+        gap: 12px;
+        height: max-content;
+    }
+
+    .contact-circule {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55px;
+        aspect-ratio: 1/1;
+        height: fit-content;
+        border-radius: 100px;
+        background: #00AE9C;
+        background: linear-gradient(90deg, rgb(0, 174, 157) 0%, rgb(67, 160, 151) 100%);
+    }
+
+    .contact-detail {
+        height: 100%;
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-detail h5 {
+        font-size: var(--fs-p-xl);
+        color: var(--color-text-black);
+        font-family: var(--font-heading);
+    }
+
+    .contact-detail p {
+        font-size: var(--fs-p-s);
+        color: var(--color-text-black);
+        font-family: var(--font-body);
+    }
+
+    .contact-detail p span {
+        font-weight: 600;
+    }
+
+    .contact-detail .address {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*----------------*/
+    .contact_card_form_group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .contact_card_label {
+        color: var(--color-text-black);
+        font-family: var(--font-body);
+        font-size: var(--fs-p-s);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .contact_card_input,
+    .contact_card_textarea {
+        display: flex;
+        width: 100%;
+        padding: 8px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        align-self: stretch;
+        border-radius: 8px;
+        border: 1px solid #979ba1;
+        background: #FFF;
+        transition: border-color 0.2s ease;
+    }
+
+    .contact_card_input::placeholder,
+    .contact_card_textarea::placeholder {
+        color: #231f2084;
+        font-family: var(--font-body);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .contact_card_input:focus,
+    .contact_card_textarea:focus {
+        outline: none;
+        border-color: #d0d0d0;
+    }
+
+    .contact_card_textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+
+    /* =========================
+   Small devices (≥576px)
+   ========================= */
+    @media (min-width: 576px) {
+        .contact-container {
+            padding: 30px 24px;
+        }
+    }
+
+    /* =========================
+   Medium devices / Tablets (≥768px)
+   ========================= */
+    @media (min-width: 768px) {
+        .contact-container {
+            padding: 32px 36px;
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: max-content;
+        }
+
+        .mobile-contact-data {
+            display: none;
+        }
+
+        .contact-circule {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 64px;
+            aspect-ratio: 1/1;
+            height: fit-content;
+            border-radius: 100px;
+            background: #00AE9C;
+            background: linear-gradient(90deg, rgb(0, 174, 157) 0%, rgb(67, 160, 151) 100%);
+        }
+
+        .contact-form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-form form {
+            width: 100%;
+            gap: 20px;
+        }
+
+        .desktop-contact-data {
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+
+        .contact_card_input,
+        .contact_card_textarea {
+            display: flex;
+            width: 100%;
+            padding: 12px 14px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+            align-self: stretch;
+            border-radius: 8px;
+            border: 1px solid #979ba1;
+            background: #FFF;
+            transition: border-color 0.2s ease;
+        }
+
+        .contact_card_input::placeholder,
+        .contact_card_textarea::placeholder {
+            color: #231f2084;
+            font-family: var(--font-body);
+            font-size: var(--fs-p-s);
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+
+    .form-card {
+        display: flex;
+        align-items: start;
+        gap: 20px;
+        height: max-content;
+    }
+
+    /* =========================
+   Large devices / Laptops (≥992px)
+   ========================= */
+    @media (min-width: 992px) {
+        .contact-container {
+            padding: 60px 80px;
+        }
+    }
+
+    /* =========================
+   Extra large devices / Desktops (≥1200px)
+   ========================= */
+    @media (min-width: 1200px) {
+        .contact-container {
+            padding: 60px 80px;
+        }
+    }
+
+    /* =========================
+   2XL screens (≥1400px)
+   ========================= */
+    @media (min-width: 1400px) {
+        .contact-container {
+            padding: 80px 100px;
+        }
+    }

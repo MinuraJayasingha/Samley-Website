@@ -43,8 +43,8 @@ ul {
 
 @font-face {
     font-family: "Neue Montreal";
-    src: url("assets/fonts/neue-montreal/NeueMontreal-Light.woff2") format("woff2"),
-        url("assets/fonts/neue-montreal/NeueMontreal-Light.woff") format("woff");
+    src: url("../fonts/neue-montreal/NeueMontreal-Light.woff2") format("woff2"),
+        url("../fonts/neue-montreal/NeueMontreal-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -52,8 +52,8 @@ ul {
 
 @font-face {
     font-family: "Neue Montreal";
-    src: url("/assets/fonts/neue-montreal/NeueMontreal-Regular.woff2") format("woff2"),
-        url("/assets/fonts/neue-montreal/NeueMontreal-Regular.woff") format("woff");
+    src: url("../fonts/neue-montreal/NeueMontreal-Regular.woff2") format("woff2"),
+        url("../fonts/neue-montreal/NeueMontreal-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -61,8 +61,8 @@ ul {
 
 @font-face {
     font-family: "Neue Montreal";
-    src: url("assets/fonts/neue-montreal/NeueMontreal-Italic.woff2") format("woff2"),
-        url("assets/fonts/neue-montreal/NeueMontreal-Italic.woff") format("woff");
+    src: url("../fonts/neue-montreal/NeueMontreal-Italic.woff2") format("woff2"),
+        url("../fonts/neue-montreal/NeueMontreal-Italic.woff") format("woff");
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -70,8 +70,8 @@ ul {
 
 @font-face {
     font-family: "Neue Montreal";
-    src: url("assets/fonts/neue-montreal/NeueMontreal-Medium.woff2") format("woff2"),
-        url("assets/fonts/neue-montreal/NeueMontreal-Medium.woff") format("woff");
+    src: url("../fonts/neue-montreal/NeueMontreal-Medium.woff2") format("woff2"),
+        url("../fonts/neue-montreal/NeueMontreal-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -79,8 +79,8 @@ ul {
 
 @font-face {
     font-family: "Neue Montreal";
-    src: url("assets/fonts/neue-montreal/NeueMontreal-Bold.woff2") format("woff2"),
-        url("assets/fonts/neue-montreal/NeueMontreal-Bold.woff") format("woff");
+    src: url("../fonts/neue-montreal/NeueMontreal-Bold.woff2") format("woff2"),
+        url("../fonts/neue-montreal/NeueMontreal-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -88,8 +88,8 @@ ul {
 
 @font-face {
     font-family: "Neue Montreal";
-    src: url("assets/fonts/neue-montreal/NeueMontreal-BoldItalic.woff2") format("woff2"),
-        url("assets/fonts/neue-montreal/NeueMontreal-BoldItalic.woff") format("woff");
+    src: url("../fonts/neue-montreal/NeueMontreal-BoldItalic.woff2") format("woff2"),
+        url("../fonts/neue-montreal/NeueMontreal-BoldItalic.woff") format("woff");
     font-weight: 700;
     font-style: italic;
     font-display: swap;
@@ -107,9 +107,11 @@ ul {
     --color-bg-white: #FFFFFF;
     --color-bg-primary: #00AE9C;
     --color-bg-muted: #F4FBFB;
+    --color-bg-black: #000000;
 
     /* Text */
-    --color-text-primary: #231F20;
+    --color-text-black: #231F20;
+    --color-text-white: #FFFFFF;
     --color-text-secondary: #00AE9C;
     --color-text-muted: #6F7C7C;
 
@@ -221,9 +223,10 @@ body {
 }
 
 .h5 {
-    font-family: var(--font-body);
+    font-family: var(--font-heading);
     font-weight: 500;
     font-size: var(--fs-h5);
+    line-height: 29px;
 }
 
 .h6 {
@@ -265,13 +268,12 @@ body {
 /* GLOBAL HELPERS (MINIMAL) */
 /* ___________________________________________________ */
 
-.container {
+.main-container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: var(--space-m);
-    padding-right: var(--space-m);
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .text-center {
@@ -279,5 +281,205 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+.btn-01 {
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+    padding: 12px 24px;
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.btn-01:hover {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-white);
+    border: 1px solid var(--color-bg-black);
+}
+
+.btn-02 {
+    background-color: transparent;
+    color: var(--color-text-white);
+    padding: 12px 24px;
+    border: 1px solid var(--color-bg-white);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.btn-02:hover {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-white);
+    border: 1px solid var(--color-bg-white);
+}
+
+.btn-03 {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-white);
+    padding: 8px 24px;
+    border: 1px solid var(--color-bg-black);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.btn-03:hover {
+    background-color: transparent;
+    color: var(--color-text-black);
+    border: 1px solid var(--color-bg-black);
+}
+
+.btn-04 {
+    background-color: transparent;
+    color: var(--color-text-black);
+    padding: 8px 24px;
+    border: 1px solid var(--color-bg-black);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+    width: max-content;
+}
+
+.btn-04:hover {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-white);
+    border: 1px solid var(--color-bg-black);
+}
+
+.btn-05 {
+    background-color: var(--color-bg-white);
+    color: var(--color-text-secondary);
+    padding: 14px 24px;
+    border: 1px solid var(--color-text-secondary);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    height: 100%;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+    width: max-content;
+}
+
+.btn-05:hover {
+    background-color: transparent;
+    color: var(--color-text-white);
+    border: 1px solid var(--color-bg-white);
+}
+
+.btn-06 {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-white);
+    padding: 12px 30px;
+    border: 1px solid var(--color-bg-black);
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: 12px;
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    transition:
+        background-color 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.btn-06:hover {
+    background-color: transparent;
+    color: var(--color-text-black);
+    border: 1px solid var(--color-bg-black);
+}
+
+.container {
+    width: 100%;
+    padding: 0 24px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =========================
+   Small devices (≥576px)
+   ========================= */
+@media (min-width: 576px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
+/* =========================
+   Medium devices / Tablets (≥768px)
+   ========================= */
+@media (min-width: 768px) {
+    .container {
+        padding: 0 36px;
+    }
+}
+
+/* =========================
+   Large devices / Laptops (≥992px)
+   ========================= */
+@media (min-width: 992px) {
+    .container {
+        padding: 0 80px;
+    }
+}
+
+/* =========================
+   Extra large devices / Desktops (≥1200px)
+   ========================= */
+@media (min-width: 1200px) {
+    .container {
+        padding: 0 80px;
+    }
+}
+
+/* =========================
+   2XL screens (≥1400px)
+   ========================= */
+@media (min-width: 1400px) {
+    .container {
+        padding: 0 100px;
+    }
 }

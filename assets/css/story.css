@@ -1,0 +1,324 @@
+.story-of-samley {
+    padding: 30px 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.story-of-samley .head {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+/* =========================
+   Small devices (≥576px)
+   ========================= */
+@media (min-width: 576px) {
+    .story-of-samley {
+        padding: 30px 24px;
+    }
+}
+
+/* =========================
+   Medium devices / Tablets (≥768px)
+   ========================= */
+@media (min-width: 768px) {
+    .story-of-samley {
+        padding: 32px 36px;
+    }
+
+    .story-of-samley p {
+        width: 80%;
+    }
+
+    .story-of-samley img {
+        height: 188px;
+    }
+}
+
+/* =========================
+   Large devices / Laptops (≥992px)
+   ========================= */
+@media (min-width: 992px) {
+    .story-of-samley {
+        padding: 60px 80px;
+    }
+
+    .story-of-samley p {
+        width: 80%;
+    }
+}
+
+/* =========================
+   Extra large devices / Desktops (≥1200px)
+   ========================= */
+@media (min-width: 1200px) {
+    .story-of-samley {
+        padding: 60px 80px;
+    }
+}
+
+/* =========================
+   2XL screens (≥1400px)
+   ========================= */
+@media (min-width: 1400px) {
+    .story-of-samley {
+        padding: 80px 100px;
+    }
+}
+
+.story-of-samley p {
+    width: 80%;
+    max-width: 1100px;
+}
+
+
+/*-----------------------------------------------*/
+.section-story {
+    padding: 30px 24px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #F4fbfb;
+    max-width: 1440px;
+}
+
+.story_div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 30px;
+}
+
+.story_story_nav {
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+
+.story_story_navlink {
+    text-align: center;
+    width: fit-content;
+    padding: 8px 24px;
+    border-radius: 100px;
+    font-size: var(--fs-p-m);
+    font-family: var(--font-heading);
+    background-color: transparent;
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-text-secondary);
+    cursor: pointer;    white-space: nowrap;}
+
+.story_story_navlink:hover {
+    background-color: var(--color-text-secondary);
+    color: var(--color-text-white);
+    transition: color 0.2s;
+}
+
+.story_story_navlink.active88 {
+    background-color: var(--color-text-secondary);
+    color: var(--color-text-white);
+}
+
+.story_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.story_content_image {
+    width: 100%;
+    max-height: 450px;
+    aspect-ratio: 8/9;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/instagram/post01.jpg);
+}
+
+.story_content_text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.story_content_tag {
+    width: fit-content;
+    display: flex;
+    padding: 4px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 80px;
+    background-color: var(--color-text-secondary);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-white);
+}
+
+.story_content_head {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    font-family: var(--font-heading);
+    font-size: var(--fs-h2);
+    color: var(--color-text-secondary);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.story_content_para {
+    color: var(--color-text-black);
+    font-size: var(--fs-p-l);
+}
+
+.story_content_slogan {
+    color: var(--color-text-secondary);
+    font-size: var(--fs-p-l);
+    font-style: italic;
+}
+
+/* =========================
+   Small devices (≥576px)
+   ========================= */
+@media (min-width: 576px) {
+    .section-story {
+        padding: 30px 24px;
+    }
+}
+
+/* =========================
+   Medium devices / Tablets (≥768px)
+   ========================= */
+@media (min-width: 768px) {
+    .section-story {
+        padding: 32px 36px;
+    }
+
+    .story_div {
+        gap: 50px;
+        flex-direction: row;
+    }
+
+
+    .story_story_nav {
+        flex-direction: column;
+        gap: 15px;
+        height: 100%;
+        width: 25%;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .story_story_navlink {
+        text-align: left;
+        width: 100%;
+        padding: 5px 15px;
+        border-radius: 0 100px 100px 0;
+        background-color: transparent;
+        color: var(--color-text-black);
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .story_story_navlink:hover {
+        background-color: var(--color-text-secondary);
+        color: var(--color-text-white);
+    }
+
+    .story_story_navlink.active {
+        background-color: var(--color-text-secondary);
+        color: var(--color-text-white);
+    }
+
+    .story_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 80%;
+    }
+
+    .story_content_image {
+        width: 40%;
+        max-height: max-content;
+        aspect-ratio: 3/4;
+        border-radius: 110px 0 0 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../images/instagram/post01.jpg);
+    }
+
+    .story_content_text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 50%;
+    }
+
+    .story_content_tag {
+        padding: 2px 20px;
+    }
+
+    .story_content_head {
+        font-size: var(--fs-h4);
+    }
+
+    .story_content_para {
+        color: var(--color-text-black);
+        font-size: var(--fs-p-s);
+    }
+
+    .story_content_slogan {
+        color: var(--color-text-secondary);
+        font-size: var(--fs-p-s);
+        font-style: italic;
+    }
+}
+
+
+/* =========================
+   Large devices / Laptops (≥992px)
+   ========================= */
+@media (min-width: 992px) {
+    .section-story {
+        padding: 60px 80px;
+    }
+}
+
+/* =========================
+   Extra large devices / Desktops (≥1200px)
+   ========================= */
+@media (min-width: 1200px) {
+    .section-story {
+        padding: 60px 80px;
+    }
+}
+
+/* =========================
+   2XL screens (≥1400px)
+   ========================= */
+@media (min-width: 1400px) {
+    .section-story {
+        padding: 80px 100px;
+    }
+}

@@ -8,10 +8,19 @@
 
     <!-- Base Styles -->
     <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/story.css" />
+
+    <!-- Social Media Icon Links-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -20,21 +29,84 @@
     <header id="navbar"></header>
 
     <!-- MAIN CONTENT -->
-    <main>
+    <main class="main">
+
 
         <!-- Hero Section -->
-        <section id="hero">
-            <!-- Hero content placeholder -->
+        <!------------------------------------------------------------------->
+        <section id="hero_story" class="hero container">
+
+            <!-- Overlay -->
+            <div class="hero-overlay"></div>
+
+            <!-- Content -->
+            <div class="hero_content">
+                <div class="hero_button_content_">
+                    <button type="button" class="btn-02">Story of Samley</button>
+                </div>
+                <div class="hero_down_content">
+                    <img src="assets/images/componet/Vector_Down_50.png" alt="">
+                    <img src="assets/images/componet/Vector_Down_100.png" alt="">
+                </div>
+            </div>
         </section>
-        <!-- Other sections can be added here -->
+
+        <!-- Story Section -->
+        <!------------------------------------------------------------------->
+        <section class="story-of-samley">
+            <p class="text-center p-l head">STORY OF SAMLEY</p>
+            <img src="assets/images/logos/OurStory_Logo.png" alt="">
+            <p class="text-center p-m">Samley Teas began with a simple idea to share the rich taste and timeless charm
+                of
+                Ceylon Tea with the world. Known for its bold flavor and smooth finish, Ceylon Tea is more than just a
+                drink; it’s an experience that connects people across cultures.<br><br>
+
+                From the beginning, we have focused on doing things with care and purpose. At Samley Teas, it’s not just
+                about selling tea it’s about offering something real, something memorable. Every blend is created with
+                quality in mind, designed to meet the tastes of tea lovers everywhere.<br><br>
+
+                We believe in building trust through consistency, strong values, and thoughtful choices. The Lion Logo
+                on our packs stands as a symbol of authenticity a promise that what you’re enjoying is true Ceylon
+                Tea.<br><br>
+
+                Today, Samley Teas is part of tea moments in over 25 countries. And while we’re always moving forward,
+                our heart stays grounded in one simple goal: to keep the spirit of Ceylon Tea alive, one cup at a time.
+            </p>
+        </section>
+
+        <!------------------------------------------------------------------->
+        <section class="section-story">
+            <div class="story_div">
+                <div class="story_story_nav" id="storyNav"></div>
+                <div class="story_content">
+                    <div class="story_content_image" id="storyImage"></div>
+                    <div class="story_content_text">
+                        <p class="story_content_tag" id="storyTag"></p>
+                        <p class="story_content_head" id="storyHead"></p>
+                        <p class="story_content_para" id="storyPara"></p>
+                        <p class="story_content_slogan" id="storySlogan"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
+
+    <!-- EXPLORE OUR COLLECTION -->
+    <section id="collections-section" class="collections-highlight-white"></section>
+
+    <!-- INSTAGRAM FEED -->
+    <section id="instagram-section"></section>
 
     <!-- FOOTER -->
     <footer id="footer"></footer>
 
-    <!--Script -->
+    <!------------------------------------------------------------->
+    <!-------------------------- Script --------------------------->
+    <!------------------------------------------------------------->
     <script src="./assets/js/include.js"></script>
+    <script src="./assets/js/story.js"></script>
+
 </body>
 
 </html>

@@ -8,10 +8,18 @@
 
     <!-- Base Styles -->
     <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+
+    <!-- Social Media Icon Links-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -20,23 +28,59 @@
     <header id="navbar"></header>
 
     <!-- MAIN CONTENT -->
-    <main class="container">
+    <main class="products-container-main">
 
-        <header class="products-header">
-            <h1 class="h2" id="category-title">Products</h1>
-        </header>
+        <div class="products-container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <ul class="breadcrumb-list">
+                    <li><a href="index.html">Home</a></li>
 
-        <!-- Products Grid -->
-        <section class="products-grid" id="products-grid">
-            <!-- product cards injected here -->
-        </section>
+                    <li>
+                        <a href="products.html">Our Products</a>
+                    </li>
+
+                    <li id="breadcrumb-main-category"></li>
+
+                    <li id="breadcrumb-sub-category" class=""></li>
+
+                    <!-- Only used on product page 
+        <li id="breadcrumb-product" class="hidden"></li>-->
+                </ul>
+            </nav>
+
+
+
+            <header class="products-header">
+                <h2 class="h2" id="category-title">Products</h2>
+                <p class="p-l"> Own the Moment</p>
+                <p class="p-l" id="category-description"> Own the Moment</p>
+            </header>
+
+            <!-- Products Grid -->
+            <section class="products-grid" id="products-grid">
+                <!-- product cards injected here -->
+            </section>
+
+            <p class="products-empty-state p-m hidden text-center" id="products-empty">
+                No products found in this category.
+            </p>
+        </div>
 
     </main>
+
+    <!-- EXPLORE OUR COLLECTION -->
+    <section id="collections-section" class="collections-highlight"></section>
+
+    <!-- INSTAGRAM FEED -->
+    <section id="instagram-section"></section>
 
     <!-- FOOTER -->
     <footer id="footer"></footer>
 
-    <!--Script -->
+    <!------------------------------------------------------------->
+    <!-------------------------- Script --------------------------->
+    <!------------------------------------------------------------->
     <script src="./assets/js/include.js"></script>
     <script src="./assets/js/products.js"></script>
 

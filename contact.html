@@ -8,10 +8,19 @@
 
     <!-- Base Styles -->
     <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/contactus.css" />
+
+    <!-- Social Media Icon Links-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -20,21 +29,168 @@
     <header id="navbar"></header>
 
     <!-- MAIN CONTENT -->
-    <main>
+    <main class="main">
 
         <!-- Hero Section -->
-        <section id="hero">
-            <!-- Hero content placeholder -->
+        <section id="hero_contact" class="hero container">
+
+            <!-- Overlay -->
+            <div class="hero-overlay"></div>
+
+            <!-- Content -->
+            <div class="hero_content">
+                <div class="hero_button_content_">
+                    <button type="button" class="btn-02">Contact Us</button>
+                </div>
+                <div class="hero_down_content">
+                    <img src="assets/images/componet/Vector_Down_50.png" alt="">
+                    <img src="assets/images/componet/Vector_Down_100.png" alt="">
+                </div>
+            </div>
         </section>
-        <!-- Other sections can be added here -->
+
+        <section class="contact-container">
+            <div class="contact-details">
+                <div class="contact-heading">
+                    <h2 class="h2">Send Us Message</h2>
+                    <p class="p-s">If you have any questions, send us a message. We aim to reply within 24 hours.</p>
+                </div>
+                <div class="contact-data desktop-contact-data">
+                    <div class="form-card">
+                        <div class="contact-circule">
+                            <img src="assets/images/svg/contact/tabler-icon-phone.svg" alt="" srcset="">
+                        </div>
+                        <div class="contact-detail">
+                            <h5>Office Phone Number</h5>
+                            <p>+94 112 578 056</p>
+                        </div>
+                    </div>
+                    <div class="form-card">
+                        <div class="contact-circule">
+                            <img src="assets/images/svg/contact/tabler-icon-mail.svg" alt="" srcset="">
+                        </div>
+                        <div class="contact-detail">
+                            <h5>Office Email Address</h5>
+                            <p>info@samleyteas.lk</p>
+                        </div>
+                    </div>
+                    <div class="form-card">
+                        <div class="contact-circule">
+                            <img src="assets/images/svg/contact/tabler-icon-location.svg" alt="" srcset="">
+                        </div>
+                        <div class="contact-detail">
+                            <h5>Office Address</h5>
+                            <div class="address">
+                                <p><span>Sri Lanka</span><br>
+                                    No 43, Mulleriyawa North<br>
+                                    Mulleriyawa<br>
+                                    Sri Lanka
+                                </p>
+                                <p><span>USA</span><br>
+                                    Samley Teas USA LLC<br>
+                                    1032 E Brandon BLVD<br>
+                                    Brandon FL 33511<br>
+                                </p>
+                                <p><span>Russia</span><br>
+                                    191002, Russian Federation, St. Petersburg city <br>
+                                    Shcherbakov Lane, House 12 lit. A<br>
+                                    Room 1-N, Part Number 30, Office 224 B<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <!-- Full Name -->
+                    <div class="contact_card_form_group">
+                        <label class="contact_card_label">Full Name</label>
+                        <input type="text" class="contact_card_input" placeholder="John Doe">
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="contact_card_form_group">
+                        <label class="contact_card_label">Email Address</label>
+                        <input type="email" class="contact_card_input" placeholder="example@gmail.com">
+                    </div>
+
+                    <!-- Subject -->
+                    <div class="contact_card_form_group">
+                        <label class="contact_card_label">Subject</label>
+                        <input type="text" class="contact_card_input" placeholder="Craydon Tea">
+                    </div>
+
+                    <!-- Message -->
+                    <div class="contact_card_form_group">
+                        <label class="contact_card_label">How Can Help You?</label>
+                        <textarea class="contact_card_textarea " placeholder="Enter Your Message"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="contact_card_submit btn-03">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-data mobile-contact-data">
+                <div class="form-card">
+                    <div class="contact-circule">
+                        <img src="assets/images/svg/contact/tabler-icon-phone.svg" alt="" srcset="">
+                    </div>
+                    <div class="contact-detail">
+                        <h5>Office Phone Number</h5>
+                        <p>+94 112 578 056</p>
+                    </div>
+                </div>
+                <div class="form-card">
+                    <div class="contact-circule">
+                        <img src="assets/images/svg/contact/tabler-icon-mail.svg" alt="" srcset="">
+                    </div>
+                    <div class="contact-detail">
+                        <h5>Office Email Address</h5>
+                        <p>info@samleyteas.lk</p>
+                    </div>
+                </div>
+                <div class="form-card">
+                    <div class="contact-circule">
+                        <img src="assets/images/svg/contact/tabler-icon-location.svg" alt="" srcset="">
+                    </div>
+                    <div class="contact-detail">
+                        <h5>Office Address</h5>
+                        <div class="address">
+                            <p><span>Sri Lanka</span><br>
+                                No 43, Mulleriyawa North<br>
+                                Mulleriyawa<br>
+                                Sri Lanka
+                            </p>
+                            <p><span>USA</span><br>
+                                Samley Teas USA LLC<br>
+                                1032 E Brandon BLVD<br>
+                                Brandon FL 33511<br>
+                            </p>
+                            <p><span>Russia</span><br>
+                                191002, Russian Federation, St. Petersburg city <br>
+                                Shcherbakov Lane, House 12 lit. A<br>
+                                Room 1-N, Part Number 30, Office 224 B<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
+
+    <!-- INSTAGRAM FEED -->
+    <section id="instagram-section"></section>
 
     <!-- FOOTER -->
     <footer id="footer"></footer>
 
-    <!--Script -->
+    <!------------------------------------------------------------->
+    <!-------------------------- Script --------------------------->
+    <!------------------------------------------------------------->
     <script src="./assets/js/include.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "slug": "future-of-tea-industry",
+    "title": "The Future of the Tea Industry",
+    "shortDescription": "Learn how simple natural habits—like mindful tea moments and herbal infusions—can boost immunity, reduce stress, and improve your overall wellbeing.",
+    "publishedDate": "2025-12-28",
+    "category": "Tea Industry",
+    "tags": [
+      "tea",
+      "industry",
+      "future"
+    ],
+    "thumbnailImage": "assets/images/samples/3000.png",
+    "featured": true,
+    "status": "published"
+  },
+  {
+    "id": 2,
+    "slug": "benefits-of-ceylon-tea",
+    "title": "Health Benefits of Ceylon Tea",
+    "shortDescription": "Discover how eco-friendly Ceylon tea cultivation supports rich flavour, cleaner environments, and long-term community wellbeing through responsible farming practices.",
+    "publishedDate": "2025-12-20",
+    "category": "Health",
+    "tags": [
+      "health",
+      "tea"
+    ],
+    "thumbnailImage": "assets/images/samples/1000.png",
+    "featured": true,
+    "status": "published"
+  },
+  {
+    "id": 3,
+    "slug": "how-to-brew-perfect-tea",
+    "title": "How to Brew the Perfect Cup of Tea",
+    "shortDescription": "Explore the powerful Ayurvedic herbs found in Ceylon wellness blends and how they naturally support digestion, relaxation, immunity, and long-lasting vitality.",
+    "publishedDate": "2025-12-15",
+    "category": "Tea Guides",
+    "tags": [
+      "brewing",
+      "guide"
+    ],
+    "thumbnailImage": "assets/images/samples/2000.png",
+    "featured": true,
+    "status": "published"
+  },
+  {
+    "id": 4,
+    "slug": "tea-storage-tips",
+    "title": "Best Ways to Store Tea",
+    "shortDescription": "Keep your tea fresh and flavorful with proper storage techniques.",
+    "publishedDate": "2025-12-10",
+    "category": "Tips",
+    "tags": [
+      "storage",
+      "tea"
+    ],
+    "thumbnailImage": "assets/images/samples/1000.png",
+    "featured": false,
+    "status": "published"
+  }
+]

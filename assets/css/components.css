@@ -95,6 +95,13 @@
     background-size: cover;
 }
 
+#hero_wholesale {
+    background-image: url(../images/hero/Blogs_Cover_M.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /* =========================
    Extra large devices / Desktops (≥1200px)
    ========================= */
@@ -102,7 +109,7 @@
 
     /*Hero Section*/
     .hero {
-        height: 85dvh;
+        height: 81dvh;
         max-height: 750px;
         width: 100%;
         display: flex;

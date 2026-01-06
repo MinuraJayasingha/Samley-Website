@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/smooth.css" />
 
     <!-- Social Media Icon Links-->
     <link rel="stylesheet"
@@ -28,11 +29,11 @@
     <header id="navbar"></header>
 
     <!-- MAIN CONTENT -->
-    <main class="products-container-main">
+    <main class="products-container-main ">
 
         <div class="products-container">
             <!-- Breadcrumb -->
-            <nav class="breadcrumb">
+            <nav class="breadcrumb reveal-left">
                 <ul class="breadcrumb-list">
                     <li><a href="index.html">Home</a></li>
 
@@ -49,20 +50,18 @@
                 </ul>
             </nav>
 
-
-
-            <header class="products-header">
+            <header class="products-header reveal">
                 <h2 class="h2" id="category-title">Products</h2>
                 <p class="p-l"> Own the Moment</p>
                 <p class="p-l" id="category-description"> Own the Moment</p>
             </header>
 
             <!-- Products Grid -->
-            <section class="products-grid" id="products-grid">
+            <section class="products-grid reveal" id="products-grid">
                 <!-- product cards injected here -->
             </section>
 
-            <p class="products-empty-state p-m hidden text-center" id="products-empty">
+            <p class="products-empty-state p-m hidden text-center reveal" id="products-empty">
                 No products found in this category.
             </p>
         </div>
@@ -83,6 +82,7 @@
     <!------------------------------------------------------------->
     <script src="./assets/js/include.js"></script>
     <script src="./assets/js/products.js"></script>
+    <script src="./assets/js/smooth-scroll.js"></script>
 
 </body>
 

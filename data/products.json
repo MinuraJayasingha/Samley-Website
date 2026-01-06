@@ -728,6 +728,7 @@
     "slug": "arabian-night-tea",
     "mainCategory": "teas",
     "subCategory": "luxury-tea",
+    "featured": true,
 
     "name": "Arabian Night Tea",
     "shortDescription": "Rich and exotic luxury tea blend.Deep aroma with a smooth finish.",
@@ -768,6 +769,7 @@
     "slug": "wiry-lady-tea",
     "mainCategory": "teas",
     "subCategory": "luxury-tea",
+    "featured": true,
 
     "name": "Wiry Lady Tea",
     "shortDescription": "Elegant whole-leaf black tea.Bright liquor with refined taste.",
@@ -808,6 +810,7 @@
     "slug": "tipy-delight-tea",
     "mainCategory": "teas",
     "subCategory": "luxury-tea",
+    "featured": true,
 
     "name": "Tippy Delight Tea",
     "shortDescription": "Premium tea made from golden tips.Smooth, rich, and naturally sweet.",
@@ -3641,7 +3644,6 @@
     "slug": "hibiscus-lavender-tea",
     "mainCategory": "teas",
     "subCategory": "organic-herbal",
-    "featured": true,
 
     "name": " Hibiscus & Lavender Tea",
     "shortDescription": "Floral and tangy herbal blend with hibiscus and lavender.",
@@ -3880,7 +3882,6 @@
     "slug": "peach-sensation-tea",
     "mainCategory": "beverages",
     "subCategory": "iced-tea",
-    "featured": true,
 
     "name": "Peach Sensation Tea",
     "shortDescription": "Fruity and refreshing iced tea with natural peach flavor.",
@@ -4942,7 +4943,6 @@
     "slug": "orgainc-coconut-milk",
     "mainCategory": "coconut-based",
     "subCategory": "coconut-milk",
-    "featured": true,
 
     "name": "Organic Coconut Milk – 18%",
     "shortDescription": "Smooth and natural coconut milk with 18% fat content.",

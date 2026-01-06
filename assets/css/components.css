@@ -700,7 +700,7 @@
     font-family: var(--font-body);
     color: var(--color-text-secondary);
     font-size: var(--fs-p-s);
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 400;
 }
 

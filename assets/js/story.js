@@ -6,35 +6,35 @@ const storyData = {
         heading: "Elevating Lives, Nurturing Communities",
         content: "Inspiring individuals through innovative products and meaningful experiences, while fostering deep engagement among our valued stakeholders. Our purpose is to help build thriving, sustainable communities where people enjoy healthier, more connected lives — one sip at a time.",
         slogan: "Infusing Inspiration, Nourishing Connection",
-        image: "assets/images/instagram/post01.jpg"
+        image: "assets/images/samples/C01.png"
     },
     People: {
         tag: "People",
         heading: "Empowering Our Team",
         content: "Our people are at the heart of everything we do. We believe in creating an inclusive workplace where diverse talents thrive. We invest in continuous learning, wellness programs, and career development to ensure our team members feel valued and inspired.",
         slogan: "People First, Always Growing",
-        image: "assets/images/instagram/post02.jpg"
+        image: "assets/images/samples/C02.png"
     },
     "Corporate Governance": {
         tag: "Corporate Governance",
         heading: "Building Trust Through Transparency",
         content: "We maintain the highest standards of corporate governance to ensure accountability and transparency. Our board is committed to ethical decision-making, fair business practices, and protecting the interests of all stakeholders.",
         slogan: "Governance with Purpose",
-        image: "assets/images/instagram/post03.jpg"
+        image: "assets/images/samples/C03.png"
     },
     "Ethics & Compliance": {
         tag: "Ethics & Compliance",
         heading: "Doing the Right Thing",
         content: "Ethics is not just a policy—it's our culture. We are committed to conducting business with integrity, following all applicable laws and regulations, and maintaining the highest moral standards in everything we do.",
         slogan: "Integrity in Every Action",
-        image: "assets/images/instagram/post04.jpg"
+        image: "assets/images/samples/C04.png"
     },
     Environment: {
         tag: "Environment",
         heading: "Protecting Our Planet",
         content: "Sustainability is central to our mission. We are dedicated to reducing our environmental footprint, promoting renewable resources, and creating sustainable practices across our operations to protect the planet for future generations.",
         slogan: "Green Tomorrow, Today",
-        image: "assets/images/instagram/post05.jpg"
+        image: "assets/images/samples/C05.png"
     }
 };
 

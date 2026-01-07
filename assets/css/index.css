@@ -677,8 +677,7 @@
     }
     .sustain-content{
         width: 100%;
-    max-width: 1440px;
-        padding: 40px 36px;
+        padding: 30px 36px;
     }
 }
 
@@ -690,8 +689,7 @@
         min-height: 520px;
     }    .sustain-content{
         width: 100%;
-    max-width: 1440px;
-        padding: 60px 80px;
+        padding: 30px 80px;
     }
 }
 
@@ -700,12 +698,11 @@
    ========================= */
 @media (min-width: 1200px) {
     .sustain-slide {
-        padding: 80px 100px;
     }
     .sustain-content{
         width: 100%;
-    max-width: 1440px;
-        padding: 80px 100px;
+        max-width: 1440px;
+        padding: 30px 100px;
     }
 }
 
@@ -713,7 +710,6 @@
 /*discover-tea----------------------*/
 .discover-tea-section {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -727,7 +723,6 @@
     width: 100%;
     max-width: 1440px;
     padding: 30px 24px 30px 24px;
-
 }
 
 .discover-tea-top {

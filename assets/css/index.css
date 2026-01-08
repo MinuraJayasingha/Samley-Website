@@ -36,6 +36,10 @@
     margin-top: 30px;
 }
 
+.story-of-samley-index img {
+    width: 200px;
+}
+
 /* =========================
    Small devices (≥576px)
    ========================= */
@@ -65,7 +69,7 @@
    ========================= */
 @media (min-width: 992px) {
     .story-of-samley-index {
-        padding: 60px 80px  0 80px;
+        padding: 60px 80px 0 80px;
     }
 
     .story-of-samley-index .large-para {
@@ -77,6 +81,10 @@
     .story-of-samley-index button {
         margin-top: 30px;
     }
+
+    .story-of-samley-index img {
+        width: 250px;
+    }
 }
 
 /* =========================
@@ -84,7 +92,7 @@
    ========================= */
 @media (min-width: 1200px) {
     .story-of-samley-index {
-        padding: 60px 80px  0 80px;
+        padding: 60px 80px 0 80px;
     }
 }
 
@@ -100,6 +108,10 @@
 .story-of-samley-index p {
     width: 100%;
     max-width: 900px;
+}
+
+.story-of-samley-index img {
+    width: 280px;
 }
 
 /*----------LOGO CAROSAL----------*/
@@ -675,7 +687,8 @@
         position: relative;
         overflow: hidden;
     }
-    .sustain-content{
+
+    .sustain-content {
         width: 100%;
         padding: 30px 36px;
     }
@@ -687,7 +700,9 @@
 @media (min-width: 992px) {
     .sustain-slide {
         min-height: 520px;
-    }    .sustain-content{
+    }
+
+    .sustain-content {
         width: 100%;
         padding: 30px 80px;
     }
@@ -697,9 +712,9 @@
    Large screens (≥1200px)
    ========================= */
 @media (min-width: 1200px) {
-    .sustain-slide {
-    }
-    .sustain-content{
+    .sustain-slide {}
+
+    .sustain-content {
         width: 100%;
         max-width: 1440px;
         padding: 30px 100px;

@@ -125,13 +125,17 @@
 }
 
 .logo-carosal .carsol {
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     height: 110px;
     display: flex;
     gap: 20px;
     overflow: scroll;
 }
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
 
 .logo-carosal .img {
     height: 100%;
@@ -146,7 +150,7 @@
     }
 
     .logo-carosal .carsol {
-        max-width: 1000px;
+        max-width: 1200px;
         width: 100%;
         height: 110px;
         display: flex;

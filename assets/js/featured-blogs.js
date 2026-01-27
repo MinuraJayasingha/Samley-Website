@@ -34,9 +34,7 @@ function renderFeaturedBlogs(blogs) {
       <img src="${blog.thumbnailImage}" alt="${blog.title}" class="blog-card-image">
 
       <div class="blog-card-content">
-        <span class="blog-posted-date">
-          Posted On ${formatDate(blog.publishedDate)}
-        </span>
+
 
         <h3 class="blog-card-title">${blog.title}</h3>
 
@@ -63,3 +61,9 @@ function formatDate(dateStr) {
 }
 
 document.addEventListener("DOMContentLoaded", loadFeaturedBlogs);
+
+/*         <span class="blog-posted-date">
+          Posted On ${formatDate(blog.publishedDate)}
+        </span>
+        
+        */

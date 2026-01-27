@@ -120,8 +120,8 @@
     padding: 30px 24px;
     width: 100%;
     background-color: #f4fbfb;
-    justify-items: center;
-    align-items: center;
+    justify-items: center !important;
+    align-items: center !important;
 }
 
 .logo-carosal .carsol {
@@ -443,13 +443,31 @@
 }
 
 .content-bottom-card #img-01 {
-    background-image: url("../images/products/Teas/Signature Teas/Black Tea – Ceylon.png");
-    background-color: #FDE9EB;
+    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Berry Sensation 250g.png");
+    background-color: #F3EEF5;
 }
 
 .content-bottom-card #img-02 {
-    background-image: url("../images/products/Teas/Signature Teas/Earl Grey – Ceylon Sips.png");
-    background-color: #E8F6F5;
+    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/French Vanilla 250g.png");
+    background-color: #FBFCF5;
+}
+.content-bottom-card #img-03 {
+    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Herbal Punch 250g.png");
+    background-color: #F8FBF0;
+}
+
+.content-bottom-card #img-04 {
+    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Mango Delight 250g.png");
+    background-color: #FDFAEE;
+}
+.content-bottom-card #img-05 {
+    background-image: url("../assets/images/products/Teas/Organic Herbal Infusions Teas/Rhubarb Tart 250g.png");
+    background-color: #F8FBF0;
+}
+
+.content-bottom-card #img-06 {
+    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Rose Blossom 250g.png");
+    background-color: #FDFAEE;
 }
 
 .content-bottom-card .titlee {
@@ -533,8 +551,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        overflow-y: hidden;
         width: 100%;
-        overflow: hidden;
     }
 
     .content-bottom-card {

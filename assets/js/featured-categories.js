@@ -1,6 +1,6 @@
 const data = {
     teas: {
-        title: "Signature",
+        title: "Organic",
         title2: "Teas",
         eyebrow: "Premium Products",
         description:
@@ -10,7 +10,7 @@ const data = {
     },
 
     beverages: {
-        title: "Refreshing",
+        title: "Organic",
         title2: "Beverages",
         eyebrow: "Premium Products",
         description:
@@ -30,8 +30,8 @@ const data = {
     },
 
     coconut: {
-        title: "Coconut",
-        title2: "Creations",
+        title: "Organic",
+        title2: "Coconut Products",
         eyebrow: "Premium Products",
         description:
             "Pure, tropical coconut creations crafted to nourish, refresh, and elevate everyday living.",

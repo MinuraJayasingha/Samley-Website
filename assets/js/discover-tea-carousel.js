@@ -5,39 +5,55 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!carousel || !prevBtn || !nextBtn) return;
 
-  const card = carousel.querySelector(".discover-p-card");
-  const cardWidth = card.offsetWidth + 20; // card + gap
+  const cards = carousel.querySelectorAll(".discover-p-card");
+  const cardWidth = cards[0].offsetWidth + 20; // card + gap
+  const originalWidth = cardWidth * 4; // Width of 4 original cards
 
   function updateButtons() {
-    const maxScrollLeft =
-      carousel.scrollWidth - carousel.clientWidth;
+    const scrollLeft = carousel.scrollLeft;
+    const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
 
-    prevBtn.classList.toggle(
-      "active",
-      carousel.scrollLeft > 5
-    );
+    // Adjust for infinite loop
+    const adjustedScrollLeft = scrollLeft >= originalWidth ? scrollLeft - originalWidth : scrollLeft;
 
-    nextBtn.classList.toggle(
-      "active",
-      carousel.scrollLeft < maxScrollLeft - 5
-    );
+    prevBtn.classList.toggle("active", adjustedScrollLeft > 5);
+    nextBtn.classList.toggle("active", adjustedScrollLeft < originalWidth - carousel.clientWidth - 5);
+  }
+
+  function scrollNext() {
+    carousel.scrollBy({
+      left: cardWidth,
+      behavior: "smooth",
+    });
+  }
+
+  function handleScroll() {
+    const scrollLeft = carousel.scrollLeft;
+    if (scrollLeft >= originalWidth) {
+      // Jump back to start instantly for infinite loop
+      carousel.scrollLeft = scrollLeft - originalWidth;
+    }
+    updateButtons();
   }
 
   prevBtn.addEventListener("click", () => {
+    const scrollLeft = carousel.scrollLeft;
+    if (scrollLeft <= 0) {
+      // Jump to the duplicated part
+      carousel.scrollLeft = originalWidth;
+    }
     carousel.scrollBy({
       left: -cardWidth,
       behavior: "smooth",
     });
   });
 
-  nextBtn.addEventListener("click", () => {
-    carousel.scrollBy({
-      left: cardWidth,
-      behavior: "smooth",
-    });
-  });
+  nextBtn.addEventListener("click", scrollNext);
 
-  carousel.addEventListener("scroll", updateButtons);
+  carousel.addEventListener("scroll", handleScroll);
+
+  // Auto-scroll every 3 seconds
+  setInterval(scrollNext, 3000);
 
   // Init state
   updateButtons();

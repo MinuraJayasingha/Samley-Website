@@ -6,7 +6,7 @@
     }
 
     .reviews-section-div {
-        padding: 30px 30px;
+        padding: 30px 36px;
         width: 100%;
         max-width: 1440px;
     }
@@ -14,6 +14,7 @@
     .reviews-header {
         display: flex;
         flex-direction: column;
+        padding: 30px 0px
     }
 
     .reviews-header h2 {
@@ -147,6 +148,12 @@
         overflow: hidden;
     }
 
+    @media (min-width: 992px) {
+                .reviews-header {
+padding: 50px 50px;
+        }
+    }
+
     /* MOBILE */
     @media (min-width: 768px) {
         .reviews-section {
@@ -157,7 +164,6 @@
         }
 
         .reviews-section-div {
-            padding: 0px 100px;
             max-width: 2500px;
             display: flex;
             flex-direction: column;
@@ -172,9 +178,7 @@
             align-items: end;
             max-width: 1440px;
             width: 100%;
-            padding: 100px
         }
-
 
         .reviews-row.row-right {
             display: flex;
@@ -194,5 +198,17 @@
         .reviews-row.row-right {
             margin-left: -250px;
             margin-right: -250px;
+        }
+    }
+
+    @media (min-width: 1400px) {
+                .reviews-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: end;
+            max-width: 1440px;
+            width: 100%;
+            padding: 30px 100px;
         }
     }

@@ -3,6 +3,7 @@
     "id": "teas",
     "slug": "teas",
     "title": "Teas",
+    "Pagetitle": "Discover Our Teas Collection",
     "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {
@@ -118,7 +119,8 @@
   {
     "id": "beverages",
     "slug": "beverages",
-    "title": "Beverages",
+    "title": "Our Beverages",
+    "Pagetitle": "Discover Our Beverages Collection",
     "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {
@@ -144,6 +146,7 @@
     "id": "organic-spices",
     "slug": "organic-spices",
     "title": "Organic Spices",
+    "Pagetitle": "Discover Our Organic Spices Collection",
     "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {
@@ -162,6 +165,7 @@
     "id": "coconut-based",
     "slug": "coconut-based",
     "title": "Coconut Based",
+    "Pagetitle": "Discover Our Coconut Based Collection",
     "description": " Discover our refreshing green tea collection, crafted from hand-picked leaves. Pure, vibrant flavor designed to bring calm to every cup.",
     "subCategories": [
       {

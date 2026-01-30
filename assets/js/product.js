@@ -154,7 +154,7 @@ function updateBreadcrumbForProduct(product) {
                     if (sub.slug === product.subCategory) {
 
                         document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="products.html">${main.title}</a>`;
+                            `<a href="products.html?main=${main.slug}">${main.title}</a>`;
 
                         document.getElementById("breadcrumb-sub-category").innerHTML =
                             `<a href="products.html?category=${sub.slug}">

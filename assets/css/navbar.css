@@ -327,7 +327,6 @@
         display: flex;
         width: 88.9dvw;
         padding: 30px 15%;
-        left: 0;
         transform: translateX(-50%);
         top: 50.5px !important;
         margin: 0px !important;
@@ -451,7 +450,6 @@
         display: flex;
         width: 88.9dvw;
         padding: 30px 15%;
-        left: 0;
         transform: translateX(-50%);
         top: 56.5px !important;
         margin: 0px !important;

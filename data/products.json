@@ -728,6 +728,7 @@
     "slug": "arabian-night-tea",
     "mainCategory": "teas",
     "subCategory": "luxury-tea",
+    "featured": true,
 
     "name": "Arabian Night Tea",
     "shortDescription": "Rich and exotic luxury tea blend.Deep aroma with a smooth finish.",
@@ -768,6 +769,7 @@
     "slug": "wiry-lady-tea",
     "mainCategory": "teas",
     "subCategory": "luxury-tea",
+    "featured": true,
 
     "name": "Wiry Lady Tea",
     "shortDescription": "Elegant whole-leaf black tea.Bright liquor with refined taste.",
@@ -808,6 +810,7 @@
     "slug": "tipy-delight-tea",
     "mainCategory": "teas",
     "subCategory": "luxury-tea",
+    "featured": true,
 
     "name": "Tippy Delight Tea",
     "shortDescription": "Premium tea made from golden tips.Smooth, rich, and naturally sweet.",
@@ -3641,7 +3644,6 @@
     "slug": "hibiscus-lavender-tea",
     "mainCategory": "teas",
     "subCategory": "organic-herbal",
-    "featured": true,
 
     "name": " Hibiscus & Lavender Tea",
     "shortDescription": "Floral and tangy herbal blend with hibiscus and lavender.",
@@ -3880,7 +3882,6 @@
     "slug": "peach-sensation-tea",
     "mainCategory": "beverages",
     "subCategory": "iced-tea",
-    "featured": true,
 
     "name": "Peach Sensation Tea",
     "shortDescription": "Fruity and refreshing iced tea with natural peach flavor.",
@@ -4750,7 +4751,7 @@
     "shortDescription": "Fresh and natural coconut water for hydration.",
     "tags": ["Refreshing", "Natural", "Hydrating"],
     "packInfo": "330ml Bottle",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Liquid",
@@ -4777,7 +4778,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
+      "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
     ]
   },
   {
@@ -4790,7 +4791,7 @@
     "shortDescription": "Convenient canned coconut water for refreshment on-the-go.",
     "tags": ["Refreshing", "Natural", "Convenient"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water 3.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water 3.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Liquid",
@@ -4816,7 +4817,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water 3.png"
+      "assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water 3.png"
     ]
   },
   {
@@ -4829,7 +4830,7 @@
     "shortDescription": "Fresh and natural coconut water for hydration.",
     "tags": ["Refreshing", "Natural", "Hydrating"],
     "packInfo": "330ml Bottle",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Organic King Coconut Water.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Organic King Coconut Water.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Liquid",
@@ -4855,7 +4856,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/Organic King Coconut Water.png"
+      "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Organic King Coconut Water.png"
     ]
   },
   {
@@ -4868,7 +4869,7 @@
     "shortDescription": "Sweet and convenient canned king coconut water.",
     "tags": ["Sweet", "Refreshing", "Convenient"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Liquid",
@@ -4894,7 +4895,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png"
+      "assets/images/products/Coconut Based/coconut-water&king-coconut-water/King Coconut Water Can.png"
     ]
   },
   
@@ -4908,7 +4909,7 @@
     "shortDescription": "Rich and creamy coconut cream for cooking and desserts.",
     "tags": ["Creamy", "Rich", "Smooth"],
     "packInfo": "200ml Can",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Coconut Cream.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-milk&coconut-cream/Coconut Cream.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Cream",
@@ -4934,7 +4935,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Coconut Cream.png"
+      "assets/images/products/Coconut Based/coconut-milk&coconut-cream/Coconut Cream.png"
     ]
   },
   {
@@ -4942,13 +4943,12 @@
     "slug": "orgainc-coconut-milk",
     "mainCategory": "coconut-based",
     "subCategory": "coconut-milk",
-    "featured": true,
 
     "name": "Organic Coconut Milk – 18%",
     "shortDescription": "Smooth and natural coconut milk with 18% fat content.",
     "tags": ["Smooth", "Natural", "Creamy"],
     "packInfo": "200ml Can",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Liquid",
@@ -4974,7 +4974,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png"
+      "assets/images/products/Coconut Based/coconut-milk&coconut-cream/Organic Coconut Milk.png"
     ]
   },
 
@@ -4988,7 +4988,7 @@
     "shortDescription": "High-quality organic coconut flour in bulk for baking and cooking.",
     "tags": ["Organic", "Nutty", "Healthy"],
     "packInfo": "20kg Kraft Bag",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour – 20kg.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour – 20kg.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Powder",
@@ -5013,7 +5013,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour – 20kg.png"
+      "assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour – 20kg.png"
     ]
   },
   {
@@ -5026,7 +5026,7 @@
     "shortDescription": "Premium organic coconut flour for everyday cooking and baking.",
     "tags": ["Organic", "Nutty", "Healthy"],
     "packInfo": "500g Pack",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour 500g.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour 500g.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Powder",
@@ -5051,7 +5051,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour 500g.png"
+      "assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Flour 500g.png"
     ]
   },
   {
@@ -5064,7 +5064,7 @@
     "shortDescription": "Creamy coconut milk in powdered form for versatile use.",
     "tags": ["Organic", "Smooth", "Creamy"],
     "packInfo": "500g Pack",
-    "thumbnailImage": "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Milk Powder.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Milk Powder.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Powder",
@@ -5089,7 +5089,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Milk Powder.png"
+      "assets/images/products/Coconut Based/coconut-flour&coconut-milk-powder/Organic Coconut Milk Powder.png"
     ]
   },
 
@@ -5103,7 +5103,7 @@
     "shortDescription": " Pure and natural virgin coconut oil for cooking and skincare.",
     "tags": ["Pure", "Natural", "Versatile"],
     "packInfo": "250ml Bottle",
-    "thumbnailImage": "/assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil 2.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil 2.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Oil",
@@ -5129,7 +5129,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based//virgin-coconut-oil/Organic Virgin Coconut Oil 2.png"
+      "assets/images/products/Coconut Based//virgin-coconut-oil/Organic Virgin Coconut Oil 2.png"
     ]
   },
   {
@@ -5142,7 +5142,7 @@
     "shortDescription": " Premium virgin coconut oil for cooking, baking, and personal care.",
     "tags": ["Pure", "Natural", "Healthy"],
     "packInfo": "500ml Bottle",
-    "thumbnailImage": "/assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Oil",
@@ -5168,7 +5168,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil.png"
+      "assets/images/products/Coconut Based/virgin-coconut-oil/Organic Virgin Coconut Oil.png"
     ]
   },
 
@@ -5182,7 +5182,7 @@
     "shortDescription": " Finely shredded organic coconut for cooking and baking.",
     "tags": ["Organic", "Nutty", "Fresh"],
     "packInfo": "500g Pack",
-    "thumbnailImage": "/assets/images/products/Coconut Based/desiccated-coconut/Organic Desiccated Coconut.png",
+    "thumbnailImage": "assets/images/products/Coconut Based/desiccated-coconut/Organic Desiccated Coconut.png",
 
     "brand": "Ceylon Coconut",
     "itemForm": "Shredded",
@@ -5208,7 +5208,7 @@
     ],
 
     "galleryImages": [
-      "/assets/images/products/Coconut Based/desiccated-coconut/Organic Desiccated Coconut.png"
+      "assets/images/products/Coconut Based/desiccated-coconut/Organic Desiccated Coconut.png"
     ]
   }
 ]

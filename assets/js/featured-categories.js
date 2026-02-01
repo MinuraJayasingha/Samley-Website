@@ -1,22 +1,22 @@
 const data = {
     teas: {
-        title: "Signature",
+        title: "Organic",
         title2: "Teas",
         eyebrow: "Premium Products",
         description:
             "Savor the rich aroma and authentic taste of our handcrafted tea blends — crafted to calm, energize, and delight every moment.",
-        image: "assets/images/samples/image02.png",
-        link: "products.html?category=teas"
+        image: "assets/images/feat_categories/Organic Teas Cover.png",
+        link: "products.html?category=green-tea"
     },
 
     beverages: {
-        title: "Refreshing",
+        title: "Organic",
         title2: "Beverages",
         eyebrow: "Premium Products",
         description:
             "From fruit-infused coolers to revitalizing brews, our beverages are designed to refresh your body and spirit.",
-        image: "assets/images/instagram/post02.jpg",
-        link: "products.html?category=beverages"
+        image: "assets/images/feat_categories/Organic Beverages.png",
+        link: "products.html?category=iced-coffee"
     },
 
     spices: {
@@ -25,18 +25,18 @@ const data = {
         eyebrow: "Premium Products",
         description:
             "Add natural depth and bold flavor to your meals with our sustainably sourced organic spices.",
-        image: "assets/images/samples/image04.png",
-        link: "products.html?category=spices"
+        image: "assets/images/feat_categories/Organic Spices.png",
+        link: "products.html?category=ceylon-organic-spices"
     },
 
     coconut: {
-        title: "Coconut",
-        title2: "Creations",
+        title: "Organic",
+        title2: "Coconut Products",
         eyebrow: "Premium Products",
         description:
             "Pure, tropical coconut creations crafted to nourish, refresh, and elevate everyday living.",
-        image: "assets/images/samples/image03.png",
-        link: "products.html?category=coconut"
+        image: "assets/images/feat_categories/Organic Coconut Based.png",
+        link: "products.html?category=coconut-water"
     }
 };
 

@@ -1,34 +1,81 @@
-// js/products.js
+// assets/js/products.js
+
+/* --------------------------------------------------
+   URL helpers
+-------------------------------------------------- */
 
 function getCategoryFromURL() {
     const params = new URLSearchParams(window.location.search);
     return params.get("category");
 }
 
+function getMainFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("main");
+}
+
+/* --------------------------------------------------
+   Main loader
+-------------------------------------------------- */
+
 async function loadProducts() {
     const categorySlug = getCategoryFromURL();
+    const mainSlug = getMainFromURL();
+
     const emptyState = document.getElementById("products-empty");
     const grid = document.getElementById("products-grid");
 
-    if (!categorySlug) {
-        emptyState.textContent = "Please select a product category.";
-        emptyState.classList.remove("hidden");
-        return;
-    }
-
-    updateCategoryTitle(categorySlug);
-    updateBreadcrumbForProducts(categorySlug);
-    document.title = `${categorySlug.replace("-", " ")} | Samley Teas`;
+    if (!grid) return;
 
     const res = await fetch("data/products.json");
     const products = await res.json();
 
-    const filtered = products.filter(
-        p => p.subCategory === categorySlug
-    );
+    let filtered = [];
+
+    /* ---------------- OUR PRODUCTS (ALL) ---------------- */
+
+    if (!categorySlug && !mainSlug) {
+        document.getElementById("category-title").textContent = "Our Products";
+        document.getElementById("category-description").textContent =
+            "Explore our complete collection of premium Ceylon teas, beverages, and spices.";
+
+        document.title = "Our Products | Samley Teas";
+
+        updateBreadcrumbForAll();
+
+        filtered = products;
+    }
+
+    /* ---------------- SUB CATEGORY ---------------- */
+
+    else if (categorySlug) {
+        await updateCategoryTitle(categorySlug, null);
+        updateBreadcrumbForProducts(categorySlug);
+
+        document.title = `${categorySlug.replace(/-/g, " ")} | Samley Teas`;
+
+        filtered = products.filter(
+            p => p.subCategory === categorySlug
+        );
+    }
+
+    /* ---------------- MAIN CATEGORY ---------------- */
+
+    else if (mainSlug) {
+        await updateCategoryTitle(null, mainSlug);
+        updateBreadcrumbForMain(mainSlug);
+
+        document.title = `${mainSlug.replace(/-/g, " ")} | Samley Teas`;
+
+        filtered = products.filter(
+            p => p.mainCategory === mainSlug
+        );
+    }
+
+    /* ---------------- EMPTY STATE ---------------- */
 
     if (filtered.length === 0) {
-        emptyState.textContent = "No products found in this category.";
+        emptyState.textContent = "No products found.";
         emptyState.classList.remove("hidden");
         return;
     }
@@ -37,21 +84,50 @@ async function loadProducts() {
     renderProducts(filtered);
 }
 
+/* --------------------------------------------------
+   Titles & descriptions
+-------------------------------------------------- */
 
-async function updateCategoryTitle(categorySlug) {
+async function updateCategoryTitle(categorySlug, mainSlug) {
     const res = await fetch("data/categories.json");
     const categories = await res.json();
 
-    categories.forEach(main => {
-        main.subCategories.forEach(sub => {
-            if (sub.slug === categorySlug) {
+    // Sub category
+    if (categorySlug) {
+        categories.forEach(main => {
+            main.subCategories.forEach(sub => {
+                if (sub.slug === categorySlug) {
+                    document.getElementById("category-title").textContent =
+                        sub.pagetitle;
 
-                // Page title & description
-                document.getElementById("category-title").textContent = sub.pagetitle;
-                document.getElementById("category-description").textContent = sub.description;
-            }
+                    document.getElementById("category-description").textContent =
+                        sub.description;
+                }
+            });
         });
-    });
+        return;
+    }
+
+    // Main category
+    if (mainSlug) {
+        const main = categories.find(m => m.slug === mainSlug);
+        if (main) {
+            document.getElementById("category-title").textContent =
+                main.Pagetitle || main.title;
+
+            document.getElementById("category-description").textContent =
+                main.description || "";
+        }
+    }
+}
+
+/* --------------------------------------------------
+   Breadcrumbs
+-------------------------------------------------- */
+
+function updateBreadcrumbForAll() {
+    document.getElementById("breadcrumb-main-category").textContent = "";
+    document.getElementById("breadcrumb-sub-category").textContent = "";
 }
 
 function updateBreadcrumbForProducts(categorySlug) {
@@ -62,7 +138,9 @@ function updateBreadcrumbForProducts(categorySlug) {
                 main.subCategories.forEach(sub => {
                     if (sub.slug === categorySlug) {
                         document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="products.html">${main.title}</a>`;
+                            `<a href="products.html?main=${main.slug}">
+                                ${main.title}
+                             </a>`;
 
                         document.getElementById("breadcrumb-sub-category").textContent =
                             sub.title;
@@ -72,6 +150,25 @@ function updateBreadcrumbForProducts(categorySlug) {
         });
 }
 
+function updateBreadcrumbForMain(mainSlug) {
+    fetch("data/categories.json")
+        .then(res => res.json())
+        .then(categories => {
+            const main = categories.find(m => m.slug === mainSlug);
+            if (main) {
+                document.getElementById("breadcrumb-main-category").innerHTML =
+                    `<a href="products.html?main=${main.slug}">
+                        ${main.title}
+                     </a>`;
+
+                document.getElementById("breadcrumb-sub-category").textContent = "";
+            }
+        });
+}
+
+/* --------------------------------------------------
+   Render products
+-------------------------------------------------- */
 
 function renderProducts(products) {
     const grid = document.getElementById("products-grid");
@@ -84,11 +181,13 @@ function renderProducts(products) {
         card.className = "product-card";
 
         card.innerHTML = `
-            <a href="product.html?product=${product.slug}" class="product-image"
-            style="background-image:url('${product.thumbnailImage}')">
+            <a href="product.html?product=${product.slug}"
+               class="product-image"
+               style="background-image:url('${product.thumbnailImage}')">
 
-                <img src="${product.thumbnailImage}" alt="${product.name}" loading="lazy" />
-
+                <img src="${product.thumbnailImage}"
+                     alt="${product.name}"
+                     loading="lazy" />
             </a>
 
             <div class="content">
@@ -104,15 +203,19 @@ function renderProducts(products) {
             </div>
 
             <div class="product-btn-div">
-                <a class="btn-03 product-btn" href="product.html?product=${product.slug}">
+                <a class="btn-03 product-btn"
+                   href="product.html?product=${product.slug}">
                     View Product
                 </a>
             </div>
         `;
 
-
         grid.appendChild(card);
     });
 }
+
+/* --------------------------------------------------
+   Init
+-------------------------------------------------- */
 
 document.addEventListener("DOMContentLoaded", loadProducts);

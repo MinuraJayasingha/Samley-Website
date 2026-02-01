@@ -450,7 +450,6 @@
         display: flex;
         width: 88.9dvw;
         padding: 30px 15%;
-        transform: translateX(-50%);
         top: 56.5px !important;
         margin: 0px !important;
         overflow: hidden;

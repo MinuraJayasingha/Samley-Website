@@ -34,11 +34,7 @@ function renderBlogs() {
       <img src="${blog.thumbnailImage}" alt="${blog.title}" class="blog-card-image">
 
       <div class="blog-card-content">
-        <div class="blog-card-meta">
-          <span class="blog-posted-date">
-            Posted On ${formatDate(blog.publishedDate)}
-          </span>
-        </div>
+
 
         <h2 class="blog-card-title">${blog.title}</h2>
 
@@ -99,3 +95,9 @@ document.addEventListener("click", e => {
 });
 
 document.addEventListener("DOMContentLoaded", loadBlogs);
+
+/*<div class="blog-card-meta">
+  <span class="blog-posted-date">
+    Posted On ${formatDate(blog.publishedDate)}
+  </span>
+</div>*/

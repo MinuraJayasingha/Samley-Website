@@ -70,11 +70,13 @@
 }
 
 .nav-dropdown.hidden {
-    display: none;
+    display: none !important;
+    visibility: hidden !important;
 }
 
 .nav-dropdown.show {
-    display: flex;
+    display: flex !important;
+    visibility: visible !important;
 }
 
 .dropdown-inner {
@@ -165,9 +167,7 @@
     font-size: var(--fs-p-xl);
     color: var(--color-text-black);
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-
 }
-
 
 .nav-item a:hover {
     color: var(--color-text-secondary);
@@ -230,14 +230,14 @@
     justify-content: space-between;
 }
 
-.button-CNT{
+.button-CNT {
     width: 100%;
     display: flex;
     justify-content: end;
     padding-top: 20%;
 }
 
-.contact-btn-mobile{
+.contact-btn-mobile {
     display: block;
     width: 100%;
     color: var(--color-text-white) !important;
@@ -247,9 +247,9 @@
    Small devices (≥576px)
    ========================= */
 @media (min-width: 576px) {
-    .button-CNT{
-    padding-top: 5%;
-}
+    .button-CNT {
+        padding-top: 5%;
+    }
 }
 
 /* =========================
@@ -259,7 +259,6 @@
     .navbar-menu {
         padding: 40px 36px;
     }
-
 }
 
 /* =========================
@@ -288,8 +287,8 @@
     .navbar-main {
         max-width: 1440px;
         width: 100%;
+        position: relative;
     }
-
 
     /* Navbar Menu */
     .navbar-menu {
@@ -321,20 +320,27 @@
         display: block;
     }
 
+    /* DROPDOWN - TRULY CENTERED - HIDDEN BY DEFAULT */
     .nav-dropdown {
-        position: absolute;
+        position: fixed;
         background-color: var(--color-bg-white);
-        display: flex;
-        width: 88.9dvw;
-        padding: 30px 15%;
-        transform: translateX(-50%);
-        top: 50.5px !important;
+        display: none !important;
+        width: 100vw;
+        height: auto;
+        left: 0;
+        right: 0;
+        padding: 30px 20px;
+        top: 113px;
         margin: 0px !important;
-        overflow: hidden;
+        overflow: visible;
         box-shadow: var(--shadow-md);
         justify-content: center;
         align-items: center;
-        max-width: 1200px;
+        z-index: 900;
+    }
+
+    .nav-dropdown.show {
+        display: flex !important;
     }
 
     .dropdown-inner {
@@ -395,7 +401,7 @@
         height: 100%;
     }
 
-    #nav-link{
+    #nav-link {
         padding: 0px;
         height: 19.5px !important;
     }
@@ -408,11 +414,10 @@
         cursor: pointer;
     }
 
-    .button-CNT{
-    display: none;
+    .button-CNT {
+        display: none;
+    }
 }
-}
-
 
 /* =========================
    Extra large devices / Desktops (≥1200px)
@@ -432,34 +437,47 @@
     .dropdown-card .product-card {
         height: 443px;
     }
+
     .dropdown-card .product-card .product-image {
         height: 305px;
         background-color: antiquewhite;
         background-image: url(../images/products/nav/CeylonGreenTea.png);
         border-radius: 16px;
     }
-    .nav-bar-top h5{
+
+    .nav-bar-top h5 {
         font-family: var(--font-heading) !important;
-        color: var(--color-text-black)!important;
+        color: var(--color-text-black) !important;
         font-size: 18px !important;
         font-weight: 500 !important;
     }
-        .nav-dropdown {
-        position: absolute;
+
+    /* Same dropdown styles as 992px */
+    .nav-dropdown {
+        position: fixed;
         background-color: var(--color-bg-white);
-        display: flex;
-        width: 88.9dvw;
-        padding: 30px 15%;
-        top: 56.5px !important;
+        display: none !important;
+        width: 100vw;
+        height: auto;
+        left: 0;
+        right: 0;
+        padding: 30px 20px;
+        top: 113px;
         margin: 0px !important;
-        overflow: hidden;
+        overflow: visible;
         box-shadow: var(--shadow-md);
         justify-content: center;
         align-items: center;
+        z-index: 900;
+    }
+
+    .nav-dropdown.show {
+        display: flex !important;
     }
 }
 
 /* =========================
    2XL screens (≥1400px)
    ========================= */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}

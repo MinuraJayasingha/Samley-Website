@@ -235,14 +235,13 @@
 
 .instagram-feed-wrapper {
     width: 100%;
+    height: max-content;
 }
 
 .instagram-feed-wrapper iframe {
     width: 100%;
-    height: 400px;
+    height: 210px;
     border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .instagram-carousel {
@@ -270,6 +269,38 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: box-shadow 0.3s ease;
+}
+
+/* Responsive behavior: keep SnapWidget at natural width and allow horizontal scrolling on small screens */
+@media (max-width: 991px) {
+    .instagram-feed-wrapper {
+        height: max-content;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 8px;
+    }
+
+    .instagram-feed-wrapper iframe {
+        width: 1260px;
+        min-width: 1260px;
+        border-radius: 8px;
+    }
+
+    .instagram-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 8px;
+    }
+
+    .instagram-view-link {
+        background: var(--color-text-secondary);
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
 }
 
 

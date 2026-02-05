@@ -328,7 +328,7 @@
 
     .footer-logo {
         height: auto;
-        width: 200px;
+        width: 150px;
     }
 
     .footer-column-top {
@@ -348,7 +348,7 @@
 
     .top-social {
         display: block;
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     .footer-social-top {

@@ -71,14 +71,13 @@
 .serve-icon {
     font-size: 25px;
     margin-bottom: 16px;
-    width: 50px;
-    height: 50px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #F4FBFB;
     border-radius: 12px;
-    padding: 5px;
+    padding: 20px;
 }
 
 .serve-card h4 {
@@ -284,7 +283,6 @@
         ================================ */
 
 .certifications {
-    background: #ffffff;
     text-align: center;
 }
 
@@ -332,10 +330,9 @@
     font-size: 30px;
     color: #14b8a6;
     margin-bottom: 12px;
-    background-color: #ffffff;
     border-radius: 100px;
-width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -465,4 +462,16 @@ width: 70px;
     flex-shrink: 0;
     margin-top: 0;
 }
+}
+
+.serve-icon i,
+.work-icon i {
+    font-size: 30px;
+    color: #0d685d; /* use your brand green */
+    line-height: 1;
+}
+
+.serve-icon,
+.work-icon {
+    margin-bottom: 15px;
 }

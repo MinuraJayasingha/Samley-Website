@@ -18,12 +18,12 @@
 /* Background video */
 .hero-bg-video {
     position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    /*transform: translate(-50%, -50%);*/
+    top: 0;
+    left: 0;
+    width: 100%;       /* Changed from auto */
+    height: 100%;      /* Changed from auto */
     object-fit: cover;
+    object-position: center 40%; /* Focuses slightly above center to hide bottom logo */
     z-index: 0;
 }
 

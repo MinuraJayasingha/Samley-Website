@@ -111,3 +111,17 @@ RewriteEngine On
 
 RewriteCond %{THE_REQUEST} \s/+product\?product=([^\s&]+) [NC]
 RewriteRule ^product$ /product/%1/? [R=301,L]
+
+
+
+# ================================
+# INTERNAL REWRITES – CLEAN URLs LOAD REAL FILES
+# ================================
+
+RewriteEngine On
+
+# --- CATEGORY CLEAN URL -> products.html?category= ---
+RewriteRule ^products/([^/]+)/?$ /products.html?category=$1 [L,QSA]
+
+# --- PRODUCT CLEAN URL -> product.html?product= ---
+RewriteRule ^product/([^/]+)/?$ /product.html?product=$1 [L,QSA]

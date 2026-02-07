@@ -1,0 +1,67 @@
+# ================================
+# Samley Teas – OLD URLs to CLEAN URLs
+# SEO-safe 301 redirects
+# ================================
+
+RewriteEngine On
+
+# Force non-www to www (if needed)
+RewriteCond %{HTTP_HOST} ^www\.samleyteas\.lk [NC]
+RewriteRule ^(.*)$ https://samleyteas.lk/$1 [L,R=301]
+
+# Homepage variants
+Redirect 301 /home_v02/ https://samleyteas.lk/
+
+# Contact pages
+Redirect 301 /contact-us/ https://samleyteas.lk/contact/
+Redirect 301 /contact_v02/ https://samleyteas.lk/contact/
+
+# About / Story pages
+Redirect 301 /our-story/ https://samleyteas.lk/about-samley-teas/
+Redirect 301 /about-us/ https://samleyteas.lk/about-samley-teas/
+Redirect 301 /our-story_v02/ https://samleyteas.lk/about-samley-teas/
+
+# Blog / Author / Category
+Redirect 301 /blogs_v02/ https://samleyteas.lk/blogs/
+Redirect 301 /author/samleyteas_admin/ https://samleyteas.lk/blogs/
+Redirect 301 /category/uncategorized/ https://samleyteas.lk/blogs/
+
+# Shop / Products general
+Redirect 301 /our-teas/ https://samleyteas.lk/products/
+Redirect 301 /shop_v02/ https://samleyteas.lk/products/
+
+# Tea categories
+Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea/
+Redirect 301 /black-tea-2/ https://samleyteas.lk/products/black-tea/
+Redirect 301 /black-tea-3/ https://samleyteas.lk/products/black-tea/
+Redirect 301 /green-tea/ https://samleyteas.lk/products/green-tea/
+Redirect 301 /signature-tea/ https://samleyteas.lk/products/signature-tea/
+Redirect 301 /heritage-tea/ https://samleyteas.lk/products/heritage-tea/
+Redirect 301 /regional-tea/ https://samleyteas.lk/products/regional-tea/
+Redirect 301 /elegance-tea/ https://samleyteas.lk/products/elegance-tea/
+Redirect 301 /luxury-tea/ https://samleyteas.lk/products/luxury-tea/
+Redirect 301 /designer-tea/ https://samleyteas.lk/products/designer-tea/
+Redirect 301 /speciality-tea/ https://samleyteas.lk/products/speciality-tea/
+Redirect 301 /wellness-tea/ https://samleyteas.lk/products/wellness-tea/
+Redirect 301 /wellness-everyday-tea/ https://samleyteas.lk/products/wellness-tea/
+Redirect 301 /tea-capsules/ https://samleyteas.lk/products/tea-capsules/
+Redirect 301 /gift-range/ https://samleyteas.lk/products/gift-tea/
+Redirect 301 /gourmet-range/ https://samleyteas.lk/products/gourmet-tea/
+
+# Herbal / Organic
+Redirect 301 /organic-herbal-infusions/ https://samleyteas.lk/products/organic-herbal/
+Redirect 301 /organic-herbal-infusions-2/ https://samleyteas.lk/products/organic-herbal/
+
+# Coffee
+Redirect 301 /iced-coffee/ https://samleyteas.lk/products/iced-coffee/
+
+# Coconut products
+Redirect 301 /coconut-water-king-coconut-water/ https://samleyteas.lk/products/coconut-water/
+Redirect 301 /organic-coconut-king-coconut/ https://samleyteas.lk/products/coconut-water/
+Redirect 301 /coconut-milk-coconut-cream/ https://samleyteas.lk/products/coconut-milk/
+Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/coconut-flour/
+Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/desiccated-coconut/
+Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/virgin-coconut-oil/
+
+# Spices
+Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices/

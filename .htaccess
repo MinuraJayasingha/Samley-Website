@@ -65,3 +65,49 @@ Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/virgin-coconut-
 
 # Spices
 Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices/
+
+
+# ================================
+# Samley Teas – Query based category URLs to Clean URLs.
+# ================================
+
+RewriteEngine On
+
+# Redirect query-based product category URLs to clean URLs
+RewriteCond %{THE_REQUEST} \s/+products\?category=([^\s&]+) [NC]
+RewriteRule ^products$ /products/%1/? [R=301,L]
+
+# Explicit category redirects (safe fallback)
+Redirect 301 /products?category=green-tea /products/green-tea/
+Redirect 301 /products?category=black-tea /products/black-tea/
+Redirect 301 /products?category=regional-tea /products/regional-tea/
+Redirect 301 /products?category=elegance-tea /products/elegance-tea/
+Redirect 301 /products?category=luxury-tea /products/luxury-tea/
+Redirect 301 /products?category=designer-tea /products/designer-tea/
+Redirect 301 /products?category=wellness-tea /products/wellness-tea/
+Redirect 301 /products?category=speciality-tea /products/speciality-tea/
+Redirect 301 /products?category=gourmet-tea /products/gourmet-tea/
+Redirect 301 /products?category=signature-tea /products/signature-tea/
+Redirect 301 /products?category=heritage-tea /products/heritage-tea/
+Redirect 301 /products?category=gift-tea /products/gift-tea/
+Redirect 301 /products?category=tea-capsules /products/tea-capsules/
+Redirect 301 /products?category=herbal-infusion /products/herbal-infusion/
+Redirect 301 /products?category=organic-herbal /products/organic-herbal/
+Redirect 301 /products?category=iced-coffee /products/iced-coffee/
+Redirect 301 /products?category=iced-tea /products/iced-tea/
+Redirect 301 /products?category=ceylon-organic-spices /products/ceylon-organic-spices/
+Redirect 301 /products?category=coconut-water /products/coconut-water/
+Redirect 301 /products?category=coconut-milk /products/coconut-milk/
+Redirect 301 /products?category=coconut-flour /products/coconut-flour/
+Redirect 301 /products?category=virgin-coconut-oil /products/virgin-coconut-oil/
+Redirect 301 /products?category=dedicated-coconut /products/dedicated-coconut/
+
+
+# ================================
+# Samley Teas – Query based Product URLs to Clean URLs.
+# ================================
+
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} \s/+product\?product=([^\s&]+) [NC]
+RewriteRule ^product$ /product/%1/? [R=301,L]

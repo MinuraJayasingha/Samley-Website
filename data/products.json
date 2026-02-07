@@ -4940,7 +4940,7 @@
   },
   {
     "id": "orgainc-coconut-milk",
-    "slug": "orgainc-coconut-milk",
+    "slug": "organic-coconut-milk",
     "mainCategory": "coconut-based",
     "subCategory": "coconut-milk",
 
@@ -4980,7 +4980,7 @@
 
   {
     "id": "orgainc-coconut-flour-20",
-    "slug": "orgainc-coconut-flour-20",
+    "slug": "organic-coconut-flour-20",
     "mainCategory": "coconut-based",
     "subCategory": "coconut-flour",
 
@@ -5018,7 +5018,7 @@
   },
   {
     "id": "orgainc-coconut-flour-500",
-    "slug": "orgainc-coconut-flour-500",
+    "slug": "organic-coconut-flour-500",
     "mainCategory": "coconut-based",
     "subCategory": "coconut-flour",
 
@@ -5056,7 +5056,7 @@
   },
   {
     "id": "orgainc-coconut-milk-powder",
-    "slug": "orgainc-coconut-milk-powder",
+    "slug": "organic-coconut-milk-powder",
     "mainCategory": "coconut-based",
     "subCategory": "coconut-flour",
 
@@ -5095,7 +5095,7 @@
 
   {
     "id": "orgainc-coconut-oil-250",
-    "slug": "orgainc-coconut-oil-250",
+    "slug": "organic-coconut-oil-250",
     "mainCategory": "coconut-based",
     "subCategory": "virgin-coconut-oil",
 
@@ -5134,7 +5134,7 @@
   },
   {
     "id": "orgainc-coconut-oil-500",
-    "slug": "orgainc-coconut-oil-500",
+    "slug": "organic-coconut-oil-500",
     "mainCategory": "coconut-based",
     "subCategory": "virgin-coconut-oil",
 
@@ -5174,7 +5174,7 @@
 
   {
     "id": "orgainc-desiccated-coconut",
-    "slug": "orgainc-desiccated-coconut",
+    "slug": "organic-desiccated-coconut",
     "mainCategory": "coconut-based",
     "subCategory": "dedicated-coconut",
 

@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     INCLUDE_LOG("Injecting navbar.js", "info");
 
     const script = document.createElement("script");
-    script.src = "assets/js/navbar.js";
+    script.src = "/assets/js/navbar.js";
     script.onload = () => INCLUDE_LOG("navbar.js loaded", "success");
     script.onerror = () => INCLUDE_LOG("navbar.js failed to load", "error");
     document.head.appendChild(script);
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   );
   // Load featured-categories.js AFTER HTML exists
   const featuredScript = document.createElement("script");
-  featuredScript.src = "assets/js/featured-categories.js";
+  featuredScript.src = "/assets/js/featured-categories.js";
   document.body.appendChild(featuredScript);
 
   // Featured Products (HTML + JS)
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       INCLUDE_LOG("Injecting featured-products.js", "info");
 
       const script = document.createElement("script");
-      script.src = "assets/js/featured-products.js";
+      script.src = "/assets/js/featured-products.js";
       script.onload = () =>
         INCLUDE_LOG("featured-products.js loaded", "success");
       script.onerror = () =>
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       INCLUDE_LOG("Injecting reviews.js", "info");
 
       const script = document.createElement("script");
-      script.src = "assets/js/reviews.js";
+      script.src = "/assets/js/reviews.js";
       script.onload = () => {
         INCLUDE_LOG("reviews.js loaded", "success");
         initReviews(); // 🔥 IMPORTANT

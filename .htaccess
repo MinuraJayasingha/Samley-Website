@@ -1,127 +1,65 @@
 ﻿# ================================
-# Samley Teas – OLD URLs to CLEAN URLs
-# SEO-safe 301 redirects
+# Samley Teas – GLOBAL SETTINGS
 # ================================
 
 RewriteEngine On
 
-# Force non-www to www (if needed)
-RewriteCond %{HTTP_HOST} ^www\.samleyteas\.lk [NC]
-RewriteRule ^(.*)$ https://samleyteas.lk/$1 [L,R=301]
+# --------------------------------
+# Force non-www → non-www canonical
+# --------------------------------
+RewriteCond %{HTTP_HOST} ^www\.samleyteas\.lk$ [NC]
+RewriteRule ^(.*)$ https://samleyteas.lk/$1 [R=301,L]
 
-# Homepage variants
+# --------------------------------
+# Do NOT rewrite real files/folders
+# --------------------------------
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# ================================
+# OLD STATIC URL REDIRECTS
+# ================================
+
 Redirect 301 /home_v02/ https://samleyteas.lk/
 
-# Contact pages
 Redirect 301 /contact-us/ https://samleyteas.lk/contact/
 Redirect 301 /contact_v02/ https://samleyteas.lk/contact/
 
-# About / Story pages
 Redirect 301 /our-story/ https://samleyteas.lk/about-samley-teas/
 Redirect 301 /about-us/ https://samleyteas.lk/about-samley-teas/
 Redirect 301 /our-story_v02/ https://samleyteas.lk/about-samley-teas/
 
-# Blog / Author / Category
 Redirect 301 /blogs_v02/ https://samleyteas.lk/blogs/
 Redirect 301 /author/samleyteas_admin/ https://samleyteas.lk/blogs/
 Redirect 301 /category/uncategorized/ https://samleyteas.lk/blogs/
 
-# Shop / Products general
 Redirect 301 /our-teas/ https://samleyteas.lk/products/
 Redirect 301 /shop_v02/ https://samleyteas.lk/products/
 
-# Tea categories
-Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea/
-Redirect 301 /black-tea-2/ https://samleyteas.lk/products/black-tea/
-Redirect 301 /black-tea-3/ https://samleyteas.lk/products/black-tea/
-Redirect 301 /green-tea/ https://samleyteas.lk/products/green-tea/
-Redirect 301 /signature-tea/ https://samleyteas.lk/products/signature-tea/
-Redirect 301 /heritage-tea/ https://samleyteas.lk/products/heritage-tea/
-Redirect 301 /regional-tea/ https://samleyteas.lk/products/regional-tea/
-Redirect 301 /elegance-tea/ https://samleyteas.lk/products/elegance-tea/
-Redirect 301 /luxury-tea/ https://samleyteas.lk/products/luxury-tea/
-Redirect 301 /designer-tea/ https://samleyteas.lk/products/designer-tea/
-Redirect 301 /speciality-tea/ https://samleyteas.lk/products/speciality-tea/
-Redirect 301 /wellness-tea/ https://samleyteas.lk/products/wellness-tea/
-Redirect 301 /wellness-everyday-tea/ https://samleyteas.lk/products/wellness-tea/
-Redirect 301 /tea-capsules/ https://samleyteas.lk/products/tea-capsules/
-Redirect 301 /gift-range/ https://samleyteas.lk/products/gift-tea/
-Redirect 301 /gourmet-range/ https://samleyteas.lk/products/gourmet-tea/
-
-# Herbal / Organic
-Redirect 301 /organic-herbal-infusions/ https://samleyteas.lk/products/organic-herbal/
-Redirect 301 /organic-herbal-infusions-2/ https://samleyteas.lk/products/organic-herbal/
-
-# Coffee
-Redirect 301 /iced-coffee/ https://samleyteas.lk/products/iced-coffee/
-
-# Coconut products
-Redirect 301 /coconut-water-king-coconut-water/ https://samleyteas.lk/products/coconut-water/
-Redirect 301 /organic-coconut-king-coconut/ https://samleyteas.lk/products/coconut-water/
-Redirect 301 /coconut-milk-coconut-cream/ https://samleyteas.lk/products/coconut-milk/
-Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/coconut-flour/
-Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/desiccated-coconut/
-Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/virgin-coconut-oil/
-
-# Spices
-Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices/
-
-
 # ================================
-# Samley Teas – Query based category URLs to Clean URLs.
+# CATEGORY QUERY URL → CLEAN URL
+# products.html?category=green-tea → /products/green-tea/
+# products.html?main=teas → /products/teas/
 # ================================
 
-RewriteEngine On
-
-# Redirect query-based product category URLs to clean URLs
-RewriteCond %{THE_REQUEST} \s/+products\?category=([^\s&]+) [NC]
-RewriteRule ^products$ /products/%1/? [R=301,L]
-
-# Explicit category redirects (safe fallback)
-Redirect 301 /products.html?category=green-tea /products/green-tea/
-Redirect 301 /products.html?category=black-tea /products/black-tea/
-Redirect 301 /products.html?category=regional-tea /products/regional-tea/
-Redirect 301 /products.html?category=elegance-tea /products/elegance-tea/
-Redirect 301 /products.html?category=luxury-tea /products/luxury-tea/
-Redirect 301 /products.html?category=designer-tea /products/designer-tea/
-Redirect 301 /products.html?category=wellness-tea /products/wellness-tea/
-Redirect 301 /products.html?category=speciality-tea /products/speciality-tea/
-Redirect 301 /products.html?category=gourmet-tea /products/gourmet-tea/
-Redirect 301 /products.html?category=signature-tea /products/signature-tea/
-Redirect 301 /products.html?category=heritage-tea /products/heritage-tea/
-Redirect 301 /products.html?category=gift-tea /products/gift-tea/
-Redirect 301 /products.html?category=tea-capsules /products/tea-capsules/
-Redirect 301 /products.html?category=herbal-infusion /products/herbal-infusion/
-Redirect 301 /products.html?category=organic-herbal /products/organic-herbal/
-Redirect 301 /products.html?category=iced-coffee /products/iced-coffee/
-Redirect 301 /products.html?category=iced-tea /products/iced-tea/
-Redirect 301 /products.html?category=ceylon-organic-spices /products/ceylon-organic-spices/
-Redirect 301 /products.html?category=coconut-water /products/coconut-water/
-Redirect 301 /products.html?category=coconut-milk /products/coconut-milk/
-Redirect 301 /products.html?category=coconut-flour /products/coconut-flour/
-Redirect 301 /products.html?category=virgin-coconut-oil /products/virgin-coconut-oil/
-Redirect 301 /products.html?category=dedicated-coconut /products/dedicated-coconut/
-
+RewriteCond %{THE_REQUEST} \s/products\.html\?(category|main)=([^\s&]+) [NC]
+RewriteRule ^ /products/%2/? [R=301,L]
 
 # ================================
-# Samley Teas – Query based Product URLs to Clean URLs.
+# PRODUCT QUERY URL → CLEAN URL
+# product.html?product=slug → /product/slug/
 # ================================
 
-RewriteEngine On
-
-RewriteCond %{THE_REQUEST} \s/+product\?product=([^\s&]+) [NC]
-RewriteRule ^product$ /product/%1/? [R=301,L]
-
-
+RewriteCond %{THE_REQUEST} \s/product\.html\?product=([^\s&]+) [NC]
+RewriteRule ^ /product/%1/? [R=301,L]
 
 # ================================
-# INTERNAL REWRITES – CLEAN URLs LOAD REAL FILES
+# INTERNAL REWRITES (NO REDIRECT)
 # ================================
 
-RewriteEngine On
-
-# --- CATEGORY CLEAN URL -> products.html?category= ---
+# Clean category URL → products.html
 RewriteRule ^products/([^/]+)/?$ /products.html?category=$1 [L,QSA]
 
-# --- PRODUCT CLEAN URL -> product.html?product= ---
+# Clean product URL → product.html
 RewriteRule ^product/([^/]+)/?$ /product.html?product=$1 [L,QSA]

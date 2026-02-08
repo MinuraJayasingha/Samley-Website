@@ -2,7 +2,7 @@ async function loadFeaturedProducts() {
   const container = document.querySelector(".featured-products-grid");
   if (!container) return;
 
-  const res = await fetch("data/products.json");
+  const res = await fetch("/data/products.json");
   const products = await res.json();
 
   // 👇 CHANGE THIS LOGIC WHENEVER YOU WANT

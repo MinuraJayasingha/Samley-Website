@@ -4,7 +4,7 @@ const MAX_FEATURED_BLOGS = 3;
 
 async function loadFeaturedBlogs() {
     try {
-        const res = await fetch("data/blogs.json");
+        const res = await fetch("/data/blogs.json");
         if (!res.ok) throw new Error("Failed to load blogs.json");
 
         const blogs = await res.json();

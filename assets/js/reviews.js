@@ -11,7 +11,7 @@ async function initReviews() {
   }
 
   try {
-    const res = await fetch("data/reviews.json");
+    const res = await fetch("/data/reviews.json");
     if (!res.ok) throw new Error("Failed to load reviews.json");
 
     const data = await res.json();

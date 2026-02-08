@@ -6,7 +6,7 @@ let allBlogs = [];
 
 async function loadBlogs() {
   try {
-    const res = await fetch("data/blogs.json");
+    const res = await fetch("/data/blogs.json");
     if (!res.ok) throw new Error("Failed to load blogs.json");
 
     allBlogs = (await res.json()).filter(b => b.status === "published");

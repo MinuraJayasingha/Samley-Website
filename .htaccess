@@ -48,12 +48,12 @@
   # /products/category-name/  /products.html?category=category-name
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^products/([^/]+)/?$ /products.html?category= [L,QSA]
+  RewriteRule ^products/([^/]+)/?$ /products.html?category=$1 [L,QSA]
 
   # /product/product-slug/  /product.html?product=product-slug
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^product/([^/]+)/?$ /product.html?product= [L,QSA]
+  RewriteRule ^product/([^/]+)/?$ /product.html?product=$1 [L,QSA]
 
 </IfModule>
 
@@ -77,3 +77,4 @@ Options -Indexes
   AddOutputFilterByType DEFLATE application/javascript
   AddOutputFilterByType DEFLATE application/json
 </IfModule>
+

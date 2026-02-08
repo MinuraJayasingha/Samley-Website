@@ -62,18 +62,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   // Footer
-  await loadComponent("#footer", "components/footer.html");
+  await loadComponent("#footer", "/components/footer.html");
 
   // Instagram (HTML only)
-  await loadComponent("#instagram-section", "components/instagram.html");
+  await loadComponent("#instagram-section", "/components/instagram.html");
 
   // Collections highlight
-  await loadComponent("#collections-section", "components/collections-highlight.html");
+  await loadComponent("#collections-section", "/components/collections-highlight.html");
 
   // Featured Categories (HTML + JS)
   await loadComponent(
     "#featured-categories-section",
-    "components/featured-categories.html"
+    "/components/featured-categories.html"
   );
   // Load featured-categories.js AFTER HTML exists
   const featuredScript = document.createElement("script");
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Featured Products (HTML + JS)
   await loadComponent(
     "#featured-products-section",
-    "components/featured-products.html",
+    "/components/featured-products.html",
     () => {
       INCLUDE_LOG("Injecting featured-products.js", "info");
 
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Reviews Section (HTML + JS)
   await loadComponent(
     "#reviews-section",
-    "components/reviews.html",
+    "/components/reviews.html",
     () => {
       INCLUDE_LOG("Injecting reviews.js", "info");
 

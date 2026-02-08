@@ -1,6 +1,6 @@
 // assets/js/include.js
 
-const DEBUG_INCLUDE = true; // set false for production
+const DEBUG_INCLUDE = true; // set false in production
 
 function INCLUDE_LOG(message, type = "info") {
   if (!DEBUG_INCLUDE) return;
@@ -26,98 +26,73 @@ async function loadComponent(selector, filePath, onLoaded) {
   try {
     INCLUDE_LOG(`Loading component: ${filePath}`, "info");
 
-    const res = await fetch(filePath, { cache: "no-store" });
+    const res = await fetch(filePath);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     container.innerHTML = await res.text();
+    INCLUDE_LOG(`Loaded: ${filePath}`, "success");
 
-    INCLUDE_LOG(`Component loaded: ${filePath}`, "success");
-
-    if (typeof onLoaded === "function") {
-      onLoaded();
-      INCLUDE_LOG(`Callback executed for ${filePath}`, "success");
-    }
-
+    if (typeof onLoaded === "function") onLoaded();
   } catch (err) {
-    INCLUDE_LOG(`Failed to load ${filePath} → ${err.message}`, "error");
+    INCLUDE_LOG(`Failed: ${filePath} → ${err.message}`, "error");
   }
-}
-
-function loadScript(src, onLoad) {
-  const script = document.createElement("script");
-  script.src = src;
-  script.defer = true;
-  script.onload = () => {
-    INCLUDE_LOG(`Script loaded: ${src}`, "success");
-    if (typeof onLoad === "function") onLoad();
-  };
-  script.onerror = () =>
-    INCLUDE_LOG(`Script failed to load: ${src}`, "error");
-
-  document.body.appendChild(script);
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
   INCLUDE_LOG("DOMContentLoaded fired", "info");
 
-  // 🔹 NAVBAR
+  // Navbar
   await loadComponent("#navbar", "/components/navbar.html", () => {
-    loadScript("/assets/js/navbar.js");
+    const script = document.createElement("script");
+    script.src = "/assets/js/navbar.js";
+    document.head.appendChild(script);
   });
 
-  // 🔹 FOOTER
+  // Footer
   await loadComponent("#footer", "/components/footer.html");
 
-  // 🔹 INSTAGRAM SECTION
-  await loadComponent(
-    "#instagram-section",
-    "/components/instagram.html"
-  );
+  // Instagram
+  await loadComponent("#instagram-section", "/components/instagram.html");
 
-  // 🔹 COLLECTIONS HIGHLIGHT
+  // Collections
   await loadComponent(
     "#collections-section",
     "/components/collections-highlight.html"
   );
 
-  // 🔹 FEATURED CATEGORIES
+  // Featured Categories
   await loadComponent(
     "#featured-categories-section",
     "/components/featured-categories.html",
-    () => loadScript("/assets/js/featured-categories.js")
+    () => {
+      const s = document.createElement("script");
+      s.src = "/assets/js/featured-categories.js";
+      document.body.appendChild(s);
+    }
   );
 
-  // 🔹 FEATURED PRODUCTS
+  // Featured Products
   await loadComponent(
     "#featured-products-section",
     "/components/featured-products.html",
-    () => loadScript("/assets/js/featured-products.js")
+    () => {
+      const s = document.createElement("script");
+      s.src = "/assets/js/featured-products.js";
+      document.body.appendChild(s);
+    }
   );
 
-  // 🔹 REVIEWS
+  // Reviews
   await loadComponent(
     "#reviews-section",
     "/components/reviews.html",
-    () => loadScript("/assets/js/reviews.js", () => {
-      if (typeof initReviews === "function") {
-        initReviews();
-      }
-    })
-  );
-
-  // 🔹 DATA-INCLUDE SUPPORT (optional legacy)
-  document.querySelectorAll("[data-include]").forEach(async el => {
-    const file = el.getAttribute("data-include");
-
-    try {
-      const res = await fetch(file, { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      el.innerHTML = await res.text();
-      INCLUDE_LOG(`Loaded data-include: ${file}`, "success");
-    } catch (err) {
-      INCLUDE_LOG(`Failed data-include: ${file}`, "error");
+    () => {
+      const s = document.createElement("script");
+      s.src = "/assets/js/reviews.js";
+      s.onload = () => window.initReviews && initReviews();
+      document.body.appendChild(s);
     }
-  });
+  );
 
   INCLUDE_LOG("All components processed", "success");
 });

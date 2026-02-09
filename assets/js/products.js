@@ -151,10 +151,16 @@ async function updateCategoryTitle(categorySlug, mainSlug) {
 -------------------------------------------------- */
 
 function updateBreadcrumbForAll() {
+    const ourProducts = document.querySelector('.breadcrumb-list li:nth-child(2)');
     const mainCat = document.getElementById("breadcrumb-main-category");
     const subCat = document.getElementById("breadcrumb-sub-category");
     
-    // Clear and hide
+    // Mark "Our Products" as active (last item on this page)
+    if (ourProducts) {
+        ourProducts.classList.add("active");
+    }
+    
+    // Hide main and sub category
     mainCat.innerHTML = "";
     mainCat.classList.add("hidden");
     

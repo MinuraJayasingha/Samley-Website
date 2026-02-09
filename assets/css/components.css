@@ -594,16 +594,28 @@
     vertical-align: middle;
 }
 
+/* Hide arrow on hidden items and active items */
+.breadcrumb-list li.hidden::after,
+.breadcrumb-list li.active::after {
+    display: none !important;
+}
+
 .breadcrumb-list li:last-child {
     color: #b0b0b0;
 }
 
-.breadcrumb-list li:last-child::after {
-    display: none;
+.breadcrumb-list li.active {
+    color: #999;
+    font-weight: normal;
+}
+
+.breadcrumb-list li.active a {
+    color: #999;
+    text-decoration: none;
+    cursor: default;
 }
 
 .gray {
-
     color: #b0b0b0;
 }
 
@@ -614,6 +626,10 @@
 
 .breadcrumb-list a:hover {
     text-decoration: underline;
+}
+
+.hidden {
+    display: none;
 }
 
 .breadcrumb-list li.hidden {

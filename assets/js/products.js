@@ -1,17 +1,5 @@
 // assets/js/products.js
 
-function getCategorySlug() {
-    // 1️⃣ Query-based fallback
-    const params = new URLSearchParams(window.location.search);
-    if (params.get("category")) return params.get("category");
-
-    // 2️⃣ Clean URL support
-    const path = window.location.pathname;
-    const match = path.match(/^\/products\/([^/]+)\/?$/);
-    return match ? match[1] : null;
-}
-
-
 /* --------------------------------------------------
    URL helpers
 -------------------------------------------------- */
@@ -31,25 +19,77 @@ function getMainFromURL() {
 -------------------------------------------------- */
 
 async function loadProducts() {
-  const categorySlug = getCategorySlug();
+    const categorySlug = getCategoryFromURL();
+    const mainSlug = getMainFromURL();
 
-  const res = await fetch("/data/products.json");
-  const products = await res.json();
+    const emptyState = document.getElementById("products-empty");
+    const grid = document.getElementById("products-grid");
 
-  const filtered = categorySlug
-    ? products.filter(p => p.category === categorySlug)
-    : products;
+    if (!grid) return;
 
-  renderProducts(filtered);
+    const res = await fetch("data/products.json");
+    const products = await res.json();
+
+    let filtered = [];
+
+    /* ---------------- OUR PRODUCTS (ALL) ---------------- */
+
+    if (!categorySlug && !mainSlug) {
+        document.getElementById("category-title").textContent = "Our Products";
+        document.getElementById("category-description").textContent =
+            "Explore our complete collection of premium Ceylon teas, beverages, and spices.";
+
+        document.title = "Our Products | Samley Teas";
+
+        updateBreadcrumbForAll();
+
+        filtered = products;
+    }
+
+    /* ---------------- SUB CATEGORY ---------------- */
+
+    else if (categorySlug) {
+        await updateCategoryTitle(categorySlug, null);
+        updateBreadcrumbForProducts(categorySlug);
+
+        document.title = `${categorySlug.replace(/-/g, " ")} | Samley Teas`;
+
+        filtered = products.filter(
+            p => p.subCategory === categorySlug
+        );
+    }
+
+    /* ---------------- MAIN CATEGORY ---------------- */
+
+    else if (mainSlug) {
+        await updateCategoryTitle(null, mainSlug);
+        updateBreadcrumbForMain(mainSlug);
+
+        document.title = `${mainSlug.replace(/-/g, " ")} | Samley Teas`;
+
+        filtered = products.filter(
+            p => p.mainCategory === mainSlug
+        );
+    }
+
+    /* ---------------- EMPTY STATE ---------------- */
+
+    if (filtered.length === 0) {
+        emptyState.textContent = "No products found.";
+        emptyState.classList.remove("hidden");
+        return;
+    }
+
+    emptyState.classList.add("hidden");
+    renderProducts(filtered);
 }
-
 
 /* --------------------------------------------------
    Titles & descriptions
 -------------------------------------------------- */
 
 async function updateCategoryTitle(categorySlug, mainSlug) {
-    const res = await fetch("/data/categories.json");
+    const res = await fetch("data/categories.json");
     const categories = await res.json();
 
     // Sub category
@@ -91,7 +131,7 @@ function updateBreadcrumbForAll() {
 }
 
 function updateBreadcrumbForProducts(categorySlug) {
-    fetch("/data/categories.json")
+    fetch("data/categories.json")
         .then(res => res.json())
         .then(categories => {
             categories.forEach(main => {
@@ -111,7 +151,7 @@ function updateBreadcrumbForProducts(categorySlug) {
 }
 
 function updateBreadcrumbForMain(mainSlug) {
-    fetch("/data/categories.json")
+    fetch("data/categories.json")
         .then(res => res.json())
         .then(categories => {
             const main = categories.find(m => m.slug === mainSlug);
@@ -141,7 +181,7 @@ function renderProducts(products) {
         card.className = "product-card";
 
         card.innerHTML = `
-            <a href="/product/${product.slug}/"
+            <a href="product.html?product=${product.slug}"
                class="product-image"
                style="background-image:url('${product.thumbnailImage}')">
 
@@ -164,7 +204,7 @@ function renderProducts(products) {
 
             <div class="product-btn-div">
                 <a class="btn-03 product-btn"
-                   href="/product/${product.slug}/">
+                   href="product.html?product=${product.slug}">
                     View Product
                 </a>
             </div>
@@ -178,19 +218,4 @@ function renderProducts(products) {
    Init
 -------------------------------------------------- */
 
-document.addEventListener("DOMContentLoaded", async () => {
-    const categorySlug = getCategorySlug();
-    const mainSlug = getMainFromURL();
-
-    await loadProducts();
-    await updateCategoryTitle(categorySlug, mainSlug);
-
-    if (categorySlug) {
-        updateBreadcrumbForProducts(categorySlug);
-    } else if (mainSlug) {
-        updateBreadcrumbForMain(mainSlug);
-    } else {
-        updateBreadcrumbForAll();
-    }
-});
-
+document.addEventListener("DOMContentLoaded", loadProducts);

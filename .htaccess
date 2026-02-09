@@ -6,14 +6,14 @@ RewriteEngine On
 
 
 # =========================================
-# FORCE NON-WWW → HTTPS ROOT DOMAIN
+# FORCE NON-WWW ? HTTPS ROOT DOMAIN
 # =========================================
 RewriteCond %{HTTP_HOST} ^www\.samleyteas\.lk$ [NC]
 RewriteRule ^(.*)$ https://samleyteas.lk/$1 [R=301,L]
 
 
 # =========================================
-# OLD STATIC PAGES → NEW PAGES
+# OLD STATIC PAGES ? NEW PAGES
 # =========================================
 
 Redirect 301 /home_v02/ https://samleyteas.lk/
@@ -34,7 +34,7 @@ Redirect 301 /shop_v02/ https://samleyteas.lk/products/
 
 
 # =========================================
-# OLD CATEGORY SLUGS → CLEAN CATEGORY URLS
+# OLD CATEGORY SLUGS ? CLEAN CATEGORY URLS
 # =========================================
 
 Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea/
@@ -70,19 +70,20 @@ Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organ
 
 
 # =========================================
-# QUERY-BASED → CLEAN URL (MUST BE FIRST)
+# QUERY-BASED ? CLEAN URL (MUST BE FIRST)
 # =========================================
 
-# product.html?product=slug → /product/slug/
-RewriteCond %{THE_REQUEST} \s/product\.html\?product=([^\s&]+) [NC]
-RewriteRule ^ /product/%1/? [R=301,L]
+# Redirect /product.html?product=SLUG to /product/SLUG/
+RewriteCond %{QUERY_STRING} ^product=([a-zA-Z0-9-]+)$ [NC]
+RewriteRule ^product\.html$ /product/%1/? [R=301,L]
 
-# products.html?category=slug OR main=slug → /products/slug/
-RewriteCond %{THE_REQUEST} \s/products\.html\?(category|main)=([^\s&]+) [NC]
-RewriteRule ^ /products/%2/? [R=301,L]
+# Redirect /products.html?category=SLUG to /products/SLUG/
+RewriteCond %{QUERY_STRING} ^category=([a-zA-Z0-9-]+)$ [NC]
+RewriteRule ^products\.html$ /products/%1/? [R=301,L]
 
-
-# =========================================
+# Redirect /products.html?main=SLUG to /products/SLUG/
+RewriteCond %{QUERY_STRING} ^main=([a-zA-Z0-9-]+)$ [NC]
+RewriteRule ^products\.html$ /products/%1/? [R=301,L]
 # STOP REWRITING REAL FILES / FOLDERS
 # =========================================
 RewriteCond %{REQUEST_FILENAME} -f [OR]
@@ -91,8 +92,10 @@ RewriteRule ^ - [L]
 
 
 # =========================================
-# INTERNAL REWRITES (CLEAN URL → REAL FILE)
+# INTERNAL REWRITES (CLEAN URL ? REAL FILE)
 # =========================================
 
-RewriteRule ^products/([^/]+)/?$ /products.html?category=$1 [L,QSA]
-RewriteRule ^product/([^/]+)/?$ /product.html?product=$1 [L,QSA]
+RewriteRule ^products/([a-zA-Z0-9-]+)/?$ products.html?category=$1 [L,QSA]
+RewriteRule ^product/([a-zA-Z0-9-]+)/?$ product.html?slug=$1 [L,QSA]
+
+

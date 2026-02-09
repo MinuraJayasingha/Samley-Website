@@ -1,13 +1,21 @@
 ﻿// assets/js/product.js
 
 /* --------------------------------------------------
-   Helpers
+   Helpers - Extract slug from URL pathname
 -------------------------------------------------- */
 
 // Get product slug from URL
 function getProductSlug() {
+    // First try query string for backward compatibility
     const params = new URLSearchParams(window.location.search);
-    return params.get("slug") || params.get("product"); // Support both for backward compatibility
+    let slug = params.get("slug") || params.get("product");
+    if (slug) return slug;
+    
+    // Extract from pathname: /product/SLUG/  SLUG
+    const pathMatch = window.location.pathname.match(/\/product\/([a-z0-9-]+)\/?$/i);
+    if (pathMatch) return pathMatch[1];
+    
+    return null;
 }
 
 // Set meta value and auto-hide if empty
@@ -34,9 +42,11 @@ async function loadProduct() {
     const slug = getProductSlug();
 
     if (!slug) {
-        console.warn("No product slug found in URL");
+        console.warn("No product slug found in URL - pathname:", window.location.pathname);
         return;
     }
+
+    console.log("Loading product:", slug);
 
     try {
         const res = await fetch("data/products.json");
@@ -53,6 +63,7 @@ async function loadProduct() {
             return;
         }
 
+        console.log("Product found:", product.name);
         injectProductData(product);
         updateBreadcrumbForProduct(product);
 

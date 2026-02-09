@@ -1,15 +1,22 @@
 ﻿// assets/js/products.js
 
 /* --------------------------------------------------
-   URL helpers
+   URL helpers - Extract from pathname
 -------------------------------------------------- */
 
 function getCategoryFromURL() {
+    // First try query string (for backward compatibility)
     const params = new URLSearchParams(window.location.search);
-    return params.get("category");
+    let cat = params.get("category");
+    if (cat) return cat;
+    
+    // Extract from pathname: /products/SLUG/  SLUG
+    const pathMatch = window.location.pathname.match(/\/products\/([a-z0-9-]+)\/?$/i);
+    return pathMatch ? pathMatch[1] : null;
 }
 
 function getMainFromURL() {
+    // Query string backward compatibility
     const params = new URLSearchParams(window.location.search);
     return params.get("main");
 }
@@ -58,7 +65,7 @@ async function loadProducts() {
     /* ---------------- SUB CATEGORY OR MAIN CATEGORY (from category param) ---------------- */
 
     else if (categorySlug) {
-        // If it'\''s actually a main category, treat it as such
+        // If it'"'"'s actually a main category, treat it as such
         if (isMainCategory) {
             await updateCategoryTitle(null, categorySlug);
             updateBreadcrumbForMain(categorySlug);

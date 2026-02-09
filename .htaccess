@@ -4,6 +4,8 @@
 
 RewriteEngine On
 
+RewriteBase /
+
 
 # =========================================
 # FORCE NON-WWW ? HTTPS ROOT DOMAIN

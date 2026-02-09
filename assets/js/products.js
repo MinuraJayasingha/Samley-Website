@@ -5,20 +5,23 @@
 -------------------------------------------------- */
 
 function getCategoryFromURL() {
-    // First try query string (for backward compatibility)
+    // First try query string (set by .htaccess rewrite)
     const params = new URLSearchParams(window.location.search);
     let cat = params.get("category");
-    if (cat) return cat;
+    if (cat) return decodeURIComponent(cat);
     
-    // Extract from pathname: /products/SLUG/  SLUG
-    const pathMatch = window.location.pathname.match(/\/products\/([a-z0-9-]+)\/?$/i);
-    return pathMatch ? pathMatch[1] : null;
+    // Fallback: extract from pathname
+    const pathname = window.location.pathname;
+    const pathMatch = pathname.match(/\/products\/([a-z0-9-]+)\/?$/i);
+    if (pathMatch) return pathMatch[1];
+    
+    return null;
 }
 
 function getMainFromURL() {
-    // Query string backward compatibility
     const params = new URLSearchParams(window.location.search);
-    return params.get("main");
+    let main = params.get("main");
+    return main ? decodeURIComponent(main) : null;
 }
 
 /* --------------------------------------------------

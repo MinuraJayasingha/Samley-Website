@@ -6,13 +6,14 @@
 
 // Get product slug from URL
 function getProductSlug() {
-    // First try query string for backward compatibility
+    // First try query string (set by .htaccess rewrite)
     const params = new URLSearchParams(window.location.search);
     let slug = params.get("slug") || params.get("product");
-    if (slug) return slug;
+    if (slug) return decodeURIComponent(slug);
     
-    // Extract from pathname: /product/SLUG/  SLUG
-    const pathMatch = window.location.pathname.match(/\/product\/([a-z0-9-]+)\/?$/i);
+    // Fallback: extract from pathname
+    const pathname = window.location.pathname;
+    const pathMatch = pathname.match(/\/product\/([a-z0-9-]+)\/?$/i);
     if (pathMatch) return pathMatch[1];
     
     return null;

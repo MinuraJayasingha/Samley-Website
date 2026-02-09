@@ -7,7 +7,7 @@
 // Get product slug from URL
 function getProductSlug() {
     const params = new URLSearchParams(window.location.search);
-    return params.get("product");
+    return params.get("slug") || params.get("product"); // Support both for backward compatibility
 }
 
 // Set meta value and auto-hide if empty
@@ -108,7 +108,7 @@ function injectProductData(product) {
         product.reviewCount ? `(${product.reviewCount})` : "";
 
     document.getElementById("product-stars").textContent =
-        product.rating ? "â˜…".repeat(Math.round(product.rating)) : "";
+        product.rating ? "".repeat(Math.round(product.rating)) : "";
 
     /* ---------- Gallery ---------- */
 
@@ -154,10 +154,10 @@ function updateBreadcrumbForProduct(product) {
                     if (sub.slug === product.subCategory) {
 
                         document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="products.html?main=${main.slug}/">${main.title}</a>`;
+                            `<a href="/products/${main.slug}/">${main.title}</a>`;
 
                         document.getElementById("breadcrumb-sub-category").innerHTML =
-                            `<a href="products.html?category=${sub.slug}/">
+                            `<a href="/products/${sub.slug}/">
                                 ${sub.title}
                              </a>`;
                     }

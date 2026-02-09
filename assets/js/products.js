@@ -29,8 +29,17 @@ async function loadProducts() {
 
     const res = await fetch("data/products.json");
     const products = await res.json();
+    
+    const catRes = await fetch("data/categories.json");
+    const categories = await catRes.json();
 
     let filtered = [];
+    let isMainCategory = false;
+
+    // Check if categorySlug is actually a main category
+    if (categorySlug) {
+        isMainCategory = categories.some(m => m.slug === categorySlug);
+    }
 
     /* ---------------- OUR PRODUCTS (ALL) ---------------- */
 
@@ -46,20 +55,26 @@ async function loadProducts() {
         filtered = products;
     }
 
-    /* ---------------- SUB CATEGORY ---------------- */
+    /* ---------------- SUB CATEGORY OR MAIN CATEGORY (from category param) ---------------- */
 
     else if (categorySlug) {
-        await updateCategoryTitle(categorySlug, null);
-        updateBreadcrumbForProducts(categorySlug);
-
-        document.title = `${categorySlug.replace(/-/g, " ")} | Samley Teas`;
-
-        filtered = products.filter(
-            p => p.subCategory === categorySlug
-        );
+        // If it'\''s actually a main category, treat it as such
+        if (isMainCategory) {
+            await updateCategoryTitle(null, categorySlug);
+            updateBreadcrumbForMain(categorySlug);
+            document.title = `${categorySlug.replace(/-/g, " ")} | Samley Teas`;
+            filtered = products.filter(p => p.mainCategory === categorySlug);
+        } 
+        // Otherwise treat as sub-category
+        else {
+            await updateCategoryTitle(categorySlug, null);
+            updateBreadcrumbForProducts(categorySlug);
+            document.title = `${categorySlug.replace(/-/g, " ")} | Samley Teas`;
+            filtered = products.filter(p => p.subCategory === categorySlug);
+        }
     }
 
-    /* ---------------- MAIN CATEGORY ---------------- */
+    /* ---------------- MAIN CATEGORY (explicit main param) ---------------- */
 
     else if (mainSlug) {
         await updateCategoryTitle(null, mainSlug);
@@ -138,7 +153,7 @@ function updateBreadcrumbForProducts(categorySlug) {
                 main.subCategories.forEach(sub => {
                     if (sub.slug === categorySlug) {
                         document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="products.html?main=${main.slug}">
+                            `<a href="/products/${main.slug}/">
                                 ${main.title}
                              </a>`;
 
@@ -157,7 +172,7 @@ function updateBreadcrumbForMain(mainSlug) {
             const main = categories.find(m => m.slug === mainSlug);
             if (main) {
                 document.getElementById("breadcrumb-main-category").innerHTML =
-                    `<a href="products.html?main=${main.slug}">
+                    `<a href="/products/${main.slug}/">
                         ${main.title}
                      </a>`;
 
@@ -181,9 +196,9 @@ function renderProducts(products) {
         card.className = "product-card";
 
         card.innerHTML = `
-            <a href="product.html?product=${product.slug}"
+            <a href="/product/${product.slug}/"
                class="product-image"
-               style="background-image:url('${product.thumbnailImage}')">
+               style="background-image:url('"'"'${product.thumbnailImage}'"'"')">
 
                 <img src="${product.thumbnailImage}"
                      alt="${product.name}"
@@ -204,7 +219,7 @@ function renderProducts(products) {
 
             <div class="product-btn-div">
                 <a class="btn-03 product-btn"
-                   href="product.html?product=${product.slug}">
+                   href="/product/${product.slug}/">
                     View Product
                 </a>
             </div>
@@ -219,5 +234,3 @@ function renderProducts(products) {
 -------------------------------------------------- */
 
 document.addEventListener("DOMContentLoaded", loadProducts);
-
-

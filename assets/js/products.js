@@ -204,13 +204,18 @@ function renderProducts(products) {
     products.forEach(product => {
         const card = document.createElement("article");
         card.className = "product-card";
+        
+        // Ensure image path is absolute
+        const imageUrl = product.thumbnailImage.startsWith('/') 
+            ? product.thumbnailImage 
+            : '/' + product.thumbnailImage;
 
         card.innerHTML = `
             <a href="/product/${product.slug}/"
                class="product-image"
-               style="background-image:url('"'"'${product.thumbnailImage}'"'"')">
+               style="background-image:url('${imageUrl}')">
 
-                <img src="${product.thumbnailImage}"
+                <img src="${imageUrl}"
                      alt="${product.name}"
                      loading="lazy" />
             </a>

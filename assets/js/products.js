@@ -19,70 +19,18 @@ function getMainFromURL() {
 -------------------------------------------------- */
 
 async function loadProducts() {
-    const categorySlug = getCategoryFromURL();
-    const mainSlug = getMainFromURL();
+  const categorySlug = getCategorySlug();
 
-    const emptyState = document.getElementById("products-empty");
-    const grid = document.getElementById("products-grid");
+  const res = await fetch("/data/products.json");
+  const products = await res.json();
 
-    if (!grid) return;
+  const filtered = categorySlug
+    ? products.filter(p => p.category === categorySlug)
+    : products;
 
-    const res = await fetch("/data/products.json");
-    const products = await res.json();
-
-    let filtered = [];
-
-    /* ---------------- OUR PRODUCTS (ALL) ---------------- */
-
-    if (!categorySlug && !mainSlug) {
-        document.getElementById("category-title").textContent = "Our Products";
-        document.getElementById("category-description").textContent =
-            "Explore our complete collection of premium Ceylon teas, beverages, and spices.";
-
-        document.title = "Our Products | Samley Teas";
-
-        updateBreadcrumbForAll();
-
-        filtered = products;
-    }
-
-    /* ---------------- SUB CATEGORY ---------------- */
-
-    else if (categorySlug) {
-        await updateCategoryTitle(categorySlug, null);
-        updateBreadcrumbForProducts(categorySlug);
-
-        document.title = `${categorySlug.replace(/-/g, " ")} | Samley Teas`;
-
-        filtered = products.filter(
-            p => p.subCategory === categorySlug
-        );
-    }
-
-    /* ---------------- MAIN CATEGORY ---------------- */
-
-    else if (mainSlug) {
-        await updateCategoryTitle(null, mainSlug);
-        updateBreadcrumbForMain(mainSlug);
-
-        document.title = `${mainSlug.replace(/-/g, " ")} | Samley Teas`;
-
-        filtered = products.filter(
-            p => p.mainCategory === mainSlug
-        );
-    }
-
-    /* ---------------- EMPTY STATE ---------------- */
-
-    if (filtered.length === 0) {
-        emptyState.textContent = "No products found.";
-        emptyState.classList.remove("hidden");
-        return;
-    }
-
-    emptyState.classList.add("hidden");
-    renderProducts(filtered);
+  renderProducts(filtered);
 }
+
 
 /* --------------------------------------------------
    Titles & descriptions

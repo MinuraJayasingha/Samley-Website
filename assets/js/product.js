@@ -6,9 +6,14 @@
 
 // Get product slug from URL
 function getProductSlug() {
-    const params = new URLSearchParams(window.location.search);
-    return params.get("product");
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("product")) return params.get("product");
+
+  const path = window.location.pathname;
+  const match = path.match(/^\/product\/([^/]+)\/?$/);
+  return match ? match[1] : null;
 }
+
 
 // Set meta value and auto-hide if empty
 function setMetaValue(id, value) {
@@ -31,35 +36,19 @@ function setMetaValue(id, value) {
 -------------------------------------------------- */
 
 async function loadProduct() {
-    const slug = getProductSlug();
+  const slug = getProductSlug();
+  if (!slug) return;
 
-    if (!slug) {
-        console.warn("No product slug found in URL");
-        return;
-    }
+  const res = await fetch("/data/products.json");
+  const products = await res.json();
 
-    try {
-        const res = await fetch("/data/products.json");
-        if (!res.ok) {
-            console.error("Failed to fetch products.json:", res.status);
-            return;
-        }
+  const product = products.find(p => p.slug === slug);
+  if (!product) return;
 
-        const products = await res.json();
-        const product = products.find(p => p.slug === slug);
-
-        if (!product) {
-            console.warn("Product not found for slug:", slug);
-            return;
-        }
-
-        injectProductData(product);
-        updateBreadcrumbForProduct(product);
-
-    } catch (error) {
-        console.error("Error loading product:", error);
-    }
+  renderProduct(product);
+  updateBreadcrumb(product);
 }
+
 
 
 /* --------------------------------------------------
@@ -137,41 +126,26 @@ function injectProductData(product) {
    Breadcrumb
 -------------------------------------------------- */
 
-function updateBreadcrumbForProduct(product) {
-    fetch("/data/categories.json")
-        .then(res => {
-            if (!res.ok) {
-                console.error("Failed to fetch categories.json:", res.status);
-                return;
-            }
-            return res.json();
-        })
-        .then(categories => {
-            if (!categories) return;
+function updateBreadcrumb(product) {
+  const bc = document.querySelector("#breadcrumb");
+  if (!bc) return;
 
-            categories.forEach(main => {
-                main.subCategories.forEach(sub => {
-                    if (sub.slug === product.subCategory) {
-
-                        document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="products.html?main=${main.slug}">${main.title}</a>`;
-
-                        document.getElementById("breadcrumb-sub-category").innerHTML =
-                            `<a href="products.html?category=${sub.slug}">
-                                ${sub.title}
-                             </a>`;
-                    }
-                });
-            });
-        })
-        .catch(error => console.error("Error loading categories:", error));
-
-    const productEl = document.getElementById("breadcrumb-product");
-    if (productEl) {
-        productEl.textContent = product.name;
-        productEl.classList.remove("hidden");
-    }
+  bc.innerHTML = `
+    <a href="/">Home</a> ›
+    <a href="/products/">Our Products</a> ›
+    <a href="/products/${product.category}/">
+      ${formatSlug(product.category)}
+    </a> ›
+    <span>${product.name}</span>
+  `;
 }
+
+function formatSlug(slug) {
+  return slug
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, l => l.toUpperCase());
+}
+
 
 
 /* --------------------------------------------------

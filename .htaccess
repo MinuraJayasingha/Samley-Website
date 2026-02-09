@@ -3,40 +3,35 @@
 # =========================================
 
 RewriteEngine On
-
 RewriteBase /
 
 
 # =========================================
-# FORCE NON-WWW ? HTTPS ROOT DOMAIN
+# FORCE NON-WWW / HTTPS ROOT DOMAIN
 # =========================================
 RewriteCond %{HTTP_HOST} ^www\.samleyteas\.lk$ [NC]
 RewriteRule ^(.*)$ https://samleyteas.lk/$1 [R=301,L]
 
 
 # =========================================
-# OLD STATIC PAGES ? NEW PAGES
+# OLD STATIC PAGES → NEW PAGES
 # =========================================
 
 Redirect 301 /home_v02/ https://samleyteas.lk/
-
 Redirect 301 /contact-us/ https://samleyteas.lk/contact/
 Redirect 301 /contact_v02/ https://samleyteas.lk/contact/
-
 Redirect 301 /our-story/ https://samleyteas.lk/about-samley-teas/
 Redirect 301 /about-us/ https://samleyteas.lk/about-samley-teas/
 Redirect 301 /our-story_v02/ https://samleyteas.lk/about-samley-teas/
-
 Redirect 301 /blogs_v02/ https://samleyteas.lk/blogs/
 Redirect 301 /author/samleyteas_admin/ https://samleyteas.lk/blogs/
 Redirect 301 /category/uncategorized/ https://samleyteas.lk/blogs/
-
 Redirect 301 /our-teas/ https://samleyteas.lk/products/
 Redirect 301 /shop_v02/ https://samleyteas.lk/products/
 
 
 # =========================================
-# OLD CATEGORY SLUGS ? CLEAN CATEGORY URLS
+# OLD CATEGORY SLUGS → CLEAN CATEGORY URLS
 # =========================================
 
 Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea/
@@ -55,24 +50,50 @@ Redirect 301 /wellness-everyday-tea/ https://samleyteas.lk/products/wellness-tea
 Redirect 301 /tea-capsules/ https://samleyteas.lk/products/tea-capsules/
 Redirect 301 /gift-range/ https://samleyteas.lk/products/gift-tea/
 Redirect 301 /gourmet-range/ https://samleyteas.lk/products/gourmet-tea/
-
 Redirect 301 /organic-herbal-infusions/ https://samleyteas.lk/products/organic-herbal/
 Redirect 301 /organic-herbal-infusions-2/ https://samleyteas.lk/products/organic-herbal/
-
 Redirect 301 /iced-coffee/ https://samleyteas.lk/products/iced-coffee/
-
 Redirect 301 /coconut-water-king-coconut-water/ https://samleyteas.lk/products/coconut-water/
 Redirect 301 /organic-coconut-king-coconut/ https://samleyteas.lk/products/coconut-water/
 Redirect 301 /coconut-milk-coconut-cream/ https://samleyteas.lk/products/coconut-milk/
 Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/coconut-flour/
 Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/desiccated-coconut/
 Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/virgin-coconut-oil/
-
 Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices/
 
 
 # =========================================
-# QUERY-BASED ? CLEAN URL (MUST BE FIRST)
+# STOP REWRITING REAL FILES / FOLDERS
+# =========================================
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# =========================================
+# REDIRECT .html TO CLEAN URLS
+# =========================================
+
+# /index.html → /
+RewriteRule ^index\.html$ / [R=301,L]
+
+# /contact.html → /contact/
+RewriteRule ^contact\.html$ /contact/ [R=301,L]
+
+# /blogs.html → /blogs/
+RewriteRule ^blogs\.html$ /blogs/ [R=301,L]
+
+# /products.html → /products/
+RewriteRule ^products\.html$ /products/ [R=301,L]
+
+# /story.html → /about-samley-teas/
+RewriteRule ^story\.html$ /about-samley-teas/ [R=301,L]
+
+# /wholesale.html → /wholesale/
+RewriteRule ^wholesale\.html$ /wholesale/ [R=301,L]
+
+
+# =========================================
+# QUERY-BASED → CLEAN URL (MUST BE FIRST)
 # =========================================
 
 # Redirect /product.html?product=SLUG to /product/SLUG/
@@ -86,18 +107,38 @@ RewriteRule ^products\.html$ /products/%1/? [R=301,L]
 # Redirect /products.html?main=SLUG to /products/SLUG/
 RewriteCond %{QUERY_STRING} ^main=([a-zA-Z0-9-]+)$ [NC]
 RewriteRule ^products\.html$ /products/%1/? [R=301,L]
-# STOP REWRITING REAL FILES / FOLDERS
-# =========================================
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
 
 
 # =========================================
-# INTERNAL REWRITES (CLEAN URL ? REAL FILE)
+# CLEAN URL REWRITES (SERVE .html FILES)
 # =========================================
 
+# / → index.html
+RewriteRule ^/?$ index.html [L]
+
+# /contact/ → contact.html
+RewriteRule ^contact/?$ contact.html [L]
+
+# /about-samley-teas/ → story.html
+RewriteRule ^about-samley-teas/?$ story.html [L]
+
+# /blogs/ → blogs.html
+RewriteRule ^blogs/?$ blogs.html [L]
+
+# /products/ → products.html (but not /products/SLUG/)
+RewriteCond %{REQUEST_URI} !^/products/[a-z0-9-]+/?$ 
+RewriteRule ^products/?$ products.html [L]
+
+# /wholesale/ → wholesale.html
+RewriteRule ^wholesale/?$ wholesale.html [L]
+
+
+# =========================================
+# INTERNAL REWRITES (CLEAN URL → REAL FILE)
+# =========================================
+
+# /products/SLUG/ → products.html?category=SLUG
 RewriteRule ^products/([a-zA-Z0-9-]+)/?$ products.html?category=$1 [L,QSA]
+
+# /product/SLUG/ → product.html?slug=SLUG
 RewriteRule ^product/([a-zA-Z0-9-]+)/?$ product.html?slug=$1 [L,QSA]
-
-

@@ -1,4 +1,4 @@
-// assets/js/products.js
+﻿// assets/js/products.js
 
 /* --------------------------------------------------
    URL helpers
@@ -219,3 +219,5 @@ function renderProducts(products) {
 -------------------------------------------------- */
 
 document.addEventListener("DOMContentLoaded", loadProducts);
+
+

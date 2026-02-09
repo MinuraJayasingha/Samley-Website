@@ -1,4 +1,4 @@
-// assets/js/product.js
+﻿// assets/js/product.js
 
 /* --------------------------------------------------
    Helpers
@@ -108,7 +108,7 @@ function injectProductData(product) {
         product.reviewCount ? `(${product.reviewCount})` : "";
 
     document.getElementById("product-stars").textContent =
-        product.rating ? "★".repeat(Math.round(product.rating)) : "";
+        product.rating ? "â˜…".repeat(Math.round(product.rating)) : "";
 
     /* ---------- Gallery ---------- */
 
@@ -154,10 +154,10 @@ function updateBreadcrumbForProduct(product) {
                     if (sub.slug === product.subCategory) {
 
                         document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="products.html?main=${main.slug}">${main.title}</a>`;
+                            `<a href="products.html?main=${main.slug}/">${main.title}</a>`;
 
                         document.getElementById("breadcrumb-sub-category").innerHTML =
-                            `<a href="products.html?category=${sub.slug}">
+                            `<a href="products.html?category=${sub.slug}/">
                                 ${sub.title}
                              </a>`;
                     }

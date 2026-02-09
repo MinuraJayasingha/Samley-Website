@@ -1,5 +1,17 @@
 // assets/js/products.js
 
+function getCategorySlug() {
+    // 1️⃣ Query-based fallback
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("category")) return params.get("category");
+
+    // 2️⃣ Clean URL support
+    const path = window.location.pathname;
+    const match = path.match(/^\/products\/([^/]+)\/?$/);
+    return match ? match[1] : null;
+}
+
+
 /* --------------------------------------------------
    URL helpers
 -------------------------------------------------- */
@@ -129,7 +141,7 @@ function renderProducts(products) {
         card.className = "product-card";
 
         card.innerHTML = `
-            <a href="product.html?product=${product.slug}"
+            <a href="/product/${product.slug}/"
                class="product-image"
                style="background-image:url('${product.thumbnailImage}')">
 
@@ -152,7 +164,7 @@ function renderProducts(products) {
 
             <div class="product-btn-div">
                 <a class="btn-03 product-btn"
-                   href="product.html?product=${product.slug}">
+                   href="/product/${product.slug}/">
                     View Product
                 </a>
             </div>
@@ -166,4 +178,19 @@ function renderProducts(products) {
    Init
 -------------------------------------------------- */
 
-document.addEventListener("DOMContentLoaded", loadProducts);
+document.addEventListener("DOMContentLoaded", async () => {
+    const categorySlug = getCategorySlug();
+    const mainSlug = getMainFromURL();
+
+    await loadProducts();
+    await updateCategoryTitle(categorySlug, mainSlug);
+
+    if (categorySlug) {
+        updateBreadcrumbForProducts(categorySlug);
+    } else if (mainSlug) {
+        updateBreadcrumbForMain(mainSlug);
+    } else {
+        updateBreadcrumbForAll();
+    }
+});
+

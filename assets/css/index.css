@@ -336,7 +336,7 @@
     height: 350px;
     border-radius: 25px;
     display: block;
-    background-image: url(../images/samples/LS_session-114660-scaled.jpg);
+    background-image: url(../images/samples/Gift.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -447,31 +447,41 @@
 }
 
 .content-bottom-card #img-01 {
-    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Berry Sensation 250g.png");
-    background-color: #F3EEF5;
+    background-image: url("../images/products/Teas/Gift Teas/Advent Calendar 1.png");
+    background-color: #ebf4f4;
 }
 
 .content-bottom-card #img-02 {
-    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/French Vanilla 250g.png");
-    background-color: #FBFCF5;
+    background-image: url("../images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png");
+    background-color: #f3ebed;
 }
 .content-bottom-card #img-03 {
-    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Herbal Punch 250g.png");
-    background-color: #F8FBF0;
+    background-image: url("../images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png");
+    background-color: #fbebed;
 }
 
 .content-bottom-card #img-04 {
-    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Mango Delight 250g.png");
-    background-color: #FDFAEE;
+    background-image: url("../images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png");
+    background-color: #eaeaeb;
 }
 .content-bottom-card #img-05 {
-    background-image: url("../assets/images/products/Teas/Organic Herbal Infusions Teas/Rhubarb Tart 250g.png");
-    background-color: #F8FBF0;
+    background-image: url("../images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png");
+    background-color: #faf4f3;
 }
 
 .content-bottom-card #img-06 {
-    background-image: url("../images/products/Teas/Organic Herbal Infusions Teas/Rose Blossom 250g.png");
-    background-color: #FDFAEE;
+    background-image: url("../images/products/Teas/Gift Teas/Elephant Gift Box 1.png");
+    background-color: #f1f0ed;
+}
+
+.content-bottom-card #img-07 {
+    background-image: url("../images/products/Teas/Gift Teas/Day Five Variant 1.png");
+    background-color: #eaeeee;
+}
+
+.content-bottom-card #img-08 {
+    background-image: url("../images/products/Teas/Gift Teas/Day Five Variant 1.png");
+    background-color: #eaeeee;
 }
 
 .content-bottom-card .titlee {

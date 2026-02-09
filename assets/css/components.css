@@ -616,6 +616,21 @@
     text-decoration: underline;
 }
 
+.breadcrumb-list li.hidden {
+    display: none;
+}
+
+.breadcrumb-list li.active {
+    color: #999;
+    font-weight: normal;
+    pointer-events: none;
+}
+
+.breadcrumb-list li.active a {
+    color: #999;
+    text-decoration: none;
+    cursor: default;
+}
 .hidden {
     display: none;
 }

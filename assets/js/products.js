@@ -151,8 +151,15 @@ async function updateCategoryTitle(categorySlug, mainSlug) {
 -------------------------------------------------- */
 
 function updateBreadcrumbForAll() {
-    document.getElementById("breadcrumb-main-category").textContent = "";
-    document.getElementById("breadcrumb-sub-category").textContent = "";
+    const mainCat = document.getElementById("breadcrumb-main-category");
+    const subCat = document.getElementById("breadcrumb-sub-category");
+    
+    // Clear and hide
+    mainCat.innerHTML = "";
+    mainCat.classList.add("hidden");
+    
+    subCat.innerHTML = "";
+    subCat.classList.add("hidden");
 }
 
 function updateBreadcrumbForProducts(categorySlug) {
@@ -162,13 +169,17 @@ function updateBreadcrumbForProducts(categorySlug) {
             categories.forEach(main => {
                 main.subCategories.forEach(sub => {
                     if (sub.slug === categorySlug) {
-                        document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="/products/${main.slug}/">
-                                ${main.title}
-                             </a>`;
-
-                        document.getElementById("breadcrumb-sub-category").textContent =
-                            sub.title;
+                        const mainCat = document.getElementById("breadcrumb-main-category");
+                        const subCat = document.getElementById("breadcrumb-sub-category");
+                        
+                        // Show main category link
+                        mainCat.innerHTML = `<a href="/products/${main.slug}/">${main.title}</a>`;
+                        mainCat.classList.remove("hidden");
+                        
+                        // Show sub category as active (last item)
+                        subCat.textContent = sub.title;
+                        subCat.classList.remove("hidden");
+                        subCat.classList.add("active");
                     }
                 });
             });
@@ -181,12 +192,17 @@ function updateBreadcrumbForMain(mainSlug) {
         .then(categories => {
             const main = categories.find(m => m.slug === mainSlug);
             if (main) {
-                document.getElementById("breadcrumb-main-category").innerHTML =
-                    `<a href="/products/${main.slug}/">
-                        ${main.title}
-                     </a>`;
-
-                document.getElementById("breadcrumb-sub-category").textContent = "";
+                const mainCat = document.getElementById("breadcrumb-main-category");
+                const subCat = document.getElementById("breadcrumb-sub-category");
+                
+                // Show main category as active (last item)
+                mainCat.textContent = main.title;
+                mainCat.classList.remove("hidden");
+                mainCat.classList.add("active");
+                
+                // Hide sub category
+                subCat.innerHTML = "";
+                subCat.classList.add("hidden");
             }
         });
 }

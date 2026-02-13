@@ -106,6 +106,17 @@ RewriteRule ^products\.html$ /products/%1/? [R=301,L]
 RewriteCond %{QUERY_STRING} ^main=([a-zA-Z0-9-]+)$ [NC]
 RewriteRule ^products\.html$ /products/%1/? [R=301,L]
 
+# Product query → clean product URL
+RewriteCond %{QUERY_STRING} ^product=([a-zA-Z0-9-]+)$ [NC]
+RewriteRule ^product\.html$ /product/%1/? [R=301,L]
+
+# Category query (products/?category=slug)
+RewriteCond %{QUERY_STRING} ^category=([a-zA-Z0-9-]+)$ [NC]
+RewriteRule ^products/?$ /products/%1/? [R=301,L]
+
+# Main query
+RewriteCond %{QUERY_STRING} ^main=([a-zA-Z0-9-]+)$ [NC]
+RewriteRule ^products/?$ /products/%1/? [R=301,L]
 
 # =========================================
 # CLEAN URL REWRITES (SERVE .html FILES)

@@ -16,7 +16,7 @@ const NAVBAR_LOG = (message, type = "info") => {
 
 
 async function loadCategories() {
-    const res = await fetch("/data/categories.json");
+    const res = await fetch("/data/new_categories.json");
     const categories = await res.json();
 
     categories.forEach(main => {

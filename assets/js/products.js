@@ -37,10 +37,10 @@ async function loadProducts() {
 
     if (!grid) return;
 
-    const res = await fetch("data/products.json");
+    const res = await fetch("data/1new_products.json");
     const products = await res.json();
     
-    const catRes = await fetch("data/categories.json");
+    const catRes = await fetch("data/new_categories.json");
     const categories = await catRes.json();
 
     let filtered = [];
@@ -114,7 +114,7 @@ async function loadProducts() {
 -------------------------------------------------- */
 
 async function updateCategoryTitle(categorySlug, mainSlug) {
-    const res = await fetch("data/categories.json");
+    const res = await fetch("data/new_categories.json");
     const categories = await res.json();
 
     // Sub category
@@ -169,7 +169,7 @@ function updateBreadcrumbForAll() {
 }
 
 function updateBreadcrumbForProducts(categorySlug) {
-    fetch("data/categories.json")
+    fetch("data/new_categories.json")
         .then(res => res.json())
         .then(categories => {
             categories.forEach(main => {
@@ -193,7 +193,7 @@ function updateBreadcrumbForProducts(categorySlug) {
 }
 
 function updateBreadcrumbForMain(mainSlug) {
-    fetch("data/categories.json")
+    fetch("data/new_categories.json")
         .then(res => res.json())
         .then(categories => {
             const main = categories.find(m => m.slug === mainSlug);

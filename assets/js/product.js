@@ -50,9 +50,9 @@ async function loadProduct() {
     console.log("Loading product:", slug);
 
     try {
-        const res = await fetch("data/products.json");
+        const res = await fetch("data/1new_products.json.json");
         if (!res.ok) {
-            console.error("Failed to fetch products.json:", res.status);
+            console.error("Failed to fetch 1new_products.json.json:", res.status);
             return;
         }
 
@@ -150,10 +150,10 @@ function injectProductData(product) {
 -------------------------------------------------- */
 
 function updateBreadcrumbForProduct(product) {
-    fetch("data/categories.json")
+    fetch("data/new_categories.json")
         .then(res => {
             if (!res.ok) {
-                console.error("Failed to fetch categories.json:", res.status);
+                console.error("Failed to fetch new_products.json:", res.status);
                 return;
             }
             return res.json();

@@ -566,7 +566,7 @@
     "shortDescription": "Medium-bodied Ceylon green tea in convenient tea bags for daily refreshment.",
     "tags": ["Fresh", "Light", "Natural"],
     "packInfo": "100 Tea Bags Box (40g)",
-    "thumbnailImage": "assets/images/products/Teas/Green Tea Collections/Ceylon Green tea 200g- 100TB.png",
+    "thumbnailImage": "assets/images/products/Teas/Green Tea Collections/Ceylon Green Tea 200g-100TB.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Green Tea",
@@ -599,7 +599,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Green Tea Collections/Ceylon Green tea 200g- 100TB.png"
+      "assets/images/products/Teas/Green Tea Collections/Ceylon Green Tea 200g-100TB.png"
     ]
   },
 
@@ -615,7 +615,7 @@
     "shortDescription": "Classic full-bodied black tea for a traditional English breakfast experience.",
     "tags": ["Strong", "Robust", "Classic"],
     "packInfo": "20 Tea Bags Box (40g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/English Breakfast.png",
+    "thumbnailImage": "assets/images/new_products/teas/signature_collection/English_Breakfast.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Classic Black Tea",
@@ -648,7 +648,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/English Breakfast.png"
+      "assets/images/new_products/teas/signature_collection/English Breakfast.png"
     ]
   },
   {
@@ -661,7 +661,7 @@
     "shortDescription": "Ceylon black tea with natural bergamot flavor for a citrusy, aromatic experience.",
     "tags": ["Aromatic", "Citrus", "Elegant"],
     "packInfo": "20 Tea Bags Box (40g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Earl Grey.png",
+    "thumbnailImage": "assets/images/new_products/teas/signature_collection/EarlGrey–CeylonSips.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Bergamot",
@@ -694,7 +694,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/Earl Grey.png"
+      "assets/images/new_products/teas/signature_collection/EarlGrey–CeylonSips.png"
     ]
   },
   {
@@ -753,7 +753,7 @@
     "shortDescription": "Fruity Ceylon black tea blend with mango and passion fruit for a tropical experience.",
     "tags": ["Fruity", "Tropical", "Refreshing"],
     "packInfo": "20 Tea Bags Box (40g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Mango & Passion.png",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Mango & Passion Fruit Black Tea.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Mango & Passion Fruit",
@@ -786,7 +786,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/Mango & Passion.png"
+      "assets/images/products/Teas/Signature Teas/Mango & Passion Fruit Black Tea.png"
     ]
   },
   {
@@ -799,7 +799,7 @@
     "shortDescription": "Bold and aromatic spiced Ceylon black tea with traditional masala flavors.",
     "tags": ["Spicy", "Aromatic", "Bold"],
     "packInfo": "20 Tea Bags Box (40g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Masala Chai.png",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Masala Black Tea – Spicy.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Masala Chai",
@@ -832,7 +832,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/Masala Chai.png"
+      "assets/images/products/Teas/Signature Teas/Masala Black Tea – Spicy.png"
     ]
   },
   {
@@ -845,7 +845,7 @@
     "shortDescription": "Ceylon black tea infused with natural cinnamon for a warm, spicy flavor.",
     "tags": ["Spicy", "Warm", "Aromatic"],
     "packInfo": "20 Tea Bags Box (40g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Cinnamon Tea.png",
+    "thumbnailImage": "assets/images/new_products/teas/signature_teas/Cinnamon Tea.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Cinnamon",
@@ -1029,7 +1029,7 @@
     "shortDescription": "Gentle herbal tea with calming chamomile and natural honey sweetness.",
     "tags": ["Soothing", "Sweet", "Herbal"],
     "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Chamomile & Honey.png",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Chamomile & Honey Infusion.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Chamomile & Honey",
@@ -1062,7 +1062,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/Chamomile & Honey.png"
+      "assets/images/products/Teas/Signature Teas/Chamomile & Honey Infusion.png"
     ]
   },
   {
@@ -1167,7 +1167,7 @@
     "shortDescription": "Cooling and refreshing herbal tea with pure peppermint leaves.",
     "tags": ["Refreshing", "Minty", "Herbal"],
     "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Peppermint.png",
+    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Peppermint -20 TB Double Chamber Foiled Envelop(30g).png",
     
     "brand": "Ceylon Tea",
     "flavor": "Peppermint",
@@ -1200,7 +1200,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/Peppermint.png"
+      "assets/images/products/Teas/Signature Teas/Peppermint -20 TB Double Chamber Foiled Envelop(30g).png"
     ]
   },
   {
@@ -1443,7 +1443,7 @@
     "shortDescription": "Pure organic Ceylon green tea with fresh, light flavor.",
     "tags": ["Organic", "Fresh", "Light"],
     "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Signature Teas/Organic Green Tea.png",
+    "thumbnailImage": "assets/images/new_products/teas/signature_collection/greenTea_Ceylon.png",
     
     "brand": "Ceylon Tea",
     "flavor": "Green Tea",
@@ -1476,7 +1476,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/Teas/Signature Teas/Organic Green Tea.png"
+      "assets/images/new_products/teas/signature_collection/greenTea_Ceylon.png"
     ]
   },
 
@@ -3855,7 +3855,7 @@
     "shortDescription": "Sparkling iced tea with natural mango flavor. Refreshing, low sugar, and delightfully fruity.",
     "tags": ["Fruity", "Sparkling", "Refreshing"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Mango Tango.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Mango Tango.png",
     
     "brand": "Ceylon Beverages",
     "flavor": "Mango",
@@ -3889,7 +3889,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Mango Tango.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Mango Tango.png"
     ]
   },
   {
@@ -3902,7 +3902,7 @@
     "shortDescription": "Sparkling iced tea with natural raspberry flavor. Bright, berrylicious, and refreshingly light.",
     "tags": ["Berry", "Sparkling", "Refreshing"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Raspberry Sparkle.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Raspberry Sparkle.png",
     
     "brand": "Ceylon Beverages",
     "flavor": "Raspberry",
@@ -3936,7 +3936,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Raspberry Sparkle.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Raspberry Sparkle.png"
     ]
   },
   {
@@ -3949,7 +3949,7 @@
     "shortDescription": "Sparkling green tea with premium matcha. Vibrant, energizing, and delicately smooth.",
     "tags": ["Matcha", "Sparkling", "Energizing"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Matcha Sparkling.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Matcha_Can_Mockup_4.jpg",
     
     "brand": "Ceylon Beverages",
     "flavor": "Matcha",
@@ -3983,7 +3983,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Matcha Sparkling.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Matcha_Can_Mockup_4.jpg"
     ]
   },
   {
@@ -3996,7 +3996,7 @@
     "shortDescription": "Sparkling iced tea with zesty lemon flavor. Crisp, citrusy, and instantly refreshing.",
     "tags": ["Citrus", "Sparkling", "Zesty"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Lemon Blast.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Lemon_Can_Mockup_5.jpg",
     
     "brand": "Ceylon Beverages",
     "flavor": "Lemon",
@@ -4030,7 +4030,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Lemon Blast.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Lemon_Can_Mockup_5.jpg"
     ]
   },
   {
@@ -4043,7 +4043,7 @@
     "shortDescription": "Sparkling green tea with delicate jasmine aroma. Floral, calming, and lightly refreshing.",
     "tags": ["Floral", "Sparkling", "Calming"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Jasmine Green.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg",
     
     "brand": "Ceylon Beverages",
     "flavor": "Jasmine",
@@ -4077,7 +4077,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Jasmine Green.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg"
     ]
   },
   {
@@ -4090,7 +4090,7 @@
     "shortDescription": "Sparkling iced tea with juicy peach flavor. Sweet, sun-ripened, and utterly refreshing.",
     "tags": ["Fruity", "Sparkling", "Sweet"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Peach Sensation.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Peach_Can_Mockup_2.jpg",
     
     "brand": "Ceylon Beverages",
     "flavor": "Peach",
@@ -4124,7 +4124,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Peach Sensation.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Peach_Can_Mockup_2.jpg"
     ]
   },
   {
@@ -4137,7 +4137,7 @@
     "shortDescription": "Sparkling iced tea with strawberry and rose. Romantic, floral-fruity, and elegantly refreshing.",
     "tags": ["Floral", "Fruity", "Sparkling"],
     "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-teas-collection/Magic Moment.png",
+    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Magic_Can_Mockup_6.jpg",
     
     "brand": "Ceylon Beverages",
     "flavor": "Strawberry & Rose",
@@ -4171,7 +4171,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-teas-collection/Magic Moment.png"
+      "assets/images/new_products/beverages/iced-teas-collection/Magic_Can_Mockup_6.jpg"
     ]
   },
 
@@ -4186,7 +4186,7 @@
     "shortDescription": "Smooth iced coffee with rich caramel flavor. Made with coconut milk for creamy indulgence.",
     "tags": ["Caramel", "Creamy", "Indulgent"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Caramel.png",
+    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Caramel.webp",
     
     "brand": "Ceylon Coffee",
     "flavor": "Caramel",
@@ -4219,7 +4219,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-coffee-collection/Caramel.png"
+      "assets/images/new_products/beverages/coffee-collection/Caramel.webp"
     ]
   },
   {
@@ -4232,7 +4232,7 @@
     "shortDescription": "Creamy iced coffee with aromatic French vanilla. Smooth, sweet, and utterly satisfying.",
     "tags": ["Vanilla", "Creamy", "Smooth"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/French Vanilla.png",
+    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/French_Vanilla.webp",
     
     "brand": "Ceylon Coffee",
     "flavor": "French Vanilla",
@@ -4265,7 +4265,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-coffee-collection/French Vanilla.png"
+      "assets/images/new_products/beverages/coffee-collection/French_Vanilla.webp"
     ]
   },
   {
@@ -4278,7 +4278,7 @@
     "shortDescription": "Rich mocha-style iced coffee with real cocoa flavor. Decadent, energizing, and dairy-free.",
     "tags": ["Chocolate", "Mocha", "Decadent"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Chocolate.png",
+    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Chocolate.webp",
     
     "brand": "Ceylon Coffee",
     "flavor": "Chocolate",
@@ -4311,7 +4311,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-coffee-collection/Chocolate.png"
+      "assets/images/new_products/beverages/coffee-collection/Chocolate.webp"
     ]
   },
   {
@@ -4324,7 +4324,7 @@
     "shortDescription": "Unique lemon-infused black coffee. Bold, citrusy, and refreshingly different.",
     "tags": ["Citrus", "Bold", "Unique"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Lemon Black.png",
+    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/LemonBlackIcedCoffee.webp",
     
     "brand": "Ceylon Coffee",
     "flavor": "Lemon",
@@ -4357,7 +4357,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-coffee-collection/Lemon Black.png"
+      "assets/images/new_products/beverages/coffee-collection/LemonBlackIcedCoffee.webp"
     ]
   },
   {
@@ -4370,7 +4370,7 @@
     "shortDescription": "Smooth iced coffee with nutty hazelnut flavor. Rich, aromatic, and utterly satisfying.",
     "tags": ["Nutty", "Aromatic", "Smooth"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Hazelnut.png",
+    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Hazelnut.webp",
     
     "brand": "Ceylon Coffee",
     "flavor": "Hazelnut",
@@ -4403,7 +4403,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-coffee-collection/Hazelnut.png"
+      "assets/images/new_products/beverages/coffee-collection/Hazelnut.webp"
     ]
   },
   {
@@ -4416,7 +4416,7 @@
     "shortDescription": "Classic latte with creamy coconut milk. Smooth, balanced, and perfectly comforting.",
     "tags": ["Classic", "Creamy", "Balanced"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/iced-coffee-collection/Latte.png",
+    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Latte.webp",
     
     "brand": "Ceylon Coffee",
     "flavor": "Latte",
@@ -4449,7 +4449,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/iced-coffee-collection/Latte.png"
+      "assets/images/new_products/beverages/coffee-collection/Latte.webp"
     ]
   },
 
@@ -4606,7 +4606,7 @@
     "shortDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
     "tags": ["Hydration", "Electrolytes", "Recovery"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/products/beverages/isotonics/Isotonic Honey Lavender.png",
+    "thumbnailImage": "assets/images/new_products/beverages/isotonics/isotonic.jpeg",
     
     "brand": "Ceylon Wellness",
     "flavor": "Honey Lavender",
@@ -4642,7 +4642,7 @@
     ],
     
     "galleryImages": [
-      "assets/images/products/beverages/isotonics/Isotonic Honey Lavender.png"
+      "assets/images/new_products/beverages/isotonics/isotonic.jpeg"
     ]
   },
 

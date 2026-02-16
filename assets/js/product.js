@@ -50,13 +50,15 @@ async function loadProduct() {
     console.log("Loading product:", slug);
 
     try {
-        const res = await fetch("data/1new_products.json.json");
+        const res = await fetch("data/1new_products.json");
         if (!res.ok) {
-            console.error("Failed to fetch 1new_products.json.json:", res.status);
+            console.error("Failed to fetch 1new_products.json", res.status);
             return;
         }
 
-        const products = await res.json();
+        let products = await res.json();
+        // Filter out empty objects (which exist in 1new_products.json)
+        products = products.filter(p => p && Object.keys(p).length > 0 && p.slug);
         const product = products.find(p => p.slug === slug);
 
         if (!product) {

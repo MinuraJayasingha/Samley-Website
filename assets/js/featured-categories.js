@@ -6,7 +6,7 @@ const data = {
         description:
             "Savor the rich aroma and authentic taste of our handcrafted tea blends — crafted to calm, energize, and delight every moment.",
         image: "assets/images/feat_categories/Organic Teas Cover.png",
-        link: "products.html?category=green-tea"
+        link: "products/tea/"
     },
 
     beverages: {
@@ -16,7 +16,7 @@ const data = {
         description:
             "From fruit-infused coolers to revitalizing brews, our beverages are designed to refresh your body and spirit.",
         image: "assets/images/feat_categories/Organic Beverages.png",
-        link: "products.html?category=iced-coffee"
+        link: "products/beverage-collection/"
     },
 
     spices: {
@@ -26,7 +26,7 @@ const data = {
         description:
             "Add natural depth and bold flavor to your meals with our sustainably sourced organic spices.",
         image: "assets/images/feat_categories/Organic Spices.png",
-        link: "products.html?category=ceylon-organic-spices"
+        link: "products/ceylon-organic-spices/"
     },
 
     coconut: {
@@ -36,7 +36,7 @@ const data = {
         description:
             "Pure, tropical coconut creations crafted to nourish, refresh, and elevate everyday living.",
         image: "assets/images/feat_categories/Organic Coconut Based.png",
-        link: "products.html?category=coconut-water"
+        link: "products/organic-coconut-based/"
     }
 };
 

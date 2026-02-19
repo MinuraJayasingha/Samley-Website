@@ -60,8 +60,8 @@ Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/
 Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/organic-dessicated-coconut-collection/
 Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/organic-coconut-oil-collection/
 Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices-collection/
-Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea-collection/
-Redirect 301 https://samleyteas.lk/products/iced-tea/ https://samleyteas.lk/products/iced-tea-collection/
+RewriteRule ^iced-tea/?$ /products/iced-tea-collection/ [R=301,L]
+RewriteRule ^products/iced-tea/?$ /products/iced-tea-collection/ [R=301,L]
 
 # =========================================
 # REDIRECT .html FILES TO CLEAN URLS (BEFORE FILE CHECK!)

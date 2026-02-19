@@ -48,7 +48,7 @@
   {
     "id": "royal-blend-125g",
     "slug": "royal-blend-125g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "luxuary-collection",
     
     "name": "Royal Blend -125g",
@@ -94,7 +94,7 @@
   {
     "id": "sencha-delight-125g",
     "slug": "sencha-delight-125g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "luxuary-collection",
     
     "name": "Sencha Delight -125g",
@@ -140,7 +140,7 @@
   {
     "id": "tippy-delight-125g",
     "slug": "tippy-delight-125g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "luxuary-collection",
     "featured": true,
     
@@ -187,7 +187,7 @@
   {
     "id": "jasmin-green-125g",
     "slug": "jasmin-green-125g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "luxuary-collection",
     
     "name": "Jasmin Green  -125g",
@@ -233,7 +233,7 @@
   {
     "id": "delicate-brew-125g",
     "slug": "delicate-brew-125g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "luxuary-collection",
     
     "name": "Delicate Brew -125g",
@@ -279,7 +279,7 @@
   {
     "id": "wiry-lady-125g",
     "slug": "wiry-lady-125g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "luxuary-collection",
     "featured": true,
     
@@ -329,7 +329,7 @@
     {
     "id": "black-tea-20-tb",
     "slug": "black-tea-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "everyday-collection",
     
     "name": "Black Tea - 20 TB Double Chamber (40g)",
@@ -375,7 +375,7 @@
   {
     "id": "black-tea-50-tb",
     "slug": "black-tea-50-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "everyday-collection",
     
     "name": "Black Tea - 50 TB Double Chamber (40g)",
@@ -421,7 +421,7 @@
   {
     "id": "black-tea-100-tb",
     "slug": "black-tea-100-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "everyday-collection",
     
     "name": "Black Tea - 100 TB Double Chamber (40g)",
@@ -467,7 +467,7 @@
   {
     "id": "green-tea-20-tb",
     "slug": "green-tea-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "everyday-collection",
     
     "name": "Green Tea - 20 TB Double Chamber (40g)",
@@ -513,7 +513,7 @@
   {
     "id": "green-tea-50-tb",
     "slug": "green-tea-50-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "everyday-collection",
     
     "name": "Green Tea - 50 TB Double Chamber (40g)",
@@ -559,7 +559,7 @@
   {
     "id": "green-tea-100-tb",
     "slug": "green-tea-100-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "everyday-collection",
     
     "name": "Green Tea - 100 TB Double Chamber (40g)",
@@ -608,7 +608,7 @@
  {
     "id": "english-breakfast-20-tb",
     "slug": "english-breakfast-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "English Breakfast -Black Tea - 20 TB Double Chamber Foiled Envelop (40g)",
@@ -654,7 +654,7 @@
   {
     "id": "earl-grey-20-tb",
     "slug": "earl-grey-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Black Tea with Earl Grey-20 TB Double Chamber Foiled Envelop(40g)",
@@ -700,7 +700,7 @@
   {
     "id": "blueberry-vanilla-20-tb",
     "slug": "blueberry-vanilla-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Blueberry & Vanilla-20 TB Double Chamber Foiled Envelop(40g)",
@@ -746,7 +746,7 @@
   {
     "id": "mango-passion-20-tb",
     "slug": "mango-passion-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Mango & Passion-20 TB Double Chamber Foiled Envelop(40g)",
@@ -792,7 +792,7 @@
   {
     "id": "spicy-masala-chai-20-tb",
     "slug": "spicy-masala-chai-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Spicy Masala Chai-20 TB Double Chamber Foiled Envelop(40g)",
@@ -838,7 +838,7 @@
   {
     "id": "cinnamon-20-tb",
     "slug": "cinnamon-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Black Tea with Cinnamon -20 TB Double Chamber Foiled Envelop(40g)",
@@ -884,7 +884,7 @@
   {
     "id": "green-tea-signature-20-tb",
     "slug": "green-tea-signature-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Green Tea -20 TB Double Chamber Foiled Envelop(30g)",
@@ -930,7 +930,7 @@
   {
     "id": "green-tea-mint-20-tb",
     "slug": "green-tea-mint-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Green Tea with Mint -20 TB Double Chamber Foiled Envelop(30g)",
@@ -976,7 +976,7 @@
   {
     "id": "green-tea-lemon-20-tb",
     "slug": "green-tea-lemon-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Green Tea Lemon-20 TB Double Chamber Foiled Envelop(30g)",
@@ -1022,7 +1022,7 @@
   {
     "id": "chamomile-honey-20-tb",
     "slug": "chamomile-honey-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Chamomile & Honey -20 TB Double Chamber Foiled Envelop(30g)",
@@ -1068,7 +1068,7 @@
   {
     "id": "chamomile-20-tb",
     "slug": "chamomile-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Chamomile-20 TB Double Chamber Foiled Envelop(30g)",
@@ -1114,7 +1114,7 @@
   {
     "id": "fennel-20-tb",
     "slug": "fennel-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Fennel-20 TB Double Chamber Foiled Envelop(30g)",
@@ -1160,7 +1160,7 @@
   {
     "id": "peppermint-20-tb",
     "slug": "peppermint-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Peppermint -20 TB Double Chamber Foiled Envelop(30g)",
@@ -1206,7 +1206,7 @@
   {
     "id": "lemon-20-tb",
     "slug": "lemon-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Lemon -20 TB Double Chamber Foiled Envelop(30g)",
@@ -1252,7 +1252,7 @@
   {
     "id": "ginger-lemon-20-tb",
     "slug": "ginger-lemon-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Ginger & Lemon -20 TB Double Chamber Foiled Envelop(30g)",
@@ -1298,7 +1298,7 @@
   {
     "id": "ginger-honey-20-tb",
     "slug": "ginger-honey-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Ginger & Honey-20 TB Double Chamber Foiled Envelop(30g)",
@@ -1344,7 +1344,7 @@
   {
     "id": "ginger-turmeric-20-tb",
     "slug": "ginger-turmeric-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Ginger & Turmeric -20 TB Double Chamber Foiled Envelop(30g)",
@@ -1390,7 +1390,7 @@
   {
     "id": "organic-black-tea-20-tb",
     "slug": "organic-black-tea-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Organic Black Tea -20 TB Double Chamber Foiled Envelop (40g)",
@@ -1436,7 +1436,7 @@
   {
     "id": "organic-green-tea-20-tb",
     "slug": "organic-green-tea-20-tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "signature-collection",
     
     "name": "Organic Green Tea -20 TB Double Chamber Foiled Envelop(30g)",
@@ -1485,7 +1485,7 @@
     {
     "id": "silver-tips-40g",
     "slug": "silver-tips-40g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "designer-collection",
     
     "name": "Silver Tips Packed in Borocilicate Glass Jars-40g",
@@ -1531,7 +1531,7 @@
   {
     "id": "golden-tips-40g",
     "slug": "golden-tips-40g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "designer-collection",
     
     "name": "Golden Tips Packed in Borocilicate Glass Jars-40g",
@@ -1580,7 +1580,7 @@
     {
     "id": "lovers-night-100g",
     "slug": "lovers-night-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Lover's Night-100g",
@@ -1626,7 +1626,7 @@
   {
     "id": "green-sensation-100g",
     "slug": "green-sensation-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Green Sensation -100g",
@@ -1672,7 +1672,7 @@
   {
     "id": "blue-lady-100g",
     "slug": "blue-lady-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Blue Lady-100g",
@@ -1718,7 +1718,7 @@
   {
     "id": "chamomile-sensation-100g",
     "slug": "chamomile-sensation-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Chamomile Sensation-100g",
@@ -1764,7 +1764,7 @@
   {
     "id": "barath-yogi-100g",
     "slug": "barath-yogi-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Barath Yogi-100g",
@@ -1810,7 +1810,7 @@
   {
     "id": "moroccan-mint-100g",
     "slug": "moroccan-mint-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Moroccon Mint-100g",
@@ -1856,7 +1856,7 @@
   {
     "id": "magic-moment-100g",
     "slug": "magic-moment-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "elegance-collection",
     
     "name": "Magic Moment -100g",
@@ -1905,7 +1905,7 @@
     {
     "id": "hand-made-black-tea-25g",
     "slug": "hand-made-black-tea-25g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "speciality-collection",
     
     "name": "Hand Made Black Tea-25g",
@@ -1951,7 +1951,7 @@
   {
     "id": "hand-made-green-tea-25g",
     "slug": "hand-made-green-tea-25g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "speciality-collection",
     
     "name": "Hand Made Green Tea-25g",
@@ -1997,7 +1997,7 @@
   {
     "id": "cinnamon-infused-handmade-25g",
     "slug": "cinnamon-infused-handmade-25g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "speciality-collection",
     
     "name": "Hand Made Black Tea infused with Cinnamon oil-25g",
@@ -2043,7 +2043,7 @@
   {
     "id": "matcha-25g",
     "slug": "matcha-25g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "speciality-collection",
     
     "name": "Matcha-25g",
@@ -2089,7 +2089,7 @@
   {
     "id": "blooming-tea-25g",
     "slug": "blooming-tea-25g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "speciality-collection",
     
     "name": "Blooming Tea-25g",
@@ -2135,7 +2135,7 @@
   {
     "id": "yellow-tea-25g",
     "slug": "yellow-tea-25g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "speciality-collection",
     
     "name": "Yellow Tea-25g",
@@ -2184,7 +2184,7 @@
     {
     "id": "silver-tips-caddy-40g",
     "slug": "silver-tips-caddy-40g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "Silver Tips -40g in a caddy",
@@ -2230,7 +2230,7 @@
   {
     "id": "golden-tips-caddy-40g",
     "slug": "golden-tips-caddy-40g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "Golden Tips -40g in a caddy",
@@ -2276,7 +2276,7 @@
   {
     "id": "english-breakfast-bop-100g",
     "slug": "english-breakfast-bop-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "English Breakfast (Grade BOP)-100g in a caddy",
@@ -2322,7 +2322,7 @@
   {
     "id": "earl-grey-bop-100g",
     "slug": "earl-grey-bop-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "Earl Grey Tea (Grade BOP) -100g in a caddy",
@@ -2368,7 +2368,7 @@
   {
     "id": "ff-exsp-100g",
     "slug": "ff-exsp-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "FF Ex Sp -100g in a caddy",
@@ -2414,7 +2414,7 @@
   {
     "id": "bop1-100g",
     "slug": "bop1-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "BOP1-100g in a caddy",
@@ -2460,7 +2460,7 @@
   {
     "id": "gp1-100g",
     "slug": "gp1-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "GP1-100g in a caddy",
@@ -2506,7 +2506,7 @@
   {
     "id": "cinnamon-tea-bop-100g",
     "slug": "cinnamon-tea-bop-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gourmet-collection",
     
     "name": "Cinnamon Tea (Grade BOP) -100g in a caddy",
@@ -2555,7 +2555,7 @@
     {
     "id": "nuwara-eliya-tea-100g",
     "slug": "nuwara-eliya-tea-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "regional-collection",
     
     "name": "Nuwara Eliya Tea -100g",
@@ -2601,7 +2601,7 @@
   {
     "id": "udapussellawa-tea-100g",
     "slug": "udapussellawa-tea-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "regional-collection",
     
     "name": "Udapussellawa Tea -100g",
@@ -2647,7 +2647,7 @@
   {
     "id": "dimbulla-tea-100g",
     "slug": "dimbulla-tea-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "regional-collection",
     
     "name": "Dimbulla Tea-100g",
@@ -2693,7 +2693,7 @@
   {
     "id": "kandy-tea-100g",
     "slug": "kandy-tea-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "regional-collection",
     
     "name": "Kandy Tea- 100g",
@@ -2739,7 +2739,7 @@
   {
     "id": "ruhuna-tea-100g",
     "slug": "ruhuna-tea-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "regional-collection",
     
     "name": "Ruhuna Tea- 100g",
@@ -2785,7 +2785,7 @@
   {
     "id": "uva-tea-100g",
     "slug": "uva-tea-100g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "regional-collection",
     
     "name": "Uva Tea-100g",
@@ -2832,7 +2832,7 @@
     {
     "id": "tea-makers-private-assortment-48tb",
     "slug": "tea-makers-private-assortment-48tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "48 Pyramid Tea Bags (Non Wooven-Square type) Tea Makers Private Tea Assortment",
@@ -2882,7 +2882,7 @@
   {
     "id": "holiday-fantasy-24tb",
     "slug": "holiday-fantasy-24tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "24 Pyramid Tea Bags with Envelops on a Presenter - Holiday Fantasy",
@@ -2932,7 +2932,7 @@
   {
     "id": "30-day-wellness-pack",
     "slug": "30-day-wellness-pack",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "30 Day Five Variant Wellness Tea Pack",
@@ -2982,7 +2982,7 @@
   {
     "id": "advent-calendar-30-day",
     "slug": "advent-calendar-30-day",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "Advent Calender (30 Day)",
@@ -3032,7 +3032,7 @@
   {
     "id": "love-of-my-life-6tb",
     "slug": "love-of-my-life-6tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "Love of my Life",
@@ -3080,7 +3080,7 @@
   {
     "id": "regional-tea-sensation",
     "slug": "regional-tea-sensation",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "Regional Tea Sensation",
@@ -3130,7 +3130,7 @@
   {
     "id": "silver-tips-elephant-gift",
     "slug": "silver-tips-elephant-gift",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "gift-collection",
     
     "name": "Silver Tips & Hand Crafter Elephant",
@@ -3181,8 +3181,8 @@
     {
     "id": "tea-capsules-saffron-10pk",
     "slug": "tea-capsules-saffron-10pk",
-    "mainCategory": "tea-capsules-collection",
-    "subCategory": "capsules",
+    "mainCategory": "tea-collection",
+    "subCategory": "tea-capsules-collection",
     
     "name": "Pack of 10 Capsules -30g",
     "shortDescription": "Premium Ceylon tea in convenient Nespresso-compatible capsules. Rich, full-bodied flavor with instant brewing.",
@@ -3229,8 +3229,8 @@
   {
     "id": "t-cups-12pk",
     "slug": "t-cups-12pk",
-    "mainCategory": "tea-capsules-collection",
-    "subCategory": "capsules",
+    "mainCategory": "tea-collection",
+    "subCategory": "tea-capsules-collection",
     
     "name": "Pack of 12 T-Cup -36g",
     "shortDescription": "Innovative T-Cups for single-serve tea brewing. Premium Ceylon tea in a convenient pod format.",
@@ -3279,7 +3279,7 @@
     {
     "id": "wellness-relaxing-20tb",
     "slug": "wellness-relaxing-20tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "wellness-collection",
     
     "name": "Relaxing- 20 TB Double Chamber Foiled Envelop (30g)- Black Tea",
@@ -3326,7 +3326,7 @@
   {
     "id": "wellness-energy-20tb",
     "slug": "wellness-energy-20tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "wellness-collection",
     
     "name": "Energy -20 TB Double Chamber Foiled Envelop (30g))-Black Tea",
@@ -3373,7 +3373,7 @@
   {
     "id": "wellness-digest-20tb",
     "slug": "wellness-digest-20tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "wellness-collection",
     
     "name": "Digest - 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
@@ -3420,7 +3420,7 @@
   {
     "id": "wellness-immune-20tb",
     "slug": "wellness-immune-20tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "wellness-collection",
     
     "name": "Immune- 20 TB Double Chamber Foiled Envelop (30g))- Green Tea",
@@ -3467,7 +3467,7 @@
   {
     "id": "wellness-slimming-20tb",
     "slug": "wellness-slimming-20tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "wellness-collection",
     
     "name": "Slimming- 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
@@ -3514,7 +3514,7 @@
   {
     "id": "wellness-detox-20tb",
     "slug": "wellness-detox-20tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "wellness-collection",
     
     "name": "Detox - 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
@@ -3563,7 +3563,7 @@
   {
     "id": "heritage-earl-grey-140tb",
     "slug": "heritage-earl-grey-140tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "heritage-collection",
     
     "name": "Earl Grey -Ceylon Sips -140 Pot Tea Bags (406g)",
@@ -3610,7 +3610,7 @@
   {
     "id": "heritage-black-tea-140tb",
     "slug": "heritage-black-tea-140tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "heritage-collection",
     
     "name": "Black tea -Ceylon Sips -140 Pot Tea Bags (406g)",
@@ -3657,7 +3657,7 @@
   {
     "id": "heritage-masala-140tb",
     "slug": "heritage-masala-140tb",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "heritage-collection",
     
     "name": "Masala -Ceylon Sips -140 Pot Tea Bags (406g)",
@@ -3704,7 +3704,7 @@
   {
     "id": "heritage-black-tea-op-500g",
     "slug": "heritage-black-tea-op-500g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "heritage-collection",
     
     "name": "Black Tea -OP (500g)",
@@ -3751,7 +3751,7 @@
   {
     "id": "heritage-masala-pek-500g",
     "slug": "heritage-masala-pek-500g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "heritage-collection",
     
     "name": "Masala Black Tea -PEK (500g)",
@@ -3798,7 +3798,7 @@
   {
     "id": "heritage-green-tea-opa2-500g",
     "slug": "heritage-green-tea-opa2-500g",
-    "mainCategory": "tea",
+    "mainCategory": "tea-collection",
     "subCategory": "heritage-collection",
     
     "name": "Green Tea -OPA2(500g)",

@@ -34,7 +34,7 @@ Redirect 301 /shop_v02/ https://samleyteas.lk/products/
 # OLD CATEGORY SLUGS → CLEAN CATEGORY URLS
 # =========================================
 
-Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea-collection/
+
 Redirect 301 /black-tea-2/ https://samleyteas.lk/products/black-tea-collection/
 Redirect 301 /black-tea-3/ https://samleyteas.lk/products/black-tea-collection/
 Redirect 301 /green-tea/ https://samleyteas.lk/products/green-tea-collection/
@@ -60,7 +60,8 @@ Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/
 Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/organic-dessicated-coconut-collection/
 Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/organic-coconut-oil-collection/
 Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices-collection/
-
+Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea-collection/
+Redirect 301 https://samleyteas.lk/products/iced-tea/ https://samleyteas.lk/products/iced-tea-collection/
 
 # =========================================
 # REDIRECT .html FILES TO CLEAN URLS (BEFORE FILE CHECK!)

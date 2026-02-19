@@ -34,32 +34,32 @@ Redirect 301 /shop_v02/ https://samleyteas.lk/products/
 # OLD CATEGORY SLUGS → CLEAN CATEGORY URLS
 # =========================================
 
-Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea/
-Redirect 301 /black-tea-2/ https://samleyteas.lk/products/black-tea/
-Redirect 301 /black-tea-3/ https://samleyteas.lk/products/black-tea/
-Redirect 301 /green-tea/ https://samleyteas.lk/products/green-tea/
-Redirect 301 /signature-tea/ https://samleyteas.lk/products/signature-tea/
-Redirect 301 /heritage-tea/ https://samleyteas.lk/products/heritage-tea/
-Redirect 301 /regional-tea/ https://samleyteas.lk/products/regional-tea/
-Redirect 301 /elegance-tea/ https://samleyteas.lk/products/elegance-tea/
-Redirect 301 /luxury-tea/ https://samleyteas.lk/products/luxury-tea/
-Redirect 301 /designer-tea/ https://samleyteas.lk/products/designer-tea/
-Redirect 301 /speciality-tea/ https://samleyteas.lk/products/speciality-tea/
-Redirect 301 /wellness-tea/ https://samleyteas.lk/products/wellness-tea/
-Redirect 301 /wellness-everyday-tea/ https://samleyteas.lk/products/wellness-tea/
-Redirect 301 /tea-capsules/ https://samleyteas.lk/products/tea-capsules/
-Redirect 301 /gift-range/ https://samleyteas.lk/products/gift-tea/
-Redirect 301 /gourmet-range/ https://samleyteas.lk/products/gourmet-tea/
-Redirect 301 /organic-herbal-infusions/ https://samleyteas.lk/products/organic-herbal/
-Redirect 301 /organic-herbal-infusions-2/ https://samleyteas.lk/products/organic-herbal/
-Redirect 301 /iced-coffee/ https://samleyteas.lk/products/iced-coffee/
-Redirect 301 /coconut-water-king-coconut-water/ https://samleyteas.lk/products/coconut-water/
-Redirect 301 /organic-coconut-king-coconut/ https://samleyteas.lk/products/coconut-water/
-Redirect 301 /coconut-milk-coconut-cream/ https://samleyteas.lk/products/coconut-milk/
-Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/coconut-flour/
-Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/desiccated-coconut/
-Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/virgin-coconut-oil/
-Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices/
+Redirect 301 /iced-tea/ https://samleyteas.lk/products/iced-tea-collection/
+Redirect 301 /black-tea-2/ https://samleyteas.lk/products/black-tea-collection/
+Redirect 301 /black-tea-3/ https://samleyteas.lk/products/black-tea-collection/
+Redirect 301 /green-tea/ https://samleyteas.lk/products/green-tea-collection/
+Redirect 301 /signature-tea/ https://samleyteas.lk/products/signature-collection/
+Redirect 301 /heritage-tea/ https://samleyteas.lk/products/heritage-collection/
+Redirect 301 /regional-tea/ https://samleyteas.lk/products/regional-collection/
+Redirect 301 /elegance-tea/ https://samleyteas.lk/products/elegance-collection/
+Redirect 301 /luxury-tea/ https://samleyteas.lk/products/luxuary-collection/
+Redirect 301 /designer-tea/ https://samleyteas.lk/products/designer-collection/
+Redirect 301 /speciality-tea/ https://samleyteas.lk/products/speciality-collection/
+Redirect 301 /wellness-tea/ https://samleyteas.lk/products/wellness-collection/
+Redirect 301 /wellness-everyday-tea/ https://samleyteas.lk/products/wellness-collection/
+Redirect 301 /tea-capsules/ https://samleyteas.lk/products/tea-capsules-collection/
+Redirect 301 /gift-range/ https://samleyteas.lk/products/gift-collection/
+Redirect 301 /gourmet-range/ https://samleyteas.lk/products/gourmet-collection/
+Redirect 301 /organic-herbal-infusions/ https://samleyteas.lk/products/organic-teas-herbal-infusions-collection/
+Redirect 301 /organic-herbal-infusions-2/ https://samleyteas.lk/products/organic-teas-herbal-infusions-collection/
+Redirect 301 /iced-coffee/ https://samleyteas.lk/products/coffee-collection/
+Redirect 301 /coconut-water-king-coconut-water/ https://samleyteas.lk/products/organic-coconut-water-collection/
+Redirect 301 /organic-coconut-king-coconut/ https://samleyteas.lk/products/organic-king-coconut-water-collection/
+Redirect 301 /coconut-milk-coconut-cream/ https://samleyteas.lk/products/organic-coconut-milk-collection/
+Redirect 301 /coconut-flour-coconut-milk-powder/ https://samleyteas.lk/products/organic-coconut-flour-collection/
+Redirect 301 /dedicated-coconut/ https://samleyteas.lk/products/organic-dessicated-coconut-collection/
+Redirect 301 /virgin-coconut-oil/ https://samleyteas.lk/products/organic-coconut-oil-collection/
+Redirect 301 /ceylon-organic-spices/ https://samleyteas.lk/products/ceylon-organic-spices-collection/
 
 
 # =========================================

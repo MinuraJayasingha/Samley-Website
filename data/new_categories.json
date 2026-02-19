@@ -1,7 +1,7 @@
 [
     {
-        "id": "tea",
-        "slug": "tea",
+        "id": "tea-collection",
+        "slug": "tea-collection",
         "title": "Tea",
         "Pagetitle": "Discover Our Tea Collection",
         "description": "space",
@@ -70,10 +70,10 @@
                 "description": "space"
             },
             {
-                "id": "capsules",
-                "slug": "capsules",
-                "title": "Capsules",
-                "pagetitle": "Discover Capsules",
+                "id": "tea-capsules-collection",
+                "slug": "tea-capsules-collection",
+                "title": "Tea Capsules",
+                "pagetitle": "Discover Tea Capsules Collection",
                 "description": "space"
             },
             {
@@ -107,22 +107,22 @@
                 "description": "space"
             },
             {
-                "id": "coffeea-collection",
-                "slug": "coffeea-collection",
-                "title": "Coffeea Collection",
-                "pagetitle": "Discover Coffeea Collection",
+                "id": "coffee-collection",
+                "slug": "coffee-collection",
+                "title": "Coffee Collection",
+                "pagetitle": "Discover Collection",
                 "description": "space"
             },
             {
-                "id": "protein-shakes",
-                "slug": "protein-shakes",
+                "id": "protein-shakes-collection",
+                "slug": "protein-shakes-collection",
                 "title": "Protein Shakes",
                 "pagetitle": "Discover Protein Shakes",
                 "description": "space"
             },
             {
-                "id": "isotonics",
-                "slug": "isotonics",
+                "id": "isotonics-collection",
+                "slug": "isotonics-collection",
                 "title": "Isotonics",
                 "pagetitle": "Discover Isotonics",
                 "description": "space"
@@ -137,22 +137,22 @@
         "description": "space",
         "subCategories": [
             {
-                "id": "organic-canisters",
-                "slug": "organic-canisters",
+                "id": "organic-canisters-collection",
+                "slug": "organic-canisters-collection",
                 "title": "Organic Canisters",
                 "pagetitle": "Discover Organic Canisters",
                 "description": "space"
             },
             {
-                "id": "organic-teas-&-herbal-infusions",
-                "slug": "organic-teas-herbal-infusions",
+                "id": "organic-teas-&-herbal-infusions-collection",
+                "slug": "organic-teas-herbal-infusions-collection",
                 "title": "Organic Teas & Herbal Infusions ",
                 "pagetitle": "Discover Organic Teas & Herbal Infusions in Caddies ",
                 "description": "space"
             },
             {
-                "id": "organic-tea-cartons",
-                "slug": "organic-tea-cartons",
+                "id": "organic-tea-cartons-collection",
+                "slug": "organic-tea-cartons-collection",
                 "title": "Organic Tea in Cartons",
                 "pagetitle": "Discover Organic Tea in Cartons",
                 "description": "space"
@@ -160,64 +160,64 @@
         ]
     },
     {
-        "id": "organic-coconut-based",
-        "slug": "organic-coconut-based",
+        "id": "organic-coconut-based-collection",
+        "slug": "organic-coconut-based-collection",
         "title": "Organic Coconut Based",
         "Pagetitle": "Discover Our Organic Coconut Based Collection",
         "description": "space",
         "subCategories": [
             {
-                "id": "organic-coconut-oil",
-                "slug": "organic-coconut-oil",
+                "id": "organic-coconut-oil-collection",
+                "slug": "organic-coconut-oil-collection",
                 "title": "Organic Coconut Oil",
                 "pagetitle": "Discover Organic Coconut Oil",
                 "description": "space"
             },
             {
-                "id": "organic-dessicated-coconut",
-                "slug": "organic-dessicated-coconut",
+                "id": "organic-dessicated-coconut-collection",
+                "slug": "organic-dessicated-coconut-collection",
                 "title": "Organic Dessicated Coconut",
                 "pagetitle": "Discover Organic Dessicated Coconut ",
                 "description": "space"
             },
             {
-                "id": "organic-coconut-milk-powder",
-                "slug": "organic-coconut-milk-powder",
+                "id": "organic-coconut-milk-powder-collection",
+                "slug": "organic-coconut-milk-powder-collection",
                 "title": "Organic Coconut Milk Powder",
                 "pagetitle": "Discover Organic Coconut Milk Powder",
                 "description": "space"
             },
             {
-                "id": "organic-coconut-flour",
-                "slug": "organic-coconut-flour",
+                "id": "organic-coconut-flour-collection",
+                "slug": "organic-coconut-flour-collection",
                 "title": "Organic Coconut Flour",
                 "pagetitle": "Discover Organic Coconut Flour",
                 "description": "space"
             },
             {
-                "id": "organic-coconut-cream",
-                "slug": "organic-coconut-cream",
+                "id": "organic-coconut-cream-collection",
+                "slug": "organic-coconut-cream-collection",
                 "title": "Organic Coconut Cream",
                 "pagetitle": "Discover Organic Coconut Cream",
                 "description": "space"
             },
             {
-                "id": "organic-coconut-milk",
-                "slug": "organic-coconut-milk",
+                "id": "organic-coconut-milk-collection",
+                "slug": "organic-coconut-milk-collection",
                 "title": "Organic Coconut Milk",
                 "pagetitle": "Discover Organic Coconut Milk",
                 "description": "space"
             },
             {
-                "id": "organic-coconut-water",
-                "slug": "organic-coconut-water",
+                "id": "organic-coconut-water-collection",
+                "slug": "organic-coconut-water-collection",
                 "title": "Organic Coconut Water",
                 "pagetitle": "Discover Organic Coconut Water",
                 "description": "space"
             },
             {
-                "id": "organic-king-coconut-water",
-                "slug": "organic-king-coconut-water",
+                "id": "organic-king-coconut-water-collection",
+                "slug": "organic-king-coconut-water-collection",
                 "title": "Organic King Coconut Water",
                 "pagetitle": "Discover Organic King Coconut Water",
                 "description": "space"
@@ -225,15 +225,15 @@
         ]
     },
     {
-        "id": "organic-spices",
-        "slug": "organic-spices",
+        "id": "organic-spices-collection",
+        "slug": "organic-spices-collection",
         "title": "Organic Spices",
         "Pagetitle": "Discover Our Organic Spices Collection",
         "description": "space",
         "subCategories": [
             {
-                "id": "ceylon-organic-spices",
-                "slug": "ceylon-organic-spices",
+                "id": "ceylon-organic-spices-collection",
+                "slug": "ceylon-organic-spices-collection",
                 "title": "Ceylon Organic Spices",
                 "pagetitle": "Discover Ceylon Organic Spices",
                 "description": "space"
@@ -241,15 +241,15 @@
         ]
     },
     {
-        "id": "vanilla",
-        "slug": "vanilla",
+        "id": "vanilla-collection",
+        "slug": "vanilla-collection",
         "title": "Vanilla",
         "Pagetitle": "Discover Our Vanilla Collection",
         "description": "space",
         "subCategories": [
             {
-                "id": "vanilla-beans",
-                "slug": "vanilla-beans",
+                "id": "vanilla-beans-collection",
+                "slug": "vanilla-beans-collection",
                 "title": "Vanilla Beans",
                 "pagetitle": "Discover Vanilla Beans",
                 "description": "space"

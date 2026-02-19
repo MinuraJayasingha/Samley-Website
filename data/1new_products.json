@@ -3181,7 +3181,7 @@
     {
     "id": "tea-capsules-saffron-10pk",
     "slug": "tea-capsules-saffron-10pk",
-    "mainCategory": "tea",
+    "mainCategory": "tea-capsules-collection",
     "subCategory": "capsules",
     
     "name": "Pack of 10 Capsules -30g",
@@ -3229,7 +3229,7 @@
   {
     "id": "t-cups-12pk",
     "slug": "t-cups-12pk",
-    "mainCategory": "tea",
+    "mainCategory": "tea-capsules-collection",
     "subCategory": "capsules",
     
     "name": "Pack of 12 T-Cup -36g",
@@ -4180,7 +4180,7 @@
     "id": "coffee-caramel-250ml",
     "slug": "coffee-caramel-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "coffeea-collection",
+    "subCategory": "coffee-collection",
     
     "name": "Coffee (Caramel) -250ml",
     "shortDescription": "Smooth iced coffee with rich caramel flavor. Made with coconut milk for creamy indulgence.",
@@ -4226,7 +4226,7 @@
     "id": "coffee-french-vanilla-250ml",
     "slug": "coffee-french-vanilla-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "coffeea-collection",
+    "subCategory": "coffee-collection",
     
     "name": "Coffee (French Vanilla) -250ml",
     "shortDescription": "Creamy iced coffee with aromatic French vanilla. Smooth, sweet, and utterly satisfying.",
@@ -4272,7 +4272,7 @@
     "id": "coffee-chocolate-250ml",
     "slug": "coffee-chocolate-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "coffeea-collection",
+    "subCategory": "coffee-collection",
     
     "name": "Coffee (Chocolate) -250ml",
     "shortDescription": "Rich mocha-style iced coffee with real cocoa flavor. Decadent, energizing, and dairy-free.",
@@ -4318,7 +4318,7 @@
     "id": "coffee-lemon-black-250ml",
     "slug": "coffee-lemon-black-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "coffeea-collection",
+    "subCategory": "coffee-collection",
     
     "name": "Coffee (Lemon Black)-250ml",
     "shortDescription": "Unique lemon-infused black coffee. Bold, citrusy, and refreshingly different.",
@@ -4364,7 +4364,7 @@
     "id": "coffee-hazelnut-250ml",
     "slug": "coffee-hazelnut-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "coffeea-collection",
+    "subCategory": "coffee-collection",
     
     "name": "Coffee (Hazelnut)-250ml",
     "shortDescription": "Smooth iced coffee with nutty hazelnut flavor. Rich, aromatic, and utterly satisfying.",
@@ -4410,7 +4410,7 @@
     "id": "coffee-latte-250ml",
     "slug": "coffee-latte-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "coffeea-collection",
+    "subCategory": "coffee-collection",
     
     "name": "Coffee (Latte)-250ml",
     "shortDescription": "Classic latte with creamy coconut milk. Smooth, balanced, and perfectly comforting.",
@@ -4458,7 +4458,7 @@
     "id": "protein-creatine-strawberry-250ml",
     "slug": "protein-creatine-strawberry-250ml",
     "mainCategory": "beverage-collection",
-     "subCategory": "protein-shakes",
+     "subCategory": "protein-shakes-collection",
     
     "name": "Protein & Creatine (Strawberry) -250ml",
     "shortDescription": "High-performance protein shake with creatine. Strawberry flavor for post-workout recovery.",
@@ -4505,7 +4505,7 @@
     "id": "protein-creatine-chocolate-250ml",
     "slug": "protein-creatine-chocolate-250ml",
     "mainCategory": "beverage-collection",
-     "subCategory": "protein-shakes",
+     "subCategory": "protein-shakes-collection",
     
     "name": "Protein & Creatine (Chocolate) -250ml",
     "shortDescription": "High-performance protein shake with creatine. Rich chocolate flavor for muscle recovery.",
@@ -4552,7 +4552,7 @@
     "id": "protein-creatine-vanilla-250ml",
     "slug": "protein-creatine-vanilla-250ml",
     "mainCategory": "beverage-collection",
-     "subCategory": "protein-shakes",
+     "subCategory": "protein-shakes-collection",
     
     "name": "Protein & Creatine (Vanilla) -250ml",
     "shortDescription": "High-performance protein shake with creatine. Smooth vanilla flavor for daily protein needs.",
@@ -4600,7 +4600,7 @@
     "id": "isotonic-honey-lavender-250ml",
     "slug": "isotonic-honey-lavender-250ml",
     "mainCategory": "beverage-collection",
-    "subCategory": "isotonics",
+    "subCategory": "isotonics-collection",
     
     "name": "Isotonic-(Honey Lavender) 250ml",
     "shortDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
@@ -4651,7 +4651,7 @@
     "id": "organic-canister-blue-pea-moringa",
     "slug": "organic-canister-blue-pea-moringa",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-canisters",
+    "subCategory": "organic-canisters-collection",
     
     "name": "30 Pyramid Tea Bags in a two tier Canister (Blue Pea & Moringa) -60g",
     "shortDescription": "Refreshing organic herbal blend with vibrant blue pea flowers and nutrient-rich moringa in a beautiful two-tier canister.",
@@ -4700,7 +4700,7 @@
     "id": "organic-canister-chamomile-valerian",
     "slug": "organic-canister-chamomile-valerian",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-canisters",
+    "subCategory": "organic-canisters-collection",
     
     "name": "30 Pyramid Tea Bags in a two tier Canister (Chamomile & Valerian) -60g",
     "shortDescription": "Calming organic herbal blend with chamomile and valerian root for relaxation and restful sleep.",
@@ -4749,7 +4749,7 @@
     "id": "organic-canister-elderberry-ginger",
     "slug": "organic-canister-elderberry-ginger",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-canisters",
+    "subCategory": "organic-canisters-collection",
     
     "name": "30 Pyramid Tea Bags in a two tier Canister (Elderberry & Ginger root) -60g",
     "shortDescription": "Immune-supporting organic herbal blend with antioxidant-rich elderberry and warming ginger root.",
@@ -4798,7 +4798,7 @@
     "id": "organic-canister-ginger-licorice",
     "slug": "organic-canister-ginger-licorice",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-canisters",
+    "subCategory": "organic-canisters-collection",
     
     "name": "30 Pyramid Tea Bags in a two tier Canister (Ginger & Licorice) -60g",
     "shortDescription": "Digestive-supporting organic herbal blend with spicy ginger and sweet licorice root.",
@@ -4847,7 +4847,7 @@
     "id": "organic-canister-peppermint-dandelion",
     "slug": "organic-canister-peppermint-dandelion",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-canisters",
+    "subCategory": "organic-canisters-collection",
     
     "name": "30 Pyramid Tea Bags in a two tier Canister (Peppermint & Dandelion) -60g",
     "shortDescription": "Refreshing organic herbal blend with cooling peppermint and detoxifying dandelion root.",
@@ -4896,7 +4896,7 @@
     "id": "organic-canister-hibiscus-lavender",
     "slug": "organic-canister-hibiscus-lavender",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-canisters",
+    "subCategory": "organic-canisters-collection",
     
     "name": "30 Pyramid Tea Bags in a two tier Canister (Hibiscus & Lavender) -60g",
     "shortDescription": "Floral and tangy organic herbal blend with vibrant hibiscus and calming lavender.",
@@ -4946,7 +4946,7 @@
     "id": "organic-caddy-mango-delight",
     "slug": "organic-caddy-mango-delight",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Mango Delight -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Fruity organic green tea blend with tropical mango flavor in a keepsake caddy.",
@@ -4994,7 +4994,7 @@
     "id": "organic-caddy-honey-lavender",
     "slug": "organic-caddy-honey-lavender",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Honey Lavender -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Soothing organic green tea blend with sweet honey and calming lavender in a keepsake caddy.",
@@ -5042,7 +5042,7 @@
     "id": "organic-caddy-french-vanilla",
     "slug": "organic-caddy-french-vanilla",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "French Vanilla -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Creamy organic black tea blend with rich French vanilla flavor in a keepsake caddy.",
@@ -5090,7 +5090,7 @@
     "id": "organic-caddy-berry-sensation",
     "slug": "organic-caddy-berry-sensation",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Berry Sensation -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Fruity organic black tea blend with mixed berries in a keepsake caddy.",
@@ -5138,7 +5138,7 @@
     "id": "organic-caddy-herbal-punch",
     "slug": "organic-caddy-herbal-punch",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Herbal Punch -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Bold organic herbal infusion with fruity and spicy notes in a keepsake caddy.",
@@ -5186,7 +5186,7 @@
     "id": "organic-caddy-rose-blossom",
     "slug": "organic-caddy-rose-blossom",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Rose Blossom -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Delicate organic black tea with aromatic rose petals in a keepsake caddy.",
@@ -5234,7 +5234,7 @@
     "id": "organic-caddy-organic-black-tea",
     "slug": "organic-caddy-organic-black-tea",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Organic Black Tea -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Pure organic Ceylon black tea in a keepsake caddy. Classic, full-bodied, and certified organic.",
@@ -5282,7 +5282,7 @@
     "id": "organic-caddy-organic-green-tea",
     "slug": "organic-caddy-organic-green-tea",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-teas-herbal-infusions",
+    "subCategory": "organic-teas-herbal-infusions-collection",
     
     "name": "Organic Green Tea -50g (20 Pyramid Tea Bags)",
     "shortDescription": "Pure organic Ceylon green tea in a keepsake caddy. Fresh, light, and certified organic.",
@@ -5333,7 +5333,7 @@
     "id": "organic-carton-soursop-magic",
     "slug": "organic-carton-soursop-magic",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-tea-cartons",
+    "subCategory": "organic-tea-cartons-collection",
     
     "name": "Soursop Magic - 20 Pyramid Tea Bags",
     "shortDescription": "Exotic organic green tea blend with soursop flavor. Tropical, refreshing, and uniquely delicious.",
@@ -5381,7 +5381,7 @@
     "id": "organic-carton-chocolate-delight",
     "slug": "organic-carton-chocolate-delight",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-tea-cartons",
+    "subCategory": "organic-tea-cartons-collection",
     
     "name": "Chocolate Delight - 20 Pyramid Tea Bags",
     "shortDescription": "Decadent organic black tea blend with rich chocolate flavor. Indulgent yet guilt-free.",
@@ -5429,7 +5429,7 @@
     "id": "organic-carton-apple-sensation",
     "slug": "organic-carton-apple-sensation",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-tea-cartons",
+    "subCategory": "organic-tea-cartons-collection",
     
     "name": "Apple Sensation - 20 Pyramid Tea Bags",
     "shortDescription": "Crisp organic green tea blend with fresh apple flavor. Light, refreshing, and orchard-fresh.",
@@ -5477,7 +5477,7 @@
     "id": "organic-carton-cherry-blossom",
     "slug": "organic-carton-cherry-blossom",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-tea-cartons",
+    "subCategory": "organic-tea-cartons-collection",
     
     "name": "Cherry Blossom - 20 Pyramid Tea Bags",
     "shortDescription": "Delicate organic black tea with cherry and floral notes. Romantic, fruity, and elegant.",
@@ -5525,7 +5525,7 @@
     "id": "organic-carton-spicy-raspberry",
     "slug": "organic-carton-spicy-raspberry",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-tea-cartons",
+    "subCategory": "organic-tea-cartons-collection",
     
     "name": "Spicy Raspberry - 20 Pyramid Tea Bags",
     "shortDescription": "Bold organic green tea with raspberry and warming spices. Sweet, spicy, and invigorating.",
@@ -5573,7 +5573,7 @@
     "id": "organic-carton-spicy-orange",
     "slug": "organic-carton-spicy-orange",
     "mainCategory": "organic-collection",
-    "subCategory": "organic-tea-cartons",
+    "subCategory": "organic-tea-cartons-collection",
     
     "name": "Spicy Orange - 20 Pyramid Tea Bags",
     "shortDescription": "Zesty organic green tea with orange and warming spices. Citrusy, spicy, and uplifting.",
@@ -5622,8 +5622,8 @@
   {
     "id": "organic-virgin-coconut-oil-250ml",
     "slug": "organic-virgin-coconut-oil-250ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-oil",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-oil-collection",
     
     "name": "Organic Virgin Coconut Oil -250ml",
     "shortDescription": "Pure, cold-pressed organic virgin coconut oil for cooking, baking, and skincare. Rich in natural nutrients.",
@@ -5669,8 +5669,8 @@
   {
     "id": "organic-virgin-coconut-oil-500ml",
     "slug": "organic-virgin-coconut-oil-500ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-oil",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-oil-collection",
     
     "name": "Organic Virgin Coconut Oil -500ml",
     "shortDescription": "Pure, cold-pressed organic virgin coconut oil in larger size. Perfect for regular use in cooking and self-care.",
@@ -5718,8 +5718,8 @@
   {
     "id": "organic-desiccated-coconut-fine-500g",
     "slug": "organic-desiccated-coconut-fine-500g",
-    "mainCategory": "organic-coconut-based ",
-    "subCategory": "organic-dessicated-coconut",
+    "mainCategory": "organic-coconut-based-collection ",
+    "subCategory": "organic-dessicated-coconut-collection",
     
     "name": "Organic Dessicated Coconut (Fine) -500g",
     "shortDescription": "Finely shredded organic desiccated coconut for baking, cooking, and garnishing. Pure and naturally sweet.",
@@ -5765,8 +5765,8 @@
   {
     "id": "organic-desiccated-coconut-medium-500g",
     "slug": "organic-desiccated-coconut-medium-500g",
-    "mainCategory": "organic-coconut-based ",
-    "subCategory": "organic-dessicated-coconut",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-dessicated-coconut-collection",
     
     "name": "Organic Dessicated Coconut (Medium) -500g",
     "shortDescription": "Medium-shred organic desiccated coconut for traditional recipes, garnishing, and snacking.",
@@ -5814,8 +5814,8 @@
   {
     "id": "organic-coconut-milk-powder-800g",
     "slug": "organic-coconut-milk-powder-800g",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-milk-powder",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-milk-powder-collection",
     
     "name": "Organic Coconut Milk Powder(800g)",
     "shortDescription": "Creamy organic coconut milk in convenient powder form. Just add water for instant coconut milk.",
@@ -5863,8 +5863,8 @@
     {
     "id": "organic-coconut-flour-500g",
     "slug": "organic-coconut-flour-500g",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-flour",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-flour-collection",
     
     "name": "Organic Coconut Flour (500g)",
     "shortDescription": "High-fiber, gluten-free organic coconut flour for healthy baking and cooking.",
@@ -5912,8 +5912,8 @@
   {
     "id": "organic-coconut-cream-22-400ml",
     "slug": "organic-coconut-cream-22-400ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-cream",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-cream-collection",
     
     "name": "Organic Coconut Cream-22%-400ml",
     "shortDescription": "Rich and creamy organic coconut cream with 22% fat content. Perfect for luxurious curries and desserts.",
@@ -5961,8 +5961,8 @@
     {
     "id": "organic-coconut-milk-5-400ml",
     "slug": "organic-coconut-milk-5-400ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-milk",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-milk-collection",
     
     "name": "Organic Coconut Milk-5%-400ml",
     "shortDescription": "Light organic coconut milk with 5% fat content. Perfect for everyday cooking and lighter dishes.",
@@ -6008,8 +6008,8 @@
   {
     "id": "organic-coconut-milk-12-400ml",
     "slug": "organic-coconut-milk-12-400ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-milk",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-milk-collection",
     
     "name": "Organic Coconut Milk-12%-400ml",
     "shortDescription": "Medium-rich organic coconut milk with 12% fat content. The all-purpose choice for most recipes.",
@@ -6055,8 +6055,8 @@
   {
     "id": "organic-coconut-milk-17-400ml",
     "slug": "organic-coconut-milk-17-400ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-milk",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-milk-collection",
     
     "name": "Organic Coconut Milk-17%-400ml",
     "shortDescription": "Rich organic coconut milk with 17% fat content. For recipes needing extra creaminess.",
@@ -6103,8 +6103,8 @@
   {
     "id": "organic-coconut-water-bottle-350ml",
     "slug": "organic-coconut-water-bottle-350ml",
-    "mainCategory": "organic-coconut-based",
-    "subCategory": "organic-coconut-water",
+    "mainCategory": "organic-coconut-based-collection",
+    "subCategory": "organic-coconut-water-collection",
     
     "name": "Organic Coconut Water in a bottle -350ml",
     "shortDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
@@ -6151,8 +6151,8 @@
   {
     "id": "organic-king-coconut-water-bottle-350ml",
     "slug": "organic-king-coconut-water-bottle-350ml",
-    "mainCategory": "organic-king-coconut-water",
-    "subCategory": "organic-king-coconut-water",
+    "mainCategory": "organic-king-coconut-water-collection",
+    "subCategory": "organic-king-coconut-water-collection",
     
     "name": "Organic King Coconut Water in a bottle -350ml",
     "shortDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
@@ -6202,8 +6202,8 @@
   {
     "id": "organic-black-pepper-whole-50g",
     "slug": "organic-black-pepper-whole-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Black Pepper Whole -50g in a Kraft Pouch",
     "shortDescription": "Premium organic whole black pepper from Ceylon. Bold, aromatic, and freshly ground for maximum flavor.",
@@ -6252,8 +6252,8 @@
   {
     "id": "organic-black-pepper-powder-50g",
     "slug": "organic-black-pepper-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Black Pepper Powder -50g in a Kraft Pouch",
     "shortDescription": "Fine organic black pepper powder for convenient everyday use. Freshly ground from premium Ceylon peppercorns.",
@@ -6302,8 +6302,8 @@
   {
     "id": "organic-white-pepper-whole-50g",
     "slug": "organic-white-pepper-whole-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic White Pepper Whole -50g in a Kraft Pouch",
     "shortDescription": "Premium organic whole white pepper with milder, earthier flavor. Perfect for light-colored dishes.",
@@ -6352,8 +6352,8 @@
   {
     "id": "organic-white-pepper-powder-50g",
     "slug": "organic-white-pepper-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic White Pepper Powder -50g in a Kraft Pouch",
     "shortDescription": "Fine organic white pepper powder for convenient use in light-colored dishes and Asian cuisine.",
@@ -6402,8 +6402,8 @@
   {
     "id": "organic-cardamom-whole-50g",
     "slug": "organic-cardamom-whole-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Cardamom Whole -50g in a Kraft Pouch",
     "shortDescription": "Aromatic organic green cardamom pods. The queen of spices for sweet and savory dishes.",
@@ -6452,8 +6452,8 @@
   {
     "id": "organic-cardamom-powder-50g",
     "slug": "organic-cardamom-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Cardamom Powder -50g in a Kraft Pouch",
     "shortDescription": "Fine organic cardamom powder for convenient use in baking, chai, and spice blends.",
@@ -6502,8 +6502,8 @@
   {
     "id": "organic-cinnamon-powder-50g",
     "slug": "organic-cinnamon-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Cinnamon Powder -50g in a Kraft Pouch",
     "shortDescription": "Sweet, delicate organic Ceylon cinnamon powder. True cinnamon with health benefits.",
@@ -6552,8 +6552,8 @@
   {
     "id": "organic-cinnamon-whole-c4-50g",
     "slug": "organic-cinnamon-whole-c4-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Cinnamon Whole C4 -50g in a Kraft Pouch",
     "shortDescription": "Premium organic whole Ceylon cinnamon quills (C4 grade). Perfect for infusing and brewing.",
@@ -6602,8 +6602,8 @@
   {
     "id": "organic-clove-whole-50g",
     "slug": "organic-clove-whole-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Clove Whole -50g in a Kraft Pouch",
     "shortDescription": "Intensely aromatic organic whole cloves. Essential for spice blends, mulled drinks, and savory cooking.",
@@ -6652,8 +6652,8 @@
   {
     "id": "organic-clove-powder-50g",
     "slug": "organic-clove-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Clove Powder -50g in a Kraft Pouch",
     "shortDescription": "Fine organic clove powder for convenient use in baking, spice blends, and savory dishes.",
@@ -6702,8 +6702,8 @@
   {
     "id": "organic-ginger-powder-50g",
     "slug": "organic-ginger-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Ginger Powder -50g in a Kraft Pouch",
     "shortDescription": "Warm, spicy organic ginger powder. Essential for baking, curries, and wellness teas.",
@@ -6752,8 +6752,8 @@
   {
     "id": "organic-turmeric-powder-50g",
     "slug": "organic-turmeric-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Turmeric Powder -50g in a Kraft Pouch",
     "shortDescription": "Vibrant organic turmeric powder with high curcumin content. Earthy, warm, and wonderfully golden.",
@@ -6803,8 +6803,8 @@
   {
     "id": "organic-red-chili-powder-50g",
     "slug": "organic-red-chili-powder-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Red Chili Powder -50g in a Kraft Pouch",
     "shortDescription": "Vibrant organic red chili powder with balanced heat. Essential for adding color and spice to dishes.",
@@ -6853,8 +6853,8 @@
   {
     "id": "organic-coriander-whole-50g",
     "slug": "organic-coriander-whole-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Coriander Whole -50g in a Kraft Pouch",
     "shortDescription": "Aromatic organic whole coriander seeds with citrusy, slightly sweet flavor. Essential for curry powders.",
@@ -6903,8 +6903,8 @@
   {
     "id": "organic-nutmeg-whole-50g",
     "slug": "organic-nutmeg-whole-50g",
-    "mainCategory": "organic-spices",
-    "subCategory": "ceylon-organic-spices",
+    "mainCategory": "organic-spices-collection",
+    "subCategory": "ceylon-organic-spices-collection",
     
     "name": "Organic Nutmeg Whole -50g in a Kraft Pouch",
     "shortDescription": "Aromatic organic whole nutmeg. Grate fresh for superior flavor in baked goods and savory dishes.",
@@ -6954,8 +6954,8 @@
     {
     "id": "vanilla-beans-tube-6g",
     "slug": "vanilla-beans-tube-6g",
-    "mainCategory": "vanilla",
-    "subCategory": "vanilla-beans",
+    "mainCategory": "vanilla-collection",
+    "subCategory": "vanilla-beans-collection",
     
     "name": "Vanilla Beans in a Tube -6g",
     "shortDescription": "Premium organic vanilla beans in a protective tube. Rich, creamy, intensely aromatic.",

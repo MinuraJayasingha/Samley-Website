@@ -1557,52 +1557,54 @@
 
 
 
-    {
-    "id": "lovers-night-100g",
-    "slug": "lovers-night-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "elegance-collection",
-    
-    "name": "Lover's Night-100g",
-    "shortDescription": "A rich and romantic tea blend. Deep aroma with a smooth finish.",
-    "tags": ["Romantic", "Rich", "Smooth"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Lover Night.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Aromatic Blend",
-    "teaVariety": "Specialty Tea Blend",
-    "unitCount": "100g",
+{
+  "id": "lovers-night-100g",
+  "slug": "lovers-night-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "elegance-collection",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Low",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "N/A",
-    
-    "price": 8.99,
-    "currency": "USD",
-    "stock": 35,
-    "rating": 4.8,
-    "reviewCount": 47,
-    
-    "seoTitle": "Lover's Night - 100g - Elegance Tea Collection",
-    "seoDescription": "A rich and aromatic tea blend designed for relaxing evening moments.",
-    
-    "longDescription": "Lover's Night Tea is a deep and aromatic blend crafted for evening moments. It offers a smooth, rich taste with a calming feel. Best enjoyed during quiet nights and special moments.",
-    
-    "features": [
-      "Rich and aromatic",
-      "Smooth finish",
-      "Perfect for evening relaxation",
-      "Premium Ceylon tea"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Elegance Teas/Lover Night.png"
-    ]
-  },
+  "name": "Lover's Night-100g",
+  "shortDescription": "A rich and romantic tea blend. Deep aroma with a smooth finish.",
+  "tags": ["Romantic", "Rich", "Smooth"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Lover Night.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Red Rose",
+    "Rose Flavouring"
+  ],
+  "liquor": ["Bright coppery amber with excellent clarity"],
+  "aroma": ["Soft, expressive rose fragrance", "Layered over warm black tea notes"],
+  "flavourProfile": ["Medium body", "Balanced briskness", "Pronounced floral character"],
+  "finish": ["Lingering floral sweetness", "Clean, elegant exit"],
+
+  "price": 8.99,
+  "currency": "USD",
+  "stock": 35,
+  "rating": 4.8,
+  "reviewCount": 47,
+
+  "seoTitle": "Lover's Night - 100g - Elegance Tea Collection",
+  "seoDescription": "A rich and aromatic tea blend designed for relaxing evening moments.",
+
+  "longDescription": "A sensual and romantic experience is created by blending black tea with the addition of red rose petals and the infusion of rose flavours.",
+
+  "features": [
+    "Rich and aromatic",
+    "Smooth finish",
+    "Perfect for evening relaxation",
+    "Premium Ceylon tea"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Elegance Teas/Lover Night.png"
+  ]
+},
   {
     "id": "green-sensation-100g",
     "slug": "green-sensation-100g",
@@ -1649,236 +1651,257 @@
       "assets/images/products/Teas/Elegance Teas/Green Fantasy.png"
     ]
   },
-  {
-    "id": "blue-lady-100g",
-    "slug": "blue-lady-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "elegance-collection",
-    
-    "name": "Blue Lady-100g",
-    "shortDescription": "Elegant black tea with a fruity aroma. Smooth, colorful, and refined.",
-    "tags": ["Fruity", "Aromatic", "Elegant"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Blue Lady.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Fruity Blend",
-    "teaVariety": "Black Tea Blend",
-    "unitCount": "100g",
+{
+  "id": "blue-lady-100g",
+  "slug": "blue-lady-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "elegance-collection",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Low",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "Natural Fruit Flavoring",
-    
-    "price": 8.49,
-    "currency": "USD",
-    "stock": 32,
-    "rating": 4.8,
-    "reviewCount": 44,
-    
-    "seoTitle": "Blue Lady - 100g - Elegance Tea Collection",
-    "seoDescription": "Elegant black tea blend with fruity notes for a smooth and refined tea experience.",
-    
-    "longDescription": "Blue Lady Tea is a refined black tea blend with light fruity notes. It offers a smooth taste with a pleasant aroma and bright color. Perfect for elegant tea moments and special occasions.",
-    
-    "features": [
-      "Fruity and aromatic",
-      "Smooth and refined",
-      "Bright liquor",
-      "Perfect for special occasions"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Elegance Teas/Blue Lady.png"
-    ]
-  },
-  {
-    "id": "chamomile-sensation-100g",
-    "slug": "chamomile-sensation-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "elegance-collection",
-    
-    "name": "Chamomile Sensation-100g",
-    "shortDescription": "Gentle herbal tea with calming chamomile. Soft, soothing, and relaxing.",
-    "tags": ["Calming", "Herbal", "Soothing"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Chamomile",
-    "teaVariety": "Herbal Tea",
-    "unitCount": "100g",
+  "name": "Blue Lady-100g",
+  "shortDescription": "Elegant black tea with a fruity aroma. Smooth, colorful, and refined.",
+  "tags": ["Fruity", "Aromatic", "Elegant"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Blue Lady.png",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Low",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "Natural Chamomile",
-    
-    "price": 7.49,
-    "currency": "USD",
-    "stock": 36,
-    "rating": 4.8,
-    "reviewCount": 52,
-    
-    "seoTitle": "Chamomile Sensation - 100g - Elegance Tea Collection",
-    "seoDescription": "Soothing chamomile herbal tea designed for calm and relaxing moments.",
-    
-    "longDescription": "Chamomile Sensation Tea is a gentle herbal blend made with chamomile flowers. It offers a soft taste that helps you relax and unwind. Ideal for evening or bedtime tea moments.",
-    
-    "features": [
-      "Calming chamomile",
-      "Soft and soothing",
-      "Caffeine-free",
-      "Perfect for bedtime"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png"
-    ]
-  },
-  {
-    "id": "barath-yogi-100g",
-    "slug": "barath-yogi-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "elegance-collection",
-    
-    "name": "Barath Yogi-100g",
-    "shortDescription": "Traditional spiced tea blend with aromatic Indian-inspired flavors.",
-    "tags": ["Spicy", "Aromatic", "Traditional"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Barath Yogi.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Spiced Blend",
-    "teaVariety": "Spiced Black Tea",
-    "unitCount": "100g",
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Blue Cornflower",
+    "Earl Grey Flavouring"
+  ],
+  "liquor": ["Bright reddish amber with excellent clarity"],
+  "aroma": ["Distinct bergamot citrus", "Layered over smooth black tea notes"],
+  "flavourProfile": ["Medium body, structured, lightly brisk", "Lively citrus brightness"],
+  "finish": ["Crisp citrus lingers", "Refined, aromatic close"],
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Low",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "Natural Spices (Cardamom, Cinnamon, Ginger, Clove)",
-    
-    "price": 8.99,
-    "currency": "USD",
-    "stock": 28,
-    "rating": 4.7,
-    "reviewCount": 36,
-    
-    "seoTitle": "Barath Yogi - 100g - Elegance Tea Collection",
-    "seoDescription": "Traditional spiced tea blend with aromatic Indian-inspired flavors for a warming experience.",
-    
-    "longDescription": "Barath Yogi Tea is a traditional spiced blend combining premium Ceylon black tea with aromatic Indian-inspired spices. It delivers a warm, full-bodied flavor with rich spice notes. Perfect for those who enjoy authentic chai experiences.",
-    
-    "features": [
-      "Traditional spice blend",
-      "Warm and aromatic",
-      "Full-bodied flavor",
-      "Inspired by Indian chai"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Elegance Teas/Barath Yogi.png"
-    ]
-  },
-  {
-    "id": "moroccan-mint-100g",
-    "slug": "moroccan-mint-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "elegance-collection",
-    
-    "name": "Moroccon Mint-100g",
-    "shortDescription": "Refreshing green tea blended with cool mint. Clean, uplifting, and soothing.",
-    "tags": ["Minty", "Cooling", "Refreshing"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Moroccan Mint.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Mint",
-    "teaVariety": "Green Tea Blend",
-    "unitCount": "100g",
+  "price": 8.49,
+  "currency": "USD",
+  "stock": 32,
+  "rating": 4.8,
+  "reviewCount": 44,
 
-    "format": "Loose Leaf",
-    "grade": "GP1",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "Natural Mint Flavoring",
-    
-    "price": 7.99,
-    "currency": "USD",
-    "stock": 42,
-    "rating": 4.8,
-    "reviewCount": 58,
-    
-    "seoTitle": "Moroccan Mint - 100g - Elegance Tea Collection",
-    "seoDescription": "Refreshing green tea blended with mint for a clean and cooling tea experience.",
-    
-    "longDescription": "Moroccan Mint Tea is a refreshing blend of green tea and natural mint. It offers a cool, clean taste with a smooth finish. Perfect after meals or during warm days.",
-    
-    "features": [
-      "Cooling mint flavor",
-      "Smooth green tea",
-      "Refreshing and clean",
-      "Perfect after meals"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Elegance Teas/Moroccan Mint.png"
-    ]
-  },
-  {
-    "id": "magic-moment-100g",
-    "slug": "magic-moment-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "elegance-collection",
-    
-    "name": "Magic Moment -100g",
-    "shortDescription": "A smooth and aromatic specialty tea blend. Light, calming, and elegant.",
-    "tags": ["Aromatic", "Smooth", "Refreshing"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Magic Moment.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Aromatic Blend",
-    "teaVariety": "Specialty Tea Blend",
-    "unitCount": "100g",
+  "seoTitle": "Blue Lady - 100g - Elegance Tea Collection",
+  "seoDescription": "Elegant black tea blend with fruity notes for a smooth and refined tea experience.",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Low",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "Natural Strawberry & Rose Flavoring",
-    
-    "price": 8.49,
-    "currency": "USD",
-    "stock": 39,
-    "rating": 4.8,
-    "reviewCount": 49,
-    
-    "seoTitle": "Magic Moment - 100g - Elegance Tea Collection",
-    "seoDescription": "A smooth and aromatic specialty tea blend for calm and relaxing moments.",
-    
-    "longDescription": "Magic Moment Tea is a carefully crafted blend with strawberry and rose notes. It delivers a smooth taste with a pleasant floral aroma that feels light and comforting. Perfect for quiet moments and relaxation.",
-    
-    "features": [
-      "Floral strawberry & rose notes",
-      "Smooth and aromatic",
-      "Light and calming",
-      "Perfect for relaxation"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Elegance Teas/Magic Moment.png"
-    ]
-  },
+  "longDescription": "Masterfully blended with vibrant blue cornflowers, the exotic bergamot infuses this tea with a distinct citrus flavour, resulting in a rejuvenating cup of brew.",
+
+  "features": [
+    "Fruity and aromatic",
+    "Smooth and refined",
+    "Bright liquor",
+    "Perfect for special occasions"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Elegance Teas/Blue Lady.png"
+  ]
+},
+{
+  "id": "chamomile-sensation-100g",
+  "slug": "chamomile-sensation-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "elegance-collection",
+
+  "name": "Chamomile Sensation-100g",
+  "shortDescription": "Gentle herbal tea with calming chamomile. Soft, soothing, and relaxing.",
+  "tags": ["Calming", "Herbal", "Soothing"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png",
+
+  "format": "Loose Leaf",
+  "grade": "Herbal",
+  "region": "N/A",
+  "brewingInstructions": "100C & 5min",
+  "ingredients": [
+    "Chamomile",
+    "Liquorice",
+    "Honey Flavouring"
+  ],
+  "liquor": ["Clear golden yellow"],
+  "aroma": ["Soft floral bouquet", "Mild natural sweetness"],
+  "flavourProfile": ["Light-bodied", "Smooth and naturally sweet"],
+  "finish": ["Clean, mellow, lightly sweet and soothing"],
+
+  "price": 7.49,
+  "currency": "USD",
+  "stock": 36,
+  "rating": 4.8,
+  "reviewCount": 52,
+
+  "seoTitle": "Chamomile Sensation - 100g - Elegance Tea Collection",
+  "seoDescription": "Soothing chamomile herbal tea designed for calm and relaxing moments.",
+
+  "longDescription": "A subtle infusion of chamomile complemented by a hint of natural bee honey creates a delicate flavour, perfect for a soothing late-night tea with calming properties.",
+
+  "features": [
+    "Calming chamomile",
+    "Soft and soothing",
+    "Caffeine-free",
+    "Perfect for bedtime"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Elegance Teas/Chamomile Sensation.png"
+  ]
+},
+{
+  "id": "barath-yogi-100g",
+  "slug": "barath-yogi-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "elegance-collection",
+
+  "name": "Barath Yogi-100g",
+  "shortDescription": "Traditional spiced tea blend with aromatic Indian-inspired flavors.",
+  "tags": ["Spicy", "Aromatic", "Traditional"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Barath Yogi.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Mellow Flowers",
+    "Red Rose Petals",
+    "Spearmint Flavour",
+    "Rose Flavouring",
+    "Strawberry Flavouring",
+    "Vanilla Flavouring"
+  ],
+  "liquor": ["Bright coppery amber with good clarity"],
+  "aroma": ["Elegant rose florals", "Soft vanilla cream", "Hint of fresh mint"],
+  "flavourProfile": ["Silky, rounded, lightly brisk medium body", "Smooth structure"],
+  "finish": ["Lingering floral sweetness", "Cool, clean mint finish"],
+
+  "price": 8.99,
+  "currency": "USD",
+  "stock": 28,
+  "rating": 4.7,
+  "reviewCount": 36,
+
+  "seoTitle": "Barath Yogi - 100g - Elegance Tea Collection",
+  "seoDescription": "Traditional spiced tea blend with aromatic Indian-inspired flavors for a warming experience.",
+
+  "longDescription": "Delicate floral tones meet the vibrant essence of red rose petals, complemented by the invigorating hints of spearmint. This intricate blend seamlessly weaves together the flavours of rose, vanilla, and strawberry, enhancing the black tea for a truly elevated tea experience.",
+
+  "features": [
+    "Traditional spice blend",
+    "Warm and aromatic",
+    "Full-bodied flavor",
+    "Inspired by Indian chai"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Elegance Teas/Barath Yogi.png"
+  ]
+},
+{
+  "id": "moroccan-mint-100g",
+  "slug": "moroccan-mint-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "elegance-collection",
+
+  "name": "Moroccon Mint-100g",
+  "shortDescription": "Refreshing green tea blended with cool mint. Clean, uplifting, and soothing.",
+  "tags": ["Minty", "Cooling", "Refreshing"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Moroccan Mint.png",
+
+  "format": "Loose Leaf",
+  "grade": "GP1",
+  "region": "High Grown",
+  "brewingInstructions": "70-80C & 1-2min",
+  "ingredients": [
+    "Green Tea",
+    "Spearmint",
+    "Cinnamon",
+    "Liquorice",
+    "Blue Cornflower",
+    "Spearmint Flavouring"
+  ],
+  "liquor": ["Clear pale gold with a soft green hue"],
+  "aroma": ["Cooling spearmint", "Hints of warm cinnamon", "Sweet herbal undertones"],
+  "flavourProfile": ["Light to medium body", "Clean, refreshing green tea base"],
+  "finish": ["Cooling mint lingers", "Soft sweetness"],
+
+  "price": 7.99,
+  "currency": "USD",
+  "stock": 42,
+  "rating": 4.8,
+  "reviewCount": 58,
+
+  "seoTitle": "Moroccan Mint - 100g - Elegance Tea Collection",
+  "seoDescription": "Refreshing green tea blended with mint for a clean and cooling tea experience.",
+
+  "longDescription": "Green tea and spearmint are harmoniously melded to craft an enchanting overall experience, enhanced by the inclusion of cinnamon, liquorice, blue cornflower, and the revitalizing essence of spearmint flavour.",
+
+  "features": [
+    "Cooling mint flavor",
+    "Smooth green tea",
+    "Refreshing and clean",
+    "Perfect after meals"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Elegance Teas/Moroccan Mint.png"
+  ]
+},
+{
+  "id": "magic-moment-100g",
+  "slug": "magic-moment-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "elegance-collection",
+
+  "name": "Magic Moment -100g",
+  "shortDescription": "A smooth and aromatic specialty tea blend. Light, calming, and elegant.",
+  "tags": ["Aromatic", "Smooth", "Refreshing"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Elegance Teas/Magic Moment.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Red Rose",
+    "Marigold",
+    "Blue Cornflower",
+    "Safflower",
+    "Jasmine Flavouring",
+    "Strawberry Flavouring"
+  ],
+  "liquor": ["Bright amber with a warm golden glow"],
+  "aroma": ["Fragrant jasmine uplift", "Hints of rose and fresh strawberry"],
+  "flavourProfile": ["Medium body", "Light aromatic complexity from layered botanicals"],
+  "finish": ["Lingering floral sweetness", "Soft berry lift"],
+
+  "price": 8.49,
+  "currency": "USD",
+  "stock": 39,
+  "rating": 4.8,
+  "reviewCount": 49,
+
+  "seoTitle": "Magic Moment - 100g - Elegance Tea Collection",
+  "seoDescription": "A smooth and aromatic specialty tea blend for calm and relaxing moments.",
+
+  "longDescription": "Subtle floral notes intertwine with the vibrant essence of red rose petals, marigold, blue cornflower, and safflower. These botanical elements are skilfully blended with the delightful flavours of jasmine and strawberry.",
+
+  "features": [
+    "Floral strawberry & rose notes",
+    "Smooth and aromatic",
+    "Light and calming",
+    "Perfect for relaxation"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Elegance Teas/Magic Moment.png"
+  ]
+},
 
 
 

@@ -3261,288 +3261,355 @@
 
 
 
-    {
-    "id": "wellness-relaxing-20tb",
-    "slug": "wellness-relaxing-20tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "wellness-collection",
-    
-    "name": "Relaxing- 20 TB Double Chamber Foiled Envelop (30g)- Black Tea",
-    "shortDescription": "Calming black tea blend designed to help you unwind and relax after a long day.",
-    "tags": ["Calming", "Relaxing", "Soothing"],
-    "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/RELAXING.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Relaxing Herbal Blend",
-    "teaVariety": "Wellness Tea",
-    "unitCount": "20 Tea Bags (30g)",
+{
+  "id": "wellness-relaxing-20tb",
+  "slug": "wellness-relaxing-20tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "wellness-collection",
 
-    "format": "Tea Bags",
-    "grade": "BOPF",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "Natural relaxing herbs (Chamomile, Lavender, Lemon Balm)",
-    
-    "price": 5.99,
-    "currency": "USD",
-    "stock": 42,
-    "rating": 4.8,
-    "reviewCount": 47,
-    
-    "seoTitle": "Relaxing Wellness Tea - 20 TB - Wellness Tea Collection",
-    "seoDescription": "Calming black tea blend with natural herbs designed to help you unwind and relax after a long day.",
-    
-    "longDescription": "Relaxing Wellness Tea is a soothing blend of premium Ceylon black tea and calming herbs including chamomile, lavender, and lemon balm. The full-bodied black tea provides a comforting base while the herbs work to ease tension and promote relaxation. Perfect for evening moments when you need to unwind and de-stress.",
-    
-    "features": [
-      "Full-bodied black tea base",
-      "Calming chamomile & lavender",
-      "20 individually wrapped tea bags",
-      "Promotes relaxation",
-      "Perfect for evening enjoyment"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Wellness Teas/RELAXING.png"
-    ]
-  },
-  {
-    "id": "wellness-energy-20tb",
-    "slug": "wellness-energy-20tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "wellness-collection",
-    
-    "name": "Energy -20 TB Double Chamber Foiled Envelop (30g))-Black Tea",
-    "shortDescription": "Invigorating black tea blend with natural energizing herbs for a gentle, sustained energy boost.",
-    "tags": ["Energizing", "Refreshing", "Revitalizing"],
-    "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/ENERGY.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Energizing Herbal Blend",
-    "teaVariety": "Wellness Tea",
-    "unitCount": "20 Tea Bags (30g)",
+  "name": "Relaxing- 20 TB Double Chamber Foiled Envelop (30g)- Black Tea",
+  "shortDescription": "Calming black tea blend designed to help you unwind and relax after a long day.",
+  "tags": ["Calming", "Relaxing", "Soothing"],
+  "packInfo": "20 Tea Bags Box (30g)",
+  "thumbnailImage": "assets/images/products/Teas/Wellness Teas/RELAXING.png",
 
-    "format": "Tea Bags",
-    "grade": "BOPF",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "Natural energizing herbs (Ginger, Ginseng, Citrus)",
-    
-    "price": 5.99,
-    "currency": "USD",
-    "stock": 44,
-    "rating": 4.7,
-    "reviewCount": 39,
-    
-    "seoTitle": "Energy Wellness Tea - 20 TB - Wellness Tea Collection",
-    "seoDescription": "Invigorating black tea blend with natural energizing herbs for a gentle, sustained energy boost throughout your day.",
-    
-    "longDescription": "Energy Wellness Tea combines robust Ceylon black tea with naturally energizing herbs including ginger, ginseng, and citrus notes. This thoughtfully crafted blend provides a gentle, sustained energy lift without the jitters often associated with coffee. Perfect for mornings or afternoon slumps when you need natural revitalization.",
-    
-    "features": [
-      "Full-bodied black tea base",
-      "Energizing ginger & ginseng",
-      "20 individually wrapped tea bags",
-      "Sustained natural energy",
-      "Jitter-free boost"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Wellness Teas/ENERGY.png"
-    ]
-  },
-  {
-    "id": "wellness-digest-20tb",
-    "slug": "wellness-digest-20tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "wellness-collection",
-    
-    "name": "Digest - 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
-    "shortDescription": "Soothing green tea blend with digestive herbs to support healthy digestion after meals.",
-    "tags": ["Digestive", "Soothing", "Gentle"],
-    "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/DIGEST.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Digestive Herbal Blend",
-    "teaVariety": "Wellness Tea",
-    "unitCount": "20 Tea Bags (30g)",
+  "format": "Tea Bags",
+  "grade": "BOPF",
+  "brewingInstructions": "100C & 5min",
+  "moment": "Wind down, evening relaxation, quiet rituals",
+  "ingredients": [
+    "Valerian Root",
+    "Passionflower",
+    "Chamomile",
+    "Lavender",
+    "Lemongrass",
+    "Rose Petals",
+    "Chicory",
+    "Lemon Balm",
+    "Apple Flavouring (Granules)",
+    "Vanilla Flavouring (Granules)"
+  ],
+  "cupProfile": [
+    "Soft floral aroma with creamy vanilla undertone",
+    "Gentle herbal sweetness",
+    "Light apple warmth",
+    "Smooth, soothing finish"
+  ],
 
-    "format": "Tea Bags",
-    "grade": "GT Fgs",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "Natural digestive herbs (Peppermint, Fennel, Ginger)",
-    
-    "price": 5.99,
-    "currency": "USD",
-    "stock": 46,
-    "rating": 4.8,
-    "reviewCount": 52,
-    
-    "seoTitle": "Digest Wellness Tea - 20 TB - Wellness Tea Collection",
-    "seoDescription": "Soothing green tea blend with digestive herbs to support healthy digestion and comfort after meals.",
-    
-    "longDescription": "Digest Wellness Tea is a gentle blend of Ceylon green tea and traditional digestive herbs including peppermint, fennel, and ginger. The medium-bodied green tea provides a smooth base while the herbs work to soothe the stomach and support healthy digestion. Perfect after meals or whenever you need digestive comfort.",
-    
-    "features": [
-      "Smooth green tea base",
-      "Digestive peppermint & fennel",
-      "20 individually wrapped tea bags",
-      "Supports healthy digestion",
-      "Perfect after meals"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Wellness Teas/DIGEST.png"
-    ]
-  },
-  {
-    "id": "wellness-immune-20tb",
-    "slug": "wellness-immune-20tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "wellness-collection",
-    
-    "name": "Immune- 20 TB Double Chamber Foiled Envelop (30g))- Green Tea",
-    "shortDescription": "Protective green tea blend with immune-supporting herbs and antioxidants.",
-    "tags": ["Immune Support", "Protective", "Healthy"],
-    "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/IMMUNE.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Immune Support Herbal Blend",
-    "teaVariety": "Wellness Tea",
-    "unitCount": "20 Tea Bags (30g)",
+  "price": 5.99,
+  "currency": "USD",
+  "stock": 42,
+  "rating": 4.8,
+  "reviewCount": 47,
 
-    "format": "Tea Bags",
-    "grade": "GT Fgs",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "Natural immune herbs (Echinacea, Elderberry, Ginger, Turmeric)",
-    
-    "price": 6.49,
-    "currency": "USD",
-    "stock": 52,
-    "rating": 4.9,
-    "reviewCount": 67,
-    
-    "seoTitle": "Immune Wellness Tea - 20 TB - Wellness Tea Collection",
-    "seoDescription": "Protective green tea blend with immune-supporting herbs and antioxidants for daily wellness and defense.",
-    
-    "longDescription": "Immune Wellness Tea combines antioxidant-rich Ceylon green tea with a powerful blend of immune-supporting herbs including echinacea, elderberry, ginger, and turmeric. This protective blend is designed to support your body's natural defenses, especially during seasonal changes. Rich in antioxidants and natural compounds that promote overall wellness.",
-    
-    "features": [
-      "Antioxidant-rich green tea",
-      "Immune-supporting echinacea & elderberry",
-      "20 individually wrapped tea bags",
-      "Supports natural defenses",
-      "Perfect for daily wellness"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Wellness Teas/IMMUNE.png"
-    ]
-  },
-  {
-    "id": "wellness-slimming-20tb",
-    "slug": "wellness-slimming-20tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "wellness-collection",
-    
-    "name": "Slimming- 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
-    "shortDescription": "Supportive green tea blend with metabolism-boosting herbs for weight management goals.",
-    "tags": ["Slimming", "Metabolism", "Supportive"],
-    "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/SLIMMING.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Slimming Support Herbal Blend",
-    "teaVariety": "Wellness Tea",
-    "unitCount": "20 Tea Bags (30g)",
+  "seoTitle": "Relaxing Wellness Tea - 20 TB - Wellness Tea Collection",
+  "seoDescription": "Calming black tea blend with natural herbs designed to help you unwind and relax after a long day.",
 
-    "format": "Tea Bags",
-    "grade": "GT Fgs",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "Natural slimming herbs (Green Tea, Mate, Guarana, Citrus)",
-    
-    "price": 6.49,
-    "currency": "USD",
-    "stock": 41,
-    "rating": 4.7,
-    "reviewCount": 44,
-    
-    "seoTitle": "Slimming Wellness Tea - 20 TB - Wellness Tea Collection",
-    "seoDescription": "Supportive green tea blend with metabolism-boosting herbs to complement your weight management goals.",
-    
-    "longDescription": "Slimming Wellness Tea is a supportive blend of Ceylon green tea and metabolism-boosting herbs including mate, guarana, and citrus. This carefully crafted combination is designed to complement a healthy lifestyle and weight management routine. The medium-bodied green tea provides a refreshing base while the herbs work to support natural metabolism.",
-    
-    "features": [
-      "Metabolism-supporting green tea",
-      "Boosting herbs: mate & guarana",
-      "20 individually wrapped tea bags",
-      "Complements healthy lifestyle",
-      "Refreshing daily support"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Wellness Teas/SLIMMING.png"
-    ]
-  },
-  {
-    "id": "wellness-detox-20tb",
-    "slug": "wellness-detox-20tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "wellness-collection",
-    
-    "name": "Detox - 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
-    "shortDescription": "Cleansing green tea blend with detoxifying herbs to support your body's natural cleansing processes.",
-    "tags": ["Detox", "Cleansing", "Purifying"],
-    "packInfo": "20 Tea Bags Box (30g)",
-    "thumbnailImage": "assets/images/products/Teas/Wellness Teas/DETOX.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Detox Herbal Blend",
-    "teaVariety": "Wellness Tea",
-    "unitCount": "20 Tea Bags (30g)",
+  "longDescription": "A thoughtfully curated functional herbal brew crafted with time-honoured botanicals including Valerian Root, Passionflower, Chamomile, and Lavender, gently enhanced with natural apple and vanilla flavour granules. Designed to support your evening wind-down, this blend celebrates the harmony between tradition and modern wellness — free from artificial additives.",
 
-    "format": "Tea Bags",
-    "grade": "GT Fgs",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "Natural detox herbs (Dandelion, Nettle, Burdock, Lemon)",
-    
-    "price": 6.49,
-    "currency": "USD",
-    "stock": 39,
-    "rating": 4.8,
-    "reviewCount": 48,
-    
-    "seoTitle": "Detox Wellness Tea - 20 TB - Wellness Tea Collection",
-    "seoDescription": "Cleansing green tea blend with detoxifying herbs to support your body's natural cleansing processes.",
-    
-    "longDescription": "Detox Wellness Tea is a purifying blend of Ceylon green tea and traditionally used detoxifying herbs including dandelion, nettle, and burdock root. This cleansing combination is designed to support your body's natural detoxification processes while providing a light, refreshing taste. Perfect after periods of indulgence or as part of a seasonal wellness routine.",
-    
-    "features": [
-      "Purifying green tea base",
-      "Detoxifying dandelion & nettle",
-      "20 individually wrapped tea bags",
-      "Supports natural cleansing",
-      "Refreshing and light"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Wellness Teas/DETOX.png"
-    ]
-  },
+  "features": [
+    "Full-bodied black tea base",
+    "Calming chamomile & lavender",
+    "20 individually wrapped tea bags",
+    "Promotes relaxation",
+    "Perfect for evening enjoyment"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Wellness Teas/RELAXING.png"
+  ]
+},
+{
+  "id": "wellness-slimming-20tb",
+  "slug": "wellness-slimming-20tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "wellness-collection",
+
+  "name": "Slimming- 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
+  "shortDescription": "Supportive green tea blend with metabolism-boosting herbs for weight management goals.",
+  "tags": ["Slimming", "Metabolism", "Supportive"],
+  "packInfo": "20 Tea Bags Box (30g)",
+  "thumbnailImage": "assets/images/products/Teas/Wellness Teas/SLIMMING.png",
+
+  "format": "Tea Bags",
+  "grade": "GT Fgs",
+  "brewingInstructions": "100C & 5min",
+  "moment": "Light evening routine or wellness program companion",
+  "ingredients": [
+    "Senna Leaves",
+    "Fennel",
+    "Cinnamon",
+    "Rosehip",
+    "Garcinia",
+    "Apple Sweet",
+    "Lemon Flavour (Granules)"
+  ],
+  "cupProfile": [
+    "Light fruity brightness",
+    "Gentle cinnamon warmth",
+    "Mild herbal sweetness",
+    "Clean, light finish"
+  ],
+
+  "price": 6.49,
+  "currency": "USD",
+  "stock": 41,
+  "rating": 4.7,
+  "reviewCount": 44,
+
+  "seoTitle": "Slimming Wellness Tea - 20 TB - Wellness Tea Collection",
+  "seoDescription": "Supportive green tea blend with metabolism-boosting herbs to complement your weight management goals.",
+
+  "longDescription": "A thoughtfully curated functional herbal brew crafted with time-honoured botanicals including Senna Leaves, Fennel, Rosehip, and Garcinia, gently enhanced with natural lemon flavour granules. Designed to support lightness and balance as part of a healthy lifestyle, this blend celebrates the harmony between tradition and modern wellness — free from artificial additives.",
+
+  "features": [
+    "Metabolism-supporting green tea",
+    "Boosting herbs: mate & guarana",
+    "20 individually wrapped tea bags",
+    "Complements healthy lifestyle",
+    "Refreshing daily support"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Wellness Teas/SLIMMING.png"
+  ]
+},
+{
+  "id": "wellness-digest-20tb",
+  "slug": "wellness-digest-20tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "wellness-collection",
+
+  "name": "Digest - 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
+  "shortDescription": "Soothing green tea blend with digestive herbs to support healthy digestion after meals.",
+  "tags": ["Digestive", "Soothing", "Gentle"],
+  "packInfo": "20 Tea Bags Box (30g)",
+  "thumbnailImage": "assets/images/products/Teas/Wellness Teas/DIGEST.png",
+
+  "format": "Tea Bags",
+  "grade": "GT Fgs",
+  "brewingInstructions": "100C & 5min",
+  "moment": "Post-meal ease and digestive comfort",
+  "ingredients": [
+    "Dandelion Root",
+    "Peppermint",
+    "Chamomile",
+    "Ginger Root",
+    "Fennel Seed",
+    "Rooibos",
+    "Rosemary",
+    "Black Pepper",
+    "Moringa",
+    "Apple Flavouring (Granules)"
+  ],
+  "cupProfile": [
+    "Fresh minty lift",
+    "Warm ginger spice",
+    "Light earthy depth",
+    "Clean, refreshing finish"
+  ],
+
+  "price": 5.99,
+  "currency": "USD",
+  "stock": 46,
+  "rating": 4.8,
+  "reviewCount": 52,
+
+  "seoTitle": "Digest Wellness Tea - 20 TB - Wellness Tea Collection",
+  "seoDescription": "Soothing green tea blend with digestive herbs to support healthy digestion and comfort after meals.",
+
+  "longDescription": "A thoughtfully curated functional herbal brew crafted with time-honoured botanicals including Dandelion Root, Peppermint, Ginger Root, and Fennel Seed, gently enhanced with natural apple flavour granules. Designed to support after-meal comfort and digestive ease, this blend celebrates the harmony between tradition and modern wellness — free from artificial additives.",
+
+  "features": [
+    "Smooth green tea base",
+    "Digestive peppermint & fennel",
+    "20 individually wrapped tea bags",
+    "Supports healthy digestion",
+    "Perfect after meals"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Wellness Teas/DIGEST.png"
+  ]
+},
+{
+  "id": "wellness-immune-20tb",
+  "slug": "wellness-immune-20tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "wellness-collection",
+
+  "name": "Immune- 20 TB Double Chamber Foiled Envelop (30g))- Green Tea",
+  "shortDescription": "Protective green tea blend with immune-supporting herbs and antioxidants.",
+  "tags": ["Immune Support", "Protective", "Healthy"],
+  "packInfo": "20 Tea Bags Box (30g)",
+  "thumbnailImage": "assets/images/products/Teas/Wellness Teas/IMMUNE.png",
+
+  "format": "Tea Bags",
+  "grade": "GT Fgs",
+  "brewingInstructions": "100C & 5min",
+  "moment": "Seasonal support and daily resilience",
+  "ingredients": [
+    "Turmeric",
+    "Ashwagandha",
+    "Cinnamon",
+    "Liquorice Root",
+    "Nettle Leaf",
+    "Anise Seed",
+    "Ginger",
+    "Bay Leaf",
+    "Elderberries",
+    "Garlic",
+    "Moringa",
+    "Lemon Verbena",
+    "Ginger (Granules)",
+    "Lemon (Granules)"
+  ],
+  "cupProfile": [
+    "Warm golden infusion",
+    "Earthy spice backbone",
+    "Subtle sweetness from liquorice",
+    "Lingering citrus warmth"
+  ],
+
+  "price": 6.49,
+  "currency": "USD",
+  "stock": 52,
+  "rating": 4.9,
+  "reviewCount": 67,
+
+  "seoTitle": "Immune Wellness Tea - 20 TB - Wellness Tea Collection",
+  "seoDescription": "Protective green tea blend with immune-supporting herbs and antioxidants for daily wellness and defense.",
+
+  "longDescription": "A thoughtfully curated functional herbal brew crafted with time-honoured botanicals including Turmeric, Ashwagandha, Elderberries, and Lemon Verbena, gently enhanced with natural ginger and lemon flavour granules. Designed to support seasonal defence and daily resilience, this blend celebrates the harmony between tradition and modern wellness — free from artificial additives.",
+
+  "features": [
+    "Antioxidant-rich green tea",
+    "Immune-supporting echinacea & elderberry",
+    "20 individually wrapped tea bags",
+    "Supports natural defenses",
+    "Perfect for daily wellness"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Wellness Teas/IMMUNE.png"
+  ]
+},
+{
+  "id": "wellness-slimming-20tb",
+  "slug": "wellness-slimming-20tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "wellness-collection",
+
+  "name": "Slimming- 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
+  "shortDescription": "Supportive green tea blend with metabolism-boosting herbs for weight management goals.",
+  "tags": ["Slimming", "Metabolism", "Supportive"],
+  "packInfo": "20 Tea Bags Box (30g)",
+  "thumbnailImage": "assets/images/products/Teas/Wellness Teas/SLIMMING.png",
+
+  "format": "Tea Bags",
+  "grade": "GT Fgs",
+  "brewingInstructions": "100C & 5min",
+  "moment": "Light evening routine or wellness program companion",
+  "ingredients": [
+    "Senna Leaves",
+    "Fennel",
+    "Cinnamon",
+    "Rosehip",
+    "Garcinia",
+    "Apple Sweet",
+    "Lemon Flavour (Granules)"
+  ],
+  "cupProfile": [
+    "Light fruity brightness",
+    "Gentle cinnamon warmth",
+    "Mild herbal sweetness",
+    "Clean, light finish"
+  ],
+
+  "price": 6.49,
+  "currency": "USD",
+  "stock": 41,
+  "rating": 4.7,
+  "reviewCount": 44,
+
+  "seoTitle": "Slimming Wellness Tea - 20 TB - Wellness Tea Collection",
+  "seoDescription": "Supportive green tea blend with metabolism-boosting herbs to complement your weight management goals.",
+
+  "longDescription": "A thoughtfully curated functional herbal brew crafted with time-honoured botanicals including Senna Leaves, Fennel, Rosehip, and Garcinia, gently enhanced with natural lemon flavour granules. Designed to support lightness and balance as part of a healthy lifestyle, this blend celebrates the harmony between tradition and modern wellness — free from artificial additives.",
+
+  "features": [
+    "Metabolism-supporting green tea",
+    "Boosting herbs: mate & guarana",
+    "20 individually wrapped tea bags",
+    "Complements healthy lifestyle",
+    "Refreshing daily support"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Wellness Teas/SLIMMING.png"
+  ]
+},
+{
+  "id": "wellness-detox-20tb",
+  "slug": "wellness-detox-20tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "wellness-collection",
+
+  "name": "Detox - 20 TB Double Chamber Foiled Envelop (30g)- Green Tea",
+  "shortDescription": "Cleansing green tea blend with detoxifying herbs to support your body's natural cleansing processes.",
+  "tags": ["Detox", "Cleansing", "Purifying"],
+  "packInfo": "20 Tea Bags Box (30g)",
+  "thumbnailImage": "assets/images/products/Teas/Wellness Teas/DETOX.png",
+
+  "format": "Tea Bags",
+  "grade": "GT Fgs",
+  "brewingInstructions": "100C & 5min",
+  "moment": "Morning reset or light afternoon cleanse ritual",
+  "ingredients": [
+    "Milk Thistle",
+    "Dandelion Root",
+    "Liquorice Root",
+    "Ginger",
+    "Hibiscus",
+    "Spearmint",
+    "Cinnamon Coarse",
+    "Lemon Peel",
+    "Lemongrass",
+    "Holy Basil",
+    "Fennel",
+    "Moringa",
+    "Lemon Flavour (Granules)"
+  ],
+  "cupProfile": [
+    "Bright ruby hue (from hibiscus)",
+    "Citrus freshness",
+    "Gentle spice warmth",
+    "Balanced sweet-herbal depth"
+  ],
+
+  "price": 6.49,
+  "currency": "USD",
+  "stock": 39,
+  "rating": 4.8,
+  "reviewCount": 48,
+
+  "seoTitle": "Detox Wellness Tea - 20 TB - Wellness Tea Collection",
+  "seoDescription": "Cleansing green tea blend with detoxifying herbs to support your body's natural cleansing processes.",
+
+  "longDescription": "A thoughtfully curated functional herbal brew crafted with time-honoured botanicals including Milk Thistle, Dandelion Root, Hibiscus, and Holy Basil, gently enhanced with natural lemon flavour granules. Designed to support your daily reset and natural cleansing, this blend celebrates the harmony between tradition and modern wellness — free from artificial additives.",
+
+  "features": [
+    "Purifying green tea base",
+    "Detoxifying dandelion & nettle",
+    "20 individually wrapped tea bags",
+    "Supports natural cleansing",
+    "Refreshing and light"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Wellness Teas/DETOX.png"
+  ]
+},
 
 
 {

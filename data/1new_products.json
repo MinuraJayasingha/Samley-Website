@@ -2532,282 +2532,264 @@
 
 
 
-    {
-    "id": "nuwara-eliya-tea-100g",
-    "slug": "nuwara-eliya-tea-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "regional-collection",
-    
-    "name": "Nuwara Eliya Tea -100g",
-    "shortDescription": "Light and delicate Ceylon black tea from the highest tea elevations. Clean taste with fresh aroma.",
-    "tags": ["Light", "Delicate", "Fresh"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Nuwara Eliya Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+{
+  "id": "nuwara-eliya-tea-100g",
+  "slug": "nuwara-eliya-tea-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "regional-collection",
+  
+  "name": "Nuwara Eliya Tea -100g",
+  "shortDescription": "Light and delicate Ceylon black tea from the highest tea elevations. Clean taste with fresh aroma.",
+  "tags": ["Light", "Delicate", "Fresh"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Regional Tea/Nuwara Eliya Tea.png",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "High",
-    "liquorStrength": "Light Bright",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 8.99,
-    "currency": "USD",
-    "stock": 42,
-    "rating": 4.8,
-    "reviewCount": 56,
-    
-    "seoTitle": "Nuwara Eliya Tea - 100g - Regional Tea Collection",
-    "seoDescription": "Light and delicate Nuwara Eliya tea from Sri Lanka's highest tea elevations with a fresh, refined taste.",
-    
-    "longDescription": "Nuwara Eliya Tea is grown in Sri Lanka's highest tea elevations, where the cool climate produces teas with light body and delicate flavor. It offers a fresh, refined taste with bright liquor and subtle floral notes. Ideal for those who prefer a gentle and refined tea experience.",
-    
-    "features": [
-      "High-grown mountain tea",
-      "Light and delicate flavor",
-      "Bright golden liquor",
-      "Fresh floral aroma"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Regional Tea/Nuwara Eliya Tea.png"
-    ]
-  },
-  {
-    "id": "udapussellawa-tea-100g",
-    "slug": "udapussellawa-tea-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "regional-collection",
-    
-    "name": "Udapussellawa Tea -100g",
-    "shortDescription": "Smooth and mellow Ceylon black tea from misty highlands. Balanced taste with gentle strength.",
-    "tags": ["Mellow", "Smooth", "Balanced"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Udapussellawa Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "High Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "liquor": ["Pale golden"],
+  "aroma": ["Fresh", "Floral"],
+  "flavourProfile": ["Delicate", "Brisk", "Slightly astringent"],
+  "finish": ["Clean and refreshing"],
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 8.49,
-    "currency": "USD",
-    "stock": 38,
-    "rating": 4.7,
-    "reviewCount": 43,
-    
-    "seoTitle": "Udapussellawa Tea - 100g - Regional Tea Collection",
-    "seoDescription": "Smooth and mellow Udapussellawa tea from Sri Lanka's misty highlands with balanced strength.",
-    
-    "longDescription": "Udapussellawa Tea is grown in cool, misty regions of Sri Lanka. It offers a smooth, mellow flavor with balanced strength and a bright copper liquor. Great for a relaxed and comforting tea experience any time of day.",
-    
-    "features": [
-      "Misty highland grown",
-      "Smooth and mellow taste",
-      "Balanced medium body",
-      "Bright copper liquor"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Regional Tea/Udapussellawa Tea.png"
-    ]
-  },
-  {
-    "id": "dimbulla-tea-100g",
-    "slug": "dimbulla-tea-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "regional-collection",
-    
-    "name": "Dimbulla Tea-100g",
-    "shortDescription": "Bright and crisp Ceylon black tea from western highlands. Clean taste with refreshing notes.",
-    "tags": ["Crisp", "Bright", "Refreshing"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Dimbulla Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "price": 8.99,
+  "currency": "USD",
+  "stock": 42,
+  "rating": 4.8,
+  "reviewCount": 56,
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 8.49,
-    "currency": "USD",
-    "stock": 40,
-    "rating": 4.8,
-    "reviewCount": 47,
-    
-    "seoTitle": "Dimbulla Tea - 100g - Regional Tea Collection",
-    "seoDescription": "Crisp and refreshing Dimbulla tea from Sri Lanka's western highlands with a bright character.",
-    
-    "longDescription": "Dimbulla Tea is grown in Sri Lanka's western highlands. It is known for its bright liquor and crisp, clean taste with full body and refreshing character. A refreshing choice for any time of day, perfect with or without milk.",
-    
-    "features": [
-      "Western highland grown",
-      "Bright and crisp flavor",
-      "Full-bodied character",
-      "Clean refreshing finish"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Regional Tea/Dimbulla Tea.png"
-    ]
-  },
-  {
-    "id": "kandy-tea-100g",
-    "slug": "kandy-tea-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "regional-collection",
-    
-    "name": "Kandy Tea- 100g",
-    "shortDescription": "Smooth and well-rounded Ceylon black tea from mid-country. Medium strength and easy to enjoy.",
-    "tags": ["Smooth", "Balanced", "Classic"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Kandy Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "seoTitle": "Nuwara Eliya Tea - 100g - Regional Tea Collection",
+  "seoDescription": "Light and delicate Nuwara Eliya tea from Sri Lanka's highest tea elevations with a fresh, refined taste.",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Medium",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 7.99,
-    "currency": "USD",
-    "stock": 45,
-    "rating": 4.7,
-    "reviewCount": 52,
-    
-    "seoTitle": "Kandy Tea - 100g - Regional Tea Collection",
-    "seoDescription": "Smooth and balanced Kandy tea from Sri Lanka's mid-country with a classic Ceylon flavor.",
-    
-    "longDescription": "Kandy Tea is grown in the mid-country regions of Sri Lanka. It has a smooth body with a balanced and classic flavor, medium strength, and a rich copper liquor. Perfect for everyday tea drinking, versatile enough for any time of day.",
-    
-    "features": [
-      "Mid-country grown",
-      "Smooth and balanced",
-      "Classic Ceylon character",
-      "Perfect for daily use"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Regional Tea/Kandy Tea.png"
-    ]
-  },
-  {
-    "id": "ruhuna-tea-100g",
-    "slug": "ruhuna-tea-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "regional-collection",
-    
-    "name": "Ruhuna Tea- 100g",
-    "shortDescription": "Strong and dark Ceylon black tea from low-grown regions. Rich flavor with bold character.",
-    "tags": ["Strong", "Bold", "Rich"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Ruhuna Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "longDescription": "Sourced from the renowned tea gardens of Nuwara Eliya, this Exotic Light Bright Tea boasts a distinctive greenish hue that, when brewed, yields an exceptional bright yellow cup reminiscent of Champagne. This unique tea is a product of the bright mornings and cold nights from January to March and July to September, resulting in a flavour so distinct that it's traditionally enjoyed without any added whitener.",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "Low",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 7.99,
-    "currency": "USD",
-    "stock": 44,
-    "rating": 4.8,
-    "reviewCount": 58,
-    
-    "seoTitle": "Ruhuna Tea - 100g - Regional Tea Collection",
-    "seoDescription": "Bold and full-bodied Ruhuna tea from Sri Lanka's low-grown tea regions with rich character.",
-    
-    "longDescription": "Ruhuna Tea comes from the low-grown regions of southern Sri Lanka. It is known for its strong body and deep, rich flavor with dark liquor and bold character. Perfect for those who enjoy a strong cup of tea, ideal with milk.",
-    
-    "features": [
-      "Low-grown southern tea",
-      "Strong and full-bodied",
-      "Deep color and rich flavor",
-      "Perfect with milk"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Regional Tea/Ruhuna Tea.png"
-    ]
-  },
-  {
-    "id": "uva-tea-100g",
-    "slug": "uva-tea-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "regional-collection",
-    
-    "name": "Uva Tea-100g",
-    "shortDescription": "Aromatic Ceylon black tea from eastern highlands. Smooth, crisp taste with unique regional character.",
-    "tags": ["Aromatic", "Smooth", "Crisp"],
-    "packInfo": "100g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Regional Tea/Uva Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "features": [
+    "High-grown mountain tea",
+    "Light and delicate flavor",
+    "Bright golden liquor",
+    "Fresh floral aroma"
+  ],
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 8.49,
-    "currency": "USD",
-    "stock": 37,
-    "rating": 4.8,
-    "reviewCount": 49,
-    
-    "seoTitle": "Uva Tea - 100g - Regional Tea Collection",
-    "seoDescription": "Aromatic and smooth Uva tea from Sri Lanka's eastern highlands with a crisp finish.",
-    
-    "longDescription": "Uva Tea is grown in the eastern highlands of Sri Lanka, where the unique terroir produces teas with distinct character. It has a smooth body with a distinct aroma and crisp finish, medium strength, and bright liquor. Perfect for those who enjoy a refined black tea with regional distinction.",
-    
-    "features": [
-      "Eastern highland grown",
-      "Distinct regional character",
-      "Smooth and aromatic",
-      "Crisp clean finish"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Regional Tea/Uva Tea.png"
-    ]
-  },
+  "galleryImages": [
+    "assets/images/products/Teas/Regional Tea/Nuwara Eliya Tea.png"
+  ]
+},
+{
+  "id": "udapussellawa-tea-100g",
+  "slug": "udapussellawa-tea-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "regional-collection",
+  
+  "name": "Udapussellawa Tea -100g",
+  "shortDescription": "Smooth and mellow Ceylon black tea from misty highlands. Balanced taste with gentle strength.",
+  "tags": ["Mellow", "Smooth", "Balanced"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Regional Tea/Udapussellawa Tea.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "High & Medium Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "liquor": ["Bright amber to coppery gold"],
+  "aroma": ["Delicately floral", "Light woody undertone"],
+  "flavourProfile": ["Medium-bodied", "Noticeably brisk"],
+  "finish": ["Crisp and drying"],
+
+  "price": 8.49,
+  "currency": "USD",
+  "stock": 38,
+  "rating": 4.7,
+  "reviewCount": 43,
+
+  "seoTitle": "Udapussellawa Tea - 100g - Regional Tea Collection",
+  "seoDescription": "Smooth and mellow Udapussellawa tea from Sri Lanka's misty highlands with balanced strength.",
+
+  "longDescription": "Udapussellawa tea hails from the region nestled between Uva and the border of Nuwara Eliya. This locale benefits from two distinct quality seasons, each contributing to the creation of exquisite rosy and tangy tea. During the months of July to September and also from January to March, the area experiences bright mornings and cold nights, which play a pivotal role in producing this delectable and unique addition to the rich tapestry of Ceylon Tea's subtle flavours.",
+
+  "features": [
+    "Misty highland grown",
+    "Smooth and mellow taste",
+    "Balanced medium body",
+    "Bright copper liquor"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Regional Tea/Udapussellawa Tea.png"
+  ]
+},
+{
+  "id": "dimbulla-tea-100g",
+  "slug": "dimbulla-tea-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "regional-collection",
+  
+  "name": "Dimbulla Tea-100g",
+  "shortDescription": "Bright and crisp Ceylon black tea from western highlands. Clean taste with refreshing notes.",
+  "tags": ["Crisp", "Bright", "Refreshing"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Regional Tea/Dimbulla Tea.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "High Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "liquor": ["Bright coppery gold"],
+  "aroma": ["Subtle floral", "Hints of spice"],
+  "flavourProfile": ["Medium-bodied", "Crisp", "Pleasantly brisk"],
+  "finish": ["Well-rounded & balanced"],
+
+  "price": 8.49,
+  "currency": "USD",
+  "stock": 40,
+  "rating": 4.8,
+  "reviewCount": 47,
+
+  "seoTitle": "Dimbulla Tea - 100g - Regional Tea Collection",
+  "seoDescription": "Crisp and refreshing Dimbulla tea from Sri Lanka's western highlands with a bright character.",
+
+  "longDescription": "Indulge in the delightfully soothing high-grown tea harvested from the renowned Dimbula region. This tea offers a golden-hued cup bursting with flavour, carefully packed at the peak of the Western season to preserve its unique and refreshing taste.",
+
+  "features": [
+    "Western highland grown",
+    "Bright and crisp flavor",
+    "Full-bodied character",
+    "Clean refreshing finish"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Regional Tea/Dimbulla Tea.png"
+  ]
+},
+{
+  "id": "kandy-tea-100g",
+  "slug": "kandy-tea-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "regional-collection",
+  
+  "name": "Kandy Tea- 100g",
+  "shortDescription": "Smooth and well-rounded Ceylon black tea from mid-country. Medium strength and easy to enjoy.",
+  "tags": ["Smooth", "Balanced", "Classic"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Regional Tea/Kandy Tea.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "Medium Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "liquor": ["Rich amber"],
+  "aroma": ["Mild spice", "Wood notes"],
+  "flavourProfile": ["Full-bodied", "Smooth", "Gently brisk"],
+  "finish": ["Rounded and satisfying"],
+
+  "price": 7.99,
+  "currency": "USD",
+  "stock": 45,
+  "rating": 4.7,
+  "reviewCount": 52,
+
+  "seoTitle": "Kandy Tea - 100g - Regional Tea Collection",
+  "seoDescription": "Smooth and balanced Kandy tea from Sri Lanka's mid-country with a classic Ceylon flavor.",
+
+  "longDescription": "Kandy, once an illustrious capital of Ceylon, holds the distinction of being the site where the first commercial tea plantation was established in 1867. The tea cultivated in this region, known as mid-grown tea, thrives at elevations ranging from 600 meters to 1200 meters above sea level. It yields a vibrant infusion with a rich coppery hue, making it the perfect choice for tea enthusiasts who prefer a robust and flavour-packed cup.",
+
+  "features": [
+    "Mid-country grown",
+    "Smooth and balanced",
+    "Classic Ceylon character",
+    "Perfect for daily use"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Regional Tea/Kandy Tea.png"
+  ]
+},
+{
+  "id": "ruhuna-tea-100g",
+  "slug": "ruhuna-tea-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "regional-collection",
+  
+  "name": "Ruhuna Tea- 100g",
+  "shortDescription": "Strong and dark Ceylon black tea from low-grown regions. Rich flavor with bold character.",
+  "tags": ["Strong", "Bold", "Rich"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Regional Tea/Ruhuna Tea.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "liquor": ["Deep dark red"],
+  "aroma": ["Caramel", "Malty"],
+  "flavourProfile": ["Strong", "Full-bodied", "Slightly sweet"],
+  "finish": ["Thick and bold"],
+
+  "price": 7.99,
+  "currency": "USD",
+  "stock": 44,
+  "rating": 4.8,
+  "reviewCount": 58,
+
+  "seoTitle": "Ruhuna Tea - 100g - Regional Tea Collection",
+  "seoDescription": "Bold and full-bodied Ruhuna tea from Sri Lanka's low-grown tea regions with rich character.",
+
+  "longDescription": "Cultivated at altitudes below 600 meters above sea level, the low elevational tea gardens stretch from the coastal plains to the southern border of the world-renowned Sinharaja rain forest, a UNESCO World Heritage site. These gardens employ orthodox manufacturing methods to produce a diverse range of leaf styles, resulting in a tea that boasts a robust and distinctive flavour profile.",
+
+  "features": [
+    "Low-grown southern tea",
+    "Strong and full-bodied",
+    "Deep color and rich flavor",
+    "Perfect with milk"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Regional Tea/Ruhuna Tea.png"
+  ]
+},
+{
+  "id": "uva-tea-100g",
+  "slug": "uva-tea-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "regional-collection",
+  
+  "name": "Uva Tea-100g",
+  "shortDescription": "Aromatic Ceylon black tea from eastern highlands. Smooth, crisp taste with unique regional character.",
+  "tags": ["Aromatic", "Smooth", "Crisp"],
+  "packInfo": "100g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Regional Tea/Uva Tea.png",
+
+  "format": "Loose Leaf",
+  "grade": "FBOP",
+  "region": "High & Medium Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "liquor": ["Bright amber"],
+  "aroma": ["Distinctively aromatic", "Menthol-like high notes"],
+  "flavourProfile": ["Bold", "Brisk", "Slightly sweet", "Signature Uva tang character"],
+  "finish": ["Lingering and lively"],
+
+  "price": 8.49,
+  "currency": "USD",
+  "stock": 37,
+  "rating": 4.8,
+  "reviewCount": 49,
+
+  "seoTitle": "Uva Tea - 100g - Regional Tea Collection",
+  "seoDescription": "Aromatic and smooth Uva tea from Sri Lanka's eastern highlands with a crisp finish.",
+
+  "longDescription": "In the secluded Uva district, where the North-East and South-West monsoons grace the region with seasonal winds, a delicate and exotic aromatic flavour is born. Bright mornings and chilly nights during July to September, as well as from January to March, give rise to some of the most highly coveted teas on this island.",
+
+  "features": [
+    "Eastern highland grown",
+    "Distinct regional character",
+    "Smooth and aromatic",
+    "Crisp clean finish"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Regional Tea/Uva Tea.png"
+  ]
+},
 
     {
     "id": "tea-makers-private-assortment-48tb",

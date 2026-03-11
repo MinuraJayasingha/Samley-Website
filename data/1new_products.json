@@ -3918,335 +3918,320 @@
 
 
 
-  {
-    "id": "mango-tango-355ml",
-    "slug": "mango-tango-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Mango Tango -355ml",
-    "shortDescription": "Sparkling iced tea with natural mango flavor. Refreshing, low sugar, and delightfully fruity.",
-    "tags": ["Fruity", "Sparkling", "Refreshing"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Mango Tango.png",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Mango",
-    "teaVariety": "Black Tea",
-    "unitCount": "355ml",
+{
+  "id": "mango-tango-355ml",
+  "slug": "mango-tango-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
 
-    "format": "Sparkling/Can",
-    "base": "Black Tea",
-    "ingredients": "Instant Tea, Agave Syrup, Sugar, Natural Mango Flavouring",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "Natural Mango Flavouring",
-    
-    "price": 2.99,
-    "currency": "USD",
-    "stock": 96,
-    "rating": 4.7,
-    "reviewCount": 42,
-    
-    "seoTitle": "Mango Tango - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling iced tea with natural mango flavor. Refreshing, low sugar, and delightfully fruity.",
-    
-    "longDescription": "Mango Tango is a sparkling iced tea that combines the bold character of Ceylon black tea with the sweet, tropical taste of ripe mangoes. Made with instant tea, agave syrup, and natural mango flavoring, it delivers a refreshingly fruity experience with low sugar and calories. Perfect for hot days, picnics, or anytime you crave a tropical escape.",
-    
-    "features": [
-      "Sparkling iced tea",
-      "Natural mango flavor",
-      "Low sugar / low calorie",
-      "Ready-to-drink convenience",
-      "Made with agave syrup"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Mango Tango.png"
-    ]
-  },
-  {
-    "id": "raspberry-sparkle-355ml",
-    "slug": "raspberry-sparkle-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Rasberry Sparkle -355ml",
-    "shortDescription": "Sparkling iced tea with natural raspberry flavor. Bright, berrylicious, and refreshingly light.",
-    "tags": ["Berry", "Sparkling", "Refreshing"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Raspberry Sparkle.png",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Raspberry",
-    "teaVariety": "Black Tea",
-    "unitCount": "355ml",
+  "name": "Mango Tango -355ml",
+  "shortDescription": "Sparkling iced tea with natural mango flavor. Refreshing, low sugar, and delightfully fruity.",
+  "tags": ["Fruity", "Sparkling", "Refreshing"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Mango Tango.png",
 
-    "format": "Sparkling/Can",
-    "base": "Black Tea",
-    "ingredients": "Instant Tea, Agave Syrup, Sugar, Natural Raspberry Flavouring",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "Natural Raspberry Flavouring",
-    
-    "price": 2.99,
-    "currency": "USD",
-    "stock": 88,
-    "rating": 4.8,
-    "reviewCount": 38,
-    
-    "seoTitle": "Raspberry Sparkle - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling iced tea with natural raspberry flavor. Bright, berrylicious, and refreshingly light.",
-    
-    "longDescription": "Raspberry Sparkle is a vibrant sparkling iced tea that pairs the robust notes of Ceylon black tea with the bright, tangy sweetness of ripe raspberries. Crafted with instant tea, agave syrup, and natural raspberry flavoring, it offers a berrylicious experience with low sugar and calories. Perfect for summer sipping or a refreshing afternoon pick-me-up.",
-    
-    "features": [
-      "Sparkling iced tea",
-      "Natural raspberry flavor",
-      "Low sugar / low calorie",
-      "Ready-to-drink convenience",
-      "Made with agave syrup"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Raspberry Sparkle.png"
-    ]
-  },
-  {
-    "id": "matcha-sparkling-355ml",
-    "slug": "matcha-sparkling-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Matcha -355ml",
-    "shortDescription": "Sparkling green tea with premium matcha. Vibrant, energizing, and delicately smooth.",
-    "tags": ["Matcha", "Sparkling", "Energizing"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Matcha_Can_Mockup_4.jpg",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Matcha",
-    "teaVariety": "Green Tea",
-    "unitCount": "355ml",
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Instant Black Tea",
+    "Natural Mango Flavouring",
+    "Sugar",
+    "Agave Syrup"
+  ],
 
-    "format": "Sparkling/Can",
-    "base": "Green Tea",
-    "ingredients": "Matcha, Agave Syrup",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "N/A",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 72,
-    "rating": 4.9,
-    "reviewCount": 51,
-    
-    "seoTitle": "Matcha Sparkling Tea - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling green tea with premium matcha. Vibrant, energizing, and delicately smooth.",
-    
-    "longDescription": "Matcha Sparkling Tea is a unique fusion of premium matcha green tea and sparkling water, creating a vibrant, energizing beverage that's both refreshing and sophisticated. Made with real matcha powder and lightly sweetened with agave syrup, it delivers the smooth umami character of ceremonial-grade matcha with a delightful effervescence. Low in sugar and calories, it's the perfect choice for those seeking a healthy energy boost.",
-    
-    "features": [
-      "Sparkling matcha green tea",
-      "Premium matcha powder",
-      "Low sugar / low calorie",
-      "Naturally energizing",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Matcha_Can_Mockup_4.jpg"
-    ]
-  },
-  {
-    "id": "lemon-blast-355ml",
-    "slug": "lemon-blast-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Lemon Blast-355ml",
-    "shortDescription": "Sparkling iced tea with zesty lemon flavor. Crisp, citrusy, and instantly refreshing.",
-    "tags": ["Citrus", "Sparkling", "Zesty"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Lemon_Can_Mockup_5.jpg",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Lemon",
-    "teaVariety": "Black Tea",
-    "unitCount": "355ml",
+  "price": 2.99,
+  "currency": "USD",
+  "stock": 96,
+  "rating": 4.7,
+  "reviewCount": 42,
 
-    "format": "Sparkling/Can",
-    "base": "Black Tea",
-    "ingredients": "Instant Tea, Agave Syrup, Sugar, Natural Lemon Flavouring",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "Natural Lemon Flavouring",
-    
-    "price": 2.99,
-    "currency": "USD",
-    "stock": 94,
-    "rating": 4.7,
-    "reviewCount": 44,
-    
-    "seoTitle": "Lemon Blast - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling iced tea with zesty lemon flavor. Crisp, citrusy, and instantly refreshing.",
-    
-    "longDescription": "Lemon Blast is a crisp sparkling iced tea that combines the full-bodied character of Ceylon black tea with the bright, zesty kick of fresh lemons. Made with instant tea, agave syrup, and natural lemon flavoring, it delivers a classic citrus refreshment with low sugar and calories. Perfect for any occasion when you need a clean, revitalizing drink.",
-    
-    "features": [
-      "Sparkling iced tea",
-      "Zesty natural lemon flavor",
-      "Low sugar / low calorie",
-      "Ready-to-drink convenience",
-      "Classic citrus refreshment"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Lemon_Can_Mockup_5.jpg"
-    ]
-  },
-  {
-    "id": "jasmine-green-355ml",
-    "slug": "jasmine-green-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Jasmin Green- 355ml",
-    "shortDescription": "Sparkling green tea with delicate jasmine aroma. Floral, calming, and lightly refreshing.",
-    "tags": ["Floral", "Sparkling", "Calming"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Jasmine",
-    "teaVariety": "Green Tea",
-    "unitCount": "355ml",
+  "seoTitle": "Mango Tango - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling iced tea with natural mango flavor. Refreshing, low sugar, and delightfully fruity.",
 
-    "format": "Sparkling/Can",
-    "base": "Green Tea",
-    "ingredients": "Instant Tea, Agave Syrup, Sugar, Natural Jasmine Flavouring",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "Natural Jasmine Flavouring",
-    
-    "price": 2.99,
-    "currency": "USD",
-    "stock": 82,
-    "rating": 4.8,
-    "reviewCount": 46,
-    
-    "seoTitle": "Jasmine Green Tea - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling green tea with delicate jasmine aroma. Floral, calming, and lightly refreshing.",
-    
-    "longDescription": "Jasmine Green Tea is an elegant sparkling beverage that pairs the fresh, light character of Ceylon green tea with the delicate floral notes of jasmine blossoms. Crafted with instant tea, agave syrup, and natural jasmine flavoring, it offers a calming, aromatic experience with low sugar and calories. Perfect for moments when you want something refreshing yet soothing.",
-    
-    "features": [
-      "Sparkling green tea",
-      "Delicate jasmine aroma",
-      "Low sugar / low calorie",
-      "Ready-to-drink convenience",
-      "Calming floral refreshment"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg"
-    ]
-  },
-  {
-    "id": "peach-sensation-355ml",
-    "slug": "peach-sensation-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Peach Sensation -355ml",
-    "shortDescription": "Sparkling iced tea with juicy peach flavor. Sweet, sun-ripened, and utterly refreshing.",
-    "tags": ["Fruity", "Sparkling", "Sweet"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Peach_Can_Mockup_2.jpg",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Peach",
-    "teaVariety": "Black Tea",
-    "unitCount": "355ml",
+  "longDescription": "A vibrant tropical refreshment where the luscious sweetness of ripe mango meets the crisp character of freshly brewed tea. Lightly carbonated and infused with natural flavours, this sparkling iced tea delivers a smooth, fruity burst balanced with refreshing effervescence. Bright, juicy, and irresistibly refreshing—perfect for a sparkling moment of tropical indulgence.",
 
-    "format": "Sparkling/Can",
-    "base": "Black Tea",
-    "ingredients": "Instant Tea, Agave Syrup, Sugar, Natural Peach Flavouring",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "Natural Peach Flavouring",
-    
-    "price": 2.99,
-    "currency": "USD",
-    "stock": 90,
-    "rating": 4.8,
-    "reviewCount": 53,
-    
-    "seoTitle": "Peach Sensation - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling iced tea with juicy peach flavor. Sweet, sun-ripened, and utterly refreshing.",
-    
-    "longDescription": "Peach Sensation is a delightful sparkling iced tea that blends the robust character of Ceylon black tea with the sweet, juicy taste of sun-ripened peaches. Made with instant tea, agave syrup, and natural peach flavoring, it delivers a fruit-forward refreshment with low sugar and calories. Perfect for summer days, picnics, or anytime you crave a taste of orchard sweetness.",
-    
-    "features": [
-      "Sparkling iced tea",
-      "Juicy natural peach flavor",
-      "Low sugar / low calorie",
-      "Ready-to-drink convenience",
-      "Sweet fruit refreshment"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Peach_Can_Mockup_2.jpg"
-    ]
-  },
-  {
-    "id": "magic-moment-355ml",
-    "slug": "magic-moment-355ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "iced-tea-collection",
-    
-    "name": "Magic Moment- 355ml",
-    "shortDescription": "Sparkling iced tea with strawberry and rose. Romantic, floral-fruity, and elegantly refreshing.",
-    "tags": ["Floral", "Fruity", "Sparkling"],
-    "packInfo": "355ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Magic_Can_Mockup_6.jpg",
-    
-    "brand": "Ceylon Beverages",
-    "flavor": "Strawberry & Rose",
-    "teaVariety": "Black Tea",
-    "unitCount": "355ml",
+  "features": [
+    "Sparkling iced tea",
+    "Natural mango flavor",
+    "Low sugar / low calorie",
+    "Ready-to-drink convenience",
+    "Made with agave syrup"
+  ],
 
-    "format": "Sparkling/Can",
-    "base": "Black Tea",
-    "ingredients": "Instant Tea, Agave Syrup, Sugar, Natural Strawberry & Rose Flavouring",
-    "liquorStrength": "Low Sugar / Low Calorie",
-    "serving": "Ready to Drink",
-    "additives": "Natural Strawberry & Rose Flavouring",
-    
-    "price": 3.29,
-    "currency": "USD",
-    "stock": 68,
-    "rating": 4.9,
-    "reviewCount": 47,
-    
-    "seoTitle": "Magic Moment - 355ml - Iced Tea Collection",
-    "seoDescription": "Sparkling iced tea with strawberry and rose. Romantic, floral-fruity, and elegantly refreshing.",
-    
-    "longDescription": "Magic Moment is an enchanting sparkling iced tea that combines the full-bodied character of Ceylon black tea with the romantic fusion of sweet strawberries and delicate rose. Crafted with instant tea, agave syrup, and natural strawberry and rose flavoring, it offers a uniquely elegant refreshment with low sugar and calories. Perfect for special occasions, afternoon treats, or whenever you need a touch of magic in your day.",
-    
-    "features": [
-      "Sparkling iced tea",
-      "Romantic strawberry & rose",
-      "Low sugar / low calorie",
-      "Ready-to-drink convenience",
-      "Elegantly refreshing"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/iced-teas-collection/Magic_Can_Mockup_6.jpg"
-    ]
-  },
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Mango Tango.png"
+  ]
+},
+{
+  "id": "raspberry-sparkle-355ml",
+  "slug": "raspberry-sparkle-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
+
+  "name": "Rasberry Sparkle -355ml",
+  "shortDescription": "Sparkling iced tea with natural raspberry flavor. Bright, berrylicious, and refreshingly light.",
+  "tags": ["Berry", "Sparkling", "Refreshing"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Raspberry Sparkle.png",
+
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Instant Black Tea",
+    "Natural Raspberry Flavouring",
+    "Sugar",
+    "Agave Syrup"
+  ],
+
+  "price": 2.99,
+  "currency": "USD",
+  "stock": 88,
+  "rating": 4.8,
+  "reviewCount": 38,
+
+  "seoTitle": "Raspberry Sparkle - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling iced tea with natural raspberry flavor. Bright, berrylicious, and refreshingly light.",
+
+  "longDescription": "A vibrant sparkling infusion where the bright, tangy sweetness of raspberry meets the smooth character of freshly brewed tea. Lightly carbonated and infused with natural flavours, this refreshing iced tea delivers a lively burst of berry freshness balanced with crisp effervescence. Bold, fruity, and delightfully refreshing—perfect for a sparkling tea moment.",
+
+  "features": [
+    "Sparkling iced tea",
+    "Natural raspberry flavor",
+    "Low sugar / low calorie",
+    "Ready-to-drink convenience",
+    "Made with agave syrup"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Raspberry Sparkle.png"
+  ]
+},
+{
+  "id": "matcha-sparkling-355ml",
+  "slug": "matcha-sparkling-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
+
+  "name": "Matcha -355ml",
+  "shortDescription": "Sparkling green tea with premium matcha. Vibrant, energizing, and delicately smooth.",
+  "tags": ["Matcha", "Sparkling", "Energizing"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Matcha_Can_Mockup_4.jpg",
+
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Matcha Tea",
+    "Agave Syrup"
+  ],
+
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 72,
+  "rating": 4.9,
+  "reviewCount": 51,
+
+  "seoTitle": "Matcha Sparkling Tea - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling green tea with premium matcha. Vibrant, energizing, and delicately smooth.",
+
+  "longDescription": "A vibrant fusion of premium matcha and lively carbonation, crafted for a refreshing modern tea experience. Smooth, earthy matcha notes are balanced with crisp effervescence, creating a clean and invigorating sparkling iced tea. Light, energizing, and naturally uplifting—perfect for a refreshing boost with every sparkling sip.",
+
+  "features": [
+    "Sparkling matcha green tea",
+    "Premium matcha powder",
+    "Low sugar / low calorie",
+    "Naturally energizing",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Matcha_Can_Mockup_4.jpg"
+  ]
+},
+{
+  "id": "lemon-blast-355ml",
+  "slug": "lemon-blast-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
+
+  "name": "Lemon Blast-355ml",
+  "shortDescription": "Sparkling iced tea with zesty lemon flavor. Crisp, citrusy, and instantly refreshing.",
+  "tags": ["Citrus", "Sparkling", "Zesty"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Lemon_Can_Mockup_5.jpg",
+
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Instant Black Tea",
+    "Natural Lemon Flavouring",
+    "Sugar",
+    "Agave Syrup"
+  ],
+
+  "price": 2.99,
+  "currency": "USD",
+  "stock": 94,
+  "rating": 4.7,
+  "reviewCount": 44,
+
+  "seoTitle": "Lemon Blast - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling iced tea with zesty lemon flavor. Crisp, citrusy, and instantly refreshing.",
+
+  "longDescription": "A crisp and refreshing fusion of premium brewed tea, bright lemon flavour, and lively carbonation. This sparkling iced tea delivers a perfectly balanced combination of citrus zest and smooth tea character, creating a clean, uplifting beverage with every sip. Light, vibrant, and refreshingly effervescent—simply pop the can and enjoy a sparkling twist on classic iced tea.",
+
+  "features": [
+    "Sparkling iced tea",
+    "Zesty natural lemon flavor",
+    "Low sugar / low calorie",
+    "Ready-to-drink convenience",
+    "Classic citrus refreshment"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Lemon_Can_Mockup_5.jpg"
+  ]
+},
+{
+  "id": "jasmine-green-355ml",
+  "slug": "jasmine-green-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
+
+  "name": "Jasmin Green- 355ml",
+  "shortDescription": "Sparkling green tea with delicate jasmine aroma. Floral, calming, and lightly refreshing.",
+  "tags": ["Floral", "Sparkling", "Calming"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg",
+
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Instant Green Tea",
+    "Natural Lemon Flavouring",
+    "Sugar",
+    "Agave Syrup"
+  ],
+
+  "price": 2.99,
+  "currency": "USD",
+  "stock": 82,
+  "rating": 4.8,
+  "reviewCount": 46,
+
+  "seoTitle": "Jasmine Green Tea - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling green tea with delicate jasmine aroma. Floral, calming, and lightly refreshing.",
+
+  "longDescription": "A refreshing sparkling infusion crafted from carefully brewed tea and delicately infused with the graceful aroma of jasmine. Lightly carbonated and beautifully fragrant, this sparkling iced tea delivers a smooth tea character balanced with soft floral elegance. Crisp, refreshing, and refined—perfectly uplifting with every sparkling sip.",
+
+  "features": [
+    "Sparkling green tea",
+    "Delicate jasmine aroma",
+    "Low sugar / low calorie",
+    "Ready-to-drink convenience",
+    "Calming floral refreshment"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Jasmine Green_Can_Mockup_1.jpg"
+  ]
+},
+{
+  "id": "peach-sensation-355ml",
+  "slug": "peach-sensation-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
+
+  "name": "Peach Sensation -355ml",
+  "shortDescription": "Sparkling iced tea with juicy peach flavor. Sweet, sun-ripened, and utterly refreshing.",
+  "tags": ["Fruity", "Sparkling", "Sweet"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Peach_Can_Mockup_2.jpg",
+
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Instant Black Tea",
+    "Natural Peach Flavouring",
+    "Sugar",
+    "Agave Syrup"
+  ],
+
+  "price": 2.99,
+  "currency": "USD",
+  "stock": 90,
+  "rating": 4.8,
+  "reviewCount": 53,
+
+  "seoTitle": "Peach Sensation - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling iced tea with juicy peach flavor. Sweet, sun-ripened, and utterly refreshing.",
+
+  "longDescription": "A refreshing sparkling blend where the juicy sweetness of ripe peach meets the smooth character of freshly brewed tea. Lightly carbonated and infused with natural flavours, this vibrant iced tea offers a delicate balance of fruity softness and crisp effervescence. Smooth, uplifting, and irresistibly refreshing with every sparkling sip.",
+
+  "features": [
+    "Sparkling iced tea",
+    "Juicy natural peach flavor",
+    "Low sugar / low calorie",
+    "Ready-to-drink convenience",
+    "Sweet fruit refreshment"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Peach_Can_Mockup_2.jpg"
+  ]
+},
+{
+  "id": "magic-moment-355ml",
+  "slug": "magic-moment-355ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "iced-tea-collection",
+
+  "name": "Magic Moment- 355ml",
+  "shortDescription": "Sparkling iced tea with strawberry and rose. Romantic, floral-fruity, and elegantly refreshing.",
+  "tags": ["Floral", "Fruity", "Sparkling"],
+  "packInfo": "355ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/iced-teas-collection/Magic_Can_Mockup_6.jpg",
+
+  "format": "Sparkling/Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Carbonated Water",
+    "Instant Black Tea",
+    "Natural Strawberry Flavouring",
+    "Natural Rose Flavouring",
+    "Sugar",
+    "Agave Syrup"
+  ],
+
+  "price": 3.29,
+  "currency": "USD",
+  "stock": 68,
+  "rating": 4.9,
+  "reviewCount": 47,
+
+  "seoTitle": "Magic Moment - 355ml - Iced Tea Collection",
+  "seoDescription": "Sparkling iced tea with strawberry and rose. Romantic, floral-fruity, and elegantly refreshing.",
+
+  "longDescription": "A refreshing sparkling infusion where luscious strawberry sweetness meets the delicate elegance of rose. Crafted from carefully brewed tea and infused with natural flavours, this lightly carbonated iced tea delivers a vibrant, aromatic cup with a perfect balance of fruity brightness and floral finesse. Crisp, refreshing, and beautifully uplifting with every sparkling sip.",
+
+  "features": [
+    "Sparkling iced tea",
+    "Romantic strawberry & rose",
+    "Low sugar / low calorie",
+    "Ready-to-drink convenience",
+    "Elegantly refreshing"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/iced-teas-collection/Magic_Can_Mockup_6.jpg"
+  ]
+},
 
 
 {

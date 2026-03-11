@@ -4159,282 +4159,281 @@
   },
 
 
-  {
-    "id": "coffee-caramel-250ml",
-    "slug": "coffee-caramel-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "coffee-collection",
-    
-    "name": "Coffee (Caramel) -250ml",
-    "shortDescription": "Smooth iced coffee with rich caramel flavor. Made with coconut milk for creamy indulgence.",
-    "tags": ["Caramel", "Creamy", "Indulgent"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Caramel.webp",
-    
-    "brand": "Ceylon Coffee",
-    "flavor": "Caramel",
-    "coffeeType": "Iced Coffee",
-    "unitCount": "250ml",
+{
+  "id": "coffee-caramel-250ml",
+  "slug": "coffee-caramel-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "coffee-collection",
 
-    "format": "Can",
-    "base": "Coffee with Coconut Milk",
-    "ingredients": "Coconut Milk, Sugar, Coffee, Natural Caramel Flavouring",
-    "serving": "Ready to Drink",
-    "additives": "Natural Caramel Flavouring",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 64,
-    "rating": 4.8,
-    "reviewCount": 39,
-    
-    "seoTitle": "Caramel Iced Coffee - 250ml - Coffee Collection",
-    "seoDescription": "Smooth iced coffee with rich caramel flavor made with coconut milk for creamy dairy-free indulgence.",
-    
-    "longDescription": "Caramel Iced Coffee is a smooth, ready-to-drink beverage that combines premium Ceylon coffee with the rich, buttery sweetness of caramel. Made with creamy coconut milk instead of dairy, it offers a luscious texture and indulgent flavor that's completely plant-based. Perfect for coffee lovers seeking a convenient, delicious treat on the go.",
-    
-    "features": [
-      "Smooth iced coffee",
-      "Rich caramel flavor",
-      "Made with coconut milk",
-      "Dairy-free and plant-based",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/coffee-collection/Caramel.webp"
-    ]
-  },
-  {
-    "id": "coffee-french-vanilla-250ml",
-    "slug": "coffee-french-vanilla-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "coffee-collection",
-    
-    "name": "Coffee (French Vanilla) -250ml",
-    "shortDescription": "Creamy iced coffee with aromatic French vanilla. Smooth, sweet, and utterly satisfying.",
-    "tags": ["Vanilla", "Creamy", "Smooth"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/French_Vanilla.webp",
-    
-    "brand": "Ceylon Coffee",
-    "flavor": "French Vanilla",
-    "coffeeType": "Iced Coffee",
-    "unitCount": "250ml",
+  "name": "Coffee (Caramel) -250ml",
+  "shortDescription": "Smooth iced coffee with rich caramel flavor. Made with coconut milk for creamy indulgence.",
+  "tags": ["Caramel", "Creamy", "Indulgent"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Caramel.webp",
 
-    "format": "Can",
-    "base": "Coffee with Coconut Milk",
-    "ingredients": "Coconut Milk, Sugar, Coffee, Natural Vanilla Flavouring",
-    "serving": "Ready to Drink",
-    "additives": "Natural Vanilla Flavouring",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 71,
-    "rating": 4.8,
-    "reviewCount": 45,
-    
-    "seoTitle": "French Vanilla Iced Coffee - 250ml - Coffee Collection",
-    "seoDescription": "Creamy iced coffee with aromatic French vanilla made with coconut milk for smooth dairy-free satisfaction.",
-    
-    "longDescription": "French Vanilla Iced Coffee is a delightfully smooth ready-to-drink beverage featuring premium Ceylon coffee infused with the sweet, aromatic essence of French vanilla. Crafted with creamy coconut milk, it delivers a rich, satisfying texture without any dairy. Perfect for vanilla lovers seeking a convenient, plant-based coffee treat.",
-    
-    "features": [
-      "Smooth iced coffee",
-      "Aromatic French vanilla",
-      "Made with coconut milk",
-      "Dairy-free and plant-based",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/coffee-collection/French_Vanilla.webp"
-    ]
-  },
-  {
-    "id": "coffee-chocolate-250ml",
-    "slug": "coffee-chocolate-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "coffee-collection",
-    
-    "name": "Coffee (Chocolate) -250ml",
-    "shortDescription": "Rich mocha-style iced coffee with real cocoa flavor. Decadent, energizing, and dairy-free.",
-    "tags": ["Chocolate", "Mocha", "Decadent"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Chocolate.webp",
-    
-    "brand": "Ceylon Coffee",
-    "flavor": "Chocolate",
-    "coffeeType": "Iced Coffee",
-    "unitCount": "250ml",
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Water",
+    "Coconut Milk",
+    "Instant Coffee",
+    "Sugar",
+    "Xanthan",
+    "Natural Caramel Flavouring"
+  ],
 
-    "format": "Can",
-    "base": "Coffee with Coconut Milk",
-    "ingredients": "Coconut Milk, Sugar, Coffee, Natural Cocoa Flavouring",
-    "serving": "Ready to Drink",
-    "additives": "Natural Cocoa Flavouring",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 58,
-    "rating": 4.9,
-    "reviewCount": 52,
-    
-    "seoTitle": "Chocolate Iced Coffee - 250ml - Coffee Collection",
-    "seoDescription": "Rich mocha-style iced coffee with real cocoa flavor made with coconut milk for decadent dairy-free indulgence.",
-    
-    "longDescription": "Chocolate Iced Coffee is a decadent mocha-style beverage that blends premium Ceylon coffee with rich, natural cocoa flavor. Made with creamy coconut milk, it delivers the perfect balance of coffee intensity and chocolate sweetness, all in a convenient plant-based format. Perfect for those who love the classic coffee-chocolate combination.",
-    
-    "features": [
-      "Rich mocha-style coffee",
-      "Natural cocoa flavor",
-      "Made with coconut milk",
-      "Dairy-free and plant-based",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/coffee-collection/Chocolate.webp"
-    ]
-  },
-  {
-    "id": "coffee-lemon-black-250ml",
-    "slug": "coffee-lemon-black-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "coffee-collection",
-    
-    "name": "Coffee (Lemon Black)-250ml",
-    "shortDescription": "Unique lemon-infused black coffee. Bold, citrusy, and refreshingly different.",
-    "tags": ["Citrus", "Bold", "Unique"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/LemonBlackIcedCoffee.webp",
-    
-    "brand": "Ceylon Coffee",
-    "flavor": "Lemon",
-    "coffeeType": "Iced Coffee",
-    "unitCount": "250ml",
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 64,
+  "rating": 4.8,
+  "reviewCount": 39,
 
-    "format": "Can",
-    "base": "Coffee with Coconut Milk",
-    "ingredients": "Coconut Milk, Sugar, Coffee, Natural Lemon Flavouring",
-    "serving": "Ready to Drink",
-    "additives": "Natural Lemon Flavouring",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 52,
-    "rating": 4.6,
-    "reviewCount": 31,
-    
-    "seoTitle": "Lemon Black Iced Coffee - 250ml - Coffee Collection",
-    "seoDescription": "Unique lemon-infused black coffee made with coconut milk for a bold, citrusy, and refreshingly different experience.",
-    
-    "longDescription": "Lemon Black Iced Coffee is an adventurous blend that pairs the bold intensity of premium Ceylon coffee with the bright, zesty notes of natural lemon. Made with creamy coconut milk, this unique combination creates a refreshingly different coffee experience that's both invigorating and smooth. Perfect for those seeking to explore beyond traditional coffee flavors.",
-    
-    "features": [
-      "Bold black coffee",
-      "Zesty natural lemon",
-      "Made with coconut milk",
-      "Dairy-free and plant-based",
-      "Unique refreshing twist"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/coffee-collection/LemonBlackIcedCoffee.webp"
-    ]
-  },
-  {
-    "id": "coffee-hazelnut-250ml",
-    "slug": "coffee-hazelnut-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "coffee-collection",
-    
-    "name": "Coffee (Hazelnut)-250ml",
-    "shortDescription": "Smooth iced coffee with nutty hazelnut flavor. Rich, aromatic, and utterly satisfying.",
-    "tags": ["Nutty", "Aromatic", "Smooth"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Hazelnut.webp",
-    
-    "brand": "Ceylon Coffee",
-    "flavor": "Hazelnut",
-    "coffeeType": "Iced Coffee",
-    "unitCount": "250ml",
+  "seoTitle": "Caramel Iced Coffee - 250ml - Coffee Collection",
+  "seoDescription": "Smooth iced coffee with rich caramel flavor made with coconut milk for creamy dairy-free indulgence.",
 
-    "format": "Can",
-    "base": "Coffee with Coconut Milk",
-    "ingredients": "Coconut Milk, Sugar, Coffee, Natural Hazelnut Flavouring",
-    "serving": "Ready to Drink",
-    "additives": "Natural Hazelnut Flavouring",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 63,
-    "rating": 4.8,
-    "reviewCount": 43,
-    
-    "seoTitle": "Hazelnut Iced Coffee - 250ml - Coffee Collection",
-    "seoDescription": "Smooth iced coffee with nutty hazelnut flavor made with coconut milk for rich, aromatic dairy-free enjoyment.",
-    
-    "longDescription": "Hazelnut Iced Coffee is a wonderfully aromatic beverage that combines premium Ceylon coffee with the warm, nutty essence of hazelnuts. Crafted with creamy coconut milk, it delivers a rich, satisfying texture and indulgent flavor without any dairy. Perfect for nutty flavor enthusiasts seeking a convenient plant-based coffee option.",
-    
-    "features": [
-      "Smooth iced coffee",
-      "Nutty hazelnut flavor",
-      "Made with coconut milk",
-      "Dairy-free and plant-based",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/coffee-collection/Hazelnut.webp"
-    ]
-  },
-  {
-    "id": "coffee-latte-250ml",
-    "slug": "coffee-latte-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "coffee-collection",
-    
-    "name": "Coffee (Latte)-250ml",
-    "shortDescription": "Classic latte with creamy coconut milk. Smooth, balanced, and perfectly comforting.",
-    "tags": ["Classic", "Creamy", "Balanced"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Latte.webp",
-    
-    "brand": "Ceylon Coffee",
-    "flavor": "Latte",
-    "coffeeType": "Iced Coffee",
-    "unitCount": "250ml",
+  "longDescription": "A smooth and indulgent ready-to-drink coffee crafted from rich brewed coffee blended with creamy milk and the luscious sweetness of caramel. This perfectly balanced beverage delivers bold coffee character with a silky, caramel-kissed finish. Conveniently packed in a can, it offers a satisfying and refreshing coffee experience anytime, anywhere.",
 
-    "format": "Can",
-    "base": "Coffee with Coconut Milk",
-    "ingredients": "Coconut Milk, Sugar, Coffee",
-    "serving": "Ready to Drink",
-    "additives": "N/A",
-    
-    "price": 3.29,
-    "currency": "USD",
-    "stock": 84,
-    "rating": 4.7,
-    "reviewCount": 58,
-    
-    "seoTitle": "Latte Iced Coffee - 250ml - Coffee Collection",
-    "seoDescription": "Classic latte with creamy coconut milk for a smooth, balanced, and perfectly comforting dairy-free experience.",
-    
-    "longDescription": "Latte Iced Coffee is the classic coffee experience reimagined with plant-based goodness. This ready-to-drink beverage features premium Ceylon coffee blended with creamy coconut milk and lightly sweetened for the perfect balance. Clean and simple with no added flavorings, it lets the quality of the coffee and the smoothness of the coconut milk shine through. Perfect for traditionalists seeking a convenient dairy-free latte.",
-    
-    "features": [
-      "Classic latte style",
-      "Pure coffee & coconut milk",
-      "No artificial flavorings",
-      "Dairy-free and plant-based",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/coffee-collection/Latte.webp"
-    ]
-  },
+  "features": [
+    "Smooth iced coffee",
+    "Rich caramel flavor",
+    "Made with coconut milk",
+    "Dairy-free and plant-based",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/coffee-collection/Caramel.webp"
+  ]
+},
+{
+  "id": "coffee-french-vanilla-250ml",
+  "slug": "coffee-french-vanilla-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "coffee-collection",
+
+  "name": "Coffee (French Vanilla) -250ml",
+  "shortDescription": "Creamy iced coffee with aromatic French vanilla. Smooth, sweet, and utterly satisfying.",
+  "tags": ["Vanilla", "Creamy", "Smooth"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/French_Vanilla.webp",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Water",
+    "Coconut Milk",
+    "Instant Coffee",
+    "Sugar",
+    "Xanthan",
+    "Natural Vanilla Flavouring"
+  ],
+
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 71,
+  "rating": 4.8,
+  "reviewCount": 45,
+
+  "seoTitle": "French Vanilla Iced Coffee - 250ml - Coffee Collection",
+  "seoDescription": "Creamy iced coffee with aromatic French vanilla made with coconut milk for smooth dairy-free satisfaction.",
+
+  "longDescription": "A smooth and indulgent ready-to-drink coffee crafted from rich brewed coffee blended with creamy milk and the elegant sweetness of vanilla. This refined beverage offers a harmonious balance of bold coffee character and silky vanilla notes, creating a comforting and aromatic coffee experience. Conveniently packed in a can, it's perfect for enjoying anytime, anywhere.",
+
+  "features": [
+    "Smooth iced coffee",
+    "Aromatic French vanilla",
+    "Made with coconut milk",
+    "Dairy-free and plant-based",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/coffee-collection/French_Vanilla.webp"
+  ]
+},
+{
+  "id": "coffee-chocolate-250ml",
+  "slug": "coffee-chocolate-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "coffee-collection",
+
+  "name": "Coffee (Chocolate) -250ml",
+  "shortDescription": "Rich mocha-style iced coffee with real cocoa flavor. Decadent, energizing, and dairy-free.",
+  "tags": ["Chocolate", "Mocha", "Decadent"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Chocolate.webp",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Water",
+    "Coconut Milk",
+    "Instant Coffee",
+    "Sugar",
+    "Xanthan",
+    "Natural Chocolate Flavouring"
+  ],
+
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 58,
+  "rating": 4.9,
+  "reviewCount": 52,
+
+  "seoTitle": "Chocolate Iced Coffee - 250ml - Coffee Collection",
+  "seoDescription": "Rich mocha-style iced coffee with real cocoa flavor made with coconut milk for decadent dairy-free indulgence.",
+
+  "longDescription": "A rich and indulgent fusion of bold brewed coffee, creamy milk, and smooth chocolate flavour. This ready-to-drink beverage delivers a perfectly balanced taste where deep coffee notes meet velvety cocoa sweetness. Conveniently packed in a can, it offers a satisfying and refreshing coffee experience—anytime, anywhere.",
+
+  "features": [
+    "Rich mocha-style coffee",
+    "Natural cocoa flavor",
+    "Made with coconut milk",
+    "Dairy-free and plant-based",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/coffee-collection/Chocolate.webp"
+  ]
+},
+{
+  "id": "coffee-lemon-black-250ml",
+  "slug": "coffee-lemon-black-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "coffee-collection",
+
+  "name": "Coffee (Lemon Black)-250ml",
+  "shortDescription": "Unique lemon-infused black coffee. Bold, citrusy, and refreshingly different.",
+  "tags": ["Citrus", "Bold", "Unique"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/LemonBlackIcedCoffee.webp",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Water",
+    "Coconut Milk",
+    "Instant Coffee",
+    "Sugar",
+    "Xanthan",
+    "Natural Lemon Flavouring"
+  ],
+
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 52,
+  "rating": 4.6,
+  "reviewCount": 31,
+
+  "seoTitle": "Lemon Black Iced Coffee - 250ml - Coffee Collection",
+  "seoDescription": "Unique lemon-infused black coffee made with coconut milk for a bold, citrusy, and refreshingly different experience.",
+
+  "longDescription": "A refreshing twist on classic milk coffee, combining rich brewed coffee with creamy milk and a bright hint of lemon. This unique ready-to-drink beverage delivers a smooth coffee character lifted by a subtle citrus freshness, creating a light, vibrant, and refreshing coffee experience. Conveniently packed in a can, it's perfect for enjoying anytime, anywhere.",
+
+  "features": [
+    "Bold black coffee",
+    "Zesty natural lemon",
+    "Made with coconut milk",
+    "Dairy-free and plant-based",
+    "Unique refreshing twist"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/coffee-collection/LemonBlackIcedCoffee.webp"
+  ]
+},
+{
+  "id": "coffee-hazelnut-250ml",
+  "slug": "coffee-hazelnut-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "coffee-collection",
+
+  "name": "Coffee (Hazelnut)-250ml",
+  "shortDescription": "Smooth iced coffee with nutty hazelnut flavor. Rich, aromatic, and utterly satisfying.",
+  "tags": ["Nutty", "Aromatic", "Smooth"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Hazelnut.webp",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Water",
+    "Coconut Milk",
+    "Instant Coffee",
+    "Sugar",
+    "Xanthan",
+    "Natural Hazelnut Flavouring"
+  ],
+
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 63,
+  "rating": 4.8,
+  "reviewCount": 43,
+
+  "seoTitle": "Hazelnut Iced Coffee - 250ml - Coffee Collection",
+  "seoDescription": "Smooth iced coffee with nutty hazelnut flavor made with coconut milk for rich, aromatic dairy-free enjoyment.",
+
+  "longDescription": "A smooth and indulgent ready-to-drink coffee crafted with rich brewed coffee and creamy coconut milk for a naturally lactose-free experience. Infused with the warm, nutty aroma of hazelnut, this refreshing beverage delivers a perfectly balanced combination of bold coffee character and silky tropical creaminess. Conveniently packed in a can, it's a deliciously satisfying pick-me-up anytime, anywhere.",
+
+  "features": [
+    "Smooth iced coffee",
+    "Nutty hazelnut flavor",
+    "Made with coconut milk",
+    "Dairy-free and plant-based",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/coffee-collection/Hazelnut.webp"
+  ]
+},
+{
+  "id": "coffee-latte-250ml",
+  "slug": "coffee-latte-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "coffee-collection",
+
+  "name": "Coffee (Latte)-250ml",
+  "shortDescription": "Classic latte with creamy coconut milk. Smooth, balanced, and perfectly comforting.",
+  "tags": ["Classic", "Creamy", "Balanced"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/coffee-collection/Latte.webp",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Water",
+    "Coconut Milk",
+    "Instant Coffee",
+    "Sugar",
+    "Xanthan"
+  ],
+
+  "price": 3.29,
+  "currency": "USD",
+  "stock": 84,
+  "rating": 4.7,
+  "reviewCount": 58,
+
+  "seoTitle": "Latte Iced Coffee - 250ml - Coffee Collection",
+  "seoDescription": "Classic latte with creamy coconut milk for a smooth, balanced, and perfectly comforting dairy-free experience.",
+
+  "longDescription": "A smooth and creamy ready-to-drink latte crafted from rich brewed coffee blended with velvety milk. Perfectly balanced and gently indulgent, this classic coffee delivers a mellow, well-rounded flavour with a silky finish. Conveniently packed in a can, it offers a comforting café-style coffee experience anytime, anywhere.",
+
+  "features": [
+    "Classic latte style",
+    "Pure coffee & coconut milk",
+    "No artificial flavorings",
+    "Dairy-free and plant-based",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/coffee-collection/Latte.webp"
+  ]
+},
 
 
 {

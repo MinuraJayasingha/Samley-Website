@@ -1,4 +1,4 @@
-﻿// assets/js/product.js
+// assets/js/product.js
 
 /* --------------------------------------------------
    Helpers - Extract slug from URL pathname
@@ -115,7 +115,6 @@ function injectProductData(product) {
     setMetaValue("product-beverage-type", product.beverageType);
     setMetaValue("product-type", product.type);
     setMetaValue("product-unit-count", product.unitCount);
-
     /* ---------- Rating ---------- */
 
     document.getElementById("product-review-count").textContent =

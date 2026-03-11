@@ -11,7 +11,7 @@
     "packInfo": "125g Loose Tea Pack",
     "thumbnailImage": "assets/images/products/Teas/Luxury Teas/Arabian Night.png",
     
-    "brand": "Ceylon Tea",
+    "brand": "Ceylon Tea testing",
     "flavor": "Exotic Blend",
     "teaVariety": "Luxury Tea Blend",
     "unitCount": "125g",
@@ -1495,15 +1495,16 @@
     "thumbnailImage": "assets/images/products/Teas/Designer Teas/Silver Tips.png",
     
     "brand": "Ceylon Tea",
-    "flavor": "Delicate Black Tea",
+    "flavor": "Very pale champagne gold, crystal clear",
+    "aroma": "Delicate floral sweetness, light cucumber, fresh meadow",
     "teaVariety": "Black Tea",
     "unitCount": "40g",
 
     "format": "Loose Leaf",
-    "grade": "Silver Tips",
-    "region": "High",
-    "liquorStrength": "Light",
-    "brewingInstructions": "70-80C & 1-2min",
+    "grade": "White Tea – Silver Tips",
+    "region": "High Grown ",
+    "liquorStrength": "Very pale champagne gold, crystal clear",
+    "brewingInstructions": "90C-100C & 2-3min",
     "additives": "N/A",
     
     "price": 12.99,
@@ -1515,7 +1516,7 @@
     "seoTitle": "Silver Tips - 40g - Designer Tea Collection",
     "seoDescription": "Elegant Ceylon tea with fine silver tips, offering a delicate, smooth, and aromatic experience in a premium glass jar.",
     
-    "longDescription": "Silver Tips Tea is a premium Ceylon tea crafted from delicate silver-tipped leaves and presented in a beautiful borosilicate glass jar. It delivers a light, smooth flavor with a subtle aroma and refined character. Perfect for connoisseurs seeking elegance in every cup.",
+    "longDescription": "The gentle and slightly sweet Silver Tips tea produces an exceptionally pure tea experience. Silver Tips tea undergoes minimal processing, which preserves a heightened concentration of antioxidants. These Silver Tips are the uppermost buds, characterized by their unopened, delicate leaves covered in a fine silver fuzz. This extraordinary pale-yellow infusion is best enjoyed without any additives and can even be re-steeped for a second cup.",
     
     "features": [
       "Premium silver tips",
@@ -4606,7 +4607,7 @@
     "shortDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
     "tags": ["Hydration", "Electrolytes", "Recovery"],
     "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/isotonics/isotonic.jpeg",
+    "thumbnailImage": "assets/images/new_products/beverages/Isotonics/isotonic.jpeg",
     
     "brand": "Ceylon Wellness",
     "flavor": "Honey Lavender",
@@ -4680,7 +4681,7 @@
     "seoTitle": "Organic Blue Pea & Moringa - 30 Pyramid Bags - Organic Canisters",
     "seoDescription": "Refreshing organic herbal blend with vibrant blue pea flowers and nutrient-rich moringa in a beautiful two-tier canister.",
     
-    "longDescription": "Organic Blue Pea & Moringa is a visually stunning and nourishing herbal infusion. Vibrant blue pea flowers create a beautiful natural color transformation while providing antioxidants, while moringa leaves deliver essential nutrients and vitamins. Presented in an elegant two-tier canister with 30 pyramid tea bags, this organic blend offers both wellness benefits and a delightful tea experience. The caffeine-free infusion has a smooth, earthy flavor with subtle floral notes.",
+    "longDescription": "Butterfly Pea Flower - The butterfly pea flower is an enchanting plant. Beyond its aesthetic appeal it is rich in antioxidants and flavonoids, which are believed to have various health-promoting properties, including supporting cognitive function, reducing inflammation, regulate blood sugar levels and promoting heart health. Its petals contain natural pigments that infuse a vibrant blue hue into beverages and dishes when steeped or crushed. Moringa - Moringa is often referred to as the (miracle tree) due to its numerous health benefits and nutritional value, resulting beverage boasts a mild, slightly earthy flavour profile with subtle vegetal notes. Moringa leaves are packed with essential vitamins, minerals, and antioxidants, including vitamin C, vitamin A, calcium, potassium, and iron. Additionally, moringa leaves contain high levels of protein, making moringa tea a popular choice among individuals seeking plant-based sources of protein.",
     
     "features": [
       "30 organic pyramid tea bags",
@@ -4827,7 +4828,7 @@
     "seoTitle": "Organic Ginger & Licorice - 30 Pyramid Bags - Organic Canisters",
     "seoDescription": "Digestive-supporting organic herbal blend with spicy ginger and naturally sweet licorice root in an elegant two-tier canister.",
     
-    "longDescription": "Organic Ginger & Licorice is a comforting herbal infusion that combines the warming spice of ginger with the natural sweetness of licorice root. Ginger is traditionally used to support healthy digestion and soothe the stomach, while licorice adds a pleasant sweetness without added sugar and provides its own soothing properties. Presented in an elegant two-tier canister with 30 pyramid tea bags, this caffeine-free blend is perfect after meals or anytime you need digestive comfort.",
+    "longDescription": "Ginger - Ginger is a versatile and widely used herb known for its culinary, medicinal, and aromatic properties.Ginger's active compounds have anti-inflammatory, antioxidant, and antimicrobial effects, which help in reducing inflammation, combating oxidative stress, and supporting overall health., Liquorice - Licorice is a herb renowned for its sweet flavor and extensive medicinal properties. Licorice's active compounds contribute to its health benefits. It has anti-inflammatory, antiviral, and antimicrobial properties, helping to reduce inflammation, fight infections, and support the immune system.",
     
     "features": [
       "30 organic pyramid tea bags",
@@ -4876,7 +4877,7 @@
     "seoTitle": "Organic Peppermint & Dandelion - 30 Pyramid Bags - Organic Canisters",
     "seoDescription": "Refreshing organic herbal blend with cooling peppermint and detoxifying dandelion root in an elegant two-tier canister.",
     
-    "longDescription": "Organic Peppermint & Dandelion is a revitalizing herbal infusion that combines the crisp, cooling flavor of peppermint with the earthy, detoxifying properties of dandelion root. Peppermint aids digestion and provides a refreshing taste, while dandelion root traditionally supports liver health and natural detoxification. Presented in an elegant two-tier canister with 30 pyramid tea bags, this caffeine-free blend is perfect for morning refreshment or afternoon pick-me-up.",
+    "longDescription": "Peppermint - The peppermint infusion delivers a welcoming, cooling sensation. Its earthy yet bright flavours clear the senses and elevate the mood.,Dandelion - Dandelion’s beneficial effects are due to its rich composition of bioactive compounds, including vitamins, minerals, and antioxidants. These compounds help stimulate bile production, support liver detoxification, promote diuresis, and reduce inflammation.",
     
     "features": [
       "30 organic pyramid tea bags",
@@ -4925,7 +4926,7 @@
     "seoTitle": "Organic Hibiscus & Lavender - 30 Pyramid Bags - Organic Canisters",
     "seoDescription": "Floral and tangy organic herbal blend with vibrant hibiscus and calming lavender in an elegant two-tier canister.",
     
-    "longDescription": "Organic Hibiscus & Lavender is a beautifully balanced herbal infusion that pairs the tart, cranberry-like flavor of hibiscus flowers with the gentle, calming aroma of lavender. Hibiscus is rich in vitamin C and antioxidants, while lavender promotes relaxation and stress relief. Presented in an elegant two-tier canister with 30 pyramid tea bags, this caffeine-free blend creates a stunning deep ruby liquor with a complex floral-tangy flavor profile. Perfect for anytime enjoyment.",
+    "longDescription": "Hibiscus - The health benefits of hibiscus are largely attributed to its high content of bioactive compounds, particularly polyphenols and flavonoids. These compounds have antioxidant, anti-inflammatory, and lipid-lowering effects that contribute to its therapeutic properties., Levender - Lavender tea is a soothing herbal infusion crafted from the dried buds of the lavender plant. Known for its ability to promote relaxation, ease stress, and enhance sleep quality, this fragrant tea also offers antioxidant benefits that help protect the body from free radicals.",
     
     "features": [
       "30 organic pyramid tea bags",
@@ -4965,6 +4966,8 @@
     "liquorStrength": "Medium -Bodied",
     "brewingInstructions": "70-80C & 1-2min",
     "additives": "Natural Mango Flavoring",
+    "notes": "Ripe Mango • Soft Spice • Fresh Green Tea",
+    "ingredients": "Mango, Cardamom, Organic Green Tea-GP1",
     
     "price": 9.99,
     "currency": "USD",
@@ -4975,7 +4978,7 @@
     "seoTitle": "Organic Mango Delight - 20 Pyramid Bags - Organic Teas & Herbal Infusions",
     "seoDescription": "Fruity organic green tea blend with tropical mango flavor in a beautiful keepsake caddy.",
     
-    "longDescription": "Mango Delight is a tropical escape in a cup. This organic green tea blend combines premium GP1 grade Ceylon green tea with natural mango flavor, creating a sweet, fruity infusion that captures the essence of sun-ripened mangoes. Presented in a beautiful keepsake caddy with 20 pyramid tea bags, it's perfect for daily enjoyment or as a thoughtful gift. The medium-bodied green tea provides a smooth base for the vibrant mango notes.",
+    "longDescription": "A radiant tropical infusion where lush mango sweetness is enhanced by the gentle warmth of cardamom. Smooth organic green tea forms a fresh, elegant base, creating a vibrant yet balanced cup.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5013,6 +5016,8 @@
     "liquorStrength": "Medium -Bodied",
     "brewingInstructions": "70-80C & 1-2min",
     "additives": "Natural Honey & Lavender Flavoring",
+    "notes": "Fresh Basil • Floral Lavender ",
+    "ingredients": "Lavender, Basil, Organic Green Tea-GP1",
     
     "price": 10.99,
     "currency": "USD",
@@ -5023,7 +5028,7 @@
     "seoTitle": "Organic Honey Lavender - 20 Pyramid Bags - Organic Teas & Herbal Infusions",
     "seoDescription": "Soothing organic green tea blend with sweet honey and calming lavender in a beautiful keepsake caddy.",
     
-    "longDescription": "Honey Lavender is a comforting and elegant organic green tea blend. Premium GP1 grade Ceylon green tea provides a smooth foundation for the sweet notes of natural honey and the delicate floral aroma of lavender. This calming combination creates a soothing cup perfect for relaxation or afternoon tea. Presented in a beautiful keepsake caddy with 20 pyramid tea bags, it's both a treat for yourself and a lovely gift.",
+    "longDescription": "An elegant and calming infusion where fragrant lavender blossoms meet the fresh herbal brightness of basil. Layered over smooth organic green tea, this refined blend offers a harmonious balance of floral softness and gentle herbal vitality—perfect for mindful moments and evening relaxation.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5059,8 +5064,10 @@
     "grade": "GP1",
     "region": "Medium",
     "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "100C & 5min",
+    "brewingInstructions": "70-80C & 1-2min",
     "additives": "Natural Vanilla Flavoring",
+    "notes": "Creamy Vanilla • Soft Florals • Herbal Calm",
+    "ingredients": "Chamomile, Vanilla, Organic Green Tea-GP1",
     
     "price": 9.99,
     "currency": "USD",
@@ -5071,7 +5078,7 @@
     "seoTitle": "Organic French Vanilla - 20 Pyramid Bags - Organic Teas & Herbal Infusions",
     "seoDescription": "Creamy organic black tea blend with rich French vanilla flavor in a beautiful keepsake caddy.",
     
-    "longDescription": "French Vanilla is an indulgent organic black tea blend that combines robust GP1 grade Ceylon black tea with the rich, creamy essence of French vanilla. The full-bodied black tea provides a perfect canvas for the sweet, aromatic vanilla notes, creating a smooth and satisfying cup reminiscent of vanilla desserts. Presented in a beautiful keepsake caddy with 20 pyramid tea bags, it's perfect for daily indulgence or as a thoughtful gift for vanilla lovers.",
+    "longDescription": "A delicately perfumed blend inspired by classic French elegance. Creamy vanilla is layered with subtle notes of chamomile, offering a smooth, comforting infusion with a graceful floral finish.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5107,8 +5114,10 @@
     "grade": "FBOP",
     "region": "Medium",
     "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "Natural Berry Flavoring",
+    "brewingInstructions": "95-100C & 4-5min",
+    "additives": "Natural Berry Flavoring",    
+    "notes": "Dark Berries • Gentle Tartness • Floral Depth",
+    "ingredients": "Blackberry Flavouring, Raspberry Flavouring, Hibiscus, Apple, Red Rose, Organic Black Tea-FBOP",
     
     "price": 10.99,
     "currency": "USD",
@@ -5119,7 +5128,7 @@
     "seoTitle": "Organic Berry Sensation - 20 Pyramid Bags - Organic Teas & Herbal Infusions",
     "seoDescription": "Fruity organic black tea blend with mixed berries in a beautiful keepsake caddy.",
     
-    "longDescription": "Berry Sensation is a vibrant organic black tea blend that bursts with the flavor of mixed berries. Premium FBOP grade Ceylon black tea provides a robust foundation for the sweet and tangy notes of strawberries, raspberries, and blueberries. This fruity combination creates a refreshing cup that's delicious hot or iced. Presented in a beautiful keepsake caddy with 20 pyramid tea bags, it's perfect for berry lovers and makes a cheerful gift.",
+    "longDescription": "A bold and indulgent black tea infusion bursting with blackberry and raspberry notes. Balanced by hibiscus, apple, and rose, this blend delivers a rich colour, vibrant aroma, and lingering fruity finish.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5157,6 +5166,8 @@
     "liquorStrength": "Medium -Bodied",
     "brewingInstructions": "70-80C & 1-2min",
     "additives": "Natural Herbs & Spices",
+    "notes": " Citrus Zest • Spiced Ginger • Herbal Freshness",
+    "ingredients": "Ginger, Apple, Lemongrass, Lemon Peel, Organic Green Tea- GP1",
     
     "price": 9.99,
     "currency": "USD",
@@ -5167,7 +5178,7 @@
     "seoTitle": "Organic Herbal Punch - 20 Pyramid Bags - Organic Teas & Herbal Infusions",
     "seoDescription": "Bold organic herbal infusion with fruity and spicy notes in a beautiful keepsake caddy.",
     
-    "longDescription": "Herbal Punch is an invigorating organic herbal infusion that delivers a bold, complex flavor profile. This caffeine-free blend combines a variety of organic herbs and spices to create a warming, full-bodied cup with both fruity sweetness and spicy kick. Notes of citrus, cinnamon, and ginger create a harmonious punch that awakens the senses. Presented in a beautiful keepsake caddy with 20 pyramid tea bags, it's perfect for those who love bold herbal teas.",
+    "longDescription": "A lively and refreshing blend combining bright lemon with warming ginger, layered over crisp green tea and aromatic botanicals. Invigorating and uplifting, this infusion offers a perfect balance of zest and warmth.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5203,8 +5214,10 @@
     "grade": "FBOP",
     "region": "Medium",
     "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "100C & 5min",
-    "additives": "Natural Rose Petals",
+    "brewingInstructions": "95-100C & 4-5min",
+    "additives": "Natural Rose Petals",    
+    "notes": "Rose Petals • Gentle Fruit • Citrus Lift",
+    "ingredients": "Rose Petals, Hibiscus, Rosehip, Lemon Peel, Organic Black Tea-FBOP",
     
     "price": 11.99,
     "currency": "USD",
@@ -5215,7 +5228,7 @@
     "seoTitle": "Organic Rose Blossom - 20 Pyramid Bags - Organic Teas & Herbal Infusions",
     "seoDescription": "Delicate organic black tea with aromatic rose petals in a beautiful keepsake caddy.",
     
-    "longDescription": "Rose Blossom is an elegantly floral organic black tea that combines premium FBOP grade Ceylon black tea with fragrant rose petals. The full-bodied black tea provides a smooth foundation for the romantic, aromatic notes of rose, creating a sophisticated cup that's both comforting and refined. The natural rose petals add visual beauty as they unfurl during brewing. Presented in a beautiful keepsake caddy with 20 pyramid tea bags, it's perfect for special occasions or everyday elegance.",
+    "longDescription": "An opulent floral black tea where fragrant rose takes centre stage, complemented by hibiscus, rosehip, apple, and citrus peel. Elegant, aromatic, and beautifully layered, this blend is a timeless expression of luxury.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5398,8 +5411,10 @@
     "grade": "FBOP",
     "region": "Medium",
     "liquorStrength": "Medium",
-    "brewingInstructions": "100C & 3-4min",
+    "brewingInstructions": "95-100C & 4-5min",
     "additives": "Natural Chocolate Flavoring",
+    "notes": "Cool mint • Subtle dark cocoa",
+    "ingredients": "Cocoa, Peppermint, Ceylon Black Tea -FBOP",
     
     "price": 6.99,
     "currency": "USD",
@@ -5410,7 +5425,7 @@
     "seoTitle": "Organic Chocolate Delight - 20 Pyramid Bags - Organic Tea in Cartons",
     "seoDescription": "Decadent organic black tea blend with rich chocolate flavor. Indulgent yet guilt-free.",
     
-    "longDescription": "Chocolate Delight satisfies chocolate cravings in a wholesome cup of organic black tea. Premium FBOP grade Ceylon black tea provides a robust foundation for rich, natural chocolate flavor, creating a decadent experience reminiscent of chocolate desserts without the calories. The full-bodied tea and chocolate notes complement each other perfectly, resulting in a smooth, indulgent cup that's perfect for afternoon treat or after-dinner relaxation.",
+    "longDescription": "A refreshing harmony of rich cocoa nibs and cool peppermint leaves, beautifully layered over fine black tea. The depth of the tea provides structure and warmth, while the gentle chocolate notes of roasted cocoa are lifted by the bright, invigorating character of peppermint",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5446,8 +5461,10 @@
     "grade": "Green OP",
     "region": "Medium",
     "liquorStrength": "Medium",
-    "brewingInstructions": "70-80C & 2-3min",
+    "brewingInstructions": "70-80C & 1-2min",
     "additives": "Natural Apple Flavoring",
+    "notes": " Sweet Apple • Soft Spice • Fresh Green Tea",
+    "ingredients": "Apple, Cinnamon, Ceylon Green Tea -GP1",
     
     "price": 6.49,
     "currency": "USD",
@@ -5458,7 +5475,7 @@
     "seoTitle": "Organic Apple Sensation - 20 Pyramid Bags - Organic Tea in Cartons",
     "seoDescription": "Crisp organic green tea blend with fresh apple flavor. Light, refreshing, and orchard-fresh.",
     
-    "longDescription": "Apple Sensation captures the crisp, refreshing taste of fresh-picked apples in a cup of organic green tea. The Green OP grade tea provides a light, smooth foundation that allows the bright apple notes to shine. This delightful combination creates a refreshing beverage that's perfect for morning hydration or afternoon pick-me-up. The natural apple flavor evokes memories of autumn orchards with every sip.",
+    "longDescription": "Crisp apple sweetness harmonised with warming cinnamon and smooth green tea. Refreshing yet comforting, this blend is a timeless classic with a refined, modern character.",
     
     "features": [
       "20 organic pyramid tea bags",
@@ -5590,8 +5607,10 @@
     "grade": "Green OP",
     "region": "Medium",
     "liquorStrength": "Medium",
-    "brewingInstructions": "70-80C & 2-3min",
+    "brewingInstructions": "70-80C & 1-2min",
     "additives": "Natural Orange & Spice Flavoring",
+    "notes": "Citrus Peel • Warming Spices • Herbal Depth",
+    "ingredients": " Orange Peel, Cinnamon Leaf, Cinnamon, Ginger, Clove, Black Pepper, Curry Leaves, Fennel Seed, Ceylon Green Tea GP1",
     
     "price": 6.49,
     "currency": "USD",
@@ -5602,7 +5621,7 @@
     "seoTitle": "Organic Spicy Orange - 20 Pyramid Bags - Organic Tea in Cartons",
     "seoDescription": "Zesty organic green tea with orange and warming spices. Citrusy, spicy, and uplifting.",
     
-    "longDescription": "Spicy Orange is a vibrant organic green tea blend that combines bright citrus notes with warming holiday-style spices. The Green OP grade tea provides a smooth, light foundation for the zesty orange and aromatic spices like cinnamon and clove. This uplifting combination creates a cup that's both refreshing and comforting, reminiscent of cheerful winter days. Perfect for morning energy boost or afternoon pick-me-up with a spicy twist.",
+    "longDescription": "A bold and invigorating blend combining zesty orange with a complex medley of warming spices and herbs. Layered, aromatic, and deeply satisfying, this tea awakens the senses with every sip.",
     
     "features": [
       "20 organic pyramid tea bags",

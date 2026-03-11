@@ -6199,101 +6199,90 @@
     ]
   },
 
-  {
-    "id": "organic-coconut-water-bottle-350ml",
-    "slug": "organic-coconut-water-bottle-350ml",
-    "mainCategory": "organic-coconut-based-collection",
-    "subCategory": "organic-coconut-water-collection",
-    
-    "name": "Organic Coconut Water in a bottle -350ml",
-    "shortDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
-    "tags": ["Organic", "Hydrating", "Refreshing"],
-    "packInfo": "350ml Bottle",
-    "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
-    
-    "brand": "Ceylon Coconut",
-    "flavor": "Coconut Water",
-    "productType": "Coconut Water",
-    "unitCount": "350ml",
+{
+  "id": "organic-coconut-water-bottle-350ml",
+  "slug": "organic-coconut-water-bottle-350ml",
+  "mainCategory": "organic-coconut-based-collection",
+  "subCategory": "organic-coconut-water-collection",
 
-    "format": "Bottle",
-    "processing": "Raw, Unpasteurized",
-    "certification": "Organic Certified",
-    "electrolytes": "Natural Potassium, Sodium, Magnesium",
-    "uses": "Hydration, Post-Workout, Mixers",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 92,
-    "rating": 4.7,
-    "reviewCount": 58,
-    
-    "seoTitle": "Organic Coconut Water - 350ml Bottle - Organic Coconut Water",
-    "seoDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
-    
-    "longDescription": "Organic Coconut Water is the pure, clear liquid harvested from young green coconuts, bottled fresh to preserve its natural electrolyte balance and refreshing taste. Naturally rich in potassium, sodium, and magnesium, it's nature's perfect sports drink for post-workout hydration or anytime refreshment. No added sugar, preservatives, or concentrates—just pure coconut water straight from the source.",
-    
-    "features": [
-      "Certified organic",
-      "From young green coconuts",
-      "Naturally rich in electrolytes",
-      "No added sugar",
-      "No preservatives",
-      "Perfect natural hydration"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
-    ]
-  },
+  "name": "Organic Coconut Water in a bottle -350ml",
+  "shortDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
+  "tags": ["Organic", "Hydrating", "Refreshing"],
+  "packInfo": "350ml Bottle",
+  "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
 
-  {
-    "id": "organic-king-coconut-water-bottle-350ml",
-    "slug": "organic-king-coconut-water-bottle-350ml",
-    "mainCategory": "organic-king-coconut-water-collection",
-    "subCategory": "organic-king-coconut-water-collection",
-    
-    "name": "Organic King Coconut Water in a bottle -350ml",
-    "shortDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
-    "tags": ["Organic", "Hydrating", "Refreshing"],
-    "packInfo": "350ml Bottle",
-    "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
-    
-    "brand": "Ceylon King Coconut",
-    "flavor": "King Coconut Water",
-    "productType": "Coconut Water",
-    "unitCount": "350ml",
+  "format": "Bottle",
+  "certification": "Organic Certified",
+  "ingredients": [
+    "Organic Coconut Water"
+  ],
 
-    "format": "Bottle",
-    "processing": "Raw, Unpasteurized",
-    "certification": "Organic Certified",
-    "electrolytes": "Natural Potassium, Sodium, Magnesium",
-    "uses": "Hydration, Post-Workout, Mixers",
-    
-    "price": 3.49,
-    "currency": "USD",
-    "stock": 92,
-    "rating": 4.7,
-    "reviewCount": 58,
-    
-    "seoTitle": "Organic Coconut Water - 350ml Bottle - Organic Coconut Water",
-    "seoDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
-    
-    "longDescription": "Organic Coconut Water is the pure, clear liquid harvested from young green coconuts, bottled fresh to preserve its natural electrolyte balance and refreshing taste. Naturally rich in potassium, sodium, and magnesium, it's nature's perfect sports drink for post-workout hydration or anytime refreshment. No added sugar, preservatives, or concentrates—just pure coconut water straight from the source.",
-    
-    "features": [
-      "Certified organic",
-      "From young green coconuts",
-      "Naturally rich in electrolytes",
-      "No added sugar",
-      "No preservatives",
-      "Perfect natural hydration"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
-    ]
-  },
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 92,
+  "rating": 4.7,
+  "reviewCount": 58,
+
+  "seoTitle": "Organic Coconut Water - 350ml Bottle - Organic Coconut Water",
+  "seoDescription": "Pure, refreshing organic coconut water straight from young green coconuts. Naturally hydrating.",
+
+  "longDescription": "Sourced from sun-rich coconut palms and gently packed for freshness, this is coconut in its purest form. Just clean, naturally refreshing hydration—exactly as nature intended. Perfect for everyday hydration, post-workout refreshment, or a moment of tropical calm. Naturally Sourced. Thoughtfully Canned. Pure Coconut. Proudly Sri Lankan. Naturally Simple. Exceptionally Pure.",
+
+  "features": [
+    "Certified organic",
+    "From young green coconuts",
+    "Naturally rich in electrolytes",
+    "No added sugar",
+    "No preservatives",
+    "Perfect natural hydration"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
+  ]
+},
+{
+  "id": "organic-king-coconut-water-bottle-350ml",
+  "slug": "organic-king-coconut-water-bottle-350ml",
+  "mainCategory": "organic-king-coconut-water-collection",
+  "subCategory": "organic-king-coconut-water-collection",
+
+  "name": "Organic King Coconut Water in a bottle -350ml",
+  "shortDescription": "Pure organic King Coconut Water from Sri Lanka. Light, clean, and rich in natural electrolytes.",
+  "tags": ["Organic", "Hydrating", "Refreshing"],
+  "packInfo": "350ml Bottle",
+  "thumbnailImage": "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png",
+
+  "format": "Bottle",
+  "certification": "Organic Certified",
+  "ingredients": [
+    "Organic King Coconut Water"
+  ],
+
+  "price": 3.49,
+  "currency": "USD",
+  "stock": 92,
+  "rating": 4.7,
+  "reviewCount": 58,
+
+  "seoTitle": "Organic Coconut Water - 350ml Bottle - Organic Coconut Water",
+  "seoDescription": "Pure organic King Coconut Water from Sri Lanka. Light, clean, and naturally rich in electrolytes.",
+
+  "longDescription": "Naturally grown under the Sri Lankan sun, King Coconut is prized for its smooth taste and natural electrolytes. Light, clean, and rich in natural electrolytes, it's hydration perfected by nature. Naturally Sourced. Thoughtfully Canned. Proudly Sri Lankan. Naturally Simple. Exceptionally Pure.",
+
+  "features": [
+    "Certified organic",
+    "From young green coconuts",
+    "Naturally rich in electrolytes",
+    "No added sugar",
+    "No preservatives",
+    "Perfect natural hydration"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Coconut Based/coconut-water&king-coconut-water/Coconut Water Bottle.png"
+  ]
+},
 
 
 

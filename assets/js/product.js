@@ -129,7 +129,9 @@ function injectProductData(product) {
         product.packInfo || "";
 
     /* ---------- Dynamic Meta Fields (auto-renders any fields in JSON) ---------- */
+    console.log("[Product] Calling renderDynamicMetadata...");
     renderDynamicMetadata(product);
+    console.log("[Product] renderDynamicMetadata completed");
 
     /* ---------- Rating ---------- */
 
@@ -170,9 +172,17 @@ function injectProductData(product) {
 
 function renderDynamicMetadata(product) {
     const metaContainer = document.getElementById("product-meta");
-    if (!metaContainer) return;
+    
+    console.log("[Product] Rendering metadata...");
+    console.log("[Product] Meta container found:", !!metaContainer);
+    
+    if (!metaContainer) {
+        console.error("[Product] ERROR: #product-meta element not found in HTML!");
+        return;
+    }
 
     metaContainer.innerHTML = ""; // Clear existing
+    let fieldCount = 0;
 
     // Iterate through all product fields
     for (const [key, value] of Object.entries(product)) {
@@ -198,7 +208,10 @@ function renderDynamicMetadata(product) {
         }
         
         metaContainer.appendChild(li);
+        fieldCount++;
     }
+    
+    console.log("[Product] Metadata fields rendered:", fieldCount);
 }
 
 /* --------------------------------------------------

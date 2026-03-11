@@ -2184,374 +2184,358 @@
 
 
 
-    {
-    "id": "silver-tips-caddy-40g",
-    "slug": "silver-tips-caddy-40g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "Silver Tips -40g in a caddy",
-    "shortDescription": "Elegant silver tips Ceylon tea in a premium keepsake caddy. Delicate, smooth, and aromatic.",
-    "tags": ["Delicate", "Smooth", "Aromatic"],
-    "packInfo": "40g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Silver Tips.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Delicate Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "40g",
+{
+  "id": "silver-tips-caddy-40g",
+  "slug": "silver-tips-caddy-40g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
 
-    "format": "Loose Leaf",
-    "grade": "Silver Tips",
-    "region": "High",
-    "liquorStrength": "Light",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "N/A",
-    
-    "price": 13.99,
-    "currency": "USD",
-    "stock": 24,
-    "rating": 4.9,
-    "reviewCount": 36,
-    
-    "seoTitle": "Silver Tips - 40g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Elegant Ceylon silver tips loose-leaf tea in a premium caddy with delicate, smooth, and aromatic flavor.",
-    
-    "longDescription": "Silver Tips Tea in a premium keepsake caddy is crafted from delicate silver-tipped Ceylon leaves. It delivers a light, smooth flavor with subtle aromatic notes. The elegant caddy makes it perfect for gifting or for tea connoisseurs who appreciate both quality and presentation.",
-    
-    "features": [
-      "Premium silver tips",
-      "Light and delicate flavor",
-      "Elegant keepsake caddy",
-      "Perfect for gifting"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/Silver Tips.png"
-    ]
-  },
-  {
-    "id": "golden-tips-caddy-40g",
-    "slug": "golden-tips-caddy-40g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "Golden Tips -40g in a caddy",
-    "shortDescription": "Premium golden tips Ceylon tea in a premium keepsake caddy. Rich, smooth, and aromatic.",
-    "tags": ["Rich", "Smooth", "Aromatic"],
-    "packInfo": "40g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Golden Tips.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Natural Sweet",
-    "teaVariety": "Black Tea",
-    "unitCount": "40g",
+  "name": "Silver Tips -40g in a caddy",
+  "shortDescription": "Elegant silver tips Ceylon tea in a premium keepsake caddy. Delicate, smooth, and aromatic.",
+  "tags": ["Delicate", "Smooth", "Aromatic"],
+  "packInfo": "40g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Silver Tips.png",
 
-    "format": "Loose Leaf",
-    "grade": "Golden Tips",
-    "region": "High",
-    "liquorStrength": "Light",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "N/A",
-    
-    "price": 15.99,
-    "currency": "USD",
-    "stock": 21,
-    "rating": 4.9,
-    "reviewCount": 32,
-    
-    "seoTitle": "Golden Tips - 40g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Premium Ceylon golden tips loose-leaf tea in a premium caddy with smooth, rich, and aromatic flavor.",
-    
-    "longDescription": "Golden Tips Tea in a premium keepsake caddy is made from tender golden tips of Ceylon tea leaves. It offers a smooth, rich, and aromatic taste with bright golden liquor. The elegant caddy makes it perfect for gifting or for tea connoisseurs seeking premium quality.",
-    
-    "features": [
-      "Premium golden tips",
-      "Naturally sweet flavor",
-      "Elegant keepsake caddy",
-      "Perfect for gifting"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/Golden Tips.png"
-    ]
-  },
-  {
-    "id": "english-breakfast-bop-100g",
-    "slug": "english-breakfast-bop-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "English Breakfast (Grade BOP)-100g in a caddy",
-    "shortDescription": "Classic full-bodied English Breakfast tea in a premium caddy. Bold, robust, and satisfying.",
-    "tags": ["Strong", "Robust", "Classic"],
-    "packInfo": "100g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/BOP.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "format": "Loose Leaf",
+  "grade": "Silver Tips",
+  "region": "Low Grown",
+  "brewingInstructions": "90C-100C & 2-3min",
+  "ingredients": ["White Tea"],
+  "liquor": ["Very pale champagne gold, crystal clear"],
+  "aroma": ["Delicate floral sweetness", "Light cucumber", "Fresh meadow"],
+  "flavourProfile": ["Very light body", "Notes of honeydew, white peach, and soft floral nectar"],
+  "finish": ["Silky, almost weightless", "Clean, gently sweet, lingering elegance"],
 
-    "format": "Loose Leaf",
-    "grade": "BOP",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 11.99,
-    "currency": "USD",
-    "stock": 32,
-    "rating": 4.8,
-    "reviewCount": 45,
-    
-    "seoTitle": "English Breakfast BOP - 100g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Classic full-bodied English Breakfast tea in a premium caddy with bold, robust flavor.",
-    
-    "longDescription": "English Breakfast Tea (Grade BOP) is a classic full-bodied black tea made from Broken Orange Pekoe leaves. It delivers a bold, robust flavor with dark liquor, perfect for mornings or with milk. The premium caddy keeps your tea fresh and makes for an elegant presentation.",
-    
-    "features": [
-      "Premium BOP grade",
-      "Full-bodied classic flavor",
-      "Elegant keepsake caddy",
-      "Perfect for daily enjoyment"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/English Breakfast.png"
-    ]
-  },
-  {
-    "id": "earl-grey-bop-100g",
-    "slug": "earl-grey-bop-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "Earl Grey Tea (Grade BOP) -100g in a caddy",
-    "shortDescription": "Ceylon black tea with natural bergamot in a premium caddy. Aromatic, citrusy, and elegant.",
-    "tags": ["Aromatic", "Citrus", "Elegant"],
-    "packInfo": "100g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/EARL GREY.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Bergamot",
-    "teaVariety": "Flavored Black Tea",
-    "unitCount": "100g",
+  "price": 13.99,
+  "currency": "USD",
+  "stock": 24,
+  "rating": 4.9,
+  "reviewCount": 36,
 
-    "format": "Loose Leaf",
-    "grade": "BOP",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "Natural Bergamot Flavoring",
-    
-    "price": 12.99,
-    "currency": "USD",
-    "stock": 28,
-    "rating": 4.8,
-    "reviewCount": 38,
-    
-    "seoTitle": "Earl Grey BOP - 100g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Premium Ceylon black tea with bergamot in a premium caddy for a smooth, aromatic citrus flavor.",
-    
-    "longDescription": "Earl Grey Tea (Grade BOP) blends premium Ceylon black tea with natural bergamot for a fragrant, citrusy aroma and smooth, elegant taste. The premium caddy keeps your tea fresh and makes for an elegant presentation. Perfect for afternoon tea or with milk.",
-    
-    "features": [
-      "Premium BOP grade",
-      "Natural bergamot flavor",
-      "Elegant keepsake caddy",
-      "Citrusy and aromatic"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/EARL GREY.png"
-    ]
-  },
-  {
-    "id": "ff-exsp-100g",
-    "slug": "ff-exsp-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "FF Ex Sp -100g in a caddy",
-    "shortDescription": "Finest flowery orange pekoe extra special in a premium caddy. Rich, aromatic, and premium.",
-    "tags": ["Rich", "Aromatic", "Premium"],
-    "packInfo": "100g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/FF ExSp.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "seoTitle": "Silver Tips - 40g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Elegant Ceylon silver tips loose-leaf tea in a premium caddy with delicate, smooth, and aromatic flavor.",
 
-    "format": "Loose Leaf",
-    "grade": "FF ExSp 1",
-    "region": "Low",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 14.99,
-    "currency": "USD",
-    "stock": 19,
-    "rating": 4.9,
-    "reviewCount": 27,
-    
-    "seoTitle": "FF ExSp - 100g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Premium flowery orange pekoe extra special Ceylon tea in a premium caddy with rich and aromatic flavor.",
-    
-    "longDescription": "FF ExSp Tea is a high-grade flowery orange pekoe extra special Ceylon tea. It offers a rich, aromatic flavor with smooth liquor and a medium body. The premium caddy keeps your tea fresh and makes for an elegant presentation. Perfect for tea connoisseurs seeking premium quality.",
-    
-    "features": [
-      "Premium FF ExSp grade",
-      "Rich and aromatic",
-      "Elegant keepsake caddy",
-      "Connoisseur's choice"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/FF ExSp.png"
-    ]
-  },
-  {
-    "id": "bop1-100g",
-    "slug": "bop1-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "BOP1-100g in a caddy",
-    "shortDescription": "Premium broken orange pekoe #1 grade in a premium caddy. Rich, smooth, and flavorful.",
-    "tags": ["Rich", "Smooth", "Flavorful"],
-    "packInfo": "100g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/BOP1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "longDescription": "The gentle and slightly sweet Silver Tips tea produces an exceptionally pure tea experience. Silver Tips tea undergoes minimal processing, which preserves a heightened concentration of antioxidants. These Silver Tips are the uppermost buds, characterized by their unopened, delicate leaves covered in a fine silver fuzz. This extraordinary pale-yellow infusion is best enjoyed without any additives and can even be re-steeped for a second cup.",
 
-    "format": "Loose Leaf",
-    "grade": "BOP1",
-    "region": "Low",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 11.99,
-    "currency": "USD",
-    "stock": 30,
-    "rating": 4.8,
-    "reviewCount": 33,
-    
-    "seoTitle": "BOP1 - 100g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Premium BOP1 Ceylon tea in a premium caddy with a rich, smooth, and full-bodied flavor.",
-    
-    "longDescription": "BOP1 Tea is a high-quality broken orange pekoe #1 Ceylon tea. It produces a rich, smooth liquor with a full-bodied taste and medium strength. The premium caddy keeps your tea fresh and makes for an elegant presentation. Perfect for daily tea or with milk.",
-    
-    "features": [
-      "Premium BOP1 grade",
-      "Rich and smooth",
-      "Elegant keepsake caddy",
-      "Versatile daily tea"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/BOP1.png"
-    ]
-  },
-  {
-    "id": "gp1-100g",
-    "slug": "gp1-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "GP1-100g in a caddy",
-    "shortDescription": "Golden pekoe #1 grade Ceylon tea in a premium caddy. Smooth, full-bodied, and bright.",
-    "tags": ["Smooth", "Bright", "Full-bodied"],
-    "packInfo": "100g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/GP1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black",
-    "teaVariety": "Black Tea",
-    "unitCount": "100g",
+  "features": [
+    "Premium silver tips",
+    "Light and delicate flavor",
+    "Elegant keepsake caddy",
+    "Perfect for gifting"
+  ],
 
-    "format": "Loose Leaf",
-    "grade": "GP1",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "N/A",
-    
-    "price": 12.99,
-    "currency": "USD",
-    "stock": 26,
-    "rating": 4.8,
-    "reviewCount": 29,
-    
-    "seoTitle": "GP1 - 100g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Golden pekoe #1 grade Ceylon tea in a premium caddy with smooth, full-bodied flavor and bright liquor.",
-    
-    "longDescription": "GP1 Tea is a premium golden pekoe #1 Ceylon tea. It produces a smooth, full-bodied liquor with a bright golden color and medium strength. The premium caddy keeps your tea fresh and makes for an elegant presentation. Ideal for classic black tea enthusiasts.",
-    
-    "features": [
-      "Premium GP1 grade",
-      "Smooth and bright",
-      "Elegant keepsake caddy",
-      "Golden liquor"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/GP1.png"
-    ]
-  },
-  {
-    "id": "cinnamon-tea-bop-100g",
-    "slug": "cinnamon-tea-bop-100g",
-    "mainCategory": "tea-collection",
-    "subCategory": "gourmet-collection",
-    
-    "name": "Cinnamon Tea (Grade BOP) -100g in a caddy",
-    "shortDescription": "Ceylon black tea infused with cinnamon in a premium caddy. Warm, spicy, and aromatic.",
-    "tags": ["Spicy", "Warm", "Aromatic"],
-    "packInfo": "100g Premium Tea Caddy",
-    "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Cinnamon Tea.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Cinnamon",
-    "teaVariety": "Flavored Black Tea",
-    "unitCount": "100g",
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/Silver Tips.png"
+  ]
+},
+{
+  "id": "golden-tips-caddy-40g",
+  "slug": "golden-tips-caddy-40g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
 
-    "format": "Loose Leaf",
-    "grade": "BOP",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "Natural Cinnamon Flavoring",
-    
-    "price": 11.99,
-    "currency": "USD",
-    "stock": 27,
-    "rating": 4.7,
-    "reviewCount": 31,
-    
-    "seoTitle": "Cinnamon Tea BOP - 100g Caddy - Gourmet Tea Collection",
-    "seoDescription": "Ceylon black tea infused with cinnamon in a premium caddy for a warm, spicy, and aromatic experience.",
-    
-    "longDescription": "Cinnamon Tea (Grade BOP) blends premium Ceylon black tea with natural cinnamon for a warm, spicy flavor with a smooth finish. The premium caddy keeps your tea fresh and makes for an elegant presentation. Perfect for cozy mornings or evenings.",
-    
-    "features": [
-      "Premium BOP grade",
-      "Natural cinnamon flavor",
-      "Warm and aromatic",
-      "Elegant keepsake caddy"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gourmet Teas/Cinnamon Tea.png"
-    ]
-  },
+  "name": "Golden Tips -40g in a caddy",
+  "shortDescription": "Premium golden tips Ceylon tea in a premium keepsake caddy. Rich, smooth, and aromatic.",
+  "tags": ["Rich", "Smooth", "Aromatic"],
+  "packInfo": "40g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Golden Tips.png",
+
+  "format": "Loose Leaf",
+  "grade": "Golden Tips",
+  "region": "Low Grown",
+  "brewingInstructions": "90C-100C & 2-3min",
+  "ingredients": ["White Tea"],
+  "liquor": ["Pale gold to light amber, exceptionally clear"],
+  "aroma": ["Sweet floral honey", "Soft malt", "Delicate fruit"],
+  "flavourProfile": ["Light to medium-light body, silky & smooth", "Subtle notes of honey, ripe peach, and light caramel"],
+  "finish": ["Clean, lingering sweetness", "Refined elegance"],
+
+  "price": 15.99,
+  "currency": "USD",
+  "stock": 21,
+  "rating": 4.9,
+  "reviewCount": 32,
+
+  "seoTitle": "Golden Tips - 40g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Premium Ceylon golden tips loose-leaf tea in a premium caddy with smooth, rich, and aromatic flavor.",
+
+  "longDescription": "Exquisite Golden Tips tea is crafted from meticulously selected single buds plucked from a unique tea bush variety cultivated in high-altitude hills. These delicate buds, adorned with a glistening sheen that transforms into a golden hue during the tea leaves' drying process, give this tea its distinguished name Golden Tips. This premium offering is a favourite among connoisseurs, offering an aromatic and flavourful tea experience that's best enjoyed without any additives. Its distinctively smooth and refined character makes it a delightful beverage suitable for any time of the day.",
+
+  "features": [
+    "Premium golden tips",
+    "Naturally sweet flavor",
+    "Elegant keepsake caddy",
+    "Perfect for gifting"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/Golden Tips.png"
+  ]
+},
+{
+  "id": "english-breakfast-bop-100g",
+  "slug": "english-breakfast-bop-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
+
+  "name": "English Breakfast (Grade BOP)-100g in a caddy",
+  "shortDescription": "Classic full-bodied English Breakfast tea in a premium caddy. Bold, robust, and satisfying.",
+  "tags": ["Strong", "Robust", "Classic"],
+  "packInfo": "100g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/BOP.png",
+
+  "format": "Loose Leaf",
+  "grade": "BOPF",
+  "region": "High Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": ["Black Tea"],
+  "liquor": ["Clear golden-amber with excellent brightness and brilliance"],
+  "aroma": ["Fresh and aromatic with lively high-grown briskness", "Subtle floral hints", "Gentle citrusy top notes"],
+  "flavourProfile": ["Medium to full-bodied with a bright, crisp character", "Smooth malt undertones balanced by light floral accents", "Well-rounded and invigorating"],
+  "finish": ["Refreshing and lingering", "Balanced strength and refined warmth"],
+
+  "price": 11.99,
+  "currency": "USD",
+  "stock": 32,
+  "rating": 4.8,
+  "reviewCount": 45,
+
+  "seoTitle": "English Breakfast BOP - 100g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Classic full-bodied English Breakfast tea in a premium caddy with bold, robust flavor.",
+
+  "longDescription": "Indulge in the refreshing mellowness of high-grown Ceylon tea, internationally renowned for its exceptional quality, and savour a golden-hued aromatic cup of flavour-rich tea. A Bright Aromatic Full Bodied experience in every cup.",
+
+  "features": [
+    "Premium BOP grade",
+    "Full-bodied classic flavor",
+    "Elegant keepsake caddy",
+    "Perfect for daily enjoyment"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/English Breakfast.png"
+  ]
+},
+{
+  "id": "earl-grey-bop-100g",
+  "slug": "earl-grey-bop-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
+
+  "name": "Earl Grey Tea (Grade BOP) -100g in a caddy",
+  "shortDescription": "Ceylon black tea with natural bergamot in a premium caddy. Aromatic, citrusy, and elegant.",
+  "tags": ["Aromatic", "Citrus", "Elegant"],
+  "packInfo": "100g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/EARL GREY.png",
+
+  "format": "Loose Leaf",
+  "grade": "BOPF",
+  "region": "High Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": ["Black Tea", "Bergamot Flavouring"],
+  "liquor": ["Bright, clear coppery amber with excellent brilliance"],
+  "aroma": ["Fresh and uplifting citrus notes of bergamot", "Clean, brisk black tea base", "Light floral nuances"],
+  "flavourProfile": ["Lively burst of zesty bergamot at the forefront", "Smooth, well-rounded black tea body", "Citrus element distinct yet balanced, never overpowering"],
+  "finish": ["Clean, fragrant, and lingering", "Subtle citrus sweetness", "Refined briskness"],
+
+  "price": 12.99,
+  "currency": "USD",
+  "stock": 28,
+  "rating": 4.8,
+  "reviewCount": 38,
+
+  "seoTitle": "Earl Grey BOP - 100g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Premium Ceylon black tea with bergamot in a premium caddy for a smooth, aromatic citrus flavor.",
+
+  "longDescription": "A distinctly citrus-infused, fragrant Earl Grey concocts a revitalizing tea, perfect for leisurely mornings and tranquil afternoons.",
+
+  "features": [
+    "Premium BOP grade",
+    "Natural bergamot flavor",
+    "Elegant keepsake caddy",
+    "Citrusy and aromatic"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/EARL GREY.png"
+  ]
+},
+{
+  "id": "ff-exsp-100g",
+  "slug": "ff-exsp-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
+
+  "name": "FF Ex Sp -100g in a caddy",
+  "shortDescription": "Finest flowery orange pekoe extra special in a premium caddy. Rich, aromatic, and premium.",
+  "tags": ["Rich", "Aromatic", "Premium"],
+  "packInfo": "100g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/FF ExSp.png",
+
+  "format": "Loose Leaf",
+  "grade": "FF Ex Sp 1",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": ["Black Tea"],
+  "liquor": ["Rich golden-orange with remarkable depth and clarity"],
+  "aroma": ["Pronounced malty sweetness", "Subtle floral high notes", "Gentle hints of caramel"],
+  "flavourProfile": ["Robust and full-bodied with dominant malt character", "Delicate floral undertones emerge mid-palate", "Elegance and balance to its bold foundation"],
+  "finish": ["Long, warm, and satisfying", "Lingering honeyed malt notes"],
+
+  "price": 14.99,
+  "currency": "USD",
+  "stock": 19,
+  "rating": 4.9,
+  "reviewCount": 27,
+
+  "seoTitle": "FF ExSp - 100g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Premium flowery orange pekoe extra special Ceylon tea in a premium caddy with rich and aromatic flavor.",
+
+  "longDescription": "A wiry tea, featuring tips that are consistent with the typical attributes of low-elevation tea, yields a brew with a rich golden-orange hue, an aroma infused with malty notes, and robust yet floral undertones, creating a true masterpiece of tea.",
+
+  "features": [
+    "Premium FF ExSp grade",
+    "Rich and aromatic",
+    "Elegant keepsake caddy",
+    "Connoisseur's choice"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/FF ExSp.png"
+  ]
+},
+{
+  "id": "bop1-100g",
+  "slug": "bop1-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
+
+  "name": "BOP1-100g in a caddy",
+  "shortDescription": "Premium broken orange pekoe #1 grade in a premium caddy. Rich, smooth, and flavorful.",
+  "tags": ["Rich", "Smooth", "Flavorful"],
+  "packInfo": "100g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/BOP1.png",
+
+  "format": "Loose Leaf",
+  "grade": "BOP1",
+  "region": "Low Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": ["Black Tea"],
+  "liquor": ["Deep golden-orange to burnished copper", "Strong colour intensity and excellent brightness"],
+  "aroma": ["Rich and malty with gentle caramelised notes", "Subtle earthy undertones distinctive of low-grown teas"],
+  "flavourProfile": ["Full-bodied and robust with pronounced maltiness", "Hints of dark honey and light cocoa nuances", "Mild raw undertones adding complexity"],
+  "finish": ["Long, warm, and lingering", "Mellow sweetness and structured depth"],
+
+  "price": 11.99,
+  "currency": "USD",
+  "stock": 30,
+  "rating": 4.8,
+  "reviewCount": 33,
+
+  "seoTitle": "BOP1 - 100g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Premium BOP1 Ceylon tea in a premium caddy with a rich, smooth, and full-bodied flavor.",
+
+  "longDescription": "The leaves, being clean, short-wiry, and dark, are consistent with the typical characteristics of low-elevation tea. The resulting tea displays a deep golden-orange colour, along with a malt-infused aroma, underpinned by subtle raw undertones.",
+
+  "features": [
+    "Premium BOP1 grade",
+    "Rich and smooth",
+    "Elegant keepsake caddy",
+    "Versatile daily tea"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/BOP1.png"
+  ]
+},
+{
+  "id": "gp1-100g",
+  "slug": "gp1-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
+
+  "name": "GP1-100g in a caddy",
+  "shortDescription": "Golden pekoe #1 grade Ceylon tea in a premium caddy. Smooth, full-bodied, and bright.",
+  "tags": ["Smooth", "Bright", "Full-bodied"],
+  "packInfo": "100g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/GP1.png",
+
+  "format": "Loose Leaf",
+  "grade": "GP1",
+  "region": "High Grown",
+  "brewingInstructions": "70-80C & 1-2min",
+  "ingredients": ["Green Tea"],
+  "liquor": ["Pale golden-yellow with bright clarity and a delicate sheen"],
+  "aroma": ["Fresh and uplifting with light grassy notes", "Subtle floral nuances"],
+  "flavourProfile": ["Crisp and clean with gentle vegetal undertones", "Mild earthiness", "Soft natural sweetness gradually unfolds", "Delicate floral hints that add finesse"],
+  "finish": ["Clean, soothing, and lightly sweet", "Lingering floral whisper"],
+
+  "price": 12.99,
+  "currency": "USD",
+  "stock": 26,
+  "rating": 4.8,
+  "reviewCount": 29,
+
+  "seoTitle": "GP1 - 100g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Golden pekoe #1 grade Ceylon tea in a premium caddy with smooth, full-bodied flavor and bright liquor.",
+
+  "longDescription": "Indulge in the unique and refreshing flavour of Ceylon Green Tea, which boasts a delightful combination of astringency, grassy undertones, and earthy notes. This tea unfolds with a gentle sweetness and delicate floral hints, creating a truly enchanting sensory journey. Take a journey to the heart of Sri Lanka with each sip of our exceptional Ceylon Green Tea.",
+
+  "features": [
+    "Premium GP1 grade",
+    "Smooth and bright",
+    "Elegant keepsake caddy",
+    "Golden liquor"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/GP1.png"
+  ]
+},
+{
+  "id": "cinnamon-tea-bop-100g",
+  "slug": "cinnamon-tea-bop-100g",
+  "mainCategory": "tea-collection",
+  "subCategory": "gourmet-collection",
+
+  "name": "Cinnamon Tea (Grade BOP) -100g in a caddy",
+  "shortDescription": "Ceylon black tea infused with cinnamon in a premium caddy. Warm, spicy, and aromatic.",
+  "tags": ["Spicy", "Warm", "Aromatic"],
+  "packInfo": "100g Premium Tea Caddy",
+  "thumbnailImage": "assets/images/products/Teas/Gourmet Teas/Cinnamon Tea.png",
+
+  "format": "Loose Leaf",
+  "grade": "BOPF",
+  "region": "High Grown",
+  "brewingInstructions": "90-100C & 4-5min",
+  "ingredients": ["Black Tea", "Cinnamon Flavouring"],
+  "liquor": ["Bright, deep amber with excellent clarity"],
+  "aroma": ["Warm, sweet spice notes of Ceylon cinnamon", "Layered over a brisk and lively black tea base"],
+  "flavourProfile": ["Bold, full-bodied Ceylon tea foundation", "Smooth, naturally sweet cinnamon spice", "Pronounced yet harmoniously balanced", "Warmth without overpowering the palate"],
+  "finish": ["Clean, warming, and subtly sweet", "Lingering cinnamon glow"],
+
+  "price": 11.99,
+  "currency": "USD",
+  "stock": 27,
+  "rating": 4.7,
+  "reviewCount": 31,
+
+  "seoTitle": "Cinnamon Tea BOP - 100g Caddy - Gourmet Tea Collection",
+  "seoDescription": "Ceylon black tea infused with cinnamon in a premium caddy for a warm, spicy, and aromatic experience.",
+
+  "longDescription": "Cinnamon tea is crafted by infusing finest Ceylon cinnamon, resulting in a delightfully aromatic cup of tea. This exotic fusion of the finest Ceylon tea and Ceylon cinnamon creates a perfect brew that's not only flavourful but also brimming with wholesome goodness, promoting a healthy lifestyle.",
+
+  "features": [
+    "Premium BOP grade",
+    "Natural cinnamon flavor",
+    "Warm and aromatic",
+    "Elegant keepsake caddy"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gourmet Teas/Cinnamon Tea.png"
+  ]
+},
 
 
 

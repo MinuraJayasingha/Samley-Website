@@ -19,21 +19,6 @@ function getProductSlug() {
     return null;
 }
 
-// Set meta value and auto-hide if empty
-function setMetaValue(id, value) {
-    const span = document.getElementById(id);
-    if (!span) return;
-
-    const li = span.closest("li");
-
-    if (!value || value.trim() === "") {
-        li.classList.add("hidden");
-    } else {
-        span.textContent = value;
-        li.classList.remove("hidden");
-    }
-}
-
 
 /* --------------------------------------------------
    Main loader
@@ -77,6 +62,43 @@ async function loadProduct() {
 
 
 /* --------------------------------------------------
+   Field mapping - converts JSON keys to display labels
+   Add new fields here as needed without touching HTML
+-------------------------------------------------- */
+
+const FIELD_LABELS = {
+    brand: "Brand",
+    itemForm: "Item Form",
+    teaVariety: "Tea Variety",
+    spiceType: "Spice Type",
+    beverageType: "Beverage Type",
+    type: "Product Type",
+    unitCount: "Unit Count",
+    flavor: "Flavor",
+    format: "Format",
+    grade: "Grade",
+    region: "Region",
+    liquorStrength: "Liquor Strength",
+    brewingInstructions: "Brewing Instructions",
+    additives: "Additives",
+    liquor: "Liquor",
+    aroma: "Aroma",
+    flavourProfile: "Flavour Profile",
+    finish: "Finish",
+    price: "Price",
+    currency: "Currency",
+    stock: "Stock",
+    rating: "Rating"
+};
+
+/* Fields to EXCLUDE from metadata display (shown separately or not needed) */
+const EXCLUDED_FIELDS = new Set([
+    "id", "slug", "mainCategory", "subCategory", "name", "shortDescription",
+    "tags", "packInfo", "thumbnailImage", "seoTitle", "seoDescription",
+    "longDescription", "features", "galleryImages", "reviewCount"
+]);
+
+/* --------------------------------------------------
    Inject product data
 -------------------------------------------------- */
 
@@ -106,22 +128,16 @@ function injectProductData(product) {
     document.getElementById("product-pack").textContent =
         product.packInfo || "";
 
-    /* ---------- Meta (auto hide empty) ---------- */
+    /* ---------- Dynamic Meta Fields (auto-renders any fields in JSON) ---------- */
+    renderDynamicMetadata(product);
 
-    setMetaValue("product-brand", product.brand);
-    setMetaValue("product-item-form", product.itemForm);
-    setMetaValue("product-variety", product.teaVariety);
-    setMetaValue("product-spice-type", product.spiceType);
-    setMetaValue("product-beverage-type", product.beverageType);
-    setMetaValue("product-type", product.type);
-    setMetaValue("product-unit-count", product.unitCount);
     /* ---------- Rating ---------- */
 
     document.getElementById("product-review-count").textContent =
         product.reviewCount ? `(${product.reviewCount})` : "";
 
     document.getElementById("product-stars").textContent =
-        product.rating ? "".repeat(Math.round(product.rating)) : "";
+        product.rating ? "⭐".repeat(Math.round(product.rating)) : "";
 
     /* ---------- Gallery ---------- */
 
@@ -143,6 +159,61 @@ function injectProductData(product) {
 
         enableGalleryInteraction();
     }
+}
+
+
+/* --------------------------------------------------
+   Dynamically render product metadata
+   Automatically displays all fields from JSON (except excluded ones)
+   Also handles array values (liquor, aroma, etc.)
+-------------------------------------------------- */
+
+function renderDynamicMetadata(product) {
+    const metaContainer = document.getElementById("product-meta");
+    if (!metaContainer) return;
+
+    metaContainer.innerHTML = ""; // Clear existing
+
+    // Iterate through all product fields
+    for (const [key, value] of Object.entries(product)) {
+        
+        // Skip excluded fields
+        if (EXCLUDED_FIELDS.has(key)) continue;
+        
+        // Skip empty/null values
+        if (!value || (Array.isArray(value) && value.length === 0)) continue;
+        
+        // Get display label
+        const label = FIELD_LABELS[key] || formatFieldName(key);
+        
+        // Create list item
+        const li = document.createElement("li");
+        
+        // Format value (handle arrays)
+        if (Array.isArray(value)) {
+            const displayValue = value.join(", ");
+            li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${displayValue}</span>`;
+        } else {
+            li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${value}</span>`;
+        }
+        
+        metaContainer.appendChild(li);
+    }
+}
+
+/* --------------------------------------------------
+   Convert camelCase field names to "Title Case"
+   e.g., "liquorStrength" → "Liquor Strength"
+-------------------------------------------------- */
+
+function formatFieldName(fieldName) {
+    return fieldName
+        .replace(/([A-Z])/g, " $1") // Add space before capitals
+        .toLowerCase()
+        .trim()
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
 }
 
 

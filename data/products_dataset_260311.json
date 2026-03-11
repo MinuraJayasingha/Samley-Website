@@ -1482,78 +1482,99 @@
 
 
 
-{
-  "id": "silver-tips-40g",
-  "slug": "silver-tips-40g",
-  "mainCategory": "tea-collection",
-  "subCategory": "designer-collection",
-  
-  "name": "Silver Tips Packed in Borocilicate Glass Jars-40g",
-  "shortDescription": "Elegant Ceylon tea with fine silver tips in a premium glass jar. Delicate, smooth, and aromatic.",
-  "tags": ["Delicate", "Smooth", "Aromatic"],
-  "packInfo": "40g Borosilicate Glass Jar",
-  "thumbnailImage": "assets/images/products/Teas/Designer Teas/Silver Tips.png",
-  
-  "format": "Loose Leaf",
-  "grade": "White Tea – Silver Tips",
-  "region": "High Grown",
-  "brewingInstructions": "90C-100C & 2-3min",
-  "liquor": ["Very pale champagne gold", "Crystal clear"],
-  "aroma": ["Delicate floral sweetness", "Light cucumber", "Fresh meadow"],
-  "flavourProfile": ["Very light body", "Notes of honeydew, white peach, and soft floral nectar"],
-  "finish": ["Silky, almost weightless", "Clean, gently sweet, lingering elegance"],
+    {
+    "id": "silver-tips-40g",
+    "slug": "silver-tips-40g",
+    "mainCategory": "tea-collection",
+    "subCategory": "designer-collection",
+    
+    "name": "Silver Tips Packed in Borocilicate Glass Jars-40g",
+    "shortDescription": "Elegant Ceylon tea with fine silver tips in a premium glass jar. Delicate, smooth, and aromatic.",
+    "tags": ["Delicate", "Smooth", "Aromatic"],
+    "packInfo": "40g Borosilicate Glass Jar",
+    "thumbnailImage": "assets/images/products/Teas/Designer Teas/Silver Tips.png",
+    
+    "brand": "Ceylon Tea",
+    "flavor": "Very pale champagne gold, crystal clear",
+    "aroma": "Delicate floral sweetness, light cucumber, fresh meadow",
+    "teaVariety": "Black Tea",
+    "unitCount": "40g",
 
-  "price": 12.99,
-  "currency": "USD",
-  "stock": 25,
-  "rating": 4.9,
-  "reviewCount": 42,
-  
-  "seoTitle": "Silver Tips - 40g - Designer Tea Collection",
-  "seoDescription": "Elegant Ceylon tea with fine silver tips, offering a delicate, smooth, and aromatic experience in a premium glass jar.",
-  
-  "longDescription": "The gentle and slightly sweet Silver Tips tea produces an exceptionally pure tea experience. Silver Tips tea undergoes minimal processing, which preserves a heightened concentration of antioxidants. These Silver Tips are the uppermost buds, characterized by their unopened, delicate leaves covered in a fine silver fuzz. This extraordinary pale-yellow infusion is best enjoyed without any additives and can even be re-steeped for a second cup.",
-  
-  "galleryImages": [
-    "assets/images/products/Teas/Designer Teas/Silver Tips.png"
-  ]
-},
-{
-  "id": "golden-tips-40g",
-  "slug": "golden-tips-40g",
-  "mainCategory": "tea-collection",
-  "subCategory": "designer-collection",
-  
-  "name": "Golden Tips Packed in Borocilicate Glass Jars-40g",
-  "shortDescription": "Premium Ceylon tea made from golden tips in a premium glass jar. Rich, smooth, and naturally sweet.",
-  "tags": ["Rich", "Smooth", "Sweet"],
-  "packInfo": "40g Borosilicate Glass Jar",
-  "thumbnailImage": "assets/images/products/Teas/Designer Teas/Golden Tips.png",
-  
-  "format": "Loose Leaf",
-  "grade": "White Tea – Golden Tips",
-  "region": "High Grown",
-  "brewingInstructions": "90C-100C & 2-3min",
-  "liquor": ["Pale gold to light amber", "Exceptionally clear"],
-  "aroma": ["Sweet floral honey", "Soft malt", "Delicate fruit"],
-  "flavourProfile": ["Light to medium-light body", "Silky & smooth", "Subtle notes of honey, ripe peach, and light caramel"],
-  "finish": ["Clean, lingering sweetness", "Refined elegance"],
+    "format": "Loose Leaf",
+    "grade": "White Tea – Silver Tips",
+    "region": "High Grown ",
+    "liquorStrength": "Very pale champagne gold, crystal clear",
+    "brewingInstructions": "90C-100C & 2-3min",
+    "additives": "N/A",
+    
+    "price": 12.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.9,
+    "reviewCount": 42,
+    
+    "seoTitle": "Silver Tips - 40g - Designer Tea Collection",
+    "seoDescription": "Elegant Ceylon tea with fine silver tips, offering a delicate, smooth, and aromatic experience in a premium glass jar.",
+    
+    "longDescription": "The gentle and slightly sweet Silver Tips tea produces an exceptionally pure tea experience. Silver Tips tea undergoes minimal processing, which preserves a heightened concentration of antioxidants. These Silver Tips are the uppermost buds, characterized by their unopened, delicate leaves covered in a fine silver fuzz. This extraordinary pale-yellow infusion is best enjoyed without any additives and can even be re-steeped for a second cup.",
+    
+    "features": [
+      "Premium silver tips",
+      "Light and delicate flavor",
+      "Elegant glass jar packaging",
+      "Perfect for gifting"
+    ],
+    
+    "galleryImages": [
+      "assets/images/products/Teas/Designer Teas/Silver Tips.png"
+    ]
+  },
+  {
+    "id": "golden-tips-40g",
+    "slug": "golden-tips-40g",
+    "mainCategory": "tea-collection",
+    "subCategory": "designer-collection",
+    
+    "name": "Golden Tips Packed in Borocilicate Glass Jars-40g",
+    "shortDescription": "Premium Ceylon black tea made from golden tips in a premium glass jar. Rich, smooth, and naturally sweet.",
+    "tags": ["Rich", "Smooth", "Sweet"],
+    "packInfo": "40g Borosilicate Glass Jar",
+    "thumbnailImage": "assets/images/products/Teas/Designer Teas/Golden Tips.png",
+    
+    "brand": "Ceylon Tea",
+    "flavor": "Natural Sweet",
+    "teaVariety": "Black Tea",
+    "unitCount": "40g",
 
-  "price": 14.99,
-  "currency": "USD",
-  "stock": 22,
-  "rating": 4.9,
-  "reviewCount": 38,
-  
-  "seoTitle": "Golden Tips - 40g - Designer Tea Collection",
-  "seoDescription": "Premium Ceylon tea made from golden tips, offering a smooth and naturally sweet taste in a premium glass jar.",
-  
-  "longDescription": "Exquisite Golden Tips tea is crafted from meticulously selected single buds plucked from a unique tea bush variety cultivated in high-altitude hills. These delicate buds, adorned with a glistening sheen that transforms into a golden hue during the tea leaves' drying process, give this tea its distinguished name Golden Tips. This premium offering, Golden Tips, is a favourite among connoisseurs, offering an aromatic and flavourful tea experience that's best enjoyed without any additives. Its distinctively smooth and refined character makes it a delightful beverage suitable for any time of the day.",
-
-  "galleryImages": [
-    "assets/images/products/Teas/Designer Teas/Golden Tips.png"
-  ]
-},
+    "format": "Loose Leaf",
+    "grade": "Golden Tips",
+    "region": "High",
+    "liquorStrength": "Light",
+    "brewingInstructions": "70-80C & 1-2min",
+    "additives": "N/A",
+    
+    "price": 14.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.9,
+    "reviewCount": 38,
+    
+    "seoTitle": "Golden Tips - 40g - Designer Tea Collection",
+    "seoDescription": "Premium Ceylon tea made from golden tips, offering a smooth and naturally sweet taste in a premium glass jar.",
+    
+    "longDescription": "Golden Tips Tea is crafted from the tender golden tips of Ceylon tea leaves and presented in a beautiful borosilicate glass jar. It delivers a smooth, rich taste with natural sweetness and a bright liquor. Perfect for tea enthusiasts seeking premium quality.",
+    
+    "features": [
+      "Premium golden tips",
+      "Naturally sweet flavor",
+      "Elegant glass jar packaging",
+      "Perfect for gifting"
+    ],
+    
+    "galleryImages": [
+      "assets/images/products/Teas/Designer Teas/Golden Tips.png"
+    ]
+  },
 
 
 

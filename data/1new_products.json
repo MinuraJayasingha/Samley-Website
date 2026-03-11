@@ -4434,147 +4434,162 @@
   },
 
 
-  {
-    "id": "protein-creatine-strawberry-250ml",
-    "slug": "protein-creatine-strawberry-250ml",
-    "mainCategory": "beverage-collection",
-     "subCategory": "protein-shakes-collection",
-    
-    "name": "Protein & Creatine (Strawberry) -250ml",
-    "shortDescription": "High-performance protein shake with creatine. Strawberry flavor for post-workout recovery.",
-    "tags": ["Protein", "Creatine", "Recovery"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/protein-shakes/Strawberry-Flavour.jpeg",
-    
-    "brand": "Ceylon Wellness",
-    "flavor": "Strawberry",
-    "productType": "Protein Shake",
-    "unitCount": "250ml",
+{
+  "id": "protein-creatine-strawberry-250ml",
+  "slug": "protein-creatine-strawberry-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "protein-shakes-collection",
+  
+  "name": "Protein & Creatine (Strawberry) -250ml",
+  "shortDescription": "High-performance protein shake with creatine. Strawberry flavor for post-workout recovery.",
+  "tags": ["Protein", "Creatine", "Recovery"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/protein-shakes/Strawberry-Flavour.jpeg",
 
-    "format": "Can",
-    "ingredients": "Whey Protein Isolate, Pea Protein, Creatine, Maltodextrin, Avocado Oil, Polydextrose, Sodium Citrate, Oligosaccharides, Water",
-    "serving": "Ready to Drink",
-    "proteinSource": "Whey Isolate & Pea Protein",
-    "additives": "Creatine, Vitamins, Minerals",
-    
-    "price": 4.99,
-    "currency": "USD",
-    "stock": 42,
-    "rating": 4.7,
-    "reviewCount": 36,
-    
-    "seoTitle": "Protein & Creatine Strawberry - 250ml - Protein Shakes Collection",
-    "seoDescription": "High-performance protein shake with creatine in delicious strawberry flavor for post-workout recovery and muscle support.",
-    
-    "longDescription": "Protein & Creatine Strawberry is a premium recovery shake designed for athletes and fitness enthusiasts. Each 250ml can delivers a powerful blend of fast-absorbing whey protein isolate and sustained-release pea protein, plus 5g of creatine to support strength and power. Enhanced with avocado oil for healthy fats and prebiotic oligosaccharides for digestive health. Delicious strawberry flavor makes post-workout nutrition something to look forward to.",
-    
-    "features": [
-      "20g protein blend",
-      "5g creatine per serving",
-      "Whey isolate & pea protein",
-      "Avocado oil for healthy fats",
-      "Ready-to-drink convenience",
-      "Post-workout recovery"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/protein-shakes/Strawberry-Flavour.jpeg"
-    ]
-  },
-  {
-    "id": "protein-creatine-chocolate-250ml",
-    "slug": "protein-creatine-chocolate-250ml",
-    "mainCategory": "beverage-collection",
-     "subCategory": "protein-shakes-collection",
-    
-    "name": "Protein & Creatine (Chocolate) -250ml",
-    "shortDescription": "High-performance protein shake with creatine. Rich chocolate flavor for muscle recovery.",
-    "tags": ["Protein", "Creatine", "Chocolate"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/protein-shakes/Chocolate-Flavour.jpeg",
-    
-    "brand": "Ceylon Wellness",
-    "flavor": "Chocolate",
-    "productType": "Protein Shake",
-    "unitCount": "250ml",
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Whey Protein Isolate",
+    "Pea Protein",
+    "Creatine Monohydrate",
+    "Pro-biotic",
+    "GOFOS- Oligosaccharides (Pre-biotic)",
+    "Maltodextrin",
+    "Avocado Oil",
+    "Polydextrose",
+    "Sodium Citrate",
+    "Natural Strawberry Flavouring",
+    "Water"
+  ],
 
-    "format": "Can",
-    "ingredients": "Whey Protein Isolate, Pea Protein, Creatine, Maltodextrin, Avocado Oil, Polydextrose, Sodium Citrate, Oligosaccharides, Water, Natural Cocoa",
-    "serving": "Ready to Drink",
-    "proteinSource": "Whey Isolate & Pea Protein",
-    "additives": "Creatine, Natural Cocoa, Vitamins, Minerals",
-    
-    "price": 4.99,
-    "currency": "USD",
-    "stock": 48,
-    "rating": 4.8,
-    "reviewCount": 44,
-    
-    "seoTitle": "Protein & Creatine Chocolate - 250ml - Protein Shakes Collection",
-    "seoDescription": "High-performance protein shake with creatine in rich chocolate flavor for post-workout recovery and muscle support.",
-    
-    "longDescription": "Protein & Creatine Chocolate is a premium recovery shake crafted for athletes who demand the best. Each 250ml can combines fast-absorbing whey protein isolate with sustained-release pea protein, plus 5g of creatine to enhance strength and power output. The rich chocolate flavor satisfies cravings while delivering nutrition, and added avocado oil provides healthy fats for overall wellness. Perfect for post-workout recovery or as a high-protein snack.",
-    
-    "features": [
-      "20g protein blend",
-      "5g creatine per serving",
-      "Rich chocolate flavor",
-      "Whey isolate & pea protein",
-      "Avocado oil for healthy fats",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/protein-shakes/Chocolate-Flavour.jpeg"
-    ]
-  },
-  {
-    "id": "protein-creatine-vanilla-250ml",
-    "slug": "protein-creatine-vanilla-250ml",
-    "mainCategory": "beverage-collection",
-     "subCategory": "protein-shakes-collection",
-    
-    "name": "Protein & Creatine (Vanilla) -250ml",
-    "shortDescription": "High-performance protein shake with creatine. Smooth vanilla flavor for daily protein needs.",
-    "tags": ["Protein", "Creatine", "Vanilla"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/protein-shakes/Vanilla-Flavour.jpeg",
-    
-    "brand": "Ceylon Wellness",
-    "flavor": "Vanilla",
-    "productType": "Protein Shake",
-    "unitCount": "250ml",
+  "price": 4.99,
+  "currency": "USD",
+  "stock": 42,
+  "rating": 4.7,
+  "reviewCount": 36,
 
-    "format": "Can",
-    "ingredients": "Whey Protein Isolate, Pea Protein, Creatine, Maltodextrin, Avocado Oil, Polydextrose, Sodium Citrate, Oligosaccharides, Water, Natural Vanilla",
-    "serving": "Ready to Drink",
-    "proteinSource": "Whey Isolate & Pea Protein",
-    "additives": "Creatine, Natural Vanilla, Vitamins, Minerals",
-    
-    "price": 4.99,
-    "currency": "USD",
-    "stock": 45,
-    "rating": 4.7,
-    "reviewCount": 32,
-    
-    "seoTitle": "Protein & Creatine Vanilla - 250ml - Protein Shakes Collection",
-    "seoDescription": "High-performance protein shake with creatine in smooth vanilla flavor for post-workout recovery and daily protein needs.",
-    
-    "longDescription": "Protein & Creatine Vanilla is a versatile, high-performance shake suitable for athletes and active individuals. Each 250ml can delivers a premium blend of fast-acting whey protein isolate and sustained-release pea protein, plus 5g of creatine to support muscle strength and recovery. The smooth vanilla flavor is delicious on its own or as a base for smoothies. Enhanced with avocado oil and prebiotic fiber for complete nutrition.",
-    
-    "features": [
-      "20g protein blend",
-      "5g creatine per serving",
-      "Smooth vanilla flavor",
-      "Dual-source protein",
-      "Avocado oil for healthy fats",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/protein-shakes/Vanilla-Flavour.jpeg"
-    ]
-  },
+  "seoTitle": "Protein & Creatine Strawberry - 250ml - Protein Shakes Collection",
+  "seoDescription": "High-performance protein shake with creatine in delicious strawberry flavor for post-workout recovery and muscle support.",
+
+  "longDescription": "A smooth and refreshing functional protein drink crafted to support muscle recovery, digestive balance, and everyday wellness—all in one convenient can. Powered by quality protein to help maintain and rebuild muscle, and enriched with prebiotics to nourish beneficial gut bacteria and probiotics to support digestive health, this delicious strawberry shake delivers smart, balanced nutrition with every sip.",
+
+  "features": [
+    "20g protein blend",
+    "5g creatine per serving",
+    "Whey isolate & pea protein",
+    "Avocado oil for healthy fats",
+    "Ready-to-drink convenience",
+    "Post-workout recovery"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/protein-shakes/Strawberry-Flavour.jpeg"
+  ]
+},
+  {
+  "id": "protein-creatine-chocolate-250ml",
+  "slug": "protein-creatine-chocolate-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "protein-shakes-collection",
+  
+  "name": "Protein & Creatine (Chocolate) -250ml",
+  "shortDescription": "High-performance protein shake with creatine. Rich chocolate flavor for muscle recovery.",
+  "tags": ["Protein", "Creatine", "Chocolate"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/protein-shakes/Chocolate-Flavour.jpeg",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Whey Protein Isolate",
+    "Pea Protein",
+    "Creatine Monohydrate",
+    "Pro-biotic",
+    "GOFOS- Oligosaccharides (Pre-biotic)",
+    "Maltodextrin",
+    "Avocado Oil",
+    "Polydextrose",
+    "Sodium Citrate",
+    "Natural Chocolate Flavouring",
+    "Water"
+  ],
+
+  "price": 4.99,
+  "currency": "USD",
+  "stock": 48,
+  "rating": 4.8,
+  "reviewCount": 44,
+
+  "seoTitle": "Protein & Creatine Chocolate - 250ml - Protein Shakes Collection",
+  "seoDescription": "High-performance protein shake with creatine in rich chocolate flavor for post-workout recovery and muscle support.",
+
+  "longDescription": "A rich and satisfying functional protein drink designed to support muscle recovery, digestive balance, and everyday wellness—all in one convenient can. Crafted with quality protein to help maintain and rebuild muscle, and enhanced with prebiotics and probiotics to support gut health, this smooth chocolate shake delivers balanced nutrition with every sip. Nourishing, delicious, and conveniently ready whenever you need it.",
+
+  "features": [
+    "20g protein blend",
+    "5g creatine per serving",
+    "Rich chocolate flavor",
+    "Whey isolate & pea protein",
+    "Avocado oil for healthy fats",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/protein-shakes/Chocolate-Flavour.jpeg"
+  ]
+},
+{
+  "id": "protein-creatine-vanilla-250ml",
+  "slug": "protein-creatine-vanilla-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "protein-shakes-collection",
+  
+  "name": "Protein & Creatine (Vanilla) -250ml",
+  "shortDescription": "High-performance protein shake with creatine. Smooth vanilla flavor for daily protein needs.",
+  "tags": ["Protein", "Creatine", "Vanilla"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/protein-shakes/Vanilla-Flavour.jpeg",
+
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Whey Protein Isolate",
+    "Pea Protein",
+    "Creatine Monohydrate",
+    "Pro-biotic",
+    "GOFOS- Oligosaccharides (Pre-biotic)",
+    "Maltodextrin",
+    "Avocado Oil",
+    "Polydextrose",
+    "Sodium Citrate",
+    "Natural Vanilla Flavouring",
+    "Water"
+  ],
+
+  "price": 4.99,
+  "currency": "USD",
+  "stock": 45,
+  "rating": 4.7,
+  "reviewCount": 32,
+
+  "seoTitle": "Protein & Creatine Vanilla - 250ml - Protein Shakes Collection",
+  "seoDescription": "High-performance protein shake with creatine in smooth vanilla flavor for post-workout recovery and daily protein needs.",
+
+  "longDescription": "A smooth and creamy functional protein drink crafted to support muscle recovery, digestive balance, and everyday wellness—all in one convenient can. Powered by quality protein to help maintain and rebuild muscle, and enriched with prebiotics to nourish beneficial gut bacteria and probiotics to support digestive health, this classic vanilla shake delivers balanced nutrition with a naturally comforting flavour.",
+
+  "features": [
+    "20g protein blend",
+    "5g creatine per serving",
+    "Smooth vanilla flavor",
+    "Dual-source protein",
+    "Avocado oil for healthy fats",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/protein-shakes/Vanilla-Flavour.jpeg"
+  ]
+},
 
   {
     "id": "isotonic-honey-lavender-250ml",

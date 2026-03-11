@@ -95,7 +95,8 @@ const FIELD_LABELS = {
 const EXCLUDED_FIELDS = new Set([
     "id", "slug", "mainCategory", "subCategory", "name", "shortDescription",
     "tags", "packInfo", "thumbnailImage", "seoTitle", "seoDescription",
-    "longDescription", "features", "galleryImages", "reviewCount"
+    "longDescription", "features", "galleryImages", "reviewCount",
+    "price", "currency", "stock", "rating"  // Hidden per client request
 ]);
 
 /* --------------------------------------------------
@@ -134,12 +135,15 @@ function injectProductData(product) {
     console.log("[Product] renderDynamicMetadata completed");
 
     /* ---------- Rating ---------- */
-
+    // Hidden per client request
+    // Uncomment below to show rating again
+    /*
     document.getElementById("product-review-count").textContent =
         product.reviewCount ? `(${product.reviewCount})` : "";
 
     document.getElementById("product-stars").textContent =
         product.rating ? "⭐".repeat(Math.round(product.rating)) : "";
+    */
 
     /* ---------- Gallery ---------- */
 

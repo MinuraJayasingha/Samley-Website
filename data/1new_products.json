@@ -4573,55 +4573,64 @@
   ]
 },
 
-  {
-    "id": "isotonic-honey-lavender-250ml",
-    "slug": "isotonic-honey-lavender-250ml",
-    "mainCategory": "beverage-collection",
-    "subCategory": "isotonics-collection",
-    
-    "name": "Isotonic-(Honey Lavender) 250ml",
-    "shortDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
-    "tags": ["Hydration", "Electrolytes", "Recovery"],
-    "packInfo": "250ml Can",
-    "thumbnailImage": "assets/images/new_products/beverages/Isotonics/isotonic.jpeg",
-    
-    "brand": "Ceylon Wellness",
-    "flavor": "Honey Lavender",
-    "productType": "Isotonic Drink",
-    "unitCount": "250ml",
+{
+  "id": "isotonic-honey-lavender-250ml",
+  "slug": "isotonic-honey-lavender-250ml",
+  "mainCategory": "beverage-collection",
+  "subCategory": "isotonics-collection",
+  
+  "name": "Isotonic-(Honey Lavender) 250ml",
+  "shortDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
+  "tags": ["Hydration", "Electrolytes", "Recovery"],
+  "packInfo": "250ml Can",
+  "thumbnailImage": "assets/images/new_products/beverages/Isotonics/isotonic.jpeg",
 
-    "format": "Can",
-    "ingredients": "Hydrolyzed Collagen Peptides, Vitamin B3, Vitamin B6, Vitamin B12, Vitamin D3, Vitamin K2, Ascorbic Acid, Zinc Gluconate, Magnesium Glycinate, Vitamin E, Sodium Chloride, Potassium Chloride, Beta Carotene, Natural Honey & Lavender Flavoring",
-    "serving": "Ready to Drink",
-    "electrolytes": "Sodium, Potassium, Magnesium",
-    "vitamins": "B Complex, C, D3, K2, E",
-    "additives": "Collagen Peptides, Zinc, Beta Carotene",
-    
-    "price": 3.99,
-    "currency": "USD",
-    "stock": 54,
-    "rating": 4.6,
-    "reviewCount": 28,
-    
-    "seoTitle": "Isotonic Honey Lavender - 250ml - Isotonics Collection",
-    "seoDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
-    
-    "longDescription": "Isotonic Honey Lavender is a scientifically formulated hydration drink designed for active individuals. Each 250ml can delivers a complete blend of electrolytes (sodium, potassium, magnesium) to replenish what's lost through sweat, plus hydrolyzed collagen peptides for joint and skin health. Enhanced with a comprehensive vitamin complex including B vitamins for energy metabolism, vitamins C, D3, K2, and E for immune support, and zinc for recovery. The calming honey lavender flavor makes hydration a soothing experience. Perfect post-workout or anytime you need optimal rehydration.",
-    
-    "features": [
-      "Complete electrolyte blend",
-      "Hydrolyzed collagen peptides",
-      "Vitamin B complex for energy",
-      "Vitamins C, D3, K2, E for immunity",
-      "Zinc & magnesium for recovery",
-      "Calming honey lavender flavor",
-      "Ready-to-drink convenience"
-    ],
-    
-    "galleryImages": [
-      "assets/images/new_products/beverages/isotonics/isotonic.jpeg"
-    ]
-  },
+  "format": "Can",
+  "serving": "Ready to Drink",
+  "ingredients": [
+    "Sodium Chloride",
+    "Potassium Chloride",
+    "Beta Carotene",
+    "Vitamin E",
+    "Hydrolyzed Collagen Peptides",
+    "Vitamin B3",
+    "Vitamin B6",
+    "Vitamin B12",
+    "Vitamin D3 + Vitamin K2",
+    "Ascorbic Acid",
+    "Zinc Gluconate",
+    "Magnesium Glycinate",
+    "Natural Honey Flavouring",
+    "Natural Lavender Extract",
+    "Coconut Water",
+    "Carbonated Water"
+  ],
+
+  "price": 3.99,
+  "currency": "USD",
+  "stock": 54,
+  "rating": 4.6,
+  "reviewCount": 28,
+
+  "seoTitle": "Isotonic Honey Lavender - 250ml - Isotonics Collection",
+  "seoDescription": "Advanced hydration with honey lavender flavor. Electrolytes, collagen, and essential vitamins for active recovery.",
+
+  "longDescription": "A refined take on functional hydration drink crafted for total wellness, Lavender Electrolytes + Vitamins + Collagen delivers advanced hydration with beauty-from-within benefits—all in a sleek, ready-to-drink can. Infused with delicate lavender notes, this refreshing formula helps replenish essential electrolytes, supports daily vitamin intake, and provides collagen to complement an active, modern lifestyle. Light, clean, and elegantly floral, it turns everyday hydration into a calming self-care ritual.",
+
+  "features": [
+    "Complete electrolyte blend",
+    "Hydrolyzed collagen peptides",
+    "Vitamin B complex for energy",
+    "Vitamins C, D3, K2, E for immunity",
+    "Zinc & magnesium for recovery",
+    "Calming honey lavender flavor",
+    "Ready-to-drink convenience"
+  ],
+
+  "galleryImages": [
+    "assets/images/new_products/beverages/Isotonics/isotonic.jpeg"
+  ]
+},
 
 
   {

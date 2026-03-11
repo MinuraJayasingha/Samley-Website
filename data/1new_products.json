@@ -3522,288 +3522,309 @@
   },
 
 
-  {
-    "id": "heritage-earl-grey-140tb",
-    "slug": "heritage-earl-grey-140tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "heritage-collection",
-    
-    "name": "Earl Grey -Ceylon Sips -140 Pot Tea Bags (406g)",
-    "shortDescription": "Classic Earl Grey tea in a generous 140-count pot for daily enjoyment. Aromatic bergamot flavor.",
-    "tags": ["Classic", "Aromatic", "Value"],
-    "packInfo": "140 Pot Tea Bags (406g)",
-    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Earl Grey – Ceylon Sips H.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Bergamot",
-    "teaVariety": "Flavored Black Tea",
-    "unitCount": "140 Tea Bags (406g)",
+{
+  "id": "heritage-earl-grey-140tb",
+  "slug": "heritage-earl-grey-140tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "heritage-collection",
 
-    "format": "Tea Bags",
-    "grade": "BOPF",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "Natural Bergamot Flavoring",
-    
-    "price": 18.99,
-    "currency": "USD",
-    "stock": 32,
-    "rating": 4.8,
-    "reviewCount": 56,
-    
-    "seoTitle": "Earl Grey Ceylon Sips - 140 Pot Tea Bags - Heritage Tea Collection",
-    "seoDescription": "Classic Earl Grey tea in a generous 140-count pot for daily enjoyment with aromatic bergamot flavor.",
-    
-    "longDescription": "Earl Grey Ceylon Sips brings the classic elegance of bergamot-infused tea in a generous 140-count pot. Each tea bag contains premium BOPF grade Ceylon black tea from high-grown regions, expertly blended with natural bergamot flavor. The full-bodied liquor and citrusy aroma make this perfect for daily enjoyment, whether morning, noon, or night. The large pot format ensures you'll never run out of your favorite Earl Grey.",
-    
-    "features": [
-      "140 tea bags per pot",
-      "Premium BOPF grade tea",
-      "Natural bergamot flavor",
-      "Full-bodied character",
-      "Exceptional value"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Heritage Teas/Earl Grey – Ceylon Sips H.png"
-    ]
-  },
-  {
-    "id": "heritage-black-tea-140tb",
-    "slug": "heritage-black-tea-140tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "heritage-collection",
-    
-    "name": "Black tea -Ceylon Sips -140 Pot Tea Bags (406g)",
-    "shortDescription": "Traditional Ceylon black tea in a generous 140-count pot. Classic, full-bodied, and satisfying.",
-    "tags": ["Classic", "Traditional", "Value"],
-    "packInfo": "140 Pot Tea Bags (406g)",
-    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon Sips H.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "140 Tea Bags (406g)",
+  "name": "Earl Grey -Ceylon Sips -140 Pot Tea Bags (406g)",
+  "shortDescription": "Classic Earl Grey tea in a generous 140-count pot for daily enjoyment. Aromatic bergamot flavor.",
+  "tags": ["Classic", "Aromatic", "Value"],
+  "packInfo": "140 Pot Tea Bags (406g)",
+  "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Earl Grey – Ceylon Sips H.png",
 
-    "format": "Tea Bags",
-    "grade": "BOPF",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 16.99,
-    "currency": "USD",
-    "stock": 45,
-    "rating": 4.9,
-    "reviewCount": 78,
-    
-    "seoTitle": "Black Tea Ceylon Sips - 140 Pot Tea Bags - Heritage Tea Collection",
-    "seoDescription": "Traditional Ceylon black tea in a generous 140-count pot for classic, full-bodied enjoyment every day.",
-    
-    "longDescription": "Black Tea Ceylon Sips is the authentic taste of Sri Lanka in a generous 140-count pot. Each tea bag contains premium BOPF grade black tea from high-grown regions, delivering the full-bodied, robust flavor that Ceylon is famous for. The bright liquor and satisfying character make this perfect for everyday drinking, whether enjoyed plain or with milk. A true heritage tea for daily pleasure.",
-    
-    "features": [
-      "140 tea bags per pot",
-      "Premium BOPF grade tea",
-      "Full-bodied classic flavor",
-      "Bright golden liquor",
-      "Exceptional everyday value"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon Sips H.png"
-    ]
-  },
-  {
-    "id": "heritage-masala-140tb",
-    "slug": "heritage-masala-140tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "heritage-collection",
-    
-    "name": "Masala -Ceylon Sips -140 Pot Tea Bags (406g)",
-    "shortDescription": "Aromatic masala chai in a generous 140-count pot. Warm, spicy, and invigorating.",
-    "tags": ["Spicy", "Aromatic", "Value"],
-    "packInfo": "140 Pot Tea Bags (406g)",
-    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon Sips H.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Masala Chai",
-    "teaVariety": "Spiced Black Tea",
-    "unitCount": "140 Tea Bags (406g)",
+  "format": "Tea Bags",
+  "grade": "BOPF",
+  "region": "High Grown",
+  "brewingInstructions": "95-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Bergamot Flavour"
+  ],
+  "liquor": ["Bright, clear coppery amber", "Excellent brilliance"],
+  "aroma": ["Fresh and uplifting citrus notes of bergamot", "Clean, brisk black tea base", "Light floral nuances"],
+  "flavourProfile": ["Lively burst of zesty bergamot at the forefront", "Smooth, well-rounded black tea body", "Citrus element distinct yet balanced"],
+  "finish": ["Clean, fragrant, and lingering", "Subtle citrus sweetness", "Refined briskness"],
 
-    "format": "Tea Bags",
-    "grade": "BOPF",
-    "region": "High",
-    "liquorStrength": "Full -Bodied",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "Natural Masala Spices (Cardamom, Cinnamon, Ginger, Clove, Pepper)",
-    
-    "price": 19.99,
-    "currency": "USD",
-    "stock": 28,
-    "rating": 4.9,
-    "reviewCount": 62,
-    
-    "seoTitle": "Masala Ceylon Sips - 140 Pot Tea Bags - Heritage Tea Collection",
-    "seoDescription": "Aromatic masala chai in a generous 140-count pot with warm, spicy, and invigorating traditional flavors.",
-    
-    "longDescription": "Masala Ceylon Sips brings the authentic taste of traditional masala chai in a generous 140-count pot. Each tea bag contains premium BOPF grade Ceylon black tea expertly blended with a warming spice mix including cardamom, cinnamon, ginger, clove, and pepper. The full-bodied liquor and aromatic spice profile create an invigorating cup that can be enjoyed plain or with milk. Perfect for those who love the warmth of spiced tea.",
-    
-    "features": [
-      "140 tea bags per pot",
-      "Premium BOPF grade tea",
-      "Traditional masala spices",
-      "Warm and invigorating",
-      "Exceptional value"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon Sips H.png"
-    ]
-  },
-  {
-    "id": "heritage-black-tea-op-500g",
-    "slug": "heritage-black-tea-op-500g",
-    "mainCategory": "tea-collection",
-    "subCategory": "heritage-collection",
-    
-    "name": "Black Tea -OP (500g)",
-    "shortDescription": "Premium Orange Pekoe grade Ceylon black tea in bulk 500g pack. Smooth, balanced, and aromatic.",
-    "tags": ["Premium", "Bulk", "Classic"],
-    "packInfo": "500g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon H.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Classic Black Tea",
-    "teaVariety": "Black Tea",
-    "unitCount": "500g",
+  "price": 18.99,
+  "currency": "USD",
+  "stock": 32,
+  "rating": 4.8,
+  "reviewCount": 56,
 
-    "format": "Loose Leaf",
-    "grade": "OP",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "N/A",
-    
-    "price": 24.99,
-    "currency": "USD",
-    "stock": 18,
-    "rating": 4.9,
-    "reviewCount": 34,
-    
-    "seoTitle": "Black Tea OP - 500g - Heritage Tea Collection",
-    "seoDescription": "Premium Orange Pekoe grade Ceylon black tea in bulk 500g pack with smooth, balanced, and aromatic character.",
-    
-    "longDescription": "Black Tea OP (Orange Pekoe) is a premium grade Ceylon black tea featuring long, wiry leaves that produce a smooth, medium-bodied liquor with delightful aroma. This 500g bulk pack is perfect for devoted tea drinkers, families, or offices. The OP grade offers a refined character that's less robust than BOPF but more nuanced, making it ideal for those who appreciate tea's subtle complexities. A true heritage tea for connoisseurs.",
-    
-    "features": [
-      "500g bulk pack",
-      "Premium Orange Pekoe grade",
-      "Smooth medium body",
-      "Long wiry leaves",
-      "Exceptional value for enthusiasts"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon H.png"
-    ]
-  },
-  {
-    "id": "heritage-masala-pek-500g",
-    "slug": "heritage-masala-pek-500g",
-    "mainCategory": "tea-collection",
-    "subCategory": "heritage-collection",
-    
-    "name": "Masala Black Tea -PEK (500g)",
-    "shortDescription": "Spiced masala tea with PEK grade leaves in bulk 500g pack. Rich, aromatic, and warming.",
-    "tags": ["Spiced", "Aromatic", "Bulk"],
-    "packInfo": "500g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon H.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Masala Chai",
-    "teaVariety": "Spiced Black Tea",
-    "unitCount": "500g",
+  "seoTitle": "Earl Grey Ceylon Sips - 140 Pot Tea Bags - Heritage Tea Collection",
+  "seoDescription": "Classic Earl Grey tea in a generous 140-count pot for daily enjoyment with aromatic bergamot flavor.",
 
-    "format": "Loose Leaf",
-    "grade": "PEK",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "Natural Masala Spices (Cardamom, Cinnamon, Ginger, Clove, Pepper)",
-    
-    "price": 26.99,
-    "currency": "USD",
-    "stock": 15,
-    "rating": 4.8,
-    "reviewCount": 27,
-    
-    "seoTitle": "Masala Black Tea PEK - 500g - Heritage Tea Collection",
-    "seoDescription": "Spiced masala tea with PEK grade leaves in bulk 500g pack for rich, aromatic, and warming daily enjoyment.",
-    
-    "longDescription": "Masala Black Tea PEK combines premium PEK (Pekoe) grade Ceylon black tea with a traditional blend of warming spices in a generous 500g bulk pack. The PEK grade features slightly shorter leaves than OP, offering a fuller infusion while maintaining elegance. Expertly blended with cardamom, cinnamon, ginger, clove, and pepper, this masala chai delivers authentic spicy warmth in every cup. Perfect for daily spiced tea enjoyment.",
-    
-    "features": [
-      "500g bulk pack",
-      "Premium PEK grade tea",
-      "Traditional masala spices",
-      "Medium-bodied character",
-      "Perfect for daily chai"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon H.png"
-    ]
-  },
-  {
-    "id": "heritage-green-tea-opa2-500g",
-    "slug": "heritage-green-tea-opa2-500g",
-    "mainCategory": "tea-collection",
-    "subCategory": "heritage-collection",
-    
-    "name": "Green Tea -OPA2(500g)",
-    "shortDescription": "Premium OPA2 grade Ceylon green tea in bulk 500g pack. Fresh, light, and smooth.",
-    "tags": ["Fresh", "Light", "Bulk"],
-    "packInfo": "500g Loose Tea Pack",
-    "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Green Tea – Ceylon H.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Green Tea",
-    "teaVariety": "Green Tea",
-    "unitCount": "500g",
+  "longDescription": "Masterfully blended with vibrant blue cornflowers, the exotic bergamot infuses this tea with a distinct citrus flavour, resulting in a rejuvenating cup of brew.",
 
-    "format": "Loose Leaf",
-    "grade": "OPA2",
-    "region": "High",
-    "liquorStrength": "Medium -Bodied",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "N/A",
-    
-    "price": 23.99,
-    "currency": "USD",
-    "stock": 20,
-    "rating": 4.8,
-    "reviewCount": 31,
-    
-    "seoTitle": "Green Tea OPA2 - 500g - Heritage Tea Collection",
-    "seoDescription": "Premium OPA2 grade Ceylon green tea in bulk 500g pack with fresh, light, and smooth character for daily enjoyment.",
-    
-    "longDescription": "Green Tea OPA2 is a premium grade Ceylon green tea featuring carefully processed leaves that retain their fresh character and delicate flavor. This 500g bulk pack is perfect for daily green tea drinkers who appreciate quality and value. The OPA2 grade delivers a smooth, medium-bodied liquor with light vegetal notes and a clean finish. Brew at lower temperatures to preserve the subtle flavors and maximize the antioxidant benefits.",
-    
-    "features": [
-      "500g bulk pack",
-      "Premium OPA2 grade",
-      "Fresh light flavor",
-      "Rich in antioxidants",
-      "Exceptional daily value"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Heritage Teas/Green Tea – Ceylon H.png"
-    ]
-  },
+  "features": [
+    "140 tea bags per pot",
+    "Premium BOPF grade tea",
+    "Natural bergamot flavor",
+    "Full-bodied character",
+    "Exceptional value"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Heritage Teas/Earl Grey – Ceylon Sips H.png"
+  ]
+},
+{
+  "id": "heritage-black-tea-140tb",
+  "slug": "heritage-black-tea-140tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "heritage-collection",
+
+  "name": "Black tea -Ceylon Sips -140 Pot Tea Bags (406g)",
+  "shortDescription": "Traditional Ceylon black tea in a generous 140-count pot. Classic, full-bodied, and satisfying.",
+  "tags": ["Classic", "Traditional", "Value"],
+  "packInfo": "140 Pot Tea Bags (406g)",
+  "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon Sips H.png",
+
+  "format": "Tea Bags",
+  "grade": "BOPF",
+  "region": "High Grown",
+  "brewingInstructions": "95-100C & 4-5min",
+  "ingredients": [
+    "Black Tea"
+  ],
+  "liquor": ["Clear golden-amber", "Excellent brightness and brilliance"],
+  "aroma": ["Fresh and aromatic", "Lively high-grown briskness", "Subtle floral hints", "Gentle citrusy top notes"],
+  "flavourProfile": ["Medium to full-bodied", "Bright, crisp character", "Smooth malt undertones", "Light floral accents"],
+  "finish": ["Refreshing and lingering", "Balanced strength and refined warmth"],
+
+  "price": 16.99,
+  "currency": "USD",
+  "stock": 45,
+  "rating": 4.9,
+  "reviewCount": 78,
+
+  "seoTitle": "Black Tea Ceylon Sips - 140 Pot Tea Bags - Heritage Tea Collection",
+  "seoDescription": "Traditional Ceylon black tea in a generous 140-count pot for classic, full-bodied enjoyment every day.",
+
+  "longDescription": "Indulge in the refreshing mellowness of high-grown Ceylon tea, internationally renowned for its exceptional quality, and savour a golden-hued aromatic cup of flavour-rich tea.",
+
+  "features": [
+    "140 tea bags per pot",
+    "Premium BOPF grade tea",
+    "Full-bodied classic flavor",
+    "Bright golden liquor",
+    "Exceptional everyday value"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon Sips H.png"
+  ]
+},
+{
+  "id": "heritage-masala-140tb",
+  "slug": "heritage-masala-140tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "heritage-collection",
+
+  "name": "Masala -Ceylon Sips -140 Pot Tea Bags (406g)",
+  "shortDescription": "Aromatic masala chai in a generous 140-count pot. Warm, spicy, and invigorating.",
+  "tags": ["Spicy", "Aromatic", "Value"],
+  "packInfo": "140 Pot Tea Bags (406g)",
+  "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon Sips H.png",
+
+  "format": "Tea Bags",
+  "grade": "BOPF",
+  "region": "High Grown",
+  "brewingInstructions": "95-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Ginger",
+    "Cumin",
+    "Lemongrass",
+    "Fennel",
+    "Cardamom",
+    "Cinnamon",
+    "Star Anise",
+    "Clove",
+    "Black Pepper",
+    "Chai Flavouring"
+  ],
+  "liquor": ["Deep reddish-brown", "Turning rich caramel when prepared with milk"],
+  "aroma": ["Intensely fragrant with warming spices", "Cinnamon sweetness", "Cardamom lift", "Subtle clove depth", "Gentle ginger heat layered over a bold black tea base"],
+  "flavourProfile": ["Robust and full-bodied Ceylon tea foundation", "Bold yet balanced", "Spicy, slightly sweet, and richly aromatic"],
+  "finish": ["Long, spicy, and soothing", "Lingering warmth and subtle sweetness"],
+
+  "price": 19.99,
+  "currency": "USD",
+  "stock": 28,
+  "rating": 4.9,
+  "reviewCount": 62,
+
+  "seoTitle": "Masala Ceylon Sips - 140 Pot Tea Bags - Heritage Tea Collection",
+  "seoDescription": "Aromatic masala chai in a generous 140-count pot with warm, spicy, and invigorating traditional flavors.",
+
+  "longDescription": "Experience the captivating allure of Masala Spicy blend is expertly combined with robust Ceylon black tea to create a revitalizing and invigorating beverage. Indulge in this brew for a sense of tranquillity and inner warmth that it provides.",
+
+  "features": [
+    "140 tea bags per pot",
+    "Premium BOPF grade tea",
+    "Traditional masala spices",
+    "Warm and invigorating",
+    "Exceptional value"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon Sips H.png"
+  ]
+},
+{
+  "id": "heritage-black-tea-op-500g",
+  "slug": "heritage-black-tea-op-500g",
+  "mainCategory": "tea-collection",
+  "subCategory": "heritage-collection",
+
+  "name": "Black Tea -OP (500g)",
+  "shortDescription": "Premium Orange Pekoe grade Ceylon black tea in bulk 500g pack. Smooth, balanced, and aromatic.",
+  "tags": ["Premium", "Bulk", "Classic"],
+  "packInfo": "500g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon H.png",
+
+  "format": "Loose Leaf",
+  "grade": "OPA",
+  "region": "Low Grown",
+  "brewingInstructions": "95-100C & 4-5min",
+  "ingredients": [
+    "Black Tea"
+  ],
+  "liquor": ["Deep golden-orange to rich amber", "Excellent brightness and clarity"],
+  "aroma": ["Pronounced malty notes", "Subtle woody undertones", "Gentle hints of dark honey"],
+  "flavourProfile": ["Smooth and full-bodied", "Mellow malt character", "Light earthy nuances", "Soft raw undertones adding depth and complexity"],
+  "finish": ["Warm, lingering, and gently sweet", "Structured depth"],
+
+  "price": 24.99,
+  "currency": "USD",
+  "stock": 18,
+  "rating": 4.9,
+  "reviewCount": 34,
+
+  "seoTitle": "Black Tea OP - 500g - Heritage Tea Collection",
+  "seoDescription": "Premium Orange Pekoe grade Ceylon black tea in bulk 500g pack with smooth, balanced, and aromatic character.",
+
+  "longDescription": "The leaves, being clean, bold well-twisted and dark, are consistent with the typical characteristics of low-elevation tea. The resulting tea displays a deep golden-orange colour, along with a malt-infused aroma, underpinned by subtle raw undertones.",
+
+  "features": [
+    "500g bulk pack",
+    "Premium Orange Pekoe grade",
+    "Smooth medium body",
+    "Long wiry leaves",
+    "Exceptional value for enthusiasts"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Heritage Teas/Black Tea – Ceylon H.png"
+  ]
+},
+{
+  "id": "heritage-masala-pek-500g",
+  "slug": "heritage-masala-pek-500g",
+  "mainCategory": "tea-collection",
+  "subCategory": "heritage-collection",
+
+  "name": "Masala Black Tea -PEK (500g)",
+  "shortDescription": "Spiced masala tea with PEK grade leaves in bulk 500g pack. Rich, aromatic, and warming.",
+  "tags": ["Spiced", "Aromatic", "Bulk"],
+  "packInfo": "500g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon H.png",
+
+  "format": "Loose Leaf",
+  "grade": "PEKOE",
+  "region": "Low Grown",
+  "brewingInstructions": "95-100C & 4-5min",
+  "ingredients": [
+    "Black Tea",
+    "Ginger",
+    "Cumin",
+    "Lemongrass",
+    "Fennel",
+    "Cardamom",
+    "Cinnamon",
+    "Star Anise",
+    "Clove",
+    "Black Pepper",
+    "Chai Flavouring"
+  ],
+  "liquor": ["Deep reddish-brown", "Turning creamy caramel when prepared with milk"],
+  "aroma": ["Warm and intensely fragrant", "Sweet cinnamon and cardamom rise first", "Gentle ginger heat", "Clove depth", "Subtle fennel sweetness"],
+  "flavourProfile": ["Robust and full-bodied black tea foundation", "Harmonious spice medley", "Bold yet balanced", "Warming, slightly sweet, and gently peppery", "Refreshing lemongrass undertones"],
+  "finish": ["Long, spicy, and satisfying", "Lingering notes of sweet spice and mild heat"],
+
+  "price": 26.99,
+  "currency": "USD",
+  "stock": 15,
+  "rating": 4.8,
+  "reviewCount": 27,
+
+  "seoTitle": "Masala Black Tea PEK - 500g - Heritage Tea Collection",
+  "seoDescription": "Spiced masala tea with PEK grade leaves in bulk 500g pack for rich, aromatic, and warming daily enjoyment.",
+
+  "longDescription": "Experience the captivating allure of Masala Spicy blend is expertly combined with robust Ceylon black tea to create a revitalizing and invigorating beverage. Indulge in this brew for a sense of tranquillity and inner warmth that it provides.",
+
+  "features": [
+    "500g bulk pack",
+    "Premium PEK grade tea",
+    "Traditional masala spices",
+    "Medium-bodied character",
+    "Perfect for daily chai"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Heritage Teas/Masala Black Tea – Ceylon H.png"
+  ]
+},
+{
+  "id": "heritage-green-tea-opa2-500g",
+  "slug": "heritage-green-tea-opa2-500g",
+  "mainCategory": "tea-collection",
+  "subCategory": "heritage-collection",
+
+  "name": "Green Tea -OPA2(500g)",
+  "shortDescription": "Premium OPA2 grade Ceylon green tea in bulk 500g pack. Fresh, light, and smooth.",
+  "tags": ["Fresh", "Light", "Bulk"],
+  "packInfo": "500g Loose Tea Pack",
+  "thumbnailImage": "assets/images/products/Teas/Heritage Teas/Green Tea – Ceylon H.png",
+
+  "format": "Loose Leaf",
+  "grade": "GP1",
+  "region": "High Grown",
+  "brewingInstructions": "70-80C & 1-2min",
+  "ingredients": [
+    "Green Tea"
+  ],
+  "liquor": ["Light golden-yellow", "Bright clarity and a delicate sheen"],
+  "aroma": ["Fresh and clean", "Soft grassy notes", "Subtle floral nuances"],
+  "flavourProfile": ["Crisp and refreshing", "Gentle vegetal tones", "Mild earthiness", "Smooth natural sweetness", "Delicate floral hints"],
+  "finish": ["Clean, soothing, and lightly sweet", "Lingering floral whisper"],
+
+  "price": 23.99,
+  "currency": "USD",
+  "stock": 20,
+  "rating": 4.8,
+  "reviewCount": 31,
+
+  "seoTitle": "Green Tea OPA2 - 500g - Heritage Tea Collection",
+  "seoDescription": "Premium OPA2 grade Ceylon green tea in bulk 500g pack with fresh, light, and smooth character for daily enjoyment.",
+
+  "longDescription": "Indulge in the unique and refreshing flavour of Ceylon Green Tea, which boasts a delightful combination of astringency, grassy undertones, and earthy notes. This tea unfolds with a gentle sweetness and delicate floral hints, creating a truly enchanting sensory journey. Take a journey to the heart of Sri Lanka with each sip of our exceptional Ceylon Green Tea.",
+
+  "features": [
+    "500g bulk pack",
+    "Premium OPA2 grade",
+    "Fresh light flavor",
+    "Rich in antioxidants",
+    "Exceptional daily value"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Heritage Teas/Green Tea – Ceylon H.png"
+  ]
+},
 
 
 

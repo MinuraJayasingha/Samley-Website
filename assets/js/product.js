@@ -23,27 +23,16 @@ function getProductSlug() {
 
 async function loadProduct() {
     const slug = getProductSlug();
-
-    if (!slug) {
-        console.warn("No product slug found in URL - pathname:", window.location.pathname);
-        return;
-    }
+    if (!slug) return;
 
     try {
         const res = await fetch("data/1new_products.json");
-        if (!res.ok) {
-            console.error("Failed to fetch 1new_products.json", res.status);
-            return;
-        }
+        if (!res.ok) return;
 
         let products = await res.json();
         products = products.filter(p => p && Object.keys(p).length > 0 && p.slug);
         const product = products.find(p => p.slug === slug);
-
-        if (!product) {
-            console.warn("Product not found for slug:", slug);
-            return;
-        }
+        if (!product) return;
 
         injectProductData(product);
         updateBreadcrumbForProduct(product);
@@ -106,22 +95,23 @@ const FIELD_LABELS = {
     uses:                "Uses",
 };
 
-
-/* --------------------------------------------------
-   Fields to EXCLUDE from metadata display
-   price / currency / stock / rating / reviewCount
-   are intentionally hidden per client request
--------------------------------------------------- */
-
+/* Fields excluded from metadata display */
 const EXCLUDED_FIELDS = new Set([
     "id", "slug", "mainCategory", "subCategory",
     "name", "shortDescription", "tags", "packInfo",
     "thumbnailImage", "seoTitle", "seoDescription",
     "longDescription", "features", "galleryImages",
-    // Hidden commercial fields
     "price", "currency", "stock", "rating", "reviewCount",
-    // Handled separately
     "regions", "featured",
+]);
+
+/*
+  Fields that are always shown collapsed by default.
+  Short arrays (≤2 items) are always shown expanded regardless.
+*/
+const COLLAPSIBLE_FIELDS = new Set([
+    "ingredients", "cupProfile", "tastingNotes", "applications",
+    "uses", "aroma", "flavourProfile", "flavorProfile", "finish", "liquor",
 ]);
 
 
@@ -131,31 +121,27 @@ const EXCLUDED_FIELDS = new Set([
 
 function injectProductData(product) {
 
-    /* --- SEO --- */
+    /* SEO */
     if (product.seoTitle) document.title = product.seoTitle;
     const metaDesc = document.getElementById("meta-description");
     if (metaDesc && product.seoDescription) {
         metaDesc.setAttribute("content", product.seoDescription);
     }
 
-    /* --- Main Content --- */
+    /* Main text content */
     setTextById("product-title",            product.seoTitle || product.name);
     setTextById("product-long-description", product.longDescription || "");
     setTextById("product-pack",             product.packInfo || "");
 
-    /* --- Dynamic Metadata --- */
+    /* Metadata fields */
     renderDynamicMetadata(product);
 
-    /* --- Features Section ---
-         Injected OUTSIDE .products-container so it can be full-width.
-         Does NOT use the 'reveal' class — that class relies on an
-         IntersectionObserver that won't pick up dynamically inserted nodes.
-    --- */
+    /* Features section — inserted between .product-detail and .product-discription */
     if (product.features && product.features.length > 0) {
         injectFeaturesSection(product.features);
     }
 
-    /* --- Gallery --- */
+    /* Gallery */
     const mainImage = document.getElementById("product-main-image");
     const thumbs    = document.querySelector(".product-thumbnails");
 
@@ -166,9 +152,9 @@ function injectProductData(product) {
         if (thumbs) {
             thumbs.innerHTML = "";
             product.galleryImages.forEach(img => {
-                const t   = document.createElement("img");
-                t.src     = img;
-                t.alt     = product.name;
+                const t = document.createElement("img");
+                t.src   = img;
+                t.alt   = product.name;
                 thumbs.appendChild(t);
             });
         }
@@ -179,7 +165,7 @@ function injectProductData(product) {
 
 
 /* --------------------------------------------------
-   Helper – set text content safely
+   Helper – safe text setter
 -------------------------------------------------- */
 
 function setTextById(id, text) {
@@ -189,61 +175,91 @@ function setTextById(id, text) {
 
 
 /* --------------------------------------------------
-   Render all metadata fields dynamically
-   Handles: strings, numbers, string arrays, object arrays
+   Render metadata fields dynamically
+   Short string fields  → inline  "Label: value"
+   Array fields         → collapsible accordion
+   Long string fields   → inline (no collapse needed)
 -------------------------------------------------- */
 
 function renderDynamicMetadata(product) {
-    const metaContainer = document.getElementById("product-meta");
-    if (!metaContainer) return;
+    const container = document.getElementById("product-meta");
+    if (!container) return;
 
-    metaContainer.innerHTML = "";
+    container.innerHTML = "";
 
     for (const [key, value] of Object.entries(product)) {
 
-        // Skip fields that are excluded or empty
         if (EXCLUDED_FIELDS.has(key)) continue;
         if (value === null || value === undefined || value === "") continue;
         if (Array.isArray(value) && value.length === 0) continue;
-
-        // Skip plain nested objects (not arrays)
         if (typeof value === "object" && !Array.isArray(value)) continue;
 
         const label = FIELD_LABELS[key] || formatFieldName(key);
         const li    = document.createElement("li");
 
         if (Array.isArray(value)) {
+            if (typeof value[0] === "object") continue; // skip object arrays
 
-            // Skip arrays of objects — handled by dedicated renderers
-            if (typeof value[0] === "object") continue;
+            const isLong       = value.length > 2;
+            const shouldCollapse = isLong && COLLAPSIBLE_FIELDS.has(key);
+            const uid          = `meta-${key}`;
 
-            // String array → nested <ul> dash-bullet list
             const listItems = value.map(item => `<li>${item}</li>`).join("");
 
-            li.classList.add("product-meta-has-list");
-            li.innerHTML = `
-                <span class="product-meta-b">${label}</span>
-                <ul class="product-meta-list">${listItems}</ul>
-            `;
+            if (shouldCollapse) {
+                /* Collapsible accordion */
+                li.classList.add("product-meta-accordion");
+                li.innerHTML = `
+                    <button class="meta-accordion-trigger" aria-expanded="false" aria-controls="${uid}">
+                        <span class="product-meta-b">${label}</span>
+                        <span class="meta-accordion-count">${value.length} items</span>
+                        <span class="meta-accordion-arrow" aria-hidden="true">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="meta-accordion-body" id="${uid}" hidden>
+                        <ul class="product-meta-list">${listItems}</ul>
+                    </div>
+                `;
+
+                /* Toggle behaviour */
+                const trigger = li.querySelector(".meta-accordion-trigger");
+                const body    = li.querySelector(".meta-accordion-body");
+                trigger.addEventListener("click", () => {
+                    const isOpen = trigger.getAttribute("aria-expanded") === "true";
+                    trigger.setAttribute("aria-expanded", String(!isOpen));
+                    body.hidden = isOpen;
+                    li.classList.toggle("is-open", !isOpen);
+                });
+
+            } else {
+                /* Short array — always visible */
+                li.classList.add("product-meta-has-list");
+                li.innerHTML = `
+                    <span class="product-meta-b">${label}</span>
+                    <ul class="product-meta-list">${listItems}</ul>
+                `;
+            }
 
         } else {
-            // Plain string / number → inline
+            /* Plain string / number */
             li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${value}</span>`;
         }
 
-        metaContainer.appendChild(li);
+        container.appendChild(li);
     }
 
-    /* --- Special: Tea Regions block (Regional Tea Sensation) --- */
+    /* Regional tea block */
     if (product.regions && Array.isArray(product.regions) && product.regions.length > 0) {
-        renderRegionsBlock(product.regions, metaContainer);
+        renderRegionsBlock(product.regions, container);
     }
 }
 
 
 /* --------------------------------------------------
-   Special renderer for regional tea product
-   product.regions = [ { name, description, liquor, ... } ]
+   Regional tea block renderer
 -------------------------------------------------- */
 
 function renderRegionsBlock(regions, container) {
@@ -270,22 +286,18 @@ function renderRegionsBlock(regions, container) {
 
 
 /* --------------------------------------------------
-   Inject full-width Features section
+   Inject Features Section
 
-   INSERTION POINT: after <main class="products-container-main">
-   — i.e. OUTSIDE the padded .products-container —
-   so the section can span the full page width.
+   TARGET POSITION:
+   Between .product-detail and .product-discription
+   (both are inside .products-container)
 
-   NOTE: We do NOT add the 'reveal' class here because that
-   class depends on an IntersectionObserver registered in
-   smooth-scroll.js that runs at page-load time and won't
-   observe elements injected later. The section is always
-   visible immediately.
+   We do NOT use the 'reveal' class because the
+   IntersectionObserver in smooth-scroll.js only observes
+   elements present at page-load time.
 -------------------------------------------------- */
 
 function injectFeaturesSection(features) {
-
-    // Guard: don't inject twice
     if (document.getElementById("product-features-section")) return;
 
     const section     = document.createElement("section");
@@ -295,7 +307,7 @@ function injectFeaturesSection(features) {
     const itemsHTML = features.map(f => `
         <li class="feature-item">
             <span class="feature-icon">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="7.5" stroke="currentColor"/>
                     <path d="M4.5 8L7 10.5L11.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -318,26 +330,22 @@ function injectFeaturesSection(features) {
     `;
 
     /*
-     * Insert after <main class="products-container-main"> so the
-     * features section sits between the product content and the
-     * "Explore Collections" section — at full page width.
+     * Insert AFTER .product-detail and BEFORE .product-discription.
+     * Both live inside .products-container.
      */
-    const main = document.querySelector("main.products-container-main");
-    if (main) {
-        main.insertAdjacentElement("afterend", section);
+    const productDescription = document.querySelector(".product-discription");
+    if (productDescription) {
+        productDescription.insertAdjacentElement("beforebegin", section);
     } else {
-        // Fallback: append to body before the collections section
-        const collections = document.getElementById("collections-section");
-        if (collections) {
-            collections.insertAdjacentElement("beforebegin", section);
-        }
+        /* Fallback: after .product-detail */
+        const productDetail = document.querySelector(".product-detail");
+        if (productDetail) productDetail.insertAdjacentElement("afterend", section);
     }
 }
 
 
 /* --------------------------------------------------
-   Convert camelCase → "Title Case"
-   e.g. "liquorStrength" → "Liquor Strength"
+   camelCase → "Title Case"
 -------------------------------------------------- */
 
 function formatFieldName(fieldName) {
@@ -357,10 +365,7 @@ function formatFieldName(fieldName) {
 
 function updateBreadcrumbForProduct(product) {
     fetch("data/new_categories.json")
-        .then(res => {
-            if (!res.ok) return null;
-            return res.json();
-        })
+        .then(res => res.ok ? res.json() : null)
         .then(categories => {
             if (!categories) return;
             categories.forEach(main => {

@@ -1424,22 +1424,16 @@ sup {
 @media (min-width: 1400px) {}
 
 
-/* ==========================================================
-   PRODUCT PAGE — Meta list values & Features section
-   Replace the existing block in components.css with this one
-   ========================================================== */
 
 
 /* ----------------------------------------------------------
-   product-meta: make the <ul> itself a flex column so
-   gap between items actually works (it's not block by default
-   in all browsers when no display is set)
+   product-meta base — flex column so gap works reliably
 ---------------------------------------------------------- */
 
 .product-meta {
     display:        flex;
     flex-direction: column;
-    gap:            10px;
+    gap:            0;          /* individual items control own spacing */
     font-size:      12px;
     font-family:    var(--font-body);
     list-style:     none;
@@ -1447,30 +1441,35 @@ sup {
     margin:         0;
 }
 
+.product-meta > li {
+    padding: 7px 0;
+    border-bottom: 1px solid #f0ede8;
+}
+
+.product-meta > li:last-child {
+    border-bottom: none;
+}
+
 .product-meta-b {
     font-size:   12px;
     font-weight: 600;
+    color:       #1a1a1a;
 }
 
 @media (min-width: 992px) {
     .product-meta {
-        font-size: 14px;
-        gap:       14px;
-    }
-
-    .product-meta li {
-        padding-bottom: 0; /* gap handles spacing now */
+        font-size: 13px;
     }
 
     .product-meta-b {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
 
 /* ----------------------------------------------------------
-   Array field: label on its own line, sub-list below
-   e.g. Aroma, Flavour Profile, Finish, Ingredients
+   Short array fields (≤2 items) — always visible, no toggle
+   e.g. a 2-item Liquor or Aroma field
 ---------------------------------------------------------- */
 
 .product-meta > li.product-meta-has-list {
@@ -1483,7 +1482,6 @@ sup {
     display: block;
 }
 
-/* Nested dash-bullet list */
 .product-meta-list {
     list-style:     none;
     margin:         0;
@@ -1505,7 +1503,80 @@ sup {
     content:  "–";
     position: absolute;
     left:     0;
-    color:    #aaa;
+    color:    #bbb;
+}
+
+
+/* ----------------------------------------------------------
+   ACCORDION — collapsible meta fields
+   (Ingredients, Cup Profile, Aroma, etc. with >2 items)
+---------------------------------------------------------- */
+
+.product-meta > li.product-meta-accordion {
+    padding: 0;           /* trigger handles its own padding */
+    border-bottom: 1px solid #f0ede8;
+}
+
+.product-meta > li.product-meta-accordion:last-child {
+    border-bottom: none;
+}
+
+/* The clickable button row */
+.meta-accordion-trigger {
+    display:         flex;
+    align-items:     center;
+    gap:             8px;
+    width:           100%;
+    padding:         8px 0;
+    background:      none;
+    border:          none;
+    cursor:          pointer;
+    text-align:      left;
+    font-family:     var(--font-body);
+}
+
+.meta-accordion-trigger:hover .product-meta-b {
+    color: var(--color-text-secondary, #3b6b4a);
+}
+
+/* Item count badge */
+.meta-accordion-count {
+    margin-left:   auto;
+    font-size:     0.7rem;
+    color:         #aaa;
+    font-weight:   400;
+    white-space:   nowrap;
+    margin-right:  4px;
+}
+
+/* Arrow icon — rotates when open */
+.meta-accordion-arrow {
+    display:    flex;
+    align-items: center;
+    color:       #aaa;
+    transition:  transform 0.22s ease;
+    flex-shrink: 0;
+}
+
+.product-meta-accordion.is-open .meta-accordion-arrow {
+    transform: rotate(180deg);
+}
+
+/* Collapsible body */
+.meta-accordion-body {
+    padding:       0 0 8px 2px;
+    overflow:      hidden;
+}
+
+/* When hidden attribute is removed we don't need animation,
+   but add a subtle fade-in for polish */
+.meta-accordion-body:not([hidden]) {
+    animation: accordionIn 0.2s ease;
+}
+
+@keyframes accordionIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0);    }
 }
 
 
@@ -1516,18 +1587,18 @@ sup {
 .product-meta-region {
     border-left:    2px solid #d4c5a0;
     padding-left:   10px;
-    margin-left:    4px;
+    margin-left:    2px;
     margin-top:     4px;
     display:        flex;
     flex-direction: column;
     gap:            3px;
-    font-size:      0.82rem;
+    font-size:      0.81rem;
     color:          #555;
 }
 
 .product-meta-region strong {
-    font-size:   0.88rem;
-    color:       #222;
+    font-size:   0.87rem;
+    color:       #1a1a1a;
     font-weight: 600;
 }
 
@@ -1549,20 +1620,19 @@ sup {
 
 /* ==========================================================
    PRODUCT FEATURES SECTION
-   Sits OUTSIDE .products-container so it spans full width.
-   No 'reveal' class — always visible.
+   Sits INSIDE .products-container, between .product-detail
+   and .product-discription.
+   No 'reveal' class — always visible immediately.
    ========================================================== */
 
 .product-features-section {
     width:      100%;
-    background: #f9f6f1;
-    padding:    56px 24px;
     box-sizing: border-box;
+    padding:    40px 0;   /* horizontal padding comes from .products-container */
 }
 
 .product-features-inner {
-    max-width: 1240px;
-    margin:    0 auto;
+    width: 100%;
 }
 
 
@@ -1571,8 +1641,8 @@ sup {
 .product-features-divider {
     display:       flex;
     align-items:   center;
-    gap:           20px;
-    margin-bottom: 36px;
+    gap:           16px;
+    margin-bottom: 28px;
 }
 
 .features-divider-line {
@@ -1583,24 +1653,37 @@ sup {
 
 .features-divider-label {
     font-family:    "Playfair Display", Georgia, serif;
-    font-size:      0.72rem;
+    font-size:      0.7rem;
     font-weight:    500;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     color:          #8a7a62;
     white-space:    nowrap;
 }
 
 
-/* ── Grid of feature cards ── */
+/* ── Responsive grid of feature cards ── */
 
 .product-features-list {
     list-style:            none;
     margin:                0;
     padding:               0;
     display:               grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap:                   12px;
+    grid-template-columns: repeat(2, 1fr);
+    gap:                   10px;
+}
+
+@media (min-width: 600px) {
+    .product-features-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .product-features-list {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+    }
 }
 
 
@@ -1609,24 +1692,23 @@ sup {
 .feature-item {
     display:       flex;
     align-items:   flex-start;
-    gap:           12px;
-    padding:       16px 18px;
+    gap:           10px;
+    padding:       14px 16px;
     border:        1px solid #e8e0d4;
     border-radius: 8px;
-    background:    #ffffff;
+    background:    #faf8f5;
     transition:    border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .feature-item:hover {
     border-color: #c9b99a;
-    box-shadow:   0 2px 10px rgba(0, 0, 0, 0.06);
+    box-shadow:   0 2px 8px rgba(0,0,0,0.06);
 }
 
-/* Circular check icon */
 .feature-icon {
     flex-shrink:     0;
-    width:           28px;
-    height:          28px;
+    width:           24px;
+    height:          24px;
     display:         flex;
     align-items:     center;
     justify-content: center;
@@ -1636,52 +1718,9 @@ sup {
     margin-top:      1px;
 }
 
-/* Feature text */
 .feature-item > span:last-child {
-    font-size:   0.86rem;
+    font-size:   0.83rem;
     line-height: 1.5;
     color:       #3a3a3a;
     font-weight: 400;
-}
-
-
-/* ── Responsive ── */
-
-@media (min-width: 768px) {
-    .product-features-section {
-        padding: 56px 36px;
-    }
-
-    .product-features-list {
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-        gap: 16px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .product-features-section {
-        padding: 64px 80px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .product-features-section {
-        padding: 64px 100px;
-    }
-}
-
-@media (max-width: 480px) {
-    .product-features-list {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .product-features-divider {
-        gap: 12px;
-    }
-}
-
-@media (max-width: 360px) {
-    .product-features-list {
-        grid-template-columns: 1fr;
-    }
 }

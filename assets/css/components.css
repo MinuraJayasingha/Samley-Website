@@ -1422,3 +1422,213 @@ sup {
    2XL screens (≥1400px)
    ========================= */
 @media (min-width: 1400px) {}
+
+
+/* ==========================================================
+   PRODUCT PAGE — Meta list values & Features section
+   Add this block to your components.css
+   ========================================================== */
+
+
+/* ----------------------------------------------------------
+   Meta field: array values rendered as a bullet list
+   e.g. Aroma, Flavour Profile, Finish, Ingredients
+---------------------------------------------------------- */
+
+/* The <li> wrapper that contains a label + sub-list */
+.product-meta > li.product-meta-has-list {
+    display:        flex;
+    flex-direction: column;
+    gap:            6px;
+    padding-bottom: 6px;
+}
+
+/* The label on its own line when a list follows */
+.product-meta > li.product-meta-has-list .product-meta-b {
+    display: block;
+}
+
+/* The nested bullet list */
+.product-meta-list {
+    list-style:     none;
+    margin:         0;
+    padding:        0;
+    display:        flex;
+    flex-direction: column;
+    gap:            4px;
+}
+
+.product-meta-list li {
+    position:    relative;
+    padding-left: 14px;
+    font-size:   0.85rem;
+    color:       #4a4a4a;
+    line-height: 1.5;
+}
+
+/* Small dash bullet */
+.product-meta-list li::before {
+    content:  "–";
+    position: absolute;
+    left:     0;
+    color:    #a0a0a0;
+}
+
+
+/* ----------------------------------------------------------
+   Meta field: regional tea block
+---------------------------------------------------------- */
+
+.product-meta-region {
+    border-left: 2px solid #d4c5a0;
+    padding-left: 12px;
+    margin-left:  4px;
+    margin-top:   6px;
+    display:      flex;
+    flex-direction: column;
+    gap:          4px;
+    font-size:    0.83rem;
+    color:        #555;
+}
+
+.product-meta-region strong {
+    font-size:   0.9rem;
+    color:       #2a2a2a;
+    font-weight: 600;
+}
+
+.product-meta-region p {
+    margin:      0;
+    font-style:  italic;
+    color:       #666;
+}
+
+.product-meta-region span {
+    display: block;
+}
+
+.product-meta-region em {
+    font-style:  normal;
+    font-weight: 600;
+    color:       #3a3a3a;
+    margin-right: 4px;
+}
+
+
+/* ==========================================================
+   PRODUCT FEATURES SECTION
+   Full-width block injected after .product-detail
+   ========================================================== */
+
+.product-features-section {
+    width:      100%;
+    padding:    56px 40px;
+    box-sizing: border-box;
+}
+
+/* Constrain content width to match rest of page */
+.product-features-inner {
+    max-width: 1200px;
+    margin:    0 auto;
+}
+
+
+/* ── Divider with centred label ── */
+
+.product-features-divider {
+    display:        flex;
+    align-items:    center;
+    gap:            20px;
+    margin-bottom:  40px;
+}
+
+.features-divider-line {
+    flex:            1;
+    height:          1px;
+    background:      linear-gradient(90deg, transparent, #c9b99a, transparent);
+}
+
+.features-divider-label {
+    font-family:    "Playfair Display", Georgia, serif;
+    font-size:      0.8rem;
+    font-weight:    500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color:          #8a7a62;
+    white-space:    nowrap;
+}
+
+
+/* ── Features grid list ── */
+
+.product-features-list {
+    list-style:             none;
+    margin:                 0;
+    padding:                0;
+    display:                grid;
+    grid-template-columns:  repeat(auto-fill, minmax(240px, 1fr));
+    gap:                    16px 32px;
+}
+
+
+/* ── Individual feature item ── */
+
+.feature-item {
+    display:     flex;
+    align-items: flex-start;
+    gap:         12px;
+    padding:     16px 20px;
+    border:      1px solid #ede8e0;
+    border-radius: 8px;
+    background:  #faf8f5;
+    transition:  border-color 0.2s ease, background 0.2s ease;
+}
+
+.feature-item:hover {
+    border-color: #c9b99a;
+    background:   #f5f0e8;
+}
+
+/* Circle checkmark icon */
+.feature-icon {
+    flex-shrink: 0;
+    width:       28px;
+    height:      28px;
+    display:     flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:  #f0ece4;
+    color:       #8a7a62;
+    margin-top:  1px;
+}
+
+.feature-item span:last-child {
+    font-size:   0.88rem;
+    line-height: 1.5;
+    color:       #3a3a3a;
+    font-weight: 400;
+}
+
+
+/* ── Responsive ── */
+
+@media (max-width: 768px) {
+    .product-features-section {
+        padding: 40px 20px;
+    }
+
+    .product-features-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-features-list {
+        grid-template-columns: 1fr;
+    }
+
+    .product-features-divider {
+        gap: 12px;
+    }
+}

@@ -29,8 +29,6 @@ async function loadProduct() {
         return;
     }
 
-    console.log("Loading product:", slug);
-
     try {
         const res = await fetch("data/1new_products.json");
         if (!res.ok) {
@@ -47,7 +45,6 @@ async function loadProduct() {
             return;
         }
 
-        console.log("Product found:", product.name);
         injectProductData(product);
         updateBreadcrumbForProduct(product);
 
@@ -58,12 +55,10 @@ async function loadProduct() {
 
 
 /* --------------------------------------------------
-   Field Labels - Human-readable names for JSON keys
-   Add new fields here as needed
+   Field Labels
 -------------------------------------------------- */
 
 const FIELD_LABELS = {
-    // Product Identity
     brand:              "Brand",
     flavor:             "Flavor",
     teaVariety:         "Tea Variety",
@@ -74,8 +69,6 @@ const FIELD_LABELS = {
     type:               "Type",
     unitCount:          "Unit Count",
     variety:            "Variety",
-
-    // Physical
     format:             "Format",
     grade:              "Grade",
     region:             "Region",
@@ -86,14 +79,11 @@ const FIELD_LABELS = {
     grind:              "Grind",
     fatContent:         "Fat Content",
     form:               "Form",
-
-    // Tea Tasting (simple string fields)
     liquorStrength:     "Liquor Strength",
     brewingInstructions:"Brewing Instructions",
     additives:          "Additives",
-    additives:          "Additives",
     notes:              "Tasting Notes",
-    moment:             "Best Moment",
+    moment:             "Best For",
     serving:            "Serving",
     base:               "Base",
     electrolytes:       "Electrolytes",
@@ -102,17 +92,13 @@ const FIELD_LABELS = {
     heatLevel:          "Heat Level",
     colorValue:         "Color Value",
     curcuminContent:    "Curcumin Content",
-    flavorProfile:      "Flavour Profile",
     moistureContent:    "Moisture Content",
     vanillinContent:    "Vanillin Content",
-
-    // Tea Tasting (array fields — newer product format)
     liquor:             "Liquor",
     aroma:              "Aroma",
     flavourProfile:     "Flavour Profile",
+    flavorProfile:      "Flavour Profile",
     finish:             "Finish",
-
-    // Ingredients & uses
     ingredients:        "Ingredients",
     cupProfile:         "Cup Profile",
     tastingNotes:       "Tasting Notes",
@@ -122,8 +108,7 @@ const FIELD_LABELS = {
 
 
 /* --------------------------------------------------
-   Fields to EXCLUDE from metadata display
-   (shown elsewhere in HTML or not needed on page)
+   Fields to exclude from metadata
 -------------------------------------------------- */
 
 const EXCLUDED_FIELDS = new Set([
@@ -132,8 +117,7 @@ const EXCLUDED_FIELDS = new Set([
     "thumbnailImage", "seoTitle", "seoDescription",
     "longDescription", "features", "galleryImages",
     "reviewCount", "price", "currency", "stock", "rating",
-    "regions",          // handled separately below if present
-    "featured",
+    "regions", "featured",
 ]);
 
 
@@ -145,7 +129,6 @@ function injectProductData(product) {
 
     /* --- SEO --- */
     if (product.seoTitle) document.title = product.seoTitle;
-
     const metaDesc = document.getElementById("meta-description");
     if (metaDesc && product.seoDescription) {
         metaDesc.setAttribute("content", product.seoDescription);
@@ -158,6 +141,11 @@ function injectProductData(product) {
 
     /* --- Dynamic Metadata --- */
     renderDynamicMetadata(product);
+
+    /* --- Features Section (full-width, injected below product-detail) --- */
+    if (product.features && product.features.length > 0) {
+        injectFeaturesSection(product.features);
+    }
 
     /* --- Gallery --- */
     const mainImage = document.getElementById("product-main-image");
@@ -194,60 +182,50 @@ function setTextById(id, text) {
 
 /* --------------------------------------------------
    Render all metadata fields dynamically
-   Handles: strings, numbers, string arrays, object arrays
 -------------------------------------------------- */
 
 function renderDynamicMetadata(product) {
     const metaContainer = document.getElementById("product-meta");
-    if (!metaContainer) {
-        console.error("ERROR: #product-meta element not found in HTML!");
-        return;
-    }
+    if (!metaContainer) return;
 
     metaContainer.innerHTML = "";
 
     for (const [key, value] of Object.entries(product)) {
 
-        // Skip excluded fields
         if (EXCLUDED_FIELDS.has(key)) continue;
-
-        // Skip null / undefined / empty strings
         if (value === null || value === undefined || value === "") continue;
-
-        // Skip empty arrays
         if (Array.isArray(value) && value.length === 0) continue;
 
-        // Skip objects that are not arrays (e.g. nested region objects)
+        // Skip plain nested objects
         if (typeof value === "object" && !Array.isArray(value)) continue;
 
-        // Get the human-readable label
         const label = FIELD_LABELS[key] || formatFieldName(key);
-
-        // Build the <li> content
-        const li = document.createElement("li");
-        const labelSpan = `<span class="product-meta-b">${label}:</span> `;
+        const li    = document.createElement("li");
 
         if (Array.isArray(value)) {
-            // Check if it's an array of objects (e.g. regions, applications)
-            if (typeof value[0] === "object") {
-                // Render as a sub-list — skip for now, or display as JSON summary
-                // Most product pages won't need this; skip complex objects
-                continue;
-            }
+            // Skip arrays of objects (e.g. regions handled separately)
+            if (typeof value[0] === "object") continue;
 
-            // Array of strings — join with separator
-            const displayValue = value.join(" • ");
-            li.innerHTML = labelSpan + `<span>${displayValue}</span>`;
+            // Render as a nested <ul> bullet list
+            const listItems = value
+                .map(item => `<li>${item}</li>`)
+                .join("");
+
+            li.classList.add("product-meta-has-list");
+            li.innerHTML = `
+                <span class="product-meta-b">${label}</span>
+                <ul class="product-meta-list">${listItems}</ul>
+            `;
 
         } else {
-            // Plain string or number
-            li.innerHTML = labelSpan + `<span>${value}</span>`;
+            // Plain string / number
+            li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${value}</span>`;
         }
 
         metaContainer.appendChild(li);
     }
 
-    /* ----- Special: Regions block (gift set) ----- */
+    /* --- Regions block (Regional Tea Sensation) --- */
     if (product.regions && Array.isArray(product.regions) && product.regions.length > 0) {
         renderRegionsBlock(product.regions, metaContainer);
     }
@@ -255,13 +233,13 @@ function renderDynamicMetadata(product) {
 
 
 /* --------------------------------------------------
-   Special renderer for regional tea sensation
-   product.regions = [ { name, description, liquor, aroma, flavourProfile, finish } ]
+   Special renderer for regional tea product
 -------------------------------------------------- */
 
 function renderRegionsBlock(regions, container) {
     const header = document.createElement("li");
-    header.innerHTML = `<span class="product-meta-b">Tea Regions:</span>`;
+    header.classList.add("product-meta-has-list");
+    header.innerHTML = `<span class="product-meta-b">Tea Regions</span>`;
     container.appendChild(header);
 
     regions.forEach(region => {
@@ -269,11 +247,11 @@ function renderRegionsBlock(regions, container) {
         li.classList.add("product-meta-region");
 
         let html = `<strong>${region.name}</strong>`;
-        if (region.description)    html += ` — ${region.description}`;
-        if (region.liquor)         html += `<br><em>Liquor:</em> ${region.liquor}`;
-        if (region.aroma)          html += `<br><em>Aroma:</em> ${region.aroma}`;
-        if (region.flavourProfile) html += `<br><em>Flavour:</em> ${region.flavourProfile}`;
-        if (region.finish)         html += `<br><em>Finish:</em> ${region.finish}`;
+        if (region.description)    html += `<p>${region.description}</p>`;
+        if (region.liquor)         html += `<span><em>Liquor:</em> ${region.liquor}</span>`;
+        if (region.aroma)          html += `<span><em>Aroma:</em> ${region.aroma}</span>`;
+        if (region.flavourProfile) html += `<span><em>Flavour:</em> ${region.flavourProfile}</span>`;
+        if (region.finish)         html += `<span><em>Finish:</em> ${region.finish}</span>`;
 
         li.innerHTML = html;
         container.appendChild(li);
@@ -282,8 +260,55 @@ function renderRegionsBlock(regions, container) {
 
 
 /* --------------------------------------------------
+   Inject full-width Features section below product-detail
+-------------------------------------------------- */
+
+function injectFeaturesSection(features) {
+
+    // Don't inject twice
+    if (document.getElementById("product-features-section")) return;
+
+    const section = document.createElement("section");
+    section.id        = "product-features-section";
+    section.className = "product-features-section reveal";
+
+    const itemsHTML = features
+        .map(f => `
+            <li class="feature-item">
+                <span class="feature-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="7.5" stroke="currentColor"/>
+                        <path d="M4.5 8L7 10.5L11.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+                <span>${f}</span>
+            </li>
+        `)
+        .join("");
+
+    section.innerHTML = `
+        <div class="product-features-inner">
+            <div class="product-features-divider">
+                <span class="features-divider-line"></span>
+                <span class="features-divider-label">Product Features</span>
+                <span class="features-divider-line"></span>
+            </div>
+            <ul class="product-features-list">
+                ${itemsHTML}
+            </ul>
+        </div>
+    `;
+
+    // Insert after .product-detail section
+    const productDetail = document.querySelector(".product-detail");
+    if (productDetail) {
+        productDetail.insertAdjacentElement("afterend", section);
+    }
+}
+
+
+/* --------------------------------------------------
    Convert camelCase to "Title Case"
-   e.g. "liquorStrength" → "Liquor Strength"
 -------------------------------------------------- */
 
 function formatFieldName(fieldName) {
@@ -304,28 +329,19 @@ function formatFieldName(fieldName) {
 function updateBreadcrumbForProduct(product) {
     fetch("data/new_categories.json")
         .then(res => {
-            if (!res.ok) {
-                console.error("Failed to fetch new_categories.json:", res.status);
-                return null;
-            }
+            if (!res.ok) return null;
             return res.json();
         })
         .then(categories => {
             if (!categories) return;
-
             categories.forEach(main => {
                 main.subCategories.forEach(sub => {
                     if (sub.slug === product.subCategory) {
-
                         const mainEl = document.getElementById("breadcrumb-main-category");
-                        if (mainEl) {
-                            mainEl.innerHTML = `<a href="/products/${main.slug}/">${main.title}</a>`;
-                        }
+                        if (mainEl) mainEl.innerHTML = `<a href="/products/${main.slug}/">${main.title}</a>`;
 
                         const subEl = document.getElementById("breadcrumb-sub-category");
-                        if (subEl) {
-                            subEl.innerHTML = `<a href="/products/${sub.slug}/">${sub.title}</a>`;
-                        }
+                        if (subEl) subEl.innerHTML = `<a href="/products/${sub.slug}/">${sub.title}</a>`;
                     }
                 });
             });
@@ -345,8 +361,8 @@ function updateBreadcrumbForProduct(product) {
 -------------------------------------------------- */
 
 function enableGalleryInteraction() {
-    const mainImage   = document.getElementById("product-main-image");
-    const thumbnails  = document.querySelectorAll(".product-thumbnails img");
+    const mainImage  = document.getElementById("product-main-image");
+    const thumbnails = document.querySelectorAll(".product-thumbnails img");
 
     thumbnails.forEach(thumb => {
         thumb.addEventListener("click", () => {

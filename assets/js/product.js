@@ -59,56 +59,58 @@ async function loadProduct() {
 -------------------------------------------------- */
 
 const FIELD_LABELS = {
-    brand:              "Brand",
-    flavor:             "Flavor",
-    teaVariety:         "Tea Variety",
-    spiceType:          "Spice Type",
-    coffeeType:         "Coffee Type",
-    productType:        "Product Type",
-    beverageType:       "Beverage Type",
-    type:               "Type",
-    unitCount:          "Unit Count",
-    variety:            "Variety",
-    format:             "Format",
-    grade:              "Grade",
-    region:             "Region",
-    origin:             "Origin",
-    processing:         "Processing",
-    extraction:         "Extraction",
-    certification:      "Certification",
-    grind:              "Grind",
-    fatContent:         "Fat Content",
-    form:               "Form",
-    liquorStrength:     "Liquor Strength",
-    brewingInstructions:"Brewing Instructions",
-    additives:          "Additives",
-    notes:              "Tasting Notes",
-    moment:             "Best For",
-    serving:            "Serving",
-    base:               "Base",
-    electrolytes:       "Electrolytes",
-    vitamins:           "Vitamins",
-    proteinSource:      "Protein Source",
-    heatLevel:          "Heat Level",
-    colorValue:         "Color Value",
-    curcuminContent:    "Curcumin Content",
-    moistureContent:    "Moisture Content",
-    vanillinContent:    "Vanillin Content",
-    liquor:             "Liquor",
-    aroma:              "Aroma",
-    flavourProfile:     "Flavour Profile",
-    flavorProfile:      "Flavour Profile",
-    finish:             "Finish",
-    ingredients:        "Ingredients",
-    cupProfile:         "Cup Profile",
-    tastingNotes:       "Tasting Notes",
-    applications:       "Applications",
-    uses:               "Uses",
+    brand:               "Brand",
+    flavor:              "Flavor",
+    teaVariety:          "Tea Variety",
+    spiceType:           "Spice Type",
+    coffeeType:          "Coffee Type",
+    productType:         "Product Type",
+    beverageType:        "Beverage Type",
+    type:                "Type",
+    unitCount:           "Unit Count",
+    variety:             "Variety",
+    format:              "Format",
+    grade:               "Grade",
+    region:              "Region",
+    origin:              "Origin",
+    processing:          "Processing",
+    extraction:          "Extraction",
+    certification:       "Certification",
+    grind:               "Grind",
+    fatContent:          "Fat Content",
+    form:                "Form",
+    liquorStrength:      "Liquor Strength",
+    brewingInstructions: "Brewing Instructions",
+    additives:           "Additives",
+    notes:               "Tasting Notes",
+    moment:              "Best For",
+    serving:             "Serving",
+    base:                "Base",
+    electrolytes:        "Electrolytes",
+    vitamins:            "Vitamins",
+    proteinSource:       "Protein Source",
+    heatLevel:           "Heat Level",
+    colorValue:          "Color Value",
+    curcuminContent:     "Curcumin Content",
+    moistureContent:     "Moisture Content",
+    vanillinContent:     "Vanillin Content",
+    liquor:              "Liquor",
+    aroma:               "Aroma",
+    flavourProfile:      "Flavour Profile",
+    flavorProfile:       "Flavour Profile",
+    finish:              "Finish",
+    ingredients:         "Ingredients",
+    cupProfile:          "Cup Profile",
+    tastingNotes:        "Tasting Notes",
+    applications:        "Applications",
+    uses:                "Uses",
 };
 
 
 /* --------------------------------------------------
-   Fields to exclude from metadata
+   Fields to EXCLUDE from metadata display
+   price / currency / stock / rating / reviewCount
+   are intentionally hidden per client request
 -------------------------------------------------- */
 
 const EXCLUDED_FIELDS = new Set([
@@ -116,7 +118,9 @@ const EXCLUDED_FIELDS = new Set([
     "name", "shortDescription", "tags", "packInfo",
     "thumbnailImage", "seoTitle", "seoDescription",
     "longDescription", "features", "galleryImages",
-    "reviewCount", "price", "currency", "stock", "rating",
+    // Hidden commercial fields
+    "price", "currency", "stock", "rating", "reviewCount",
+    // Handled separately
     "regions", "featured",
 ]);
 
@@ -142,7 +146,11 @@ function injectProductData(product) {
     /* --- Dynamic Metadata --- */
     renderDynamicMetadata(product);
 
-    /* --- Features Section (full-width, injected below product-detail) --- */
+    /* --- Features Section ---
+         Injected OUTSIDE .products-container so it can be full-width.
+         Does NOT use the 'reveal' class — that class relies on an
+         IntersectionObserver that won't pick up dynamically inserted nodes.
+    --- */
     if (product.features && product.features.length > 0) {
         injectFeaturesSection(product.features);
     }
@@ -182,6 +190,7 @@ function setTextById(id, text) {
 
 /* --------------------------------------------------
    Render all metadata fields dynamically
+   Handles: strings, numbers, string arrays, object arrays
 -------------------------------------------------- */
 
 function renderDynamicMetadata(product) {
@@ -192,24 +201,24 @@ function renderDynamicMetadata(product) {
 
     for (const [key, value] of Object.entries(product)) {
 
+        // Skip fields that are excluded or empty
         if (EXCLUDED_FIELDS.has(key)) continue;
         if (value === null || value === undefined || value === "") continue;
         if (Array.isArray(value) && value.length === 0) continue;
 
-        // Skip plain nested objects
+        // Skip plain nested objects (not arrays)
         if (typeof value === "object" && !Array.isArray(value)) continue;
 
         const label = FIELD_LABELS[key] || formatFieldName(key);
         const li    = document.createElement("li");
 
         if (Array.isArray(value)) {
-            // Skip arrays of objects (e.g. regions handled separately)
+
+            // Skip arrays of objects — handled by dedicated renderers
             if (typeof value[0] === "object") continue;
 
-            // Render as a nested <ul> bullet list
-            const listItems = value
-                .map(item => `<li>${item}</li>`)
-                .join("");
+            // String array → nested <ul> dash-bullet list
+            const listItems = value.map(item => `<li>${item}</li>`).join("");
 
             li.classList.add("product-meta-has-list");
             li.innerHTML = `
@@ -218,14 +227,14 @@ function renderDynamicMetadata(product) {
             `;
 
         } else {
-            // Plain string / number
+            // Plain string / number → inline
             li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${value}</span>`;
         }
 
         metaContainer.appendChild(li);
     }
 
-    /* --- Regions block (Regional Tea Sensation) --- */
+    /* --- Special: Tea Regions block (Regional Tea Sensation) --- */
     if (product.regions && Array.isArray(product.regions) && product.regions.length > 0) {
         renderRegionsBlock(product.regions, metaContainer);
     }
@@ -234,6 +243,7 @@ function renderDynamicMetadata(product) {
 
 /* --------------------------------------------------
    Special renderer for regional tea product
+   product.regions = [ { name, description, liquor, ... } ]
 -------------------------------------------------- */
 
 function renderRegionsBlock(regions, container) {
@@ -260,31 +270,39 @@ function renderRegionsBlock(regions, container) {
 
 
 /* --------------------------------------------------
-   Inject full-width Features section below product-detail
+   Inject full-width Features section
+
+   INSERTION POINT: after <main class="products-container-main">
+   — i.e. OUTSIDE the padded .products-container —
+   so the section can span the full page width.
+
+   NOTE: We do NOT add the 'reveal' class here because that
+   class depends on an IntersectionObserver registered in
+   smooth-scroll.js that runs at page-load time and won't
+   observe elements injected later. The section is always
+   visible immediately.
 -------------------------------------------------- */
 
 function injectFeaturesSection(features) {
 
-    // Don't inject twice
+    // Guard: don't inject twice
     if (document.getElementById("product-features-section")) return;
 
-    const section = document.createElement("section");
+    const section     = document.createElement("section");
     section.id        = "product-features-section";
-    section.className = "product-features-section reveal";
+    section.className = "product-features-section";
 
-    const itemsHTML = features
-        .map(f => `
-            <li class="feature-item">
-                <span class="feature-icon">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="8" cy="8" r="7.5" stroke="currentColor"/>
-                        <path d="M4.5 8L7 10.5L11.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </span>
-                <span>${f}</span>
-            </li>
-        `)
-        .join("");
+    const itemsHTML = features.map(f => `
+        <li class="feature-item">
+            <span class="feature-icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="7.5" stroke="currentColor"/>
+                    <path d="M4.5 8L7 10.5L11.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span>${f}</span>
+        </li>
+    `).join("");
 
     section.innerHTML = `
         <div class="product-features-inner">
@@ -299,16 +317,27 @@ function injectFeaturesSection(features) {
         </div>
     `;
 
-    // Insert after .product-detail section
-    const productDetail = document.querySelector(".product-detail");
-    if (productDetail) {
-        productDetail.insertAdjacentElement("afterend", section);
+    /*
+     * Insert after <main class="products-container-main"> so the
+     * features section sits between the product content and the
+     * "Explore Collections" section — at full page width.
+     */
+    const main = document.querySelector("main.products-container-main");
+    if (main) {
+        main.insertAdjacentElement("afterend", section);
+    } else {
+        // Fallback: append to body before the collections section
+        const collections = document.getElementById("collections-section");
+        if (collections) {
+            collections.insertAdjacentElement("beforebegin", section);
+        }
     }
 }
 
 
 /* --------------------------------------------------
-   Convert camelCase to "Title Case"
+   Convert camelCase → "Title Case"
+   e.g. "liquorStrength" → "Liquor Strength"
 -------------------------------------------------- */
 
 function formatFieldName(fieldName) {

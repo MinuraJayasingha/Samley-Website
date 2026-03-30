@@ -4,18 +4,15 @@
    Helpers - Extract slug from URL pathname
 -------------------------------------------------- */
 
-// Get product slug from URL
 function getProductSlug() {
-    // First try query string (set by .htaccess rewrite)
     const params = new URLSearchParams(window.location.search);
     let slug = params.get("slug") || params.get("product");
     if (slug) return decodeURIComponent(slug);
-    
-    // Fallback: extract from pathname
+
     const pathname = window.location.pathname;
     const pathMatch = pathname.match(/\/product\/([a-z0-9-]+)\/?$/i);
     if (pathMatch) return pathMatch[1];
-    
+
     return null;
 }
 
@@ -42,7 +39,6 @@ async function loadProduct() {
         }
 
         let products = await res.json();
-        // Filter out empty objects (which exist in 1new_products.json)
         products = products.filter(p => p && Object.keys(p).length > 0 && p.slug);
         const product = products.find(p => p.slug === slug);
 
@@ -62,106 +58,124 @@ async function loadProduct() {
 
 
 /* --------------------------------------------------
-   Field mapping - converts JSON keys to display labels
-   Add new fields here as needed without touching HTML
+   Field Labels - Human-readable names for JSON keys
+   Add new fields here as needed
 -------------------------------------------------- */
 
 const FIELD_LABELS = {
-    brand: "Brand",
-    itemForm: "Item Form",
-    teaVariety: "Tea Variety",
-    spiceType: "Spice Type",
-    beverageType: "Beverage Type",
-    type: "Product Type",
-    unitCount: "Unit Count",
-    flavor: "Flavor",
-    format: "Format",
-    grade: "Grade",
-    region: "Region",
-    liquorStrength: "Liquor Strength",
-    brewingInstructions: "Brewing Instructions",
-    additives: "Additives",
-    liquor: "Liquor",
-    aroma: "Aroma",
-    flavourProfile: "Flavour Profile",
-    finish: "Finish",
-    price: "Price",
-    currency: "Currency",
-    stock: "Stock",
-    rating: "Rating"
+    // Product Identity
+    brand:              "Brand",
+    flavor:             "Flavor",
+    teaVariety:         "Tea Variety",
+    spiceType:          "Spice Type",
+    coffeeType:         "Coffee Type",
+    productType:        "Product Type",
+    beverageType:       "Beverage Type",
+    type:               "Type",
+    unitCount:          "Unit Count",
+    variety:            "Variety",
+
+    // Physical
+    format:             "Format",
+    grade:              "Grade",
+    region:             "Region",
+    origin:             "Origin",
+    processing:         "Processing",
+    extraction:         "Extraction",
+    certification:      "Certification",
+    grind:              "Grind",
+    fatContent:         "Fat Content",
+    form:               "Form",
+
+    // Tea Tasting (simple string fields)
+    liquorStrength:     "Liquor Strength",
+    brewingInstructions:"Brewing Instructions",
+    additives:          "Additives",
+    additives:          "Additives",
+    notes:              "Tasting Notes",
+    moment:             "Best Moment",
+    serving:            "Serving",
+    base:               "Base",
+    electrolytes:       "Electrolytes",
+    vitamins:           "Vitamins",
+    proteinSource:      "Protein Source",
+    heatLevel:          "Heat Level",
+    colorValue:         "Color Value",
+    curcuminContent:    "Curcumin Content",
+    flavorProfile:      "Flavour Profile",
+    moistureContent:    "Moisture Content",
+    vanillinContent:    "Vanillin Content",
+
+    // Tea Tasting (array fields — newer product format)
+    liquor:             "Liquor",
+    aroma:              "Aroma",
+    flavourProfile:     "Flavour Profile",
+    finish:             "Finish",
+
+    // Ingredients & uses
+    ingredients:        "Ingredients",
+    cupProfile:         "Cup Profile",
+    tastingNotes:       "Tasting Notes",
+    applications:       "Applications",
+    uses:               "Uses",
 };
 
-/* Fields to EXCLUDE from metadata display (shown separately or not needed) */
-const EXCLUDED_FIELDS = new Set([
-    "id", "slug", "mainCategory", "subCategory", "name", "shortDescription",
-    "tags", "packInfo", "thumbnailImage", "seoTitle", "seoDescription",
-    "longDescription", "features", "galleryImages", "reviewCount",
-    "price", "currency", "stock", "rating"  // Hidden per client request
-]);
 
 /* --------------------------------------------------
-   Inject product data
+   Fields to EXCLUDE from metadata display
+   (shown elsewhere in HTML or not needed on page)
+-------------------------------------------------- */
+
+const EXCLUDED_FIELDS = new Set([
+    "id", "slug", "mainCategory", "subCategory",
+    "name", "shortDescription", "tags", "packInfo",
+    "thumbnailImage", "seoTitle", "seoDescription",
+    "longDescription", "features", "galleryImages",
+    "reviewCount", "price", "currency", "stock", "rating",
+    "regions",          // handled separately below if present
+    "featured",
+]);
+
+
+/* --------------------------------------------------
+   Inject product data into the page
 -------------------------------------------------- */
 
 function injectProductData(product) {
 
-    /* ---------- SEO ---------- */
+    /* --- SEO --- */
+    if (product.seoTitle) document.title = product.seoTitle;
 
-    if (product.seoTitle) {
-        document.title = product.seoTitle;
+    const metaDesc = document.getElementById("meta-description");
+    if (metaDesc && product.seoDescription) {
+        metaDesc.setAttribute("content", product.seoDescription);
     }
 
-    if (product.seoDescription) {
-        const metaDesc = document.getElementById("meta-description");
-        if (metaDesc) {
-            metaDesc.setAttribute("content", product.seoDescription);
-        }
-    }
+    /* --- Main Content --- */
+    setTextById("product-title",            product.seoTitle || product.name);
+    setTextById("product-long-description", product.longDescription || "");
+    setTextById("product-pack",             product.packInfo || "");
 
-    /* ---------- Content ---------- */
-
-    document.getElementById("product-title").textContent =
-        product.seoTitle || product.name;
-
-    document.getElementById("product-long-description").textContent =
-        product.longDescription || "";
-
-    document.getElementById("product-pack").textContent =
-        product.packInfo || "";
-
-    /* ---------- Dynamic Meta Fields (auto-renders any fields in JSON) ---------- */
-    console.log("[Product] Calling renderDynamicMetadata...");
+    /* --- Dynamic Metadata --- */
     renderDynamicMetadata(product);
-    console.log("[Product] renderDynamicMetadata completed");
 
-    /* ---------- Rating ---------- */
-    // Hidden per client request
-    // Uncomment below to show rating again
-    /*
-    document.getElementById("product-review-count").textContent =
-        product.reviewCount ? `(${product.reviewCount})` : "";
-
-    document.getElementById("product-stars").textContent =
-        product.rating ? "⭐".repeat(Math.round(product.rating)) : "";
-    */
-
-    /* ---------- Gallery ---------- */
-
+    /* --- Gallery --- */
     const mainImage = document.getElementById("product-main-image");
-    const thumbs = document.querySelector(".product-thumbnails");
+    const thumbs    = document.querySelector(".product-thumbnails");
 
-    if (product.galleryImages && product.galleryImages.length > 0) {
+    if (product.galleryImages && product.galleryImages.length > 0 && mainImage) {
         mainImage.src = product.galleryImages[0];
         mainImage.alt = product.name;
 
-        thumbs.innerHTML = "";
-
-        product.galleryImages.forEach(img => {
-            const t = document.createElement("img");
-            t.src = img;
-            t.alt = product.name;
-            thumbs.appendChild(t);
-        });
+        if (thumbs) {
+            thumbs.innerHTML = "";
+            product.galleryImages.forEach(img => {
+                const t   = document.createElement("img");
+                t.src     = img;
+                t.alt     = product.name;
+                thumbs.appendChild(t);
+            });
+        }
 
         enableGalleryInteraction();
     }
@@ -169,67 +183,116 @@ function injectProductData(product) {
 
 
 /* --------------------------------------------------
-   Dynamically render product metadata
-   Automatically displays all fields from JSON (except excluded ones)
-   Also handles array values (liquor, aroma, etc.)
+   Helper – set text content safely
+-------------------------------------------------- */
+
+function setTextById(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+}
+
+
+/* --------------------------------------------------
+   Render all metadata fields dynamically
+   Handles: strings, numbers, string arrays, object arrays
 -------------------------------------------------- */
 
 function renderDynamicMetadata(product) {
     const metaContainer = document.getElementById("product-meta");
-    
-    console.log("[Product] Rendering metadata...");
-    console.log("[Product] Meta container found:", !!metaContainer);
-    
     if (!metaContainer) {
-        console.error("[Product] ERROR: #product-meta element not found in HTML!");
+        console.error("ERROR: #product-meta element not found in HTML!");
         return;
     }
 
-    metaContainer.innerHTML = ""; // Clear existing
-    let fieldCount = 0;
+    metaContainer.innerHTML = "";
 
-    // Iterate through all product fields
     for (const [key, value] of Object.entries(product)) {
-        
+
         // Skip excluded fields
         if (EXCLUDED_FIELDS.has(key)) continue;
-        
-        // Skip empty/null values
-        if (!value || (Array.isArray(value) && value.length === 0)) continue;
-        
-        // Get display label
+
+        // Skip null / undefined / empty strings
+        if (value === null || value === undefined || value === "") continue;
+
+        // Skip empty arrays
+        if (Array.isArray(value) && value.length === 0) continue;
+
+        // Skip objects that are not arrays (e.g. nested region objects)
+        if (typeof value === "object" && !Array.isArray(value)) continue;
+
+        // Get the human-readable label
         const label = FIELD_LABELS[key] || formatFieldName(key);
-        
-        // Create list item
+
+        // Build the <li> content
         const li = document.createElement("li");
-        
-        // Format value (handle arrays)
+        const labelSpan = `<span class="product-meta-b">${label}:</span> `;
+
         if (Array.isArray(value)) {
-            const displayValue = value.join(", ");
-            li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${displayValue}</span>`;
+            // Check if it's an array of objects (e.g. regions, applications)
+            if (typeof value[0] === "object") {
+                // Render as a sub-list — skip for now, or display as JSON summary
+                // Most product pages won't need this; skip complex objects
+                continue;
+            }
+
+            // Array of strings — join with separator
+            const displayValue = value.join(" • ");
+            li.innerHTML = labelSpan + `<span>${displayValue}</span>`;
+
         } else {
-            li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${value}</span>`;
+            // Plain string or number
+            li.innerHTML = labelSpan + `<span>${value}</span>`;
         }
-        
+
         metaContainer.appendChild(li);
-        fieldCount++;
     }
-    
-    console.log("[Product] Metadata fields rendered:", fieldCount);
+
+    /* ----- Special: Regions block (gift set) ----- */
+    if (product.regions && Array.isArray(product.regions) && product.regions.length > 0) {
+        renderRegionsBlock(product.regions, metaContainer);
+    }
 }
 
+
 /* --------------------------------------------------
-   Convert camelCase field names to "Title Case"
-   e.g., "liquorStrength" → "Liquor Strength"
+   Special renderer for regional tea sensation
+   product.regions = [ { name, description, liquor, aroma, flavourProfile, finish } ]
+-------------------------------------------------- */
+
+function renderRegionsBlock(regions, container) {
+    const header = document.createElement("li");
+    header.innerHTML = `<span class="product-meta-b">Tea Regions:</span>`;
+    container.appendChild(header);
+
+    regions.forEach(region => {
+        const li = document.createElement("li");
+        li.classList.add("product-meta-region");
+
+        let html = `<strong>${region.name}</strong>`;
+        if (region.description)    html += ` — ${region.description}`;
+        if (region.liquor)         html += `<br><em>Liquor:</em> ${region.liquor}`;
+        if (region.aroma)          html += `<br><em>Aroma:</em> ${region.aroma}`;
+        if (region.flavourProfile) html += `<br><em>Flavour:</em> ${region.flavourProfile}`;
+        if (region.finish)         html += `<br><em>Finish:</em> ${region.finish}`;
+
+        li.innerHTML = html;
+        container.appendChild(li);
+    });
+}
+
+
+/* --------------------------------------------------
+   Convert camelCase to "Title Case"
+   e.g. "liquorStrength" → "Liquor Strength"
 -------------------------------------------------- */
 
 function formatFieldName(fieldName) {
     return fieldName
-        .replace(/([A-Z])/g, " $1") // Add space before capitals
+        .replace(/([A-Z])/g, " $1")
         .toLowerCase()
         .trim()
         .split(" ")
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
         .join(" ");
 }
 
@@ -242,8 +305,8 @@ function updateBreadcrumbForProduct(product) {
     fetch("data/new_categories.json")
         .then(res => {
             if (!res.ok) {
-                console.error("Failed to fetch new_products.json:", res.status);
-                return;
+                console.error("Failed to fetch new_categories.json:", res.status);
+                return null;
             }
             return res.json();
         })
@@ -254,18 +317,20 @@ function updateBreadcrumbForProduct(product) {
                 main.subCategories.forEach(sub => {
                     if (sub.slug === product.subCategory) {
 
-                        document.getElementById("breadcrumb-main-category").innerHTML =
-                            `<a href="/products/${main.slug}/">${main.title}</a>`;
+                        const mainEl = document.getElementById("breadcrumb-main-category");
+                        if (mainEl) {
+                            mainEl.innerHTML = `<a href="/products/${main.slug}/">${main.title}</a>`;
+                        }
 
-                        document.getElementById("breadcrumb-sub-category").innerHTML =
-                            `<a href="/products/${sub.slug}/">
-                                ${sub.title}
-                             </a>`;
+                        const subEl = document.getElementById("breadcrumb-sub-category");
+                        if (subEl) {
+                            subEl.innerHTML = `<a href="/products/${sub.slug}/">${sub.title}</a>`;
+                        }
                     }
                 });
             });
         })
-        .catch(error => console.error("Error loading categories:", error));
+        .catch(err => console.error("Error loading categories:", err));
 
     const productEl = document.getElementById("breadcrumb-product");
     if (productEl) {
@@ -280,8 +345,8 @@ function updateBreadcrumbForProduct(product) {
 -------------------------------------------------- */
 
 function enableGalleryInteraction() {
-    const mainImage = document.getElementById("product-main-image");
-    const thumbnails = document.querySelectorAll(".product-thumbnails img");
+    const mainImage   = document.getElementById("product-main-image");
+    const thumbnails  = document.querySelectorAll(".product-thumbnails img");
 
     thumbnails.forEach(thumb => {
         thumb.addEventListener("click", () => {

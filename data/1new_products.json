@@ -2798,106 +2798,88 @@
   ]
 },
 
-    {
-    "id": "tea-makers-private-assortment-48tb",
-    "slug": "tea-makers-private-assortment-48tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "gift-collection",
-    
-    "name": "48 Pyramid Tea Bags (Non Wooven-Square type) Tea Makers Private Tea Assortment",
-    "shortDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags. A private collection for true tea lovers.",
-    "tags": ["Assorted", "Premium", "Exclusive"],
-    "packInfo": "48 Pyramid Tea Bags Box",
-    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Assorted Premium",
-    "teaVariety": "Mixed Tea Collection",
-    "unitCount": "48 Pyramid Tea Bags",
+{
+  "id": "tea-makers-private-assortment-48tb",
+  "slug": "tea-makers-private-assortment-48tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "gift-collection",
 
-    "format": "Pyramid Tea Bags",
-    "grade": "Too complex",
-    "region": "Various",
-    "liquorStrength": "Various",
-    "brewingInstructions": "95-100C & 3-5min depending on variety",
-    "additives": "Various natural flavorings",
-    
-    "price": 24.99,
-    "currency": "USD",
-    "stock": 18,
-    "rating": 4.9,
-    "reviewCount": 37,
-    
-    "seoTitle": "Tea Makers Private Assortment - 48 Pyramid Bags - Gift Tea Collection",
-    "seoDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags, perfect for gifting.",
-    
-    "longDescription": "Tea Makers Private Assortment features 48 non-woven square-type pyramid tea bags, each containing a carefully selected premium Ceylon tea. This exclusive collection offers a journey through the finest flavors Ceylon has to offer, from bold blacks to delicate greens and aromatic blends. Beautifully presented, it's the perfect gift for tea connoisseurs.",
-    
-    "features": [
-      "48 premium pyramid tea bags",
-      "Curated assortment of fine teas",
-      "Non-woven square-type bags",
-      "Elegant gift presentation",
-      "Perfect for tea lovers"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
-      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 2.png",
-      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 3.png",
-      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 4.png"
-    ]
-  },
-  {
-    "id": "holiday-fantasy-24tb",
-    "slug": "holiday-fantasy-24tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "gift-collection",
-    
-    "name": "24 Pyramid Tea Bags with Envelops on a Presenter - Holiday Fantasy",
-    "shortDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter.",
-    "tags": ["Festive", "Assorted", "Gift"],
-    "packInfo": "24 Pyramid Tea Bags with Envelops on Presenter",
-    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Assorted Premium",
-    "teaVariety": "Mixed Tea Collection",
-    "unitCount": "24 Pyramid Tea Bags",
+  "name": "48 Pyramid Tea Bags (Non Wooven-Square type) Tea Makers Private Tea Assortment",
+  "shortDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags. A private collection for true tea lovers.",
+  "tags": ["Assorted", "Premium", "Exclusive"],
+  "packInfo": "48 Pyramid Tea Bags Box",
+  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
 
-    "format": "Pyramid Tea Bags",
-    "grade": "Various",
-    "region": "Various",
-    "liquorStrength": "Various",
-    "brewingInstructions": "95-100C & 3-5min depending on variety",
-    "additives": "Various natural flavorings",
-    
-    "price": 19.99,
-    "currency": "USD",
-    "stock": 22,
-    "rating": 4.8,
-    "reviewCount": 29,
-    
-    "seoTitle": "Holiday Fantasy - 24 Pyramid Tea Bags - Gift Tea Collection",
-    "seoDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter, perfect for holiday gifting.",
-    
-    "longDescription": "Holiday Fantasy Tea Assortment features 24 pyramid tea bags, each individually wrapped in elegant envelopes and presented on a beautiful display presenter. This festive collection includes a variety of premium Ceylon teas perfect for celebrating the holiday season. Ideal for gifting or adding holiday cheer to your own tea moments.",
-    
-    "features": [
-      "24 pyramid tea bags",
-      "Individual foil envelopes",
-      "Elegant display presenter",
-      "Festive holiday assortment",
-      "Perfect for gift-giving"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
-      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 2.png",
-      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 3.png",
-      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 4.png"
-    ]
-  },
+  "format": "Pyramid Tea Bags",
+  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+
+  "price": 24.99,
+  "currency": "USD",
+  "stock": 18,
+  "rating": 4.9,
+  "reviewCount": 37,
+
+  "seoTitle": "Tea Makers Private Assortment - 48 Pyramid Bags - Gift Tea Collection",
+  "seoDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags, perfect for gifting.",
+
+  "longDescription": "A regal yet truly authentic collection of pure Ceylon teas & botanicals, presented in a luxurious format to gift, savour, and appreciate the dynamic spectrum of Sri Lanka's most distinctive flavours. This curated assortment reflects modern, contemporary craftsmanship paired with the timeless heritage of Ceylon tea. Each selection captures the character of its origin, offering depth, elegance, and a refined sensory experience in every cup.",
+
+  "features": [
+    "48 premium pyramid tea bags",
+    "Curated assortment of fine teas",
+    "Non-woven square-type bags",
+    "Elegant gift presentation",
+    "Perfect for tea lovers"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
+    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 2.png",
+    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 3.png",
+    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 4.png"
+  ]
+},
+{
+  "id": "holiday-fantasy-24tb",
+  "slug": "holiday-fantasy-24tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "gift-collection",
+
+  "name": "24 Pyramid Tea Bags with Envelops on a Presenter - Holiday Fantasy",
+  "shortDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter.",
+  "tags": ["Festive", "Assorted", "Gift"],
+  "packInfo": "24 Pyramid Tea Bags with Envelops on Presenter",
+  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
+
+  "format": "Pyramid Tea Bags",
+  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+
+  "price": 19.99,
+  "currency": "USD",
+  "stock": 22,
+  "rating": 4.8,
+  "reviewCount": 29,
+
+  "seoTitle": "Holiday Fantasy - 24 Pyramid Tea Bags - Gift Tea Collection",
+  "seoDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter, perfect for holiday gifting.",
+
+  "longDescription": "Holiday Fantasy is an elevated tea experience crafted for discerning global consumers. The collection brings together four signature ranges — Wellness, Infusion, Elixir & Holiday — thoughtfully blended and presented in luxury pyramid tea bags that allow whole botanicals to fully express their character. With 84 carefully selected herbs, spices, flowers, and botanicals, this collection is designed to be both sensorial and sophisticated — balancing tradition, modern wellness, and refined indulgence. Whether gifted or self-indulged, Holiday Fantasy transforms tea into a seasonal ritual — a moment of calm, warmth, and quiet luxury amid the celebrations.",
+
+  "features": [
+    "24 pyramid tea bags",
+    "Individual foil envelopes",
+    "Elegant display presenter",
+    "Festive holiday assortment",
+    "Perfect for gift-giving"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
+    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 2.png",
+    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 3.png",
+    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 4.png"
+  ]
+},
   {
     "id": "30-day-wellness-pack",
     "slug": "30-day-wellness-pack",
@@ -2948,204 +2930,228 @@
       "assets/images/products/Teas/Gift Teas/Day Five Variant 5.png"
     ]
   },
-  {
-    "id": "advent-calendar-30-day",
-    "slug": "advent-calendar-30-day",
-    "mainCategory": "tea-collection",
-    "subCategory": "gift-collection",
-    
-    "name": "Advent Calender (30 Day)",
-    "shortDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
-    "tags": ["Assorted", "Gift", "Fun"],
-    "packInfo": "30 Tea Bags Advent Calendar",
-    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Assorted",
-    "teaVariety": "Mixed Tea Collection",
-    "unitCount": "30 Tea Bags",
+{
+  "id": "advent-calendar-30-day",
+  "slug": "advent-calendar-30-day",
+  "mainCategory": "tea-collection",
+  "subCategory": "gift-collection",
 
-    "format": "Tea Bags",
-    "grade": "Various",
-    "region": "Various",
-    "liquorStrength": "Various",
-    "brewingInstructions": "95-100C & 3-5min depending on variety",
-    "additives": "Various natural flavorings",
-    
-    "price": 22.99,
-    "currency": "USD",
-    "stock": 15,
-    "rating": 4.9,
-    "reviewCount": 53,
-    
-    "seoTitle": "30-Day Advent Calendar - Gift Tea Collection",
-    "seoDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
-    
-    "longDescription": "The 30-Day Advent Calendar offers a unique tea for each day of December leading up to the holidays. Behind each window awaits a premium Ceylon tea, from classic blacks to festive blends, creating a daily moment of anticipation and enjoyment. Perfect for tea lovers, holiday gifting, or discovering new favorite flavors throughout the season.",
-    
-    "features": [
-      "30 days of surprise teas",
-      "Festive advent calendar design",
-      "Wide variety of flavors",
-      "Daily countdown experience",
-      "Perfect holiday gift"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
-      "assets/images/products/Teas/Gift Teas/Advent Calendar 3.png",
-      "assets/images/products/Teas/Gift Teas/Advent Calendar 4.png",
-      "assets/images/products/Teas/Gift Teas/Advent Calendar 5.png"
-    ]
-  },
-  {
-    "id": "love-of-my-life-6tb",
-    "slug": "love-of-my-life-6tb",
-    "mainCategory": "tea-collection",
-    "subCategory": "gift-collection",
-    
-    "name": "Love of my Life",
-    "shortDescription": "Romantic tea gift set with 6 premium Ceylon teas for special someone.",
-    "tags": ["Gift", "Romantic", "Assorted"],
-    "packInfo": "6 Tea Bags Box",
-    "thumbnailImage": "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Assorted Premium",
-    "teaVariety": "Mixed Tea Collection",
-    "unitCount": "6 Tea Bags",
+  "name": "Advent Calender (30 Day)",
+  "shortDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
+  "tags": ["Assorted", "Gift", "Luxury"],
+  "packInfo": "30 Pyramid Tea Bags Advent Calendar",
+  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
 
-    "format": "Tea Bags",
-    "grade": "Various",
-    "region": "Various",
-    "liquorStrength": "Various",
-    "brewingInstructions": "95-100C & 3-5min depending on variety",
-    "additives": "Various natural flavorings",
-    
-    "price": 12.99,
-    "currency": "USD",
-    "stock": 28,
-    "rating": 4.8,
-    "reviewCount": 36,
-    
-    "seoTitle": "Love of My Life - 6 Tea Bags - Gift Tea Collection",
-    "seoDescription": "Romantic gift set of 6 premium Ceylon teas, perfect for special occasions and cozy moments with someone special.",
-    
-    "longDescription": "Love of My Life is a romantic gift set featuring 6 premium Ceylon teas, each selected to express affection and appreciation. Beautifully presented, it's perfect for Valentine's Day, anniversaries, or simply showing someone they're loved. Each tea offers a unique flavor experience for shared moments and cozy conversations.",
-    
-    "features": [
-      "6 premium tea bags",
-      "Romantic presentation",
-      "Curated selection for couples",
-      "Perfect for special occasions",
-      "Thoughtful gift expression"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
-      "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 2.png"
-    ]
-  },
-  {
-    "id": "regional-tea-sensation",
-    "slug": "regional-tea-sensation",
-    "mainCategory": "tea-collection",
-    "subCategory": "gift-collection",
-    
-    "name": "Regional Tea Sensation",
-    "shortDescription": "A journey through Sri Lanka's finest tea regions in one elegant gift set.",
-    "tags": ["Regional", "Assorted", "Gourmet"],
-    "packInfo": "6 x 20g Loose Tea Pack (Regional Assortment)",
-    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Regional Assorted",
-    "teaVariety": "Regional Tea Collection",
-    "unitCount": "6 x 20g",
+  "format": "Pyramid Tea Bags",
+  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
 
-    "format": "Loose Leaf",
-    "grade": "FBOP",
-    "region": "All Regions",
-    "liquorStrength": "Various",
-    "brewingInstructions": "95-100C & 4-5min",
-    "additives": "N/A",
-    
-    "price": 18.99,
-    "currency": "USD",
-    "stock": 20,
-    "rating": 4.9,
-    "reviewCount": 41,
-    
-    "seoTitle": "Regional Tea Sensation - 6 Regions Gift Set - Gift Tea Collection",
-    "seoDescription": "A journey through Sri Lanka's finest tea regions in one elegant gift set, each with unique character.",
-    
-    "longDescription": "Regional Tea Sensation takes you on a tasting journey through Sri Lanka's six renowned tea-growing regions. Each 20g sample represents the unique terroir and character of its origin - from the light, delicate teas of Nuwara Eliya to the bold, robust flavors of Ruhuna. Beautifully presented, it's the perfect gift for tea enthusiasts eager to explore Ceylon's regional diversity.",
-    
-    "features": [
-      "6 regional tea samples",
-      "20g of each region",
-      "Discover terroir differences",
-      "Educational tasting experience",
-      "Perfect for tea enthusiasts"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png",
-      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 2.png",
-      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 4.png",
-      "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 4 (2).png"
-    ]
-  },
-  {
-    "id": "silver-tips-elephant-gift",
-    "slug": "silver-tips-elephant-gift",
-    "mainCategory": "tea-collection",
-    "subCategory": "gift-collection",
-    
-    "name": "Silver Tips & Hand Crafter Elephant",
-    "shortDescription": "Premium silver tips tea paired with a handcrafted elephant keepsake. An exquisite gift.",
-    "tags": ["Premium", "Artisan", "Keepsake"],
-    "packInfo": "40g Silver Tips + Handcrafted Elephant",
-    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Elephant Gift Box 1.png",
-    
-    "brand": "Ceylon Tea",
-    "flavor": "Delicate White Tea",
-    "teaVariety": "White Tea",
-    "unitCount": "40g + Elephant",
+  "price": 22.99,
+  "currency": "USD",
+  "stock": 15,
+  "rating": 4.9,
+  "reviewCount": 53,
 
-    "format": "Loose Leaf",
-    "grade": "Silver Tips",
-    "region": "High",
-    "liquorStrength": "Light",
-    "brewingInstructions": "70-80C & 1-2min",
-    "additives": "N/A",
-    
-    "price": 29.99,
-    "currency": "USD",
-    "stock": 12,
-    "rating": 5.0,
-    "reviewCount": 24,
-    
-    "seoTitle": "Silver Tips with Handcrafted Elephant - Gift Tea Collection",
-    "seoDescription": "Premium silver tips tea paired with a handcrafted elephant keepsake in an exquisite gift presentation.",
-    
-    "longDescription": "Silver Tips & Handcrafted Elephant is a truly special gift set combining 40g of premium silver tips tea with a beautifully handcrafted elephant keepsake. The delicate silver tips tea offers a light, smooth flavor with subtle sweetness, while the artisanal elephant represents Sri Lanka's rich cultural heritage. Presented in an elegant box, this is a memorable gift for tea lovers and collectors alike.",
-    
-    "features": [
-      "40g premium silver tips",
-      "Handcrafted elephant keepsake",
-      "Elegant gift presentation",
-      "Celebrates Sri Lankan heritage",
-      "Truly unique gift"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 1.png",
-      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 2.png",
-      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 3.png",
-      "assets/images/products/Teas/Gift Teas/Elephant Gift Box 4.png"
-    ]
-  },
+  "seoTitle": "30-Day Advent Calendar - Gift Tea Collection",
+  "seoDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
+
+  "longDescription": "An elevated celebration of tea, this Luxury Ceylon Tea Advent Calendar features 30 curated teas for a full month of discovery. Crafted from pure Ceylon teas infused with select botanicals, each blend is presented in luxury pyramid tea bags, allowing whole leaves and botanicals to unfurl and reveal their true character. Designed as a refined gift, this calendar transforms every day into a moment of ritual, indulgence, and appreciation.",
+
+  "features": [
+    "30 luxury pyramid tea bags",
+    "30 days of curated Ceylon teas",
+    "Pure Ceylon teas with botanicals",
+    "Daily countdown experience",
+    "Perfect luxury holiday gift"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
+    "assets/images/products/Teas/Gift Teas/Advent Calendar 3.png",
+    "assets/images/products/Teas/Gift Teas/Advent Calendar 4.png",
+    "assets/images/products/Teas/Gift Teas/Advent Calendar 5.png"
+  ]
+},
+{
+  "id": "love-of-my-life-6tb",
+  "slug": "love-of-my-life-6tb",
+  "mainCategory": "tea-collection",
+  "subCategory": "gift-collection",
+
+  "name": "Love of my Life",
+  "shortDescription": "A luxury pyramid tea gift collection of Black, Green and White tea blends for moments of romance and celebration.",
+  "tags": ["Gift", "Romantic", "Luxury"],
+  "packInfo": "6 Luxury Pyramid Tea Bags",
+  "thumbnailImage": "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
+
+  "format": "Pyramid Tea Bags",
+  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+
+  "price": 12.99,
+  "currency": "USD",
+  "stock": 28,
+  "rating": 4.8,
+  "reviewCount": 36,
+
+  "seoTitle": "Love of My Life - Luxury Pyramid Tea Gift Collection",
+  "seoDescription": "A timeless expression of affection — curated Black, Green, and White tea blends in luxury pyramid tea bags, perfect for special occasions.",
+
+  "longDescription": "A timeless expression of affection, Love of My Life is a curated selection of Black, Green, and White tea blends, crafted for moments of romance, union, and celebration. Presented in luxury pyramid tea bags, each blend allows whole leaves to gently unfurl, delivering elegance, aroma, and depth in every cup. A refined tea collection celebrating purity, balance, and artisanal craftsmanship.",
+
+  "features": [
+    "6 luxury pyramid tea bags",
+    "Black, Green & White tea blends",
+    "Whole-leaf pyramid tea bags",
+    "Perfect for romantic occasions",
+    "Thoughtful gift expression"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
+    "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 2.png"
+  ]
+},
+{
+  "id": "regional-tea-sensation",
+  "slug": "regional-tea-sensation",
+  "mainCategory": "tea-collection",
+  "subCategory": "gift-collection",
+
+  "name": "Regional Tea Sensation",
+  "shortDescription": "A journey through Sri Lanka's six legendary tea regions in one elegant gift collection.",
+  "tags": ["Regional", "Assorted", "Gourmet"],
+  "packInfo": "6 x 20g Loose Tea Pack (Regional Assortment)",
+  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png",
+
+  "format": "Pyramid Tea Bags",
+  "grade": "FBOP",
+  "region": "All Regions",
+  "brewingInstructions": "90-100C & 4-5min",
+
+  "price": 18.99,
+  "currency": "USD",
+  "stock": 20,
+  "rating": 4.9,
+  "reviewCount": 41,
+
+  "seoTitle": "Regional Tea Sensation - 6 Regions Gift Set - Gift Tea Collection",
+  "seoDescription": "Discover the diversity of Sri Lanka through six iconic Ceylon tea regions, each celebrated for its distinct elevation, climate, and character.",
+
+  "longDescription": "Discover the diversity of Sri Lanka through a refined tea journey featuring six iconic Ceylon tea regions, each celebrated for its distinct elevation, climate, and character. Presented in luxury pyramid tea bags, this collection allows whole orthodox leaves to fully unfurl, revealing the true expression of each origin. An elegant gift designed for connoisseurs, collectors, and premium global markets. One island. Six legendary terroirs.",
+
+  "regions": [
+    {
+      "name": "Uva",
+      "description": "Bright and aromatic with a distinctive wintergreen note and brisk finish — a prized seasonal tea of exceptional character.",
+      "liquor": "Bright amber",
+      "aroma": "Distinctively aromatic, with menthol-like high notes",
+      "flavourProfile": "Bold, brisk, slightly sweet with a signature Uva tang character",
+      "finish": "Lingering and lively"
+    },
+    {
+      "name": "Nuwara Eliya",
+      "description": "Light, elegant, and floral with a champagne-like delicacy, grown in Sri Lanka's highest elevations.",
+      "liquor": "Pale golden",
+      "aroma": "Fresh, floral",
+      "flavourProfile": "Delicate, brisk, slightly astringent",
+      "finish": "Clean and refreshing"
+    },
+    {
+      "name": "Ruhuna",
+      "description": "Bold and full-bodied with rich colour and malty depth, cultivated in the warm low-country plains.",
+      "liquor": "Deep dark red",
+      "aroma": "Caramel & Malty",
+      "flavourProfile": "Strong, full-bodied, slightly sweet",
+      "finish": "Thick and bold"
+    },
+    {
+      "name": "Kandy",
+      "description": "Smooth and rounded with gentle sweetness, offering a comforting and well-balanced cup.",
+      "liquor": "Rich amber",
+      "aroma": "Mild spice and wood notes",
+      "flavourProfile": "Full-bodied, smooth, gently brisk",
+      "finish": "Rounded and satisfying"
+    },
+    {
+      "name": "Udapusselawa",
+      "description": "Medium-bodied with subtle floral notes and soft briskness, bridging the finesse of high-grown teas with added depth.",
+      "liquor": "Bright amber to coppery gold",
+      "aroma": "Delicately floral, Light woody undertone",
+      "flavourProfile": "Medium-bodied, noticeably brisk",
+      "finish": "Crisp and drying"
+    },
+    {
+      "name": "Dimbula",
+      "description": "Crisp, bright, and clean with refreshing citrus undertones — celebrated for its clarity and balance.",
+      "liquor": "Bright coppery gold",
+      "aroma": "Subtle floral with hints of spice",
+      "flavourProfile": "Medium-bodied, crisp, pleasantly brisk",
+      "finish": "Well-rounded & balanced"
+    }
+  ],
+
+  "features": [
+    "6 iconic Ceylon tea regions",
+    "Luxury pyramid tea bags",
+    "Whole orthodox leaves",
+    "Discover terroir differences",
+    "Perfect for tea connoisseurs"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 1.png",
+    "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 2.png",
+    "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 4.png",
+    "assets/images/products/Teas/Gift Teas/Six Region – Ceylon Gourmet Teas 4 (2).png"
+  ]
+},
+{
+  "id": "silver-tips-elephant-gift",
+  "slug": "silver-tips-elephant-gift",
+  "mainCategory": "tea-collection",
+  "subCategory": "gift-collection",
+
+  "name": "Silver Tips & Hand Crafter Elephant",
+  "shortDescription": "Premium silver tips tea paired with a handcrafted elephant keepsake in premium borosilicate glassware. An exquisite gift.",
+  "tags": ["Premium", "Artisan", "Keepsake"],
+  "packInfo": "40g Silver Tips + Handcrafted Elephant",
+  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Elephant Gift Box 1.png",
+
+  "format": "Loose Leaf",
+  "grade": "Silver Tips",
+  "region": "High Grown",
+  "brewingInstructions": "90C-100C & 2-3min",
+  "ingredients": ["Silver Tips White Tea"],
+  "liquor": ["Very pale champagne gold, crystal clear"],
+  "aroma": ["Delicate floral sweetness", "Light cucumber", "Fresh meadow"],
+  "flavourProfile": ["Very light body", "Notes of honeydew, white peach, and soft floral nectar"],
+  "finish": ["Silky, almost weightless", "Clean, gently sweet, lingering elegance"],
+
+  "price": 29.99,
+  "currency": "USD",
+  "stock": 12,
+  "rating": 5.0,
+  "reviewCount": 24,
+
+  "seoTitle": "Silver Tips with Handcrafted Elephant - Gift Tea Collection",
+  "seoDescription": "Premium silver tips tea paired with a handcrafted elephant keepsake in borosilicate glassware — an exquisite gift.",
+
+  "longDescription": "An exceptional gifting piece, this wooden gift presenter is meticulously crafted to house a handcrafted elephant figurine with refined silver-tipped detailing, paired with high-end borosilicate glassware renowned for its clarity, strength, and elegance. Rooted in artistry and symbolism, the elephant represents wisdom, strength, and prosperity, making this presentation not only luxurious, but deeply meaningful.",
+
+  "features": [
+    "40g premium silver tips",
+    "Handcrafted elephant keepsake",
+    "Premium borosilicate glassware",
+    "Celebrates Sri Lankan heritage",
+    "Truly unique gift"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/Teas/Gift Teas/Elephant Gift Box 1.png",
+    "assets/images/products/Teas/Gift Teas/Elephant Gift Box 2.png",
+    "assets/images/products/Teas/Gift Teas/Elephant Gift Box 3.png",
+    "assets/images/products/Teas/Gift Teas/Elephant Gift Box 4.png"
+  ]
+},
 
     {
     "id": "tea-capsules-saffron-10pk",
@@ -7023,57 +7029,61 @@
     ]
   },
 
-    {
-    "id": "vanilla-beans-tube-6g",
-    "slug": "vanilla-beans-tube-6g",
-    "mainCategory": "vanilla-collection",
-    "subCategory": "vanilla-beans-collection",
-    
-    "name": "Vanilla Beans in a Tube -6g",
-    "shortDescription": "Premium organic vanilla beans in a protective tube. Rich, creamy, intensely aromatic.",
-    "tags": ["Organic", "Premium", "Aromatic"],
-    "packInfo": "6g Tube (2-3 beans)",
-    "thumbnailImage": "assets/images/products/vanilla/Vanilla Beans Tube.png",
-    
-    "brand": "Ceylon Vanilla",
-    "flavor": "Vanilla",
-    "productType": "Vanilla Beans",
-    "unitCount": "6g (2-3 beans)",
+{
+  "id": "vanilla-beans-tube-6g",
+  "slug": "vanilla-beans-tube-6g",
+  "mainCategory": "vanilla-collection",
+  "subCategory": "vanilla-beans-collection",
 
-    "format": "Whole Beans in Tube",
-    "variety": "Planifolia",
-    "certification": "Organic Certified",
-    "processing": "Hand-pollinated, Cured",
-    "origin": "Sri Lanka",
-    "aroma": "Rich, Creamy, Sweet",
-    "flavorProfile": "Sweet, Creamy, Floral Notes",
-    "moistureContent": "25-30%",
-    "vanillinContent": "High",
-    "uses": "Baking, Ice cream, Custards, Infusions, Extracts",
-    
-    "price": 8.99,
-    "currency": "USD",
-    "stock": 36,
-    "rating": 5.0,
-    "reviewCount": 47,
-    
-    "seoTitle": "Organic Vanilla Beans - 6g Tube - Vanilla Collection",
-    "seoDescription": "Premium organic vanilla beans in a protective tube. Rich, creamy, intensely aromatic for all your baking needs.",
-    
-    "longDescription": "Organic Vanilla Beans represent the pinnacle of vanilla quality. Each plump, moist bean is hand-pollinated, carefully cured over months to develop the rich, creamy, intensely aromatic profile that makes real vanilla irreplaceable. The process is labor-intensive, which is why true vanilla beans are precious. Each tube contains 2-3 premium grade beans, protected in a glass tube to preserve moisture and aroma. Split and scrape the seeds into custards, ice cream bases, and cake batters, or use whole beans to infuse cream, milk, or sugar. The used pods can be buried in sugar to make vanilla sugar. A single bean elevates any dessert to extraordinary.",
-    
-    "features": [
-      "Certified organic",
-      "Premium Planifolia variety",
-      "Hand-pollinated and cured",
-      "Moist, plump, aromatic",
-      "Protective glass tube",
-      "2-3 beans per tube"
-    ],
-    
-    "galleryImages": [
-      "assets/images/products/vanilla/Vanilla Beans Tube.png"
-    ]
-  }
+  "name": "Vanilla Beans in a Tube -6g",
+  "shortDescription": "Premium Ceylon vanilla beans in a protective tube. Rich, creamy, and intensely aromatic.",
+  "tags": ["Organic", "Premium", "Aromatic"],
+  "packInfo": "6g Tube (2-3 beans)",
+  "thumbnailImage": "assets/images/products/vanilla/Vanilla Beans Tube.png",
+
+  "format": "Whole Beans in Tube",
+  "variety": "Planifolia",
+  "certification": "Organic Certified",
+  "processing": "Hand-pollinated, Cured",
+  "origin": "Sri Lanka",
+  "tastingNotes": [
+    "Delicately aromatic with a smooth, rounded profile",
+    "Soft floral top notes layered over a warm, creamy core",
+    "Subtle hints of caramel and honeyed sweetness",
+    "Gentle woody depth",
+    "Clean, mellow, and lingering finish"
+  ],
+  "applications": [
+    "Desserts & Pâtisserie — cakes, custards, pastries, and fine chocolates",
+    "Beverages — teas, coffees, iced drinks, and craft formulations",
+    "Gourmet Cuisine — seafood, poultry, and delicate sauces",
+    "Dairy & Confectionery — ice creams, yogurts, and premium confectionery",
+    "Wellness & Functional Blends — herbal infusions and functional beverages"
+  ],
+
+  "price": 8.99,
+  "currency": "USD",
+  "stock": 36,
+  "rating": 5.0,
+  "reviewCount": 47,
+
+  "seoTitle": "Organic Vanilla Beans - 6g Tube - Vanilla Collection",
+  "seoDescription": "Premium Ceylon vanilla beans in a protective tube. Rich, creamy, intensely aromatic for all your baking and beverage needs.",
+
+  "longDescription": "Rooted in island heritage and refined for contemporary tastes, Ceylon Vanilla brings depth, warmth, and elegance to global cuisine. Carefully cultivated and prized for its smooth, aromatic character, this exceptional vanilla is a fine expression of Sri Lanka's craftsmanship — a new chapter in the story of Ceylon's rich legacy shared with the world. Delicately aromatic with a smooth, rounded profile, Ceylon Vanilla reveals soft floral top notes layered over a warm, creamy core with subtle hints of caramel and honeyed sweetness.",
+
+  "features": [
+    "Certified organic",
+    "Premium Planifolia variety",
+    "Hand-pollinated and cured",
+    "Moist, plump, aromatic",
+    "Protective glass tube",
+    "2-3 beans per tube"
+  ],
+
+  "galleryImages": [
+    "assets/images/products/vanilla/Vanilla Beans Tube.png"
+  ]
+}
 
 ]

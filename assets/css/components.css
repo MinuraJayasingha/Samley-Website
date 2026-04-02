@@ -1732,9 +1732,9 @@ sup {
 /* ── Outer section wrapper ── */
 
 .product-teas-section {
-    width:      100%;
+    width:      80%;
     box-sizing: border-box;
-    padding:    40px 0;        /* horizontal padding from .products-container */
+    padding:  0 0 40px 0;        /* horizontal padding from .products-container */
 }
 
 .product-teas-inner {

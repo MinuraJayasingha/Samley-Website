@@ -2799,87 +2799,493 @@
 },
 
 {
-  "id": "tea-makers-private-assortment-48tb",
-  "slug": "tea-makers-private-assortment-48tb",
-  "mainCategory": "tea-collection",
-  "subCategory": "gift-collection",
-
-  "name": "48 Pyramid Tea Bags (Non Wooven-Square type) Tea Makers Private Tea Assortment",
-  "shortDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags. A private collection for true tea lovers.",
-  "tags": ["Assorted", "Premium", "Exclusive"],
-  "packInfo": "48 Pyramid Tea Bags Box",
-  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
-
-  "format": "Pyramid Tea Bags",
-  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
-
-  "price": 24.99,
-  "currency": "USD",
-  "stock": 18,
-  "rating": 4.9,
-  "reviewCount": 37,
-
-  "seoTitle": "Tea Makers Private Assortment - 48 Pyramid Bags - Gift Tea Collection",
-  "seoDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags, perfect for gifting.",
-
-  "longDescription": "A regal yet truly authentic collection of pure Ceylon teas & botanicals, presented in a luxurious format to gift, savour, and appreciate the dynamic spectrum of Sri Lanka's most distinctive flavours. This curated assortment reflects modern, contemporary craftsmanship paired with the timeless heritage of Ceylon tea. Each selection captures the character of its origin, offering depth, elegance, and a refined sensory experience in every cup.",
-
-  "features": [
-    "48 premium pyramid tea bags",
-    "Curated assortment of fine teas",
-    "Non-woven square-type bags",
-    "Elegant gift presentation",
-    "Perfect for tea lovers"
-  ],
-
-  "galleryImages": [
-    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
-    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 2.png",
-    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 3.png",
-    "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 4.png"
-  ]
-},
+    "id": "tea-makers-private-assortment-48tb",
+    "slug": "tea-makers-private-assortment-48tb",
+    "mainCategory": "tea-collection",
+    "subCategory": "gift-collection",
+    "name": "48 Pyramid Tea Bags (Non Wooven-Square type) Tea Makers Private Tea Assortment",
+    "shortDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags. A private collection for true tea lovers.",
+    "tags": [
+      "Assorted",
+      "Premium",
+      "Exclusive"
+    ],
+    "packInfo": "48 Pyramid Tea Bags Box",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
+    "format": "Pyramid Tea Bags",
+    "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+    "price": 24.99,
+    "currency": "USD",
+    "stock": 18,
+    "rating": 4.9,
+    "reviewCount": 37,
+    "seoTitle": "Tea Makers Private Assortment - 48 Pyramid Bags - Gift Tea Collection",
+    "seoDescription": "Exclusive assortment of premium Ceylon teas in elegant pyramid tea bags, perfect for gifting.",
+    "longDescription": "A regal yet truly authentic collection of pure Ceylon teas & botanicals, presented in a luxurious format to gift, savour, and appreciate the dynamic spectrum of Sri Lanka's most distinctive flavours. This curated assortment reflects modern, contemporary craftsmanship paired with the timeless heritage of Ceylon tea. Each selection captures the character of its origin, offering depth, elegance, and a refined sensory experience in every cup.",
+    "teas": [
+      {
+        "name": "English Breakfast",
+        "teaType": "Black Tea",
+        "description": "Indulge in the refreshing mellowness of high-grown Ceylon tea, internationally renowned for its exceptional quality, and savour a golden-hued aromatic cup of flavour-rich tea.",
+        "brewingInstructions": "95-100C & 4-5min",
+        "ingredients": [
+          "Black Tea"
+        ],
+        "grade": "BOPF — High Grown",
+        "liquor": [
+          "Clear golden-amber with excellent brightness and brilliance"
+        ],
+        "aroma": [
+          "Fresh and aromatic with lively high-grown briskness",
+          "Subtle floral hints",
+          "Gentle citrusy top notes"
+        ],
+        "flavourProfile": [
+          "Medium to full-bodied with a bright, crisp character",
+          "Smooth malt undertones balanced by light floral accents",
+          "Well-rounded and invigorating"
+        ],
+        "finish": [
+          "Refreshing and lingering with balanced strength and refined warmth"
+        ]
+      },
+      {
+        "name": "Classic Earl Grey",
+        "teaType": "Black Tea",
+        "description": "Masterfully blended with vibrant blue cornflowers, the exotic bergamot infuses this tea with a distinct citrus flavour, resulting in a rejuvenating cup of brew.",
+        "brewingInstructions": "95-100C & 4-5min",
+        "ingredients": [
+          "Black Tea",
+          "Bergamot Flavour",
+          "Blue Corn Flower"
+        ],
+        "grade": "BOPF — High Grown",
+        "liquor": [
+          "Bright, clear coppery amber with excellent brilliance"
+        ],
+        "aroma": [
+          "Fresh and uplifting citrus notes of bergamot layered over a clean, brisk black tea base",
+          "Light floral nuances enhance its aromatic elegance"
+        ],
+        "flavourProfile": [
+          "A lively burst of zesty bergamot at the forefront",
+          "Smooth, well-rounded black tea body",
+          "Citrus element distinct yet balanced, never overpowering"
+        ],
+        "finish": [
+          "Clean, fragrant, and lingering with subtle citrus sweetness and a refined briskness"
+        ]
+      },
+      {
+        "name": "Mango Delight",
+        "teaType": "Green Tea",
+        "description": "Infused with tropical variations of mango and cardamom, a delicate Sencha green tea delivers an irresistible and delightful sensation.",
+        "brewingInstructions": "70-80C & 1-2min",
+        "ingredients": [
+          "Sencha Green Tea",
+          "Mango Flavouring",
+          "Cardamom Flavouring"
+        ],
+        "grade": "GT Fgs — High & Medium Grown",
+        "liquor": [
+          "Bright light golden infusion with clear brilliance"
+        ],
+        "aroma": [
+          "Lush mango fragrance complemented by soft aromatic hints of cardamom"
+        ],
+        "flavourProfile": [
+          "Fresh vegetal notes of Sencha green tea harmoniously balanced with juicy mango sweetness",
+          "Subtle warming spice from cardamom"
+        ],
+        "finish": [
+          "Smooth, tropical, and gently spiced with a refreshing lingering sweetness"
+        ]
+      },
+      {
+        "name": "French Vanilla",
+        "teaType": "Green Tea",
+        "description": "With an absence of conventional astringency, the foundation of Sencha green tea is brimming with the delightful flavours of strawberry and a subtle touch of vanilla, providing a distinctive and fruity punch.",
+        "brewingInstructions": "70-80C & 1-2min",
+        "ingredients": [
+          "Sencha Green Tea",
+          "Strawberry Flavouring",
+          "Vanilla Flavouring"
+        ],
+        "grade": "GT Fgs — High & Medium Grown",
+        "liquor": [
+          "Bright light golden infusion with excellent clarity"
+        ],
+        "aroma": [
+          "Fresh strawberry fragrance complemented by smooth, comforting vanilla notes"
+        ],
+        "flavourProfile": [
+          "Gentle vegetal notes of Sencha green tea harmoniously layered with juicy strawberry sweetness",
+          "Subtle creamy vanilla undertones"
+        ],
+        "finish": [
+          "Soft, fruity, and delicately sweet with a smooth lingering vanilla note"
+        ]
+      },
+      {
+        "name": "Rose Blossom",
+        "teaType": "Herbal Infusion",
+        "description": "Combining the earthy yet zesty notes of hibiscus and lemon with the inclusion of natural rose petals results in a full-bodied infusion that delivers a lasting and memorable experience.",
+        "brewingInstructions": "100C & 5min",
+        "ingredients": [
+          "Hibiscus",
+          "Rosehip",
+          "Sweet Blackberry Leaves",
+          "Apple",
+          "Lemon Myrtle",
+          "Lemongrass",
+          "Lemon Peel",
+          "Rose Petals",
+          "Lemon Flavouring",
+          "Rose Flavouring"
+        ],
+        "liquor": [
+          "Brilliant deep ruby-red infusion with lively clarity"
+        ],
+        "aroma": [
+          "Fragrant rose notes layered with vibrant citrus accents and gentle fruity undertones"
+        ],
+        "flavourProfile": [
+          "Tangy hibiscus and rosehip create a vibrant base",
+          "Harmoniously balanced with floral rose petals, subtle apple sweetness, and refreshing citrus notes from lemon peel and lemongrass"
+        ],
+        "finish": [
+          "Bright, floral, and gently tangy with a lingering refreshing citrus aftertaste"
+        ]
+      },
+      {
+        "name": "Berry Sensation",
+        "teaType": "Herbal Infusion",
+        "description": "Tangy, tart, sour, and sweet elements harmoniously meld with a subtle woody undertone, yielding a fusion tea that boasts exceptional taste.",
+        "brewingInstructions": "100C & 5min",
+        "ingredients": [
+          "Hibiscus",
+          "Rosehip",
+          "Sweet Blackberry Leaves",
+          "Apple",
+          "Liquorice Root",
+          "Rose Petals",
+          "Blackberry Flavouring",
+          "Raspberry Flavouring"
+        ],
+        "liquor": [
+          "Brilliant ruby-red infusion with bright clarity"
+        ],
+        "aroma": [
+          "Lively berry fragrance with hints of raspberry and blackberry",
+          "Complemented by gentle floral undertones"
+        ],
+        "flavourProfile": [
+          "A vibrant fusion of tangy hibiscus and rosehip balanced with fruity berry notes",
+          "Mild apple sweetness and a delicate natural sweetness from liquorice root"
+        ],
+        "finish": [
+          "Bright, fruity, and refreshing with a pleasantly tangy lingering finish"
+        ]
+      },
+      {
+        "name": "Herbal Punch",
+        "teaType": "Herbal Infusion",
+        "description": "The vibrant lemon flavours, thoughtfully intertwined with the pungent and spicy essence of ginger, come together to craft a beverage that exudes the ultimate warmth.",
+        "brewingInstructions": "100C & 5min",
+        "ingredients": [
+          "Ginger",
+          "Apple",
+          "Sweet Blackberry Leaves",
+          "Lemongrass",
+          "Lemon Peel",
+          "Lime Peel",
+          "Roasted Chicory Root",
+          "Silver Lime Flowers",
+          "Galangal",
+          "Lemon Flavouring",
+          "Lime Flavouring"
+        ],
+        "liquor": [
+          "Clear golden infusion with a lively, inviting glow"
+        ],
+        "aroma": [
+          "Fresh citrus notes of lemon and lime complemented by warm ginger spice and gentle herbal undertones"
+        ],
+        "flavourProfile": [
+          "Zesty lemon and lime brightness balanced with the pungent warmth of ginger and galangal",
+          "Rounded by subtle sweetness from apple and herbal depth from roasted chicory and botanicals"
+        ],
+        "finish": [
+          "Warm, invigorating, and refreshing with lingering citrus zest and gentle spice"
+        ]
+      },
+      {
+        "name": "Jasmin Green",
+        "teaType": "Green Tea",
+        "description": "Green tea is masterfully imbued with the enchanting essence of jasmine flavour, graced by the presence of beautiful, artistic jasmine buds.",
+        "brewingInstructions": "70-80C & 1-2min",
+        "ingredients": [
+          "Green Tea",
+          "Jasmine Buds",
+          "Jasmine Flavouring"
+        ],
+        "liquor": [
+          "Clear pale golden infusion with bright brilliance"
+        ],
+        "aroma": [
+          "Graceful jasmine florals with fresh, uplifting notes"
+        ],
+        "flavourProfile": [
+          "Gentle vegetal notes of green tea beautifully complemented by the sweet, fragrant essence of jasmine"
+        ],
+        "finish": [
+          "Clean, delicately floral, and softly sweet with a lingering jasmine elegance"
+        ]
+      }
+    ],
+    "features": [
+      "48 premium pyramid tea bags",
+      "8 curated premium tea varieties",
+      "Black, Green & Herbal infusions",
+      "Non-woven square-type bags",
+      "Elegant gift presentation",
+      "Perfect for tea lovers"
+    ],
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 1.png",
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 2.png",
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 3.png",
+      "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 4.png"
+    ]
+  },
 {
-  "id": "holiday-fantasy-24tb",
-  "slug": "holiday-fantasy-24tb",
-  "mainCategory": "tea-collection",
-  "subCategory": "gift-collection",
-
-  "name": "24 Pyramid Tea Bags with Envelops on a Presenter - Holiday Fantasy",
-  "shortDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter.",
-  "tags": ["Festive", "Assorted", "Gift"],
-  "packInfo": "24 Pyramid Tea Bags with Envelops on Presenter",
-  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
-
-  "format": "Pyramid Tea Bags",
-  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
-
-  "price": 19.99,
-  "currency": "USD",
-  "stock": 22,
-  "rating": 4.8,
-  "reviewCount": 29,
-
-  "seoTitle": "Holiday Fantasy - 24 Pyramid Tea Bags - Gift Tea Collection",
-  "seoDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter, perfect for holiday gifting.",
-
-  "longDescription": "Holiday Fantasy is an elevated tea experience crafted for discerning global consumers. The collection brings together four signature ranges — Wellness, Infusion, Elixir & Holiday — thoughtfully blended and presented in luxury pyramid tea bags that allow whole botanicals to fully express their character. With 84 carefully selected herbs, spices, flowers, and botanicals, this collection is designed to be both sensorial and sophisticated — balancing tradition, modern wellness, and refined indulgence. Whether gifted or self-indulged, Holiday Fantasy transforms tea into a seasonal ritual — a moment of calm, warmth, and quiet luxury amid the celebrations.",
-
-  "features": [
-    "24 pyramid tea bags",
-    "Individual foil envelopes",
-    "Elegant display presenter",
-    "Festive holiday assortment",
-    "Perfect for gift-giving"
-  ],
-
-  "galleryImages": [
-    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
-    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 2.png",
-    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 3.png",
-    "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 4.png"
-  ]
-},
+    "id": "holiday-fantasy-24tb",
+    "slug": "holiday-fantasy-24tb",
+    "mainCategory": "tea-collection",
+    "subCategory": "gift-collection",
+    "name": "24 Pyramid Tea Bags with Envelops on a Presenter - Holiday Fantasy",
+    "shortDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter. Four curated ranges — Holiday, Wellness, Infusion & Elixir.",
+    "tags": [
+      "Festive",
+      "Assorted",
+      "Gift"
+    ],
+    "packInfo": "24 Pyramid Tea Bags with Envelops on Presenter",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
+    "format": "Pyramid Tea Bags",
+    "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+    "price": 19.99,
+    "currency": "USD",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 29,
+    "seoTitle": "Holiday Fantasy - 24 Pyramid Tea Bags - Gift Tea Collection",
+    "seoDescription": "Festive tea assortment with 24 pyramid tea bags individually enveloped on a beautiful presenter, perfect for holiday gifting.",
+    "longDescription": "Holiday Fantasy is an elevated tea experience crafted for discerning global consumers. The collection brings together four signature ranges — Wellness, Infusion, Elixir & Holiday — thoughtfully blended and presented in luxury pyramid tea bags that allow whole botanicals to fully express their character. With 84 carefully selected herbs, spices, flowers, and botanicals, this collection is designed to be both sensorial and sophisticated — balancing tradition, modern wellness, and refined indulgence. Whether gifted or self-indulged, Holiday Fantasy transforms tea into a seasonal ritual — a moment of calm, warmth, and quiet luxury amid the celebrations. Because the holidays deserve more than just tea — they deserve a fantasy.",
+    "ranges": [
+      {
+        "range": "Holiday Range",
+        "note": "Curated from the Love of My Life collection — see individual tea details in that product."
+      },
+      {
+        "range": "Wellness Range",
+        "note": "Curated from the 30 Day Five Variant Wellness Tea Pack — see individual tea details in that product."
+      },
+      {
+        "range": "Infusion Range",
+        "teas": [
+          {
+            "name": "Cocoa Rooibos",
+            "teaType": "Red Tea",
+            "description": "Blending South African red tea with cocoa and coconut creates a flavour profile that is delightfully intricate and rich.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Rooibos",
+              "Cocoa",
+              "Coconut",
+              "White Corn Flower",
+              "Coconut Flavour",
+              "Vanilla Flavour"
+            ],
+            "liquor": [
+              "Deep amber to reddish-brown infusion with a warm, inviting glow"
+            ],
+            "aroma": [
+              "Indulgent cocoa notes layered with creamy coconut and soft vanilla sweetness"
+            ],
+            "flavourProfile": [
+              "Naturally sweet rooibos character harmoniously balanced with rich cocoa, creamy coconut, and gentle vanilla undertones"
+            ],
+            "finish": [
+              "Smooth, comforting, and lightly sweet with lingering chocolate-coconut notes"
+            ]
+          },
+          {
+            "name": "Chamomile Lemon",
+            "teaType": "Herbal Infusion",
+            "description": "Enhance your tranquillity with a soothing chamomile infusion, accentuated by the invigorating touch of lemon, taking you to new levels of serenity.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Chamomile",
+              "Lemon Myrtle",
+              "Lime Peel",
+              "Lemongrass",
+              "Lemon Flavour"
+            ],
+            "liquor": [
+              "Clear golden infusion with a warm, inviting glow"
+            ],
+            "aroma": [
+              "Soft floral notes of chamomile uplifted by fresh lemon and citrusy herbal accents"
+            ],
+            "flavourProfile": [
+              "Gentle chamomile sweetness harmoniously balanced with vibrant lemon brightness and refreshing herbal notes from lemongrass and lemon myrtle"
+            ],
+            "finish": [
+              "Calming, fresh, and lightly citrusy with a lingering soothing aftertaste"
+            ]
+          },
+          {
+            "name": "Honey Lavender",
+            "teaType": "Herbal Infusion",
+            "description": "Vanilla, lavender, and ginger offer a unique blend for an uncharted culinary adventure.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Chamomile",
+              "Hibiscus",
+              "Spearmint",
+              "Lemongrass",
+              "Ginger",
+              "Lavender",
+              "Honey Flavour",
+              "Lemon Flavour",
+              "Vanilla Flavour"
+            ],
+            "liquor": [
+              "Bright amber infusion with delicate rosy highlights from hibiscus"
+            ],
+            "aroma": [
+              "Soothing lavender notes layered with soft honeyed sweetness",
+              "Refreshing mint and light citrus accents"
+            ],
+            "flavourProfile": [
+              "A harmonious blend of floral lavender and chamomile balanced with gentle sweetness",
+              "Refreshing spearmint, vibrant citrus notes, and a subtle warming touch of ginger"
+            ],
+            "finish": [
+              "Soft, aromatic, and refreshing with lingering floral sweetness and gentle herbal warmth"
+            ]
+          },
+          {
+            "name": "Melon Pomegranate",
+            "teaType": "Herbal Infusion",
+            "description": "Hibiscus, skilfully combined with hints of melon and pomegranate, creates a harmonious blend that counterbalances a tangy undertone, resulting in a delicious fusion tea.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Hibiscus",
+              "Pomegranate",
+              "Beetroot",
+              "Apple",
+              "Red Rose Petals",
+              "Cranberry",
+              "Raspberry",
+              "Blackberry Leaf",
+              "Pomegranate Flavour",
+              "Melon Flavour"
+            ],
+            "liquor": [
+              "Brilliant ruby-red infusion with lively clarity"
+            ],
+            "aroma": [
+              "Fresh fruity bouquet with sweet melon notes balanced by vibrant pomegranate and berry nuances"
+            ],
+            "flavourProfile": [
+              "Tangy hibiscus forms the lively base",
+              "Harmoniously balanced with juicy pomegranate, soft melon sweetness, and subtle berry undertones"
+            ],
+            "finish": [
+              "Bright, fruity, and refreshing with a pleasantly tangy lingering finish"
+            ]
+          },
+          {
+            "name": "Elderflower Ginger",
+            "teaType": "Herbal Infusion",
+            "description": "A delightful blend of Valerian and Elderflower to add warmth to a chilly day.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Elderflower",
+              "Valerian",
+              "Lemon Myrtle",
+              "Lemongrass",
+              "Ginger",
+              "Ginger Flavour",
+              "Lemon Flavour"
+            ],
+            "liquor": [
+              "Clear light golden infusion with bright clarity"
+            ],
+            "aroma": [
+              "Soft floral notes of elderflower uplifted by fresh citrus accents and warm ginger spice"
+            ],
+            "flavourProfile": [
+              "Elegant elderflower florals balanced with refreshing lemony herbal notes and the gentle warmth of ginger"
+            ],
+            "finish": [
+              "Soft, warming, and aromatic with lingering floral and citrus freshness"
+            ]
+          },
+          {
+            "name": "Jasmin Verbena",
+            "teaType": "Herbal Infusion",
+            "description": "A rare find, a delightful range of herbs bursting with flavour, accentuated by the delectable essence of Jasmine.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Jasmine Buds",
+              "Lemon Verbena",
+              "Basil",
+              "Spearmint",
+              "Rosemary",
+              "Thyme",
+              "Nettle",
+              "Sage",
+              "Marjoram",
+              "Jasmine Flavour"
+            ],
+            "liquor": [
+              "Clear pale golden infusion with bright clarity"
+            ],
+            "aroma": [
+              "Delicate jasmine florals uplifted by fresh citrusy verbena and layered herbal nuances"
+            ],
+            "flavourProfile": [
+              "Elegant jasmine essence harmoniously balanced with bright lemon verbena and a complex bouquet of refreshing herbs"
+            ],
+            "finish": [
+              "Clean, aromatic, and uplifting with lingering floral and herbal freshness"
+            ]
+          }
+        ]
+      },
+      {
+        "range": "Elixir Range",
+        "note": "Curated from the Tea Makers Private Tea Assortment — see individual tea details in that product."
+      }
+    ],
+    "features": [
+      "24 pyramid tea bags",
+      "Individual foil envelopes",
+      "Elegant display presenter",
+      "4 curated ranges: Holiday, Wellness, Infusion & Elixir",
+      "84 carefully selected botanicals",
+      "Perfect for holiday gift-giving"
+    ],
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 1.png",
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 2.png",
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 3.png",
+      "assets/images/products/Teas/Gift Teas/Holiday Fantasy – Tea Assortment 4.png"
+    ]
+  },
   {
     "id": "30-day-wellness-pack",
     "slug": "30-day-wellness-pack",
@@ -2972,44 +3378,223 @@
   ]
 },
 {
-  "id": "love-of-my-life-6tb",
-  "slug": "love-of-my-life-6tb",
-  "mainCategory": "tea-collection",
-  "subCategory": "gift-collection",
-
-  "name": "Love of my Life",
-  "shortDescription": "A luxury pyramid tea gift collection of Black, Green and White tea blends for moments of romance and celebration.",
-  "tags": ["Gift", "Romantic", "Luxury"],
-  "packInfo": "6 Luxury Pyramid Tea Bags",
-  "thumbnailImage": "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
-
-  "format": "Pyramid Tea Bags",
-  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
-
-  "price": 12.99,
-  "currency": "USD",
-  "stock": 28,
-  "rating": 4.8,
-  "reviewCount": 36,
-
-  "seoTitle": "Love of My Life - Luxury Pyramid Tea Gift Collection",
-  "seoDescription": "A timeless expression of affection — curated Black, Green, and White tea blends in luxury pyramid tea bags, perfect for special occasions.",
-
-  "longDescription": "A timeless expression of affection, Love of My Life is a curated selection of Black, Green, and White tea blends, crafted for moments of romance, union, and celebration. Presented in luxury pyramid tea bags, each blend allows whole leaves to gently unfurl, delivering elegance, aroma, and depth in every cup. A refined tea collection celebrating purity, balance, and artisanal craftsmanship.",
-
-  "features": [
-    "6 luxury pyramid tea bags",
-    "Black, Green & White tea blends",
-    "Whole-leaf pyramid tea bags",
-    "Perfect for romantic occasions",
-    "Thoughtful gift expression"
-  ],
-
-  "galleryImages": [
-    "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
-    "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 2.png"
-  ]
-},
+    "id": "love-of-my-life-6tb",
+    "slug": "love-of-my-life-6tb",
+    "mainCategory": "tea-collection",
+    "subCategory": "gift-collection",
+    "name": "Love of my Life",
+    "shortDescription": "A luxury pyramid tea gift collection of Black, Green and White tea blends for moments of romance and celebration.",
+    "tags": [
+      "Gift",
+      "Romantic",
+      "Luxury"
+    ],
+    "packInfo": "6 Luxury Pyramid Tea Bags",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
+    "format": "Pyramid Tea Bags",
+    "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+    "price": 12.99,
+    "currency": "USD",
+    "stock": 28,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "seoTitle": "Love of My Life - Luxury Pyramid Tea Gift Collection",
+    "seoDescription": "A timeless expression of affection — curated Black, Green, and White tea blends in luxury pyramid tea bags, perfect for special occasions.",
+    "longDescription": "A timeless expression of affection, Love of My Life is a curated selection of Black, Green, and White tea blends, crafted for moments of romance, union, and celebration. Presented in luxury pyramid tea bags, each blend allows whole leaves to gently unfurl, delivering elegance, aroma, and depth in every cup. A refined tea collection celebrating purity, balance, and artisanal craftsmanship. Whole-leaf teas presented in pyramid tea bags for an elevated everyday ritual.",
+    "teas": [
+      {
+        "name": "Chocolate Delight",
+        "teaType": "Black Tea",
+        "description": "A contemporary fusion of chocolate and peppermint flavours is meticulously combined to craft the ultimate sensation of coziness.",
+        "brewingInstructions": "95-100C & 4-5min",
+        "ingredients": [
+          "Black Tea",
+          "Peppermint Flavouring",
+          "Chocolate Flavouring"
+        ],
+        "grade": "BOPF — High Grown",
+        "liquor": [
+          "Bright amber with rich copper highlights and excellent clarity"
+        ],
+        "aroma": [
+          "Decadent chocolate notes intertwined with cool peppermint freshness",
+          "Resting on a lively high-grown tea base"
+        ],
+        "flavourProfile": [
+          "Smooth and full-bodied with a rich cocoa-like sweetness",
+          "Complemented by a refreshing mint lift",
+          "The brisk character of high-grown tea provides balance and depth"
+        ],
+        "finish": [
+          "Warm, sweet, and lingering with soft chocolate richness and refreshing mint undertones"
+        ]
+      },
+      {
+        "name": "Cherry Blossom",
+        "teaType": "Black Tea",
+        "description": "A beloved choice for tea enthusiasts during certain seasons, this delightful blend incorporates the flavours of cherry, rose, and a hint of cinnamon to create a truly captivating sensory experience.",
+        "brewingInstructions": "95-100C & 4-5min",
+        "ingredients": [
+          "Black Tea",
+          "Cherry Flavouring",
+          "Rose Flavouring",
+          "Cinnamon Flavouring"
+        ],
+        "grade": "BOPF — High Grown",
+        "liquor": [
+          "Bright amber with warm copper highlights and excellent clarity"
+        ],
+        "aroma": [
+          "Sweet cherry notes intertwined with delicate rose fragrance",
+          "A soft whisper of warming cinnamon"
+        ],
+        "flavourProfile": [
+          "Smooth and balanced with fruity cherry sweetness at the forefront",
+          "Floral rose adds elegance",
+          "Subtle cinnamon spice provides depth and warmth"
+        ],
+        "finish": [
+          "Soft, floral, and lightly spiced with lingering fruity sweetness"
+        ]
+      },
+      {
+        "name": "Apple Sensation",
+        "teaType": "Green Tea",
+        "description": "The delightful pairing of apple and cinnamon creates a flavour combination that is sure to tantalize your palate.",
+        "brewingInstructions": "70-80C & 1-2min",
+        "ingredients": [
+          "Sencha Green Tea",
+          "Apple Flavouring",
+          "Cinnamon Flavouring"
+        ],
+        "grade": "GT Fgs — High & Medium Grown",
+        "liquor": [
+          "Light golden-green with bright clarity and a delicate sheen"
+        ],
+        "aroma": [
+          "Fresh green tea notes lifted by crisp apple sweetness",
+          "A gentle hint of warm cinnamon spice"
+        ],
+        "flavourProfile": [
+          "Smooth and refreshing with mild vegetal undertones from the Sencha base",
+          "Juicy apple notes bring natural sweetness",
+          "Cinnamon adds a soft, warming depth"
+        ],
+        "finish": [
+          "Bright, lightly sweet, and delicately spiced with a refreshing green tea lift"
+        ]
+      },
+      {
+        "name": "Soursop Magic",
+        "teaType": "Green Tea",
+        "description": "The addition of enchanting orange flavour to soursop results in a truly delightful and delicious cup.",
+        "brewingInstructions": "70-80C & 1-2min",
+        "ingredients": [
+          "Sencha Green Tea",
+          "Orange Flavouring",
+          "Soursop Flavouring"
+        ],
+        "grade": "GT Fgs — High & Medium Grown",
+        "liquor": [
+          "Pale greenish-gold with bright clarity and a delicate sheen"
+        ],
+        "aroma": [
+          "Uplifting citrus notes of orange layered over soft tropical sweetness from soursop"
+        ],
+        "flavourProfile": [
+          "Smooth and refreshing with gentle vegetal undertones from Sencha",
+          "Bright citrus orange lifts the cup",
+          "Creamy soursop sweetness adds a subtle exotic richness"
+        ],
+        "finish": [
+          "Clean, fruity, and lightly sweet with lingering citrus freshness"
+        ]
+      },
+      {
+        "name": "Spicy Orange",
+        "teaType": "White Tea",
+        "description": "A rich blend of tropical spices combined with white tea and the essence of orange flavour makes for a heart-warming holiday infusion.",
+        "brewingInstructions": "100C & 5min",
+        "ingredients": [
+          "White Tea",
+          "Orange Flavouring",
+          "Orange Peel",
+          "Cinnamon Leaf",
+          "Cinnamon",
+          "Ginger",
+          "Clove",
+          "Black Pepper",
+          "Curry Leaves",
+          "Fennel Seed",
+          "Anise Seed"
+        ],
+        "grade": "White Tea — High Grown",
+        "liquor": [
+          "Light golden-amber with a warm, radiant clarity"
+        ],
+        "aroma": [
+          "Bright citrus orange notes rise first",
+          "Followed by warm cinnamon, clove, and gentle ginger spice",
+          "Layered over the delicate sweetness of white tea"
+        ],
+        "flavourProfile": [
+          "Soft and smooth white tea provides a gentle base",
+          "Lively orange zest adds freshness",
+          "Warming spices such as cinnamon, ginger, clove, and fennel create a complex yet balanced flavour with subtle herbal undertones"
+        ],
+        "finish": [
+          "Lingering, fragrant, and gently spiced with a refreshing citrus lift"
+        ]
+      },
+      {
+        "name": "Almond Delicacy",
+        "teaType": "White Tea",
+        "description": "The harmonious fusion of tropical spices, white tea, and almond flavour in a full-flavoured blend promises an enticing and delightful brew.",
+        "brewingInstructions": "100C & 5min",
+        "ingredients": [
+          "White Tea",
+          "Almond Flavouring",
+          "Orange Peel",
+          "Cinnamon Leaf",
+          "Cinnamon",
+          "Ginger",
+          "Clove",
+          "Black Pepper",
+          "Curry Leaves",
+          "Fennel Seed",
+          "Anise Seed"
+        ],
+        "grade": "White Tea — High Grown",
+        "liquor": [
+          "Light golden-amber with a soft luminous clarity"
+        ],
+        "aroma": [
+          "Warm almond sweetness intertwined with bright citrus orange notes",
+          "Gentle spice from cinnamon, clove, and ginger"
+        ],
+        "flavourProfile": [
+          "Smooth and delicate white tea forms the base",
+          "Complemented by creamy almond richness",
+          "Orange peel adds subtle citrus brightness",
+          "Tropical spices provide a warm, layered complexity"
+        ],
+        "finish": [
+          "Long, fragrant, and softly spiced with lingering almond sweetness"
+        ]
+      }
+    ],
+    "features": [
+      "6 luxury pyramid tea bags",
+      "Black, Green & White tea blends",
+      "Whole-leaf pyramid tea bags",
+      "Perfect for romantic occasions",
+      "Thoughtful gift expression"
+    ],
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 1.png",
+      "assets/images/products/Teas/Gift Teas/LOVE OF MY LIFE 2.png"
+    ]
+  },
 {
   "id": "regional-tea-sensation",
   "slug": "regional-tea-sensation",

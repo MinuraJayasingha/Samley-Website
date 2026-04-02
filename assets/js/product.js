@@ -95,7 +95,7 @@ const FIELD_LABELS = {
     uses:                "Uses",
 };
 
-/* Fields excluded from metadata display */
+/* Fields excluded from the main metadata list */
 const EXCLUDED_FIELDS = new Set([
     "id", "slug", "mainCategory", "subCategory",
     "name", "shortDescription", "tags", "packInfo",
@@ -103,12 +103,11 @@ const EXCLUDED_FIELDS = new Set([
     "longDescription", "features", "galleryImages",
     "price", "currency", "stock", "rating", "reviewCount",
     "regions", "featured",
+    /* These have dedicated section renderers */
+    "teas", "ranges",
 ]);
 
-/*
-  Fields that are always shown collapsed by default.
-  Short arrays (≤2 items) are always shown expanded regardless.
-*/
+/* Array fields that collapse when they have more than 2 items */
 const COLLAPSIBLE_FIELDS = new Set([
     "ingredients", "cupProfile", "tastingNotes", "applications",
     "uses", "aroma", "flavourProfile", "flavorProfile", "finish", "liquor",
@@ -133,10 +132,23 @@ function injectProductData(product) {
     setTextById("product-long-description", product.longDescription || "");
     setTextById("product-pack",             product.packInfo || "");
 
-    /* Metadata fields */
+    /* Standard metadata fields */
     renderDynamicMetadata(product);
 
-    /* Features section — inserted between .product-detail and .product-discription */
+    /* ── Gift / assortment products ─────────────────────────
+       "teas"   = flat array of tea objects (Love of My Life,
+                  Tea Makers Assortment)
+       "ranges" = array of range groups, each may contain teas
+                  (Holiday Fantasy)
+    ─────────────────────────────────────────────────────── */
+    if (product.teas && product.teas.length > 0) {
+        injectTeasSection(product.teas, "What's Inside");
+    }
+    if (product.ranges && product.ranges.length > 0) {
+        injectRangesSection(product.ranges);
+    }
+
+    /* Features section */
     if (product.features && product.features.length > 0) {
         injectFeaturesSection(product.features);
     }
@@ -175,10 +187,7 @@ function setTextById(id, text) {
 
 
 /* --------------------------------------------------
-   Render metadata fields dynamically
-   Short string fields  → inline  "Label: value"
-   Array fields         → collapsible accordion
-   Long string fields   → inline (no collapse needed)
+   Render standard metadata fields
 -------------------------------------------------- */
 
 function renderDynamicMetadata(product) {
@@ -198,23 +207,21 @@ function renderDynamicMetadata(product) {
         const li    = document.createElement("li");
 
         if (Array.isArray(value)) {
-            if (typeof value[0] === "object") continue; // skip object arrays
+            if (typeof value[0] === "object") continue;
 
-            const isLong       = value.length > 2;
+            const isLong         = value.length > 2;
             const shouldCollapse = isLong && COLLAPSIBLE_FIELDS.has(key);
-            const uid          = `meta-${key}`;
-
-            const listItems = value.map(item => `<li>${item}</li>`).join("");
+            const uid            = `meta-${key}`;
+            const listItems      = value.map(item => `<li>${item}</li>`).join("");
 
             if (shouldCollapse) {
-                /* Collapsible accordion */
                 li.classList.add("product-meta-accordion");
                 li.innerHTML = `
                     <button class="meta-accordion-trigger" aria-expanded="false" aria-controls="${uid}">
                         <span class="product-meta-b">${label}</span>
                         <span class="meta-accordion-count">${value.length} items</span>
                         <span class="meta-accordion-arrow" aria-hidden="true">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                                 <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </span>
@@ -224,7 +231,6 @@ function renderDynamicMetadata(product) {
                     </div>
                 `;
 
-                /* Toggle behaviour */
                 const trigger = li.querySelector(".meta-accordion-trigger");
                 const body    = li.querySelector(".meta-accordion-body");
                 trigger.addEventListener("click", () => {
@@ -235,7 +241,6 @@ function renderDynamicMetadata(product) {
                 });
 
             } else {
-                /* Short array — always visible */
                 li.classList.add("product-meta-has-list");
                 li.innerHTML = `
                     <span class="product-meta-b">${label}</span>
@@ -244,7 +249,6 @@ function renderDynamicMetadata(product) {
             }
 
         } else {
-            /* Plain string / number */
             li.innerHTML = `<span class="product-meta-b">${label}:</span> <span>${value}</span>`;
         }
 
@@ -259,7 +263,7 @@ function renderDynamicMetadata(product) {
 
 
 /* --------------------------------------------------
-   Regional tea block renderer
+   Regional tea block
 -------------------------------------------------- */
 
 function renderRegionsBlock(regions, container) {
@@ -286,15 +290,201 @@ function renderRegionsBlock(regions, container) {
 
 
 /* --------------------------------------------------
-   Inject Features Section
+   Build a single tea card HTML string
+   Used by both injectTeasSection and injectRangesSection
+-------------------------------------------------- */
 
-   TARGET POSITION:
-   Between .product-detail and .product-discription
-   (both are inside .products-container)
+function buildTeaCard(tea) {
+    const uid = `tea-${tea.name.replace(/\s+/g, "-").toLowerCase()}-${Math.random().toString(36).slice(2, 6)}`;
 
-   We do NOT use the 'reveal' class because the
-   IntersectionObserver in smooth-scroll.js only observes
-   elements present at page-load time.
+    /* Helper to render an array field as collapsible if long */
+    function arrayField(label, arr) {
+        if (!arr || arr.length === 0) return "";
+        const items = arr.map(i => `<li>${i}</li>`).join("");
+        if (arr.length <= 2) {
+            return `
+                <div class="tea-card-field">
+                    <span class="tea-card-label">${label}</span>
+                    <ul class="tea-card-list">${items}</ul>
+                </div>`;
+        }
+        const fieldUid = `${uid}-${label.toLowerCase().replace(/\s+/g, "")}`;
+        return `
+            <div class="tea-card-field tea-card-field--accordion">
+                <button class="tea-card-accordion-trigger" aria-expanded="false" aria-controls="${fieldUid}">
+                    <span class="tea-card-label">${label}</span>
+                    <span class="tea-card-count">${arr.length} items</span>
+                    <span class="tea-card-arrow">
+                        <svg width="10" height="10" viewBox="0 0 12 12" fill="none">
+                            <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </button>
+                <div id="${fieldUid}" class="tea-card-accordion-body" hidden>
+                    <ul class="tea-card-list">${items}</ul>
+                </div>
+            </div>`;
+    }
+
+    function stringField(label, val) {
+        if (!val) return "";
+        return `<div class="tea-card-field"><span class="tea-card-label">${label}:</span> <span>${val}</span></div>`;
+    }
+
+    const brew        = tea.brewingInstructions || tea.brewing || "";
+    const grade       = tea.grade || "";
+    const teaTypeBadge = tea.teaType
+        ? `<span class="tea-type-badge">${tea.teaType}</span>`
+        : "";
+
+    return `
+        <div class="tea-card" id="${uid}">
+            <div class="tea-card-header">
+                <div class="tea-card-title-row">
+                    <h4 class="tea-card-name">${tea.name}</h4>
+                    ${teaTypeBadge}
+                </div>
+                ${tea.description ? `<p class="tea-card-description">${tea.description}</p>` : ""}
+            </div>
+            <div class="tea-card-body">
+                ${stringField("Brewing", brew)}
+                ${stringField("Grade", grade)}
+                ${arrayField("Ingredients", tea.ingredients)}
+                ${arrayField("Liquor", tea.liquor)}
+                ${arrayField("Aroma", tea.aroma)}
+                ${arrayField("Flavour Profile", tea.flavourProfile)}
+                ${arrayField("Finish", tea.finish)}
+            </div>
+        </div>
+    `;
+}
+
+
+/* --------------------------------------------------
+   Inject "What's Inside" section for products
+   that have a flat `teas` array
+   (Love of My Life, Tea Makers Assortment, etc.)
+-------------------------------------------------- */
+
+function injectTeasSection(teas, headingLabel) {
+    if (document.getElementById("product-teas-section")) return;
+
+    const section     = document.createElement("section");
+    section.id        = "product-teas-section";
+    section.className = "product-teas-section";
+
+    const cardsHTML = teas.map(buildTeaCard).join("");
+
+    section.innerHTML = `
+        <div class="product-teas-inner">
+            <div class="product-features-divider">
+                <span class="features-divider-line"></span>
+                <span class="features-divider-label">${headingLabel || "What's Inside"}</span>
+                <span class="features-divider-line"></span>
+            </div>
+            <div class="tea-cards-grid">
+                ${cardsHTML}
+            </div>
+        </div>
+    `;
+
+    insertBeforeDescription(section);
+    attachTeaCardAccordions(section);
+}
+
+
+/* --------------------------------------------------
+   Inject Ranges section for products that have a
+   `ranges` array (Holiday Fantasy)
+   Each range may have a `teas` sub-array or just a `note`
+-------------------------------------------------- */
+
+function injectRangesSection(ranges) {
+    if (document.getElementById("product-ranges-section")) return;
+
+    const section     = document.createElement("section");
+    section.id        = "product-ranges-section";
+    section.className = "product-teas-section";
+
+    let innerHTML = `
+        <div class="product-teas-inner">
+            <div class="product-features-divider">
+                <span class="features-divider-line"></span>
+                <span class="features-divider-label">What's Inside</span>
+                <span class="features-divider-line"></span>
+            </div>
+    `;
+
+    ranges.forEach(range => {
+        innerHTML += `<div class="range-group">`;
+        innerHTML += `<h3 class="range-group-title">${range.range}</h3>`;
+
+        if (range.note) {
+            innerHTML += `<p class="range-group-note">${range.note}</p>`;
+        }
+
+        if (range.teas && range.teas.length > 0) {
+            innerHTML += `<div class="tea-cards-grid">`;
+            range.teas.forEach(tea => {
+                innerHTML += buildTeaCard(tea);
+            });
+            innerHTML += `</div>`;
+        }
+
+        innerHTML += `</div>`;
+    });
+
+    innerHTML += `</div>`;
+    section.innerHTML = innerHTML;
+
+    insertBeforeDescription(section);
+    attachTeaCardAccordions(section);
+}
+
+
+/* --------------------------------------------------
+   Shared insertion helper
+   Places the section before .product-discription,
+   or after .product-detail as a fallback
+-------------------------------------------------- */
+
+function insertBeforeDescription(section) {
+    const desc   = document.querySelector(".product-discription");
+    const detail = document.querySelector(".product-detail");
+
+    if (desc) {
+        desc.insertAdjacentElement("beforebegin", section);
+    } else if (detail) {
+        detail.insertAdjacentElement("afterend", section);
+    }
+}
+
+
+/* --------------------------------------------------
+   Attach accordion toggle listeners to tea card
+   inner accordions (ingredients, aroma, etc.)
+-------------------------------------------------- */
+
+function attachTeaCardAccordions(container) {
+    container.querySelectorAll(".tea-card-accordion-trigger").forEach(trigger => {
+        const bodyId = trigger.getAttribute("aria-controls");
+        const body   = document.getElementById(bodyId);
+        if (!body) return;
+
+        trigger.addEventListener("click", () => {
+            const isOpen = trigger.getAttribute("aria-expanded") === "true";
+            trigger.setAttribute("aria-expanded", String(!isOpen));
+            body.hidden = isOpen;
+            trigger.closest(".tea-card-field--accordion")
+                   .classList.toggle("is-open", !isOpen);
+        });
+    });
+}
+
+
+/* --------------------------------------------------
+   Features Section
+   Inserted between .product-detail and .product-discription
 -------------------------------------------------- */
 
 function injectFeaturesSection(features) {
@@ -307,7 +497,7 @@ function injectFeaturesSection(features) {
     const itemsHTML = features.map(f => `
         <li class="feature-item">
             <span class="feature-icon">
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                     <circle cx="8" cy="8" r="7.5" stroke="currentColor"/>
                     <path d="M4.5 8L7 10.5L11.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -329,18 +519,7 @@ function injectFeaturesSection(features) {
         </div>
     `;
 
-    /*
-     * Insert AFTER .product-detail and BEFORE .product-discription.
-     * Both live inside .products-container.
-     */
-    const productDescription = document.querySelector(".product-discription");
-    if (productDescription) {
-        productDescription.insertAdjacentElement("beforebegin", section);
-    } else {
-        /* Fallback: after .product-detail */
-        const productDetail = document.querySelector(".product-detail");
-        if (productDetail) productDetail.insertAdjacentElement("afterend", section);
-    }
+    insertBeforeDescription(section);
 }
 
 

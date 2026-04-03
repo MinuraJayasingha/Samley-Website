@@ -95,16 +95,16 @@ const FIELD_LABELS = {
     uses:                "Uses",
 };
 
-/* Fields excluded from the main metadata list */
+/* Fields excluded from the standard metadata list */
 const EXCLUDED_FIELDS = new Set([
     "id", "slug", "mainCategory", "subCategory",
     "name", "shortDescription", "tags", "packInfo",
     "thumbnailImage", "seoTitle", "seoDescription",
     "longDescription", "features", "galleryImages",
     "price", "currency", "stock", "rating", "reviewCount",
-    "regions", "featured",
-    /* These have dedicated section renderers */
-    "teas", "ranges",
+    "featured",
+    /* These each have dedicated section renderers */
+    "teas", "ranges", "regions",
 ]);
 
 /* Array fields that collapse when they have more than 2 items */
@@ -135,22 +135,31 @@ function injectProductData(product) {
     /* Standard metadata fields */
     renderDynamicMetadata(product);
 
-    /* ── Gift / assortment products ─────────────────────────
-       "teas"   = flat array of tea objects (Love of My Life,
-                  Tea Makers Assortment)
-       "ranges" = array of range groups, each may contain teas
-                  (Holiday Fantasy)
-    ─────────────────────────────────────────────────────── */
+    /*
+     * ── Section renderers (order matters — they all use insertBeforeDescription)
+     *    so they appear in reverse order of injection:
+     *    features injects first → teas/regions injects after → ranges injects last
+     *    Final page order: metadata → regions/teas/ranges → features → image strip
+     */
+
+    /* Features */
+    if (product.features && product.features.length > 0) {
+        injectFeaturesSection(product.features);
+    }
+
+    /* Flat teas array (Love of My Life, Tea Makers Assortment) */
     if (product.teas && product.teas.length > 0) {
         injectTeasSection(product.teas, "What's Inside");
     }
-    if (product.ranges && product.ranges.length > 0) {
-        injectRangesSection(product.ranges);
+
+    /* Regions array (Regional Tea Sensation) — rendered as tea cards */
+    if (product.regions && product.regions.length > 0) {
+        injectRegionsAsCards(product.regions);
     }
 
-    /* Features section */
-    if (product.features && product.features.length > 0) {
-        injectFeaturesSection(product.features);
+    /* Ranges array (Holiday Fantasy, Advent Calendar) */
+    if (product.ranges && product.ranges.length > 0) {
+        injectRangesSection(product.ranges);
     }
 
     /* Gallery */
@@ -254,57 +263,78 @@ function renderDynamicMetadata(product) {
 
         container.appendChild(li);
     }
-
-    /* Regional tea block */
-    if (product.regions && Array.isArray(product.regions) && product.regions.length > 0) {
-        renderRegionsBlock(product.regions, container);
-    }
 }
 
 
 /* --------------------------------------------------
-   Regional tea block
+   Convert a region object → tea-card-compatible object
+   so regions render identically to tea cards
 -------------------------------------------------- */
 
-function renderRegionsBlock(regions, container) {
-    const header = document.createElement("li");
-    header.classList.add("product-meta-has-list");
-    header.innerHTML = `<span class="product-meta-b">Tea Regions</span>`;
-    container.appendChild(header);
+function regionToTeaCard(region) {
+    return {
+        name:        region.name,
+        teaType:     region.region || "Ceylon Black Tea",
+        description: region.description || "",
+        liquor:      region.liquor   ? (Array.isArray(region.liquor)   ? region.liquor   : [region.liquor])   : [],
+        aroma:       region.aroma    ? (Array.isArray(region.aroma)    ? region.aroma    : [region.aroma])    : [],
+        flavourProfile: region.flavourProfile
+            ? (Array.isArray(region.flavourProfile) ? region.flavourProfile : [region.flavourProfile])
+            : [],
+        finish:      region.finish   ? (Array.isArray(region.finish)   ? region.finish   : [region.finish])   : [],
+    };
+}
 
-    regions.forEach(region => {
-        const li = document.createElement("li");
-        li.classList.add("product-meta-region");
 
-        let html = `<strong>${region.name}</strong>`;
-        if (region.description)    html += `<p>${region.description}</p>`;
-        if (region.liquor)         html += `<span><em>Liquor:</em> ${region.liquor}</span>`;
-        if (region.aroma)          html += `<span><em>Aroma:</em> ${region.aroma}</span>`;
-        if (region.flavourProfile) html += `<span><em>Flavour:</em> ${region.flavourProfile}</span>`;
-        if (region.finish)         html += `<span><em>Finish:</em> ${region.finish}</span>`;
+/* --------------------------------------------------
+   Inject regions as tea cards
+   (Regional Tea Sensation product)
+-------------------------------------------------- */
 
-        li.innerHTML = html;
-        container.appendChild(li);
-    });
+function injectRegionsAsCards(regions) {
+    if (document.getElementById("product-regions-section")) return;
+
+    const section     = document.createElement("section");
+    section.id        = "product-regions-section";
+    section.className = "product-teas-section";
+
+    const cardsHTML = regions
+        .map(r => buildTeaCard(regionToTeaCard(r)))
+        .join("");
+
+    section.innerHTML = `
+        <div class="product-teas-inner">
+            <div class="product-features-divider">
+                <span class="features-divider-line"></span>
+                <span class="features-divider-label">Tea Regions</span>
+                <span class="features-divider-line"></span>
+            </div>
+            <div class="tea-cards-grid">
+                ${cardsHTML}
+            </div>
+        </div>
+    `;
+
+    insertBeforeDescription(section);
+    attachTeaCardAccordions(section);
 }
 
 
 /* --------------------------------------------------
    Build a single tea card HTML string
-   Used by both injectTeasSection and injectRangesSection
+   Used by teas, regions, and ranges sections
 -------------------------------------------------- */
 
 function buildTeaCard(tea) {
     const uid = `tea-${tea.name.replace(/\s+/g, "-").toLowerCase()}-${Math.random().toString(36).slice(2, 6)}`;
 
-    /* Helper to render an array field as collapsible if long */
     function arrayField(label, arr) {
         if (!arr || arr.length === 0) return "";
         const items = arr.map(i => `<li>${i}</li>`).join("");
         if (arr.length <= 2) {
             return `
                 <div class="tea-card-field">
-                    <span class="tea-card-label">${label}</span>
+                    <span class="tea-card-label">${label}:</span>
                     <ul class="tea-card-list">${items}</ul>
                 </div>`;
         }
@@ -331,8 +361,8 @@ function buildTeaCard(tea) {
         return `<div class="tea-card-field"><span class="tea-card-label">${label}:</span> <span>${val}</span></div>`;
     }
 
-    const brew        = tea.brewingInstructions || tea.brewing || "";
-    const grade       = tea.grade || "";
+    const brew         = tea.brewingInstructions || tea.brewing || "";
+    const grade        = tea.grade || "";
     const teaTypeBadge = tea.teaType
         ? `<span class="tea-type-badge">${tea.teaType}</span>`
         : "";
@@ -361,9 +391,8 @@ function buildTeaCard(tea) {
 
 
 /* --------------------------------------------------
-   Inject "What's Inside" section for products
-   that have a flat `teas` array
-   (Love of My Life, Tea Makers Assortment, etc.)
+   Inject flat teas section
+   (Love of My Life, Tea Makers Assortment)
 -------------------------------------------------- */
 
 function injectTeasSection(teas, headingLabel) {
@@ -394,9 +423,9 @@ function injectTeasSection(teas, headingLabel) {
 
 
 /* --------------------------------------------------
-   Inject Ranges section for products that have a
-   `ranges` array (Holiday Fantasy)
-   Each range may have a `teas` sub-array or just a `note`
+   Inject ranges section
+   (Holiday Fantasy, Advent Calendar)
+   Each range has: range name, optional teas array
 -------------------------------------------------- */
 
 function injectRangesSection(ranges) {
@@ -419,15 +448,16 @@ function injectRangesSection(ranges) {
         innerHTML += `<div class="range-group">`;
         innerHTML += `<h3 class="range-group-title">${range.range}</h3>`;
 
-        if (range.note) {
-            innerHTML += `<p class="range-group-note">${range.note}</p>`;
-        }
-
         if (range.teas && range.teas.length > 0) {
             innerHTML += `<div class="tea-cards-grid">`;
-            range.teas.forEach(tea => {
-                innerHTML += buildTeaCard(tea);
-            });
+            range.teas.forEach(tea => { innerHTML += buildTeaCard(tea); });
+            innerHTML += `</div>`;
+        }
+
+        /* Regions within a range (e.g. Advent Calendar Regional range) */
+        if (range.regions && range.regions.length > 0) {
+            innerHTML += `<div class="tea-cards-grid">`;
+            range.regions.forEach(r => { innerHTML += buildTeaCard(regionToTeaCard(r)); });
             innerHTML += `</div>`;
         }
 
@@ -444,25 +474,18 @@ function injectRangesSection(ranges) {
 
 /* --------------------------------------------------
    Shared insertion helper
-   Places the section before .product-discription,
-   or after .product-detail as a fallback
 -------------------------------------------------- */
 
 function insertBeforeDescription(section) {
     const desc   = document.querySelector(".product-discription");
     const detail = document.querySelector(".product-detail");
-
-    if (desc) {
-        desc.insertAdjacentElement("beforebegin", section);
-    } else if (detail) {
-        detail.insertAdjacentElement("afterend", section);
-    }
+    if (desc)   desc.insertAdjacentElement("beforebegin", section);
+    else if (detail) detail.insertAdjacentElement("afterend", section);
 }
 
 
 /* --------------------------------------------------
-   Attach accordion toggle listeners to tea card
-   inner accordions (ingredients, aroma, etc.)
+   Attach accordion toggle listeners inside tea cards
 -------------------------------------------------- */
 
 function attachTeaCardAccordions(container) {
@@ -484,7 +507,6 @@ function attachTeaCardAccordions(container) {
 
 /* --------------------------------------------------
    Features Section
-   Inserted between .product-detail and .product-discription
 -------------------------------------------------- */
 
 function injectFeaturesSection(features) {
@@ -552,7 +574,6 @@ function updateBreadcrumbForProduct(product) {
                     if (sub.slug === product.subCategory) {
                         const mainEl = document.getElementById("breadcrumb-main-category");
                         if (mainEl) mainEl.innerHTML = `<a href="/products/${main.slug}/">${main.title}</a>`;
-
                         const subEl = document.getElementById("breadcrumb-sub-category");
                         if (subEl) subEl.innerHTML = `<a href="/products/${sub.slug}/">${sub.title}</a>`;
                     }

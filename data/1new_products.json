@@ -3058,7 +3058,7 @@
       "assets/images/products/Teas/Gift Teas/Tea Makers Private Assortment 4.png"
     ]
   },
-{
+  {
     "id": "holiday-fantasy-24tb",
     "slug": "holiday-fantasy-24tb",
     "mainCategory": "tea-collection",
@@ -3085,11 +3085,342 @@
     "ranges": [
       {
         "range": "Holiday Range",
-        "note": "Curated from the Love of My Life collection — see individual tea details in that product."
+        "teas": [
+          {
+            "name": "Chocolate Delight",
+            "teaType": "Black Tea",
+            "description": "A contemporary fusion of chocolate and peppermint flavours meticulously combined to craft the ultimate sensation of coziness.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Peppermint Flavouring",
+              "Chocolate Flavouring"
+            ],
+            "grade": "BOPF — High Grown",
+            "liquor": [
+              "Bright amber with rich copper highlights and excellent clarity"
+            ],
+            "aroma": [
+              "Decadent chocolate notes intertwined with cool peppermint freshness",
+              "Resting on a lively high-grown tea base"
+            ],
+            "flavourProfile": [
+              "Smooth and full-bodied with a rich cocoa-like sweetness",
+              "Complemented by a refreshing mint lift",
+              "The brisk character of high-grown tea provides balance and depth"
+            ],
+            "finish": [
+              "Warm, sweet, and lingering with soft chocolate richness and refreshing mint undertones"
+            ]
+          },
+          {
+            "name": "Cherry Blossom",
+            "teaType": "Black Tea",
+            "description": "A beloved choice for tea enthusiasts during certain seasons, this delightful blend incorporates the flavours of cherry, rose, and a hint of cinnamon.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Cherry Flavouring",
+              "Rose Flavouring",
+              "Cinnamon Flavouring"
+            ],
+            "grade": "BOPF — High Grown",
+            "liquor": [
+              "Bright amber with warm copper highlights and excellent clarity"
+            ],
+            "aroma": [
+              "Sweet cherry notes intertwined with delicate rose fragrance",
+              "A soft whisper of warming cinnamon"
+            ],
+            "flavourProfile": [
+              "Smooth and balanced with fruity cherry sweetness at the forefront",
+              "Floral rose adds elegance",
+              "Subtle cinnamon spice provides depth and warmth"
+            ],
+            "finish": [
+              "Soft, floral, and lightly spiced with lingering fruity sweetness"
+            ]
+          },
+          {
+            "name": "Apple Sensation",
+            "teaType": "Green Tea",
+            "description": "The delightful pairing of apple and cinnamon creates a flavour combination that is sure to tantalize your palate.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Sencha Green Tea",
+              "Apple Flavouring",
+              "Cinnamon Flavouring"
+            ],
+            "grade": "GT Fgs — High & Medium Grown",
+            "liquor": [
+              "Light golden-green with bright clarity and a delicate sheen"
+            ],
+            "aroma": [
+              "Fresh green tea notes lifted by crisp apple sweetness",
+              "A gentle hint of warm cinnamon spice"
+            ],
+            "flavourProfile": [
+              "Smooth and refreshing with mild vegetal undertones from the Sencha base",
+              "Juicy apple notes bring natural sweetness",
+              "Cinnamon adds a soft, warming depth"
+            ],
+            "finish": [
+              "Bright, lightly sweet, and delicately spiced with a refreshing green tea lift"
+            ]
+          },
+          {
+            "name": "Soursop Magic",
+            "teaType": "Green Tea",
+            "description": "The addition of enchanting orange flavour to soursop results in a truly delightful and delicious cup.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Sencha Green Tea",
+              "Orange Flavouring",
+              "Soursop Flavouring"
+            ],
+            "grade": "GT Fgs — High & Medium Grown",
+            "liquor": [
+              "Pale greenish-gold with bright clarity and a delicate sheen"
+            ],
+            "aroma": [
+              "Uplifting citrus notes of orange layered over soft tropical sweetness from soursop"
+            ],
+            "flavourProfile": [
+              "Smooth and refreshing with gentle vegetal undertones from Sencha",
+              "Bright citrus orange lifts the cup",
+              "Creamy soursop sweetness adds a subtle exotic richness"
+            ],
+            "finish": [
+              "Clean, fruity, and lightly sweet with lingering citrus freshness"
+            ]
+          },
+          {
+            "name": "Spicy Orange",
+            "teaType": "White Tea",
+            "description": "A rich blend of tropical spices combined with white tea and the essence of orange flavour makes for a heart-warming holiday infusion.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "White Tea",
+              "Orange Flavouring",
+              "Orange Peel",
+              "Cinnamon Leaf",
+              "Cinnamon",
+              "Ginger",
+              "Clove",
+              "Black Pepper",
+              "Curry Leaves",
+              "Fennel Seed",
+              "Anise Seed"
+            ],
+            "grade": "White Tea — High Grown",
+            "liquor": [
+              "Light golden-amber with a warm, radiant clarity"
+            ],
+            "aroma": [
+              "Bright citrus orange notes rise first",
+              "Followed by warm cinnamon, clove, and gentle ginger spice",
+              "Layered over the delicate sweetness of white tea"
+            ],
+            "flavourProfile": [
+              "Soft and smooth white tea provides a gentle base",
+              "Lively orange zest adds freshness",
+              "Warming spices create a complex yet balanced flavour with subtle herbal undertones"
+            ],
+            "finish": [
+              "Lingering, fragrant, and gently spiced with a refreshing citrus lift"
+            ]
+          },
+          {
+            "name": "Almond Delicacy",
+            "teaType": "White Tea",
+            "description": "The harmonious fusion of tropical spices, white tea, and almond flavour in a full-flavoured blend promises an enticing and delightful brew.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "White Tea",
+              "Almond Flavouring",
+              "Orange Peel",
+              "Cinnamon Leaf",
+              "Cinnamon",
+              "Ginger",
+              "Clove",
+              "Black Pepper",
+              "Curry Leaves",
+              "Fennel Seed",
+              "Anise Seed"
+            ],
+            "grade": "White Tea — High Grown",
+            "liquor": [
+              "Light golden-amber with a soft luminous clarity"
+            ],
+            "aroma": [
+              "Warm almond sweetness intertwined with bright citrus orange notes",
+              "Gentle spice from cinnamon, clove, and ginger"
+            ],
+            "flavourProfile": [
+              "Smooth and delicate white tea forms the base",
+              "Complemented by creamy almond richness",
+              "Orange peel adds subtle citrus brightness",
+              "Tropical spices provide a warm, layered complexity"
+            ],
+            "finish": [
+              "Long, fragrant, and softly spiced with lingering almond sweetness"
+            ]
+          }
+        ]
       },
       {
         "range": "Wellness Range",
-        "note": "Curated from the 30 Day Five Variant Wellness Tea Pack — see individual tea details in that product."
+        "teas": [
+          {
+            "name": "Relaxing",
+            "teaType": "Black Tea",
+            "description": "A calming blend designed to help you unwind and relax after a long day.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Valerian Root",
+              "Passionflower",
+              "Chamomile",
+              "Lavender",
+              "Lemongrass",
+              "Rose Petals",
+              "Chicory",
+              "Lemon Balm",
+              "Apple Flavouring",
+              "Vanilla Flavouring"
+            ],
+            "grade": "BOPF",
+            "cupProfile": [
+              "Soft floral aroma with creamy vanilla undertone",
+              "Gentle herbal sweetness",
+              "Light apple warmth",
+              "Smooth, soothing finish"
+            ]
+          },
+          {
+            "name": "Energy",
+            "teaType": "Black Tea",
+            "description": "An invigorating blend with natural energizing herbs for a gentle, sustained energy boost.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Ginger",
+              "Ginseng",
+              "Citrus Peel",
+              "Lemongrass",
+              "Black Tea"
+            ],
+            "grade": "BOPF",
+            "cupProfile": [
+              "Bright and warming",
+              "Uplifting citrus notes",
+              "Sustained natural energy",
+              "Clean, invigorating finish"
+            ]
+          },
+          {
+            "name": "Digest",
+            "teaType": "Green Tea",
+            "description": "A soothing blend with digestive herbs to support healthy digestion after meals.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Dandelion Root",
+              "Peppermint",
+              "Chamomile",
+              "Ginger Root",
+              "Fennel Seed",
+              "Rooibos",
+              "Rosemary",
+              "Black Pepper",
+              "Moringa",
+              "Apple Flavouring"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Fresh minty lift",
+              "Warm ginger spice",
+              "Light earthy depth",
+              "Clean, refreshing finish"
+            ]
+          },
+          {
+            "name": "Immune",
+            "teaType": "Green Tea",
+            "description": "A protective blend with immune-supporting herbs and antioxidants for daily wellness.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Turmeric",
+              "Ashwagandha",
+              "Cinnamon",
+              "Liquorice Root",
+              "Nettle Leaf",
+              "Anise Seed",
+              "Ginger",
+              "Bay Leaf",
+              "Elderberries",
+              "Garlic",
+              "Moringa",
+              "Lemon Verbena",
+              "Ginger Granules",
+              "Lemon Granules"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Warm golden infusion",
+              "Earthy spice backbone",
+              "Subtle sweetness from liquorice",
+              "Lingering citrus warmth"
+            ]
+          },
+          {
+            "name": "Slimming",
+            "teaType": "Green Tea",
+            "description": "A supportive blend with metabolism-boosting herbs for weight management goals.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Senna Leaves",
+              "Fennel",
+              "Cinnamon",
+              "Rosehip",
+              "Garcinia",
+              "Apple Sweet",
+              "Lemon Flavour"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Light fruity brightness",
+              "Gentle cinnamon warmth",
+              "Mild herbal sweetness",
+              "Clean, light finish"
+            ]
+          },
+          {
+            "name": "Detox",
+            "teaType": "Green Tea",
+            "description": "A cleansing blend with detoxifying herbs to support your body's natural cleansing processes.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Milk Thistle",
+              "Dandelion Root",
+              "Liquorice Root",
+              "Ginger",
+              "Hibiscus",
+              "Spearmint",
+              "Cinnamon Coarse",
+              "Lemon Peel",
+              "Lemongrass",
+              "Holy Basil",
+              "Fennel",
+              "Moringa",
+              "Lemon Flavour"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Bright ruby hue from hibiscus",
+              "Citrus freshness",
+              "Gentle spice warmth",
+              "Balanced sweet-herbal depth"
+            ]
+          }
+        ]
       },
       {
         "range": "Infusion Range",
@@ -3108,13 +3439,13 @@
               "Vanilla Flavour"
             ],
             "liquor": [
-              "Deep amber to reddish-brown infusion with a warm, inviting glow"
+              "Deep amber to reddish-brown with a warm, inviting glow"
             ],
             "aroma": [
               "Indulgent cocoa notes layered with creamy coconut and soft vanilla sweetness"
             ],
             "flavourProfile": [
-              "Naturally sweet rooibos character harmoniously balanced with rich cocoa, creamy coconut, and gentle vanilla undertones"
+              "Naturally sweet rooibos balanced with rich cocoa, creamy coconut, and gentle vanilla undertones"
             ],
             "finish": [
               "Smooth, comforting, and lightly sweet with lingering chocolate-coconut notes"
@@ -3123,7 +3454,7 @@
           {
             "name": "Chamomile Lemon",
             "teaType": "Herbal Infusion",
-            "description": "Enhance your tranquillity with a soothing chamomile infusion, accentuated by the invigorating touch of lemon, taking you to new levels of serenity.",
+            "description": "Enhance your tranquillity with a soothing chamomile infusion accentuated by the invigorating touch of lemon.",
             "brewingInstructions": "100C & 5min",
             "ingredients": [
               "Chamomile",
@@ -3139,7 +3470,7 @@
               "Soft floral notes of chamomile uplifted by fresh lemon and citrusy herbal accents"
             ],
             "flavourProfile": [
-              "Gentle chamomile sweetness harmoniously balanced with vibrant lemon brightness and refreshing herbal notes from lemongrass and lemon myrtle"
+              "Gentle chamomile sweetness balanced with vibrant lemon brightness and refreshing herbal notes from lemongrass and lemon myrtle"
             ],
             "finish": [
               "Calming, fresh, and lightly citrusy with a lingering soothing aftertaste"
@@ -3162,7 +3493,7 @@
               "Vanilla Flavour"
             ],
             "liquor": [
-              "Bright amber infusion with delicate rosy highlights from hibiscus"
+              "Bright amber with delicate rosy highlights from hibiscus"
             ],
             "aroma": [
               "Soothing lavender notes layered with soft honeyed sweetness",
@@ -3179,7 +3510,7 @@
           {
             "name": "Melon Pomegranate",
             "teaType": "Herbal Infusion",
-            "description": "Hibiscus, skilfully combined with hints of melon and pomegranate, creates a harmonious blend that counterbalances a tangy undertone, resulting in a delicious fusion tea.",
+            "description": "Hibiscus skilfully combined with hints of melon and pomegranate creates a harmonious blend that counterbalances a tangy undertone.",
             "brewingInstructions": "100C & 5min",
             "ingredients": [
               "Hibiscus",
@@ -3237,7 +3568,7 @@
           {
             "name": "Jasmin Verbena",
             "teaType": "Herbal Infusion",
-            "description": "A rare find, a delightful range of herbs bursting with flavour, accentuated by the delectable essence of Jasmine.",
+            "description": "A rare find — a delightful range of herbs bursting with flavour, accentuated by the delectable essence of Jasmine.",
             "brewingInstructions": "100C & 5min",
             "ingredients": [
               "Jasmine Buds",
@@ -3268,7 +3599,228 @@
       },
       {
         "range": "Elixir Range",
-        "note": "Curated from the Tea Makers Private Tea Assortment — see individual tea details in that product."
+        "teas": [
+          {
+            "name": "English Breakfast",
+            "teaType": "Black Tea",
+            "description": "Indulge in the refreshing mellowness of high-grown Ceylon tea, internationally renowned for its exceptional quality.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Black Tea"
+            ],
+            "grade": "BOPF — High Grown",
+            "liquor": [
+              "Clear golden-amber with excellent brightness and brilliance"
+            ],
+            "aroma": [
+              "Fresh and aromatic with lively high-grown briskness",
+              "Subtle floral hints",
+              "Gentle citrusy top notes"
+            ],
+            "flavourProfile": [
+              "Medium to full-bodied with a bright, crisp character",
+              "Smooth malt undertones balanced by light floral accents",
+              "Well-rounded and invigorating"
+            ],
+            "finish": [
+              "Refreshing and lingering with balanced strength and refined warmth"
+            ]
+          },
+          {
+            "name": "Classic Earl Grey",
+            "teaType": "Black Tea",
+            "description": "Masterfully blended with vibrant blue cornflowers, the exotic bergamot infuses this tea with a distinct citrus flavour.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Bergamot Flavour",
+              "Blue Corn Flower"
+            ],
+            "grade": "BOPF — High Grown",
+            "liquor": [
+              "Bright, clear coppery amber with excellent brilliance"
+            ],
+            "aroma": [
+              "Fresh and uplifting citrus notes of bergamot",
+              "Clean, brisk black tea base",
+              "Light floral nuances"
+            ],
+            "flavourProfile": [
+              "A lively burst of zesty bergamot at the forefront",
+              "Smooth, well-rounded black tea body",
+              "Citrus element distinct yet balanced, never overpowering"
+            ],
+            "finish": [
+              "Clean, fragrant, and lingering with subtle citrus sweetness and a refined briskness"
+            ]
+          },
+          {
+            "name": "Mango Delight",
+            "teaType": "Green Tea",
+            "description": "Infused with tropical variations of mango and cardamom, a delicate Sencha green tea delivers an irresistible sensation.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Sencha Green Tea",
+              "Mango Flavouring",
+              "Cardamom Flavouring"
+            ],
+            "grade": "GT Fgs — High & Medium Grown",
+            "liquor": [
+              "Bright light golden infusion with clear brilliance"
+            ],
+            "aroma": [
+              "Lush mango fragrance complemented by soft aromatic hints of cardamom"
+            ],
+            "flavourProfile": [
+              "Fresh vegetal notes of Sencha harmoniously balanced with juicy mango sweetness",
+              "Subtle warming spice from cardamom"
+            ],
+            "finish": [
+              "Smooth, tropical, and gently spiced with a refreshing lingering sweetness"
+            ]
+          },
+          {
+            "name": "French Vanilla",
+            "teaType": "Green Tea",
+            "description": "The foundation of Sencha green tea brimming with the delightful flavours of strawberry and a subtle touch of vanilla.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Sencha Green Tea",
+              "Strawberry Flavouring",
+              "Vanilla Flavouring"
+            ],
+            "grade": "GT Fgs — High & Medium Grown",
+            "liquor": [
+              "Bright light golden infusion with excellent clarity"
+            ],
+            "aroma": [
+              "Fresh strawberry fragrance complemented by smooth, comforting vanilla notes"
+            ],
+            "flavourProfile": [
+              "Gentle vegetal notes of Sencha layered with juicy strawberry sweetness",
+              "Subtle creamy vanilla undertones"
+            ],
+            "finish": [
+              "Soft, fruity, and delicately sweet with a smooth lingering vanilla note"
+            ]
+          },
+          {
+            "name": "Rose Blossom",
+            "teaType": "Herbal Infusion",
+            "description": "Combining earthy hibiscus and lemon with natural rose petals results in a full-bodied infusion that delivers a lasting and memorable experience.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Hibiscus",
+              "Rosehip",
+              "Sweet Blackberry Leaves",
+              "Apple",
+              "Lemon Myrtle",
+              "Lemongrass",
+              "Lemon Peel",
+              "Rose Petals",
+              "Lemon Flavouring",
+              "Rose Flavouring"
+            ],
+            "liquor": [
+              "Brilliant deep ruby-red infusion with lively clarity"
+            ],
+            "aroma": [
+              "Fragrant rose notes layered with vibrant citrus accents and gentle fruity undertones"
+            ],
+            "flavourProfile": [
+              "Tangy hibiscus and rosehip create a vibrant base",
+              "Harmoniously balanced with floral rose petals, subtle apple sweetness, and refreshing citrus notes"
+            ],
+            "finish": [
+              "Bright, floral, and gently tangy with a lingering refreshing citrus aftertaste"
+            ]
+          },
+          {
+            "name": "Berry Sensation",
+            "teaType": "Herbal Infusion",
+            "description": "Tangy, tart, sour, and sweet elements harmoniously meld with a subtle woody undertone, yielding a fusion tea that boasts exceptional taste.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Hibiscus",
+              "Rosehip",
+              "Sweet Blackberry Leaves",
+              "Apple",
+              "Liquorice Root",
+              "Rose Petals",
+              "Blackberry Flavouring",
+              "Raspberry Flavouring"
+            ],
+            "liquor": [
+              "Brilliant ruby-red infusion with bright clarity"
+            ],
+            "aroma": [
+              "Lively berry fragrance with hints of raspberry and blackberry",
+              "Complemented by gentle floral undertones"
+            ],
+            "flavourProfile": [
+              "A vibrant fusion of tangy hibiscus and rosehip balanced with fruity berry notes",
+              "Mild apple sweetness and a delicate natural sweetness from liquorice root"
+            ],
+            "finish": [
+              "Bright, fruity, and refreshing with a pleasantly tangy lingering finish"
+            ]
+          },
+          {
+            "name": "Herbal Punch",
+            "teaType": "Herbal Infusion",
+            "description": "The vibrant lemon flavours thoughtfully intertwined with the pungent and spicy essence of ginger craft a beverage that exudes the ultimate warmth.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Ginger",
+              "Apple",
+              "Sweet Blackberry Leaves",
+              "Lemongrass",
+              "Lemon Peel",
+              "Lime Peel",
+              "Roasted Chicory Root",
+              "Silver Lime Flowers",
+              "Galangal",
+              "Lemon Flavouring",
+              "Lime Flavouring"
+            ],
+            "liquor": [
+              "Clear golden infusion with a lively, inviting glow"
+            ],
+            "aroma": [
+              "Fresh citrus notes of lemon and lime complemented by warm ginger spice and gentle herbal undertones"
+            ],
+            "flavourProfile": [
+              "Zesty lemon and lime brightness balanced with the pungent warmth of ginger and galangal",
+              "Rounded by subtle sweetness from apple and herbal depth from roasted chicory"
+            ],
+            "finish": [
+              "Warm, invigorating, and refreshing with lingering citrus zest and gentle spice"
+            ]
+          },
+          {
+            "name": "Jasmin Green",
+            "teaType": "Green Tea",
+            "description": "Green tea masterfully imbued with the enchanting essence of jasmine flavour, graced by the presence of beautiful jasmine buds.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Green Tea",
+              "Jasmine Buds",
+              "Jasmine Flavouring"
+            ],
+            "liquor": [
+              "Clear pale golden infusion with bright brilliance"
+            ],
+            "aroma": [
+              "Graceful jasmine florals with fresh, uplifting notes"
+            ],
+            "flavourProfile": [
+              "Gentle vegetal notes of green tea beautifully complemented by the sweet, fragrant essence of jasmine"
+            ],
+            "finish": [
+              "Clean, delicately floral, and softly sweet with a lingering jasmine elegance"
+            ]
+          }
+        ]
       }
     ],
     "features": [
@@ -3337,46 +3889,722 @@
     ]
   },
 {
-  "id": "advent-calendar-30-day",
-  "slug": "advent-calendar-30-day",
-  "mainCategory": "tea-collection",
-  "subCategory": "gift-collection",
-
-  "name": "Advent Calender (30 Day)",
-  "shortDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
-  "tags": ["Assorted", "Gift", "Luxury"],
-  "packInfo": "30 Pyramid Tea Bags Advent Calendar",
-  "thumbnailImage": "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
-
-  "format": "Pyramid Tea Bags",
-  "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
-
-  "price": 22.99,
-  "currency": "USD",
-  "stock": 15,
-  "rating": 4.9,
-  "reviewCount": 53,
-
-  "seoTitle": "30-Day Advent Calendar - Gift Tea Collection",
-  "seoDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
-
-  "longDescription": "An elevated celebration of tea, this Luxury Ceylon Tea Advent Calendar features 30 curated teas for a full month of discovery. Crafted from pure Ceylon teas infused with select botanicals, each blend is presented in luxury pyramid tea bags, allowing whole leaves and botanicals to unfurl and reveal their true character. Designed as a refined gift, this calendar transforms every day into a moment of ritual, indulgence, and appreciation.",
-
-  "features": [
-    "30 luxury pyramid tea bags",
-    "30 days of curated Ceylon teas",
-    "Pure Ceylon teas with botanicals",
-    "Daily countdown experience",
-    "Perfect luxury holiday gift"
-  ],
-
-  "galleryImages": [
-    "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
-    "assets/images/products/Teas/Gift Teas/Advent Calendar 3.png",
-    "assets/images/products/Teas/Gift Teas/Advent Calendar 4.png",
-    "assets/images/products/Teas/Gift Teas/Advent Calendar 5.png"
-  ]
-},
+    "id": "advent-calendar-30-day",
+    "slug": "advent-calendar-30-day",
+    "mainCategory": "tea-collection",
+    "subCategory": "gift-collection",
+    "name": "Advent Calender (30 Day)",
+    "shortDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
+    "tags": [
+      "Assorted",
+      "Gift",
+      "Luxury"
+    ],
+    "packInfo": "30 Pyramid Tea Bags Advent Calendar",
+    "thumbnailImage": "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
+    "format": "Pyramid Tea Bags",
+    "brewingInstructions": "Various — 70-100C & 1-5min depending on variety",
+    "price": 22.99,
+    "currency": "USD",
+    "stock": 15,
+    "rating": 4.9,
+    "reviewCount": 53,
+    "seoTitle": "30-Day Advent Calendar - Gift Tea Collection",
+    "seoDescription": "30 days of curated teas for a delightful countdown experience during the holiday season.",
+    "longDescription": "An elevated celebration of tea, this Luxury Ceylon Tea Advent Calendar features 30 curated teas for a full month of discovery. Crafted from pure Ceylon teas infused with select botanicals, each blend is presented in luxury pyramid tea bags, allowing whole leaves and botanicals to unfurl and reveal their true character. Designed as a refined gift, this calendar transforms every day into a moment of ritual, indulgence, and appreciation.",
+    "ranges": [
+      {
+        "range": "Love of My Life Range",
+        "teas": [
+          {
+            "name": "Chocolate Delight",
+            "teaType": "Black Tea",
+            "description": "A contemporary fusion of chocolate and peppermint flavours meticulously combined to craft the ultimate sensation of coziness.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Peppermint Flavouring",
+              "Chocolate Flavouring"
+            ],
+            "grade": "BOPF — High Grown",
+            "liquor": [
+              "Bright amber with rich copper highlights"
+            ],
+            "aroma": [
+              "Decadent chocolate notes intertwined with cool peppermint freshness"
+            ],
+            "flavourProfile": [
+              "Smooth and full-bodied with rich cocoa-like sweetness complemented by a refreshing mint lift"
+            ],
+            "finish": [
+              "Warm, sweet, and lingering with soft chocolate richness and refreshing mint undertones"
+            ]
+          },
+          {
+            "name": "Cherry Blossom",
+            "teaType": "Black Tea",
+            "description": "A beloved blend that incorporates the flavours of cherry, rose, and a hint of cinnamon to create a captivating sensory experience.",
+            "brewingInstructions": "95-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Cherry Flavouring",
+              "Rose Flavouring",
+              "Cinnamon Flavouring"
+            ],
+            "grade": "BOPF — High Grown",
+            "liquor": [
+              "Bright amber with warm copper highlights"
+            ],
+            "aroma": [
+              "Sweet cherry notes intertwined with delicate rose fragrance and a soft whisper of warming cinnamon"
+            ],
+            "flavourProfile": [
+              "Smooth and balanced with fruity cherry sweetness, elegant rose, and subtle cinnamon warmth"
+            ],
+            "finish": [
+              "Soft, floral, and lightly spiced with lingering fruity sweetness"
+            ]
+          },
+          {
+            "name": "Apple Sensation",
+            "teaType": "Green Tea",
+            "description": "The delightful pairing of apple and cinnamon with smooth Sencha creates a flavour combination that is sure to tantalize.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Sencha Green Tea",
+              "Apple Flavouring",
+              "Cinnamon Flavouring"
+            ],
+            "grade": "GT Fgs — High & Medium Grown",
+            "liquor": [
+              "Light golden-green with bright clarity"
+            ],
+            "aroma": [
+              "Fresh green tea notes lifted by crisp apple sweetness and a gentle hint of warm cinnamon"
+            ],
+            "flavourProfile": [
+              "Smooth and refreshing with mild vegetal undertones, juicy apple sweetness, and a soft warming depth from cinnamon"
+            ],
+            "finish": [
+              "Bright, lightly sweet, and delicately spiced with a refreshing green tea lift"
+            ]
+          },
+          {
+            "name": "Soursop Magic",
+            "teaType": "Green Tea",
+            "description": "The addition of enchanting orange flavour to soursop results in a truly delightful and exotic cup.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Sencha Green Tea",
+              "Orange Flavouring",
+              "Soursop Flavouring"
+            ],
+            "grade": "GT Fgs — High & Medium Grown",
+            "liquor": [
+              "Pale greenish-gold with bright clarity"
+            ],
+            "aroma": [
+              "Uplifting citrus notes of orange layered over soft tropical sweetness from soursop"
+            ],
+            "flavourProfile": [
+              "Smooth and refreshing with bright citrus orange and creamy soursop sweetness adding a subtle exotic richness"
+            ],
+            "finish": [
+              "Clean, fruity, and lightly sweet with lingering citrus freshness"
+            ]
+          },
+          {
+            "name": "Spicy Orange",
+            "teaType": "White Tea",
+            "description": "A rich blend of tropical spices combined with white tea and the essence of orange — a heart-warming holiday infusion.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "White Tea",
+              "Orange Flavouring",
+              "Orange Peel",
+              "Cinnamon",
+              "Ginger",
+              "Clove",
+              "Fennel Seed",
+              "Anise Seed"
+            ],
+            "grade": "White Tea — High Grown",
+            "liquor": [
+              "Light golden-amber with a warm, radiant clarity"
+            ],
+            "aroma": [
+              "Bright citrus orange notes with warm cinnamon, clove, and gentle ginger spice"
+            ],
+            "flavourProfile": [
+              "Soft white tea base with lively orange zest and complex warming spices"
+            ],
+            "finish": [
+              "Lingering, fragrant, and gently spiced with a refreshing citrus lift"
+            ]
+          },
+          {
+            "name": "Almond Delicacy",
+            "teaType": "White Tea",
+            "description": "The harmonious fusion of tropical spices, white tea, and almond flavour promises an enticing and delightful brew.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "White Tea",
+              "Almond Flavouring",
+              "Orange Peel",
+              "Cinnamon",
+              "Ginger",
+              "Clove",
+              "Fennel Seed",
+              "Anise Seed"
+            ],
+            "grade": "White Tea — High Grown",
+            "liquor": [
+              "Light golden-amber with a soft luminous clarity"
+            ],
+            "aroma": [
+              "Warm almond sweetness intertwined with bright citrus orange notes and gentle spice"
+            ],
+            "flavourProfile": [
+              "Smooth and delicate white tea with creamy almond richness and tropical spice complexity"
+            ],
+            "finish": [
+              "Long, fragrant, and softly spiced with lingering almond sweetness"
+            ]
+          }
+        ]
+      },
+      {
+        "range": "Regional Collection Range",
+        "regions": [
+          {
+            "name": "Uva",
+            "description": "Bright and aromatic with a distinctive wintergreen note and brisk finish — a prized seasonal tea of exceptional character.",
+            "liquor": "Bright amber",
+            "aroma": "Distinctively aromatic, with menthol-like high notes",
+            "flavourProfile": "Bold, brisk, slightly sweet with a signature Uva tang character",
+            "finish": "Lingering and lively"
+          },
+          {
+            "name": "Nuwara Eliya",
+            "description": "Light, elegant, and floral with a champagne-like delicacy, grown in Sri Lanka's highest elevations.",
+            "liquor": "Pale golden",
+            "aroma": "Fresh, floral",
+            "flavourProfile": "Delicate, brisk, slightly astringent",
+            "finish": "Clean and refreshing"
+          },
+          {
+            "name": "Ruhuna",
+            "description": "Bold and full-bodied with rich colour and malty depth, cultivated in the warm low-country plains.",
+            "liquor": "Deep dark red",
+            "aroma": "Caramel & Malty",
+            "flavourProfile": "Strong, full-bodied, slightly sweet",
+            "finish": "Thick and bold"
+          },
+          {
+            "name": "Kandy",
+            "description": "Smooth and rounded with gentle sweetness, offering a comforting and well-balanced cup.",
+            "liquor": "Rich amber",
+            "aroma": "Mild spice and wood notes",
+            "flavourProfile": "Full-bodied, smooth, gently brisk",
+            "finish": "Rounded and satisfying"
+          },
+          {
+            "name": "Udapusselawa",
+            "description": "Medium-bodied with subtle floral notes and soft briskness, bridging the finesse of high-grown teas with added depth.",
+            "liquor": "Bright amber to coppery gold",
+            "aroma": "Delicately floral, light woody undertone",
+            "flavourProfile": "Medium-bodied, noticeably brisk",
+            "finish": "Crisp and drying"
+          },
+          {
+            "name": "Dimbula",
+            "description": "Crisp, bright, and clean with refreshing citrus undertones — celebrated for its clarity and balance.",
+            "liquor": "Bright coppery gold",
+            "aroma": "Subtle floral with hints of spice",
+            "flavourProfile": "Medium-bodied, crisp, pleasantly brisk",
+            "finish": "Well-rounded & balanced"
+          }
+        ]
+      },
+      {
+        "range": "Elegance Collection Range",
+        "teas": [
+          {
+            "name": "Lover's Night",
+            "teaType": "Black Tea",
+            "description": "A sensual and romantic experience created by blending black tea with red rose petals and the infusion of rose flavours.",
+            "brewingInstructions": "90-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Red Rose",
+              "Rose Flavouring"
+            ],
+            "grade": "FBOP — Low Grown",
+            "liquor": [
+              "Bright coppery amber with excellent clarity"
+            ],
+            "aroma": [
+              "Soft, expressive rose fragrance layered over warm black tea notes"
+            ],
+            "flavourProfile": [
+              "Medium body, balanced briskness, and pronounced floral character"
+            ],
+            "finish": [
+              "Lingering floral sweetness, clean and elegant exit"
+            ]
+          },
+          {
+            "name": "Blue Lady",
+            "teaType": "Black Tea",
+            "description": "Masterfully blended with vibrant blue cornflowers, the exotic bergamot infuses this tea with a distinct citrus flavour.",
+            "brewingInstructions": "90-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Blue Cornflower",
+              "Earl Grey Flavouring"
+            ],
+            "grade": "FBOP — Low Grown",
+            "liquor": [
+              "Bright reddish amber with excellent clarity"
+            ],
+            "aroma": [
+              "Distinct bergamot citrus layered over smooth black tea notes"
+            ],
+            "flavourProfile": [
+              "Medium body, structured, lightly brisk with lively citrus brightness"
+            ],
+            "finish": [
+              "Crisp citrus lingers, refined and aromatic close"
+            ]
+          },
+          {
+            "name": "Chamomile Sensation",
+            "teaType": "Herbal Infusion",
+            "description": "A subtle infusion of chamomile complemented by a hint of natural bee honey creates a delicate flavour perfect for a soothing late-night tea.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Chamomile",
+              "Liquorice",
+              "Honey Flavouring"
+            ],
+            "grade": "Herbal",
+            "liquor": [
+              "Clear golden yellow"
+            ],
+            "aroma": [
+              "Soft floral bouquet with mild natural sweetness"
+            ],
+            "flavourProfile": [
+              "Light-bodied, smooth, and naturally sweet"
+            ],
+            "finish": [
+              "Clean, mellow, lightly sweet and soothing"
+            ]
+          },
+          {
+            "name": "Moroccan Mint",
+            "teaType": "Green Tea",
+            "description": "Green tea and spearmint harmoniously melded to craft an enchanting overall experience, enhanced by cinnamon, liquorice, and blue cornflower.",
+            "brewingInstructions": "70-80C & 1-2min",
+            "ingredients": [
+              "Green Tea",
+              "Spearmint",
+              "Cinnamon",
+              "Liquorice",
+              "Blue Cornflower",
+              "Spearmint Flavouring"
+            ],
+            "grade": "GP1 — High Grown",
+            "liquor": [
+              "Clear pale gold with a soft green hue"
+            ],
+            "aroma": [
+              "Cooling spearmint with hints of warm cinnamon and sweet herbal undertones"
+            ],
+            "flavourProfile": [
+              "Light to medium body, clean refreshing green tea base with cooling mint"
+            ],
+            "finish": [
+              "Cooling mint lingers with soft sweetness"
+            ]
+          },
+          {
+            "name": "Magic Moment",
+            "teaType": "Black Tea",
+            "description": "Subtle floral notes intertwine with red rose petals, marigold, blue cornflower, and safflower, skilfully blended with jasmine and strawberry flavours.",
+            "brewingInstructions": "90-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Red Rose",
+              "Marigold",
+              "Blue Cornflower",
+              "Safflower",
+              "Jasmine Flavouring",
+              "Strawberry Flavouring"
+            ],
+            "grade": "FBOP — Low Grown",
+            "liquor": [
+              "Bright amber with a warm golden glow"
+            ],
+            "aroma": [
+              "Fragrant jasmine uplift with hints of rose and fresh strawberry"
+            ],
+            "flavourProfile": [
+              "Medium body with light aromatic complexity from layered botanicals"
+            ],
+            "finish": [
+              "Lingering floral sweetness with a soft berry lift"
+            ]
+          },
+          {
+            "name": "Barath Yogi",
+            "teaType": "Black Tea",
+            "description": "Delicate floral tones meet red rose petals, complemented by invigorating hints of spearmint. Rose, vanilla, and strawberry enhance this elevated tea experience.",
+            "brewingInstructions": "90-100C & 4-5min",
+            "ingredients": [
+              "Black Tea",
+              "Mellow Flowers",
+              "Red Rose Petals",
+              "Spearmint Flavour",
+              "Rose Flavouring",
+              "Strawberry Flavouring",
+              "Vanilla Flavouring"
+            ],
+            "grade": "FBOP — Low Grown",
+            "liquor": [
+              "Bright coppery amber with good clarity"
+            ],
+            "aroma": [
+              "Elegant rose florals, soft vanilla cream, hint of fresh mint"
+            ],
+            "flavourProfile": [
+              "Silky, rounded, lightly brisk medium body with smooth structure"
+            ],
+            "finish": [
+              "Lingering floral sweetness with a cool, clean mint finish"
+            ]
+          }
+        ]
+      },
+      {
+        "range": "Wellness Range",
+        "teas": [
+          {
+            "name": "Relaxing",
+            "teaType": "Black Tea",
+            "description": "A calming blend designed to help you unwind and relax after a long day.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Valerian Root",
+              "Passionflower",
+              "Chamomile",
+              "Lavender",
+              "Lemongrass",
+              "Rose Petals",
+              "Chicory",
+              "Lemon Balm",
+              "Apple Flavouring",
+              "Vanilla Flavouring"
+            ],
+            "grade": "BOPF",
+            "cupProfile": [
+              "Soft floral aroma with creamy vanilla undertone",
+              "Gentle herbal sweetness",
+              "Light apple warmth",
+              "Smooth, soothing finish"
+            ]
+          },
+          {
+            "name": "Digest",
+            "teaType": "Green Tea",
+            "description": "A soothing blend with digestive herbs to support healthy digestion after meals.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Dandelion Root",
+              "Peppermint",
+              "Chamomile",
+              "Ginger Root",
+              "Fennel Seed",
+              "Rooibos",
+              "Rosemary",
+              "Black Pepper",
+              "Moringa",
+              "Apple Flavouring"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Fresh minty lift",
+              "Warm ginger spice",
+              "Light earthy depth",
+              "Clean, refreshing finish"
+            ]
+          },
+          {
+            "name": "Immune",
+            "teaType": "Green Tea",
+            "description": "A protective blend with immune-supporting herbs and antioxidants for daily wellness and defence.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Turmeric",
+              "Ashwagandha",
+              "Cinnamon",
+              "Liquorice Root",
+              "Nettle Leaf",
+              "Anise Seed",
+              "Ginger",
+              "Elderberries",
+              "Moringa",
+              "Lemon Verbena",
+              "Ginger Granules",
+              "Lemon Granules"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Warm golden infusion",
+              "Earthy spice backbone",
+              "Subtle sweetness from liquorice",
+              "Lingering citrus warmth"
+            ]
+          },
+          {
+            "name": "Detox",
+            "teaType": "Green Tea",
+            "description": "A cleansing blend with detoxifying herbs to support your body's natural cleansing processes.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Milk Thistle",
+              "Dandelion Root",
+              "Liquorice Root",
+              "Ginger",
+              "Hibiscus",
+              "Spearmint",
+              "Lemon Peel",
+              "Lemongrass",
+              "Holy Basil",
+              "Fennel",
+              "Moringa",
+              "Lemon Flavour"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Bright ruby hue from hibiscus",
+              "Citrus freshness",
+              "Gentle spice warmth",
+              "Balanced sweet-herbal depth"
+            ]
+          },
+          {
+            "name": "Slimming",
+            "teaType": "Green Tea",
+            "description": "A supportive blend with metabolism-boosting herbs to complement your weight management goals.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Senna Leaves",
+              "Fennel",
+              "Cinnamon",
+              "Rosehip",
+              "Garcinia",
+              "Apple Sweet",
+              "Lemon Flavour"
+            ],
+            "grade": "GT Fgs",
+            "cupProfile": [
+              "Light fruity brightness",
+              "Gentle cinnamon warmth",
+              "Mild herbal sweetness",
+              "Clean, light finish"
+            ]
+          }
+        ]
+      },
+      {
+        "range": "Infusion Range",
+        "teas": [
+          {
+            "name": "Cocoa Rooibos",
+            "teaType": "Red Tea",
+            "description": "Blending South African red tea with cocoa and coconut creates a flavour profile that is delightfully intricate and rich.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Rooibos",
+              "Cocoa",
+              "Coconut",
+              "White Corn Flower",
+              "Coconut Flavour",
+              "Vanilla Flavour"
+            ],
+            "liquor": [
+              "Deep amber to reddish-brown with a warm, inviting glow"
+            ],
+            "aroma": [
+              "Indulgent cocoa notes layered with creamy coconut and soft vanilla sweetness"
+            ],
+            "flavourProfile": [
+              "Naturally sweet rooibos balanced with rich cocoa, creamy coconut, and gentle vanilla undertones"
+            ],
+            "finish": [
+              "Smooth, comforting, and lightly sweet with lingering chocolate-coconut notes"
+            ]
+          },
+          {
+            "name": "Chamomile Lemon",
+            "teaType": "Herbal Infusion",
+            "description": "A soothing chamomile infusion accentuated by the invigorating touch of lemon.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Chamomile",
+              "Lemon Myrtle",
+              "Lime Peel",
+              "Lemongrass",
+              "Lemon Flavour"
+            ],
+            "liquor": [
+              "Clear golden infusion with a warm glow"
+            ],
+            "aroma": [
+              "Soft floral chamomile uplifted by fresh lemon and citrusy herbal accents"
+            ],
+            "flavourProfile": [
+              "Gentle chamomile sweetness balanced with vibrant lemon brightness and refreshing herbal notes"
+            ],
+            "finish": [
+              "Calming, fresh, and lightly citrusy with a lingering soothing aftertaste"
+            ]
+          },
+          {
+            "name": "Honey Lavender",
+            "teaType": "Herbal Infusion",
+            "description": "Vanilla, lavender, and ginger offer a unique blend for an uncharted culinary adventure.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Chamomile",
+              "Hibiscus",
+              "Spearmint",
+              "Lemongrass",
+              "Ginger",
+              "Lavender",
+              "Honey Flavour",
+              "Lemon Flavour",
+              "Vanilla Flavour"
+            ],
+            "liquor": [
+              "Bright amber with delicate rosy highlights from hibiscus"
+            ],
+            "aroma": [
+              "Soothing lavender with soft honeyed sweetness and refreshing mint"
+            ],
+            "flavourProfile": [
+              "Harmonious blend of floral lavender, chamomile, refreshing spearmint, and a subtle warming touch of ginger"
+            ],
+            "finish": [
+              "Soft, aromatic, and refreshing with lingering floral sweetness"
+            ]
+          },
+          {
+            "name": "Melon Pomegranate",
+            "teaType": "Herbal Infusion",
+            "description": "Hibiscus skilfully combined with hints of melon and pomegranate creates a harmonious blend that counterbalances a tangy undertone.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Hibiscus",
+              "Pomegranate",
+              "Beetroot",
+              "Apple",
+              "Red Rose Petals",
+              "Cranberry",
+              "Raspberry",
+              "Blackberry Leaf",
+              "Pomegranate Flavour",
+              "Melon Flavour"
+            ],
+            "liquor": [
+              "Brilliant ruby-red with lively clarity"
+            ],
+            "aroma": [
+              "Fresh fruity bouquet with sweet melon and vibrant pomegranate nuances"
+            ],
+            "flavourProfile": [
+              "Tangy hibiscus base harmoniously balanced with juicy pomegranate and soft melon sweetness"
+            ],
+            "finish": [
+              "Bright, fruity, and refreshing with a pleasantly tangy lingering finish"
+            ]
+          },
+          {
+            "name": "Elderflower Ginger",
+            "teaType": "Herbal Infusion",
+            "description": "A delightful blend of Valerian and Elderflower to add warmth to a chilly day.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Elderflower",
+              "Valerian",
+              "Lemon Myrtle",
+              "Lemongrass",
+              "Ginger",
+              "Ginger Flavour",
+              "Lemon Flavour"
+            ],
+            "liquor": [
+              "Clear light golden with bright clarity"
+            ],
+            "aroma": [
+              "Soft elderflower florals uplifted by fresh citrus accents and warm ginger spice"
+            ],
+            "flavourProfile": [
+              "Elegant elderflower balanced with refreshing lemony herbal notes and the gentle warmth of ginger"
+            ],
+            "finish": [
+              "Soft, warming, and aromatic with lingering floral and citrus freshness"
+            ]
+          },
+          {
+            "name": "Jasmin Verbena",
+            "teaType": "Herbal Infusion",
+            "description": "A rare find — a delightful range of herbs bursting with flavour, accentuated by the delectable essence of Jasmine.",
+            "brewingInstructions": "100C & 5min",
+            "ingredients": [
+              "Jasmine Buds",
+              "Lemon Verbena",
+              "Basil",
+              "Spearmint",
+              "Rosemary",
+              "Thyme",
+              "Nettle",
+              "Sage",
+              "Marjoram",
+              "Jasmine Flavour"
+            ],
+            "liquor": [
+              "Clear pale golden with bright clarity"
+            ],
+            "aroma": [
+              "Delicate jasmine florals uplifted by fresh citrusy verbena and layered herbal nuances"
+            ],
+            "flavourProfile": [
+              "Elegant jasmine essence balanced with bright lemon verbena and a complex bouquet of refreshing herbs"
+            ],
+            "finish": [
+              "Clean, aromatic, and uplifting with lingering floral and herbal freshness"
+            ]
+          }
+        ]
+      }
+    ],
+    "features": [
+      "30 luxury pyramid tea bags",
+      "30 days of curated Ceylon teas",
+      "5 curated ranges: Love of My Life, Regional, Elegance, Wellness & Infusion",
+      "Pure Ceylon teas with select botanicals",
+      "Daily countdown experience",
+      "Perfect luxury holiday gift"
+    ],
+    "galleryImages": [
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 1.png",
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 3.png",
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 4.png",
+      "assets/images/products/Teas/Gift Teas/Advent Calendar 5.png"
+    ]
+  },
 {
     "id": "love-of-my-life-6tb",
     "slug": "love-of-my-life-6tb",

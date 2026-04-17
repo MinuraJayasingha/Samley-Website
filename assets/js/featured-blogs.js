@@ -42,7 +42,7 @@ function renderFeaturedBlogs(blogs) {
           ${blog.shortDescription}
         </p>
 
-        <a href="blog.html?slug=${blog.slug}" class="btn-06">
+        <a href="${blog.url || `blog.html?slug=${blog.slug}`}" class="btn-06">
           Read More
         </a>
       </div>

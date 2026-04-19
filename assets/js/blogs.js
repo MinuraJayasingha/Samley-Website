@@ -43,7 +43,7 @@ function renderBlogs() {
         </p>
 
         <div class="blog-card-footer">
-          <a href="${blog.url || `blog.html?slug=${blog.slug}`}" class="blog-read-more-btn btn-06">
+          <a href="blog.html?slug=${blog.slug}" class="blog-read-more-btn btn-06">
             Read More
           </a>
         </div>

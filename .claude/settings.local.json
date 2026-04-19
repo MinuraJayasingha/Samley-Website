@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m http.server 8000)",
+      "Bash(curl -s http://localhost:8000)",
+      "Bash(curl -s \"http://localhost:8000/assets/css/index.css\")",
+      "Bash(python3 -)",
+      "Bash(xargs sed *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8000/home2.html\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Bash(awk 'NR>=1550 && NR<=1560 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
+      "Bash(awk 'NR>=1787 && NR<=1800 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
+      "Bash(awk 'NR>=1891 && NR<=1905 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
+      "Bash(awk 'NR>=2063 && NR<=2080 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
+      "Bash(awk 'NR>=2338 && NR<=2352 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
+      "Bash(awk 'NR>=1891 && NR<=1930 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)"
+    ]
+  }
+}

@@ -2,9 +2,7 @@
    GLOBAL SMOOTH BEHAVIOR
 ================================================== */
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -12,121 +10,168 @@ body {
 }
 
 /* ==================================================
-   GLOBAL TRANSITIONS (SAFE ELEMENTS ONLY)
+   GLOBAL TRANSITIONS
 ================================================== */
 
 a,
 button,
 [class^="btn-"],
 [class*=" btn-"] {
-  transition: 
-    color 0.3s ease,
-    background-color 0.3s ease,
-    border-color 0.3s ease,
-    transform 0.25s ease;
+  transition:
+    color 0.28s ease,
+    background-color 0.28s ease,
+    border-color 0.28s ease,
+    box-shadow 0.28s ease,
+    transform 0.22s ease;
 }
 
-/* Image smoothness */
 img {
-  transition: transform 0.4s ease, opacity 0.4s ease;
   backface-visibility: hidden;
 }
 
 /* ==================================================
-   SECTION SPACING & BREATHING
+   HERO ENTRANCE (CSS — fires on page load)
 ================================================== */
 
-/*section {
-  padding-block: clamp(60px, 8vw, 120px);
-}*/
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.hero_para {
+  opacity: 0;
+  animation: heroFadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.25s forwards;
+}
+
+.hero_head,
+.hero_head_mobile {
+  opacity: 0;
+  animation: heroFadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.45s forwards;
+}
+
+.hero_button_content {
+  opacity: 0;
+  animation: heroFadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.65s forwards;
+}
+
+.hero_down_content {
+  opacity: 0;
+  animation: heroFadeIn 0.9s ease 1.1s forwards;
+}
+
+/* ==================================================
+   SCROLL REVEAL — BASE STATES
+================================================== */
+
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-scale,
+.reveal-fade {
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+.reveal        { transform: translateY(28px); }
+.reveal-left   { transform: translateX(-42px); }
+.reveal-right  { transform: translateX(42px); }
+.reveal-scale  { transform: scale(0.96) translateY(16px); }
+.reveal-fade   { transform: none; }
+
+/* Active (JS adds this) */
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active,
+.reveal-scale.active,
+.reveal-fade.active {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 0.78s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.78s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==================================================
+   DELAY UTILITIES
+================================================== */
+
+.delay-1 { transition-delay: 0.08s !important; }
+.delay-2 { transition-delay: 0.16s !important; }
+.delay-3 { transition-delay: 0.24s !important; }
+.delay-4 { transition-delay: 0.32s !important; }
+.delay-5 { transition-delay: 0.40s !important; }
+.delay-6 { transition-delay: 0.52s !important; }
+
+/* ==================================================
+   WHOLESALE wv2-animate (existing class)
+================================================== */
+
+.wv2-animate {
+  opacity: 0;
+  transform: translateY(24px);
+  will-change: opacity, transform;
+  transition:
+    opacity 0.72s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.72s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.wv2-animate--left {
+  transform: translateX(-36px);
+}
+
+.wv2-animate--right {
+  transform: translateX(36px);
+}
+
+.wv2-animate.in-view {
+  opacity: 1;
+  transform: none;
+}
+
+/* ==================================================
+   FLOAT ANIMATION (hero arrows)
+================================================== */
+
+.hero_down_content img {
+  animation: floatDown 2.6s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes floatDown {
+  0%   { transform: translateY(0);    opacity: 0.55; }
+  50%  { transform: translateY(10px); opacity: 1; }
+  100% { transform: translateY(0);    opacity: 0.55; }
+}
+
+/* ==================================================
+   HOVER MICRO-INTERACTIONS (subtle, enterprise)
+================================================== */
+
+button:not(.navbar-toggle):not(.dropdown-toggle):hover,
+.btn-01:hover,
+.btn-02:hover {
+  transform: translateY(-2px);
+}
+
+button:not(.navbar-toggle):not(.dropdown-toggle):active {
+  transform: translateY(0);
+}
 
 /* ==================================================
    ACCESSIBILITY – REDUCED MOTION
 ================================================== */
 
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-    transform: none !important;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
-}
-
-/* ==================================================
-   REVEAL ANIMATIONS (LAYOUT SAFE)
-================================================== */
-
-.reveal,
-.reveal-left,
-.reveal-right {
-  opacity: 0;
-  will-change: opacity, transform;
-}
-
-/* Bottom */
-.reveal {
-  transform: translateY(20px);
-}
-
-/* Left */
-.reveal-left {
-  transform: translateX(-60px);
-}
-
-/* Right */
-.reveal-right {
-  transform: translateX(60px);
-}
-
-/* Active State */
-.reveal.active,
-.reveal-left.active,
-.reveal-right.active {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-/* ==================================================
-   🔒 CRITICAL FIX – PREVENT TEXT STYLE BREAKING
-================================================== */
-
-
-
-/* ==================================================
-   HERO FLOAT ANIMATION (SAFE)
-================================================== */
-
-.hero_down_content img {
-  animation: floatDown 2.5s ease-in-out infinite;
-  will-change: transform, opacity;
-}
-
-@keyframes floatDown {
-  0% {
-    transform: translateY(0);
-    opacity: 0.6;
-  }
-  50% {
-    transform: translateY(10px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 0.6;
-  }
-}
-
-/* ==================================================
-   OPTIONAL: SMOOTH HOVER MICRO-INTERACTIONS
-================================================== */
-
-button:hover,
-a:hover {
-  transform: translateY(-1px);
-}
-
-button:active,
-a:active {
-  transform: translateY(0);
 }

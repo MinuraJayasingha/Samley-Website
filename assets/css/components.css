@@ -197,197 +197,170 @@
 }
 
 /* --------------- Instagram-feed Section --------------------- */
-/* --------------------------------------------------  */
+/* --------------------------------------------------
+   INSTAGRAM SECTION
+   -------------------------------------------------- */
 #instagram-section {
     display: flex;
     justify-content: center;
+    background-color: #ffffff;
 }
 
 .instagram-container {
     width: 100%;
-    padding: 30px 0 30px 24px;
-    gap: 24px;
+    padding: 96px 48px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 1440px;
+    gap: 40px;
+    max-width: 1352px;
 }
 
+/* Header row */
 .instagram-header {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
-    background-color: var(--color-bg-white);
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    background: transparent;
 }
 
-.instagram-header div p {
-    display: none;
+.instagram-header div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .instagram-header div h2 {
     color: var(--color-text-secondary);
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.15;
 }
 
 .instagram-header div p {
-    color: var(--color-bg-black);
+    display: block;
+    color: var(--color-text-muted);
+    font-size: 14px;
+    font-family: var(--font-body);
 }
 
+.instagram-header > p {
+    display: none;
+}
+
+/* View link */
+.instagram-view {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--color-text-secondary);
+    border: 1px solid rgba(0,174,156,0.3);
+    border-radius: 100px;
+    padding: 8px 20px;
+    transition: background 0.25s ease, color 0.25s ease;
+    white-space: nowrap;
+}
+
+.instagram-view:hover {
+    background: var(--color-primary);
+    color: #ffffff;
+    border-color: var(--color-primary);
+}
+
+/* Feed iframe */
 .instagram-feed-wrapper {
     width: 100%;
     height: max-content;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .instagram-feed-wrapper iframe {
     width: 100%;
-    height: 210px;
+    height: 160px;
     border: none;
+    display: block;
 }
 
-.instagram-carousel {
-    overflow-x: auto;
-    scroll-behavior: smooth;
-}
-
-.instagram-carousel::-webkit-scrollbar {
-    display: none;
-}
-
+/* Legacy card styles */
+.instagram-carousel { overflow-x: auto; scroll-behavior: smooth; }
+.instagram-carousel::-webkit-scrollbar { display: none; }
 .instagram-cards-wrapper {
     width: max-content;
-    height: max-content;
     display: flex;
     gap: 16px;
-    padding: 10px 30px 10px 0px;
+    padding: 10px 0;
 }
-
 .instagram-card {
     width: 65vw;
     aspect-ratio: 1;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
     cursor: pointer;
-    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.instagram-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 32px rgba(0,0,0,0.15);
 }
 
-/* Responsive behavior: keep SnapWidget at natural width and allow horizontal scrolling on small screens */
+/* Mobile scroll wrapper */
 @media (max-width: 991px) {
     .instagram-feed-wrapper {
-        height: max-content;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         padding-bottom: 8px;
+        border-radius: 12px;
     }
-
     .instagram-feed-wrapper iframe {
         width: 1260px;
         min-width: 1260px;
-        border-radius: 8px;
-    }
-
-    .instagram-actions {
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 8px;
-    }
-
-    .instagram-view-link {
-        background: var(--color-text-secondary);
-        color: #fff;
-        padding: 8px 12px;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 14px;
+        height: 180px;
     }
 }
 
-
-/* =========================
-   Small devices (≥576px)
-   ========================= */
+/* ≥ 480px */
 @media (min-width: 480px) {
-    .instagram-container {
-        padding: 30px 24px 30px 24px;
-    }
-
-    .instagram-header {
-        width: 100%;
-    }
-
-    .instagram-header div {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-    }
-
-    .instagram-header div p {
-        display: block;
-    }
-
-    .instagram-feed-wrapper {
-        width: 100%;
-    }
-
-    .instagram-carousel {
-        width: 100%;
-    }
-
     .instagram-cards-wrapper {
         width: 100%;
-        height: max-content;
-        display: flex;
         justify-content: space-between;
-        padding: 10px 0px 10px 0px;
+        padding: 10px 0;
     }
-
     .instagram-card {
         width: 30%;
         aspect-ratio: 1;
-        border-radius: 8px;
-        overflow: hidden;
-        cursor: pointer;
-        transition: box-shadow 0.3s ease;
-        background-color: aqua;
+        border-radius: 12px;
     }
 }
 
-/* =========================
-   Medium devices / Tablets (≥768px)
-   ========================= */
+/* ≥ 768px */
 @media (min-width: 768px) {
-    .instagram-container {
-        padding: 30px 36px 30px 36px;
-    }
+    .instagram-container { padding: 72px 36px; }
 }
 
-/* =========================
-   Large devices / Laptops (≥992px)
-   ========================= */
+/* ≥ 992px */
 @media (min-width: 992px) {
-    .instagram-container {
-        padding: 80px 80px 80px 80px;
-    }
+    .instagram-container { padding: 96px 48px; }
+    .instagram-feed-wrapper iframe { height: 170px; }
 }
 
-/* =========================
-   Extra large devices / Desktops (≥1200px)
-   ========================= */
+/* ≥ 1200px */
 @media (min-width: 1200px) {
-    .instagram-container {
-        padding: 80px 80px 80px 80px;
-    }
+    .instagram-container { padding: 48px 80px; }
+    .instagram-feed-wrapper iframe { height: 185px; }
 }
 
-/* =========================
-   2XL screens (≥1400px)
-   ========================= */
+/* ≥ 1400px */
 @media (min-width: 1400px) {
-    .instagram-container {
-        padding: 80px 100px 80px 100px;
-    }
+    .instagram-container { padding: 48px 100px; }
+    .instagram-feed-wrapper iframe { height: 200px; }
 }
 
 /*Post*/

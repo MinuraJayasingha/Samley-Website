@@ -1,64 +1,56 @@
-// assets/js/smooth-scroll.js
+// Unified scroll-reveal system for Samley Website
 
-const revealElements = document.querySelectorAll(
-  ".reveal, .reveal-left, .reveal-right"
-);
+(function () {
 
-const revealObserver = new IntersectionObserver(
-  (entries) => {
+  const EASING_OFFSET = 80; // px from bottom of viewport to trigger
+
+  // ── 1. Standard reveal classes ──────────────────────────────────────────
+  const revealSel = '.reveal, .reveal-left, .reveal-right, .reveal-scale, .reveal-fade';
+
+  const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-        revealObserver.unobserve(entry.target);
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const delay = parseFloat(el.dataset.delay || 0);
+      if (delay) {
+        setTimeout(() => el.classList.add('active'), delay);
+      } else {
+        el.classList.add('active');
       }
+      revealObserver.unobserve(el);
     });
-  },
-  {
-    threshold: 0.15
-  }
-);
+  }, {
+    rootMargin: `0px 0px -${EASING_OFFSET}px 0px`,
+    threshold: 0.08
+  });
 
-revealElements.forEach(el => revealObserver.observe(el));
+  document.querySelectorAll(revealSel).forEach(el => revealObserver.observe(el));
 
-/* =====================================
-   SMOOTH SCROLL ENHANCER
-   (Lightweight & Safe)
-===================================== 
+  // ── 2. Wholesale wv2-animate (uses data-delay in ms) ────────────────────
+  const wv2Observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const delay = parseInt(el.dataset.delay || 0, 10);
+      setTimeout(() => el.classList.add('in-view'), delay);
+      wv2Observer.unobserve(el);
+    });
+  }, {
+    rootMargin: `0px 0px -${EASING_OFFSET}px 0px`,
+    threshold: 0.08
+  });
 
-let currentScroll = window.scrollY;
-let targetScroll = window.scrollY;
-let isScrolling = false;
+  document.querySelectorAll('.wv2-animate').forEach(el => wv2Observer.observe(el));
 
-const ease = 0.05; // 🔥 lower = slower (0.05–0.12 ideal)
+  // ── 3. Auto-stagger: siblings that share the same reveal parent ──────────
+  // Any container with data-stagger gets its direct .reveal-scale/.reveal children
+  // assigned progressive data-delay values automatically.
+  document.querySelectorAll('[data-stagger]').forEach(container => {
+    const base = parseInt(container.dataset.stagger || 80, 10);
+    const children = container.querySelectorAll(':scope > .reveal, :scope > .reveal-scale');
+    children.forEach((child, i) => {
+      if (!child.dataset.delay) child.dataset.delay = i * base;
+    });
+  });
 
-function smoothScrollLoop() {
-  currentScroll += (targetScroll - currentScroll) * ease;
-
-  if (Math.abs(targetScroll - currentScroll) < 0.5) {
-    currentScroll = targetScroll;
-    isScrolling = false;
-    return;
-  }
-
-  window.scrollTo(0, currentScroll);
-  requestAnimationFrame(smoothScrollLoop);
-}
-
-window.addEventListener("wheel", (e) => {
-  e.preventDefault();
-
-  targetScroll += e.deltaY;
-  targetScroll = Math.max(
-    0,
-    Math.min(
-      targetScroll,
-      document.body.scrollHeight - window.innerHeight
-    )
-  );
-
-  if (!isScrolling) {
-    isScrolling = true;
-    requestAnimationFrame(smoothScrollLoop);
-  }
-}, { passive: false });*/
-
+})();

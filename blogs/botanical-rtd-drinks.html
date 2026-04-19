@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/logos/samley_logo.png">
+    <title>The Rise of Botanical, Low-Calorie RTD Drinks | Samley Teas</title>
+    <meta name="description" content="Why Samley Teas sees botanical RTD beverages as the next evolution in wellness drinking — insights on consumer demand, health trends, and Ceylon heritage." />
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/blogs.css" />
+    <link rel="stylesheet" href="assets/css/smooth.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Keychain Pixel -->
+    <script>
+    (function (config) {
+        'use strict';
+        if (!config.pixelId || !config.apiEndpoint || !config.cdn) { return; }
+        window.keychainPixel = window.keychainPixel || {};
+        var pixel = window.keychainPixel;
+        pixel.init = function () {
+            if (document.getElementById('__keychain_pixel__')) return;
+            var script = document.createElement('script');
+            script.async = true; script.type = 'text/javascript';
+            script.id = '__keychain_pixel__';
+            script.dataset.pixelId = config.pixelId;
+            script.dataset.apiEndpoint = config.apiEndpoint;
+            script.dataset.cdn = config.cdn;
+            script.src = config.cdn + '/keychain/pixel.js';
+            document.head.appendChild(script);
+        };
+        pixel.init();
+    })({ cdn: 'https://assets.keychain.com', apiEndpoint: 'https://pixel-edge.keychain.com', pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P' });
+    </script>
+
+    <style>
+        .article-page {
+            width: 100%;
+            background: #ffffff;
+        }
+
+        .article-inner {
+            width: 100%;
+            max-width: 800px;
+            margin-inline: auto;
+            padding: 48px 24px 96px;
+        }
+
+        /* Breadcrumb */
+        .article-breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 36px;
+            font-family: var(--font-body);
+        }
+        .article-breadcrumb a {
+            color: var(--color-primary, #00AE9C);
+            text-decoration: none;
+        }
+        .article-breadcrumb a:hover { text-decoration: underline; }
+        .article-breadcrumb-sep { color: #ccc; }
+
+        /* Header */
+        .article-header { margin-bottom: 36px; text-align: center; }
+
+        .article-category-badge {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--color-primary, #00AE9C);
+            background: rgba(0,174,156,0.08);
+            border-radius: 100px;
+            padding: 5px 16px;
+            margin-bottom: 20px;
+            font-family: var(--font-body);
+        }
+
+        .article-title {
+            font-size: clamp(1.7rem, 3.5vw, 2.6rem);
+            font-family: var(--font-heading);
+            color: var(--color-text-black, #231F20);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        .article-subtitle {
+            font-size: 1.05rem;
+            color: var(--color-text-muted, #6F7C7C);
+            font-family: var(--font-body);
+            font-style: italic;
+            line-height: 1.65;
+            margin-bottom: 20px;
+            max-width: 580px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 12px;
+            color: #aaa;
+            font-family: var(--font-body);
+            flex-wrap: wrap;
+        }
+        .article-meta-divider {
+            width: 3px; height: 3px;
+            border-radius: 50%;
+            background: #ccc;
+        }
+
+        /* Cover */
+        .article-cover {
+            width: 100%;
+            height: 460px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin: 40px 0 52px;
+            display: block;
+        }
+
+        /* Content */
+        .article-content p {
+            font-size: 1rem;
+            color: var(--color-text-black, #231F20);
+            line-height: 1.9;
+            margin-bottom: 24px;
+            font-family: var(--font-body);
+        }
+
+        .article-content h2 {
+            font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+            font-family: var(--font-heading);
+            color: var(--color-text-black, #231F20);
+            font-weight: 700;
+            margin: 48px 0 16px;
+            line-height: 1.3;
+        }
+
+        /* Callout */
+        .article-stat {
+            background: rgba(0,174,156,0.06);
+            border-left: 3px solid var(--color-primary, #00AE9C);
+            padding: 20px 24px;
+            border-radius: 0 10px 10px 0;
+            margin: 32px 0;
+        }
+        .article-stat p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--color-text-black, #231F20);
+            font-weight: 500;
+            line-height: 1.75;
+        }
+
+        /* Dividers */
+        .article-sources {
+            margin-top: 52px;
+            padding-top: 32px;
+            border-top: 1px solid #ebebeb;
+        }
+        .article-sources h4 {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #bbb;
+            font-family: var(--font-body);
+            margin-bottom: 14px;
+        }
+        .article-sources ul { list-style: none; padding: 0; margin: 0; }
+        .article-sources ul li {
+            font-size: 12px;
+            color: #bbb;
+            font-family: var(--font-body);
+            padding: 5px 0;
+            border-bottom: 1px solid #f4f4f4;
+        }
+        .article-sources ul li:last-child { border-bottom: none; }
+
+        /* Bottom panel */
+        .article-bottom-panel {
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid #ebebeb;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .article-tags-row { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+        .article-tags-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #bbb;
+            font-family: var(--font-body);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+        .article-tags-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .article-tag {
+            display: inline-block;
+            font-size: 11px;
+            color: var(--color-primary, #00AE9C);
+            border: 1px solid rgba(0,174,156,0.35);
+            border-radius: 100px;
+            padding: 4px 14px;
+            font-family: var(--font-body);
+        }
+
+        .article-cta-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            background: rgba(0,174,156,0.06);
+            border-radius: 14px;
+            padding: 22px 26px;
+        }
+        .article-cta-row p {
+            font-size: 0.9rem;
+            font-family: var(--font-body);
+            color: var(--color-text-muted, #6F7C7C);
+            margin: 0;
+            flex: 1;
+        }
+
+        /* Back to blogs */
+        .article-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            font-family: var(--font-body);
+            font-weight: 600;
+            color: var(--color-primary, #00AE9C);
+            text-decoration: none;
+            letter-spacing: 0.04em;
+        }
+        .article-back:hover { gap: 12px; }
+
+        @media (min-width: 768px) {
+            .article-inner { padding: 56px 48px 96px; }
+            .article-cover { height: 440px; }
+        }
+        @media (min-width: 1024px) {
+            .article-inner { padding: 64px 80px 120px; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="navbar"></header>
+
+    <!-- ARTICLE -->
+    <div class="article-page">
+        <div class="article-inner">
+
+            <!-- Breadcrumb -->
+            <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="article-breadcrumb-sep"><i class="bi bi-chevron-right"></i></span>
+                <a href="blogs.html">Blogs</a>
+                <span class="article-breadcrumb-sep"><i class="bi bi-chevron-right"></i></span>
+                <span>The Rise of Botanical RTD Drinks</span>
+            </nav>
+
+            <!-- Header -->
+            <header class="article-header">
+                <span class="article-category-badge">Industry Insights</span>
+                <h1 class="article-title">
+                    The Rise of Botanical, Low-Calorie RTD Drinks:<br>Insights From Samley Teas USA
+                </h1>
+                <p class="article-subtitle">
+                    Why Samley Teas sees botanical RTD beverages as the next evolution in wellness drinking
+                </p>
+                <div class="article-meta">
+                    <span>Samley Teas</span>
+                    <div class="article-meta-divider"></div>
+                    <span>April 18, 2026</span>
+                    <div class="article-meta-divider"></div>
+                    <span>7 min read</span>
+                </div>
+            </header>
+
+            <!-- Cover Image -->
+            <img
+                src="assets/images/Blogs Cover/The Rise of Botanical.jpeg"
+                alt="Botanical RTD Drinks — Samley Teas"
+                class="article-cover"
+                onerror="this.src='assets/images/New_Products_260411/Iced-Tea-Collection/matcha-sparkling-355ml.jpeg'"
+            />
+
+            <!-- Content -->
+            <article class="article-content">
+
+                <p>For the past decade, we've watched consumers make a quiet but unmistakable shift. They're reaching for something different. Not quite coffee, not quite juice, not quite what the traditional beverage aisle had to offer. What's happening isn't a trend that'll fade in a season or two. It's a fundamental rewiring of what people want from the drinks they consume.</p>
+
+                <p>The botanical ready-to-drink (RTD) beverage market is telling a story. According to recent market data, the global botanical beverages market reached USD 1.5 billion in 2024 and is projected to hit USD 2.4 billion by 2034, growing at a compound annual rate of 4.9%. But here's what matters more than the numbers: RTD botanical beverages dominated the market in 2024, capturing 48.20% of sales. Consumers aren't just warming up to this category. They're sprinting toward it.</p>
+
+                <p>As a Ceylon tea manufacturer rooted in botanical traditions that stretch back generations, we've always understood something fundamental: people crave authenticity in a bottle. They want to taste the ingredient, not the processing.</p>
+
+                <h2>The Health-Conscious Consumer Is Driving Real Change</h2>
+
+                <p>This shift isn't happening because of marketing campaigns. It's driven by something deeper. A significant portion of consumers, roughly 64%, now demand sugar-free and low-calorie RTD beverages. Niche is turning into mainstream.</p>
+
+                <div class="article-stat">
+                    <p>Global low-calorie RTD beverage sales increased at a compound annual growth rate of 4.9% between 2020 and 2024. Over 60% of new launches in 2023 featured nutritional claims like "low-cal" or "natural flavors."</p>
+                </div>
+
+                <p>Consider that for a moment. The beverage industry hasn't seen consumer demand this unified in years. Everybody, it seems, is moving in the same direction.</p>
+
+                <p>We see this in the numbers. We see this in conversations with partners in North America. We see this in retail, where supermarkets and hypermarkets captured 46.30% of the botanical beverage distribution channel in 2024. Shoppers want these products. They're walking into stores and buying them.</p>
+
+                <h2>Botanicals Are No Longer an Afterthought</h2>
+
+                <p>When we think about botanical ingredients, most people picture tea. That's understandable. But the category has exploded far beyond what any of us expected a few years ago. Over 100 new RTD beverage variants featured botanical ingredients like elderflower, lavender, and hibiscus in recent product launches. That's intentional formulation and companies building with purpose.</p>
+
+                <p>Popular RTD ingredients include green tea, ginger, ashwagandha, turmeric, and elderberry. These aren't trend-driven novelties. They're ingredients with documented consumer appreciation for their functional properties. Nearly 38% of new beverage innovations were driven by immunity-enhancing ingredients. People aren't just buying drinks anymore. They are buying intention.</p>
+
+                <p>For those of us with deep roots in tea manufacturing, this feels like validation. We've always believed that leaves, flowers, roots, and herbs contain something worth preserving. The market is finally catching up.</p>
+
+                <h2>What This Means for the Future</h2>
+
+                <p>The RTD botanical space is still in its growth phase. That doesn't mean wide open. It means competitive but not saturated. There's room to build brands that stand for something, to create products that match the quality people expect when they pick up a beverage in 2026 and beyond.</p>
+
+                <p>Our perspective, shaped by decades working with Ceylon's finest leaf and botanical ingredients, is that authenticity matters more in this category than anywhere else. Consumers can taste when you've cut corners. They know the difference between a real botanical blend and something that's merely flavored to approximate the experience.</p>
+
+                <p>The botanical RTD market is a reset. Consumers have decided they want something different from their beverages. They want lower calories, zero sugar options, real ingredients, and a genuine connection to what they're drinking. The numbers reflect this, and the momentum is real.</p>
+
+                <p>At Samley Teas, we've always believed that the best beverages start with respect for the ingredient. The market is finally agreeing with us.</p>
+
+                <!-- Sources -->
+                <div class="article-sources">
+                    <h4>Sources &amp; Market Data</h4>
+                    <ul>
+                        <li>Future Market Insights: Low-Calorie RTD Beverages Market (2025)</li>
+                        <li>Future Market Insights: Ready-to-Drink Tea Market (2025)</li>
+                        <li>Market Research: Botanical Beverages Market (August 2025)</li>
+                        <li>Fortune Business Insights: Non-Alcoholic RTD Beverages Market (2025)</li>
+                        <li>Fortune Business Insights: Ready-to-Drink Beverages Market (2025)</li>
+                    </ul>
+                </div>
+
+                <!-- Bottom panel -->
+                <div class="article-bottom-panel">
+
+                    <div class="article-tags-row">
+                        <span class="article-tags-label">Tags:</span>
+                        <div class="article-tags-list">
+                            <span class="article-tag">#RTD</span>
+                            <span class="article-tag">#Botanical</span>
+                            <span class="article-tag">#Wellness</span>
+                            <span class="article-tag">#Beverages</span>
+                            <span class="article-tag">#CeylonTea</span>
+                            <span class="article-tag">#LowCalorie</span>
+                        </div>
+                    </div>
+
+                    <div class="article-cta-row">
+                        <p>Discover Samley's botanical RTD beverages — crafted with real Ceylon tea and natural botanical ingredients.</p>
+                        <a href="products/iced-tea-collection/" class="btn-06">Explore Our RTD Range</a>
+                    </div>
+
+                    <a href="blogs.html" class="article-back">
+                        <i class="bi bi-arrow-left"></i> Back to all articles
+                    </a>
+
+                </div>
+
+            </article>
+        </div>
+    </div>
+
+    <!-- INSTAGRAM FEED -->
+    <section id="instagram-section"></section>
+
+    <!-- FOOTER -->
+    <footer id="footer"></footer>
+
+    <script src="./assets/js/include.js"></script>
+    <script src="./assets/js/navbar-dropdown.js"></script>
+    <script src="./assets/js/smooth-scroll.js"></script>
+
+</body>
+</html>

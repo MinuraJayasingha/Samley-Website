@@ -85,9 +85,6 @@ RewriteRule ^story\.html$ /about-samley-teas/ [R=301,L]
 # /wholesale.html → /wholesale/
 RewriteRule ^wholesale\.html$ /wholesale/ [R=301,L]
 
-# /blog/rise-of-botanical-rtd-drinks.html → /rise-of-botanical-rtd-drinks
-RewriteRule ^blog/rise-of-botanical-rtd-drinks\.html$ /rise-of-botanical-rtd-drinks [R=301,L]
-
 
 # =========================================
 # STOP REWRITING REAL FILES / FOLDERS
@@ -141,8 +138,3 @@ RewriteRule ^wholesale/?$ wholesale.html [L]
 
 RewriteRule ^products/([a-zA-Z0-9-]+)/?$ products.html?category=$1 [L,QSA]
 RewriteRule ^product/([a-zA-Z0-9-]+)/?$ product.html?slug=$1 [L,QSA]
-
-# =========================================
-# BLOG ARTICLE CLEAN URLS
-# =========================================
-RewriteRule ^rise-of-botanical-rtd-drinks/?$ blog/rise-of-botanical-rtd-drinks.html [L]

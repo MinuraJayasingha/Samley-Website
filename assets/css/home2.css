@@ -1,0 +1,239 @@
+/* home2.css — hero styles for hoomeduplicate.html */
+
+/* ── Hero Section ─────────────────────────────────────────────── */
+.h2hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 680px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+
+.h2hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.h2hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+}
+
+.h2hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 22, 20, 0.78) 0%,
+    rgba(0, 80, 70, 0.45) 55%,
+    rgba(10, 18, 16, 0.65) 100%
+  );
+}
+
+.h2hero-body {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+/* ── Content ──────────────────────────────────────────────────── */
+.h2hero-content {
+  max-width: 640px;
+}
+
+.h2hero-eyebrow {
+  display: inline-block;
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  border: 1px solid rgba(0, 174, 156, 0.4);
+  border-radius: 100px;
+  backdrop-filter: blur(4px);
+}
+
+.h2hero-heading {
+  font-family: var(--font-heading), serif;
+  font-size: clamp(3rem, 5.5vw, 5.2rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.02em;
+}
+
+.h2hero-heading em {
+  font-style: italic;
+  color: var(--color-primary);
+}
+
+.h2hero-desc {
+  font-family: var(--font-body), sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 36px 0;
+  max-width: 520px;
+}
+
+/* ── CTA Buttons ──────────────────────────────────────────────── */
+.h2hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.h2hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 100px;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.h2hero-btn--primary {
+  background: var(--color-primary);
+  color: #ffffff;
+  border: 2px solid var(--color-primary);
+}
+
+.h2hero-btn--primary:hover {
+  background: #009082;
+  border-color: #009082;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0, 174, 156, 0.38);
+  color: #ffffff;
+}
+
+.h2hero-btn--ghost {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+}
+
+.h2hero-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* ── Stats Row ────────────────────────────────────────────────── */
+.h2hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: auto;
+  padding-top: 56px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  width: 100%;
+  max-width: 640px;
+}
+
+.h2hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.h2hero-stat + .h2hero-stat {
+  padding-left: 32px;
+  margin-left: 32px;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.h2hero-stat-num {
+  font-family: var(--font-heading), serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.h2hero-stat-label {
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .h2hero-body {
+    padding: 0 24px;
+    padding-top: 100px;
+    padding-bottom: 56px;
+  }
+
+  .h2hero-heading {
+    font-size: clamp(2.4rem, 8vw, 3.2rem);
+  }
+
+  .h2hero-stats {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .h2hero-stat + .h2hero-stat {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+
+  .h2hero-stat-num {
+    font-size: 1.5rem;
+  }
+
+  .h2hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .h2hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .h2hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .h2hero-stat + .h2hero-stat {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+  }
+}

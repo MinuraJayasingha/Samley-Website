@@ -481,3 +481,187 @@
    ========================= */
 @media (min-width: 1400px) {
 }
+
+/* ============================================================
+   MEGA-MENU REDESIGN — desktop (≥992px)
+   ============================================================ */
+
+@keyframes megaMenuIn {
+    from { opacity: 0; transform: translateY(-14px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 992px) {
+
+    /* Panel — floating rounded box */
+    .nav-dropdown {
+        position: fixed !important;
+        top: 142px !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-inline: auto !important;
+        width: fit-content !important;
+        min-width: 900px !important;
+        max-width: 1180px !important;
+        height: auto !important;
+        background: #ffffff !important;
+        border-radius: 28px !important;
+        border: 1px solid rgba(0, 174, 156, 0.15) !important;
+        border-top: 3px solid var(--color-primary, #00AE9C) !important;
+        box-shadow: 0 24px 72px rgba(0,174,156,0.10), 0 8px 24px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.05) !important;
+        padding: 44px 56px 48px !important;
+        overflow: hidden !important;
+        z-index: 900 !important;
+    }
+
+    /* Decorative leaf blobs behind the content */
+    .nav-dropdown::before {
+        content: '' !important;
+        position: absolute !important;
+        top: -60px !important;
+        right: -60px !important;
+        width: 220px !important;
+        height: 220px !important;
+        background: radial-gradient(circle, rgba(0,174,156,0.08) 0%, transparent 70%) !important;
+        border-radius: 50% !important;
+        pointer-events: none !important;
+    }
+
+    .nav-dropdown::after {
+        content: '' !important;
+        position: absolute !important;
+        bottom: -50px !important;
+        left: -40px !important;
+        width: 180px !important;
+        height: 180px !important;
+        background: radial-gradient(circle, rgba(0,174,156,0.06) 0%, transparent 70%) !important;
+        border-radius: 50% !important;
+        pointer-events: none !important;
+    }
+
+    .nav-dropdown.show {
+        animation: megaMenuIn 0.32s cubic-bezier(0.22, 1, 0.36, 1) forwards !important;
+    }
+
+    /* Inner wrapper */
+    .dropdown-inner {
+        display: flex !important;
+        justify-content: center !important;
+        padding: 0 !important;
+        max-width: none !important;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+    /* Category columns */
+    .dropdown-menu {
+        display: grid !important;
+        grid-template-columns: repeat(6, auto) !important;
+        gap: 52px !important;
+        align-items: start !important;
+        width: auto !important;
+        justify-content: center !important;
+    }
+
+    .dropdown-group {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+    }
+
+    /* Category title */
+    .dropdown-title {
+        color: var(--color-primary, #00AE9C) !important;
+        font-family: var(--font-body), sans-serif !important;
+        font-size: 10px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.18em !important;
+        margin: 0 0 14px !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 7px !important;
+        white-space: nowrap !important;
+        padding-bottom: 10px !important;
+        border-bottom: 1px solid rgba(0,174,156,0.18) !important;
+        opacity: 0;
+        animation: megaMenuIn 0.4s cubic-bezier(0.22,1,0.36,1) 0.05s forwards;
+    }
+
+    .dropdown-title i {
+        font-size: 13px !important;
+        background: rgba(0,174,156,0.12) !important;
+        padding: 4px !important;
+        border-radius: 6px !important;
+    }
+
+    /* Links */
+    .dropdown-group .dropdown-list {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+        padding: 0 !important;
+    }
+
+    .dropdown-group .dropdown-list li {
+        opacity: 0;
+        animation: megaMenuIn 0.4s cubic-bezier(0.22,1,0.36,1) 0.1s forwards;
+    }
+
+    .dropdown-group .dropdown-list li:nth-child(2)  { animation-delay: 0.13s; }
+    .dropdown-group .dropdown-list li:nth-child(3)  { animation-delay: 0.16s; }
+    .dropdown-group .dropdown-list li:nth-child(4)  { animation-delay: 0.19s; }
+    .dropdown-group .dropdown-list li:nth-child(5)  { animation-delay: 0.22s; }
+    .dropdown-group .dropdown-list li:nth-child(6)  { animation-delay: 0.25s; }
+    .dropdown-group .dropdown-list li:nth-child(7)  { animation-delay: 0.28s; }
+    .dropdown-group .dropdown-list li:nth-child(8)  { animation-delay: 0.31s; }
+
+    .dropdown-group .dropdown-list li a {
+        color: #4a5e5b !important;
+        font-family: var(--font-body), sans-serif !important;
+        font-size: 13px !important;
+        padding: 6px 8px 6px 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+        text-transform: none !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+        transition: color 0.18s ease, padding-left 0.18s ease, gap 0.18s ease !important;
+        letter-spacing: 0 !important;
+        border-radius: 6px !important;
+    }
+
+    .dropdown-group .dropdown-list li a::before {
+        content: '' !important;
+        display: inline-block !important;
+        width: 4px !important;
+        height: 4px !important;
+        border-radius: 50% !important;
+        background: rgba(0,174,156,0.3) !important;
+        flex-shrink: 0 !important;
+        transition: background 0.18s ease, transform 0.18s ease !important;
+    }
+
+    .dropdown-group .dropdown-list li a:hover {
+        color: var(--color-primary, #00AE9C) !important;
+        padding-left: 4px !important;
+        text-decoration: none !important;
+    }
+
+    .dropdown-group .dropdown-list li a:hover::before {
+        background: var(--color-primary, #00AE9C) !important;
+        transform: scale(1.5) !important;
+    }
+
+    /* Arrow rotation */
+    .dropdown-toggle.open .dropdown-icon {
+        transform: rotate(180deg) !important;
+        color: var(--color-primary, #00AE9C) !important;
+    }
+
+    /* Tint nav label when open */
+    .nav-has-dropdown.dropdown-open > .nav-dropdown-toggle > .nav-link {
+        color: var(--color-primary, #00AE9C) !important;
+    }
+}

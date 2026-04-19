@@ -76,6 +76,9 @@ RewriteRule ^contact\.html$ /contact/ [R=301,L]
 # /blogs.html → /blogs/
 RewriteRule ^blogs\.html$ /blogs/ [R=301,L]
 
+# /blogs/ → serve blogs.html BEFORE directory check (blogs/ directory exists physically)
+RewriteRule ^blogs/?$ blogs.html [L]
+
 # /products.html → /products/
 RewriteRule ^products\.html$ /products/ [R=301,L]
 
@@ -126,7 +129,6 @@ RewriteRule ^products/?$ /products/%1/? [R=301,L]
 RewriteRule ^/?$ index.html [L]
 RewriteRule ^contact/?$ contact.html [L]
 RewriteRule ^about-samley-teas/?$ story.html [L]
-RewriteRule ^blogs/?$ blogs.html [L]
 RewriteCond %{REQUEST_URI} !^/products/[a-z0-9-]+/?$
 RewriteRule ^products/?$ products.html [L]
 RewriteRule ^wholesale/?$ wholesale.html [L]

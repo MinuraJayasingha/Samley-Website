@@ -521,6 +521,7 @@
 /* ── FAQ SECTION ──────────────────────────────────────────── */
 
 .ctv2-faq {
+    width: 100%;
     background: var(--color-bg-muted);
     padding: 80px 0;
 }

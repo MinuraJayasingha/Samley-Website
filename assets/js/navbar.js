@@ -27,6 +27,8 @@ async function loadCategories() {
         if (!list) return;
 
         main.subCategories.forEach(sub => {
+            if (sub.disabled) return;
+
             const li = document.createElement("li");
             const a = document.createElement("a");
 
@@ -57,15 +59,23 @@ const menu = document.querySelector(".navbar-menu");
 NAVBAR_LOG("Navbar UI initialized", "info");
 
 // Set active nav item based on current page
-const navLinks = document.querySelectorAll('.navbar-menu .nav-item a');
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+const navLinks = document.querySelectorAll('.navbar-menu > li.nav-item > a, .navbar-menu > li.nav-item > div > a.nav-link');
+const currentPage = (window.location.pathname.split('/').pop() || 'index.html').split('?')[0];
 
 navLinks.forEach(link => {
-    const linkPage = link.href.split('/').pop();
+    const rawHref = link.getAttribute('href');
+    if (!rawHref || rawHref === '#') return;
+    const linkPage = rawHref.split('/').pop().split('?')[0];
     if (linkPage === currentPage) {
         link.classList.add('active');
     }
 });
+
+// Mark "Our Products" active when on any products page
+if (currentPage === 'products.html' || currentPage === 'product.html') {
+    const productsItem = document.querySelector('.nav-has-dropdown .nav-link');
+    if (productsItem) productsItem.classList.add('active');
+}
 
 // PRODUCTS DROPDOWN (DESKTOP + MOBILE)
 function toggleDropdown(e) {

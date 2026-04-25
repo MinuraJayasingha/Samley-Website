@@ -67,9 +67,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Instagram (HTML only)
   await loadComponent("#instagram-section", "components/instagram.html");
 
-  // Collections highlight
-  await loadComponent("#collections-section", "components/collections-highlight.html");
-
   // Featured Categories (HTML + JS)
   await loadComponent(
     "#featured-categories-section",

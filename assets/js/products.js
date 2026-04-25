@@ -68,6 +68,14 @@ async function loadProducts() {
     /* ---------------- SUB CATEGORY OR MAIN CATEGORY (from category param) ---------------- */
 
     else if (categorySlug) {
+        // Redirect to products page if the category is disabled
+        const allSubs = categories.flatMap(m => m.subCategories);
+        const matchedSub = allSubs.find(s => s.slug === categorySlug);
+        if (matchedSub && matchedSub.disabled) {
+            window.location.replace("products.html");
+            return;
+        }
+
         // If it'"'"'s actually a main category, treat it as such
         if (isMainCategory) {
             await updateCategoryTitle(null, categorySlug);

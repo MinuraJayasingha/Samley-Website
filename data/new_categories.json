@@ -236,7 +236,8 @@
                 "slug": "ceylon-organic-spices-collection",
                 "title": "Ceylon Organic Spices",
                 "pagetitle": "Discover Ceylon Organic Spices",
-                "description": "space"
+                "description": "space",
+                "disabled": true
             }
         ]
     },

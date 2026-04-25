@@ -199,31 +199,31 @@
                         <h3 class="wiq-form-heading">Tell Us About<br>Your Business.</h3>
                         <p class="wiq-form-sub">Complete the form below and a member of our B2B team will respond within 24 hours with a tailored proposal.</p>
 
-                        <form class="wiq-form" novalidate>
+                        <form class="wiq-form" id="wholesale-form" novalidate>
                             <div class="wiq-form-row">
                                 <div class="wiq-field">
                                     <label class="wiq-label">Full Name <span class="wiq-req">*</span></label>
-                                    <input class="wiq-input" type="text" placeholder="Jane Smith" required>
+                                    <input class="wiq-input" type="text" name="full_name" placeholder="Jane Smith" required>
                                 </div>
                                 <div class="wiq-field">
                                     <label class="wiq-label">Work Email <span class="wiq-req">*</span></label>
-                                    <input class="wiq-input" type="email" placeholder="jane@yourbrand.com" required>
+                                    <input class="wiq-input" type="email" name="email" placeholder="jane@yourbrand.com" required>
                                 </div>
                             </div>
                             <div class="wiq-form-row">
                                 <div class="wiq-field">
                                     <label class="wiq-label">Company Name <span class="wiq-req">*</span></label>
-                                    <input class="wiq-input" type="text" placeholder="Your Company Ltd" required>
+                                    <input class="wiq-input" type="text" name="company_name" placeholder="Your Company Ltd" required>
                                 </div>
                                 <div class="wiq-field">
                                     <label class="wiq-label">Country / Region <span class="wiq-req">*</span></label>
-                                    <input class="wiq-input" type="text" placeholder="United Kingdom" required>
+                                    <input class="wiq-input" type="text" name="country" placeholder="United Kingdom" required>
                                 </div>
                             </div>
                             <div class="wiq-form-row">
                                 <div class="wiq-field">
                                     <label class="wiq-label">Business Type <span class="wiq-req">*</span></label>
-                                    <select class="wiq-input wiq-select" required>
+                                    <select class="wiq-input wiq-select" name="business_type" required>
                                         <option value="">Select your business type...</option>
                                         <option>Importer / Distributor</option>
                                         <option>Retail Chain / Supermarket</option>
@@ -235,7 +235,7 @@
                                 </div>
                                 <div class="wiq-field">
                                     <label class="wiq-label">Estimated Monthly Volume</label>
-                                    <select class="wiq-input wiq-select">
+                                    <select class="wiq-input wiq-select" name="monthly_volume">
                                         <option value="">Select a volume range...</option>
                                         <option>Under 100 kg</option>
                                         <option>100 – 500 kg</option>
@@ -248,22 +248,22 @@
                             <div class="wiq-field">
                                 <label class="wiq-label">Products of Interest</label>
                                 <div class="wiq-checkboxes">
-                                    <label class="wiq-check"><input type="checkbox"><span>Teas</span></label>
-                                    <label class="wiq-check"><input type="checkbox"><span>Beverages</span></label>
-                                    <label class="wiq-check"><input type="checkbox"><span>Organic Teas</span></label>
-                                    <label class="wiq-check"><input type="checkbox"><span>Organic Coconut</span></label>
-                                    <label class="wiq-check"><input type="checkbox"><span>Organic Spices</span></label>
-                                    <label class="wiq-check"><input type="checkbox"><span>Vanilla</span></label>
+                                    <label class="wiq-check"><input type="checkbox" name="products_interest" value="Teas"><span>Teas</span></label>
+                                    <label class="wiq-check"><input type="checkbox" name="products_interest" value="Beverages"><span>Beverages</span></label>
+                                    <label class="wiq-check"><input type="checkbox" name="products_interest" value="Organic Teas"><span>Organic Teas</span></label>
+                                    <label class="wiq-check"><input type="checkbox" name="products_interest" value="Organic Coconut"><span>Organic Coconut</span></label>
+                                    <label class="wiq-check"><input type="checkbox" name="products_interest" value="Organic Spices"><span>Organic Spices</span></label>
+                                    <label class="wiq-check"><input type="checkbox" name="products_interest" value="Vanilla"><span>Vanilla</span></label>
                                 </div>
                             </div>
                             <div class="wiq-field">
                                 <label class="wiq-label">Tell Us More About Your Requirements</label>
-                                <textarea class="wiq-input wiq-textarea" placeholder="Describe your needs, target markets, packaging preferences, certifications required, or any other details that will help us prepare a tailored proposal..."></textarea>
+                                <textarea class="wiq-input wiq-textarea" name="requirements" placeholder="Describe your needs, target markets, packaging preferences, certifications required, or any other details that will help us prepare a tailored proposal..."></textarea>
                             </div>
                             <div class="wiq-form-row">
                                 <div class="wiq-field">
                                     <label class="wiq-label">How Did You Hear About Us?</label>
-                                    <select class="wiq-input wiq-select">
+                                    <select class="wiq-input wiq-select" name="heard_about_us">
                                         <option value="">Select an option...</option>
                                         <option>Trade Show / Exhibition</option>
                                         <option>Google Search</option>
@@ -275,11 +275,12 @@
                                 </div>
                                 <div class="wiq-field">
                                     <label class="wiq-label">Phone Number</label>
-                                    <input class="wiq-input" type="tel" placeholder="+1 (000) 000 0000">
+                                    <input class="wiq-input" type="tel" name="phone" placeholder="+1 (000) 000 0000">
                                 </div>
                             </div>
                             <button type="submit" class="wiq-submit">Submit Wholesale Enquiry <i class="bi bi-arrow-right"></i></button>
                             <p class="wiq-form-note">By submitting this form you agree to our privacy policy. We'll never share your details with third parties.</p>
+                            <p class="wiq-form-feedback" id="wholesale-feedback" style="display:none;margin-top:1rem;font-weight:500;"></p>
                         </form>
                     </div>
 
@@ -354,12 +355,47 @@
     <script src="./assets/js/smooth-scroll.js"></script>
 
     <script>
-        document.querySelector('.wiq-form').addEventListener('submit', function (e) {
+        document.getElementById('wholesale-form').addEventListener('submit', async function (e) {
             e.preventDefault();
-            var btn = this.querySelector('.wiq-submit');
-            btn.textContent = 'Enquiry Submitted!';
-            btn.style.background = '#009b8a';
+            var form = this;
+            var btn = form.querySelector('.wiq-submit');
+            var feedback = document.getElementById('wholesale-feedback');
+            var originalHTML = btn.innerHTML;
+
             btn.disabled = true;
+            btn.innerHTML = 'Sending... <i class="bi bi-hourglass-split"></i>';
+
+            try {
+                var res = await fetch('https://formspree.io/f/mdaybvyr', {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (res.ok) {
+                    form.reset();
+                    btn.innerHTML = 'Enquiry Submitted! <i class="bi bi-check-lg"></i>';
+                    btn.style.background = '#16a34a';
+                    feedback.style.display = 'block';
+                    feedback.style.color = '#16a34a';
+                    feedback.textContent = "Thank you! Our B2B team will send you a tailored proposal within 24 hours.";
+                } else {
+                    var data = await res.json();
+                    btn.disabled = false;
+                    btn.innerHTML = originalHTML;
+                    feedback.style.display = 'block';
+                    feedback.style.color = '#dc2626';
+                    feedback.textContent = (data && data.errors)
+                        ? data.errors.map(function(e){ return e.message; }).join(', ')
+                        : 'Something went wrong. Please email us at info@samleyteas.lk';
+                }
+            } catch (err) {
+                btn.disabled = false;
+                btn.innerHTML = originalHTML;
+                feedback.style.display = 'block';
+                feedback.style.color = '#dc2626';
+                feedback.textContent = 'Something went wrong. Please email us at info@samleyteas.lk';
+            }
         });
     </script>
 

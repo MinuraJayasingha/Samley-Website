@@ -344,10 +344,13 @@
     .sts-origin-stat {
         flex: 1;
         padding-bottom: 0;
-        padding-right: 48px;
+        padding-right: 40px;
         border-bottom: none;
         border-right: 1px solid rgba(0,0,0,0.08);
         margin-right: 0;
+    }
+    .sts-origin-stat + .sts-origin-stat {
+        padding-left: 40px;
     }
     .sts-origin-stat:last-child {
         border-right: none;

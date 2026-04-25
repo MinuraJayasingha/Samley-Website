@@ -7,184 +7,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/assets/images/logos/samley_logo.png">
     <title>Product | Samley Teas (Pvt) Ltd</title>
-    <meta name="description" content="" id="meta-description"><!--* Meta description will be injected here */-->
+    <meta name="description" content="" id="meta-description">
 
-    <!-- Base Styles -->
     <link rel="stylesheet" href="/assets/css/base.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
-    <link rel="stylesheet" href="/assets/css/components.css?v=4" />
+    <link rel="stylesheet" href="/assets/css/components.css?v=5" />
     <link rel="stylesheet" href="/assets/css/smooth.css" />
+    <link rel="stylesheet" href="/assets/css/product-detail.css?v=2" />
 
-    <!-- Social Media Icon Links-->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
-    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
 
-    <!-- Keychain Pixel -->
     <script>
     (function (config) {
         'use strict';
-        if (!config.pixelId || !config.apiEndpoint || !config.cdn) {
-        if (typeof console !== 'undefined') {
-            console.error('[Keychain Pixel] Configuration incomplete');
-        }
-        return;
-        }
+        if (!config.pixelId || !config.apiEndpoint || !config.cdn) return;
         window.keychainPixel = window.keychainPixel || {};
         var pixel = window.keychainPixel;
         pixel.init = function () {
-        if (document.getElementById('__keychain_pixel__')) return;
-        var script = document.createElement('script');
-        script.async = true;
-        script.type = 'text/javascript';
-        script.id = '__keychain_pixel__';
-        script.dataset.pixelId = config.pixelId;
-        script.dataset.apiEndpoint = config.apiEndpoint;
-        script.dataset.cdn = config.cdn;
-        script.src = config.cdn + '/keychain/pixel.js';
-        document.head.appendChild(script);
+            if (document.getElementById('__keychain_pixel__')) return;
+            var script = document.createElement('script');
+            script.async = true; script.type = 'text/javascript';
+            script.id = '__keychain_pixel__';
+            script.dataset.pixelId = config.pixelId;
+            script.dataset.apiEndpoint = config.apiEndpoint;
+            script.dataset.cdn = config.cdn;
+            script.src = config.cdn + '/keychain/pixel.js';
+            document.head.appendChild(script);
         };
         pixel.init();
-    })({
-        cdn: 'https://assets.keychain.com',
-        apiEndpoint: 'https://pixel-edge.keychain.com',
-        pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P',
-    });
+    })({ cdn: 'https://assets.keychain.com', apiEndpoint: 'https://pixel-edge.keychain.com', pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P' });
     </script>
-    
 </head>
 
 <body>
 
-    <!-- HEADER -->
     <header id="navbar"></header>
 
-    <!-- MAIN -->
-    <main class="products-container-main ">
-        <div class="products-container">
+    <main class="pd-main">
 
-            <!-- Breadcrumb -->
-            <nav class="breadcrumb reveal-left">
+        <!-- Breadcrumb -->
+        <div class="pd-breadcrumb-wrap reveal-left">
+            <nav class="breadcrumb">
                 <ul class="breadcrumb-list">
                     <li><a href="/">Home</a></li>
-
-                    <li>
-                        <a href="/products/">Our Products</a>
-                    </li>
-
+                    <li><a href="/products/">Our Products</a></li>
                     <li id="breadcrumb-main-category"></li>
-
                     <li id="breadcrumb-sub-category"></li>
-
                     <li id="breadcrumb-product"></li>
                 </ul>
             </nav>
+        </div>
 
-            <!-- Product Section -->
-            <section class="product-detail reveal">
+        <!-- Product Hero -->
+        <section class="pd-hero reveal">
+            <div class="pd-wrap">
 
                 <!-- Gallery -->
-                <div class="product-gallery">
-                    <img src="" alt="" id="product-main-image">
-
-                    <div class="product-thumbnails">
-                        <!-- thumbnails injected here -->
+                <div class="pd-gallery">
+                    <div class="pd-gallery-main">
+                        <img id="product-main-image" src="" alt="" />
+                    </div>
+                    <div class="pd-gallery-thumbs" id="pd-gallery-thumbs">
+                        <!-- injected by JS -->
                     </div>
                 </div>
 
                 <!-- Info -->
-                <div class="product-info">
+                <div class="pd-info">
 
-                    <!-- Tags 
-                <ul class="product-tags" id="product-tags"></ul>-->
+                    <div class="pd-info-header">
+                        <ul class="pd-tags" id="product-tags"></ul>
+                        <h1 class="pd-title" id="product-title"></h1>
+                        <p class="pd-pack" id="product-pack"></p>
+                    </div>
 
-                    <!-- Title -->
-                    <h5 class="h5" id="product-title">Products</h5>
+                    <div class="pd-divider"></div>
 
-                    <!-- Short Description 
-                <p class="product-short-description p-m" id="product-short-description"></p>-->
-                    <!-- Long Description -->
-                    <div class="product-description p-s">
+                    <div class="pd-desc">
                         <p id="product-long-description"></p>
                     </div>
 
-                    <!-- Pack Info -->
-                    <p class="product-pack p-s" id="product-pack"></p>
+                    <div class="pd-divider"></div>
 
-                    <!-- Rating -->
-                    <div class="product-rating p-s">
-                        <span id="product-stars"></span>
-                        <span id="product-review-count"></span>
+                    <div class="pd-actions">
+                        <div class="pd-stock">
+                            <span class="pd-stock-dot"></span>
+                            <span>In Stock</span>
+                        </div>
+                        <a href="https://www.amazon.com/stores/SamleyTeas/page/B5E64399-D7D6-4FC4-AA86-3FDF67805945" target="_blank" class="pd-amazon-btn">
+                            <i class="bi bi-bag"></i>
+                            Shop on Amazon
+                        </a>
                     </div>
 
-                    <div class=" amazon-btn">
-                        <button class="btn-03">Shop On Amazon</button>
+                    <div class="pd-divider"></div>
+
+                    <ul class="pd-meta" id="product-meta"></ul>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Brand Promise Section -->
+        <section class="pd-brand">
+            <div class="pd-wrap">
+
+                <!-- Top: logo + tagline -->
+                <div class="pd-brand-top">
+                    <img src="/assets/images/logos/OurStory_Logo.png" alt="Samley Teas" class="pd-brand-logo" />
+                    <p class="pd-brand-tagline">Rooted in Origin. Refined by Expertise.</p>
+                </div>
+
+                <!-- Stats row -->
+                <div class="pd-brand-stats">
+                    <div class="pd-brand-stat">
+                        <span class="pd-brand-stat-num">10+</span>
+                        <span class="pd-brand-stat-label">Years of Craft</span>
                     </div>
-                    <p class="product-stock">IN STOCK</p>
+                    <div class="pd-brand-stat">
+                        <span class="pd-brand-stat-num">25+</span>
+                        <span class="pd-brand-stat-label">Countries Reached</span>
+                    </div>
+                    <div class="pd-brand-stat">
+                        <span class="pd-brand-stat-num">150+</span>
+                        <span class="pd-brand-stat-label">Unique Blends</span>
+                    </div>
+                    <div class="pd-brand-stat">
+                        <span class="pd-brand-stat-num">8</span>
+                        <span class="pd-brand-stat-label">Certifications</span>
+                    </div>
+                </div>
 
-                    <!-- Price 
-                    <p class="product-price" id="product-price"></p>-->
-
-                    <!-- Meta Info - Dynamically populated from JSON -->
-                    <ul class="product-meta" id="product-meta">
-                        <!-- Product metadata fields auto-populated here by JavaScript -->
-                    </ul>
-
+                <!-- 4 Pillars -->
+                <div class="pd-brand-pillars">
+                    <div class="pd-brand-pillar">
+                        <div class="pd-brand-pillar-icon"><i class="bi bi-geo-alt"></i></div>
+                        <span class="pd-brand-pillar-title">Single Origin</span>
+                        <span class="pd-brand-pillar-desc">100% Pure Ceylon Tea sourced from Sri Lanka's highland estates.</span>
+                    </div>
+                    <div class="pd-brand-pillar">
+                        <div class="pd-brand-pillar-icon"><i class="bi bi-award"></i></div>
+                        <span class="pd-brand-pillar-title">Master Crafted</span>
+                        <span class="pd-brand-pillar-desc">Every blend perfected by expert tasters for consistency and character.</span>
+                    </div>
+                    <div class="pd-brand-pillar">
+                        <div class="pd-brand-pillar-icon"><i class="bi bi-shield-check"></i></div>
+                        <span class="pd-brand-pillar-title">Certified Quality</span>
+                        <span class="pd-brand-pillar-desc">FSSC 22000, Fairtrade, USDA Organic, EU Organic &amp; more.</span>
+                    </div>
+                    <div class="pd-brand-pillar">
+                        <div class="pd-brand-pillar-icon"><i class="bi bi-tree-fill"></i></div>
+                        <span class="pd-brand-pillar-title">Net Zero 2040</span>
+                        <span class="pd-brand-pillar-desc">Carbon verified operations with on-site solar and responsible sourcing.</span>
+                    </div>
                 </div>
 
 
-
-                <!-- Features 
-            <div class="product-features-section">
-                <h3>Features</h3>
-                <ul id="product-features"></ul>-->
-
-        </div>
-        <!--Discription Section-->
-        <section class="product-discription reveal">
-            <div class="product-discription-main" id="product-discription-01">
-                <img src="/assets/images/componet/productpage/image01.png" alt="">
-            </div>
-            <div class="product-discription-main" id="product-discription-02">
-                <img src="/assets/images/componet/productpage/image02.png" alt="">
-            </div>
-            <div class="product-discription-main">
-                <div class="product-discription-sub" id="product-discription-03">
-                    <img src="/assets/images/componet/productpage/image03.png" alt="">
-                </div>
-                <div class="product-discription-sub" id="product-discription-04">
-                    <img src="/assets/images/componet/productpage/image04.png" alt="">
-                </div>
             </div>
         </section>
-        </section>
-        </div>
+
     </main>
 
-
-
-    <!-- EXPLORE OUR COLLECTION -->
+    <!-- Collections -->
     <section id="collections-section" class="collections-highlight"></section>
 
-    <!-- INSTAGRAM FEED -->
+    <!-- Instagram -->
     <section id="instagram-section"></section>
 
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer id="footer"></footer>
 
-    <!------------------------------------------------------------->
-    <!-------------------------- Script --------------------------->
-    <!------------------------------------------------------------->
     <script src="/assets/js/include.js"></script>
     <script src="/assets/js/product.js"></script>
     <script src="/assets/js/products.js"></script>
     <script src="/assets/js/smooth-scroll.js"></script>
 
 </body>
-
 </html>

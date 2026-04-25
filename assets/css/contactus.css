@@ -1,270 +1,860 @@
-    .contact-container {
-        padding: 30px 24px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+/* ============================================================
+   CONTACT PAGE — ctv2 (Contact V2)
+   ============================================================ */
+
+/* ── Hero Overrides ───────────────────────────────────────── */
+
+#hero_contact .hero_head em,
+#hero_contact .hero_head_mobile em {
+    font-style: italic;
+    color: var(--color-primary);
+}
+
+#hero_contact .hero_button_content div {
+    width: auto;
+}
+
+#hero_contact .btn-01,
+#hero_contact .btn-02 {
+    white-space: nowrap;
+    padding: 12px 28px;
+}
+
+/* ── Shared Utilities ─────────────────────────────────────── */
+
+.ctv2-wrap {
+    max-width: 1352px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.ctv2-eyebrow {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+}
+
+.ctv2-eyebrow--light {
+    color: rgba(0, 174, 156, 0.9);
+}
+
+/* ── INTRO SECTION ────────────────────────────────────────── */
+
+.ctv2-intro {
+    background: #fff;
+    padding: 72px 0 64px;
+}
+
+.ctv2-intro-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.ctv2-intro-heading {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 3vw + 1rem, 3rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--color-text-black);
+    margin-bottom: 1rem;
+}
+
+.ctv2-intro-heading em {
+    font-style: italic;
+    color: var(--color-primary);
+}
+
+.ctv2-intro-body {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-l);
+    color: var(--color-text-muted);
+    line-height: 1.75;
+    max-width: 480px;
+    margin-bottom: 2rem;
+}
+
+.ctv2-intro-stats {
+    display: flex;
+    gap: 36px;
+}
+
+.ctv2-intro-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctv2-stat-num {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+    font-weight: 500;
+    color: var(--color-primary);
+    line-height: 1;
+}
+
+.ctv2-stat-label {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+/* Promises column */
+.ctv2-promises {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ctv2-promise-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-l);
+    padding: 24px;
+    border-left: 3px solid var(--color-primary);
+}
+
+.ctv2-promise-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.ctv2-promise-title {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-xl);
+    font-weight: 600;
+    color: var(--color-text-black);
+    margin-bottom: 4px;
+}
+
+.ctv2-promise-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+}
+
+/* ── CONTACT FORM SECTION ─────────────────────────────────── */
+
+.ctv2-contact {
+    background: var(--color-bg-muted);
+    padding: 80px 0;
+}
+
+.ctv2-contact-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+/* Form side */
+.ctv2-form-side {
+    background: #fff;
+    border-radius: var(--radius-l);
+    padding: 40px 32px;
+    box-shadow: var(--shadow-soft);
+}
+
+.ctv2-form-heading {
+    font-family: var(--font-heading);
+    font-size: clamp(1.6rem, 2vw + 0.8rem, 2.25rem);
+    font-weight: 400;
+    color: var(--color-text-black);
+    line-height: 1.2;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.ctv2-form-sub {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-muted);
+    margin-bottom: 28px;
+}
+
+.ctv2-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ctv2-form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ctv2-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.ctv2-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    font-weight: 500;
+    color: var(--color-text-black);
+}
+
+.ctv2-input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: var(--radius-m);
+    border: 1.5px solid #e0e0e0;
+    background: #fff;
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-black);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    outline: none;
+}
+
+.ctv2-input::placeholder {
+    color: #aaa;
+}
+
+.ctv2-input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(0, 174, 156, 0.1);
+}
+
+.ctv2-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23aaa' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.ctv2-textarea {
+    min-height: 140px;
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.ctv2-submit {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px;
+    background: var(--color-primary);
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: var(--fs-p-m);
+    font-weight: 500;
+    border: none;
+    border-radius: var(--radius-m);
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+    align-self: flex-start;
+}
+
+.ctv2-submit:hover {
+    background: #009b8a;
+    transform: translateY(-1px);
+}
+
+/* Info side */
+.ctv2-info-side {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.ctv2-info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ctv2-info-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #fff;
+    border-radius: var(--radius-l);
+    padding: 18px 20px;
+    box-shadow: var(--shadow-soft);
+}
+
+.ctv2-info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    background: linear-gradient(135deg, #00AE9C 0%, #43A097 100%);
+    color: #fff;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.ctv2-info-label {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+    margin-bottom: 2px;
+}
+
+.ctv2-info-value {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-m);
+    font-weight: 500;
+    color: var(--color-text-black);
+}
+
+/* Info note box */
+.ctv2-info-note {
+    background: var(--color-primary);
+    background: linear-gradient(135deg, #00AE9C 0%, #007a6e 100%);
+    border-radius: var(--radius-l);
+    padding: 24px;
+    color: #fff;
+}
+
+.ctv2-info-note-head {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.ctv2-info-note-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    opacity: 0.88;
+    line-height: 1.6;
+}
+
+/* Socials */
+.ctv2-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ctv2-socials-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-muted);
+    font-weight: 500;
+}
+
+.ctv2-socials-row {
+    display: flex;
+    gap: 10px;
+}
+
+.ctv2-social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    color: var(--color-text-black);
+    font-size: 1rem;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.ctv2-social-btn:hover {
+    background: var(--color-primary);
+    color: #fff;
+    border-color: var(--color-primary);
+}
+
+/* ── GLOBAL OFFICES ───────────────────────────────────────── */
+
+.ctv2-offices {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.ctv2-offices-header {
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.ctv2-offices-heading {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 2.5vw + 1rem, 2.75rem);
+    font-weight: 400;
+    color: var(--color-text-black);
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.ctv2-offices-heading em {
+    font-style: italic;
+    color: var(--color-primary);
+}
+
+.ctv2-offices-sub {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-l);
+    color: var(--color-text-muted);
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.ctv2-offices-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ctv2-office-card {
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-l);
+    padding: 32px;
+    border: 1.5px solid transparent;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ctv2-office-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 8px 32px rgba(0, 174, 156, 0.12);
+}
+
+.ctv2-office-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.ctv2-office-flag {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.ctv2-office-badge {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 100px;
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.ctv2-office-badge--outline {
+    background: transparent;
+    border: 1.5px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.ctv2-office-country {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-text-black);
+    margin-bottom: 4px;
+}
+
+.ctv2-office-name {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-bottom: 12px;
+}
+
+.ctv2-office-address {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-muted);
+    font-style: normal;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.ctv2-office-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ctv2-office-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: var(--fs-p-s);
+    color: var(--color-text-black);
+    transition: color 0.2s ease;
+}
+
+.ctv2-office-link:hover {
+    color: var(--color-primary);
+}
+
+/* ── FAQ SECTION ──────────────────────────────────────────── */
+
+.ctv2-faq {
+    background: var(--color-bg-muted);
+    padding: 80px 0;
+}
+
+.ctv2-faq-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.ctv2-faq-left {
+    max-width: 420px;
+}
+
+.ctv2-faq-heading {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 2.5vw + 0.8rem, 2.5rem);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--color-text-black);
+    margin-bottom: 14px;
+    margin-top: 8px;
+}
+
+.ctv2-faq-heading em {
+    font-style: italic;
+    color: var(--color-primary);
+}
+
+.ctv2-faq-sub {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-l);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.ctv2-faq-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: var(--fs-p-m);
+    font-weight: 500;
+    color: var(--color-primary);
+    transition: gap 0.2s ease;
+}
+
+.ctv2-faq-cta:hover {
+    gap: 12px;
+}
+
+/* Accordion */
+.ctv2-faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.ctv2-faq-item {
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.ctv2-faq-q {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 22px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--font-body);
+    font-size: var(--fs-p-l);
+    font-weight: 500;
+    color: var(--color-text-black);
+    transition: color 0.2s ease;
+}
+
+.ctv2-faq-q:hover {
+    color: var(--color-primary);
+}
+
+.ctv2-faq-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+    color: var(--color-primary);
+    transition: transform 0.3s ease;
+}
+
+.ctv2-faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding: 0;
+}
+
+.ctv2-faq-a p {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-m);
+    color: var(--color-text-muted);
+    line-height: 1.75;
+    padding-bottom: 20px;
+}
+
+.ctv2-faq-item.open .ctv2-faq-a {
+    max-height: 300px;
+}
+
+.ctv2-faq-item.open .ctv2-faq-icon {
+    transform: rotate(45deg);
+}
+
+.ctv2-faq-item.open .ctv2-faq-q {
+    color: var(--color-primary);
+}
+
+/* ── WHOLESALE CTA ────────────────────────────────────────── */
+
+.ctv2-cta {
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctv2-cta-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.ctv2-cta-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+}
+
+.ctv2-cta-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.55) 60%, rgba(0,0,0,0.4) 100%);
+    z-index: 1;
+}
+
+.ctv2-cta-body {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 72px 24px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.ctv2-cta-heading {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 3vw + 1rem, 3rem);
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.ctv2-cta-heading em {
+    font-style: italic;
+    color: var(--color-primary);
+}
+
+.ctv2-cta-desc {
+    font-family: var(--font-body);
+    font-size: var(--fs-p-l);
+    color: rgba(255,255,255,0.8);
+    line-height: 1.7;
+    margin-bottom: 36px;
+}
+
+.ctv2-cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.ctv2-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: var(--radius-m);
+    font-family: var(--font-body);
+    font-size: var(--fs-p-m);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.ctv2-cta-btn--primary {
+    background: var(--color-primary);
+    color: #fff;
+    border: 2px solid var(--color-primary);
+}
+
+.ctv2-cta-btn--primary:hover {
+    background: #009b8a;
+    border-color: #009b8a;
+}
+
+.ctv2-cta-btn--ghost {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.6);
+}
+
+.ctv2-cta-btn--ghost:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: #fff;
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS
+   ============================================================ */
+
+/* ── ≥576px ───────────────────────────────────────────────── */
+@media (min-width: 576px) {
+    .ctv2-form-row {
+        flex-direction: row;
+    }
+}
+
+/* ── ≥768px ───────────────────────────────────────────────── */
+@media (min-width: 768px) {
+    .ctv2-intro-inner {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 64px;
     }
 
-    .contact-details {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
+    .ctv2-intro-left {
+        flex: 1;
+        min-width: 300px;
     }
 
-    .contact-form {
-        width: 100%;
-        padding-top: 30px;
+    .ctv2-promises {
+        flex: 1;
+        min-width: 300px;
     }
 
-    .contact-form form {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
+    .ctv2-contact-inner {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40px;
     }
 
-    .contact-heading {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
+    .ctv2-form-side {
+        flex: 1.4;
     }
 
-    .contact-heading h2 {
-        color: var(--color-text-secondary);
+    .ctv2-info-side {
+        flex: 0.85;
     }
 
-    .desktop-contact-data {
-        width: 100%;
-        display: none;
+    .ctv2-offices-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
     }
 
-    .mobile-contact-data {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding-top: 35px;
+    .ctv2-faq-inner {
+        flex-direction: row;
+        gap: 80px;
     }
 
-    .form-card {
-        display: flex;
-        align-items: start;
-        gap: 12px;
-        height: max-content;
-    }
-
-    .contact-circule {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 55px;
-        aspect-ratio: 1/1;
-        height: fit-content;
-        border-radius: 100px;
-        background: #00AE9C;
-        background: linear-gradient(90deg, rgb(0, 174, 157) 0%, rgb(67, 160, 151) 100%);
-    }
-
-    .contact-detail {
-        height: 100%;
-        width: max-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .contact-detail h5 {
-        font-size: var(--fs-p-xl);
-        color: var(--color-text-black);
-        font-family: var(--font-heading);
-    }
-
-    .contact-detail p {
-        font-size: var(--fs-p-s);
-        color: var(--color-text-black);
-        font-family: var(--font-body);
-    }
-
-    .contact-detail p span {
-        font-weight: 600;
-    }
-
-    .contact-detail .address {
-        gap: 15px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    /*----------------*/
-    .contact_card_form_group {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .contact_card_label {
-        color: var(--color-text-black);
-        font-family: var(--font-body);
-        font-size: var(--fs-p-s);
-        font-style: normal;
-        font-weight: 500;
-        line-height: 27px;
-    }
-
-    .contact_card_input,
-    .contact_card_textarea {
-        display: flex;
-        width: 100%;
-        padding: 8px 14px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+    .ctv2-faq-left {
         flex-shrink: 0;
-        align-self: stretch;
-        border-radius: 8px;
-        border: 1px solid #979ba1;
-        background: #FFF;
-        transition: border-color 0.2s ease;
+        width: 300px;
+        position: sticky;
+        top: 100px;
+        align-self: flex-start;
     }
 
-    .contact_card_input::placeholder,
-    .contact_card_textarea::placeholder {
-        color: #231f2084;
-        font-family: var(--font-body);
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
+    .ctv2-faq-list {
+        flex: 1;
+    }
+}
+
+/* ── ≥992px ───────────────────────────────────────────────── */
+@media (min-width: 992px) {
+    .ctv2-wrap {
+        padding: 0 48px;
     }
 
-    .contact_card_input:focus,
-    .contact_card_textarea:focus {
-        outline: none;
-        border-color: #d0d0d0;
+    .ctv2-intro {
+        padding: 96px 0 80px;
     }
 
-    .contact_card_textarea {
-        min-height: 100px;
-        resize: vertical;
+    .ctv2-contact {
+        padding: 96px 0;
     }
 
-    /* =========================
-   Small devices (≥576px)
-   ========================= */
-    @media (min-width: 576px) {
-        .contact-container {
-            padding: 30px 24px;
-        }
+    .ctv2-offices {
+        padding: 96px 0;
     }
 
-    /* =========================
-   Medium devices / Tablets (≥768px)
-   ========================= */
-    @media (min-width: 768px) {
-        .contact-container {
-            padding: 32px 36px;
-            display: flex;
-            flex-direction: row;
-            gap: 40px;
-        }
-
-        .contact-details {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: max-content;
-        }
-
-        .mobile-contact-data {
-            display: none;
-        }
-
-        .contact-circule {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 64px;
-            aspect-ratio: 1/1;
-            height: fit-content;
-            border-radius: 100px;
-            background: #00AE9C;
-            background: linear-gradient(90deg, rgb(0, 174, 157) 0%, rgb(67, 160, 151) 100%);
-        }
-
-        .contact-form {
-            width: 100%;
-            display: flex;
-            align-items: center;
-        }
-
-        .contact-form form {
-            width: 100%;
-            gap: 20px;
-        }
-
-        .desktop-contact-data {
-            padding-top: 30px;
-            display: flex;
-            flex-direction: column;
-            gap: 35px;
-        }
-
-        .contact_card_input,
-        .contact_card_textarea {
-            display: flex;
-            width: 100%;
-            padding: 12px 14px;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            flex-shrink: 0;
-            align-self: stretch;
-            border-radius: 8px;
-            border: 1px solid #979ba1;
-            background: #FFF;
-            transition: border-color 0.2s ease;
-        }
-
-        .contact_card_input::placeholder,
-        .contact_card_textarea::placeholder {
-            color: #231f2084;
-            font-family: var(--font-body);
-            font-size: var(--fs-p-s);
-            font-style: normal;
-            font-weight: 400;
-            line-height: 22px;
-        }
+    .ctv2-faq {
+        padding: 96px 0;
     }
 
-    .form-card {
-        display: flex;
-        align-items: start;
-        gap: 20px;
-        height: max-content;
+    .ctv2-form-side {
+        padding: 52px 48px;
+    }
+}
+
+/* ── ≥1200px ──────────────────────────────────────────────── */
+@media (min-width: 1200px) {
+    .ctv2-wrap {
+        padding: 0 64px;
     }
 
-    /* =========================
-   Large devices / Laptops (≥992px)
-   ========================= */
-    @media (min-width: 992px) {
-        .contact-container {
-            padding: 60px 80px;
-        }
+    .ctv2-faq-left {
+        width: 360px;
     }
+}
 
-    /* =========================
-   Extra large devices / Desktops (≥1200px)
-   ========================= */
-    @media (min-width: 1200px) {
-        .contact-container {
-            padding: 60px 80px;
-        }
+/* ── ≥1400px ──────────────────────────────────────────────── */
+@media (min-width: 1400px) {
+    .ctv2-wrap {
+        padding: 0 80px;
     }
-
-    /* =========================
-   2XL screens (≥1400px)
-   ========================= */
-    @media (min-width: 1400px) {
-        .contact-container {
-            padding: 80px 100px;
-        }
-    }
+}

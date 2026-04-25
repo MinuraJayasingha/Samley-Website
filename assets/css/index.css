@@ -2068,7 +2068,7 @@
 .gtv2-wrap {
     max-width: 1352px;
     margin-inline: auto;
-    padding-inline: max(24px, calc((100vw - 1352px) / 2));
+    padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
     display: flex;
     flex-direction: column;
     gap: 56px;
@@ -2324,6 +2324,169 @@
     margin: 4px 0 0;
 }
 
+/* ── Gift editorial grid ─────────────────────────────────── */
+.gtv2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin-bottom: 0;
+    padding-bottom: 64px;
+}
+
+/* Featured card spans 2 rows on left */
+.gtv2-gcard--featured {
+    grid-row: 1 / 3;
+}
+
+.gtv2-gcard {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    min-height: 240px;
+    display: block;
+    cursor: pointer;
+}
+
+.gtv2-gcard-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease;
+}
+
+.gtv2-gcard:hover .gtv2-gcard-bg {
+    transform: scale(1.04);
+}
+
+.gtv2-gcard-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(5,14,11,0.88) 0%,
+        rgba(5,14,11,0.3) 45%,
+        transparent 100%
+    );
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.gtv2-gcard:hover .gtv2-gcard-overlay {
+    background: linear-gradient(
+        to top,
+        rgba(5,14,11,0.92) 0%,
+        rgba(5,14,11,0.45) 50%,
+        rgba(5,14,11,0.1) 100%
+    );
+}
+
+.gtv2-gcard-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 22px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.gtv2-gcard-tag {
+    font-family: var(--font-body, sans-serif);
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-primary, #00AE9C);
+}
+
+.gtv2-gcard-name {
+    font-family: var(--font-heading, serif);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.gtv2-gcard--featured .gtv2-gcard-name {
+    font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+}
+
+.gtv2-gcard-cta {
+    font-family: var(--font-body, sans-serif);
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: rgba(255,255,255,0.5);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 4px;
+    transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.gtv2-gcard:hover .gtv2-gcard-cta {
+    color: #ffffff;
+    gap: 8px;
+}
+
+/* View all footer */
+.gtv2-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.gtv2-view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body, sans-serif);
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--color-text-black, #231F20);
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: var(--radius-m, 8px);
+    padding: 10px 24px;
+    text-decoration: none;
+    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.gtv2-view-all::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, transparent 25%, rgba(0,0,0,0.06) 50%, transparent 75%);
+    background-size: 250% 250%;
+    background-position: 200% 0;
+    transition: background-position 0.6s ease;
+}
+
+.gtv2-view-all:hover {
+    background: var(--color-text-black, #231F20);
+    color: #ffffff;
+    border-color: var(--color-text-black, #231F20);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .gtv2-grid {
+        grid-template-columns: 1.2fr 1fr 1fr;
+        grid-template-rows: 280px 280px;
+    }
+
+    .gtv2-gcard {
+        min-height: 0;
+    }
+}
+
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 860px) {
     .gtv2-hero {
@@ -2349,7 +2512,7 @@
 .chv2-inner {
     max-width: 1352px;
     margin-inline: auto;
-    padding-inline: max(24px, calc((100vw - 1352px) / 2));
+    padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 0;
@@ -2495,7 +2658,7 @@
 .ocv2-wrap {
     max-width: 1352px;
     margin-inline: auto;
-    padding-inline: max(24px, calc((100vw - 1352px) / 2));
+    padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -2714,7 +2877,7 @@
 .bev2-wrap {
     max-width: 1352px;
     margin-inline: auto;
-    padding-inline: max(24px, calc((100vw - 1352px) / 2));
+    padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
     display: flex;
     flex-direction: column;
     gap: 52px;
@@ -3056,7 +3219,7 @@
 .blv2-wrap {
     max-width: 1352px;
     margin-inline: auto;
-    padding-inline: max(24px, calc((100vw - 1352px) / 2));
+    padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -3529,7 +3692,7 @@
 .sdv2-wrap {
     max-width: 1352px;
     margin-inline: auto;
-    padding-inline: max(24px, calc((100vw - 1352px) / 2));
+    padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 560px;

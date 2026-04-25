@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/logos/samley_logo.png">
+    <title>Why Ceylon Tea Stands Alone | Samley Teas</title>
+    <meta name="description" content="The unique geography, climate, and century-old tradition that makes Sri Lankan tea unlike anything else on earth." />
+
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/blogs.css" />
+    <link rel="stylesheet" href="assets/css/smooth.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+    (function (config) {
+        'use strict';
+        if (!config.pixelId || !config.apiEndpoint || !config.cdn) { return; }
+        window.keychainPixel = window.keychainPixel || {};
+        var pixel = window.keychainPixel;
+        pixel.init = function () {
+            if (document.getElementById('__keychain_pixel__')) return;
+            var script = document.createElement('script');
+            script.async = true; script.type = 'text/javascript';
+            script.id = '__keychain_pixel__';
+            script.dataset.pixelId = config.pixelId;
+            script.dataset.apiEndpoint = config.apiEndpoint;
+            script.dataset.cdn = config.cdn;
+            script.src = config.cdn + '/keychain/pixel.js';
+            document.head.appendChild(script);
+        };
+        pixel.init();
+    })({ cdn: 'https://assets.keychain.com', apiEndpoint: 'https://pixel-edge.keychain.com', pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P' });
+    </script>
+
+    <style>
+        .article-inner { width: 100%; max-width: 800px; margin-inline: auto; padding: 48px 24px 96px; }
+        .article-breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #999; margin-bottom: 36px; font-family: var(--font-body); }
+        .article-breadcrumb a { color: var(--color-primary, #00AE9C); text-decoration: none; }
+        .article-breadcrumb a:hover { text-decoration: underline; }
+        .article-breadcrumb-sep { color: #ccc; }
+        .article-header { margin-bottom: 36px; text-align: center; }
+        .article-category-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-primary, #00AE9C); background: rgba(0,174,156,0.08); border-radius: 100px; padding: 5px 16px; margin-bottom: 20px; font-family: var(--font-body); }
+        .article-title { font-size: clamp(1.7rem, 3.5vw, 2.6rem); font-family: var(--font-heading); color: var(--color-text-black, #231F20); font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
+        .article-subtitle { font-size: 1.05rem; color: var(--color-text-muted, #6F7C7C); font-family: var(--font-body); font-style: italic; line-height: 1.65; margin-bottom: 20px; max-width: 580px; margin-left: auto; margin-right: auto; }
+        .article-meta { display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 12px; color: #aaa; font-family: var(--font-body); flex-wrap: wrap; }
+        .article-meta-divider { width: 3px; height: 3px; border-radius: 50%; background: #ccc; }
+        .article-cover { width: 100%; height: 460px; object-fit: cover; border-radius: 16px; margin: 40px 0 52px; display: block; }
+        .article-content p { font-size: 1rem; color: var(--color-text-black, #231F20); line-height: 1.9; margin-bottom: 24px; font-family: var(--font-body); }
+        .article-content h2 { font-size: clamp(1.2rem, 2.2vw, 1.55rem); font-family: var(--font-heading); color: var(--color-text-black, #231F20); font-weight: 700; margin: 48px 0 16px; line-height: 1.3; }
+        .article-content ul { margin: 0 0 24px 20px; }
+        .article-content ul li { font-size: 1rem; color: var(--color-text-black, #231F20); line-height: 1.9; margin-bottom: 8px; font-family: var(--font-body); }
+        .article-stat { background: rgba(0,174,156,0.06); border-left: 3px solid var(--color-primary, #00AE9C); padding: 20px 24px; border-radius: 0 10px 10px 0; margin: 32px 0; }
+        .article-stat p { margin: 0; font-size: 0.95rem; color: var(--color-text-black, #231F20); font-weight: 500; line-height: 1.75; }
+        .article-bottom-panel { margin-top: 48px; padding-top: 32px; border-top: 1px solid #ebebeb; display: flex; flex-direction: column; gap: 24px; }
+        .article-tags-row { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+        .article-tags-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #bbb; font-family: var(--font-body); padding-top: 5px; white-space: nowrap; }
+        .article-tags-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .article-tag { display: inline-block; font-size: 11px; color: var(--color-primary, #00AE9C); border: 1px solid rgba(0,174,156,0.35); border-radius: 100px; padding: 4px 14px; font-family: var(--font-body); }
+        .article-cta-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; background: rgba(0,174,156,0.06); border-radius: 14px; padding: 22px 26px; }
+        .article-cta-row p { font-size: 0.9rem; font-family: var(--font-body); color: var(--color-text-muted, #6F7C7C); margin: 0; flex: 1; }
+        .article-back { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-family: var(--font-body); font-weight: 600; color: var(--color-primary, #00AE9C); text-decoration: none; letter-spacing: 0.04em; }
+        .article-back:hover { gap: 12px; }
+        @media (min-width: 768px) { .article-inner { padding: 56px 48px 96px; } .article-cover { height: 440px; } }
+        @media (min-width: 1024px) { .article-inner { padding: 64px 80px 120px; } }
+    </style>
+</head>
+<body>
+    <header id="navbar"></header>
+
+    <main>
+        <div class="article-inner">
+
+            <div class="article-breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="article-breadcrumb-sep">/</span>
+                <a href="blogs.html">Tea Stories &amp; Insights</a>
+                <span class="article-breadcrumb-sep">/</span>
+                <span>Why Ceylon Tea Stands Alone</span>
+            </div>
+
+            <header class="article-header">
+                <span class="article-category-badge">Origin Story</span>
+                <h1 class="article-title">Why Ceylon Tea Stands Alone</h1>
+                <p class="article-subtitle">The unique geography, climate, and century-old tradition that makes Sri Lankan tea unlike anything else on earth.</p>
+                <div class="article-meta">
+                    <span>By Samley Teas</span>
+                    <span class="article-meta-divider"></span>
+                    <span>4 min read</span>
+                </div>
+            </header>
+
+            <img class="article-cover" src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80" alt="Ceylon Tea Highlands" onerror="this.style.display='none'" />
+
+            <div class="article-content">
+
+                <p>Sri Lanka, once known as Ceylon, has built a global reputation for producing some of the finest tea in the world. For over a century, Ceylon tea has been recognized for its bright flavor, unique aroma, and exceptional quality. It is more than a national export — it is a symbol of heritage, craftsmanship, and natural beauty.</p>
+
+                <p>Tea from Sri Lanka stands apart because of its geography, climate, history, and dedication to quality. Every region in the country contributes a distinct character to the tea it produces. From misty mountain estates to lowland plantations near the coast, Sri Lankan tea reflects the land from which it comes.</p>
+
+                <p>For tea lovers worldwide, Ceylon tea offers something rare: consistency in quality while maintaining unique regional differences.</p>
+
+                <h2>The History of Ceylon Tea</h2>
+
+                <p>The story of Ceylon tea began in the 19th century. During the British colonial period, coffee plantations dominated the island's agricultural industry. However, a devastating coffee leaf disease destroyed many plantations.</p>
+
+                <p>This challenge opened the door to tea cultivation. Scottish planter James Taylor is widely credited with introducing commercial tea farming to Sri Lanka. His efforts helped establish the foundation for what would become one of the country's most important industries.</p>
+
+                <p>Tea estates quickly expanded across the highlands, supported by ideal climate conditions and fertile soil. Over time, Sri Lanka gained international recognition for producing tea with distinctive quality and flavor.</p>
+
+                <h2>Geography Creates Flavor</h2>
+
+                <p>One of the biggest reasons Ceylon tea stands out is geography. Sri Lanka's varied landscape creates multiple tea-growing regions, each producing different flavor profiles.</p>
+
+                <p>Tea estates are generally divided into high-grown, mid-grown, and low-grown categories:</p>
+
+                <ul>
+                    <li>High-grown tea comes from elevated mountain regions such as Nuwara Eliya and Uva.</li>
+                    <li>Mid-grown tea is cultivated in areas like Kandy.</li>
+                    <li>Low-grown tea grows in warmer regions closer to sea level.</li>
+                </ul>
+
+                <p>High-grown teas are often light, delicate, and floral. Mid-grown teas provide balance and body, while low-grown teas tend to be richer and stronger.</p>
+
+                <div class="article-stat">
+                    <p>"This variety allows Sri Lanka to offer tea for every preference, making it unique compared to countries with fewer climate variations."</p>
+                </div>
+
+                <h2>Climate Matters</h2>
+
+                <p>Sri Lanka benefits from a tropical climate combined with seasonal rainfall and cool mountain air. These natural conditions help tea plants grow slowly, allowing more flavor to develop in the leaves.</p>
+
+                <p>The country experiences two monsoon seasons, which affect tea production differently across regions. As weather patterns shift, tea quality and flavor evolve throughout the year.</p>
+
+                <p>Tea produced during certain seasons is especially prized for its aroma and brightness. For example, teas harvested during dry periods often have stronger and more concentrated flavors.</p>
+
+                <h2>Handpicked Quality</h2>
+
+                <p>A defining feature of Sri Lankan tea production is careful handpicking. Skilled tea pluckers select the freshest leaves and buds, ensuring high-quality harvests.</p>
+
+                <p>The "two leaves and a bud" method is commonly used, where only the youngest and most delicate parts of the tea plant are collected. This helps maintain consistency and flavor.</p>
+
+                <p>After harvesting, tea leaves go through several stages including withering, rolling, oxidation, drying, and sorting. Each step influences the final taste and appearance.</p>
+
+                <h2>Global Recognition</h2>
+
+                <p>Ceylon tea is recognized worldwide for its purity and quality. Many premium tea brands highlight the "Pure Ceylon Tea" mark as a guarantee of authenticity.</p>
+
+                <p>Tea drinkers often choose Ceylon tea because of its clean taste and bright color. It pairs well with milk, lemon, spices, or enjoyed on its own.</p>
+
+                <p>Exported to countries across Europe, the Middle East, Asia, and North America, Sri Lankan tea has become part of daily routines around the world.</p>
+
+                <h2>More Than a Beverage</h2>
+
+                <p>For Sri Lanka, tea is deeply connected to culture and livelihood. Tea plantations support thousands of workers and communities across the island.</p>
+
+                <p>Tea is also part of local hospitality. Offering a cup of tea is a gesture of warmth and welcome.</p>
+
+                <p>The connection between land, people, and tradition gives Ceylon tea a story that extends beyond flavor. It represents generations of expertise and care.</p>
+
+                <h2>A Tea Unlike Any Other</h2>
+
+                <p>Ceylon tea stands alone because it combines history, geography, craftsmanship, and authenticity. Its flavors reflect the landscapes of Sri Lanka, while its reputation reflects decades of dedication.</p>
+
+                <p>For anyone exploring the world of tea, Ceylon tea is more than a category — it is an experience. Every cup carries the character of the island where it was grown.</p>
+
+            </div>
+
+            <div class="article-bottom-panel">
+                <div class="article-tags-row">
+                    <span class="article-tags-label">Tags</span>
+                    <div class="article-tags-list">
+                        <span class="article-tag">Origin Story</span>
+                        <span class="article-tag">Ceylon Tea</span>
+                        <span class="article-tag">Sri Lanka</span>
+                        <span class="article-tag">Heritage</span>
+                    </div>
+                </div>
+                <div class="article-cta-row">
+                    <p>Discover the teas grown in Sri Lanka's legendary highlands — curated and crafted by Samley.</p>
+                    <a href="products/tea/" class="btn-01">Shop Ceylon Tea</a>
+                </div>
+                <a href="blogs.html" class="article-back"><i class="bi bi-arrow-left"></i> Back to Tea Stories</a>
+            </div>
+
+        </div>
+    </main>
+
+    <section id="instagram-section"></section>
+    <footer id="footer"></footer>
+
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+</body>
+</html>

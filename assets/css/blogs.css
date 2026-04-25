@@ -877,6 +877,120 @@
     margin: 0;
 }
 
+/* ── New blog card style ──────────────────────────────────── */
+.blg-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.07);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.blg-card:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.09);
+    transform: translateY(-4px);
+}
+
+.blg-card-img-wrap {
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    background: #F3EFE8;
+}
+
+.blg-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.blg-card:hover .blg-card-img {
+    transform: scale(1.04);
+}
+
+.blg-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 22px 24px;
+    flex: 1;
+}
+
+.blg-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blg-card-tag {
+    font-family: var(--font-body), sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-primary, #00AE9C);
+    background: rgba(0,174,156,0.08);
+    border-radius: 100px;
+    padding: 3px 10px;
+}
+
+.blg-card-time {
+    font-family: var(--font-body), sans-serif;
+    font-size: 0.72rem;
+    color: rgba(0,0,0,0.35);
+}
+
+.blg-card-title {
+    font-family: var(--font-heading), serif;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    font-weight: 400;
+    color: var(--color-text-black, #231F20);
+    line-height: 1.3;
+    margin: 0;
+}
+
+.blg-card-title a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease;
+}
+
+.blg-card-title a:hover {
+    color: var(--color-primary, #00AE9C);
+}
+
+.blg-card-desc {
+    font-family: var(--font-body), sans-serif;
+    font-size: 0.82rem;
+    line-height: 1.7;
+    color: var(--color-text-muted, #6F7C7C);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+}
+
+.blg-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-body), sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-primary, #00AE9C);
+    text-decoration: none;
+    margin-top: 4px;
+    transition: gap 0.2s ease;
+}
+
+.blg-card-link:hover { gap: 10px; }
+
 /* ── Responsive ── */
 @media (max-width: 1024px) {
     .blg-featured-layout { grid-template-columns: 1fr; }

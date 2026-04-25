@@ -8,393 +8,508 @@
     <link rel="icon" type="image/png" href="assets/images/logos/samley_logo.png">
     <title>Privacy Policy | Samley Teas (Pvt) Ltd</title>
 
-    <!-- Base Styles -->
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/components.css?v=4" />
-    <link rel="stylesheet" href="assets/css/contactus.css" />
+    <link rel="stylesheet" href="assets/css/components.css?v=5" />
     <link rel="stylesheet" href="assets/css/smooth.css" />
-
-    <!-- Social Media Icon Links-->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
-    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
-    <!-- Keychain Pixel -->
     <script>
     (function (config) {
         'use strict';
-        if (!config.pixelId || !config.apiEndpoint || !config.cdn) {
-        if (typeof console !== 'undefined') {
-            console.error('[Keychain Pixel] Configuration incomplete');
-        }
-        return;
-        }
+        if (!config.pixelId || !config.apiEndpoint || !config.cdn) return;
         window.keychainPixel = window.keychainPixel || {};
         var pixel = window.keychainPixel;
         pixel.init = function () {
-        if (document.getElementById('__keychain_pixel__')) return;
-        var script = document.createElement('script');
-        script.async = true;
-        script.type = 'text/javascript';
-        script.id = '__keychain_pixel__';
-        script.dataset.pixelId = config.pixelId;
-        script.dataset.apiEndpoint = config.apiEndpoint;
-        script.dataset.cdn = config.cdn;
-        script.src = config.cdn + '/keychain/pixel.js';
-        document.head.appendChild(script);
+            if (document.getElementById('__keychain_pixel__')) return;
+            var script = document.createElement('script');
+            script.async = true; script.type = 'text/javascript';
+            script.id = '__keychain_pixel__';
+            script.dataset.pixelId = config.pixelId;
+            script.dataset.apiEndpoint = config.apiEndpoint;
+            script.dataset.cdn = config.cdn;
+            script.src = config.cdn + '/keychain/pixel.js';
+            document.head.appendChild(script);
         };
         pixel.init();
-    })({
-        cdn: 'https://assets.keychain.com',
-        apiEndpoint: 'https://pixel-edge.keychain.com',
-        pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P',
-    });
+    })({ cdn: 'https://assets.keychain.com', apiEndpoint: 'https://pixel-edge.keychain.com', pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P' });
     </script>
 
     <style>
-        /* ==============================
-   PRIVACY POLICY – SAMLEY STYLE
-============================== */
+        /* ── Page shell ── */
+        .pp-page { width: 100%; background: #ffffff; }
 
-        .privacy-policy {
-            background-color: #ffffff;
-            padding: 60px 20px;
+        /* ── Hero header ── */
+        .pp-hero {
+            background: #0D1A16;
+            padding-block: 80px 72px;
+            position: relative;
+            overflow: hidden;
         }
 
-        .privacy-wrapper {
-            max-width: 800px;
-            margin: 0 auto;
+        .pp-hero::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: var(--color-primary, #00AE9C);
         }
 
-        /* Page title */
-        .privacy-wrapper h2 {
-            font-family: var(--font-heading);
-            text-align: center;
-            margin-bottom: 40px;
+        .pp-hero-inner {
+            max-width: 1352px;
+            margin-inline: auto;
+            padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
         }
 
-        /* Section blocks */
-        .policy-section {
-            margin-bottom: 40px;
-        }
-
-        hr {
-            margin: 10px 0 20px 0px;
-            color: #f7f7f7;
-            border: #ababab solid 0.1px;
-        }
-
-        /* Section headings */
-        .privacy-wrapper h5 {
-            font-size: 20px;
+        .pp-hero-eyebrow {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.68rem;
             font-weight: 600;
-            margin-bottom: 12px;
-            color: var(--color-text-black);
-            margin: 20px 0 10px 0;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--color-primary, #00AE9C);
+            display: block;
+            margin-bottom: 16px;
         }
 
-        /* Paragraphs */
-        .policy-section p {
-            font-size: 15px;
+        .pp-hero-title {
+            font-family: var(--font-heading), serif;
+            font-size: clamp(2.2rem, 4vw, 3.6rem);
+            font-weight: 400;
+            color: #ffffff;
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+
+        .pp-hero-title em {
+            font-style: italic;
+            color: var(--color-primary, #00AE9C);
+        }
+
+        .pp-hero-sub {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.88rem;
             line-height: 1.75;
-            color: #374151;
-            margin-bottom: 14px;
-            text-align: justify;
+            color: rgba(255,255,255,0.45);
+            margin: 0;
+            max-width: 520px;
         }
 
-        /* Lists */
-        .privacy-wrapper ul {
-            padding-left: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-size: var(--fs-p-s) !important;
+        /* ── Content body ── */
+        .pp-body {
+            max-width: 1352px;
+            margin-inline: auto;
+            padding-inline: max(24px, min(72px, calc((100vw - 1352px) / 2)));
+            padding-block: 72px 96px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0;
         }
 
-        .policy-section ul li {
-            font-size: var(--fs-p-s) !important;
-            line-height: 1;
-            color: #374151;
-            content: "-";
+        /* ── Table of contents ── */
+        .pp-toc {
+            background: #F7F4EE;
+            border-radius: 16px;
+            padding: 28px 32px;
+            margin-bottom: 56px;
         }
 
-        /* Highlight text */
-        .policy-section strong {
-            color: #111827;
+        .pp-toc-title {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.68rem;
             font-weight: 600;
-            font-size: var(--fs-p-s) !important;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--color-primary, #00AE9C);
+            margin: 0 0 14px;
         }
 
-        /* Contact block */
-        .policy-contact {
+        .pp-toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 32px;
+        }
+
+        .pp-toc-list li a {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.8rem;
+            color: var(--color-text-muted, #6F7C7C);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: color 0.2s ease;
+        }
+
+        .pp-toc-list li a:hover { color: var(--color-primary, #00AE9C); }
+
+        /* ── Sections ── */
+        .pp-section {
+            padding-top: 48px;
+            border-top: 1px solid rgba(0,0,0,0.07);
+            margin-bottom: 0;
+            scroll-margin-top: 100px;
+        }
+
+        .pp-section:first-of-type { border-top: none; padding-top: 0; }
+
+        .pp-section-num {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.62rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--color-primary, #00AE9C);
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .pp-section h2 {
+            font-family: var(--font-heading), serif;
+            font-size: clamp(1.2rem, 2vw, 1.5rem);
+            font-weight: 400;
+            color: var(--color-text-black, #231F20);
+            line-height: 1.2;
+            margin: 0 0 18px;
+        }
+
+        .pp-section p {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.85;
+            color: var(--color-text-muted, #6F7C7C);
+            margin: 0 0 14px;
+        }
+
+        .pp-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 12px 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .pp-section ul li {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.88rem;
+            line-height: 1.7;
+            color: var(--color-text-muted, #6F7C7C);
+            padding-left: 18px;
+            position: relative;
+        }
+
+        .pp-section ul li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--color-primary, #00AE9C);
+            font-size: 0.7rem;
+            top: 4px;
+        }
+
+        .pp-section strong {
+            color: var(--color-text-black, #231F20);
+            font-weight: 500;
+        }
+
+        /* ── Contact cards ── */
+        .pp-contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
             margin-top: 20px;
         }
 
-        .policy-contact p {
-            margin-bottom: 1px;
+        .pp-contact-card {
+            border: 1px solid rgba(0,0,0,0.08);
+            border-radius: 12px;
+            padding: 20px 24px;
         }
 
-        /* Divider line */
-        .policy-divider {
-            height: 1px;
-            background: #e5e7eb;
-            margin: 50px 0;
+        .pp-contact-card-label {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--color-primary, #00AE9C);
+            margin: 0 0 8px;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .privacy-wrapper h2 {
-                font-size: 32px;
-            }
+        .pp-contact-card p {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.85rem;
+            line-height: 1.65;
+            color: var(--color-text-muted, #6F7C7C);
+            margin: 0;
+        }
 
-            .policy-section h3 {
-                font-size: 18px;
-            }
+        .pp-contact-card p strong {
+            color: var(--color-text-black, #231F20);
+            font-weight: 500;
+        }
 
-            .policy-section p,
-            .policy-section ul li {
-                font-size: 14px;
-            }
+        /* ── Closing pledge ── */
+        .pp-pledge {
+            margin-top: 56px;
+            background: #0D1A16;
+            border-radius: 20px;
+            padding: 40px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .pp-pledge-eyebrow {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--color-primary, #00AE9C);
+        }
+
+        .pp-pledge-text {
+            font-family: var(--font-heading), serif;
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            font-weight: 400;
+            font-style: italic;
+            color: rgba(255,255,255,0.8);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .pp-pledge-sub {
+            font-family: var(--font-body), sans-serif;
+            font-size: 0.82rem;
+            line-height: 1.75;
+            color: rgba(255,255,255,0.4);
+            margin: 0;
+        }
+
+        /* ── Responsive ── */
+        @media (min-width: 768px) {
+            .pp-toc-list { grid-template-columns: repeat(3, 1fr); }
+            .pp-contact-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        @media (min-width: 992px) {
+            .pp-body { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 
 <body>
-
-    <!-- HEADER -->
     <header id="navbar"></header>
 
-    <!-- MAIN CONTENT -->
-    <main class="main">
+    <main class="pp-page">
 
-        <section class="privacy-policy reveal">
-            <div class="privacy-wrapper">
-                <h2 class="h2 text-center reveal">Privacy Policy</h2>
+        <!-- Hero -->
+        <section class="pp-hero">
+            <div class="pp-hero-inner">
+                <span class="pp-hero-eyebrow">Legal</span>
+                <h1 class="pp-hero-title">Privacy <em>Policy.</em></h1>
+                <p class="pp-hero-sub">At Samley Teas, we value your privacy and are committed to protecting the personal information you share with us. This policy explains how we collect, use, and safeguard your data.</p>
+            </div>
+        </section>
 
-                <p class="p-s justify-text">
-                    At Samley Teas, we value your privacy and are committed to protecting the personal information
-                    you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard
-                    your data when you visit our website, contact us, or interact with our services.
-                    <br>
-                    By using our website, you acknowledge that you have read and understood this Privacy Policy and
-                    consent to the practices described below.
-                    <br>
-                </p>
-                <hr>
-                <h5 class="h5 ">1. Who We Are</h5>
-                <p class="p-s justify-text">
-                    Samley Teas (Pvt) Ltd is a global tea company based in Sri Lanka, sharing the rich heritage and
-                    authentic taste of Ceylon Tea with the world. This policy applies to all Samley Teas branches
-                    and subsidiaries, including those operating under:<br>
+        <!-- Body -->
+        <div class="pp-body">
 
-
-                <ul>
-                    <li><strong>Samley Teas (Pvt) Ltd</strong> – Sri Lanka</li>
-                    <li><strong>Samley Teas USA LLC</strong> – United States</li>
-                    <li><strong>Samley Teas LLC</strong> – Russia</li>
+            <!-- Table of contents -->
+            <div class="pp-toc">
+                <p class="pp-toc-title">Contents</p>
+                <ul class="pp-toc-list">
+                    <li><a href="#s1">1. Who We Are</a></li>
+                    <li><a href="#s2">2. Information We Collect</a></li>
+                    <li><a href="#s3">3. How We Use Your Information</a></li>
+                    <li><a href="#s4">4. Cookies &amp; Analytics</a></li>
+                    <li><a href="#s5">5. Data Sharing &amp; Disclosure</a></li>
+                    <li><a href="#s6">6. Data Storage &amp; Security</a></li>
+                    <li><a href="#s7">7. Data Retention</a></li>
+                    <li><a href="#s8">8. International Data Transfers</a></li>
+                    <li><a href="#s9">9. Your Rights</a></li>
+                    <li><a href="#s10">10. Children's Privacy</a></li>
+                    <li><a href="#s11">11. Third-Party Links</a></li>
+                    <li><a href="#s12">12. Updates to This Policy</a></li>
+                    <li><a href="#s13">13. Contact Us</a></li>
                 </ul>
+            </div>
 
-                For privacy-related inquiries, you can contact us via <b>info@samleyteas.lk.</b>
-                </p>
-                <hr>
-
-                <h5 class="h5">2. Information We Collect</h5>
-                <p class="p-m justify-text">
-                    We collect information only when necessary to communicate with you, improve our services, or
-                    maintain our relationship.
-                    <br>
-                    <b>(a) Personal Information You Provide Directly:</b><br>
-                    When you interact with us, we may collect:
-
+            <!-- Sections -->
+            <div class="pp-section" id="s1">
+                <span class="pp-section-num">01</span>
+                <h2>Who We Are</h2>
+                <p>Samley Teas (Pvt) Ltd is a global tea company based in Sri Lanka, sharing the rich heritage and authentic taste of Ceylon Tea with the world. This policy applies to all Samley Teas branches and subsidiaries, including:</p>
                 <ul>
-                    <li> Full name and contact details (email, phone number, address)</li>
-                    <li> Business or organization details (for trade inquiries or partnerships)</li>
-                    <li>Any messages, inquiries, or feedback you submit through our forms or email</li>
+                    <li><strong>Samley Teas (Pvt) Ltd</strong> — Sri Lanka</li>
+                    <li><strong>Samley Teas USA LLC</strong> — United States</li>
+                    <li><strong>Samley Teas LLC</strong> — Russia</li>
                 </ul>
+                <p>For privacy-related inquiries, contact us at <strong>info@samleyteas.lk</strong></p>
+            </div>
 
-                <b>(b) Automatically Collected Information:</b>
-                When you browse our website, certain data may be collected automatically through cookies or
-                analytics tools, including:
-
+            <div class="pp-section" id="s2">
+                <span class="pp-section-num">02</span>
+                <h2>Information We Collect</h2>
+                <p>We collect information only when necessary to communicate with you, improve our services, or maintain our relationship.</p>
+                <p><strong>Personal Information You Provide Directly:</strong></p>
                 <ul>
-                    <li> Your IP address and location</li>
-                    <li> Browser type and version</li>
-                    <li>Device type and operating system</li>
+                    <li>Full name and contact details (email, phone number, address)</li>
+                    <li>Business or organization details (for trade inquiries or partnerships)</li>
+                    <li>Any messages, inquiries, or feedback submitted through our forms or email</li>
+                </ul>
+                <p><strong>Automatically Collected Information:</strong></p>
+                <ul>
+                    <li>Your IP address and location</li>
+                    <li>Browser type, version, and device type</li>
                     <li>Pages viewed, time spent, and navigation patterns</li>
                 </ul>
+            </div>
 
-                This helps us understand how visitors use our website and improve overall user experience.
-                </p>
-                <hr>
-
-                <h5 class="h5">3. How We Use Your Information</h5>
-                <p class="p-s justify-text">
-                    We use your information for legitimate business purposes, including to:
+            <div class="pp-section" id="s3">
+                <span class="pp-section-num">03</span>
+                <h2>How We Use Your Information</h2>
+                <p>We use your information for legitimate business purposes, including to:</p>
                 <ul>
-                    <li> Respond to your inquiries or requestsn</li>
-                    <li> Manage customer or partner communications</li>
-                    <li> Send updates, product information, or newsletters (only if you’ve opted in)</li>
-                    <li> Improve our website functionality and content relevance</li>
-                    <li> Comply with legal or regulatory requirements</li>
+                    <li>Respond to your inquiries or requests</li>
+                    <li>Manage customer or partner communications</li>
+                    <li>Send updates, product information, or newsletters (only if you've opted in)</li>
+                    <li>Improve our website functionality and content relevance</li>
+                    <li>Comply with legal or regulatory requirements</li>
                 </ul>
-                We do not collect more information than needed and never use it for unrelated purposes.
-                </p>
-                <hr>
+                <p>We do not collect more information than needed and never use it for unrelated purposes.</p>
+            </div>
 
-                <h5 class="h5">4. Cookies and Analytics</h5>
-                <p class="p-s justify-text">
-                    Our website uses cookies small text files placed on your device to enhance your browsing
-                    experience and analyze site performance.
-                    <br>
-                    <strong>Types of cookies we use:</strong>
+            <div class="pp-section" id="s4">
+                <span class="pp-section-num">04</span>
+                <h2>Cookies &amp; Analytics</h2>
+                <p>Our website uses cookies — small text files placed on your device — to enhance your browsing experience and analyze site performance.</p>
                 <ul>
-                    <li>Essential cookies: Required for website functionality</li>
-                    <li>Performance cookies: Help us measure and improve user experience</li>
-                    <li>Preference cookies: Remember your settings or language choice</li>
+                    <li><strong>Essential cookies:</strong> Required for website functionality</li>
+                    <li><strong>Performance cookies:</strong> Help us measure and improve user experience</li>
+                    <li><strong>Preference cookies:</strong> Remember your settings or language choice</li>
                 </ul>
-                </p>
-                <hr>
+            </div>
 
-                <h5 class="h5">5. Data Sharing and Disclosure</h5>
-                <p class="p-s justify-text">
-                    We respect your privacy and do not sell, rent, or trade personal data.
-
-                    Your information may only be shared with:
+            <div class="pp-section" id="s5">
+                <span class="pp-section-num">05</span>
+                <h2>Data Sharing &amp; Disclosure</h2>
+                <p>We respect your privacy and do not sell, rent, or trade personal data. Your information may only be shared with:</p>
                 <ul>
-                    <li><strong>Trusted service providers</strong> (e.g., hosting, analytics, or email platforms) who
-                        help us operate our
-                        website securely</li>
-                    <li> <strong>Legal or regulatory authorities</strong> when required by law or in response to valid
-                        legal requests
-                    </li>
+                    <li><strong>Trusted service providers</strong> (e.g., hosting, analytics, or email platforms) who help us operate our website securely</li>
+                    <li><strong>Legal or regulatory authorities</strong> when required by law or in response to valid legal requests</li>
                 </ul>
-                All service partners are contractually bound to maintain confidentiality and data protection
-                standards.
-                </p>
-                <hr>
+                <p>All service partners are contractually bound to maintain confidentiality and data protection standards.</p>
+            </div>
 
-                <h5 class="h5">6. Data Storage and Security</h5>
-                <p class="p-s justify-text">
-                    We store your data securely using encrypted systems and restricted access controls. Our security
-                    measures include:
-
+            <div class="pp-section" id="s6">
+                <span class="pp-section-num">06</span>
+                <h2>Data Storage &amp; Security</h2>
+                <p>We store your data securely using encrypted systems and restricted access controls. Our security measures include:</p>
                 <ul>
-                    <li>
-                        Firewalls and SSL encryption</li>
+                    <li>Firewalls and SSL encryption</li>
                     <li>Regular data security audits</li>
                     <li>Limited employee access to sensitive information</li>
                 </ul>
+                <p>While no online system is 100% secure, we take every reasonable step to protect your personal data from unauthorized access, loss, or misuse.</p>
+            </div>
 
-                While no online system is 100% secure, we take every reasonable step to protect your personal
-                data from unauthorized access, loss, or misuse.
-                </p>
-                <hr>
+            <div class="pp-section" id="s7">
+                <span class="pp-section-num">07</span>
+                <h2>Data Retention</h2>
+                <p>We retain personal information only as long as necessary for the purposes it was collected or as required by law. Once data is no longer needed, it is securely deleted or anonymized.</p>
+            </div>
 
-                <h5 class="h5">7. Data Retention</h5>
-                <p class="p-s justify-text">
-                    We retain personal information only as long as necessary for the purposes it was collected or as
-                    required by law.
-                    Once data is no longer needed, it is securely deleted or anonymized.
-                </p>
-                <hr>
+            <div class="pp-section" id="s8">
+                <span class="pp-section-num">08</span>
+                <h2>International Data Transfers</h2>
+                <p>As Samley Teas operates globally, your information may be processed in multiple countries, including Sri Lanka, the United States, and Russia. In all cases, we ensure that data is handled securely and in compliance with applicable privacy regulations.</p>
+            </div>
 
-                <h5 class="h5">8. International Data Transfers</h5>
-                <p class="p-s justify-text">
-                    As Samley Teas operates globally, your information may be processed in multiple countries,
-                    including Sri Lanka, the United States, and Russia.
-                    In all cases, we ensure that data is handled securely and in compliance with applicable privacy
-                    regulations.
-                </p>
-                <hr>
-
-                <h5 class="h5">9. Your Rights</h5>
-                <p class="p-s justify-text">
-                    Depending on your location, you may have certain rights regarding your personal data, including
-                    the right to:
+            <div class="pp-section" id="s9">
+                <span class="pp-section-num">09</span>
+                <h2>Your Rights</h2>
+                <p>Depending on your location, you may have certain rights regarding your personal data, including the right to:</p>
                 <ul>
-                    <li> Access a copy of the data we hold about you</li>
+                    <li>Access a copy of the data we hold about you</li>
                     <li>Request correction of inaccurate or incomplete data</li>
                     <li>Request deletion of your personal information</li>
                     <li>Withdraw consent for marketing communications</li>
                 </ul>
-                To exercise these rights, please contact us at <strong>info@samleyteas.lk.</strong>
-                We aim to respond to all requests within 30 working days.
-                </p>
-                <hr>
+                <p>To exercise these rights, please contact us at <strong>info@samleyteas.lk</strong>. We aim to respond to all requests within 30 working days.</p>
+            </div>
 
-                <h5 class="h5">10. Children’s Privacy</h5>
-                <p class="p-s justify-text">
-                    Our website is not directed toward children under 16 years of age.
-                    We do not knowingly collect or store information from minors. If we discover such data, it will
-                    be promptly deleted.
-                </p>
-                <hr>
+            <div class="pp-section" id="s10">
+                <span class="pp-section-num">10</span>
+                <h2>Children's Privacy</h2>
+                <p>Our website is not directed toward children under 16 years of age. We do not knowingly collect or store information from minors. If we discover such data, it will be promptly deleted.</p>
+            </div>
 
-                <h5 class="h5">11. Third-Party Links</h5>
-                <p class="p-s justify-text"></p>
-                Our website may include links to external websites for your convenience.
-                Please note that we are not responsible for the content, security, or privacy practices of those
-                sites. We recommend reviewing their privacy policies separately.
-                </p>
-                <hr>
+            <div class="pp-section" id="s11">
+                <span class="pp-section-num">11</span>
+                <h2>Third-Party Links</h2>
+                <p>Our website may include links to external websites for your convenience. Please note that we are not responsible for the content, security, or privacy practices of those sites. We recommend reviewing their privacy policies separately.</p>
+            </div>
 
-                <h5 class="h5">12. Updates to This Policy</h5>
-                <p class="p-s justify-text">
-                    We may update this Privacy Policy from time to time to reflect changes in our operations, legal
-                    obligations, or best practices.
-                    The latest version will always be available on this page, with the effective date clearly
-                    stated.
-                </p>
-                <hr>
+            <div class="pp-section" id="s12">
+                <span class="pp-section-num">12</span>
+                <h2>Updates to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time to reflect changes in our operations, legal obligations, or best practices. The latest version will always be available on this page, with the effective date clearly stated.</p>
+            </div>
 
-                <h5 class="h5">13. Contact Us</h5>
-                <div class="policy-contact">
-                    <p><strong>Sri Lanka (Head Office)</strong></p>
-                    <p>Samley Teas (Pvt) Ltd</p>
-                    <p>No. 43, Mulleriyawa North, Mulleriyawa, Sri Lanka</p>
-                    <p>+94 112 578 056</p>
-                    <p>info@samleyteas.lk</p>
-                </div>
-
-                <div class="policy-contact">
-                    <p><strong>United States</strong></p>
-                    <p>Samley Teas USA LLC</p>
-                    <p>1032 E Brandon BLVD, Brandon, FL 33511, USA</p>
-                </div>
-
-                <div class="policy-contact">
-                    <p><strong>Russia</strong></p>
-                    <p>Samley Teas LLC</p>
-                    <p>191002, St. Petersburg City</p>
+            <div class="pp-section" id="s13">
+                <span class="pp-section-num">13</span>
+                <h2>Contact Us</h2>
+                <div class="pp-contact-grid">
+                    <div class="pp-contact-card">
+                        <p class="pp-contact-card-label">Sri Lanka — Head Office</p>
+                        <p><strong>Samley Teas (Pvt) Ltd</strong><br>No. 43, Mulleriyawa North,<br>Mulleriyawa, Sri Lanka<br>+94 112 578 056<br>info@samleyteas.lk</p>
+                    </div>
+                    <div class="pp-contact-card">
+                        <p class="pp-contact-card-label">United States</p>
+                        <p><strong>Samley Teas USA LLC</strong><br>1032 E Brandon BLVD,<br>Brandon, FL 33511, USA</p>
+                    </div>
+                    <div class="pp-contact-card">
+                        <p class="pp-contact-card-label">Russia</p>
+                        <p><strong>Samley Teas LLC</strong><br>191002, St. Petersburg City</p>
+                    </div>
                 </div>
             </div>
-            <hr>
-            
-            <h5 class="h5">Your Trust, Our Commitment</h5>
-            <p class="p-s justify-text"></p>
-            At Samley Teas, we believe privacy is not just about compliance – it’s about respect.<br>
-            Your trust inspires us to keep improving, protecting, and sharing the finest Ceylon Tea experiences
-            responsibly.
-            </p>
-            <hr>
-        </section>
+
+            <!-- Closing pledge -->
+            <div class="pp-pledge">
+                <span class="pp-pledge-eyebrow">Our Commitment</span>
+                <p class="pp-pledge-text">"Privacy is not just about compliance — it's about respect."</p>
+                <p class="pp-pledge-sub">Your trust inspires us to keep improving, protecting, and sharing the finest Ceylon Tea experiences responsibly. At Samley Teas, we believe your data should be handled with the same care we put into every cup.</p>
+            </div>
+
+        </div>
 
     </main>
 
-    <!-- FOOTER -->
     <footer id="footer"></footer>
 
-    <!------------------------------------------------------------->
-    <!-------------------------- Script --------------------------->
-    <!------------------------------------------------------------->
-    <script src="./assets/js/include.js"></script>
-    <script src="./assets/js/smooth-scroll.js"></script>
-
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script>
+        document.querySelectorAll('.pp-toc-list a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
 </body>
-
 </html>

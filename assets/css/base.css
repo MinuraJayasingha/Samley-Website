@@ -12,12 +12,13 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
-    /* 1rem = 16px */
+    overflow-x: hidden;
 }
 
 body {
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 img,
@@ -481,5 +482,25 @@ body {
 @media (min-width: 1400px) {
     .container {
         padding: 0 100px;
+    }
+}
+
+/* =========================
+   Large screens (≥1600px)
+   ========================= */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 0 120px;
+    }
+}
+
+/* =========================
+   2K / Ultra-wide (≥1920px)
+   ========================= */
+@media (min-width: 1920px) {
+    .container {
+        padding: 0 160px;
     }
 }

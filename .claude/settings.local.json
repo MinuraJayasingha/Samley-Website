@@ -16,7 +16,31 @@
       "Bash(awk 'NR>=2338 && NR<=2352 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
       "Bash(awk 'NR>=1891 && NR<=1930 {print NR\": \"$0}' \"/Users/virajfernando/Desktop/Samley Web/Samley-Website-main/assets/css/index.css\")",
       "WebSearch",
-      "WebFetch(domain:unsplash.com)"
+      "WebFetch(domain:unsplash.com)",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(open http://localhost:8080)",
+      "Bash(open http://localhost:8080/contact.html)",
+      "Bash(open http://localhost:8080/wholesale-inquiry.html)",
+      "Bash(open http://localhost:8080/story.html)",
+      "Bash(sed -n '2891,2900p' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(sed -n '3941,3960p' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(sed -n '1555,1600p' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(sed -n '1600,1640p' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(sed -i '' 's/padding-inline: max\\(24px, calc\\(\\(100vw - 1352px\\) \\\\/ 2\\)\\);/padding-inline: max\\(24px, min\\(72px, calc\\(\\(100vw - 1352px\\) \\\\/ 2\\)\\)\\);/g' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(sed -i '' 's/padding-inline: max\\(24px, calc\\(\\(100vw - 1352px\\) \\\\/ 2\\)\\);/padding-inline: max\\(24px, min\\(72px, calc\\(\\(100vw - 1352px\\) \\\\/ 2\\)\\)\\);/g' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/story2.css)",
+      "Bash(open http://localhost:8080/index.html)",
+      "Bash(grep -nE \"width: [0-9]{4,}px|padding-left: [0-9]{3,}px|padding-right: [0-9]{3,}px|max-width: [0-9]{4,}px\" /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(grep -n \"^\\\\.[a-z0-9\\\\-]*-section {$\\\\|^\\\\.[a-z0-9\\\\-]*-wrap {$\\\\|^\\\\.[a-z0-9\\\\-]*-container {$\" /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(grep -n \"^\\\\.featured-products {$\" /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(awk -F: '$2 ~ /padding.*[0-9]{3}px/ {print}')",
+      "Bash(grep -E \"padding: [0-9]{2,}px|padding: [0-9]{1,2}px [0-9]{2,}px|padding-top:|padding-bottom:|padding-left:|padding-right:\" /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(grep -n \"\\\\..*-section\\\\s*{\\\\|\\\\..*-wrapper\\\\s*{\" /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(awk '/@media.*min-width/{in_mq=1; mq_line=NR} in_mq && /padding.*[78][0-9][0-9]px|padding.*1[0-4][0-9]px/{print NR\": \"$0} /^}/ && in_mq && NR>mq_line+50{in_mq=0}' /Users/virajfernando/Desktop/Samley-Website-main/assets/css/index.css)",
+      "Bash(grep -rn \"Free shipping\\\\|free shipping\\\\|\\\\$85\" /Users/virajfernando/Desktop/Samley-Website-main/ --include=\"*.html\")",
+      "Bash(textutil -convert txt \"AAA Profile .docx\" -output \"AAA Profile.txt\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(c['title'], '-', c.get\\('slug',''\\)\\) for c in data.get\\('categories', data\\) if isinstance\\(data, list\\) or True]\")",
+      "Bash(textutil -convert txt \"ORGANIC TEA IN PACKETS.docx\" -output \"organic_packets.txt\")",
+      "Bash(textutil -convert txt \"GOURMET RANGE-NEW PRINTED .docx\" -output \"gourmet.txt\")"
     ]
   }
 }

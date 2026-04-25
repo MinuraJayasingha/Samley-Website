@@ -1,54 +1,47 @@
-
-// Story data object
 const storyData = {
     Purpose: {
         tag: "Purpose",
         heading: "Elevating Lives, Nurturing Communities",
-        content: "Inspiring individuals through innovative products and meaningful experiences, while fostering deep engagement among our valued stakeholders. Our purpose is to help build thriving, sustainable communities where people enjoy healthier, more connected lives — one sip at a time.",
-        slogan: "Infusing Inspiration, Nourishing Connection",
-        image: "assets/images/samples/C01.png"
+        content: "At Samley, we are driven by a singular purpose: Elevating Lives, Nurturing Communities. We inspire individuals through innovative products and meaningful experiences, foster deep engagement among our stakeholders, and cultivate thriving, sustainable communities where people lead healthier, more connected lives — one sip at a time.",
+        slogan: "Infusing Inspiration, Nourishing Connection — Sip, Savour, Thrive.",
+        image: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=1400&q=90"
     },
     People: {
         tag: "People",
-        heading: "Empowering Our Team",
-        content: "Our people are at the heart of everything we do. We believe in creating an inclusive workplace where diverse talents thrive. We invest in continuous learning, wellness programs, and career development to ensure our team members feel valued and inspired.",
-        slogan: "People First, Always Growing",
-        image: "assets/images/samples/C02.png"
+        heading: "People Are at Our Centre",
+        content: "From plantation partners to global distributors, from factory floor teams to end consumers — our ecosystem is built on mutual respect and shared growth. We take pride in fostering gender inclusivity and empowering women within manufacturing, administration, and quality control functions. 60% of our workforce comprises women, including at key managerial positions.",
+        slogan: "People First. Always Growing.",
+        image: "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=1400&q=90"
     },
     "Corporate Governance": {
         tag: "Corporate Governance",
-        heading: "Building Trust Through Transparency",
-        content: "We maintain the highest standards of corporate governance to ensure accountability and transparency. Our board is committed to ethical decision-making, fair business practices, and protecting the interests of all stakeholders.",
-        slogan: "Governance with Purpose",
-        image: "assets/images/samples/C03.png"
+        heading: "Structured Oversight & Accountability",
+        content: "Samley is committed to responsible corporate stewardship. We are in the process of establishing structured oversight committees inclusive of Independent Non-Executive Directors. We prioritize full legal compliance, food safety protocols, occupational health & safety, anti-bribery practices, and transparent commercial conduct. We uphold fairness, traceability, and documentation integrity in every transaction.",
+        slogan: "Governance with Purpose. Integrity is Non-Negotiable.",
+        image: "assets/images/samples/LS_session-114673-scaled.jpg"
     },
     "Ethics & Compliance": {
         tag: "Ethics & Compliance",
         heading: "Doing the Right Thing",
-        content: "Ethics is not just a policy—it's our culture. We are committed to conducting business with integrity, following all applicable laws and regulations, and maintaining the highest moral standards in everything we do.",
-        slogan: "Integrity in Every Action",
-        image: "assets/images/samples/C04.png"
+        content: "Our operations are governed by internationally recognized certifications: FSSC 22000, FDA, GMP, Fairtrade International, SEDEX, USDA Organic, EU Organic, and Carbon Verified. These validate our structured approach to food safety management, responsible sourcing, labour ethics, environmental protection, and supply chain traceability.",
+        slogan: "Integrity in Every Action. Compliance in Every Transaction.",
+        image: "assets/images/samples/LS_session-114719-scaled.jpg"
     },
     Environment: {
         tag: "Environment",
-        heading: "Protecting Our Planet",
-        content: "Sustainability is central to our mission. We are dedicated to reducing our environmental footprint, promoting renewable resources, and creating sustainable practices across our operations to protect the planet for future generations.",
-        slogan: "Green Tomorrow, Today",
-        image: "assets/images/samples/C05.png"
+        heading: "Carbon Verified. Net Zero by 2040.",
+        content: "Samley is carbon verified, with documented assessment of our operational emissions profile. We have implemented on-site solar panel installations and continuous energy efficiency improvements. We continuously enhance waste minimisation, packaging efficiency, and responsible material sourcing. Samley has formally committed to achieving Net Zero Carbon by 2040, supported by measurable milestones and progressive reduction strategies.",
+        slogan: "Preserving the Highlands That Make Ceylon Tea Possible.",
+        image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1400&q=90"
     }
 };
 
-// Initialize the component
 function initStory() {
-    console.log("Story component initializing...");
-
     renderNavigation();
     loadStory("Purpose");
 }
 
-// Render navigation buttons
 function renderNavigation() {
-    console.log("Rendering navigation buttons...");
     const navContainer = document.getElementById("storyNav");
     navContainer.innerHTML = "";
 
@@ -68,21 +61,12 @@ function renderNavigation() {
 
         navContainer.appendChild(navLink);
     });
-
-    console.log("Navigation buttons rendered");
 }
 
-// Load story content
 function loadStory(storyName) {
-
     const story = storyData[storyName];
+    if (!story) return;
 
-    if (!story) {
-        console.error(`❌ Story "${storyName}" not found!`);
-        return;
-    }
-
-    // Update active button
     document.querySelectorAll(".story_story_navlink").forEach(link => {
         link.classList.remove("active88");
         if (link.dataset.story === storyName) {
@@ -90,33 +74,25 @@ function loadStory(storyName) {
         }
     });
 
-    // Update content with fade effect
-    const imageEl = document.getElementById("storyImage");
-    const tagEl = document.getElementById("storyTag");
-    const headEl = document.getElementById("storyHead");
-    const paraEl = document.getElementById("storyPara");
+    const imageEl  = document.getElementById("storyImage");
+    const tagEl    = document.getElementById("storyTag");
+    const headEl   = document.getElementById("storyHead");
+    const paraEl   = document.getElementById("storyPara");
     const sloganEl = document.getElementById("storySlogan");
+    const card     = imageEl ? imageEl.closest(".sts-pillars-card") : null;
 
-    // Fade out effect
-    imageEl.style.opacity = "0.7";
-    tagEl.parentElement.style.opacity = "0.7";
+    if (card) card.style.opacity = "0";
 
     setTimeout(() => {
-        imageEl.style.backgroundImage = `url(${story.image})`;
-        tagEl.textContent = story.tag;
-        headEl.textContent = story.heading;
-        paraEl.textContent = story.content;
-        sloganEl.textContent = story.slogan;
+        if (imageEl)  imageEl.style.backgroundImage = `url(${story.image})`;
+        if (tagEl)    tagEl.textContent    = story.tag;
+        if (headEl)   headEl.textContent   = story.heading;
+        if (paraEl)   paraEl.textContent   = story.content;
+        if (sloganEl) sloganEl.textContent = story.slogan;
+        if (card)     card.style.opacity   = "1";
+    }, 180);
 
-        // Fade in effect
-        imageEl.style.opacity = "1";
-        tagEl.parentElement.style.opacity = "1";
-
-        console.log(`Story "${storyName}" loaded successfully`);
-    }, 150);
-
-    imageEl.style.transition = "opacity 0.3s ease";
-    tagEl.parentElement.style.transition = "opacity 0.3s ease";
+    if (card) card.style.transition = "opacity 0.35s ease";
 }
 
 initStory();

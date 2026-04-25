@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/logos/samley_logo.png">
+    <title>The Art of the Perfect Brew | Samley Teas</title>
+    <meta name="description" content="Ancient rituals and modern techniques that transform a simple leaf into an extraordinary cup — a journey every tea lover should take." />
+
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/blogs.css" />
+    <link rel="stylesheet" href="assets/css/smooth.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+    (function (config) {
+        'use strict';
+        if (!config.pixelId || !config.apiEndpoint || !config.cdn) { return; }
+        window.keychainPixel = window.keychainPixel || {};
+        var pixel = window.keychainPixel;
+        pixel.init = function () {
+            if (document.getElementById('__keychain_pixel__')) return;
+            var script = document.createElement('script');
+            script.async = true; script.type = 'text/javascript';
+            script.id = '__keychain_pixel__';
+            script.dataset.pixelId = config.pixelId;
+            script.dataset.apiEndpoint = config.apiEndpoint;
+            script.dataset.cdn = config.cdn;
+            script.src = config.cdn + '/keychain/pixel.js';
+            document.head.appendChild(script);
+        };
+        pixel.init();
+    })({ cdn: 'https://assets.keychain.com', apiEndpoint: 'https://pixel-edge.keychain.com', pixelId: 'MANUFACTURER_Y348UXN3Q3_VW6EBQ5P' });
+    </script>
+
+    <style>
+        .article-inner { width: 100%; max-width: 800px; margin-inline: auto; padding: 48px 24px 96px; }
+        .article-breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #999; margin-bottom: 36px; font-family: var(--font-body); }
+        .article-breadcrumb a { color: var(--color-primary, #00AE9C); text-decoration: none; }
+        .article-breadcrumb a:hover { text-decoration: underline; }
+        .article-breadcrumb-sep { color: #ccc; }
+        .article-header { margin-bottom: 36px; text-align: center; }
+        .article-category-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-primary, #00AE9C); background: rgba(0,174,156,0.08); border-radius: 100px; padding: 5px 16px; margin-bottom: 20px; font-family: var(--font-body); }
+        .article-title { font-size: clamp(1.7rem, 3.5vw, 2.6rem); font-family: var(--font-heading); color: var(--color-text-black, #231F20); font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
+        .article-subtitle { font-size: 1.05rem; color: var(--color-text-muted, #6F7C7C); font-family: var(--font-body); font-style: italic; line-height: 1.65; margin-bottom: 20px; max-width: 580px; margin-left: auto; margin-right: auto; }
+        .article-meta { display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 12px; color: #aaa; font-family: var(--font-body); flex-wrap: wrap; }
+        .article-meta-divider { width: 3px; height: 3px; border-radius: 50%; background: #ccc; }
+        .article-cover { width: 100%; height: 460px; object-fit: cover; border-radius: 16px; margin: 40px 0 52px; display: block; }
+        .article-content p { font-size: 1rem; color: var(--color-text-black, #231F20); line-height: 1.9; margin-bottom: 24px; font-family: var(--font-body); }
+        .article-content h2 { font-size: clamp(1.2rem, 2.2vw, 1.55rem); font-family: var(--font-heading); color: var(--color-text-black, #231F20); font-weight: 700; margin: 48px 0 16px; line-height: 1.3; }
+        .article-content ul { margin: 0 0 24px 20px; }
+        .article-content ul li { font-size: 1rem; color: var(--color-text-black, #231F20); line-height: 1.9; margin-bottom: 8px; font-family: var(--font-body); }
+        .article-stat { background: rgba(0,174,156,0.06); border-left: 3px solid var(--color-primary, #00AE9C); padding: 20px 24px; border-radius: 0 10px 10px 0; margin: 32px 0; }
+        .article-stat p { margin: 0; font-size: 0.95rem; color: var(--color-text-black, #231F20); font-weight: 500; line-height: 1.75; }
+        .article-bottom-panel { margin-top: 48px; padding-top: 32px; border-top: 1px solid #ebebeb; display: flex; flex-direction: column; gap: 24px; }
+        .article-tags-row { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+        .article-tags-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #bbb; font-family: var(--font-body); padding-top: 5px; white-space: nowrap; }
+        .article-tags-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .article-tag { display: inline-block; font-size: 11px; color: var(--color-primary, #00AE9C); border: 1px solid rgba(0,174,156,0.35); border-radius: 100px; padding: 4px 14px; font-family: var(--font-body); }
+        .article-cta-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; background: rgba(0,174,156,0.06); border-radius: 14px; padding: 22px 26px; }
+        .article-cta-row p { font-size: 0.9rem; font-family: var(--font-body); color: var(--color-text-muted, #6F7C7C); margin: 0; flex: 1; }
+        .article-back { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-family: var(--font-body); font-weight: 600; color: var(--color-primary, #00AE9C); text-decoration: none; letter-spacing: 0.04em; }
+        .article-back:hover { gap: 12px; }
+        @media (min-width: 768px) { .article-inner { padding: 56px 48px 96px; } .article-cover { height: 440px; } }
+        @media (min-width: 1024px) { .article-inner { padding: 64px 80px 120px; } }
+    </style>
+</head>
+<body>
+    <header id="navbar"></header>
+
+    <main>
+        <div class="article-inner">
+
+            <div class="article-breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="article-breadcrumb-sep">/</span>
+                <a href="blogs.html">Tea Stories &amp; Insights</a>
+                <span class="article-breadcrumb-sep">/</span>
+                <span>The Art of the Perfect Brew</span>
+            </div>
+
+            <header class="article-header">
+                <span class="article-category-badge">Tea Culture</span>
+                <h1 class="article-title">The Art of the Perfect Brew</h1>
+                <p class="article-subtitle">Ancient rituals and modern techniques that transform a simple leaf into an extraordinary cup — a journey every tea lover should take.</p>
+                <div class="article-meta">
+                    <span>By Samley Teas</span>
+                    <span class="article-meta-divider"></span>
+                    <span>5 min read</span>
+                </div>
+            </header>
+
+            <img class="article-cover" src="https://images.unsplash.com/photo-1563822249366-3efb23b8e0c9?auto=format&fit=crop&w=1200&q=80" alt="The Art of the Perfect Brew" onerror="this.style.display='none'" />
+
+            <div class="article-content">
+
+                <p>Tea is more than a drink. It is a ritual, a pause in the day, and a tradition that connects people across generations and cultures. From the quiet tea houses of Japan to the bustling streets of Sri Lanka, tea has always carried a meaning beyond flavor. It represents comfort, hospitality, reflection, and craftsmanship.</p>
+
+                <p>A perfect brew is not simply about putting leaves into hot water. It is a process that balances temperature, timing, leaf quality, and personal preference. Even the smallest detail can change the final cup. The right brewing method can reveal delicate floral notes, deep earthy tones, or rich sweetness hidden inside the leaves.</p>
+
+                <p>For tea lovers, brewing is an experience. It is the sound of water heating, the aroma rising from fresh leaves, and the first sip that settles the mind. Learning how to brew tea properly turns an everyday habit into something memorable.</p>
+
+                <h2>Understanding Tea Leaves</h2>
+
+                <p>Every perfect brew begins with the leaves themselves. Tea comes from the same plant, Camellia sinensis, but different processing methods create different varieties. Green tea, black tea, white tea, oolong tea, and herbal blends each require unique treatment.</p>
+
+                <p>Loose-leaf tea is often considered the best choice for brewing because the leaves have room to expand fully in water. This allows flavor, aroma, and natural oils to release slowly. Tea bags are convenient, but they usually contain smaller leaf particles that may not deliver the same depth of taste.</p>
+
+                <p>Freshness also matters. Tea should be stored in airtight containers away from moisture, light, and strong odors. Proper storage preserves the natural qualities of the leaves and keeps the flavors balanced.</p>
+
+                <h2>The Importance of Water Quality</h2>
+
+                <p>Many people focus only on the tea itself, but water plays an equally important role. Since tea is mostly water, the quality of the water can dramatically influence the final result.</p>
+
+                <p>Fresh, filtered water is ideal for brewing. Water with too many minerals or strong chlorine levels can overpower the tea's natural flavor. Soft water generally produces a smoother cup, while heavily mineralized water may create a harsh or flat taste.</p>
+
+                <p>The temperature of the water is equally important. Different teas require different brewing temperatures:</p>
+
+                <ul>
+                    <li>Green tea: around 70–80°C</li>
+                    <li>White tea: around 75–85°C</li>
+                    <li>Oolong tea: around 85–95°C</li>
+                    <li>Black tea: around 90–100°C</li>
+                    <li>Herbal tea: around 95–100°C</li>
+                </ul>
+
+                <p>Using water that is too hot can burn delicate leaves, resulting in bitterness. Water that is too cool may fail to release the full flavor profile.</p>
+
+                <h2>Timing Makes the Difference</h2>
+
+                <p>Brewing time is often overlooked, yet it is one of the most important steps. Steeping tea for too long can make it bitter, while removing the leaves too quickly can result in a weak cup.</p>
+
+                <p>Each tea variety has an ideal steeping time:</p>
+
+                <ul>
+                    <li>Green tea: 2–3 minutes</li>
+                    <li>White tea: 3–5 minutes</li>
+                    <li>Oolong tea: 3–5 minutes</li>
+                    <li>Black tea: 3–4 minutes</li>
+                    <li>Herbal tea: 5–7 minutes</li>
+                </ul>
+
+                <p>Experimenting with timing helps tea drinkers discover their personal preference. Some enjoy a stronger brew, while others prefer a lighter taste.</p>
+
+                <h2>The Ritual of Brewing</h2>
+
+                <p>Tea brewing is not only technical — it is emotional. The ritual itself creates calm. In many cultures, tea ceremonies are deeply symbolic.</p>
+
+                <p>In Japan, tea preparation focuses on mindfulness and simplicity. In China, gongfu tea brewing emphasizes repeated short infusions that reveal evolving flavors. In Sri Lanka, tea often represents hospitality and connection, served warmly to guests.</p>
+
+                <p>The act of slowing down during tea preparation encourages people to disconnect from stress. A few quiet moments spent brewing can become a daily form of self-care.</p>
+
+                <div class="article-stat">
+                    <p>"Tea teaches patience. It rewards attention to detail and encourages slowing down. In a fast-moving world, brewing tea becomes a small but meaningful act of presence."</p>
+                </div>
+
+                <h2>Modern Brewing Techniques</h2>
+
+                <p>Today, tea culture blends tradition with innovation. Tea enthusiasts now use digital kettles, precision thermometers, and modern infusers to create consistent results.</p>
+
+                <p>Cold brewing has also gained popularity. This method involves steeping tea leaves in cold water for several hours, producing a smoother and less bitter flavor. Cold-brew tea is refreshing, especially in warm climates.</p>
+
+                <p>Specialty tea cafes and artisanal brands have also introduced creative brewing experiences. Pairing tea with desserts, fruits, or spices creates new flavor combinations while respecting traditional roots.</p>
+
+                <h2>Finding Your Perfect Cup</h2>
+
+                <p>The perfect brew is personal. There is no single correct method because tea is deeply connected to taste, mood, and environment. Some people prefer bold black tea in the morning, while others enjoy calming herbal blends before sleep.</p>
+
+                <p>The beauty of tea lies in exploration. Trying different leaves, temperatures, brewing times, and serving styles allows each person to discover what feels right.</p>
+
+                <p>Whether enjoyed alone during a quiet morning or shared with friends during conversation, the perfect brew is not just about flavor. It is about the experience created in every cup.</p>
+
+            </div>
+
+            <div class="article-bottom-panel">
+                <div class="article-tags-row">
+                    <span class="article-tags-label">Tags</span>
+                    <div class="article-tags-list">
+                        <span class="article-tag">Tea Culture</span>
+                        <span class="article-tag">Brewing Guide</span>
+                        <span class="article-tag">Ceylon Tea</span>
+                        <span class="article-tag">Tea Tips</span>
+                    </div>
+                </div>
+                <div class="article-cta-row">
+                    <p>Ready to experience the perfect cup? Explore Samley's curated tea collections crafted for every moment.</p>
+                    <a href="products.html" class="btn-01">Explore Collections</a>
+                </div>
+                <a href="blogs.html" class="article-back"><i class="bi bi-arrow-left"></i> Back to Tea Stories</a>
+            </div>
+
+        </div>
+    </main>
+
+    <section id="instagram-section"></section>
+    <footer id="footer"></footer>
+
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+</body>
+</html>

@@ -1,7 +1,5 @@
 // assets/js/blogs.js
 
-const BLOGS_PER_PAGE = 3;
-let currentPage = 1;
 let allBlogs = [];
 
 async function loadBlogs() {
@@ -22,38 +20,29 @@ function renderBlogs() {
 
   grid.innerHTML = "";
 
-  const start = (currentPage - 1) * BLOGS_PER_PAGE;
-  const end = start + BLOGS_PER_PAGE;
-  const pageBlogs = allBlogs.slice(start, end);
-
-  pageBlogs.forEach(blog => {
+  allBlogs.forEach(blog => {
     const card = document.createElement("article");
-    card.className = "blog-card";
+    card.className = "blg-card";
 
     card.innerHTML = `
-      <img src="${blog.thumbnailImage}" alt="${blog.title}" class="blog-card-image">
-
-      <div class="blog-card-content">
-
-
-        <h2 class="blog-card-title">${blog.title}</h2>
-
-        <p class="blog-card-description">
-          ${blog.shortDescription}
-        </p>
-
-        <div class="blog-card-footer">
-          <a href="blog.html?slug=${blog.slug}" class="blog-read-more-btn btn-06">
-            Read More
-          </a>
+      <a href="${blog.url}" class="blg-card-img-wrap">
+        <img src="${blog.thumbnailImage}" alt="${blog.title}" class="blg-card-img" loading="lazy" />
+      </a>
+      <div class="blg-card-body">
+        <div class="blg-card-meta">
+          <span class="blg-card-tag">${blog.tag || blog.category}</span>
+          <span class="blg-card-time">${blog.readTime}</span>
         </div>
+        <h3 class="blg-card-title">
+          <a href="${blog.url}">${blog.title}</a>
+        </h3>
+        <p class="blg-card-desc">${blog.description || ""}</p>
+        <a href="${blog.url}" class="blg-card-link">Read Article <i class="bi bi-arrow-right"></i></a>
       </div>
     `;
 
     grid.appendChild(card);
   });
-
-  updatePagination();
 }
 
 function updatePagination() {

@@ -23,7 +23,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
         rel="stylesheet">
 
     <!-- Keychain Pixel -->
@@ -70,13 +70,9 @@
 
         <!-- ── HERO ─────────────────────────────────────────── -->
         <section id="hero_story" class="hero container">
-
-            <!-- Overlay -->
             <div class="hero-overlay"></div>
-
-            <!-- Content -->
             <div class="hero_content">
-                <p class="p-l hero_para">Premium Ceylon Teas — Ethically Sourced, Master Blended, Shipped Worldwide</p>
+                <p class="p-l hero_para">Elevating Lives, Nurturing Communities</p>
                 <h1 class="h1 hero_head">Rooted In Purpose, Brewed For <br> People &amp; The Planet</h1>
                 <h1 class="h1 hero_head_mobile">Rooted In Purpose, Brewed For People &amp; The Planet</h1>
                 <div class="hero_button_content">
@@ -94,26 +90,81 @@
             </div>
         </section>
 
-        <!-- ── ORIGIN — Story of Samley ─────────────────────── -->
-        <section class="sts-origin">
+        <!-- ── CORPORATE IDENTITY ────────────────────────────── -->
+        <section class="sts-origin" id="sts-origin">
             <div class="sts-wrap">
-                <div class="sts-origin-inner">
-                    <div class="sts-origin-left reveal-left">
-                        <img class="sts-origin-logo" src="assets/images/logo_carasol/Logo06.png" alt="Samley Teas logo">
-                        <h2 class="sts-origin-tagline">Where Every<br>Cup Tells a<br><em>Story.</em></h2>
-                        <div class="sts-origin-countries">
-                            <span class="sts-origin-num">25+</span>
-                            <span class="sts-origin-num-label">Countries<br>reached worldwide</span>
-                        </div>
+
+                <!-- Eyebrow + headline -->
+                <div class="sts-origin-header reveal">
+                    <span class="sts-section-eyebrow">Corporate Identity</span>
+                    <h2 class="sts-origin-headline">Elevating Lives,<br>Nurturing <em>Communities.</em></h2>
+                </div>
+
+                <!-- Stats strip -->
+                <div class="sts-origin-stats reveal" data-delay="80">
+                    <div class="sts-origin-stat">
+                        <span class="sts-origin-num">25+</span>
+                        <span class="sts-origin-num-label">Countries<br>reached worldwide</span>
                     </div>
-                    <div class="sts-origin-right reveal-right" data-delay="150">
-                        <span class="sts-section-eyebrow">Story of Samley</span>
-                        <p>Samley Teas began with a simple idea — to share the rich taste and timeless charm of Ceylon Tea with the world. Known for its bold flavor and smooth finish, Ceylon Tea is more than just a drink; it's an experience that connects people across cultures.</p>
-                        <p>From the beginning, we have focused on doing things with care and purpose. At Samley Teas, it's not just about selling tea — it's about offering something real, something memorable. Every blend is created with quality in mind, designed to meet the tastes of tea lovers everywhere.</p>
-                        <p>We believe in building trust through consistency, strong values, and thoughtful choices. The Lion Logo on our packs stands as a symbol of authenticity — a promise that what you're enjoying is true Ceylon Tea.</p>
-                        <p>Today, Samley Teas is part of tea moments in over 25 countries. And while we're always moving forward, our heart stays grounded in one simple goal: to keep the spirit of Ceylon Tea alive, one cup at a time.</p>
+                    <div class="sts-origin-stat">
+                        <span class="sts-origin-num">10+</span>
+                        <span class="sts-origin-num-label">Years of<br>craft &amp; export</span>
+                    </div>
+                    <div class="sts-origin-stat">
+                        <span class="sts-origin-num">150+</span>
+                        <span class="sts-origin-num-label">Unique<br>blends &amp; products</span>
                     </div>
                 </div>
+
+                <!-- Body text -->
+                <div class="sts-origin-body reveal" data-delay="160">
+                    <div class="sts-origin-text">
+                        <p>At Samley, we are driven by a singular purpose: <strong>Elevating Lives, Nurturing Communities.</strong> We inspire individuals through innovative products and meaningful experiences, foster deep engagement among our stakeholders, and cultivate thriving, sustainable communities where people lead healthier, more connected lives.</p>
+                        <p>Samley Teas (Pvt) Ltd is a Sri Lankan export-oriented enterprise dedicated to offering a distinguished portfolio of exceptional Sri Lankan products, with a particular emphasis on the timeless appeal and authenticity of Ceylon Tea.</p>
+                    </div>
+                    <div class="sts-origin-text">
+                        <p>Rooted in origin and refined through expertise, we operate at the intersection of tradition and innovation — continuously adapting our strategies, blends, and formats to meet the demands of international consumers, specialty segments and channels.</p>
+                        <p>Our unwavering commitment to integrity, corporate ethics, and professional excellence sets the benchmark for all that we undertake — from plantation partnerships to private label collaborations. Samley stands not merely as a tea exporter, but as a <strong>trusted global trade partner.</strong></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ── BRAND FILM ────────────────────────────────────── -->
+        <section class="sts-film">
+            <div class="sts-wrap">
+                <div class="sts-film-card reveal">
+                    <video class="sts-film-video" autoplay muted loop playsinline id="storyFilmVideo">
+                        <source src="assets/videos/Samley Tea 1080p.mp4" type="video/mp4">
+                    </video>
+                    <div class="sts-film-overlay"></div>
+                    <div class="sts-film-top">
+                        <span class="sts-film-eyebrow">Brand Film</span>
+                    </div>
+                    <div class="sts-film-bottom">
+                        <div>
+                            <h2 class="sts-film-title">The Story of <em>Samley.</em></h2>
+                            <p class="sts-film-tagline">From the highlands of Sri Lanka — to cups around the world.</p>
+                        </div>
+                        <button class="sts-film-sound" id="storyFilmSound" aria-label="Toggle sound">
+                            <i class="bi bi-volume-mute-fill" id="storyFilmSoundIcon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Content after the video -->
+                <div class="sts-film-after">
+                    <div class="sts-film-after-left reveal-left">
+                        <span class="sts-section-eyebrow">From Sri Lanka</span>
+                        <h3 class="sts-film-after-heading">Grown in the<br><em>Highlands.</em></h3>
+                    </div>
+                    <div class="sts-film-after-right reveal-right" data-delay="120">
+                        <p>For over a decade, Samley has sourced and crafted teas from the mist-covered highlands of Sri Lanka — where elevation, climate, and tradition converge to produce what many consider the finest tea in the world. Every blend we create carries the authenticity of its origin and the integrity of our craft.</p>
+                        <a href="products.html" class="sts-film-after-link">Explore Our Collections <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -126,10 +177,10 @@
                         <h2 class="sts-purpose-headline"><em>Inspire.</em><br>Engage.<br>Thrive.</h2>
                     </div>
                     <div class="sts-purpose-right reveal-right" data-delay="150">
-                        <p class="sts-purpose-manifesto">We exist to do more than move boxes of tea. We exist to inspire healthier choices, engage communities across the entire supply chain, and create conditions where people and nature can genuinely thrive together.</p>
-                        <p class="sts-purpose-manifesto">Every decision we make — from sourcing leaf to designing packaging — is filtered through a single question: does this serve people and the planet? When the answer is yes, we move forward. When it isn't, we rethink.</p>
-                        <p class="sts-purpose-manifesto">That's not a marketing line. It's the operating philosophy that has guided Samley from our first shipment to our 25th country of export.</p>
-                        <p class="sts-purpose-sub">"Tea is trust. We honour that in every cup."</p>
+                        <p class="sts-purpose-manifesto">We inspire individuals through innovative products and meaningful experiences that connect them to the rich heritage of Ceylon Tea — from the mist-covered highlands of Sri Lanka to their everyday cup.</p>
+                        <p class="sts-purpose-manifesto">We foster deep engagement among our stakeholders — growers, partners, consumers, and communities — building relationships grounded in transparency, respect, and shared accountability.</p>
+                        <p class="sts-purpose-manifesto">We cultivate thriving, sustainable communities where people lead healthier, more connected lives. Every decision we make is filtered through a single question: does this serve people and the planet?</p>
+                        <p class="sts-purpose-sub">"Infusing Inspiration, Nourishing Connection — Sip, Savour, Thrive with Our Tea."</p>
                     </div>
                 </div>
             </div>
@@ -140,15 +191,17 @@
             <div class="sts-wrap">
                 <div class="sts-profile-inner reveal">
                     <div>
-                        <span class="sts-section-eyebrow">Company Profile</span>
+                        <span class="sts-section-eyebrow">Corporate Profile</span>
                         <p class="sts-profile-label">Who We<br><em>Are.</em></p>
                     </div>
                     <div>
-                        <p class="sts-profile-text">Samley Teas (Pvt) Ltd is a Sri Lankan tea manufacturer and exporter committed to delivering the world's finest Ceylon Tea under strict quality standards. We operate across the full value chain — from sourcing single-origin leaf at altitude to blending, packaging, and distributing finished products globally.</p>
+                        <p class="sts-profile-text">Samley Teas (Pvt) Ltd is a Sri Lankan export-oriented enterprise dedicated to offering a distinguished portfolio of exceptional Sri Lankan products, with a particular emphasis on the timeless appeal and authenticity of Ceylon Tea.</p>
                         <br>
-                        <p class="sts-profile-text">Our portfolio spans premium loose-leaf teas, biodegradable tea bags, wellness blends, and bespoke gift collections — all traceable to certified, ethical origins. We supply retail chains, hospitality brands, specialty tea importers, and direct-to-consumer channels across Europe, the Middle East, Asia, and beyond.</p>
+                        <p class="sts-profile-text">Rooted in origin and refined through expertise, we operate at the intersection of tradition and innovation. We acknowledge the ever-evolving global marketplace and continuously adapt our strategies, blends, and formats to meet the demands of international consumers, specialty segments and channels.</p>
                         <br>
-                        <p class="sts-profile-text">Samley holds international quality certifications and operates under a governance framework designed to protect workers, smallholder farmers, and the natural ecosystems that make Ceylon Tea possible.</p>
+                        <p class="sts-profile-text">Our unwavering commitment to integrity, corporate ethics, and professional excellence sets the benchmark for all that we undertake — from plantation partnerships to private label collaborations.</p>
+                        <br>
+                        <p class="sts-profile-text">Samley stands not merely as a tea exporter, but as a trusted global trade partner.</p>
                     </div>
                 </div>
             </div>
@@ -158,94 +211,141 @@
         <section class="sts-ceylon">
             <div class="sts-wrap">
                 <div class="sts-ceylon-header reveal">
-                    <span class="sts-section-eyebrow">The Leaf Behind the Legend</span>
+                    <span class="sts-section-eyebrow">Heritage &amp; Global Positioning</span>
                     <h2 class="sts-ceylon-heading">Why <em>Ceylon Tea</em> Stands Apart</h2>
+                    <p style="font-family:var(--font-body);font-size:var(--fs-p-l);color:var(--color-text-muted);max-width:640px;margin:12px auto 0;line-height:1.7;">Sri Lanka, globally renowned as the home of Ceylon Tea, offers an unparalleled terroir shaped by elevation, climate, and artisanal expertise. From high-grown brisk liquors to low-grown bold liquors, Samley carefully sources and curates teas that represent the full spectrum of Sri Lanka's tea heritage.</p>
                 </div>
                 <div class="sts-ceylon-grid">
                     <div class="sts-ceylon-card reveal-scale" data-delay="0">
-                        <div class="sts-ceylon-icon"><i class="bi bi-globe-asia-australia"></i></div>
-                        <p class="sts-ceylon-card-title">Unique Terroir</p>
-                        <p class="sts-ceylon-card-text">Grown between 3,000–8,000 ft above sea level, Sri Lanka's highland climate produces a brightness and complexity found nowhere else on earth.</p>
+                        <div class="sts-ceylon-icon"><i class="bi bi-trophy"></i></div>
+                        <p class="sts-ceylon-card-title">Arguably the Finest Tea in the World</p>
+                        <p class="sts-ceylon-card-text">Ceylon Tea has earned its global reputation through an uncompromising commitment to quality, origin integrity, and artisanal tradition. It is not merely a beverage — it is a geographically distinctive product shaped by nature and mastery.</p>
                     </div>
                     <div class="sts-ceylon-card reveal-scale" data-delay="80">
-                        <div class="sts-ceylon-icon"><i class="bi bi-shield-check"></i></div>
-                        <p class="sts-ceylon-card-title">Protected Origin</p>
-                        <p class="sts-ceylon-card-text">The Lion Logo is a government-controlled mark of authenticity — only pure Ceylon Tea, grown and packed in Sri Lanka, can carry it.</p>
+                        <div class="sts-ceylon-icon"><i class="bi bi-globe-asia-australia"></i></div>
+                        <p class="sts-ceylon-card-title">A Terroir That Cannot Be Replicated</p>
+                        <p class="sts-ceylon-card-text">Grown between 3,000–8,000 ft above sea level, Sri Lanka's highland climate produces a brightness and complexity found nowhere else on earth. Each region — Nuwara Eliya, Dimbula, Uva — imparts its own unmistakable character.</p>
                     </div>
                     <div class="sts-ceylon-card reveal-scale" data-delay="160">
-                        <div class="sts-ceylon-icon"><i class="bi bi-heart-pulse"></i></div>
-                        <p class="sts-ceylon-card-title">Rich in Antioxidants</p>
-                        <p class="sts-ceylon-card-text">High-grown black teas carry exceptional levels of polyphenols and flavonoids — compounds linked to cardiovascular health and immunity support.</p>
+                        <div class="sts-ceylon-icon"><i class="bi bi-hand-index-thumb"></i></div>
+                        <p class="sts-ceylon-card-title">Traditional Craftsmanship</p>
+                        <p class="sts-ceylon-card-text">Sri Lanka remains globally respected for its orthodox tea manufacturing process and traditional hand-plucking methods — selecting only the finest two leaves and a bud. This meticulous approach preserves leaf integrity and cup character.</p>
                     </div>
                     <div class="sts-ceylon-card reveal-scale" data-delay="240">
-                        <div class="sts-ceylon-icon"><i class="bi bi-droplet"></i></div>
-                        <p class="sts-ceylon-card-title">Naturally Pure</p>
-                        <p class="sts-ceylon-card-text">Ceylon tea is grown in an island nation with no land borders — a natural barrier that supports cleaner cultivation with minimal contamination risk.</p>
+                        <div class="sts-ceylon-icon"><i class="bi bi-wind"></i></div>
+                        <p class="sts-ceylon-card-title">Ozone Friendly &amp; Ethically Produced</p>
+                        <p class="sts-ceylon-card-text">Sri Lanka is recognized for producing ozone-friendly tea, cultivated without methyl bromide fumigation. This reinforces Ceylon Tea's standing as a responsibly produced agricultural commodity aligned with global environmental standards.</p>
                     </div>
                     <div class="sts-ceylon-card reveal-scale" data-delay="320">
-                        <div class="sts-ceylon-icon"><i class="bi bi-award"></i></div>
-                        <p class="sts-ceylon-card-title">World-Class Flavour</p>
-                        <p class="sts-ceylon-card-text">From the muscatel notes of Nuwara Eliya to the full-bodied richness of Sabaragamuwa — every region offers a distinctive, award-winning cup.</p>
+                        <div class="sts-ceylon-icon"><i class="bi bi-shield-check"></i></div>
+                        <p class="sts-ceylon-card-title">The Lion Logo — A Mark of Authenticity</p>
+                        <p class="sts-ceylon-card-text">The Lion Logo, issued and regulated by the Sri Lanka Tea Board, is an internationally recognized symbol of quality and origin authenticity. Only teas that are 100% Pure Ceylon Tea, packed in Sri Lanka, and meeting strict quality standards are permitted to bear this mark. It is more than a logo — it is a guarantee.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ── PEOPLE & USPs ─────────────────────────────────── -->
+        <!-- ── PROFOUND MASTERY ───────────────────────────────── -->
+        <section class="sts-mastery">
+            <div class="sts-wrap">
+                <div class="sts-mastery-header reveal">
+                    <span class="sts-section-eyebrow sts-section-eyebrow--light">Profound Mastery</span>
+                    <h2 class="sts-mastery-heading">The Art &amp; Science<br>of <em>Blending.</em></h2>
+                    <p class="sts-mastery-sub">Tea blending is both craftsmanship and precision science. Our mastery in blending and packaging guarantees consistency, character, and cup integrity. Each batch is crafted to deliver exceptional brightness, layered aromatic complexity, a well-balanced mouthfeel, and a pronounced yet refined infusion strength.</p>
+                </div>
+                <div class="sts-mastery-grid">
+                    <div class="sts-mastery-stat reveal-scale" data-delay="0">
+                        <span class="sts-mastery-num">100Mn</span>
+                        <span class="sts-mastery-label">Double Chamber Tea Bags / Year</span>
+                    </div>
+                    <div class="sts-mastery-stat reveal-scale" data-delay="80">
+                        <span class="sts-mastery-num">200Mn</span>
+                        <span class="sts-mastery-label">Single Chamber Tea Bags / Year</span>
+                    </div>
+                    <div class="sts-mastery-stat reveal-scale" data-delay="160">
+                        <span class="sts-mastery-num">40Mn</span>
+                        <span class="sts-mastery-label">Pyramid Tea Bags / Year</span>
+                    </div>
+                    <div class="sts-mastery-stat reveal-scale" data-delay="240">
+                        <span class="sts-mastery-num">150Mn</span>
+                        <span class="sts-mastery-label">Pot Tea Bags / Year</span>
+                    </div>
+                    <div class="sts-mastery-stat reveal-scale" data-delay="320">
+                        <span class="sts-mastery-num">15,000 MT</span>
+                        <span class="sts-mastery-label">Blending Capacity / Year</span>
+                    </div>
+                    <div class="sts-mastery-stat reveal-scale" data-delay="400">
+                        <span class="sts-mastery-num">10Mn</span>
+                        <span class="sts-mastery-label">Beverage Cans / Year</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── PEOPLE FIRST ──────────────────────────────────── -->
         <section class="sts-people">
             <div class="sts-wrap">
                 <div class="sts-people-inner">
                     <div class="sts-people-text reveal-left">
-                        <span class="sts-section-eyebrow">Our People</span>
+                        <span class="sts-section-eyebrow">People First</span>
                         <h2 class="sts-people-heading">Tea Is Made by<br><em>Human Hands.</em></h2>
-                        <p class="sts-people-body">More than 60% of our workforce are women — the backbone of Sri Lanka's tea industry for generations. We believe their welfare, dignity, and advancement is not a CSR checkbox; it's core to who we are as a company.</p>
-                        <p class="sts-people-body">Beyond fair wages, we invest in the lives of our people in ways that matter — healthcare, family security, childcare, and financial participation in the business they help build every day.</p>
+                        <p class="sts-people-body">At Samley, people are at the centre of everything we do. From plantation partners to global distributors, from factory floor teams to end consumers — our ecosystem is built on mutual respect and shared growth.</p>
+                        <p class="sts-people-body">We take pride in fostering gender inclusivity and empowering women within manufacturing, administration, and quality control functions. 60% of our workforce comprises women, including at key managerial positions.</p>
                     </div>
-                    <div class="sts-usps">
-                        <div class="sts-usp-card sts-usp-card--featured reveal" data-delay="0">
-                            <div class="sts-usp-icon"><i class="bi bi-people-fill"></i></div>
-                            <span class="sts-usp-title">60%+ Women Workforce — proudly championing gender equity across all functions</span>
+
+                    <div class="sts-people-panel reveal-right" data-delay="120">
+                        <div class="sts-people-stat-main">
+                            <span class="sts-people-stat-num">60%</span>
+                            <span class="sts-people-stat-label">of our workforce comprises women — including at key managerial positions</span>
                         </div>
-                        <div class="sts-usp-card reveal" data-delay="80">
-                            <div class="sts-usp-icon"><i class="bi bi-heart-fill"></i></div>
-                            <span class="sts-usp-title">Life Insurance for all permanent employees</span>
+                        <div class="sts-people-divider"></div>
+                        <div class="sts-people-facts">
+                            <div class="sts-people-fact">
+                                <span class="sts-people-fact-num">25+</span>
+                                <span class="sts-people-fact-label">Countries our people serve</span>
+                            </div>
+                            <div class="sts-people-fact">
+                                <span class="sts-people-fact-num">10+</span>
+                                <span class="sts-people-fact-label">Years of shared growth</span>
+                            </div>
                         </div>
-                        <div class="sts-usp-card reveal" data-delay="160">
-                            <div class="sts-usp-icon"><i class="bi bi-hospital"></i></div>
-                            <span class="sts-usp-title">Comprehensive Medical Cover</span>
-                        </div>
-                        <div class="sts-usp-card reveal" data-delay="240">
-                            <div class="sts-usp-icon"><i class="bi bi-house-heart"></i></div>
-                            <span class="sts-usp-title">On-site Crèche Facility</span>
-                        </div>
-                        <div class="sts-usp-card reveal" data-delay="320">
-                            <div class="sts-usp-icon"><i class="bi bi-graph-up-arrow"></i></div>
-                            <span class="sts-usp-title">Profit Sharing Programme</span>
-                        </div>
+                        <div class="sts-people-divider"></div>
+                        <blockquote class="sts-people-quote">"Thriving businesses must create thriving communities."</blockquote>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ── PILLARS — existing story.js tabs restyled ─────── -->
+        <!-- ── PILLARS ────────────────────────────────────────── -->
         <section class="sts-pillars">
             <div class="sts-wrap">
-                <div class="sts-pillars-header">
+
+                <!-- Header -->
+                <div class="sts-pillars-header reveal">
                     <span class="sts-section-eyebrow">What We Stand For</span>
                     <h2 class="sts-pillars-heading">Our <em>Pillars.</em></h2>
                 </div>
-                <div class="story_div">
-                    <div class="story_story_nav" id="storyNav"></div>
-                    <div class="story_content">
-                        <div class="story_content_image" id="storyImage"></div>
-                        <div class="story_content_text">
-                            <p class="story_content_tag" id="storyTag"></p>
-                            <p class="story_content_head" id="storyHead"></p>
-                            <p class="story_content_para" id="storyPara"></p>
-                            <p class="story_content_slogan" id="storySlogan"></p>
+
+                <!-- Body: nav + card -->
+                <div class="sts-pillars-body">
+
+                    <!-- Left: vertical tab nav -->
+                    <div class="sts-pillars-nav" id="storyNav"></div>
+
+                    <!-- Right: image card with overlay -->
+                    <div class="sts-pillars-card reveal-right">
+                        <div class="sts-pillars-card-img" id="storyImage"></div>
+                        <div class="sts-pillars-card-overlay"></div>
+                        <div class="sts-pillars-card-content">
+                            <p class="sts-pillars-card-tag" id="storyTag"></p>
+                            <h3 class="sts-pillars-card-head" id="storyHead"></h3>
+                            <p class="sts-pillars-card-para" id="storyPara"></p>
+                            <p class="sts-pillars-card-slogan" id="storySlogan"></p>
                         </div>
                     </div>
+
                 </div>
+
             </div>
         </section>
 
@@ -256,70 +356,63 @@
                     <div class="sts-why-left reveal-left">
                         <span class="sts-section-eyebrow">Why Choose Us</span>
                         <h2 class="sts-why-big">Why<br><em>Samley?</em></h2>
-                        <p class="sts-why-sub">Nine reasons our partners, buyers, and loyal customers keep choosing Samley — year after year, cup after cup.</p>
+                        <p class="sts-why-sub">It is true — we are one among many exporters. However, our offerings are not generic or transactional. Innovation is embedded into our workflow — not treated as an afterthought. We create distinction — not duplication.</p>
                     </div>
                     <div class="sts-why-list">
                         <div class="sts-why-item reveal" data-delay="0">
                             <span class="sts-why-num">01</span>
                             <div class="sts-why-item-text">
-                                <strong>Certified Authenticity</strong>
-                                Every product carries the Sri Lanka Tea Board's Lion Logo — the world's most recognised mark of genuine Ceylon Tea quality.
+                                <strong>Blend Architecture Precision</strong>
+                                Every blend is engineered with purpose — balancing flavour, aroma, infusion strength, and mouthfeel to exacting specifications for each market and channel.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="60">
                             <span class="sts-why-num">02</span>
                             <div class="sts-why-item-text">
-                                <strong>Single-Origin Sourcing</strong>
-                                We work directly with certified highland estates, ensuring full traceability from garden to cup — no blending with unknown origins.
+                                <strong>Market-Specific Customisation</strong>
+                                We understand that what works in London differs from what works in Moscow or Dubai. We tailor blends, formats, and packaging to each market's palate and preference.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="120">
                             <span class="sts-why-num">03</span>
                             <div class="sts-why-item-text">
-                                <strong>Ethical Supply Chain</strong>
-                                Our sourcing partners are audited for labour standards, fair pay, and safe working conditions — we won't compromise on that.
+                                <strong>Functional &amp; Wellness Innovation</strong>
+                                Beyond classic teas, our functional wellness blends address real consumer needs — sleep, immunity, digestion, and calm — using natural Ceylon botanicals and science-backed formulations.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="180">
                             <span class="sts-why-num">04</span>
                             <div class="sts-why-item-text">
-                                <strong>Sustainable Packaging</strong>
-                                We are transitioning our full range to biodegradable and recyclable materials — because the planet is a stakeholder too.
+                                <strong>Elevated Packaging Aesthetics</strong>
+                                We believe packaging is a brand statement. Our design team creates visually striking formats — from luxury gift collections to impulse-driven retail packs — that stand out on shelf and convert quickly.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="240">
                             <span class="sts-why-num">05</span>
                             <div class="sts-why-item-text">
-                                <strong>Bespoke Private Label</strong>
-                                We offer full private-label services — custom blends, exclusive packaging, and white-glove production runs for global retail and hospitality brands.
+                                <strong>Agility &amp; Rapid Innovation</strong>
+                                Global markets move quickly. So do we. Our operational structure enables rapid product extensions, custom private label development, efficient sampling cycles, and fast turnaround for seasonal or promotional launches.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="300">
                             <span class="sts-why-num">06</span>
                             <div class="sts-why-item-text">
-                                <strong>Export-Ready Infrastructure</strong>
-                                Our facility meets international food safety and export standards — we ship reliably to 25+ countries with full documentation support.
+                                <strong>Comprehensive Category Coverage</strong>
+                                We cover all major tea variants, infusions, and beverage categories — orthodox black teas, green teas, specialty &amp; regional grades, herbal &amp; functional infusions, luxury gift lines, all types of beverages, and private label &amp; OEM manufacturing. One trusted origin-based supplier for everything.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="360">
                             <span class="sts-why-num">07</span>
                             <div class="sts-why-item-text">
-                                <strong>Wellness-Forward Range</strong>
-                                Beyond classic teas, our functional wellness blends address real consumer needs — sleep, immunity, digestion, and calm — using natural Ceylon botanicals.
+                                <strong>Export-Ready Infrastructure</strong>
+                                Our facility meets international food safety and export standards. We ship reliably to 25+ countries with full compliance documentation, flexible trade terms, and dedicated account management.
                             </div>
                         </div>
                         <div class="sts-why-item reveal" data-delay="420">
                             <span class="sts-why-num">08</span>
                             <div class="sts-why-item-text">
-                                <strong>Community Investment</strong>
-                                We reinvest in the communities that grow our tea — from healthcare to education — because thriving villages produce thriving tea.
-                            </div>
-                        </div>
-                        <div class="sts-why-item reveal" data-delay="480">
-                            <span class="sts-why-num">09</span>
-                            <div class="sts-why-item-text">
-                                <strong>Long-Term Partnerships</strong>
-                                We don't chase transactions. We build relationships — with growers, importers, and end consumers — on the foundation of consistency and trust.
+                                <strong>Enduring Partnerships, Not Transactions</strong>
+                                At Samley, we seek enduring partnerships rather than isolated transactions. We invite you to partner with us in elevating lives and nurturing communities — one cup at a time.
                             </div>
                         </div>
                     </div>
@@ -332,18 +425,19 @@
             <div class="sts-wrap">
                 <div class="sts-csr-inner">
                     <div class="reveal-left">
-                        <p class="sts-csr-num">1%</p>
+                        <img src="assets/Logos/CSR Logo.png" alt="Samley CSR" class="sts-csr-logo">
                     </div>
                     <div class="reveal-right" data-delay="120">
-                        <span class="sts-csr-label">Our CSR Pledge</span>
+                        <span class="sts-csr-label">The Samley Loyalty Pledge — CSR Commitment</span>
                         <h2 class="sts-csr-heading">One Percent of Every Sale,<br>Reinvested in the World We Share.</h2>
-                        <p class="sts-csr-text">Samley Teas pledges 1% of annual sales revenue to community development, environmental restoration, and worker welfare programmes across our sourcing regions in Sri Lanka. This isn't a campaign. It's a standing commitment — written into how we operate, not just how we communicate.</p>
+                        <p class="sts-csr-text">1% of sales revenue generated from each Samley product sold is allocated to a dedicated CSR Fund managed by appointed trustees. This fund is exclusively committed to supporting the education of children from tea plantation worker families, assisting differently-abled fellow Sri Lankans, and creating access to resources that enable dignity and independence.</p>
+                        <p class="sts-csr-text" style="margin-top:16px;font-style:italic;opacity:0.8;">We believe commercial success must translate into measurable social impact. Every cup contributes to a greater cause.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ── VALUES — Ethics, Mastery, Environment ─────────── -->
+        <!-- ── CORE VALUES ────────────────────────────────────── -->
         <section class="sts-values">
             <div class="sts-wrap">
                 <div class="sts-values-header reveal">
@@ -354,17 +448,50 @@
                     <div class="sts-val-card reveal-scale" data-delay="0">
                         <div class="sts-val-icon"><i class="bi bi-patch-check-fill"></i></div>
                         <p class="sts-val-title">Ethics &amp; Compliance</p>
-                        <p class="sts-val-text">We operate with full transparency across our supply chain. From fair labour standards on the estate to honest labelling on the shelf, ethics is not a policy — it's a practice. We maintain independent audits, worker grievance channels, and zero tolerance for exploitation at any tier of our business.</p>
+                        <p class="sts-val-text">Samley is committed to responsible corporate stewardship. We prioritize full legal compliance across export markets, food safety and hygiene protocols, occupational health &amp; safety, anti-bribery and anti-corruption practices, and transparent commercial conduct. Our governance philosophy is simple: <em>Integrity is non-negotiable.</em></p>
                     </div>
                     <div class="sts-val-card reveal-scale" data-delay="120">
                         <div class="sts-val-icon"><i class="bi bi-stars"></i></div>
-                        <p class="sts-val-title">Mastery</p>
-                        <p class="sts-val-text">Ceylon Tea is one of the world's most complex agricultural products. We respect that complexity. Our team includes certified tea tasters, experienced blenders, and quality specialists who obsess over every detail — from moisture content at intake to infusion clarity in the final brew. We chase mastery, not shortcuts.</p>
+                        <p class="sts-val-title">Profound Mastery</p>
+                        <p class="sts-val-text">Ceylon Tea is one of the world's most complex agricultural products. We respect that complexity. Our team of certified tea tasters and experienced blenders meticulously evaluates every batch — from moisture content at intake to infusion clarity in the final brew. A dedicated pursuit of excellence, not shortcuts. <em>Consistency is our promise. Quality is our discipline.</em></p>
                     </div>
                     <div class="sts-val-card reveal-scale" data-delay="240">
                         <div class="sts-val-icon"><i class="bi bi-tree"></i></div>
-                        <p class="sts-val-title">Environment</p>
-                        <p class="sts-val-text">The highlands that produce Ceylon Tea are among Sri Lanka's most ecologically sensitive landscapes. We work with estates that practice shade-grown cultivation, water-smart irrigation, and soil-regenerative farming. Our packaging transition to biodegradable materials is ongoing — and our carbon footprint reduction targets are on the record.</p>
+                        <p class="sts-val-title">Environmental Stewardship</p>
+                        <p class="sts-val-text">We recognize that preserving Sri Lanka's natural ecosystems directly sustains the integrity of Ceylon Tea. We are carbon verified, have implemented on-site solar installations, and have committed to achieving Net Zero Carbon by 2040. We continuously enhance waste minimisation, packaging efficiency, and responsible material sourcing across all operations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── ENVIRONMENTAL RESPONSIBILITY ─────────────────── -->
+        <section class="sts-env">
+            <div class="sts-wrap">
+                <div class="sts-env-header reveal">
+                    <span class="sts-section-eyebrow">Environmental Responsibility</span>
+                    <h2 class="sts-env-heading">Committed to a<br><em>Sustainable Future.</em></h2>
+                    <p class="sts-env-sub">Samley is carbon verified, with documented assessment and verification of our operational emissions profile. This provides a credible baseline from which we are actively reducing our footprint — with a formal commitment to Net Zero by 2040.</p>
+                </div>
+                <div class="sts-env-grid">
+                    <div class="sts-env-card reveal-scale" data-delay="0">
+                        <div class="sts-env-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h5 class="sts-env-title">Carbon Verified Operations</h5>
+                        <p class="sts-env-text">Documented assessment and independent verification of our full operational emissions profile — a credible baseline for continuous improvement.</p>
+                    </div>
+                    <div class="sts-env-card reveal-scale" data-delay="90">
+                        <div class="sts-env-icon"><i class="bi bi-sun"></i></div>
+                        <h5 class="sts-env-title">Renewable Energy Integration</h5>
+                        <p class="sts-env-text">On-site solar panel installations, reduced reliance on conventional grid energy, and continuous energy efficiency improvements across all production facilities.</p>
+                    </div>
+                    <div class="sts-env-card reveal-scale" data-delay="180">
+                        <div class="sts-env-icon"><i class="bi bi-recycle"></i></div>
+                        <h5 class="sts-env-title">Resource Optimisation</h5>
+                        <p class="sts-env-text">We continuously enhance waste minimisation, packaging efficiency, responsible material sourcing, and productivity through cleaner technologies across our operations.</p>
+                    </div>
+                    <div class="sts-env-card reveal-scale" data-delay="270">
+                        <div class="sts-env-icon"><i class="bi bi-arrow-up-circle"></i></div>
+                        <h5 class="sts-env-title">Net Zero 2040 Commitment</h5>
+                        <p class="sts-env-text">Samley has formally committed to achieving Net Zero Carbon by 2040, supported by measurable milestones, structured monitoring, and progressive emissions reduction strategies.</p>
                     </div>
                 </div>
             </div>
@@ -377,51 +504,65 @@
         <div class="sts-wrap">
             <div class="sts-certs-inner">
                 <div class="sts-certs-left">
-                    <span class="sts-section-eyebrow" style="color:rgba(0,174,156,0.9);">Quality You Can Trust</span>
+                    <span class="sts-section-eyebrow" style="color:rgba(0,174,156,0.9);">Corporate Governance, Ethics &amp; Compliance</span>
                     <h2 class="sts-certs-heading">Internationally<br><em>Certified.</em></h2>
-                    <p class="sts-certs-sub">Every standard we hold is a promise we've made — to our partners, our consumers, and the planet. These certifications are not checkboxes; they are commitments we renew every single year.</p>
+                    <p class="sts-certs-sub">Every certification we hold is a commitment renewed each year — to our partners, our consumers, and the planet. We uphold fairness, traceability, and documentation integrity in every transaction.</p>
                 </div>
                 <div class="sts-certs-grid">
                     <div class="sts-cert-card">
-                        <div class="sts-cert-icon"><i class="bi bi-award-fill"></i></div>
+                        <div class="sts-cert-icon"><i class="bi bi-patch-check-fill"></i></div>
                         <div>
-                            <p class="sts-cert-name">Sri Lanka Tea Board</p>
-                            <p class="sts-cert-body">Lion Logo — Government-guaranteed authenticity of pure Ceylon Tea origin.</p>
+                            <p class="sts-cert-name">FSSC 22000</p>
+                            <p class="sts-cert-body">Food Safety System Certification — globally recognised benchmark for food manufacturers and exporters.</p>
                         </div>
                     </div>
                     <div class="sts-cert-card">
                         <div class="sts-cert-icon"><i class="bi bi-shield-fill-check"></i></div>
                         <div>
-                            <p class="sts-cert-name">ISO 22000</p>
-                            <p class="sts-cert-body">Food Safety Management System certified across all production processes.</p>
+                            <p class="sts-cert-name">FDA</p>
+                            <p class="sts-cert-body">U.S. Food &amp; Drug Administration registered — meeting American food safety and import standards.</p>
                         </div>
                     </div>
                     <div class="sts-cert-card">
                         <div class="sts-cert-icon"><i class="bi bi-clipboard2-pulse-fill"></i></div>
                         <div>
-                            <p class="sts-cert-name">HACCP</p>
-                            <p class="sts-cert-body">Hazard Analysis Critical Control Points — proactive food safety at every step.</p>
+                            <p class="sts-cert-name">Good Manufacturing Practice (GMP)</p>
+                            <p class="sts-cert-body">Verified adherence to GMP standards across all production, packaging, and storage operations.</p>
                         </div>
                     </div>
                     <div class="sts-cert-card">
-                        <div class="sts-cert-icon"><i class="bi bi-tree-fill"></i></div>
+                        <div class="sts-cert-icon"><i class="bi bi-award-fill"></i></div>
                         <div>
-                            <p class="sts-cert-name">Rainforest Alliance</p>
-                            <p class="sts-cert-body">Sustainably sourced from estates meeting rigorous environmental and social standards.</p>
+                            <p class="sts-cert-name">Fairtrade International</p>
+                            <p class="sts-cert-body">Certified Fairtrade — ensuring fair wages, safe conditions, and community investment across our supply chain.</p>
+                        </div>
+                    </div>
+                    <div class="sts-cert-card">
+                        <div class="sts-cert-icon"><i class="bi bi-people-fill"></i></div>
+                        <div>
+                            <p class="sts-cert-name">SEDEX / SMETA</p>
+                            <p class="sts-cert-body">Supplier Ethical Data Exchange — independently audited for labour standards, health &amp; safety, and business ethics.</p>
                         </div>
                     </div>
                     <div class="sts-cert-card">
                         <div class="sts-cert-icon"><i class="bi bi-flower2"></i></div>
                         <div>
-                            <p class="sts-cert-name">Organic Certified</p>
-                            <p class="sts-cert-body">EU &amp; USDA Organic compliant — cultivated without synthetic pesticides or fertilisers.</p>
+                            <p class="sts-cert-name">USDA &amp; EU Organic</p>
+                            <p class="sts-cert-body">Dual organic certification — cultivated without synthetic pesticides or fertilisers, meeting the world's most rigorous organic standards.</p>
                         </div>
                     </div>
                     <div class="sts-cert-card">
-                        <div class="sts-cert-icon"><i class="bi bi-patch-check-fill"></i></div>
+                        <div class="sts-cert-icon"><i class="bi bi-tree-fill"></i></div>
                         <div>
-                            <p class="sts-cert-name">FSSC 22000</p>
-                            <p class="sts-cert-body">Food Safety System Certification — globally recognised benchmark for food manufacturers.</p>
+                            <p class="sts-cert-name">Carbon Verified</p>
+                            <p class="sts-cert-body">Independently verified carbon emissions profile — part of our formal commitment to Net Zero by 2040.</p>
+                        </div>
+                    </div>
+                    <div class="sts-cert-card">
+                        <div class="sts-cert-icon"><i class="bi bi-award-fill"></i></div>
+                        <div>
+                            <p class="sts-cert-name">Sri Lanka Tea Board — Lion Logo</p>
+                            <p class="sts-cert-body">Government-guaranteed authenticity of pure Ceylon Tea origin. Only 100% Pure Ceylon Tea packed in Sri Lanka may bear this mark.</p>
                         </div>
                     </div>
                 </div>
@@ -429,19 +570,29 @@
         </div>
     </section>
 
-
     <!-- INSTAGRAM FEED -->
     <section id="instagram-section"></section>
 
     <!-- FOOTER -->
     <footer id="footer"></footer>
 
-    <!------------------------------------------------------------->
-    <!-------------------------- Script --------------------------->
-    <!------------------------------------------------------------->
     <script src="./assets/js/include.js"></script>
     <script src="./assets/js/story.js"></script>
     <script src="./assets/js/smooth-scroll.js"></script>
+    <script>
+        (function () {
+            var btn  = document.getElementById('storyFilmSound');
+            var icon = document.getElementById('storyFilmSoundIcon');
+            var vid  = document.getElementById('storyFilmVideo');
+            if (!btn || !vid) return;
+            btn.addEventListener('click', function () {
+                vid.muted = !vid.muted;
+                icon.className = vid.muted
+                    ? 'bi bi-volume-mute-fill'
+                    : 'bi bi-volume-up-fill';
+            });
+        })();
+    </script>
 
 </body>
 

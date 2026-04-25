@@ -122,11 +122,12 @@ async function updateCategoryTitle(categorySlug, mainSlug) {
         categories.forEach(main => {
             main.subCategories.forEach(sub => {
                 if (sub.slug === categorySlug) {
-                    document.getElementById("category-title").textContent =
-                        sub.pagetitle;
-
+                    document.getElementById("category-title").innerHTML =
+                        splitTitle(sub.pagetitle);
                     document.getElementById("category-description").textContent =
-                        sub.description;
+                        sub.description !== "space" ? sub.description : "";
+                    const eyebrow = document.getElementById("col-eyebrow");
+                    if (eyebrow) eyebrow.textContent = main.title;
                 }
             });
         });
@@ -137,13 +138,22 @@ async function updateCategoryTitle(categorySlug, mainSlug) {
     if (mainSlug) {
         const main = categories.find(m => m.slug === mainSlug);
         if (main) {
-            document.getElementById("category-title").textContent =
-                main.Pagetitle || main.title;
-
+            document.getElementById("category-title").innerHTML =
+                splitTitle(main.Pagetitle || main.title);
             document.getElementById("category-description").textContent =
                 main.description || "";
+            const eyebrow = document.getElementById("col-eyebrow");
+            if (eyebrow) eyebrow.textContent = "Our Collections";
         }
     }
+}
+
+function splitTitle(title) {
+    const words = title.trim().split(" ");
+    if (words.length <= 1) return `<em>${title}.</em>`;
+    const main = words.slice(0, -1).join(" ");
+    const last = words[words.length - 1];
+    return `${main} <em>${last}.</em>`;
 }
 
 /* --------------------------------------------------
@@ -255,9 +265,8 @@ function renderProducts(products) {
             </div>
 
             <div class="product-btn-div">
-                <a class="btn-03 product-btn"
-                   href="/product/${product.slug}/">
-                    View Product
+                <a class="product-btn" href="/product/${product.slug}/">
+                    View product <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
         `;
